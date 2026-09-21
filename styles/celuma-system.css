@@ -1,0 +1,207 @@
+/* =========================================================
+   Céluma — Brand system extensions
+   Shared atoms used across stationery, editorial,
+   operational and digital artifacts.
+   ========================================================= */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+/* ---------- Shared atoms ---------- */
+.cel-eyebrow {
+  font-family: var(--celuma-font-body);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--celuma-primary);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.cel-eyebrow::before {
+  content: '';
+  width: 24px;
+  height: 2px;
+  background: currentColor;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.cel-eyebrow.on-dark { color: #7dd8d9; }
+.cel-eyebrow.muted { color: var(--celuma-fg-3); }
+.cel-eyebrow.bare::before { display: none; }
+.cel-eyebrow.bare { gap: 0; }
+
+.cel-rule {
+  height: 1px; background: var(--celuma-border); border: 0; margin: 0;
+}
+.cel-rule.teal { background: var(--celuma-primary); height: 2px; }
+.cel-rule.thin { background: var(--celuma-border-soft); }
+
+.cel-pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 4px 12px;
+  border-radius: var(--celuma-radius-pill);
+  font-family: var(--celuma-font-body);
+  font-size: 11px; font-weight: 600;
+  background: var(--celuma-primary-soft);
+  color: var(--celuma-primary);
+  letter-spacing: 0.02em;
+}
+.cel-pill.solid { background: var(--celuma-primary); color: #fff; }
+.cel-pill.ghost { background: transparent; color: var(--celuma-primary); border: 1px solid currentColor; }
+.cel-pill.on-dark { background: rgba(15,139,141,0.20); color: #7dd8d9; }
+.cel-pill.amber { background: var(--celuma-amber-bg); color: var(--celuma-amber); }
+.cel-pill.green { background: var(--celuma-green-bg); color: var(--celuma-green); }
+.cel-pill.violet { background: var(--celuma-violet-bg); color: var(--celuma-violet); }
+.cel-pill.blue { background: var(--celuma-blue-bg); color: var(--celuma-blue); }
+.cel-pill.pink { background: var(--celuma-pill-pink, var(--celuma-pink-bg)); color: var(--celuma-pink); }
+
+/* ---------- Logo lockup ---------- */
+.cel-mark {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-family: var(--celuma-font-display);
+  font-weight: 800;
+  color: var(--celuma-ink);
+  letter-spacing: -0.02em;
+}
+.cel-mark.on-dark { color: #fff; }
+.cel-mark .iso {
+  display: inline-block; flex: 0 0 auto;
+  background: url("../assets/celuma-isotipo.png") center/contain no-repeat;
+}
+.cel-mark .word { line-height: 1; display: inline-flex; align-items: baseline; gap: 0; }
+.cel-mark .word .accent { color: inherit; }
+.cel-mark.on-dark .accent { color: inherit; }
+.cel-mark .word .sub { display: none; }
+.cel-mark.on-dark .sub { display: none; }
+
+/* Sizes */
+.cel-mark.s { font-size: 18px; gap: 8px; }
+.cel-mark.s .iso { width: 22px; height: 22px; }
+.cel-mark.m { font-size: 24px; gap: 10px; }
+.cel-mark.m .iso { width: 30px; height: 30px; }
+.cel-mark.l { font-size: 34px; gap: 14px; }
+.cel-mark.l .iso { width: 42px; height: 42px; }
+.cel-mark.xl { font-size: 56px; gap: 18px; }
+.cel-mark.xl .iso { width: 64px; height: 64px; }
+
+/* Stacked lockup */
+.cel-mark.stacked { flex-direction: column; align-items: flex-start; gap: 6px; }
+
+/* ---------- Backgrounds / Patterns ---------- */
+.cel-bg-cream { background: var(--celuma-bg); }
+.cel-bg-white { background: #fff; }
+.cel-bg-ink { background: var(--celuma-ink); color: #fff; }
+.cel-bg-ink-deep { background: var(--celuma-ink-3); color: #fff; }
+.cel-bg-soft  { background: var(--celuma-primary-soft); }
+
+/* Radial blob — corner atmosphere */
+.cel-blob {
+  position: absolute; pointer-events: none;
+  width: 480px; height: 480px;
+  background: radial-gradient(circle at center,
+    rgba(15,139,141,0.18) 0%,
+    rgba(15,139,141,0.08) 35%,
+    rgba(15,139,141,0.00) 65%);
+}
+.cel-blob.lg { width: 720px; height: 720px; }
+.cel-blob.sm { width: 320px; height: 320px; }
+.cel-blob.on-dark {
+  background: radial-gradient(circle at center,
+    rgba(73,182,173,0.32) 0%,
+    rgba(73,182,173,0.10) 40%,
+    rgba(73,182,173,0.00) 70%);
+}
+.cel-blob.warm {
+  background: radial-gradient(circle at center,
+    rgba(229,138,138,0.18) 0%,
+    rgba(229,138,138,0.06) 40%,
+    rgba(229,138,138,0.00) 70%);
+}
+
+/* Pattern A — dotted grid (microscope feel) */
+.cel-pat-dots {
+  background-image: radial-gradient(rgba(15,139,141,0.18) 1.2px, transparent 1.4px);
+  background-size: 14px 14px;
+}
+.cel-pat-dots.dense { background-size: 10px 10px; }
+
+/* Pattern B — hatched diagonal stripes */
+.cel-pat-hatch {
+  background-image: repeating-linear-gradient(135deg,
+    rgba(15,139,141,0.08) 0 1px,
+    transparent 1px 8px);
+}
+
+/* Pattern C — soft horizontal lines (paper grain) */
+.cel-pat-lines {
+  background-image: repeating-linear-gradient(180deg,
+    transparent 0 23px,
+    rgba(15,139,141,0.06) 23px 24px);
+}
+
+/* Pattern D — cell field (clusters of circles) — applied via SVG */
+
+/* ---------- Card primitive ---------- */
+.cel-card {
+  background: var(--celuma-surface);
+  border-radius: var(--celuma-radius-lg);
+  box-shadow: var(--celuma-shadow-card);
+  padding: var(--celuma-space-6);
+}
+.cel-card.soft { box-shadow: var(--celuma-shadow-soft); }
+.cel-card.flat { box-shadow: none; border: 1px solid var(--celuma-border); }
+
+/* Tinted accent block — single use treatment from system */
+.cel-accent-block {
+  background: var(--celuma-primary-soft);
+  border-radius: var(--celuma-radius-lg);
+  border-left: 4px solid var(--celuma-primary);
+  padding: 16px 20px;
+}
+
+/* ---------- Display helpers ---------- */
+.cel-num {
+  font-family: var(--celuma-font-display);
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1;
+  color: var(--celuma-ink);
+  letter-spacing: -0.03em;
+}
+.cel-num.teal { color: var(--celuma-primary); }
+.cel-num.on-dark { color: #fff; }
+
+.cel-mono {
+  font-family: var(--celuma-font-mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--celuma-fg-3);
+}
+
+/* ---------- Print artifacts (artboards) ---------- */
+.cel-sheet {
+  position: relative; overflow: hidden;
+  background: #fff;
+  box-shadow: 0 1px 0 rgba(0,0,0,.06), 0 8px 24px rgba(0,0,0,.06);
+  font-family: var(--celuma-font-body);
+  color: var(--celuma-ink);
+}
+.cel-sheet.cream { background: var(--celuma-bg); }
+.cel-sheet.ink { background: var(--celuma-ink); color: #fff; }
+
+/* Watermark cell (large faded isotipo) */
+.cel-watermark {
+  position: absolute; pointer-events: none;
+  background: url("../assets/celuma-isotipo.png") center/contain no-repeat;
+  opacity: 0.06;
+}
+
+/* ---------- Helper: SVG cell field placement --------- */
+.cel-cellfield { position: absolute; pointer-events: none; }
+
+/* ---------- Typography micro-helpers --------- */
+.t-display { font-family: var(--celuma-font-display); font-weight: 800; letter-spacing: -0.02em; color: var(--celuma-ink); }
+.t-body { font-family: var(--celuma-font-body); color: var(--celuma-fg-2); line-height: 1.55; }
+.t-meta { font-family: var(--celuma-font-body); color: var(--celuma-fg-3); font-size: 11px; }
+.t-num  { font-family: var(--celuma-font-mono); }

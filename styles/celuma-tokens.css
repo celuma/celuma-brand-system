@@ -1,0 +1,232 @@
+/* =========================================================
+   Céluma — Colors & Type
+   ---------------------------------------------------------
+   The Céluma brand pairs a calm, cream paper background with
+   a confident teal. Headings use Baloo 2 (warm, rounded);
+   body uses the system stack for crisp medical legibility.
+   Source: celuma/celuma-landing (src/index.css), celuma/
+   celuma-frontend (src/components/design/tokens.ts).
+   ========================================================= */
+
+/* Webfont — Baloo 2 (Google Fonts).
+   Fallback locally if the network is unavailable.        */
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap");
+
+:root {
+  /* ---------- Brand colors ---------- */
+  --celuma-primary:        #0f8b8d;   /* deep teal — primary CTAs, links, headings accent */
+  --celuma-primary-hover:  #0c6f71;
+  --celuma-primary-active: #0a5557;
+  --celuma-primary-dark:   #0a6e70;   /* used by landing for hover */
+  --celuma-primary-soft:   #e6f7f7;   /* feature card backgrounds, badges */
+  --celuma-primary-mint:   #49b6ad;   /* sidebar fill — softer teal */
+
+  /* ---------- Surfaces ---------- */
+  --celuma-bg:             #fbf6ec;   /* page background — warm cream paper */
+  --celuma-surface:        #ffffff;   /* cards, sheets, modals */
+  --celuma-surface-2:      #f9fafb;   /* hover surface */
+  --celuma-ink:            #0d1b2a;   /* navy ink — primary text */
+  --celuma-ink-2:          #1a2e42;   /* footer band */
+  --celuma-ink-3:          #0a1520;   /* deepest navy */
+
+  /* ---------- Text ---------- */
+  --celuma-fg-1:           #0d1b2a;   /* headings, body emphasis */
+  --celuma-fg-2:           #374151;   /* body */
+  --celuma-fg-3:           #6b7280;   /* secondary, captions */
+  --celuma-fg-4:           #94a3b8;   /* placeholder, dim icons */
+  --celuma-fg-5:           #9ca3af;   /* timestamps */
+  --celuma-on-primary:     #ffffff;
+  --celuma-on-dark-1:      rgba(255,255,255,0.85);
+  --celuma-on-dark-2:      rgba(255,255,255,0.65);
+  --celuma-on-dark-3:      rgba(255,255,255,0.45);
+  --celuma-on-dark-4:      rgba(255,255,255,0.3);
+
+  /* ---------- Border / divider ---------- */
+  --celuma-border:         #e5e7eb;
+  --celuma-border-soft:    #f0f0f0;
+  --celuma-divider:        #f3f4f6;
+
+  /* ---------- Semantic — statuses ---------- */
+  --celuma-blue:           #3b82f6;   --celuma-blue-bg:   #eff6ff;   /* Received / info */
+  --celuma-amber:          #f59e0b;   --celuma-amber-bg:  #fffbeb;   /* Processing / pending / draft */
+  --celuma-violet:         #8b5cf6;   --celuma-violet-bg: #f5f3ff;   /* Diagnosis / patient */
+  --celuma-pink:           #ec4899;   --celuma-pink-bg:   #fdf2f8;   /* Review */
+  --celuma-green:          #10b981;   --celuma-green-bg:  #ecfdf5;   /* Released / approved */
+  --celuma-emerald:        #22c55e;   --celuma-emerald-bg:#f0fdf4;   /* Published */
+  --celuma-red:            #ef4444;   --celuma-red-bg:    #fef2f2;   /* Cancelled / failed */
+  --celuma-red-strong:     #b91c1c;                                  /* Form errors */
+  --celuma-red-strong-2:   #a8071a;
+  --celuma-cyan:           #06b6d4;   --celuma-cyan-bg:   #ecfeff;
+  --celuma-lime:           #84cc16;   --celuma-lime-bg:   #f7fee7;
+  --celuma-indigo:         #6366f1;   --celuma-indigo-bg: #eef2ff;
+  --celuma-purple:         #a855f7;   --celuma-purple-bg: #faf5ff;
+  --celuma-orange:         #f97316;   --celuma-orange-bg: #fff7ed;
+  --celuma-teal:           #14b8a6;   --celuma-teal-bg:   #f0fdfa;
+  --celuma-gray:           #6b7280;   --celuma-gray-bg:   #f3f4f6;
+
+  /* Brand-illustration accents (from the isotipo) */
+  --celuma-iso-outline:    #2fa7a5;   /* the teal ring around the cell */
+  --celuma-iso-fill:       #c8ecdc;   /* the cytoplasm mint */
+  --celuma-iso-nucleus:    #e58a8a;   /* the rosy nucleus */
+  --celuma-iso-rays:       #f0c75e;   /* the yellow light rays */
+
+  /* ---------- Spacing ---------- */
+  --celuma-space-1: 4px;
+  --celuma-space-2: 8px;
+  --celuma-space-3: 12px;     /* tokens.gap */
+  --celuma-space-4: 16px;
+  --celuma-space-5: 20px;
+  --celuma-space-6: 24px;     /* tokens.contentPadding / cardPadding */
+  --celuma-space-7: 28px;
+  --celuma-space-8: 32px;
+  --celuma-space-10: 40px;
+  --celuma-space-12: 48px;
+  --celuma-space-16: 64px;
+  --celuma-space-20: 80px;
+  --celuma-space-25: 100px;   /* landing section padding */
+
+  /* ---------- Radii ---------- */
+  --celuma-radius-sm:   6px;
+  --celuma-radius:      10px;
+  --celuma-radius-md:   12px;  /* buttons, inputs */
+  --celuma-radius-lg:   14px;  /* tokens.radius — cards */
+  --celuma-radius-xl:   16px;  /* feature cards */
+  --celuma-radius-2xl:  20px;  /* hero cards, role cards */
+  --celuma-radius-pill: 100px; /* badges */
+  --celuma-radius-full: 999px; /* CTA button */
+
+  /* ---------- Shadows ---------- */
+  --celuma-shadow-card:  0 10px 20px rgba(0,0,0,.08), 0 6px 6px rgba(0,0,0,.06);   /* tokens.shadow */
+  --celuma-shadow-soft:  0 4px 24px rgba(0,0,0,0.06);                              /* step cards */
+  --celuma-shadow-lift:  0 12px 40px rgba(0,0,0,0.10);                             /* hover */
+  --celuma-shadow-deep:  0 16px 48px rgba(0,0,0,0.12);
+  --celuma-shadow-hero:  0 20px 60px rgba(0,0,0,0.12), 0 8px 20px rgba(0,0,0,0.06);
+  --celuma-shadow-float: 0 8px 30px rgba(0,0,0,0.12);                              /* floating chips */
+  --celuma-shadow-cta:   0 8px 32px rgba(15,139,141,0.45);                         /* dark-bg primary CTA */
+  --celuma-shadow-cta-sm:0 4px 16px rgba(15,139,141,0.35);                         /* light-bg CTA */
+  --celuma-shadow-nav:   0 1px 12px rgba(0,0,0,0.08);                              /* scrolled navbar */
+  --celuma-shadow-input: 0 0 0 3px rgba(15,139,141,.18);                           /* focus ring */
+
+  /* ---------- Type ---------- */
+  --celuma-font-display: "Baloo 2", system-ui, sans-serif;
+  --celuma-font-body:    system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --celuma-font-mono:    ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+
+  /* Weights */
+  --celuma-weight-regular: 400;
+  --celuma-weight-medium:  500;
+  --celuma-weight-semi:    600;
+  --celuma-weight-bold:    700;
+  --celuma-weight-black:   800;   /* display headings */
+
+  /* Letter spacing */
+  --celuma-tracking-tight: -0.02em;   /* display */
+  --celuma-tracking-loose:  0.04em;   /* uppercase eyebrows */
+  --celuma-tracking-eyebrow: 0.08em;  /* section eyebrows */
+}
+
+/* =========================================================
+   Semantic typography
+   ========================================================= */
+
+.celuma-eyebrow {
+  font-family: var(--celuma-font-body);
+  font-size: 13px;
+  font-weight: var(--celuma-weight-semi);
+  color: var(--celuma-primary);
+  letter-spacing: var(--celuma-tracking-eyebrow);
+  text-transform: uppercase;
+}
+
+.celuma-h1 {
+  font-family: var(--celuma-font-display);
+  font-size: clamp(36px, 5vw, 58px);
+  font-weight: var(--celuma-weight-black);
+  color: var(--celuma-ink);
+  letter-spacing: var(--celuma-tracking-tight);
+  line-height: 1.1;
+  margin: 0;
+}
+
+.celuma-h2 {
+  font-family: var(--celuma-font-display);
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: var(--celuma-weight-black);
+  color: var(--celuma-ink);
+  letter-spacing: var(--celuma-tracking-tight);
+  line-height: 1.15;
+  margin: 0;
+}
+
+.celuma-h3 {
+  font-family: var(--celuma-font-display);
+  font-size: 20px;
+  font-weight: var(--celuma-weight-bold);
+  color: var(--celuma-ink);
+  margin: 0;
+}
+
+.celuma-h4 {
+  font-family: var(--celuma-font-display);
+  font-size: 18px;
+  font-weight: var(--celuma-weight-bold);
+  color: var(--celuma-ink);
+  margin: 0;
+}
+
+/* App "page title" — used at the top of dashboard surfaces */
+.celuma-page-title {
+  font-family: var(--celuma-font-display);
+  font-size: 24px;
+  font-weight: var(--celuma-weight-black);
+  color: var(--celuma-ink);
+  margin: 0;
+}
+
+.celuma-subtitle {
+  font-family: var(--celuma-font-body);
+  font-size: 14px;
+  color: var(--celuma-fg-3);
+  margin: 8px 0 0 0;
+  line-height: 1.6;
+}
+
+.celuma-lead {
+  font-family: var(--celuma-font-body);
+  font-size: 18px;
+  color: var(--celuma-fg-3);
+  line-height: 1.7;
+}
+
+.celuma-body {
+  font-family: var(--celuma-font-body);
+  font-size: 15px;
+  color: var(--celuma-fg-3);
+  line-height: 1.7;
+}
+
+.celuma-caption {
+  font-family: var(--celuma-font-body);
+  font-size: 12px;
+  color: var(--celuma-fg-3);
+}
+
+.celuma-code {
+  font-family: var(--celuma-font-mono);
+  font-size: 13px;
+  background: var(--celuma-gray-bg);
+  color: var(--celuma-ink);
+  padding: 2px 6px;
+  border-radius: var(--celuma-radius-sm);
+}
+
+/* Base resets the landing site applies */
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: var(--celuma-font-body);
+  background-color: var(--celuma-bg);
+  color: var(--celuma-ink);
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4 { font-family: var(--celuma-font-display); }
