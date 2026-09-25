@@ -41,7 +41,7 @@ function PatternDots() {
   return (
     <PatternTile label="03 · Grano de papel" sub="Microtramado · fondos institucionales">
       <div style={{ position: 'absolute', inset: 0, background: 'var(--celuma-surface)' }} />
-      <CelDots size={14} color="rgba(15,139,141,0.18)" style={{ position: 'absolute', inset: 0 }} />
+      <CelDots size={14} color="rgba(73,182,173,0.18)" style={{ position: 'absolute', inset: 0 }} />
     </PatternTile>
   );
 }
@@ -95,9 +95,9 @@ function IllustCellGroup() {
         <circle cx="220" cy="160" r="32" fill="#e58a8a" opacity="0.9" />
         <circle cx="228" cy="156" r="9" fill="#9b3535" />
         {/* small companion cells */}
-        <circle cx="74" cy="110" r="32" fill="none" stroke="#0f8b8d" strokeWidth="2" opacity="0.7" />
+        <circle cx="74" cy="110" r="32" fill="none" stroke="#49b6ad" strokeWidth="2" opacity="0.7" />
         <circle cx="74" cy="110" r="14" fill="#e6f7f7" />
-        <circle cx="340" cy="240" r="40" fill="none" stroke="#0f8b8d" strokeWidth="2" opacity="0.5" />
+        <circle cx="340" cy="240" r="40" fill="none" stroke="#49b6ad" strokeWidth="2" opacity="0.5" />
         <circle cx="340" cy="240" r="18" fill="#c8ecdc" />
         <circle cx="346" cy="236" r="6" fill="#e58a8a" />
         <circle cx="90" cy="250" r="22" fill="none" stroke="#49b6ad" strokeWidth="2" opacity="0.6" />
@@ -118,7 +118,7 @@ function IllustNetwork() {
       <CelBlob size={300} x={250} y={150} color="teal" opacity={0.7} />
       <svg viewBox="0 0 420 320" width="100%" height="100%" style={{ position: 'absolute', inset: 0 }}>
         {/* Connections */}
-        <g stroke="rgba(15,139,141,0.30)" strokeWidth="1.4" fill="none">
+        <g stroke="rgba(73,182,173,0.30)" strokeWidth="1.4" fill="none">
           <path d="M 80 90 L 200 60 L 320 110" />
           <path d="M 80 90 L 140 200" />
           <path d="M 200 60 L 220 180" />
@@ -130,8 +130,8 @@ function IllustNetwork() {
         </g>
         {/* Nodes */}
         {[
-          [80, 90, 14, '#0f8b8d'], [200, 60, 18, '#0f8b8d'], [320, 110, 14, '#49b6ad'],
-          [140, 200, 22, '#0f8b8d'], [220, 180, 28, '#0f8b8d'], [280, 230, 16, '#49b6ad'],
+          [80, 90, 14, '#49b6ad'], [200, 60, 18, '#49b6ad'], [320, 110, 14, '#49b6ad'],
+          [140, 200, 22, '#49b6ad'], [220, 180, 28, '#49b6ad'], [280, 230, 16, '#49b6ad'],
           [90, 260, 12, '#49b6ad'],
         ].map(([x, y, r, c], i) => (
           <g key={i}>
@@ -178,16 +178,16 @@ function HeroComposition() {
           <div className="cel-eyebrow">Ilumina y digitaliza</div>
           <div className="t-display" style={{ fontSize: 56, lineHeight: 0.96, marginTop: 14 }}>
             La patología<br/>en tiempo real,<br/>
-            <span style={{ color: 'var(--celuma-primary)' }}>de extremo a extremo.</span>
+            <span style={{ color: 'var(--celuma-primary-ink)' }}>de extremo a extremo.</span>
           </div>
           <div style={{ marginTop: 18, fontSize: 14, color: 'var(--celuma-fg-3)', lineHeight: 1.65, maxWidth: 380 }}>
             Céluma simplifica cada proceso: desde el registro del caso hasta la firma del informe, sin perder una sola muestra entre estaciones.
           </div>
           <div style={{ marginTop: 24, display: 'flex', gap: 12 }}>
-            <button style={{ background: 'var(--celuma-primary)', color: '#fff', border: 0, padding: '14px 24px', borderRadius: 12, fontSize: 14, fontWeight: 700, cursor: 'pointer', boxShadow: 'var(--celuma-shadow-cta-sm)', display: 'inline-flex', alignItems: 'center', gap: 8 }}>
-              Empezar hoy <CelIcon name="arrow-right" size={14} color="#fff" />
+            <button style={{ background: 'var(--celuma-primary)', color: 'var(--celuma-on-primary)', border: 0, padding: '14px 24px', borderRadius: 12, fontSize: 14, fontWeight: 700, cursor: 'pointer', boxShadow: 'var(--celuma-shadow-cta-sm)', display: 'inline-flex', alignItems: 'center', gap: 8 }}>
+              Empezar hoy <CelIcon name="arrow-right" size={14} color="var(--celuma-on-primary)" />
             </button>
-            <button style={{ background: 'transparent', color: 'var(--celuma-primary)', border: '2px solid var(--celuma-primary)', padding: '12px 22px', borderRadius: 12, fontSize: 14, fontWeight: 700, cursor: 'pointer' }}>
+            <button style={{ background: 'transparent', color: 'var(--celuma-primary-ink)', border: '2px solid var(--celuma-primary)', padding: '12px 22px', borderRadius: 12, fontSize: 14, fontWeight: 700, cursor: 'pointer' }}>
               Ver funcionalidades
             </button>
           </div>
@@ -203,7 +203,7 @@ function HeroComposition() {
             <div className="t-display" style={{ fontSize: 16, marginTop: 12 }}>R. Martínez · 56 a · F</div>
             <div style={{ fontSize: 10, color: 'var(--celuma-fg-3)', marginTop: 2 }}>Biopsia GI · Sigmoides</div>
             <div style={{ marginTop: 12, height: 90, background: 'var(--celuma-primary-soft)', borderRadius: 12, position: 'relative', overflow: 'hidden' }}>
-              <CelCellField width={280} height={90} density={14} seed={5} opacity={0.72} palette={['#c8ecdc','#0f8b8d','#e58a8a','#e6f7f7','#49b6ad']} />
+              <CelCellField width={280} height={90} density={14} seed={5} opacity={0.72} palette={['#c8ecdc','#49b6ad','#e58a8a','#e6f7f7','#49b6ad']} />
               <div style={{ position: 'absolute', bottom: 6, left: 8, background: 'rgba(13,27,42,0.72)', color: '#fff', padding: '2px 6px', borderRadius: 5, fontSize: 8, fontFamily: 'var(--celuma-font-mono)' }}>40× · H&E</div>
             </div>
             <div style={{ marginTop: 12, display: 'flex', justifyContent: 'space-between', fontSize: 10, color: 'var(--celuma-fg-3)' }}>
@@ -217,8 +217,8 @@ function HeroComposition() {
               <CelIcon name="shield-check" size={16} color="var(--celuma-green)" />
             </div>
             <div>
-              <div style={{ fontSize: 10, color: 'var(--celuma-fg-3)' }}>NOM‑024</div>
-              <div style={{ fontSize: 11, fontWeight: 700, color: 'var(--celuma-ink)' }}>Cumplimiento</div>
+              <div style={{ fontSize: 10, color: 'var(--celuma-fg-3)' }}>Trazabilidad</div>
+              <div style={{ fontSize: 11, fontWeight: 700, color: 'var(--celuma-ink)' }}>Seguimiento</div>
             </div>
           </div>
           {/* Floating chip 2 */}
@@ -272,10 +272,10 @@ function CTAStrip() {
           </div>
         </div>
         <button style={{
-          background: 'var(--celuma-primary)', color: '#fff', border: 0,
+          background: 'var(--celuma-primary)', color: 'var(--celuma-on-primary)', border: 0,
           padding: '16px 28px', borderRadius: 999, fontSize: 14, fontWeight: 700, cursor: 'pointer',
           boxShadow: 'var(--celuma-shadow-cta)', display: 'inline-flex', alignItems: 'center', gap: 10, whiteSpace: 'nowrap',
-        }}>Crear cuenta <CelIcon name="arrow-right" size={14} color="#fff" /></button>
+        }}>Crear cuenta <CelIcon name="arrow-right" size={14} color="var(--celuma-on-primary)" /></button>
       </div>
     </div>
   );

@@ -51,14 +51,14 @@ function SlideStats() {
         <div style={{ flex: 1, display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16, marginTop: 30 }}>
           {[
             ['Muestras', '4,128', '+ 18% vs Q1', 'beaker'],
-            ['Casos firmados', '3,994', '96.7% en SLA', 'shield-check'],
+            ['Casos firmados', '3,994', 'Datos ilustrativos', 'shield-check'],
             ['Tiempo medio', '34 h', '↓ 8 h vs Q1', 'calendar'],
             ['Sucursales activas', '06', '+ 2 nuevas', 'map-pin'],
           ].map(([l, n, s, ic], i) => (
             <div key={i} style={{ background: '#fff', borderRadius: 16, padding: 20, boxShadow: 'var(--celuma-shadow-soft)', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <div className="cel-eyebrow muted" style={{ fontSize: 9 }}>{l}</div>
-                <div style={{ width: 28, height: 28, borderRadius: 8, background: 'var(--celuma-primary-soft)', color: 'var(--celuma-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <div style={{ width: 28, height: 28, borderRadius: 8, background: 'var(--celuma-primary-soft)', color: 'var(--celuma-primary-ink)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   <CelIcon name={ic} size={14} color="currentColor" />
                 </div>
               </div>
@@ -128,7 +128,7 @@ function SlideContent() {
               ['Comparativa entre cortes', 'Vista lado a lado, sincronizada'],
             ].map(([t, s], i) => (
               <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: 10 }}>
-                <div style={{ width: 22, height: 22, borderRadius: 7, background: 'var(--celuma-primary-soft)', color: 'var(--celuma-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                <div style={{ width: 22, height: 22, borderRadius: 7, background: 'var(--celuma-primary-soft)', color: 'var(--celuma-primary-ink)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                   <CelIcon name="check" size={11} color="currentColor" stroke={3} />
                 </div>
                 <div>
@@ -141,7 +141,7 @@ function SlideContent() {
         </div>
 
         <div style={{ position: 'relative', background: 'var(--celuma-bg)', borderRadius: 18, padding: 0, overflow: 'hidden', boxShadow: 'var(--celuma-shadow-soft)' }}>
-          <div style={{ position: 'absolute', inset: 0 }}><CelCellField width={310} height={325} density={20} seed={12} opacity={0.65} palette={['#c8ecdc','#0f8b8d','#e58a8a','#e6f7f7','#49b6ad']} /></div>
+          <div style={{ position: 'absolute', inset: 0 }}><CelCellField width={310} height={325} density={20} seed={12} opacity={0.65} palette={['#c8ecdc','#49b6ad','#e58a8a','#e6f7f7','#49b6ad']} /></div>
           {/* Annotation pin */}
           <div style={{ position: 'absolute', top: 60, left: 90, background: '#fff', padding: '6px 10px', borderRadius: 8, boxShadow: 'var(--celuma-shadow-float)', display: 'flex', alignItems: 'center', gap: 6 }}>
             <div style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--celuma-primary)' }} />
@@ -176,11 +176,11 @@ function SlideQuote() {
       <CelBlob size={400} x={500} y={300} color="rose" opacity={0.5} />
 
       <div style={{ position: 'relative', padding: '50px 60px', height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-        <div style={{ fontFamily: 'var(--celuma-font-display)', fontWeight: 800, fontSize: 110, color: 'var(--celuma-primary)', lineHeight: 0.5, letterSpacing: '-0.04em', position: 'relative', top: 6 }}>
+        <div style={{ fontFamily: 'var(--celuma-font-display)', fontWeight: 800, fontSize: 110, color: 'var(--celuma-primary-ink)', lineHeight: 0.5, letterSpacing: '-0.04em', position: 'relative', top: 6 }}>
           “
         </div>
         <div className="t-display" style={{ fontSize: 32, lineHeight: 1.15, marginTop: -10, maxWidth: 600 }}>
-          Antes pasaban tres semanas entre la biopsia y el diagnóstico firmado. Con Céluma, son cinco días.
+          La claridad de cada etapa ayuda al equipo del laboratorio a coordinar su trabajo.
         </div>
         <div style={{ marginTop: 30, display: 'flex', alignItems: 'center', gap: 16 }}>
           <div style={{ width: 50, height: 50, borderRadius: '50%', background: 'var(--celuma-primary-soft)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -188,7 +188,7 @@ function SlideQuote() {
           </div>
           <div>
             <div style={{ fontSize: 13, fontWeight: 700, color: 'var(--celuma-ink)' }}>Dr. Eduardo Sánchez</div>
-            <div style={{ fontSize: 11, color: 'var(--celuma-fg-3)' }}>Jefe de patología · Hospital Ángeles</div>
+            <div style={{ fontSize: 11, color: 'var(--celuma-fg-3)' }}>Jefe de patología · Laboratorio Ejemplo</div>
           </div>
         </div>
       </div>

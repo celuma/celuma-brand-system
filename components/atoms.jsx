@@ -36,7 +36,7 @@ function CelIso({ size = 24, opacity = 1, style = {} }) {
 }
 
 // --- SVG cell field — clusters of soft circles inspired by isotipo ---
-function CelCellField({ width = 600, height = 200, density = 18, seed = 1, opacity = 0.55, palette = ['#0f8b8d','#49b6ad','#c8ecdc','#e6f7f7'] }) {
+function CelCellField({ width = 600, height = 200, density = 18, seed = 1, opacity = 0.55, palette = ['#49b6ad','#1f7a75','#c8ecdc','#e6f7f7'] }) {
   // Deterministic pseudo-random
   let s = seed * 9301 + 49297;
   const rnd = () => { s = (s * 9301 + 49297) % 233280; return s / 233280; };
@@ -46,7 +46,7 @@ function CelCellField({ width = 600, height = 200, density = 18, seed = 1, opaci
     const cx = rnd() * width;
     const cy = rnd() * height;
     const fill = palette[Math.floor(rnd() * palette.length)];
-    const stroke = '#0f8b8d';
+    const stroke = '#49b6ad';
     const filled = rnd() > 0.45;
     cells.push(
       <g key={i}>
@@ -69,7 +69,7 @@ function CelCellField({ width = 600, height = 200, density = 18, seed = 1, opaci
 }
 
 // --- Contour / wave lines pattern (abstract biomedical topography) ---
-function CelContour({ width = 600, height = 200, color = 'rgba(15,139,141,0.18)', count = 8 }) {
+function CelContour({ width = 600, height = 200, color = 'rgba(73,182,173,0.18)', count = 8 }) {
   const lines = [];
   for (let i = 0; i < count; i++) {
     const y = (height / count) * i + 20;
@@ -92,7 +92,7 @@ function CelContour({ width = 600, height = 200, color = 'rgba(15,139,141,0.18)'
 }
 
 // --- Dotted grid (microscope) ---
-function CelDots({ size = 14, color = 'rgba(15,139,141,0.22)', style = {} }) {
+function CelDots({ size = 14, color = 'rgba(73,182,173,0.22)', style = {} }) {
   return <div style={{
     backgroundImage: `radial-gradient(${color} 1.2px, transparent 1.4px)`,
     backgroundSize: `${size}px ${size}px`,
@@ -229,7 +229,7 @@ function CelIcon({ name, size = 16, stroke = 1.8, color = 'currentColor' }) {
 // --- Soft radial blob (corner atmosphere) ---
 function CelBlob({ size = 480, x = 0, y = 0, color = 'teal', opacity = 1 }) {
   const colors = {
-    teal: 'rgba(15,139,141,0.18)',
+    teal: 'rgba(73,182,173,0.18)',
     mint: 'rgba(73,182,173,0.22)',
     rose: 'rgba(229,138,138,0.16)',
     gold: 'rgba(240,199,94,0.18)',

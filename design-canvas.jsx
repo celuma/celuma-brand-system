@@ -131,9 +131,7 @@ function dcFlatten(children) {
 // host's window.omelette bridge — editing requires the omelette runtime.
 // Focus is ephemeral.
 // ─────────────────────────────────────────────────────────────
-const DC_STATE_FILE = '.design-canvas.state.json';
-
-function DesignCanvas({ children, minScale, maxScale, style }) {
+function DesignCanvas({ children, minScale, maxScale, style, stateFile = '.design-canvas.state.json', viewportKey = '' }) {
   const [state, setState] = React.useState({ sections: {}, focus: null });
   // Hold rendering until the sidecar read settles so the saved order/titles
   // appear on first paint (no source-order flash). didRead gates writes until
@@ -146,7 +144,7 @@ function DesignCanvas({ children, minScale, maxScale, style }) {
 
   React.useEffect(() => {
     let off = false;
-    fetch('./' + DC_STATE_FILE)
+    fetch('./' + stateFile)
       .then((r) => (r.ok ? r.json() : null))
       .then((saved) => {
         if (off || !saved || !saved.sections) return;
@@ -163,7 +161,7 @@ function DesignCanvas({ children, minScale, maxScale, style }) {
     if (!didRead.current) return;
     if (skipNextWrite.current) { skipNextWrite.current = false; return; }
     const t = setTimeout(() => {
-      window.omelette?.writeFile(DC_STATE_FILE, JSON.stringify({ sections: state.sections })).catch(() => {});
+      window.omelette?.writeFile(stateFile, JSON.stringify({ sections: state.sections })).catch(() => {});
     }, 250);
     return () => clearTimeout(t);
   }, [state.sections]);
@@ -231,7 +229,7 @@ function DesignCanvas({ children, minScale, maxScale, style }) {
 
   return (
     <DCCtx.Provider value={api}>
-      <DCViewport minScale={minScale} maxScale={maxScale} style={style}>{ready && children}</DCViewport>
+      <DCViewport minScale={minScale} maxScale={maxScale} style={style} viewportKey={viewportKey}>{ready && children}</DCViewport>
       {state.focus && registry[state.focus] && (
         <DCFocusOverlay entry={registry[state.focus]} sectionMeta={sectionMeta} sectionOrder={sectionOrder} />
       )}
@@ -252,14 +250,14 @@ function DesignCanvas({ children, minScale, maxScale, style }) {
 // (translate3d + will-change) so wheel ticks don't go through React —
 // keeps pans at 60fps on dense canvases.
 // ─────────────────────────────────────────────────────────────
-function DCViewport({ children, minScale = 0.1, maxScale = 8, style = {} }) {
+function DCViewport({ children, minScale = 0.1, maxScale = 8, style = {}, viewportKey = '' }) {
   const vpRef = React.useRef(null);
   const worldRef = React.useRef(null);
   const tf = React.useRef({ x: 0, y: 0, scale: 1 });
   // Persist viewport across reloads so the user lands back where they were
   // after an agent edit or browser refresh. The sandbox origin is already
   // per-project; pathname keeps multiple canvas files in one project apart.
-  const tfKey = 'dc-viewport:' + location.pathname;
+  const tfKey = 'dc-viewport:' + location.pathname + ':' + viewportKey;
   const saveT = React.useRef(0);
 
   const lastPostedScale = React.useRef();
@@ -963,4 +961,3 @@ function DCPostIt({ children, top, left, right, bottom, rotate = -2, width = 180
 }
 
 Object.assign(window, { DesignCanvas, DCSection, DCArtboard, DCPostIt });
-

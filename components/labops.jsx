@@ -47,7 +47,7 @@ function CassetteLabel() {
 function SlideLabel() {
   return (
     <div className="cel-sheet" style={{ width: 200, height: 130, padding: 0, position: 'relative', overflow: 'hidden' }}>
-      <div style={{ height: 24, background: 'var(--celuma-primary)', color: '#fff', padding: '4px 10px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+      <div style={{ height: 24, background: 'var(--celuma-primary)', color: 'var(--celuma-on-primary)', padding: '4px 10px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <span style={{ fontSize: 9, fontWeight: 700, letterSpacing: '0.18em' }}>LÁMINA · HE</span>
         <CelIso size={16} />
       </div>
@@ -165,8 +165,8 @@ function StickerHex() {
         
         <div style={{ position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 4 }}>
           <CelIso size={42} />
-          <div style={{ fontFamily: 'var(--celuma-font-display)', fontWeight: 800, fontSize: 22, color: '#fff', letterSpacing: '-0.02em' }}>Céluma</div>
-          <div style={{ fontSize: 8, letterSpacing: '0.22em', color: 'rgba(255,255,255,0.8)', textTransform: 'uppercase' }}>API · v2</div>
+          <div style={{ fontFamily: 'var(--celuma-font-display)', fontWeight: 800, fontSize: 22, color: 'var(--celuma-on-primary)', letterSpacing: '-0.02em' }}>Céluma</div>
+          <div style={{ fontSize: 8, letterSpacing: '0.22em', color: 'var(--celuma-on-primary)', textTransform: 'uppercase' }}>API · v2</div>
         </div>
       </div>
     </div>
@@ -194,7 +194,7 @@ function StickerSquare() {
   return (
     <div className="cel-sheet" style={{ width: 180, height: 180, borderRadius: 22, padding: 18, background: 'var(--celuma-primary-soft)', position: 'relative', overflow: 'hidden' }}>
       <div style={{ position: 'absolute', inset: 0 }}>
-        <CelDots size={10} color="rgba(15,139,141,0.22)" style={{ width: '100%', height: '100%' }} />
+        <CelDots size={10} color="rgba(73,182,173,0.22)" style={{ width: '100%', height: '100%' }} />
       </div>
       <div style={{ position: 'relative', height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
         <CelIso size={40} />
@@ -247,7 +247,7 @@ function StaffBadge() {
         <CelQR size={64} />
       </div>
 
-      <div style={{ position: 'absolute', left: 0, right: 0, bottom: 0, padding: '10px 20px', background: 'var(--celuma-primary)', color: '#fff', display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: 9 }}>
+      <div style={{ position: 'absolute', left: 0, right: 0, bottom: 0, padding: '10px 20px', background: 'var(--celuma-primary)', color: 'var(--celuma-on-primary)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: 9 }}>
         <span style={{ fontWeight: 700, letterSpacing: '0.18em' }}>ACCESO · LAB</span>
         <span className="cel-mono">celuma.mx</span>
       </div>

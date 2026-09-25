@@ -58,7 +58,7 @@ function ClinicalReportPage() {
             Mucosa colónica con arquitectura glandular preservada en la periferia. En el centro de los fragmentos se identifica proliferación de glándulas con elongación, ramificación leve y estratificación nuclear. Hipercromasia y pseudoestratificación sin pérdida de polaridad.
           </div>
           <div style={{ position: 'relative', height: 110, background: 'var(--celuma-primary-soft)', borderRadius: 12, overflow: 'hidden' }}>
-            <CelCellField width={130} height={110} density={18} seed={2} opacity={0.75} palette={['#c8ecdc','#0f8b8d','#e58a8a','#e6f7f7','#49b6ad']} />
+            <CelCellField width={130} height={110} density={18} seed={2} opacity={0.75} palette={['#c8ecdc','#49b6ad','#e58a8a','#e6f7f7','#49b6ad']} />
             <div style={{ position: 'absolute', bottom: 6, right: 6, background: '#fff', padding: '2px 6px', borderRadius: 6, fontSize: 8, color: 'var(--celuma-fg-3)' }} className="cel-mono">40× · H&E</div>
           </div>
         </div>
@@ -119,7 +119,7 @@ function ClinicalReportCover() {
         <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
           <div className="cel-eyebrow">Informe histopatológico</div>
           <div className="t-display" style={{ fontSize: 56, lineHeight: 0.94, marginTop: 12 }}>
-            R. Martínez<br/><span style={{ color: 'var(--celuma-primary)' }}>56 a · F.</span>
+            R. Martínez<br/><span style={{ color: 'var(--celuma-primary-ink)' }}>56 a · F.</span>
           </div>
           <div style={{ marginTop: 16, fontSize: 13, color: 'var(--celuma-fg-2)', maxWidth: 320, lineHeight: 1.55 }}>
             Biopsia incisional de lesión polipoide en sigmoides. Procedimiento de colonoscopia diagnóstica del 14 de mayo 2026.
@@ -200,7 +200,7 @@ function InternalForm() {
                   border: `2px solid ${c ? 'var(--celuma-primary)' : 'var(--celuma-border)'}`,
                   background: c ? 'var(--celuma-primary)' : '#fff',
                   display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0,
-                }}>{c && <CelIcon name="check" size={9} color="#fff" stroke={3} />}</span>
+                }}>{c && <CelIcon name="check" size={9} color="var(--celuma-on-primary)" stroke={3} />}</span>
                 {l}
               </label>
             ))}
@@ -227,7 +227,7 @@ function FormSection({ title, n, children }) {
   return (
     <div>
       <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 10 }}>
-        <div className="cel-mono" style={{ fontSize: 10, color: 'var(--celuma-primary)', fontWeight: 700, letterSpacing: '0.06em' }}>{n}</div>
+        <div className="cel-mono" style={{ fontSize: 10, color: 'var(--celuma-primary-ink)', fontWeight: 700, letterSpacing: '0.06em' }}>{n}</div>
         <div className="cel-eyebrow">{title}</div>
         <div style={{ flex: 1, height: 1, background: 'var(--celuma-border)' }} />
       </div>
