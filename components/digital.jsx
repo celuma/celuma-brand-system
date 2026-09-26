@@ -11,7 +11,7 @@ function EmailSigClassic() {
         </div>
         <div style={{ flex: 1 }}>
           <div style={{ fontSize: 15, fontWeight: 700, color: 'var(--celuma-ink)', fontFamily: 'var(--celuma-font-display)' }}>Dra. Lucía Méndez</div>
-          <div style={{ fontSize: 11, color: 'var(--celuma-primary)', fontWeight: 600, marginTop: 1 }}>Patóloga senior · Dermatopatología</div>
+          <div style={{ fontSize: 11, color: 'var(--celuma-primary-ink)', fontWeight: 600, marginTop: 1 }}>Patóloga senior · Dermatopatología</div>
           <hr className="cel-rule teal" style={{ width: 26, marginTop: 8, marginBottom: 8 }} />
           <div style={{ display: 'grid', gap: 3, fontSize: 11, color: 'var(--celuma-fg-2)' }}>
             <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
@@ -24,7 +24,7 @@ function EmailSigClassic() {
               <CelIcon name="globe" size={11} color="var(--celuma-primary)" /> celuma.mx
             </div>
           </div>
-          <div style={{ marginTop: 10, padding: '8px 12px', background: 'var(--celuma-primary-soft)', borderRadius: 8, fontSize: 10, color: 'var(--celuma-primary)', fontWeight: 600 }}>
+          <div style={{ marginTop: 10, padding: '8px 12px', background: 'var(--celuma-primary-soft)', borderRadius: 8, fontSize: 10, color: 'var(--celuma-primary-ink)', fontWeight: 600 }}>
             Céluma · ilumina y digitaliza tu laboratorio de patología.
           </div>
         </div>
@@ -67,7 +67,7 @@ function EmailSigBanner() {
           <span style={{ color: 'var(--celuma-border)' }}>·</span>
           <span>+52 55 4129 0488</span>
           <span style={{ color: 'var(--celuma-border)' }}>·</span>
-          <span style={{ color: 'var(--celuma-primary)', fontWeight: 600 }}>celuma.mx</span>
+          <span style={{ color: 'var(--celuma-primary-ink)', fontWeight: 600 }}>celuma.mx</span>
         </div>
       </div>
       {/* Promo banner */}
@@ -77,10 +77,10 @@ function EmailSigBanner() {
         <div style={{ position: 'relative', height: '100%', padding: '0 22px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <div>
             <div style={{ fontSize: 9, letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.55)' }}>Próximamente</div>
-            <div style={{ fontFamily: 'var(--celuma-font-display)', fontWeight: 800, fontSize: 14, marginTop: 2 }}>Webinar · IA en microscopía digital</div>
+            <div style={{ fontFamily: 'var(--celuma-font-display)', fontWeight: 800, fontSize: 14, marginTop: 2 }}>Sesión · Conoce Céluma</div>
           </div>
-          <div style={{ background: 'var(--celuma-primary)', color: '#fff', borderRadius: 100, padding: '6px 14px', fontSize: 10, fontWeight: 700, display: 'inline-flex', alignItems: 'center', gap: 6 }}>
-            Registrarme <CelIcon name="arrow-right" size={11} color="#fff" />
+          <div style={{ background: 'var(--celuma-primary)', color: 'var(--celuma-on-primary)', borderRadius: 100, padding: '6px 14px', fontSize: 10, fontWeight: 700, display: 'inline-flex', alignItems: 'center', gap: 6 }}>
+            Registrarme <CelIcon name="arrow-right" size={11} color="var(--celuma-on-primary)" />
           </div>
         </div>
       </div>
@@ -108,11 +108,11 @@ function DashboardHero() {
           </div>
           <div style={{ marginTop: 16, display: 'flex', gap: 10 }}>
             <button style={{
-              background: 'var(--celuma-primary)', color: '#fff', border: 0,
+              background: 'var(--celuma-primary)', color: 'var(--celuma-on-primary)', border: 0,
               padding: '10px 18px', borderRadius: 999, fontSize: 12, fontWeight: 700,
               cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: 6,
               boxShadow: 'var(--celuma-shadow-cta)',
-            }}>Abrir bandeja <CelIcon name="arrow-right" size={12} color="#fff" /></button>
+            }}>Abrir bandeja <CelIcon name="arrow-right" size={12} color="var(--celuma-on-primary)" /></button>
             <button style={{
               background: 'transparent', color: '#fff', border: '1.5px solid rgba(255,255,255,0.25)',
               padding: '10px 18px', borderRadius: 999, fontSize: 12, fontWeight: 600, cursor: 'pointer',
@@ -148,7 +148,7 @@ function EmptyStateInbox() {
       </div>
       <button style={{
         marginTop: 20,
-        background: 'var(--celuma-primary)', color: '#fff', border: 0,
+        background: 'var(--celuma-primary)', color: 'var(--celuma-on-primary)', border: 0,
         padding: '10px 18px', borderRadius: 999, fontSize: 12, fontWeight: 700, cursor: 'pointer',
       }}>Registrar muestra</button>
     </div>
@@ -181,7 +181,7 @@ function EmptyStateOnboard() {
       <CelBlob size={300} x={200} y={150} color="rose" opacity={0.6} />
       <div style={{ position: 'relative', display: 'flex', alignItems: 'center', gap: 14, marginBottom: 16 }}>
         <div style={{ width: 44, height: 44, borderRadius: 12, background: 'var(--celuma-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <CelIcon name="sparkles" size={22} color="#fff" stroke={2} />
+          <CelIcon name="sparkles" size={22} color="var(--celuma-on-primary)" stroke={2} />
         </div>
         <div className="cel-eyebrow">Bienvenida a Céluma</div>
       </div>
@@ -217,7 +217,7 @@ function NotificationStack() {
         <div style={{ flex: 1 }}>
           <div style={{ fontSize: 12, fontWeight: 700, color: 'var(--celuma-ink)' }}>Reporte firmado y enviado.</div>
           <div style={{ fontSize: 11, color: 'var(--celuma-fg-3)', marginTop: 2, lineHeight: 1.5 }}>CL‑00482 entregado al médico tratante.</div>
-          <div style={{ marginTop: 6, fontSize: 10, color: 'var(--celuma-primary)', fontWeight: 600 }}>Ver bitácora →</div>
+          <div style={{ marginTop: 6, fontSize: 10, color: 'var(--celuma-primary-ink)', fontWeight: 600 }}>Ver bitácora →</div>
         </div>
         <div className="cel-mono" style={{ fontSize: 9, color: 'var(--celuma-fg-3)' }}>09:42</div>
       </div>
@@ -243,7 +243,7 @@ function NotificationStack() {
           <CelIcon name="bell" size={18} color="var(--celuma-amber)" />
         </div>
         <div style={{ flex: 1 }}>
-          <div style={{ fontSize: 12, fontWeight: 700, color: 'var(--celuma-ink)' }}>3 casos rebasan SLA de 48 h.</div>
+          <div style={{ fontSize: 12, fontWeight: 700, color: 'var(--celuma-ink)' }}>3 casos requieren revisión.</div>
           <div style={{ fontSize: 11, color: 'var(--celuma-fg-2)', marginTop: 2 }}>Asignados a la Dra. Méndez. Reasigna o reprograma.</div>
         </div>
       </div>
@@ -290,11 +290,11 @@ function OnboardingWelcome() {
             <div style={{ width: 24, height: 4, borderRadius: 2, background: 'var(--celuma-border)' }} />
           </div>
           <button style={{
-            background: 'var(--celuma-primary)', color: '#fff', border: 0,
+            background: 'var(--celuma-primary)', color: 'var(--celuma-on-primary)', border: 0,
             padding: '12px 22px', borderRadius: 999, fontSize: 12, fontWeight: 700, cursor: 'pointer',
             display: 'inline-flex', alignItems: 'center', gap: 8,
             boxShadow: 'var(--celuma-shadow-cta-sm)',
-          }}>Empezar <CelIcon name="arrow-right" size={13} color="#fff" /></button>
+          }}>Empezar <CelIcon name="arrow-right" size={13} color="var(--celuma-on-primary)" /></button>
         </div>
       </div>
     </div>

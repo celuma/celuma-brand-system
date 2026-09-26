@@ -1,0 +1,82 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  min-height: 100vh;
+  background: var(--celuma-bg);
+  color: var(--celuma-ink);
+}
+
+a { color: var(--celuma-primary-ink); }
+a:focus-visible { outline: 3px solid var(--celuma-primary-ink); outline-offset: 4px; }
+
+.lab-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 16px clamp(20px, 5vw, 72px);
+  background: var(--celuma-surface);
+  border-bottom: 1px solid var(--celuma-border);
+}
+
+.lab-brand { display: inline-flex; align-items: center; gap: 12px; color: var(--celuma-ink); text-decoration: none; }
+.lab-brand img { object-fit: contain; }
+.lab-brand span { font: 800 26px/1 var(--celuma-font-display); }
+.lab-brand small { display: block; margin-top: 3px; font: 600 11px/1.3 var(--celuma-font-body); }
+.lab-back { font-weight: 600; }
+
+.lab-main { max-width: 960px; margin: 0 auto; padding: clamp(32px, 6vw, 72px) 20px 96px; }
+.lab-eyebrow, .lab-card-label {
+  margin: 0 0 10px;
+  color: var(--celuma-primary-ink);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+h1 { margin: 0; font-size: clamp(40px, 6vw, 64px); line-height: 1.08; }
+h2 { margin: 46px 0 16px; font-size: 28px; }
+h3 { margin: 0 0 8px; font-size: 22px; }
+.lab-intro { max-width: 700px; margin: 16px 0 30px; color: var(--celuma-fg-2); font-size: 17px; line-height: 1.65; }
+
+.lab-notice {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  padding: 18px 20px;
+  border-left: 5px solid var(--celuma-secondary);
+  border-radius: var(--celuma-radius-md);
+  background: var(--celuma-surface);
+  box-shadow: var(--celuma-shadow-soft);
+  line-height: 1.5;
+}
+
+.lab-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 26px;
+  border: 1px solid var(--celuma-border);
+  border-radius: var(--celuma-radius-lg);
+  background: var(--celuma-surface);
+}
+.lab-card p:last-child { margin: 0; color: var(--celuma-fg-2); line-height: 1.5; }
+.lab-card a {
+  flex: none;
+  padding: 12px 18px;
+  border-radius: var(--celuma-radius-pill);
+  background: var(--celuma-primary);
+  color: var(--celuma-on-primary);
+  font-weight: 700;
+  text-decoration: none;
+}
+.lab-card a:hover { background: var(--celuma-primary-hover); }
+.lab-links { display: flex; flex-wrap: wrap; gap: 12px 24px; padding: 0; list-style: none; }
+.lab-links a { font-weight: 600; }
+
+@media (max-width: 620px) {
+  .lab-header, .lab-card { align-items: flex-start; flex-direction: column; }
+  .lab-card a { align-self: flex-start; }
+}
