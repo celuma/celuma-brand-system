@@ -27,6 +27,10 @@ Este ajuste cambia el color del lienzo, pero no constituye por sí solo una apro
 - [Guía de publicaciones](docs/guia-de-publicaciones.md): qué reutilizar, qué está en exploración y qué debe revisarse.
 - Las secciones cuyo título empieza con “Propuesta” están pendientes de aprobación.
 
+## Laboratorio visual
+
+El [lab](labs/README.md) aloja experimentos aislados antes de decidir si alguna pieza pertenece al sistema de marca o al producto. Para verlo con el mismo servidor local, visite `http://localhost:8000/labs/`. La plantilla inicial está en `labs/experiments/_template/`; no representa una propuesta aprobada. Las decisiones se documentan en el brief de cada experimento y en el estado de las piezas, no en el nombre de un artboard.
+
 ## Responsabilidad de cada repositorio
 
 - **Este repositorio:** identidad, reglas gráficas, modelos visuales y, más adelante, tokens y componentes compartidos versionados.
