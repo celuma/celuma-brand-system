@@ -5,8 +5,90 @@
 - **Punto de partida:** commit `a5ab89e` de `celuma-brand-system` (reorganización en Fundamentos, Papelería, Material digital y Componentes). El archivo `diagnostico-alineacion-marca-frontend.md` describe el estado **anterior** a esa reorganización.
 - **Estado:** propuesta para revisión. Nada nuevo queda aprobado por aparecer aquí o en el lienzo. En el lienzo, todo lo nuevo lleva la etiqueta **“Propuesta”** en el título de la sección, en el nombre del artboard y en una marca discontinua dentro de la pieza.
 - **Documento complementario para quien publica:** [`guia-de-publicaciones.md`](guia-de-publicaciones.md).
+- **Segunda ronda (2026-09-25, tras el commit `571cf60`):** se cerraron tres observaciones de revisión: el estado de la papelería, el informe de ejemplo y la Dirección A. Ver [§0](#0-segunda-ronda-observaciones-cerradas). Las decisiones D-1 a D-15 siguen abiertas.
 
-**Cómo leer las etiquetas:** **Verificado** = comprobado en archivos, código o render. **Propuesta** = recomendación de esta revisión. **Pendiente** = requiere decisión o material que no existe.
+**Cómo leer las etiquetas:** **Verificado** = comprobado en archivos, código o render. **Propuesta** = recomendación de esta revisión. **Pendiente** = requiere decisión o material que no existe. **Exploración** = papelería heredada: exploración visual de marca, no aprobada ni plantilla operativa.
+
+---
+
+## 0. Segunda ronda: observaciones cerradas
+
+### 0.1 Estado de la papelería heredada
+
+Toda la papelería del lienzo es **exploración visual de marca: no aprobada ni plantilla operativa**. Ahora se ve así:
+
+- **Secciones:** los títulos empiezan por “Exploración ·” y el subtítulo explica la condición.
+- **Artboards:** los 34 nombres empiezan por “Exploración ·”.
+- **Piezas:** cada una lleva una marca discreta, “EXPLORACIÓN”, en la esquina superior derecha, dentro del margen. En las 5 etiquetas de laboratorio pequeñas, cualquier esquina tapaba contenido, así que la marca va en una franja de 16 px **debajo** de la pieza y el artboard crece 16 px.
+- **Componente:** átomo `CelExploration` en `components/atoms.jsx`.
+
+El `README.md`, `docs/estado-de-piezas.md` y `docs/guia-de-publicaciones.md` usan ahora la misma formulación.
+
+![Marca en esquina](revision-grafica/capturas/66-papeleria-marca-exploracion-esquina.jpg)
+![Marca bajo etiquetas](revision-grafica/capturas/65-papeleria-marca-exploracion-etiquetas.jpg)
+
+### 0.2 Informe de ejemplo
+
+**Comprobado en la captura anterior:** el pie fijo de firma tapaba el diagnóstico y los comentarios.
+
+**Corrección:** el ejemplo pasa a tener **portada y dos páginas**.
+- **Página 1:** datos, información clínica, macroscopía y microscopía, con un espacio neutro “Imagen del caso”.
+- **Página 2:** diagnóstico, comentarios y bloque de firma.
+- **Pie:** en ambas páginas es una línea delgada que ya no se superpone. Todo el contenido del concepto es visible.
+
+**Identificación inequívoca como ejemplo:**
+- Banda “Ejemplo visual de marca · no es un informe clínico · Datos ficticios” en cada página.
+- Folios `EJ-…`, paciente “Paciente Ejemplo” y firmante “Dra. Nombre Ejemplo” con “cédula de ejemplo”.
+- Sin trazo de firma ni hash. “FIRMADO ELECTRÓNICAMENTE” pasa a “EJEMPLO · SIN VALIDEZ CLÍNICA” y el sello “Firmado” de la portada pasa a “Sin validez clínica”.
+- Nota en la página 2: en el producto, el informe usa el membrete del laboratorio cliente.
+
+**Qué no se cambió:** no se rediseñó como informe real del laboratorio cliente ni se tocó el frontend.
+
+![Informe antes y después](revision-grafica/capturas/60-correccion-report-page.jpg)
+
+### 0.3 Dirección A, probada con contenido real
+
+**Problema confirmado:** en 1:1 el módulo era una franja de proporción 3:1 que ocupaba ≈ 24 % del área útil, por debajo del 30–50 % escrito. Las pruebas revelaron dos defectos más de la regla escrita:
+- El límite de “2 líneas de texto” no se cumplía con mensajes reales.
+- En horizontales, escalar solo con el lado corto deja el texto de apoyo por debajo de unos 11 px cuando la pieza se ve a ~390 px de ancho.
+
+**Prueba.** Tres contenidos comprobados en `celuma-docs`, en las 5 proporciones (15 artboards con guías, sección “Propuesta · Publicaciones A · Pruebas de contenido”):
+
+| Contenido | Eyebrow / título / texto | Fuente |
+|---|---|---|
+| Corto | Novedades / “Céluma 1.3.1 ya está disponible” / “Revisión y firma de informes.” | `docs/release-notes/v1-3-1.mdx` |
+| Medio | Guía de uso / “Cómo registrar una muestra” / “La orden debe existir antes de registrar la muestra. Consulta la guía para el equipo técnico.” | `docs/tecnicos/muestras.mdx` |
+| Largo | Novedades · v1.3.1 / “Reabre un informe aprobado que aún no se ha firmado” / “El revisor asignado o un administrador pueden reabrirlo para corregirlo. Después debe aprobarse de nuevo antes de firmarse.” | `docs/release-notes/v1-3-1.mdx` |
+
+**Medición automática** (`docs/revision-grafica/scripts/measure-a.mjs`; datos en `docs/revision-grafica/medicion-direccion-a.json`). Por pieza se comprobaron:
+- el porcentaje del módulo sobre el área útil y su proporción;
+- las líneas de título y de texto frente al presupuesto;
+- los solapamientos entre texto, módulo y firma;
+- que la dirección quede en una línea;
+- que texto y firma queden dentro del área útil (y fuera de las zonas de interfaz en 9:16).
+
+**Resultado final: 22 de 22 piezas de la Dirección A sin fallos** (15 pruebas, 5 formatos base y 2 de la anatomía).
+
+| Formato | Módulo (corto / medio / largo) | Proporción del módulo | Composición | Condensado |
+|---|---|---|---|---|
+| 1:1 | 31,7 / 31,7 / 31,7 % | 1,07 : 1 | En L | Medio y largo |
+| 4:5 | 36,6 / 30,2 / 36,6 % | 0,67–0,81 : 1 | En L | Largo |
+| 9:16 | 50 / 46,2 / 35,5 % | 1,42–2 : 1 | Apilado, zonas 14 % / 20 % libres | — |
+| 1.91:1 | 40 / 40 / 40 % | 0,84 : 1 | Columnas | Largo |
+| 16:9 | 39,8 / 39,8 / 39,8 % | 0,77 : 1 | Columnas | — |
+
+![Pruebas de contenido](revision-grafica/capturas/36-propuesta-A-pruebas-contenido.jpg)
+![1:1 antes y después](revision-grafica/capturas/37-propuesta-A-1x1-antes-despues.jpg)
+
+**Qué cambió en la regla escrita y en los artboards (ambos coinciden; §9.3):**
+
+1. **Tipo:** cada tamaño usa el mayor entre una proporción de S y una de W. En horizontales, el texto pasa de 13,8–15,8 px a 17,4–18,6 px a escala 1/3.
+2. **Módulo:** 30–50 % del área útil **y** proporción entre 1:2 y 2:1.
+3. **Composición en L** en 1:1 y 4:5, en lugar del módulo a todo el ancho.
+4. **Presupuesto de líneas por formato** y **versión condensada** cuando no cabe, en lugar de “texto ≤ 2 líneas”.
+5. **Dirección en una sola línea:** en 1:1 se partía “docs.celuma.m / x”.
+
+La guía de publicaciones (§4 y §5) recoge la misma regla.
 
 ---
 
@@ -14,21 +96,21 @@
 
 **Lo que ya funciona.** La identidad de Céluma se reconoce igual en la app, el landing y los docs: fondo crema, navy, Baloo 2 para los títulos, el isotipo de la célula con rayos y superficies suaves con radios generosos. La reorganización de `a5ab89e` fue un buen paso. Separó los lienzos por uso, adoptó el teal del logo (`#49b6ad`) con un teal de tinta accesible (`#1f7a75`) y texto navy sobre teal, y limpió varias afirmaciones sin respaldo.
 
-**Lo que falta para que sea la referencia central:**
+**Lo que se detectó al inicio y su estado actual:**
 
-1. **Un logotipo con fuente de verdad.** El isotipo está verificado. El wordmark, no: todas las superficies lo componen en Baloo 2, pero el logotipo “Versión final” de Notion usa otra tipografía. Además, no existe ningún archivo vectorial.
-2. **Reglas escritas.** Faltan roles de color por uso, escalas tipográficas por medio, zonas de protección, iconografía y voz. Hoy están implícitas en el JSX.
-3. **Bases útiles para publicaciones.** El lienzo digital tenía conceptos de interfaz y marketing, pero ninguna plantilla de publicación.
-4. **Un puente con el producto.** El catálogo de componentes era una lista de nombres, sin anatomía ni estados.
+1. **Logotipo con fuente de verdad:** el isotipo está verificado, pero el wordmark de Baloo 2 en uso difiere del archivo “Versión final” de Notion. Aún falta un maestro vectorial.
+2. **Reglas escritas:** ahora hay propuestas de roles de color, escalas tipográficas, protección del logotipo, iconografía y voz; siguen pendientes de aprobación.
+3. **Bases para publicaciones:** ahora hay tres direcciones visuales. La A se probó con tres contenidos en cinco proporciones; aún faltan la elección de dirección y las plantillas editables.
+4. **Puente con el producto:** ahora hay fichas de componentes reales, pero el catálogo sigue incompleto y no constituye un paquete compartido.
 
-**Recomendación gráfica principal.** Adoptar la **Dirección A “Lámina clara”** como sistema base de publicaciones. Es editorial sobre crema, con un único módulo visual, y todas sus medidas derivan del lado corto del formato. Una regla salmón corta, heredada del encabezado de la app, marca la identidad. La **Dirección B** queda como variante para guías y novedades de producto, dentro del mismo marco. La **Dirección C** queda reservada a eventos puntuales. El razonamiento está en §9.
+**Recomendación gráfica principal.** Adoptar la **Dirección A “Lámina clara”** como sistema base de publicaciones. Es editorial sobre crema, con un único módulo visual; sus medidas derivan del lado corto y, para la tipografía, también del ancho del formato. Una regla salmón corta, heredada del encabezado de la app, marca la identidad. La **Dirección B** queda como variante para guías y novedades de producto, dentro del mismo marco. La **Dirección C** queda reservada a eventos puntuales. El razonamiento está en §9.
 
 ---
 
 ## 2. Alcance y método
 
 - **Render real, no solo código.** Levanté los cuatro lienzos y las superficies de app, landing y docs con sus servidores locales. Capturé con Playwright/Chromium a densidad 2× (scripts en `docs/revision-grafica/scripts/`).
-- **Artboards al tamaño de uso.** Capturé cada uno de los 90 artboards a escala 1:1 del lienzo (66 antes de esta revisión).
+- **Artboards al tamaño de uso.** En la primera ronda se capturaron 90 artboards a escala 1:1 (66 antes de la revisión); tras la segunda ronda, se verificaron 106.
 - **App con datos ficticios.** Rendericé la app con una API simulada (pacientes, órdenes, muestras e informes inventados) porque el backend no estaba en ejecución. Revisé inicio, órdenes, muestras, informes y login, en escritorio (1440 px) y en móvil (390 px).
 - **Landing y docs.** Revisé el landing completo en escritorio y móvil, y los docs en modo claro, oscuro y móvil.
 - **Notion.** Lo consulté en el navegador integrado con la sesión de Rafael. Muestreé los colores de los logotipos en el navegador y descargué el isotipo V2 (URL pública) para compararlo píxel a píxel.
@@ -164,7 +246,7 @@ La propuesta toma *lumen* porque coincide en dos fuentes y en producción. Evita
 | Lienzo | Hallazgos |
 |---|---|
 | **Fundamentos** | Los lockups usan el wordmark Baloo. El isotipo a 16 px pierde los rayos. Las ilustraciones estaban rotuladas en inglés (“Illustration · 01”; corregido). Los patrones son discretos y reutilizables. |
-| **Papelería** | Sigue siendo un catálogo de variantes (A/B/C) sin elección. Hallé una razón social inventada, “Patología Digital S.A. de C.V.”, y una institución real, “INDRE”; ambas corregidas. Siguen el descriptor “Patología Digital” y “Sister system” (pendientes). El reporte clínico sigue presentando a Céluma como emisor (contrario a ADR 0002), aunque ya está marcado como concepto. |
+| **Papelería** | Sigue siendo un catálogo de variantes (A/B/C) sin elección. Ahora está marcada en sección, artboard y pieza como **exploración visual de marca, no aprobada ni plantilla operativa** (§0.1). Hallé una razón social inventada, “Patología Digital S.A. de C.V.”, y una institución real, “INDRE”; ambas corregidas. Siguen el descriptor “Patología Digital” y “Sister system” (pendientes). El informe presenta a Céluma como emisor; ahora está identificado como ejemplo visual con datos ficticios y sin validez clínica, y dividido en dos páginas (§0.2). |
 | **Material digital** | La diapositiva “Contenido” prometía validación remota, láminas digitales y un visor 40×, y su pie se encimaba sobre la lista. El encabezado de sección desbordaba el artboard y afirmaba “100 % trazabilidad”. El hero decía “en tiempo real” y “sin perder una sola muestra”. Todo corregido. Las cifras de la diapositiva de datos quedaron marcadas como ilustrativas. |
 | **Componentes** | Era una lista de 14 nombres, sin imagen ni estados. Ahora tiene fichas (§10). |
 
@@ -202,7 +284,7 @@ La propuesta toma *lumen* porque coincide en dos fuentes y en producción. Evita
 | Idea | Editorial sobre crema: eyebrow, título, texto y un módulo visual | Módulos de la app: tarjeta con borde salmón, chip y pasos numerados | Navy con titular grande, acento `#7dd8d9` y textura celular tenue |
 | Mejor para | Anuncios, guías, consejos, bienvenida, contenido de marca | Tutoriales paso a paso y novedades de producto | Eventos, sesiones e hitos puntuales |
 | Valores de marca | Claridad y aire (Notion: “espacio para respirar”) | Precisión; muestra el producto con honestidad | Luz (*lumen*), impacto |
-| Proporción texto/imagen | Texto ≤ 45 %, módulo 30–50 % | Texto en tarjeta 30 %, pasos 45 % | Texto 40 %, textura de fondo |
+| Proporción texto/imagen | Módulo 30–50 % del área útil y proporción entre 1:2 y 2:1 (verificado en 22 piezas, §0.3) | Texto en tarjeta 30 %, pasos 45 % (sin probar con contenido real) | Texto 40 %, textura de fondo (sin probar con contenido real) |
 | Riesgos | Puede verse plana si el módulo visual es pobre | Puede sugerir funciones inexistentes si se inventan pantallas | Se parece a una estética *tech* genérica; menos cálida; costo alto en impresión |
 | Producción | Baja: una plantilla, cambian texto y módulo | Media | Media |
 | Formatos | ![A](revision-grafica/capturas/30-propuesta-A-formatos.jpg) | ![B](revision-grafica/capturas/31-propuesta-B-formatos.jpg) | ![C](revision-grafica/capturas/32-propuesta-C-formatos.jpg) |
@@ -223,18 +305,20 @@ La propuesta toma *lumen* porque coincide en dos fuentes y en producción. Evita
 
 ![Anatomía](revision-grafica/capturas/34-propuesta-A-anatomia.jpg)
 
-| Elemento | Regla (S = lado corto) | A 1080 px |
+*Regla verificada con pruebas (§0.3). S = lado corto, W = ancho.*
+
+| Elemento | Regla | A 1080 × 1080 |
 |---|---|---|
-| Margen | S / 12 | 90 px |
-| Eyebrow | S × 0,034, mayúsculas, interletrado 0,14 em, tinta `#1f7a75`, regla salmón de 2,2 × el tamaño | ≈ 37 px |
-| Título | Baloo 2 · 800, S × 0,088, interlineado 1,04, ≤ 3 líneas | ≈ 95 px |
-| Texto | Sistema · 400, S × 0,044, ≤ 2 líneas, `#374151` | ≈ 48 px |
-| Módulo visual | Radio S × 0,044; ocupa el espacio restante (30–50 %) | — |
-| Firma | Lockup abajo a la izquierda (isotipo S × 0,075) y dirección a la derecha | isotipo ≈ 81 px |
+| Área útil | Margen S / 12; en 9:16, además, 14 % superior y 20 % inferior libres | 90 px de margen |
+| Eyebrow | máx(S × 0,034; W × 0,024); mayúsculas, interletrado 0,14 em, tinta `#1f7a75`, regla salmón | ≈ 37 px |
+| Título | Baloo 2 · 800; máx(S × 0,088; W × 0,048); interlineado 1,04 | ≈ 95 px |
+| Texto | Sistema · 400; máx(S × 0,044; W × 0,029); interlineado 1,4; `#374151` | ≈ 48 px |
+| Presupuesto (líneas de título / total) | 1:1 ≤ 2 / 3 · 4:5 ≤ 3 / 5 · 9:16 ≤ 3 / 7 · 1.91:1 ≤ 3 / 5 · 16:9 ≤ 3 / 7; si no cabe, versión condensada | — |
+| Módulo visual | 30–50 % del área útil; proporción entre 1:2 y 2:1; radio S × 0,044 | 31,7 % en 1:1 |
+| Composición | 1:1 y 4:5 en L (módulo al 62 % y 60 % del ancho); 9:16 apilado; horizontales en columnas (módulo al 42 %) | — |
+| Firma | Isotipo S × 0,075 + “Céluma”. En L: dirección y lockup abajo a la izquierda; en los demás, lockup a la izquierda y dirección a la derecha | isotipo ≈ 81 px |
 | Protección del logo | ½ isotipo | ≈ 40 px |
-| 9:16 | Zonas libres: 14 % arriba y 20 % abajo | 269 px / 384 px |
-| Horizontales | Columnas 1,35 : 1 (texto : módulo), separación = margen | — |
-| CTA | En imagen estática, dirección corta en tinta teal. Botón en píldora (teal + texto navy) solo en canales con clic | — |
+| CTA | Dirección corta en una línea y en tinta teal; botón en píldora (teal + texto navy) solo en canales con clic | — |
 
 **Cómo elegir el visual:**
 
@@ -325,9 +409,25 @@ La propuesta toma *lumen* porque coincide en dos fuentes y en producción. Evita
 - *Fundamentos:* `fund-color`, `fund-tipo`, `fund-logo`, `fund-iconos`, `fund-voz`.
 - *Componentes:* `ficha-inventario`, `ficha-button`, `ficha-header`, `ficha-chip`, `ficha-input`, `ficha-empty`.
 
-**No se tocó:** las variantes de papelería (se conservan íntegras), el descriptor “Patología Digital”, “Sister system”, el reporte clínico como concepto y los archivos de `assets/`.
+**Segunda ronda:**
 
-**Verificación:** los 90 artboards se renderizaron sin errores de consola (`docs/revision-grafica/scripts/capture-brand.mjs`). No hice commit, push ni publicación.
+| Archivo | Cambio |
+|---|---|
+| `components/atoms.jsx` | Nuevo `CelExploration`: marca en esquina o en franja inferior |
+| `canvases/papeleria.jsx` | Secciones y 34 artboards con “Exploración”; se añade `report-page-2`; etiquetas de laboratorio +16 px de alto |
+| `components/documents.jsx` | Informe de ejemplo en portada y dos páginas (`ClinicalReportPage`, `ClinicalReportPage2`), con banda de ejemplo, datos ficticios y sin firma ni sello de validez |
+| `components/proposals-publicaciones.jsx` | Dirección A: `PUB_CONTENTS` (3 contenidos comprobados y sus versiones condensadas), `PUB_A_RULE` (regla verificada), composición en L, guías de área útil y anatomía actualizada |
+| `canvases/digital.jsx` | Nueva sección “Propuesta · Publicaciones A · Pruebas de contenido” (15 artboards); anatomía a 1180 × 840 |
+| `README.md`, `docs/estado-de-piezas.md`, `docs/guia-de-publicaciones.md` | Estado único de la papelería; regla de la Dirección A |
+| `docs/revision-grafica/` | Capturas 01, 30, 33, 34, 36, 37, 60, 65 y 66; `scripts/measure-a.mjs` y `grid.py`; `medicion-direccion-a.json` |
+
+**Verificación de la segunda ronda:** 106 artboards renderizados sin errores de consola; 22 de 22 piezas de la Dirección A pasan la medición.
+
+**Se conservaron como exploraciones:** las variantes A/B/C de papelería, el descriptor “Patología Digital” y “Sister system” (ambos pendientes de decisión). Se añadieron marcas de estado a la papelería y se reorganizó el informe de ejemplo; no se modificaron los archivos de `assets/`.
+
+**Verificación por ronda:** 90 artboards en la primera; 106 después de la segunda, sin errores de consola (`docs/revision-grafica/scripts/capture-brand.mjs`). Los 22 casos de la Dirección A se midieron con `docs/revision-grafica/scripts/measure-a.mjs`; el resultado queda en `docs/revision-grafica/medicion-direccion-a.json`. Ambos scripts requieren un checkout hermano de `celuma-frontend` con sus dependencias instaladas y el servidor local del brand system en el puerto 5050. La primera ronda quedó en el commit `571cf60`; la segunda sigue sin commit, push ni publicación.
+
+**Revisión de mantenimiento (2026-09-25):** se retiraron las rutas personales de los tres scripts de captura y medición; se comprobó su sintaxis y se ejecutó de nuevo la medición de la Dirección A. El JSON documentado se actualizó con 22 casos y 0 fallos. No se modificaron los artboards ni las capturas en esta revisión.
 
 ---
 
@@ -338,7 +438,9 @@ La propuesta toma *lumen* porque coincide en dos fuentes y en producción. Evita
 - Los contrastes de los chips propuestos están calculados sobre sus fondos, pero no se validaron en la app ni con usuarios.
 - No hubo pruebas de impresión, lector de pantalla ni auditoría automática.
 - Los criterios de fotografía no tienen material de referencia: no existe banco de imágenes.
-- Las propuestas A, B y C se dibujaron con un solo tipo de contenido (guía de uso o evento); falta probarlas con textos largos y con otros idiomas.
+- La Dirección A se probó con tres contenidos reales en español. Las Direcciones B y C no se probaron con contenido real y conservan la regla anterior (escala solo por S). No se probaron otros idiomas ni textos con palabras muy largas.
+- La legibilidad en horizontales se estimó para una visualización a ~390 px de ancho; no se probó en dispositivos reales.
+- El módulo visual usa la ilustración de campo celular o el patrón; la regla no se probó con fotografía.
 
 ---
 

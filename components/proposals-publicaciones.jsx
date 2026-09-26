@@ -1,12 +1,13 @@
 // Céluma — PROPUESTA · Direcciones de composición para publicaciones.
-// Nada de este archivo está aprobado. Textos ficticios; sin cifras, testimonios,
-// capacidades nuevas ni afirmaciones normativas.
+// Nada de este archivo está aprobado. La Dirección A usa contenido comprobado
+// en celuma-docs; B y C conservan textos de ejemplo. Sin datos clínicos reales,
+// cifras, testimonios, capacidades nuevas ni afirmaciones normativas.
 //
-// Las piezas se dibujan a 1/3 del tamaño de exportación (lado corto 1080 px → 360 px).
-// Todas las medidas derivan del lado corto S para que la misma regla sirva en
-// cualquier proporción y canal:
-//   margen m = S/12 · eyebrow = S·0.034 · título = S·0.088 · texto = S·0.044
-//   logotipo: isotipo = S·0.075, zona de protección = ½ isotipo alrededor.
+// Las piezas se dibujan a escala de lienzo: generalmente 1/3 del tamaño de
+// exportación (1080 px → 360 px); el formato 1.91:1 usa 1/2 (1200 px → 600 px).
+// La Dirección A usa S (lado corto) y W (ancho); ver PUB_A_RULE. B y C aún
+// usan la escala original basada en S. El isotipo mide S·0.075 y su zona de
+// protección propuesta es de ½ isotipo alrededor.
 
 const PUB_FORMATS = {
   square:    { w: 360, h: 360, name: '1:1',    export: '1080 × 1080' },
@@ -86,38 +87,132 @@ function PubVisualModule({ kind = 'cells', radius = 16, seed = 3 }) {
   );
 }
 
-function PubDirA({ format = 'square', visual = 'cells', tag = true }) {
+// Contenidos de prueba, tomados de documentación publicada (celuma-docs).
+// Sin datos clínicos ni capacidades no documentadas.
+const PUB_CONTENTS = {
+  corto: {
+    eyebrow: 'Novedades',
+    title: 'Céluma 1.3.1 ya está disponible',
+    body: 'Revisión y firma de informes.',
+    cta: 'docs.celuma.mx',
+    source: 'celuma-docs/docs/release-notes/v1-3-1.mdx',
+  },
+  medio: {
+    eyebrow: 'Guía de uso',
+    title: 'Cómo registrar una muestra',
+    body: 'La orden debe existir antes de registrar la muestra. Consulta la guía para el equipo técnico.',
+    cta: 'docs.celuma.mx',
+    source: 'celuma-docs/docs/tecnicos/muestras.mdx',
+    condensed: { body: 'Primero la orden, luego la muestra.' },
+    condensedFor: ['square'],
+  },
+  largo: {
+    eyebrow: 'Novedades · v1.3.1',
+    title: 'Reabre un informe aprobado que aún no se ha firmado',
+    body: 'El revisor asignado o un administrador pueden reabrirlo para corregirlo. Después debe aprobarse de nuevo antes de firmarse.',
+    cta: 'docs.celuma.mx',
+    source: 'celuma-docs/docs/release-notes/v1-3-1.mdx',
+    // Versión condensada para formatos con menos presupuesto de texto.
+    condensed: {
+      title: 'Reabre un informe antes de firmarlo',
+      body: 'Si se aprobó y aún no se firma.',
+    },
+    condensedFor: ['square', 'portrait', 'link'],
+  },
+};
+
+// Regla de la Dirección A (propuesta). S = lado corto, W = ancho.
+// El tipo usa el mayor entre una proporción de S y una de W, para que las
+// piezas horizontales sigan siendo legibles cuando se ven a ~390 px de ancho.
+const PUB_A_RULE = {
+  margin: (S) => S / 12,
+  zonesTall: { top: 0.14, bottom: 0.20 },     // 9:16: sin texto ni logo
+  eyebrow: (S, W) => Math.max(S * 0.034, W * 0.024),
+  title: (S, W) => Math.max(S * 0.088, W * 0.048),
+  body: (S, W) => Math.max(S * 0.044, W * 0.029),
+  iso: (S) => S * 0.075,
+  module: { min: 0.30, max: 0.50, aspect: [0.5, 2] }, // área útil y proporción (sin franjas)
+  landscapeModuleShare: 0.42,                  // ancho del módulo en horizontales
+  lModuleWidth: { square: 0.62, portrait: 0.6 }, // composición en L (1:1 y 4:5)
+  // Presupuesto de texto verificado con las pruebas: líneas máximas de título
+  // y total de título + texto. Si un contenido lo excede, se usa su versión
+  // condensada (el texto completo pasa a la descripción de la publicación).
+  budget: {
+    square:   { title: 2, total: 3 },
+    portrait: { title: 3, total: 5 },
+    story:    { title: 3, total: 7 },
+    link:     { title: 3, total: 5 },
+    wide:     { title: 3, total: 7 },
+  },
+};
+
+function PubDirA({ format = 'square', visual = 'cells', tag = true, content = 'medio', guides = false }) {
   const fmt = PUB_FORMATS[format];
-  const k = pubMetrics(fmt);
-  const content = (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: k.S * 0.035, minWidth: 0 }}>
-      <PubEyebrow size={k.eyebrow}>{PUB_SAMPLE.eyebrow}</PubEyebrow>
-      <div style={{ font: `800 ${k.title}px/1.04 var(--celuma-font-display)`, letterSpacing: '-0.02em', color: 'var(--celuma-ink)' }}>{PUB_SAMPLE.title}</div>
-      <div style={{ font: `400 ${k.body}px/1.45 var(--celuma-font-body)`, color: 'var(--celuma-fg-2)', maxWidth: '32ch' }}>{PUB_SAMPLE.body}</div>
+  const base = PUB_CONTENTS[content] || PUB_CONTENTS.medio;
+  const useCondensed = !!base.condensed && (base.condensedFor || []).includes(format);
+  const c = useCondensed ? { ...base, ...base.condensed } : base;
+  const S = Math.min(fmt.w, fmt.h), W = fmt.w;
+  const R = PUB_A_RULE;
+  const m = R.margin(S);
+  const tall = fmt.h / fmt.w > 1.5, landscape = fmt.w / fmt.h > 1.2, lShape = !tall && !landscape;
+  const top = tall ? fmt.h * R.zonesTall.top : m;
+  const bottom = tall ? fmt.h * R.zonesTall.bottom : m;
+  const safeW = fmt.w - 2 * m, safeH = fmt.h - top - bottom;
+  const eb = R.eyebrow(S, W), ti = R.title(S, W), bo = R.body(S, W), iso = R.iso(S);
+  const gap = S * 0.035;
+  const lGap = m * 0.6;
+  const lModW = lShape ? (safeW - lGap) * R.lModuleWidth[format] : 0; // ancho real del módulo en L
+
+  const text = (
+    <div data-pub-text style={{ display: 'flex', flexDirection: 'column', gap, minWidth: 0 }}>
+      <PubEyebrow size={eb}>{c.eyebrow}</PubEyebrow>
+      <div data-pub-title style={{ font: `800 ${ti}px/1.04 var(--celuma-font-display)`, letterSpacing: '-0.02em', color: 'var(--celuma-ink)', textWrap: 'balance' }}>{c.title}</div>
+      <div data-pub-body style={{ font: `400 ${bo}px/1.4 var(--celuma-font-body)`, color: 'var(--celuma-fg-2)', textWrap: 'pretty' }}>{c.body}</div>
     </div>
   );
   const footer = (
-    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12 }}>
-      <PubLockup size={k.iso} />
-      <span style={{ font: `700 ${k.body * 0.82}px/1 var(--celuma-font-body)`, color: 'var(--celuma-primary-ink)' }}>{PUB_SAMPLE.cta}</span>
+    <div data-pub-footer style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12 }}>
+      <PubLockup size={iso} />
+      <span data-pub-cta style={{ font: `700 ${bo * 0.85}px/1 var(--celuma-font-body)`, color: 'var(--celuma-primary-ink)', whiteSpace: 'nowrap' }}>{c.cta}</span>
     </div>
   );
-  const pad = k.tall ? `${fmt.h * 0.14}px ${k.m}px ${fmt.h * 0.2}px` : `${k.m}px`;
+  const moduleEl = <div data-pub-module style={{ position: 'relative', width: '100%', height: '100%' }}><PubVisualModule kind={visual} seed={format.length + content.length} /></div>;
+
   return (
-    <div style={{ width: fmt.w, height: fmt.h, position: 'relative', overflow: 'hidden', background: 'var(--celuma-bg)', color: 'var(--celuma-ink)' }}>
+    <div data-pub-root data-format={format} data-content={content} data-condensed={useCondensed ? '1' : '0'} style={{ width: fmt.w, height: fmt.h, position: 'relative', overflow: 'hidden', background: 'var(--celuma-bg)', color: 'var(--celuma-ink)' }}>
       {tag && <ProposalTag />}
-      {k.landscape ? (
-        <div style={{ position: 'absolute', inset: 0, padding: pad, display: 'grid', gridTemplateColumns: '1.35fr 1fr', gap: k.m }}>
-          <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>{content}{footer}</div>
-          <div style={{ position: 'relative' }}><PubVisualModule kind={visual} /></div>
-        </div>
-      ) : (
-        <div style={{ position: 'absolute', inset: 0, padding: pad, display: 'flex', flexDirection: 'column', gap: k.m * 0.8 }}>
-          {content}
-          <div style={{ position: 'relative', flex: 1, minHeight: k.S * 0.18 }}><PubVisualModule kind={visual} /></div>
-          {footer}
-        </div>
-      )}
+      {guides && tall && (<>
+        <div style={{ position: 'absolute', left: 0, right: 0, top: 0, height: top, background: 'rgba(249,141,132,0.16)', borderBottom: '1px dashed #c2554c' }} />
+        <div style={{ position: 'absolute', left: 0, right: 0, bottom: 0, height: bottom, background: 'rgba(249,141,132,0.16)', borderTop: '1px dashed #c2554c' }} />
+      </>)}
+      <div data-pub-safe style={{ position: 'absolute', left: m, top, width: safeW, height: safeH, outline: guides ? '1px dashed rgba(194,85,76,0.6)' : 'none' }}>
+        {landscape ? (
+          <div style={{ height: '100%', display: 'grid', gridTemplateColumns: `${1 - R.landscapeModuleShare}fr ${R.landscapeModuleShare}fr`, gap: m }}>
+            <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', minWidth: 0 }}>{text}{footer}</div>
+            {moduleEl}
+          </div>
+        ) : lShape ? (
+          // Composición en L: texto arriba; firma abajo a la izquierda y módulo casi cuadrado a la derecha.
+          <div style={{ height: '100%', display: 'flex', flexDirection: 'column', gap: gap * 0.9 }}>
+            {text}
+            <div style={{ flex: 1, minHeight: 0, display: 'grid', gridTemplateColumns: `${1 - R.lModuleWidth[format]}fr ${R.lModuleWidth[format]}fr`, gap: lGap }}>
+              <div data-pub-footer style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', gap: iso * 0.45, minWidth: 0 }}>
+                <span data-pub-cta style={{ font: `700 ${Math.max(eb, bo * 0.75)}px/1.2 var(--celuma-font-body)`, color: 'var(--celuma-primary-ink)', whiteSpace: 'nowrap' }}>{c.cta}</span>
+                <PubLockup size={iso} />
+              </div>
+              <div style={{ alignSelf: 'end', height: '100%', minHeight: (R.module.min * safeW * safeH) / lModW, maxHeight: (R.module.max * safeW * safeH) / lModW }}>{moduleEl}</div>
+            </div>
+          </div>
+        ) : (
+          <div style={{ height: '100%', display: 'flex', flexDirection: 'column', gap: gap * 1.2 }}>
+            {text}
+            <div style={{ flex: 1, minHeight: 0, display: 'flex', alignItems: 'stretch' }}>
+              <div style={{ width: '100%', alignSelf: 'center', height: '100%', minHeight: Math.max(safeH * R.module.min, safeW / R.module.aspect[1]), maxHeight: safeH * R.module.max }}>{moduleEl}</div>
+            </div>
+            {footer}
+          </div>
+        )}
+      </div>
     </div>
   );
 }
@@ -202,44 +297,26 @@ function PubDirC({ format = 'square', tag = true }) {
 // Anatomía de la dirección recomendada (A): márgenes, zonas y proporciones.
 // ---------------------------------------------------------------
 function PubAnatomyA() {
-  const f = PUB_FORMATS.story;
-  const k = pubMetrics(f);
-  const zone = (top, height, label, color) => (
-    <div style={{ position: 'absolute', left: 0, right: 0, top, height, background: color, display: 'flex', alignItems: 'center', justifyContent: 'center', font: '700 9px/1 var(--celuma-font-body)', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--celuma-ink)' }}>{label}</div>
-  );
-  const Box = ({ fmt, children }) => (
-    <div style={{ position: 'relative', width: fmt.w, height: fmt.h, flexShrink: 0 }}>{children}</div>
-  );
-  const sq = PUB_FORMATS.square; const ks = pubMetrics(sq);
+  const rules = [
+    ['Área útil', 'Margen m = S/12. En 9:16, además, sin texto ni logo en el 14 % superior ni el 20 % inferior (franjas salmón).'],
+    ['Tipo', 'Eyebrow = máx(S·0,034; W·0,024) · título = máx(S·0,088; W·0,048) · texto = máx(S·0,044; W·0,029). El término en W mantiene legibles las piezas horizontales vistas a ~390 px.'],
+    ['Presupuesto de líneas', '1:1 → título ≤ 2, total ≤ 3 · 4:5 → ≤ 3 / 5 · 9:16 → ≤ 3 / 7 · 1.91:1 → ≤ 3 / 5 · 16:9 → ≤ 3 / 7. Si no cabe, versión condensada; el texto completo va en la descripción.'],
+    ['Módulo visual', '30–50 % del área útil y proporción entre 1:2 y 2:1 (nunca franja). 1:1 y 4:5 en L; 9:16 apilado; horizontales en columna (42 % del ancho).'],
+    ['Firma', 'Isotipo S·0,075 + “Céluma”; protección ½ isotipo. En L: dirección y lockup abajo a la izquierda; en el resto, lockup a la izquierda y dirección a la derecha.'],
+    ['CTA', 'Dirección corta en una sola línea, en tinta #1f7a75. El botón solo en canales con clic.'],
+    ['Salmón', 'Solo la regla del eyebrow.'],
+  ];
   return (
-    <div style={{ width: 980, height: 760, background: '#fff', padding: 32, position: 'relative', fontFamily: 'var(--celuma-font-body)', color: 'var(--celuma-ink)' }}>
+    <div style={{ width: 1180, height: 840, background: '#fff', padding: 32, position: 'relative', fontFamily: 'var(--celuma-font-body)', color: 'var(--celuma-ink)' }}>
       <ProposalTag />
-      <div className="cel-eyebrow">Propuesta · Dirección A · anatomía</div>
-      <div className="t-display" style={{ fontSize: 26, marginTop: 8 }}>Reglas derivadas del lado corto (S)</div>
-      <div style={{ display: 'flex', gap: 28, marginTop: 20, alignItems: 'flex-start' }}>
-        <Box fmt={sq}>
-          <PubDirA format="square" tag={false} />
-          <div style={{ position: 'absolute', inset: ks.m, border: '1px dashed #c2554c' }} />
-          <div style={{ position: 'absolute', left: 0, top: 0, width: ks.m, height: ks.m, background: 'rgba(249,141,132,0.25)' }} />
-          <div style={{ position: 'absolute', left: ks.m - ks.iso * 0.5, bottom: ks.m - ks.iso * 0.5, width: ks.iso * 5.4, height: ks.iso * 2, border: '1px solid #1f7a75', background: 'rgba(73,182,173,0.10)' }} />
-        </Box>
-        <Box fmt={f}>
-          <PubDirA format="story" tag={false} />
-          {zone(0, f.h * 0.14, 'Zona de interfaz · 14 %', 'rgba(249,141,132,0.28)')}
-          {zone(f.h * 0.8, f.h * 0.2, 'Zona de interfaz · 20 %', 'rgba(249,141,132,0.28)')}
-        </Box>
-        <div style={{ fontSize: 12, lineHeight: 1.55, color: 'var(--celuma-fg-2)', display: 'grid', gap: 10, maxWidth: 230 }}>
-          {[
-            ['Margen', 'm = S/12 en todos los lados (90 px a 1080).'],
-            ['Zonas de interfaz', 'En 9:16 no colocar texto ni logo en el 14 % superior ni el 20 % inferior.'],
-            ['Logotipo', 'Abajo a la izquierda. Isotipo = S·0,075; protección = ½ isotipo. Nunca sobre el módulo visual.'],
-            ['Jerarquía', 'Eyebrow → título (máx. 3 líneas) → texto (máx. 2 líneas) → firma.'],
-            ['Texto e imagen', 'Texto ≤ 45 % del área útil; módulo visual 30–50 %.'],
-            ['CTA', 'Dirección corta en tinta teal; el botón sólo en canales con clic.'],
-            ['Salmón', 'Solo la regla del eyebrow; no para texto.'],
-          ].map(([t, d]) => (
-            <div key={t}><strong style={{ color: 'var(--celuma-ink)' }}>{t}.</strong> {d}</div>
-          ))}
+      <div className="cel-eyebrow">Propuesta · Dirección A · anatomía (verificada con pruebas)</div>
+      <div className="t-display" style={{ fontSize: 26, marginTop: 8 }}>Reglas derivadas del lado corto (S) y del ancho (W)</div>
+      <div style={{ display: 'flex', gap: 22, marginTop: 20, alignItems: 'flex-start' }}>
+        <PubDirA format="square" content="medio" tag={false} guides />
+        <PubDirA format="story" content="medio" tag={false} guides />
+        <div style={{ fontSize: 11.5, lineHeight: 1.5, color: 'var(--celuma-fg-2)', display: 'grid', gap: 9, width: 380 }}>
+          {rules.map(([t, d]) => (<div key={t}><strong style={{ color: 'var(--celuma-ink)' }}>{t}.</strong> {d}</div>))}
+          <div style={{ marginTop: 4, fontSize: 10.5, color: 'var(--celuma-fg-3)' }}>Contenidos de prueba: docs.celuma.mx (notas 1.3.1 y guía de muestras). Medición automática en docs/revision-grafica/scripts/measure-a.mjs.</div>
         </div>
       </div>
     </div>
@@ -302,4 +379,4 @@ function PubDoDont() {
   );
 }
 
-Object.assign(window, { PUB_FORMATS, PubDirA, PubDirB, PubDirC, PubAnatomyA, PubDoDont, ProposalTag, PubLockup });
+Object.assign(window, { PUB_CONTENTS, PUB_A_RULE, PUB_FORMATS, PubDirA, PubDirB, PubDirC, PubAnatomyA, PubDoDont, ProposalTag, PubLockup });

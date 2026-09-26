@@ -8,8 +8,26 @@ function canvasDigital() {
         <DCArtboard id="pub-a-story" label="Propuesta · A · 9:16" width={360} height={640}><PubDirA format="story" visual="cells" /></DCArtboard>
         <DCArtboard id="pub-a-link" label="Propuesta · A · 1.91:1" width={600} height={314}><PubDirA format="link" visual="pattern" /></DCArtboard>
         <DCArtboard id="pub-a-wide" label="Propuesta · A · 16:9" width={640} height={360}><PubDirA format="wide" visual="cells" /></DCArtboard>
-        <DCArtboard id="pub-a-anatomia" label="Propuesta · A · Anatomía" width={980} height={760}><PubAnatomyA /></DCArtboard>
+        <DCArtboard id="pub-a-anatomia" label="Propuesta · A · Anatomía" width={1180} height={840}><PubAnatomyA /></DCArtboard>
         <DCArtboard id="pub-dodont" label="Propuesta · Usos correctos e incorrectos" width={980} height={520}><PubDoDont /></DCArtboard>
+      </DCSection>
+
+<DCSection id="pub-a-pruebas" title="Propuesta · Publicaciones A · Pruebas de contenido" subtitle="Pendiente de aprobación · 3 textos comprobados en docs.celuma.mx (corto, medio, largo) × 5 proporciones · guías: área útil y zonas de interfaz 9:16">
+        <DCArtboard id="pub-a-prueba-corto-square" label="Propuesta · A · prueba corto · 1:1" width={360} height={360}><PubDirA format="square" content="corto" guides /></DCArtboard>
+        <DCArtboard id="pub-a-prueba-corto-portrait" label="Propuesta · A · prueba corto · 4:5" width={360} height={450}><PubDirA format="portrait" content="corto" guides /></DCArtboard>
+        <DCArtboard id="pub-a-prueba-corto-story" label="Propuesta · A · prueba corto · 9:16" width={360} height={640}><PubDirA format="story" content="corto" guides /></DCArtboard>
+        <DCArtboard id="pub-a-prueba-corto-link" label="Propuesta · A · prueba corto · 1.91:1" width={600} height={314}><PubDirA format="link" content="corto" guides /></DCArtboard>
+        <DCArtboard id="pub-a-prueba-corto-wide" label="Propuesta · A · prueba corto · 16:9" width={640} height={360}><PubDirA format="wide" content="corto" guides /></DCArtboard>
+        <DCArtboard id="pub-a-prueba-medio-square" label="Propuesta · A · prueba medio · 1:1" width={360} height={360}><PubDirA format="square" content="medio" guides /></DCArtboard>
+        <DCArtboard id="pub-a-prueba-medio-portrait" label="Propuesta · A · prueba medio · 4:5" width={360} height={450}><PubDirA format="portrait" content="medio" guides /></DCArtboard>
+        <DCArtboard id="pub-a-prueba-medio-story" label="Propuesta · A · prueba medio · 9:16" width={360} height={640}><PubDirA format="story" content="medio" guides /></DCArtboard>
+        <DCArtboard id="pub-a-prueba-medio-link" label="Propuesta · A · prueba medio · 1.91:1" width={600} height={314}><PubDirA format="link" content="medio" guides /></DCArtboard>
+        <DCArtboard id="pub-a-prueba-medio-wide" label="Propuesta · A · prueba medio · 16:9" width={640} height={360}><PubDirA format="wide" content="medio" guides /></DCArtboard>
+        <DCArtboard id="pub-a-prueba-largo-square" label="Propuesta · A · prueba largo · 1:1" width={360} height={360}><PubDirA format="square" content="largo" guides /></DCArtboard>
+        <DCArtboard id="pub-a-prueba-largo-portrait" label="Propuesta · A · prueba largo · 4:5" width={360} height={450}><PubDirA format="portrait" content="largo" guides /></DCArtboard>
+        <DCArtboard id="pub-a-prueba-largo-story" label="Propuesta · A · prueba largo · 9:16" width={360} height={640}><PubDirA format="story" content="largo" guides /></DCArtboard>
+        <DCArtboard id="pub-a-prueba-largo-link" label="Propuesta · A · prueba largo · 1.91:1" width={600} height={314}><PubDirA format="link" content="largo" guides /></DCArtboard>
+        <DCArtboard id="pub-a-prueba-largo-wide" label="Propuesta · A · prueba largo · 16:9" width={640} height={360}><PubDirA format="wide" content="largo" guides /></DCArtboard>
       </DCSection>
 
 <DCSection id="pub-b" title="Propuesta · Publicaciones B · Ficha de producto" subtitle="Pendiente de aprobación · módulos de la app para guías y novedades">

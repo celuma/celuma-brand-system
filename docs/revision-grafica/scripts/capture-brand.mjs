@@ -1,6 +1,6 @@
 // Captures every artboard of the brand-system canvases at 1:1 (DPR 2).
 // Usage: node capture-brand.mjs <outDir> [canvasId...]
-import { chromium } from '/Users/rafaelmagana/Céluma/celuma-frontend/node_modules/playwright/index.mjs';
+import { chromium } from '../../../../celuma-frontend/node_modules/playwright/index.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 

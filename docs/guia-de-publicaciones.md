@@ -23,7 +23,7 @@ Céluma es un SaaS de gestión para laboratorios de anatomía patológica. Lo us
 | Dirección B “Ficha de producto” | 🟡 Propuesta | Para guías paso a paso y novedades de producto. |
 | Dirección C “Luz nocturna” | 🟠 Exploración | Solo eventos puntuales; no como plantilla diaria. |
 | Artboards heredados de *Material digital* (firmas, hero, slides) | 🟠 Conceptos | Sirven de inspiración; **no** copiar textos ni cifras. |
-| Papelería, reporte clínico y etiquetas | 🔴 No usar para publicaciones | Siguen en exploración y requieren revisión de producto. |
+| Papelería, informe de ejemplo y etiquetas | 🔴 No usar para publicaciones | Exploración visual de marca: no aprobada ni plantilla operativa. El informe es un ejemplo con datos ficticios y sin validez clínica. |
 | `assets/celuma-logo-v3.png` | 🔴 No usar | Es otro dibujo, no es la versión final. |
 
 ## 3. Color
@@ -44,21 +44,35 @@ Céluma es un SaaS de gestión para laboratorios de anatomía patológica. Lo us
 
 ## 4. Tipografía
 
-- **Títulos:** Baloo 2 · 800, interletrado −0,02 em, máximo 3 líneas.
-- **Texto:** fuente del sistema (en diseño, usa la del sistema operativo; en Figma o Canva, una sans neutra equivalente hasta que se defina una oficial para piezas exportadas; ver §8), máximo 2 líneas en publicaciones.
+- **Títulos:** Baloo 2 · 800, interletrado −0,02 em.
+- **Texto:** fuente del sistema (en diseño, usa la del sistema operativo; en Figma o Canva, una sans neutra equivalente hasta que se defina una oficial para piezas exportadas; ver §8).
 - **Eyebrow:** mayúsculas, 600–700, interletrado 0,14 em, en teal de tinta.
-- **Tamaños en publicaciones** (S = lado corto del formato): eyebrow S × 0,034; título S × 0,088; texto S × 0,044. A 1080 px: título ≈ 95 px, texto ≈ 48 px. *(Recomendación.)*
+- **Tamaños en publicaciones** *(recomendación verificada con pruebas)*. S = lado corto, W = ancho del formato:
+  - eyebrow = el mayor entre S × 0,034 y W × 0,024;
+  - título = el mayor entre S × 0,088 y W × 0,048;
+  - texto = el mayor entre S × 0,044 y W × 0,029.
+
+  En formatos cuadrados y verticales manda S (a 1080 px: título ≈ 95 px, texto ≈ 48 px). En horizontales manda W: así el texto sigue legible cuando la pieza se ve a unos 390 px de ancho en un teléfono.
 
 ## 5. Composición (Dirección A, recomendada)
 
-1. **Margen** = S ÷ 12 en los cuatro lados (90 px a 1080 px).
-2. **Orden de lectura:** eyebrow → título → texto → módulo visual → firma (logo y dirección).
-3. **Texto ≤ 45 %** del área útil; **módulo visual 30–50 %**.
-4. **Firma** abajo: lockup a la izquierda y dirección corta (p. ej. `docs.celuma.mx`) a la derecha en teal de tinta.
-5. **Formatos verticales 9:16:** deja libre el 14 % superior y el 20 % inferior (zonas que ocupan las interfaces de las apps). No pongas texto ni logo ahí.
-6. **Horizontales (1.91:1 y 16:9):** texto a la izquierda y módulo visual a la derecha (proporción 1,35 : 1).
+1. **Área útil:** margen = S ÷ 12 en los cuatro lados (90 px a 1080 px). En **9:16**, además, deja libre el **14 % superior** y el **20 % inferior** (zonas que ocupan las interfaces de las apps): ahí no va texto ni logo.
+2. **Orden de lectura:** eyebrow → título → texto → módulo visual → firma (dirección y logo).
+3. **Módulo visual:** entre el **30 % y el 50 % del área útil**, con proporción entre **1:2 y 2:1**. Nunca una franja delgada.
+4. **Composición por formato:**
+   - **1:1 y 4:5, en L.** Texto arriba. Abajo, la firma a la izquierda (dirección y, debajo, el lockup) y el módulo a la derecha (62 % del ancho en 1:1, 60 % en 4:5).
+   - **9:16, apilado.** Texto, módulo a todo el ancho y firma, dentro de las zonas seguras.
+   - **1.91:1 y 16:9, en columnas.** Texto y firma a la izquierda, módulo a la derecha (42 % del ancho).
+5. **Presupuesto de texto** (líneas de título / total título + texto):
 
-Las mismas reglas funcionan en 1:1, 4:5, 9:16, 1.91:1 y 16:9 porque todo deriva del lado corto; no dependen de una red social concreta. Ver `docs/revision-grafica/capturas/30-propuesta-A-formatos.jpg` y `34-propuesta-A-anatomia.jpg`.
+   | 1:1 | 4:5 | 9:16 | 1.91:1 | 16:9 |
+   |---|---|---|---|---|
+   | ≤ 2 / ≤ 3 | ≤ 3 / ≤ 5 | ≤ 3 / ≤ 7 | ≤ 3 / ≤ 5 | ≤ 3 / ≤ 7 |
+
+   Si el mensaje no cabe, escribe una **versión condensada** para ese formato y deja el texto completo en la descripción de la publicación. En las pruebas, un mensaje largo necesitó versión condensada en 1:1, 4:5 y 1.91:1, y uno medio solo en 1:1.
+6. **Dirección (CTA):** corta, en una sola línea y en teal de tinta (p. ej. `docs.celuma.mx`).
+
+Las reglas no dependen de una red social concreta: se definen por proporción. Evidencia: `docs/revision-grafica/capturas/36-propuesta-A-pruebas-contenido.jpg` (3 contenidos comprobados × 5 proporciones) y `34-propuesta-A-anatomia.jpg`. La medición automática está en `docs/revision-grafica/scripts/measure-a.mjs`.
 
 ## 6. Logotipo
 

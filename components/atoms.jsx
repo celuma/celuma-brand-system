@@ -248,6 +248,41 @@ function CelImageSlot({ label = 'Imagen del caso', note = 'La aporta el laborato
   );
 }
 
+// --- Exploration marker ---
+// Wraps a legacy stationery artboard to state, discreetly, that it is a visual
+// exploration of the brand — not an approved piece or an operational template.
+// Sits in the top-right corner, inside the margin, and does not block the design.
+// `below` moves the marker to a 16 px strip under small pieces (lab labels)
+// where any corner would cover content.
+function CelExploration({ children, text = 'Exploración', below = false }) {
+  if (below) {
+    return (
+      <div style={{ display: 'block', width: 'fit-content' }}>
+        {children}
+        <div title="Exploración visual de marca · no aprobada · no es plantilla operativa"
+          style={{ height: 16, display: 'flex', alignItems: 'center', gap: 6, padding: '0 4px', background: '#f7f5f0', borderTop: '1px dashed rgba(13,27,42,0.3)', font: '700 7px/1 var(--celuma-font-body)', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--celuma-fg-2)' }}>
+          {text}<span style={{ fontWeight: 500, letterSpacing: '0.04em', textTransform: 'none' }}>· no operativa</span>
+        </div>
+      </div>
+    );
+  }
+  return (
+    <div style={{ position: 'relative', display: 'block', width: 'fit-content' }}>
+      {children}
+      <span
+        title="Exploración visual de marca · no aprobada · no es plantilla operativa"
+        style={{
+          position: 'absolute', top: 4, right: 4, zIndex: 20, lineHeight: 1,
+          font: '700 7px/1 var(--celuma-font-body)', letterSpacing: '0.12em', textTransform: 'uppercase',
+          padding: '3px 5px', borderRadius: 3, color: 'var(--celuma-ink)',
+          background: 'rgba(255,255,255,0.82)', border: '1px dashed rgba(13,27,42,0.4)',
+          pointerEvents: 'none',
+        }}
+      >{text}</span>
+    </div>
+  );
+}
+
 // --- Soft radial blob (corner atmosphere) ---
 function CelBlob({ size = 480, x = 0, y = 0, color = 'teal', opacity = 1 }) {
   const colors = {
@@ -270,5 +305,5 @@ function CelBlob({ size = 480, x = 0, y = 0, color = 'teal', opacity = 1 }) {
 
 Object.assign(window, {
   CelMark, CelIso, CelCellField, CelContour, CelDots, CelGrid,
-  CelBarcode, CelQR, CelStatus, CelIcon, CelBlob, CelImageSlot,
+  CelBarcode, CelQR, CelStatus, CelIcon, CelBlob, CelImageSlot, CelExploration,
 });

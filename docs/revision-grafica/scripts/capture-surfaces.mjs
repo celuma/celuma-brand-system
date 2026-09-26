@@ -1,5 +1,5 @@
 // Captures representative surfaces of app (mocked API, synthetic data), landing and docs.
-import { chromium } from '/Users/rafaelmagana/Céluma/celuma-frontend/node_modules/playwright/index.mjs';
+import { chromium } from '../../../../celuma-frontend/node_modules/playwright/index.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 

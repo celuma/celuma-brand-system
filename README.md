@@ -8,10 +8,10 @@ Abra `index.html` con un servidor local (por ejemplo, `python3 -m http.server 80
 
 | Lienzo | Contenido | Estado actual |
 | --- | --- | --- |
-| Fundamentos | Logotipo, atmósfera, patrones e ilustración | Referencia visual en revisión |
-| Papelería | Papelería corporativa, editorial y piezas de laboratorio | Conceptos; no hay variantes elegidas ni fichas de imprenta |
-| Material digital | Firmas, ejemplos de interfaz, web y presentaciones | Conceptos; verificar textos y capacidades antes de publicar |
-| Componentes | Inventario inicial de patrones reales de la app | Referencia; los componentes funcionales siguen en `celuma-frontend` |
+| Fundamentos | Logotipo, atmósfera, patrones e ilustración; secciones “Propuesta” con reglas de identidad | Referencia visual en revisión; las reglas son propuestas |
+| Papelería | Papelería corporativa, editorial y piezas de laboratorio | **Exploración visual de marca: no aprobada ni plantilla operativa.** Cada sección y artboard lleva la marca “Exploración”. El informe es un ejemplo visual, no cómo el producto emite informes |
+| Material digital | Direcciones de publicación (secciones “Propuesta”) y conceptos heredados de firmas, interfaz, web y presentaciones | Propuestas pendientes de aprobación; los conceptos heredados no están aprobados |
+| Componentes | Inventario y fichas propuestas de patrones reales de la app | Referencia; los componentes funcionales siguen en `celuma-frontend` |
 
 Los artboards existentes se conservaron y agruparon por uso. Cada lienzo tiene su propio estado de posición y edición en los entornos que ofrecen el puente `window.omelette`. Las ediciones hechas en un navegador normal no se guardan en el repositorio. No use los nombres editables del lienzo como registro de aprobaciones.
 
