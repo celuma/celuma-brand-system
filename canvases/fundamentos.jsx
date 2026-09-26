@@ -2,6 +2,14 @@
 function canvasFundamentos() {
   return (
     <>
+<DCSection id="reglas" title="Propuesta · Reglas de identidad" subtitle="Pendiente de aprobación · roles de color, tipografía, logotipo, iconos y voz">
+        <DCArtboard id="fund-color" label="Propuesta · Roles de color" width={980} height={560}><FundColorRoles /></DCArtboard>
+        <DCArtboard id="fund-tipo" label="Propuesta · Escalas tipográficas" width={980} height={560}><FundTypeScale /></DCArtboard>
+        <DCArtboard id="fund-logo" label="Propuesta · Estado del logotipo" width={980} height={600}><FundLogoStatus /></DCArtboard>
+        <DCArtboard id="fund-iconos" label="Propuesta · Iconografía" width={980} height={430}><FundIconography /></DCArtboard>
+        <DCArtboard id="fund-voz" label="Propuesta · Voz" width={980} height={470}><FundVoice /></DCArtboard>
+      </DCSection>
+
 <DCSection id="identidad" title="01 · Identidad" subtitle="Lockups del logotipo, sistema de marca, atmósfera">
         <DCArtboard id="lockups" label="Lockups del logotipo" width={620} height={420}>
           <div style={{ width: '100%', height: '100%', padding: 36, display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 28, background: '#fff' }}>

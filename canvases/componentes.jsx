@@ -42,6 +42,15 @@ function canvasComponentes() {
           </div>
         </DCArtboard>
       </DCSection>
+
+      <DCSection id="fichas" title="Propuesta · Fichas de componentes" subtitle="Pendiente de aprobación · anatomía, variantes, estados y reglas de componentes reales de celuma-frontend">
+        <DCArtboard id="ficha-inventario" label="Propuesta · Inventario contrastado" width={980} height={600}><CompInventory /></DCArtboard>
+        <DCArtboard id="ficha-button" label="Propuesta · CelumaButton" width={980} height={620}><CompButton /></DCArtboard>
+        <DCArtboard id="ficha-header" label="Propuesta · PageHeader" width={980} height={620}><CompPageHeader /></DCArtboard>
+        <DCArtboard id="ficha-chip" label="Propuesta · Chip de estado" width={980} height={620}><CompStatusChip /></DCArtboard>
+        <DCArtboard id="ficha-input" label="Propuesta · FloatingCaptionInput" width={980} height={620}><CompInput /></DCArtboard>
+        <DCArtboard id="ficha-empty" label="Propuesta · EmptyState" width={980} height={560}><CompEmpty /></DCArtboard>
+      </DCSection>
     </>
   );
 }

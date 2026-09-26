@@ -270,7 +270,7 @@ function StaffBadgeMinimal() {
         <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
           <div className="cel-eyebrow" style={{ fontSize: 9 }}>Visitante autorizado</div>
           <div className="t-display" style={{ fontSize: 32, lineHeight: 0.96, marginTop: 8 }}>Andrés<br/>Carmona.</div>
-          <div style={{ fontSize: 11, color: 'var(--celuma-fg-3)', marginTop: 6 }}>Auditor externo · INDRE</div>
+          <div style={{ fontSize: 11, color: 'var(--celuma-fg-3)', marginTop: 6 }}>Auditor externo · Organismo ejemplo</div>
 
           <div style={{ marginTop: 24, display: 'grid', gap: 8, fontSize: 10, color: 'var(--celuma-fg-2)' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}><span>Sucursal</span><strong style={{ color: 'var(--celuma-ink)' }}>Insurgentes</strong></div>

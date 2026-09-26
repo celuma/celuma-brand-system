@@ -57,9 +57,8 @@ function ClinicalReportPage() {
           <div style={{ fontSize: 11, color: 'var(--celuma-fg-2)', lineHeight: 1.65 }}>
             Mucosa colónica con arquitectura glandular preservada en la periferia. En el centro de los fragmentos se identifica proliferación de glándulas con elongación, ramificación leve y estratificación nuclear. Hipercromasia y pseudoestratificación sin pérdida de polaridad.
           </div>
-          <div style={{ position: 'relative', height: 110, background: 'var(--celuma-primary-soft)', borderRadius: 12, overflow: 'hidden' }}>
-            <CelCellField width={130} height={110} density={18} seed={2} opacity={0.75} palette={['#c8ecdc','#49b6ad','#e58a8a','#e6f7f7','#49b6ad']} />
-            <div style={{ position: 'absolute', bottom: 6, right: 6, background: '#fff', padding: '2px 6px', borderRadius: 6, fontSize: 8, color: 'var(--celuma-fg-3)' }} className="cel-mono">40× · H&E</div>
+          <div style={{ position: 'relative', height: 110 }}>
+            <CelImageSlot label="Imagen del caso" note="Solo si el laboratorio la adjunta" />
           </div>
         </div>
 
@@ -285,7 +284,7 @@ function HeaderStripVariants() {
       {/* Footer variants */}
       <div className="cel-sheet" style={{ padding: '14px 22px', borderTop: '1px solid var(--celuma-border)' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: 9, color: 'var(--celuma-fg-3)' }}>
-          <span>© 2026 Céluma · Patología Digital S.A. de C.V.</span>
+          <span>© 2026 Céluma · Razón social por confirmar</span>
           <span className="cel-mono">P. 01 / 04</span>
         </div>
       </div>

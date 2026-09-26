@@ -226,6 +226,28 @@ function CelIcon({ name, size = 16, stroke = 1.8, color = 'currentColor' }) {
   );
 }
 
+// --- Neutral slot for real case imagery ---
+// Decorative illustration must never stand in for diagnostic evidence. Where a
+// layout needs a clinical image, show this neutral slot instead.
+function CelImageSlot({ label = 'Imagen del caso', note = 'La aporta el laboratorio', dark = false, style = {} }) {
+  const ink = dark ? 'rgba(255,255,255,0.72)' : 'var(--celuma-fg-2)';
+  const line = dark ? 'rgba(255,255,255,0.14)' : 'rgba(13,27,42,0.08)';
+  return (
+    <div style={{
+      position: 'relative', width: '100%', height: '100%', borderRadius: 12, overflow: 'hidden',
+      background: dark ? 'rgba(255,255,255,0.04)' : '#f3f4f6',
+      backgroundImage: `repeating-linear-gradient(135deg, ${line} 0 1px, transparent 1px 9px)`,
+      border: `1px dashed ${dark ? 'rgba(255,255,255,0.28)' : 'rgba(13,27,42,0.22)'}`,
+      display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 4,
+      color: ink, textAlign: 'center', padding: 8, ...style,
+    }}>
+      <CelIcon name="file-text" size={16} color={ink} />
+      <div style={{ fontSize: 10, fontWeight: 700 }}>{label}</div>
+      {note && <div style={{ fontSize: 9, opacity: 0.85 }}>{note}</div>}
+    </div>
+  );
+}
+
 // --- Soft radial blob (corner atmosphere) ---
 function CelBlob({ size = 480, x = 0, y = 0, color = 'teal', opacity = 1 }) {
   const colors = {
@@ -248,5 +270,5 @@ function CelBlob({ size = 480, x = 0, y = 0, color = 'teal', opacity = 1 }) {
 
 Object.assign(window, {
   CelMark, CelIso, CelCellField, CelContour, CelDots, CelGrid,
-  CelBarcode, CelQR, CelStatus, CelIcon, CelBlob,
+  CelBarcode, CelQR, CelStatus, CelIcon, CelBlob, CelImageSlot,
 });

@@ -21,6 +21,12 @@ El teal de identidad es `#49b6ad`, alineado con el frontend. En superficies clar
 
 Este ajuste cambia el color del lienzo, pero no constituye por sí solo una aprobación de todas sus piezas. Consulte [el estado de uso](docs/estado-de-piezas.md) antes de compartir material externo.
 
+## Documentos de trabajo
+
+- [Revisión gráfica y dirección de marca](docs/revision-grafica-y-direccion-de-marca.md): auditoría visual, matriz bidireccional, propuestas y decisiones pendientes.
+- [Guía de publicaciones](docs/guia-de-publicaciones.md): qué reutilizar, qué está en exploración y qué debe revisarse.
+- Las secciones cuyo título empieza con “Propuesta” están pendientes de aprobación.
+
 ## Responsabilidad de cada repositorio
 
 - **Este repositorio:** identidad, reglas gráficas, modelos visuales y, más adelante, tokens y componentes compartidos versionados.

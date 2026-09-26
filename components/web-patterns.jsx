@@ -103,7 +103,7 @@ function IllustCellGroup() {
         <circle cx="90" cy="250" r="22" fill="none" stroke="#49b6ad" strokeWidth="2" opacity="0.6" />
       </svg>
       <div style={{ position: 'absolute', left: 24, bottom: 18 }}>
-        <div className="cel-eyebrow">Illustration · 01</div>
+        <div className="cel-eyebrow">Ilustración · 01</div>
         <div className="t-display" style={{ fontSize: 18, marginTop: 4 }}>Microcosmos</div>
       </div>
     </div>
@@ -142,7 +142,7 @@ function IllustNetwork() {
         ))}
       </svg>
       <div style={{ position: 'absolute', left: 24, bottom: 18 }}>
-        <div className="cel-eyebrow">Illustration · 02</div>
+        <div className="cel-eyebrow">Ilustración · 02</div>
         <div className="t-display" style={{ fontSize: 18, marginTop: 4 }}>Trazabilidad</div>
       </div>
     </div>
@@ -159,7 +159,7 @@ function IllustLumen() {
         <CelIso size={170} opacity={0.95} />
       </div>
       <div style={{ position: 'absolute', left: 24, bottom: 18, color: '#fff' }}>
-        <div className="cel-eyebrow on-dark">Illustration · 03</div>
+        <div className="cel-eyebrow on-dark">Ilustración · 03</div>
         <div className="t-display" style={{ fontSize: 18, marginTop: 4, color: '#fff' }}>Lumen</div>
       </div>
     </div>
@@ -177,11 +177,11 @@ function HeroComposition() {
         <div>
           <div className="cel-eyebrow">Ilumina y digitaliza</div>
           <div className="t-display" style={{ fontSize: 56, lineHeight: 0.96, marginTop: 14 }}>
-            La patología<br/>en tiempo real,<br/>
-            <span style={{ color: 'var(--celuma-primary-ink)' }}>de extremo a extremo.</span>
+            Cada etapa<br/>del caso, clara<br/>
+            <span style={{ color: 'var(--celuma-primary-ink)' }}>y a la vista.</span>
           </div>
           <div style={{ marginTop: 18, fontSize: 14, color: 'var(--celuma-fg-3)', lineHeight: 1.65, maxWidth: 380 }}>
-            Céluma simplifica cada proceso: desde el registro del caso hasta la firma del informe, sin perder una sola muestra entre estaciones.
+            Céluma acompaña el flujo del laboratorio: desde la recepción de la muestra hasta el informe firmado y la operación administrativa.
           </div>
           <div style={{ marginTop: 24, display: 'flex', gap: 12 }}>
             <button style={{ background: 'var(--celuma-primary)', color: 'var(--celuma-on-primary)', border: 0, padding: '14px 24px', borderRadius: 12, fontSize: 14, fontWeight: 700, cursor: 'pointer', boxShadow: 'var(--celuma-shadow-cta-sm)', display: 'inline-flex', alignItems: 'center', gap: 8 }}>
@@ -202,9 +202,8 @@ function HeroComposition() {
             </div>
             <div className="t-display" style={{ fontSize: 16, marginTop: 12 }}>R. Martínez · 56 a · F</div>
             <div style={{ fontSize: 10, color: 'var(--celuma-fg-3)', marginTop: 2 }}>Biopsia GI · Sigmoides</div>
-            <div style={{ marginTop: 12, height: 90, background: 'var(--celuma-primary-soft)', borderRadius: 12, position: 'relative', overflow: 'hidden' }}>
-              <CelCellField width={280} height={90} density={14} seed={5} opacity={0.72} palette={['#c8ecdc','#49b6ad','#e58a8a','#e6f7f7','#49b6ad']} />
-              <div style={{ position: 'absolute', bottom: 6, left: 8, background: 'rgba(13,27,42,0.72)', color: '#fff', padding: '2px 6px', borderRadius: 5, fontSize: 8, fontFamily: 'var(--celuma-font-mono)' }}>40× · H&E</div>
+            <div style={{ marginTop: 12, height: 90, position: 'relative' }}>
+              <CelImageSlot label="Imagen adjunta" note="Espacio neutro · sin imagen clínica" />
             </div>
             <div style={{ marginTop: 12, display: 'flex', justifyContent: 'space-between', fontSize: 10, color: 'var(--celuma-fg-3)' }}>
               <span>Recibido · 14.05</span>
@@ -239,17 +238,17 @@ function HeroComposition() {
 function SectionHeader() {
   return (
     <div className="cel-sheet" style={{ width: 920, padding: 0, position: 'relative', overflow: 'hidden', borderRadius: 18 }}>
-      <div style={{ padding: '60px 50px', position: 'relative' }}>
+      <div style={{ padding: '36px 50px', position: 'relative' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexWrap: 'wrap', gap: 24 }}>
-          <div style={{ maxWidth: 560 }}>
+          <div style={{ maxWidth: 520 }}>
             <div className="cel-eyebrow">Para quién</div>
-            <div className="t-display" style={{ fontSize: 44, marginTop: 12, lineHeight: 1 }}>
-              Construido junto a los equipos que diagnostican en México.
+            <div className="t-display" style={{ fontSize: 40, marginTop: 12, lineHeight: 1.02 }}>
+              Pensado para cada persona del laboratorio.
             </div>
           </div>
-          <div className="cel-pill ghost" style={{ fontSize: 11 }}>4 perfiles · 100% trazabilidad</div>
+          <div className="cel-pill ghost" style={{ fontSize: 11 }}>Patología · técnica · asistencia · administración</div>
         </div>
-        <hr className="cel-rule teal" style={{ marginTop: 28, width: 80, height: 2 }} />
+        <hr className="cel-rule teal" style={{ marginTop: 22, width: 80, height: 2 }} />
       </div>
     </div>
   );

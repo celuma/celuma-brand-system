@@ -50,10 +50,10 @@ function SlideStats() {
 
         <div style={{ flex: 1, display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16, marginTop: 30 }}>
           {[
-            ['Muestras', '4,128', '+ 18% vs Q1', 'beaker'],
+            ['Muestras', '4,128', 'Datos ilustrativos', 'beaker'],
             ['Casos firmados', '3,994', 'Datos ilustrativos', 'shield-check'],
-            ['Tiempo medio', '34 h', '↓ 8 h vs Q1', 'calendar'],
-            ['Sucursales activas', '06', '+ 2 nuevas', 'map-pin'],
+            ['Tiempo medio', '34 h', 'Datos ilustrativos', 'calendar'],
+            ['Sucursales activas', '06', 'Datos ilustrativos', 'map-pin'],
           ].map(([l, n, s, ic], i) => (
             <div key={i} style={{ background: '#fff', borderRadius: 16, padding: 20, boxShadow: 'var(--celuma-shadow-soft)', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -111,29 +111,29 @@ function SlideDivider() {
 function SlideContent() {
   return (
     <div className="cel-sheet" style={{ width: SLIDE.w, height: SLIDE.h, padding: 0, position: 'relative', overflow: 'hidden' }}>
-      <div style={{ position: 'relative', padding: '40px 50px', height: '100%', display: 'grid', gridTemplateColumns: '1.3fr 1fr', gap: 40 }}>
+      <div style={{ position: 'relative', padding: '32px 50px 52px', height: '100%', display: 'grid', gridTemplateColumns: '1.3fr 1fr', gap: 40 }}>
         <div style={{ display: 'flex', flexDirection: 'column' }}>
-          <div className="cel-eyebrow">Capacidades · Microscopía</div>
+          <div className="cel-eyebrow">Flujo del laboratorio</div>
           <div className="t-display" style={{ fontSize: 32, marginTop: 10, lineHeight: 1.02 }}>
-            Validación remota,<br/>desde cualquier sucursal.
+            Cada etapa,<br/>con responsable visible.
           </div>
           <hr className="cel-rule teal" style={{ width: 40, marginTop: 14, marginBottom: 14, height: 2 }} />
           <div style={{ fontSize: 13, color: 'var(--celuma-fg-2)', lineHeight: 1.7 }}>
-            Los patólogos consultan láminas digitales del laboratorio en tiempo real, comparan cortes y firman casos sin trasladar muestras físicas entre unidades.
+            Texto de ejemplo: describe una capacidad publicada y verificada en la aplicación. Evita cifras, promesas de tiempo o afirmaciones normativas.
           </div>
-          <div style={{ marginTop: 18, display: 'grid', gap: 10 }}>
+          <div style={{ marginTop: 14, display: 'grid', gap: 8 }}>
             {[
-              ['Visor multi-resolución', 'Hasta 40× sin pérdida de detalle'],
-              ['Anotaciones colaborativas', 'Mediciones, regiones y referencias'],
-              ['Comparativa entre cortes', 'Vista lado a lado, sincronizada'],
-            ].map(([t, s], i) => (
+              ['Recepción de muestras', 'Estados visibles para todo el equipo'],
+              ['Revisión de informes', 'Revisores asignados y trazables'],
+              ['Conversación por caso', 'Menciones y notificaciones'],
+            ].map(([t, sub], i) => (
               <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: 10 }}>
                 <div style={{ width: 22, height: 22, borderRadius: 7, background: 'var(--celuma-primary-soft)', color: 'var(--celuma-primary-ink)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                   <CelIcon name="check" size={11} color="currentColor" stroke={3} />
                 </div>
                 <div>
                   <div style={{ fontSize: 12, fontWeight: 700, color: 'var(--celuma-ink)' }}>{t}</div>
-                  <div style={{ fontSize: 11, color: 'var(--celuma-fg-3)', marginTop: 1 }}>{s}</div>
+                  <div style={{ fontSize: 11, color: 'var(--celuma-fg-3)', marginTop: 1 }}>{sub}</div>
                 </div>
               </div>
             ))}
@@ -141,22 +141,8 @@ function SlideContent() {
         </div>
 
         <div style={{ position: 'relative', background: 'var(--celuma-bg)', borderRadius: 18, padding: 0, overflow: 'hidden', boxShadow: 'var(--celuma-shadow-soft)' }}>
-          <div style={{ position: 'absolute', inset: 0 }}><CelCellField width={310} height={325} density={20} seed={12} opacity={0.65} palette={['#c8ecdc','#49b6ad','#e58a8a','#e6f7f7','#49b6ad']} /></div>
-          {/* Annotation pin */}
-          <div style={{ position: 'absolute', top: 60, left: 90, background: '#fff', padding: '6px 10px', borderRadius: 8, boxShadow: 'var(--celuma-shadow-float)', display: 'flex', alignItems: 'center', gap: 6 }}>
-            <div style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--celuma-primary)' }} />
-            <div style={{ fontSize: 9, fontWeight: 700, color: 'var(--celuma-ink)' }}>Hallazgo · A</div>
-          </div>
-          <div style={{ position: 'absolute', bottom: 14, left: 14, right: 14, background: 'rgba(13,27,42,0.85)', backdropFilter: 'blur(0)', color: '#fff', borderRadius: 10, padding: '10px 14px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-              <CelIcon name="microscope" size={16} color="#7dd8d9" />
-              <div>
-                <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.65)' }}>Visor · 40×</div>
-                <div style={{ fontSize: 11, fontWeight: 700 }}>CL‑00482 · H&E</div>
-              </div>
-            </div>
-            <div className="cel-pill green" style={{ fontSize: 9 }}>EN DIAGNÓSTICO</div>
-          </div>
+          <div style={{ position: 'absolute', inset: 0 }}><CelCellField width={310} height={300} density={16} seed={12} opacity={0.55} palette={['#c8ecdc','#49b6ad','#e58a8a','#e6f7f7','#49b6ad']} /></div>
+          <div style={{ position: 'absolute', bottom: 12, left: 12, background: '#fff', padding: '3px 8px', borderRadius: 6, fontSize: 9, color: 'var(--celuma-fg-2)' }}>Ilustración decorativa</div>
         </div>
       </div>
 
