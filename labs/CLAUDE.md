@@ -1,11 +1,31 @@
 # Contexto para Claude Code en `labs/`
 
-Este directorio es el laboratorio visual de Céluma. Lea `README.md`, `../README.md`, `../docs/estado-de-piezas.md`, `../docs/guia-de-publicaciones.md` y, para UI de producto, `../../celuma-frontend/CELUMA_DESIGN_SYSTEM.md` antes de diseñar. Contraste las reglas de UI con el código vigente del frontend cuando un experimento dependa de ellas.
+Este directorio es el laboratorio visual de Céluma. Siga también `../AGENTS.md`, que define las reglas de aprobación, adopción y cuidado de marca. Lea `README.md`, `../README.md`, `../docs/estado-de-piezas.md`, `../docs/guia-de-publicaciones.md` y, para UI de producto, `../../celuma-frontend/CELUMA_DESIGN_SYSTEM.md`. Contraste las reglas de UI con el código vigente del frontend cuando un experimento dependa de ellas.
+
+## Límites y flujo
 
 - Trabaje en `labs/experiments/<nombre-corto>/`, partiendo de `_template`. Mantenga el experimento ejecutable con el servidor estático existente; no agregue dependencias ni modifique archivos fuera de `labs/` sin una solicitud explícita.
-- Complete `BRIEF.md` con hipótesis, referencias, variantes, evidencia de revisión y estado. Mantenga visible «Exploración · no aprobada» en la vista y en las capturas.
-- Reutilice los tokens e isotipo existentes sin reinterpretarlos silenciosamente. Documente cualquier variante local. No presente propuestas actuales como reglas aprobadas.
+- Complete `BRIEF.md` con hipótesis, referencias, variantes, evidencia y estado. Mantenga visible el estado real de la pieza en la vista y las capturas.
+- Cada experimento es autónomo y tiene su propia entrada en `labs/index.html`. Preserve enlaces a experimentos anteriores. No confunda una fase interna con un experimento nuevo; documente los enlaces entre ellos sin mover archivos a ciegas.
+- Reutilice los tokens e isotipo existentes sin reinterpretarlos silenciosamente. No cambie tokens compartidos desde el laboratorio. Documente las variantes locales y deje claro si son fieles, adaptadas o candidatas.
 - Use solo datos sintéticos. No use información clínica identificable, secretos, exportaciones de clientes ni afirmaciones no verificadas sobre capacidades o cumplimiento.
 - Si muestra informes o etiquetas, identifíquelos como maquetas no operativas. Los informes del producto usan el membrete del laboratorio cliente y las etiquetas requieren especificación y pruebas físicas.
-- Revise la vista en tamaños pertinentes, contraste, foco, lectura y movimiento antes de proponer una decisión. Registre lo comprobado y lo pendiente. La aprobación de una pieza requiere una decisión explícita de Rafael y de la persona responsable del área.
-- No haga commit, push, merge, tag, publicación ni despliegue salvo solicitud explícita de Rafael.
+
+## Cómo registrar decisiones
+
+- Separe exploración, dirección aprobada, incorporación al Brand System y adopción en producto o publicaciones. Registre quién decidió, cuándo, el alcance preciso, lo que queda pendiente y el siguiente paso en `DECISION.md` y `docs/estado-de-piezas.md`.
+- La aprobación visual de Rafael puede cerrar una dirección del laboratorio. Los cambios que alteren flujos clínicos, comportamiento de producto o materiales operativos también requieren validación de la persona responsable de esa área.
+- No presentes una comparación o una maqueta como regla vigente. Si una decisión posterior cambia el estado de una propuesta, actualiza los rótulos visibles y la documentación relacionada para que no se contradigan.
+- Mantén el maestro fiel de un logo y cada adaptación cromática como archivos separados. Un cambio de color no debe alterar trazados, transforms, proporciones ni viewBox. Las decisiones de geometría y color se registran por separado.
+
+## Acuerdos vigentes de Céluma
+
+- **Experimento 01:** se cierra como exploración. Los chips V4 «Interno ≠ entregado» y las mejoras de contraste se rescatan para nuevas pruebas; no están aprobados para la app. El color no puede ser la única señal de un estado clínico y la decisión de revisión no se confunde con el estado del informe o la muestra. Registro: `experiments/1-frontend-refinement/DECISION.md`.
+- **Experimento 02:** Rafael aprobó la geometría del maestro, el wordmark A · Baloo 2 800 y las direcciones de motion Mirada, Luz, Enfoque y Trazo. La variante UI (`#49b6ad` en membrana/trazos y `#F98D84` en núcleo) está pendiente de revisión comparativa frente al color fiel. Consulte `experiments/2-logo-vector-v2/DECISION.md` y `index.html#color-ui`.
+- **Experimento 03:** es una continuación independiente centrada en motion, con base en la identidad aprobada de 02. Consulte `experiments/3-logo-motion/BRIEF.md`. Las animaciones aprobadas en 02 terminan en el maestro fiel; aplicarles la variante UI es un cambio que requiere regenerar y volver a validar el último fotograma.
+- En pantallas de carga, el logo solo indica actividad. El texto comunica el estado real; incluya estado estático o movimiento reducido y evite que el bucle parezca progreso clínico.
+- Aprobación en el laboratorio no autoriza publicación ni implementación. Las incorporaciones a assets/tokens canónicos y las actualizaciones de `celuma-frontend`, landing u otros repositorios son cambios separados, con las pruebas propias de cada destino.
+
+## Revisión
+
+Revise la vista en tamaños pertinentes, contraste, foco, lectura y movimiento antes de proponer una decisión. Registre lo comprobado y lo pendiente; no afirme haber probado impresos, navegadores o dispositivos si no se hizo. No haga commit, push, merge, tag, publicación ni despliegue salvo solicitud explícita de Rafael.
