@@ -1,6 +1,6 @@
 # Laboratorio visual de Céluma
 
-Espacio para prototipos de identidad, interfaz y comunicación. Todo lo que vive aquí está **en exploración**; verlo o medirlo no equivale a aprobación ni a autorización para publicarlo o llevarlo a producción.
+Espacio para prototipos de identidad, interfaz y comunicación. Aquí conviven exploraciones y decisiones aprobadas. Ver una pieza no equivale a aprobación; la decisión explícita se registra en cada experimento. Aprobación visual tampoco equivale a incorporación, publicación ni uso clínico.
 
 ## Abrir el entorno
 
@@ -10,25 +10,35 @@ Desde la raíz de `celuma-brand-system`, ejecute `python3 -m http.server 8000` y
 
 - `index.html`: entrada del lab y acceso a la plantilla.
 - `lab.css`: estilos exclusivos de la entrada.
-- `PROMPT_OPUS_01.md`: encargo del primer experimento de refinamiento del frontend.
 - `experiments/_template/`: punto de partida para copiar en `experiments/<nombre-corto>/`.
+- `experiments/1-frontend-refinement/`: experimento 01 (cerrado como exploración; se rescatan V4 y contraste en `DECISION.md`). `index.html` es el prototipo; `direcciones.html` compara A/B y `exploraciones/estados/` compara estados. Ábralo como carpeta (`/labs/experiments/1-frontend-refinement/`).
+- `experiments/2-logo-vector-v2/`: experimento 02 (aprobado por Rafael; ver `DECISION.md`). `index.html` reúne el maestro y el mini sistema; `ejemplos.html` muestra aplicaciones; `animacion.html` revisa Mirada (fase 2); `fase-3/` compara Luz, Enfoque y Trazo. Las tres fases comparten un recorrido visible.
+- `experiments/3-logo-motion/`: experimento 03 (exploración dedicada a motion), con la identidad aprobada de 02 como entrada y enlaces a las piezas de movimiento originales.
 - Cada experimento mantiene su `BRIEF.md`, su vista previa y sus recursos dentro de su carpeta.
 
 La carpeta `_template` no es una propuesta de diseño. Antes de explorar, copie la plantilla con un nombre descriptivo y complete el brief. Registre en la entrada del lab el enlace al experimento y su estado. No reutilice el nombre de un experimento para una dirección distinta.
+
+## Revisión manual de navegación · 2026-09-26
+
+- Entrada del lab: aparecen los experimentos 01, 02 y 03, con estados distintos y accesos a prototipo, maestro, variante UI y motion.
+- Recorridos del logo y de interfaz: enlaces locales comprobados; la fase o vista actual queda marcada. Revisión visual en ancho de 390 px y en escritorio, incluida la galería de fase 3.
+- Los cuatro lienzos muestran acceso al laboratorio. No se cambió el contenido ni el estado de aprobación de las propuestas.
+- Corrección del loader de fase 3: el selector muestra la variante elegida en tamaños reales y maquetas; se comprobaron Mirada, Lottie y Estático + texto. Las entradas directas a lab, maestro y fase 3 aceptan URLs sin barra final; los enlaces entre vistas apuntan a sus archivos HTML. Revisión visual en Chromium local.
+- Revisión de Bienvenida y Material de fase 3: las cuatro direcciones cambian sus maquetas; se probó B vertical sobre navy, reproducción única, repetición manual, Intro/Outro al revés, pausa y movimiento reducido. Los enlaces directos a ambas secciones dejan el título visible a 390 y 1280 px, sin desbordamiento horizontal ni errores de página en Chromium local.
 
 ## Fuentes y límites
 
 - Identidad y estados de aprobación: `../README.md`, `../docs/estado-de-piezas.md` y `../docs/guia-de-publicaciones.md`.
 - Tokens de marca: `../styles/celuma-tokens.css`. No cambie los tokens compartidos desde un experimento; anote las variantes locales en su brief.
 - UI del producto: `../../celuma-frontend/CELUMA_DESIGN_SYSTEM.md` y código vigente del frontend. El frontend conserva la implementación funcional y los contratos clínicos permanecen en `celuma-engineering`.
-- Reutilice `../assets/celuma-isotipo.png` sin redibujarlo. `celuma-logo-v3.png` no es el logotipo vigente. El wordmark oficial y el maestro vectorial siguen pendientes.
+- `../assets/celuma-isotipo.png` sigue siendo la referencia canónica instalada. El maestro vectorial y Baloo 2 800 están aprobados en el experimento 02 pero esperan incorporación al sistema. `celuma-logo-v3.png` no es el logotipo vigente.
 - Use únicamente datos e imágenes sintéticos. No incluya información clínica identificable, secretos, exportaciones de clientes ni afirmaciones de capacidades o cumplimiento sin verificar.
 - Una ilustración biomédica decorativa no debe parecer imagen diagnóstica. Informes y etiquetas requieren validación de producto y pruebas operativas; el informe clínico pertenece visualmente al laboratorio cliente.
 
 ## Ciclo de trabajo
 
 1. **Preparar:** definir hipótesis, superficie, restricciones y criterio de éxito en `BRIEF.md`.
-2. **Explorar:** mantener código, estilos y recursos dentro del experimento; rotular la vista como «Exploración · no aprobada».
+2. **Explorar:** mantener código, estilos y recursos dentro del experimento; rotular la vista con su estado real.
 3. **Revisar:** comparar con la referencia actual; comprobar tamaños previstos, móvil, contraste, foco de teclado y fondos claros/oscuros cuando correspondan. Registrar capturas y observaciones en el brief.
 4. **Decidir:** anotar quién revisó, fecha y resultado: `exploración`, `candidata`, `aprobada` o `descartada`. `Candidata` tampoco autoriza publicación.
 5. **Incorporar:** solo tras aprobación explícita, crear un cambio separado en los archivos canónicos y actualizar `docs/estado-de-piezas.md`. Si afecta la app, validar allí comportamiento, roles, accesibilidad y pruebas.

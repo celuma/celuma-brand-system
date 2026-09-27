@@ -80,3 +80,20 @@ h3 { margin: 0 0 8px; font-size: 22px; }
   .lab-header, .lab-card { align-items: flex-start; flex-direction: column; }
   .lab-card a { align-self: flex-start; }
 }
+
+.lab-status.lab-status-approved { background: #e2f5f2; color: #145f5b; border-style: solid; }
+.lab-status {
+  display: inline-block;
+  padding: 3px 8px;
+  border: 1px dashed currentColor;
+  border-radius: 6px;
+  background: #fff4d6;
+  color: #7a4b00;
+}
+.lab-links-sm { margin: 12px 0 0; gap: 8px 18px; font-size: 14px; }
+.lab-card .lab-links-sm a { padding: 0; border-radius: 0; background: none; color: var(--celuma-primary-ink); font-weight: 600; text-decoration: underline; }
+.lab-card .lab-links-sm a:hover { background: none; }
+.lab-card-exp p:not(.lab-card-label) { margin: 0; color: var(--celuma-fg-2); line-height: 1.5; }
+
+.lab-card-exp + .lab-card-exp { margin-top: 16px; }
+.lab-card-exp > div { min-width: 0; }

@@ -32,6 +32,7 @@ function App() {
               {item.label}
             </a>
           ))}
+          <a className="brand-lab-link" href="labs/index.html" aria-label="Abrir laboratorio visual"><span className="brand-lab-long">Laboratorio</span><span className="brand-lab-short">Lab</span></a>
         </nav>
         <div className="brand-header__hint" title={canvas.description}>{canvas.description}</div>
       </header>
