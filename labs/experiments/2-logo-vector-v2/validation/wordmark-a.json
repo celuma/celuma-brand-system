@@ -1,0 +1,101 @@
+{
+  "font": "Baloo 2",
+  "version": "Version 1.700",
+  "designer": "Sarang Kulkarni and Ek Type",
+  "license": "SIL Open Font License 1.1",
+  "wght": 800,
+  "upm": 1000,
+  "capHeight": 602,
+  "xHeight": 460,
+  "ascender": 1078,
+  "descender": -524,
+  "tracking_em": -0.02,
+  "glyphs": [
+    {
+      "char": "C",
+      "glyph": "C",
+      "advance": 571,
+      "x": 0.0,
+      "chromium_single_width": 571
+    },
+    {
+      "char": "é",
+      "glyph": "eacute",
+      "advance": 549,
+      "x": 538.0,
+      "chromium_single_width": 549
+    },
+    {
+      "char": "l",
+      "glyph": "l",
+      "advance": 284,
+      "x": 1067.0,
+      "chromium_single_width": 284
+    },
+    {
+      "char": "u",
+      "glyph": "u",
+      "advance": 582,
+      "x": 1331.0,
+      "chromium_single_width": 582
+    },
+    {
+      "char": "m",
+      "glyph": "m",
+      "advance": 847,
+      "x": 1893.0,
+      "chromium_single_width": 847
+    },
+    {
+      "char": "a",
+      "glyph": "a",
+      "advance": 544,
+      "x": 2720.0,
+      "chromium_single_width": 544
+    }
+  ],
+  "glyph_ink_boxes": [
+    [
+      35.0,
+      -625,
+      543.0,
+      18
+    ],
+    [
+      569.0,
+      -752,
+      1057.0,
+      16
+    ],
+    [
+      1124.0,
+      -661,
+      1294.0,
+      8
+    ],
+    [
+      1383.0,
+      -493,
+      1861.0,
+      16
+    ],
+    [
+      1945.0,
+      -501,
+      2687.0,
+      8
+    ],
+    [
+      2748.0,
+      -501,
+      3212.0,
+      16
+    ]
+  ],
+  "ink_bbox": [
+    35.0,
+    -752,
+    3212.0,
+    18
+  ]
+}

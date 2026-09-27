@@ -1,0 +1,1752 @@
+{
+ "fps": 60,
+ "tag": "Exploraci\u00f3n \u00b7 no aprobada",
+ "boxes": {
+  "iso": [
+   69,
+   38,
+   557,
+   678
+  ],
+  "a-h-pos": [
+   69,
+   38,
+   2093,
+   678
+  ],
+  "a-h-neg": [
+   69,
+   38,
+   2093,
+   678
+  ],
+  "a-v-pos": [
+   -69,
+   38,
+   833,
+   945
+  ],
+  "a-v-neg": [
+   -69,
+   38,
+   833,
+   945
+  ],
+  "b-h-pos": [
+   69,
+   38,
+   2031,
+   678
+  ],
+  "b-h-neg": [
+   69,
+   38,
+   2031,
+   678
+  ],
+  "b-v-pos": [
+   -69,
+   38,
+   833,
+   930
+  ],
+  "b-v-neg": [
+   -69,
+   38,
+   833,
+   930
+  ]
+ },
+ "variants": {
+  "luz|iso|loop": {
+   "file": "lottie/luz-isotipo-loop.json",
+   "op": 120,
+   "box": [
+    69,
+    38,
+    557,
+    678
+   ],
+   "subject": "iso",
+   "mode": "loop",
+   "direction": "luz",
+   "bytes": 12625,
+   "markers": [
+    [
+     "maestro",
+     0
+    ],
+    [
+     "ola-rayo-1",
+     15
+    ],
+    [
+     "ola-rayo-3",
+     34
+    ],
+    [
+     "reposo",
+     88
+    ]
+   ],
+   "first_expect": "master",
+   "static": "iso",
+   "layers": [
+    "celula-fija",
+    "rayo-1",
+    "rayo-2",
+    "rayo-3"
+   ],
+   "uses_masks": false,
+   "uses_mattes": false,
+   "css_svg": "svg/luz-isotipo-loop.svg"
+  },
+  "luz|a-h-pos|loop": {
+   "file": "lottie/luz-lockup-a-h-pos-loop.json",
+   "op": 120,
+   "box": [
+    69,
+    38,
+    2093,
+    678
+   ],
+   "subject": "a-h-pos",
+   "mode": "loop",
+   "direction": "luz",
+   "bytes": 23518,
+   "markers": [
+    [
+     "maestro",
+     0
+    ],
+    [
+     "ola-rayo-1",
+     15
+    ],
+    [
+     "ola-rayo-3",
+     34
+    ],
+    [
+     "reposo",
+     88
+    ]
+   ],
+   "first_expect": "master",
+   "static": "a-h-pos",
+   "layers": [
+    "wordmark",
+    "celula-fija",
+    "rayo-1",
+    "rayo-2",
+    "rayo-3"
+   ],
+   "uses_masks": false,
+   "uses_mattes": false,
+   "css_svg": "svg/luz-lockup-a-h-pos-loop.svg"
+  },
+  "luz|a-h-neg|loop": {
+   "file": "lottie/luz-lockup-a-h-neg-loop.json",
+   "op": 120,
+   "box": [
+    69,
+    38,
+    2093,
+    678
+   ],
+   "subject": "a-h-neg",
+   "mode": "loop",
+   "direction": "luz",
+   "bytes": 23515,
+   "markers": [
+    [
+     "maestro",
+     0
+    ],
+    [
+     "ola-rayo-1",
+     15
+    ],
+    [
+     "ola-rayo-3",
+     34
+    ],
+    [
+     "reposo",
+     88
+    ]
+   ],
+   "first_expect": "master",
+   "static": "a-h-neg",
+   "layers": [
+    "wordmark",
+    "celula-fija",
+    "rayo-1",
+    "rayo-2",
+    "rayo-3"
+   ],
+   "uses_masks": false,
+   "uses_mattes": false,
+   "css_svg": "svg/luz-lockup-a-h-neg-loop.svg"
+  },
+  "luz|b-h-pos|loop": {
+   "file": "lottie/luz-lockup-b-h-pos-loop.json",
+   "op": 120,
+   "box": [
+    69,
+    38,
+    2031,
+    678
+   ],
+   "subject": "b-h-pos",
+   "mode": "loop",
+   "direction": "luz",
+   "bytes": 18104,
+   "markers": [
+    [
+     "maestro",
+     0
+    ],
+    [
+     "ola-rayo-1",
+     15
+    ],
+    [
+     "ola-rayo-3",
+     34
+    ],
+    [
+     "reposo",
+     88
+    ]
+   ],
+   "first_expect": "master",
+   "static": "b-h-pos",
+   "layers": [
+    "wordmark",
+    "celula-fija",
+    "rayo-1",
+    "rayo-2",
+    "rayo-3"
+   ],
+   "uses_masks": false,
+   "uses_mattes": false,
+   "css_svg": "svg/luz-lockup-b-h-pos-loop.svg"
+  },
+  "luz|b-h-neg|loop": {
+   "file": "lottie/luz-lockup-b-h-neg-loop.json",
+   "op": 120,
+   "box": [
+    69,
+    38,
+    2031,
+    678
+   ],
+   "subject": "b-h-neg",
+   "mode": "loop",
+   "direction": "luz",
+   "bytes": 18101,
+   "markers": [
+    [
+     "maestro",
+     0
+    ],
+    [
+     "ola-rayo-1",
+     15
+    ],
+    [
+     "ola-rayo-3",
+     34
+    ],
+    [
+     "reposo",
+     88
+    ]
+   ],
+   "first_expect": "master",
+   "static": "b-h-neg",
+   "layers": [
+    "wordmark",
+    "celula-fija",
+    "rayo-1",
+    "rayo-2",
+    "rayo-3"
+   ],
+   "uses_masks": false,
+   "uses_mattes": false,
+   "css_svg": "svg/luz-lockup-b-h-neg-loop.svg"
+  },
+  "luz|iso|once": {
+   "file": "lottie/luz-isotipo-once.json",
+   "op": 86,
+   "box": [
+    69,
+    38,
+    557,
+    678
+   ],
+   "subject": "iso",
+   "mode": "once",
+   "direction": "luz",
+   "bytes": 16066,
+   "markers": [
+    [
+     "celula",
+     0
+    ],
+    [
+     "rayos",
+     18
+    ],
+    [
+     "final",
+     62
+    ]
+   ],
+   "first_expect": "sin-luz",
+   "static": "iso",
+   "layers": [
+    "final-estatico",
+    "celula-fija",
+    "rayo-3",
+    "rayo-2",
+    "rayo-1"
+   ],
+   "uses_masks": false,
+   "uses_mattes": false
+  },
+  "enfoque|iso|once": {
+   "file": "lottie/enfoque-isotipo-once.json",
+   "op": 84,
+   "box": [
+    69,
+    38,
+    557,
+    678
+   ],
+   "subject": "iso",
+   "mode": "once",
+   "direction": "enfoque",
+   "bytes": 15252,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "campo-abre",
+     6
+    ],
+    [
+     "final",
+     57
+    ]
+   ],
+   "first_expect": "vacio",
+   "static": "iso",
+   "layers": [
+    "final-estatico",
+    "campo"
+   ],
+   "uses_masks": true,
+   "uses_mattes": false
+  },
+  "trazo|iso|once": {
+   "file": "lottie/trazo-isotipo-once.json",
+   "op": 157,
+   "box": [
+    69,
+    38,
+    557,
+    678
+   ],
+   "subject": "iso",
+   "mode": "once",
+   "direction": "trazo",
+   "bytes": 29357,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "membrana",
+     7
+    ],
+    [
+     "organulos",
+     54
+    ],
+    [
+     "trazos",
+     71
+    ],
+    [
+     "rayos",
+     94
+    ],
+    [
+     "final",
+     130
+    ]
+   ],
+   "first_expect": "vacio",
+   "static": "iso",
+   "layers": [
+    "final-estatico",
+    "trazo-derecho",
+    "trazo-izquierdo",
+    "nucleolo",
+    "nucleo",
+    "citoplasma",
+    "membrana",
+    "mate-membrana",
+    "anillo",
+    "rayo-3",
+    "rayo-2",
+    "rayo-1"
+   ],
+   "uses_masks": true,
+   "uses_mattes": true
+  },
+  "luz|a-h-pos|once": {
+   "file": "lottie/luz-lockup-a-h-pos-once.json",
+   "op": 99,
+   "box": [
+    69,
+    38,
+    2093,
+    678
+   ],
+   "subject": "a-h-pos",
+   "mode": "once",
+   "direction": "luz",
+   "bytes": 38913,
+   "markers": [
+    [
+     "celula",
+     0
+    ],
+    [
+     "rayos",
+     18
+    ],
+    [
+     "acento",
+     54
+    ],
+    [
+     "final",
+     75
+    ]
+   ],
+   "first_expect": "sin-luz",
+   "static": "a-h-pos",
+   "layers": [
+    "final-estatico",
+    "wordmark-sin-acento",
+    "acento",
+    "celula-fija",
+    "rayo-3",
+    "rayo-2",
+    "rayo-1"
+   ],
+   "uses_masks": false,
+   "uses_mattes": false
+  },
+  "enfoque|a-h-pos|once": {
+   "file": "lottie/enfoque-lockup-a-h-pos-once.json",
+   "op": 114,
+   "box": [
+    69,
+    38,
+    2093,
+    678
+   ],
+   "subject": "a-h-pos",
+   "mode": "once",
+   "direction": "enfoque",
+   "bytes": 36928,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "campo-abre",
+     6
+    ],
+    [
+     "nombre",
+     51
+    ],
+    [
+     "final",
+     87
+    ]
+   ],
+   "first_expect": "vacio",
+   "static": "a-h-pos",
+   "layers": [
+    "final-estatico",
+    "campo"
+   ],
+   "uses_masks": true,
+   "uses_mattes": false
+  },
+  "trazo|a-h-pos|once": {
+   "file": "lottie/trazo-lockup-a-h-pos-once.json",
+   "op": 161,
+   "box": [
+    69,
+    38,
+    2093,
+    678
+   ],
+   "subject": "a-h-pos",
+   "mode": "once",
+   "direction": "trazo",
+   "bytes": 58039,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "membrana",
+     7
+    ],
+    [
+     "organulos",
+     54
+    ],
+    [
+     "trazos",
+     71
+    ],
+    [
+     "nombre",
+     84
+    ],
+    [
+     "rayos",
+     94
+    ],
+    [
+     "acento",
+     122
+    ],
+    [
+     "final",
+     134
+    ]
+   ],
+   "first_expect": "vacio",
+   "static": "a-h-pos",
+   "layers": [
+    "final-estatico",
+    "letra-C",
+    "letra-e",
+    "letra-l",
+    "letra-u",
+    "letra-m",
+    "letra-a",
+    "acento",
+    "trazo-derecho",
+    "trazo-izquierdo",
+    "nucleolo",
+    "nucleo",
+    "citoplasma",
+    "membrana",
+    "mate-membrana",
+    "anillo",
+    "rayo-3",
+    "rayo-2",
+    "rayo-1"
+   ],
+   "uses_masks": true,
+   "uses_mattes": true
+  },
+  "luz|a-h-neg|once": {
+   "file": "lottie/luz-lockup-a-h-neg-once.json",
+   "op": 99,
+   "box": [
+    69,
+    38,
+    2093,
+    678
+   ],
+   "subject": "a-h-neg",
+   "mode": "once",
+   "direction": "luz",
+   "bytes": 38904,
+   "markers": [
+    [
+     "celula",
+     0
+    ],
+    [
+     "rayos",
+     18
+    ],
+    [
+     "acento",
+     54
+    ],
+    [
+     "final",
+     75
+    ]
+   ],
+   "first_expect": "sin-luz",
+   "static": "a-h-neg",
+   "layers": [
+    "final-estatico",
+    "wordmark-sin-acento",
+    "acento",
+    "celula-fija",
+    "rayo-3",
+    "rayo-2",
+    "rayo-1"
+   ],
+   "uses_masks": false,
+   "uses_mattes": false
+  },
+  "enfoque|a-h-neg|once": {
+   "file": "lottie/enfoque-lockup-a-h-neg-once.json",
+   "op": 114,
+   "box": [
+    69,
+    38,
+    2093,
+    678
+   ],
+   "subject": "a-h-neg",
+   "mode": "once",
+   "direction": "enfoque",
+   "bytes": 36922,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "campo-abre",
+     6
+    ],
+    [
+     "nombre",
+     51
+    ],
+    [
+     "final",
+     87
+    ]
+   ],
+   "first_expect": "vacio",
+   "static": "a-h-neg",
+   "layers": [
+    "final-estatico",
+    "campo"
+   ],
+   "uses_masks": true,
+   "uses_mattes": false
+  },
+  "trazo|a-h-neg|once": {
+   "file": "lottie/trazo-lockup-a-h-neg-once.json",
+   "op": 161,
+   "box": [
+    69,
+    38,
+    2093,
+    678
+   ],
+   "subject": "a-h-neg",
+   "mode": "once",
+   "direction": "trazo",
+   "bytes": 58015,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "membrana",
+     7
+    ],
+    [
+     "organulos",
+     54
+    ],
+    [
+     "trazos",
+     71
+    ],
+    [
+     "nombre",
+     84
+    ],
+    [
+     "rayos",
+     94
+    ],
+    [
+     "acento",
+     122
+    ],
+    [
+     "final",
+     134
+    ]
+   ],
+   "first_expect": "vacio",
+   "static": "a-h-neg",
+   "layers": [
+    "final-estatico",
+    "letra-C",
+    "letra-e",
+    "letra-l",
+    "letra-u",
+    "letra-m",
+    "letra-a",
+    "acento",
+    "trazo-derecho",
+    "trazo-izquierdo",
+    "nucleolo",
+    "nucleo",
+    "citoplasma",
+    "membrana",
+    "mate-membrana",
+    "anillo",
+    "rayo-3",
+    "rayo-2",
+    "rayo-1"
+   ],
+   "uses_masks": true,
+   "uses_mattes": true
+  },
+  "luz|a-v-pos|once": {
+   "file": "lottie/luz-lockup-a-v-pos-once.json",
+   "op": 99,
+   "box": [
+    -69,
+    38,
+    833,
+    945
+   ],
+   "subject": "a-v-pos",
+   "mode": "once",
+   "direction": "luz",
+   "bytes": 38940,
+   "markers": [
+    [
+     "celula",
+     0
+    ],
+    [
+     "rayos",
+     18
+    ],
+    [
+     "acento",
+     54
+    ],
+    [
+     "final",
+     75
+    ]
+   ],
+   "first_expect": "sin-luz",
+   "static": "a-v-pos",
+   "layers": [
+    "final-estatico",
+    "wordmark-sin-acento",
+    "acento",
+    "celula-fija",
+    "rayo-3",
+    "rayo-2",
+    "rayo-1"
+   ],
+   "uses_masks": false,
+   "uses_mattes": false
+  },
+  "enfoque|a-v-pos|once": {
+   "file": "lottie/enfoque-lockup-a-v-pos-once.json",
+   "op": 114,
+   "box": [
+    -69,
+    38,
+    833,
+    945
+   ],
+   "subject": "a-v-pos",
+   "mode": "once",
+   "direction": "enfoque",
+   "bytes": 36949,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "campo-abre",
+     6
+    ],
+    [
+     "nombre",
+     51
+    ],
+    [
+     "final",
+     87
+    ]
+   ],
+   "first_expect": "vacio",
+   "static": "a-v-pos",
+   "layers": [
+    "final-estatico",
+    "campo"
+   ],
+   "uses_masks": true,
+   "uses_mattes": false
+  },
+  "trazo|a-v-pos|once": {
+   "file": "lottie/trazo-lockup-a-v-pos-once.json",
+   "op": 161,
+   "box": [
+    -69,
+    38,
+    833,
+    945
+   ],
+   "subject": "a-v-pos",
+   "mode": "once",
+   "direction": "trazo",
+   "bytes": 58044,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "membrana",
+     7
+    ],
+    [
+     "organulos",
+     54
+    ],
+    [
+     "trazos",
+     71
+    ],
+    [
+     "nombre",
+     84
+    ],
+    [
+     "rayos",
+     94
+    ],
+    [
+     "acento",
+     122
+    ],
+    [
+     "final",
+     134
+    ]
+   ],
+   "first_expect": "vacio",
+   "static": "a-v-pos",
+   "layers": [
+    "final-estatico",
+    "letra-C",
+    "letra-e",
+    "letra-l",
+    "letra-u",
+    "letra-m",
+    "letra-a",
+    "acento",
+    "trazo-derecho",
+    "trazo-izquierdo",
+    "nucleolo",
+    "nucleo",
+    "citoplasma",
+    "membrana",
+    "mate-membrana",
+    "anillo",
+    "rayo-3",
+    "rayo-2",
+    "rayo-1"
+   ],
+   "uses_masks": true,
+   "uses_mattes": true
+  },
+  "luz|a-v-neg|once": {
+   "file": "lottie/luz-lockup-a-v-neg-once.json",
+   "op": 99,
+   "box": [
+    -69,
+    38,
+    833,
+    945
+   ],
+   "subject": "a-v-neg",
+   "mode": "once",
+   "direction": "luz",
+   "bytes": 38931,
+   "markers": [
+    [
+     "celula",
+     0
+    ],
+    [
+     "rayos",
+     18
+    ],
+    [
+     "acento",
+     54
+    ],
+    [
+     "final",
+     75
+    ]
+   ],
+   "first_expect": "sin-luz",
+   "static": "a-v-neg",
+   "layers": [
+    "final-estatico",
+    "wordmark-sin-acento",
+    "acento",
+    "celula-fija",
+    "rayo-3",
+    "rayo-2",
+    "rayo-1"
+   ],
+   "uses_masks": false,
+   "uses_mattes": false
+  },
+  "enfoque|a-v-neg|once": {
+   "file": "lottie/enfoque-lockup-a-v-neg-once.json",
+   "op": 114,
+   "box": [
+    -69,
+    38,
+    833,
+    945
+   ],
+   "subject": "a-v-neg",
+   "mode": "once",
+   "direction": "enfoque",
+   "bytes": 36943,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "campo-abre",
+     6
+    ],
+    [
+     "nombre",
+     51
+    ],
+    [
+     "final",
+     87
+    ]
+   ],
+   "first_expect": "vacio",
+   "static": "a-v-neg",
+   "layers": [
+    "final-estatico",
+    "campo"
+   ],
+   "uses_masks": true,
+   "uses_mattes": false
+  },
+  "trazo|a-v-neg|once": {
+   "file": "lottie/trazo-lockup-a-v-neg-once.json",
+   "op": 161,
+   "box": [
+    -69,
+    38,
+    833,
+    945
+   ],
+   "subject": "a-v-neg",
+   "mode": "once",
+   "direction": "trazo",
+   "bytes": 58020,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "membrana",
+     7
+    ],
+    [
+     "organulos",
+     54
+    ],
+    [
+     "trazos",
+     71
+    ],
+    [
+     "nombre",
+     84
+    ],
+    [
+     "rayos",
+     94
+    ],
+    [
+     "acento",
+     122
+    ],
+    [
+     "final",
+     134
+    ]
+   ],
+   "first_expect": "vacio",
+   "static": "a-v-neg",
+   "layers": [
+    "final-estatico",
+    "letra-C",
+    "letra-e",
+    "letra-l",
+    "letra-u",
+    "letra-m",
+    "letra-a",
+    "acento",
+    "trazo-derecho",
+    "trazo-izquierdo",
+    "nucleolo",
+    "nucleo",
+    "citoplasma",
+    "membrana",
+    "mate-membrana",
+    "anillo",
+    "rayo-3",
+    "rayo-2",
+    "rayo-1"
+   ],
+   "uses_masks": true,
+   "uses_mattes": true
+  },
+  "luz|b-h-pos|once": {
+   "file": "lottie/luz-lockup-b-h-pos-once.json",
+   "op": 99,
+   "box": [
+    69,
+    38,
+    2031,
+    678
+   ],
+   "subject": "b-h-pos",
+   "mode": "once",
+   "direction": "luz",
+   "bytes": 27817,
+   "markers": [
+    [
+     "celula",
+     0
+    ],
+    [
+     "rayos",
+     18
+    ],
+    [
+     "acento",
+     54
+    ],
+    [
+     "final",
+     75
+    ]
+   ],
+   "first_expect": "sin-luz",
+   "static": "b-h-pos",
+   "layers": [
+    "final-estatico",
+    "wordmark-sin-acento",
+    "acento",
+    "celula-fija",
+    "rayo-3",
+    "rayo-2",
+    "rayo-1"
+   ],
+   "uses_masks": false,
+   "uses_mattes": false
+  },
+  "enfoque|b-h-pos|once": {
+   "file": "lottie/enfoque-lockup-b-h-pos-once.json",
+   "op": 114,
+   "box": [
+    69,
+    38,
+    2031,
+    678
+   ],
+   "subject": "b-h-pos",
+   "mode": "once",
+   "direction": "enfoque",
+   "bytes": 26100,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "campo-abre",
+     6
+    ],
+    [
+     "nombre",
+     51
+    ],
+    [
+     "final",
+     87
+    ]
+   ],
+   "first_expect": "vacio",
+   "static": "b-h-pos",
+   "layers": [
+    "final-estatico",
+    "campo"
+   ],
+   "uses_masks": true,
+   "uses_mattes": false
+  },
+  "trazo|b-h-pos|once": {
+   "file": "lottie/trazo-lockup-b-h-pos-once.json",
+   "op": 161,
+   "box": [
+    69,
+    38,
+    2031,
+    678
+   ],
+   "subject": "b-h-pos",
+   "mode": "once",
+   "direction": "trazo",
+   "bytes": 46954,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "membrana",
+     7
+    ],
+    [
+     "organulos",
+     54
+    ],
+    [
+     "trazos",
+     71
+    ],
+    [
+     "nombre",
+     84
+    ],
+    [
+     "rayos",
+     94
+    ],
+    [
+     "acento",
+     122
+    ],
+    [
+     "final",
+     134
+    ]
+   ],
+   "first_expect": "vacio",
+   "static": "b-h-pos",
+   "layers": [
+    "final-estatico",
+    "letra-C",
+    "letra-e",
+    "letra-l",
+    "letra-u",
+    "letra-m",
+    "letra-a",
+    "acento",
+    "trazo-derecho",
+    "trazo-izquierdo",
+    "nucleolo",
+    "nucleo",
+    "citoplasma",
+    "membrana",
+    "mate-membrana",
+    "anillo",
+    "rayo-3",
+    "rayo-2",
+    "rayo-1"
+   ],
+   "uses_masks": true,
+   "uses_mattes": true
+  },
+  "luz|b-h-neg|once": {
+   "file": "lottie/luz-lockup-b-h-neg-once.json",
+   "op": 99,
+   "box": [
+    69,
+    38,
+    2031,
+    678
+   ],
+   "subject": "b-h-neg",
+   "mode": "once",
+   "direction": "luz",
+   "bytes": 27808,
+   "markers": [
+    [
+     "celula",
+     0
+    ],
+    [
+     "rayos",
+     18
+    ],
+    [
+     "acento",
+     54
+    ],
+    [
+     "final",
+     75
+    ]
+   ],
+   "first_expect": "sin-luz",
+   "static": "b-h-neg",
+   "layers": [
+    "final-estatico",
+    "wordmark-sin-acento",
+    "acento",
+    "celula-fija",
+    "rayo-3",
+    "rayo-2",
+    "rayo-1"
+   ],
+   "uses_masks": false,
+   "uses_mattes": false
+  },
+  "enfoque|b-h-neg|once": {
+   "file": "lottie/enfoque-lockup-b-h-neg-once.json",
+   "op": 114,
+   "box": [
+    69,
+    38,
+    2031,
+    678
+   ],
+   "subject": "b-h-neg",
+   "mode": "once",
+   "direction": "enfoque",
+   "bytes": 26094,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "campo-abre",
+     6
+    ],
+    [
+     "nombre",
+     51
+    ],
+    [
+     "final",
+     87
+    ]
+   ],
+   "first_expect": "vacio",
+   "static": "b-h-neg",
+   "layers": [
+    "final-estatico",
+    "campo"
+   ],
+   "uses_masks": true,
+   "uses_mattes": false
+  },
+  "trazo|b-h-neg|once": {
+   "file": "lottie/trazo-lockup-b-h-neg-once.json",
+   "op": 161,
+   "box": [
+    69,
+    38,
+    2031,
+    678
+   ],
+   "subject": "b-h-neg",
+   "mode": "once",
+   "direction": "trazo",
+   "bytes": 46930,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "membrana",
+     7
+    ],
+    [
+     "organulos",
+     54
+    ],
+    [
+     "trazos",
+     71
+    ],
+    [
+     "nombre",
+     84
+    ],
+    [
+     "rayos",
+     94
+    ],
+    [
+     "acento",
+     122
+    ],
+    [
+     "final",
+     134
+    ]
+   ],
+   "first_expect": "vacio",
+   "static": "b-h-neg",
+   "layers": [
+    "final-estatico",
+    "letra-C",
+    "letra-e",
+    "letra-l",
+    "letra-u",
+    "letra-m",
+    "letra-a",
+    "acento",
+    "trazo-derecho",
+    "trazo-izquierdo",
+    "nucleolo",
+    "nucleo",
+    "citoplasma",
+    "membrana",
+    "mate-membrana",
+    "anillo",
+    "rayo-3",
+    "rayo-2",
+    "rayo-1"
+   ],
+   "uses_masks": true,
+   "uses_mattes": true
+  },
+  "luz|b-v-pos|once": {
+   "file": "lottie/luz-lockup-b-v-pos-once.json",
+   "op": 99,
+   "box": [
+    -69,
+    38,
+    833,
+    930
+   ],
+   "subject": "b-v-pos",
+   "mode": "once",
+   "direction": "luz",
+   "bytes": 27835,
+   "markers": [
+    [
+     "celula",
+     0
+    ],
+    [
+     "rayos",
+     18
+    ],
+    [
+     "acento",
+     54
+    ],
+    [
+     "final",
+     75
+    ]
+   ],
+   "first_expect": "sin-luz",
+   "static": "b-v-pos",
+   "layers": [
+    "final-estatico",
+    "wordmark-sin-acento",
+    "acento",
+    "celula-fija",
+    "rayo-3",
+    "rayo-2",
+    "rayo-1"
+   ],
+   "uses_masks": false,
+   "uses_mattes": false
+  },
+  "enfoque|b-v-pos|once": {
+   "file": "lottie/enfoque-lockup-b-v-pos-once.json",
+   "op": 114,
+   "box": [
+    -69,
+    38,
+    833,
+    930
+   ],
+   "subject": "b-v-pos",
+   "mode": "once",
+   "direction": "enfoque",
+   "bytes": 26117,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "campo-abre",
+     6
+    ],
+    [
+     "nombre",
+     51
+    ],
+    [
+     "final",
+     87
+    ]
+   ],
+   "first_expect": "vacio",
+   "static": "b-v-pos",
+   "layers": [
+    "final-estatico",
+    "campo"
+   ],
+   "uses_masks": true,
+   "uses_mattes": false
+  },
+  "trazo|b-v-pos|once": {
+   "file": "lottie/trazo-lockup-b-v-pos-once.json",
+   "op": 161,
+   "box": [
+    -69,
+    38,
+    833,
+    930
+   ],
+   "subject": "b-v-pos",
+   "mode": "once",
+   "direction": "trazo",
+   "bytes": 46955,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "membrana",
+     7
+    ],
+    [
+     "organulos",
+     54
+    ],
+    [
+     "trazos",
+     71
+    ],
+    [
+     "nombre",
+     84
+    ],
+    [
+     "rayos",
+     94
+    ],
+    [
+     "acento",
+     122
+    ],
+    [
+     "final",
+     134
+    ]
+   ],
+   "first_expect": "vacio",
+   "static": "b-v-pos",
+   "layers": [
+    "final-estatico",
+    "letra-C",
+    "letra-e",
+    "letra-l",
+    "letra-u",
+    "letra-m",
+    "letra-a",
+    "acento",
+    "trazo-derecho",
+    "trazo-izquierdo",
+    "nucleolo",
+    "nucleo",
+    "citoplasma",
+    "membrana",
+    "mate-membrana",
+    "anillo",
+    "rayo-3",
+    "rayo-2",
+    "rayo-1"
+   ],
+   "uses_masks": true,
+   "uses_mattes": true
+  },
+  "luz|b-v-neg|once": {
+   "file": "lottie/luz-lockup-b-v-neg-once.json",
+   "op": 99,
+   "box": [
+    -69,
+    38,
+    833,
+    930
+   ],
+   "subject": "b-v-neg",
+   "mode": "once",
+   "direction": "luz",
+   "bytes": 27826,
+   "markers": [
+    [
+     "celula",
+     0
+    ],
+    [
+     "rayos",
+     18
+    ],
+    [
+     "acento",
+     54
+    ],
+    [
+     "final",
+     75
+    ]
+   ],
+   "first_expect": "sin-luz",
+   "static": "b-v-neg",
+   "layers": [
+    "final-estatico",
+    "wordmark-sin-acento",
+    "acento",
+    "celula-fija",
+    "rayo-3",
+    "rayo-2",
+    "rayo-1"
+   ],
+   "uses_masks": false,
+   "uses_mattes": false
+  },
+  "enfoque|b-v-neg|once": {
+   "file": "lottie/enfoque-lockup-b-v-neg-once.json",
+   "op": 114,
+   "box": [
+    -69,
+    38,
+    833,
+    930
+   ],
+   "subject": "b-v-neg",
+   "mode": "once",
+   "direction": "enfoque",
+   "bytes": 26111,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "campo-abre",
+     6
+    ],
+    [
+     "nombre",
+     51
+    ],
+    [
+     "final",
+     87
+    ]
+   ],
+   "first_expect": "vacio",
+   "static": "b-v-neg",
+   "layers": [
+    "final-estatico",
+    "campo"
+   ],
+   "uses_masks": true,
+   "uses_mattes": false
+  },
+  "trazo|b-v-neg|once": {
+   "file": "lottie/trazo-lockup-b-v-neg-once.json",
+   "op": 161,
+   "box": [
+    -69,
+    38,
+    833,
+    930
+   ],
+   "subject": "b-v-neg",
+   "mode": "once",
+   "direction": "trazo",
+   "bytes": 46931,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "membrana",
+     7
+    ],
+    [
+     "organulos",
+     54
+    ],
+    [
+     "trazos",
+     71
+    ],
+    [
+     "nombre",
+     84
+    ],
+    [
+     "rayos",
+     94
+    ],
+    [
+     "acento",
+     122
+    ],
+    [
+     "final",
+     134
+    ]
+   ],
+   "first_expect": "vacio",
+   "static": "b-v-neg",
+   "layers": [
+    "final-estatico",
+    "letra-C",
+    "letra-e",
+    "letra-l",
+    "letra-u",
+    "letra-m",
+    "letra-a",
+    "acento",
+    "trazo-derecho",
+    "trazo-izquierdo",
+    "nucleolo",
+    "nucleo",
+    "citoplasma",
+    "membrana",
+    "mate-membrana",
+    "anillo",
+    "rayo-3",
+    "rayo-2",
+    "rayo-1"
+   ],
+   "uses_masks": true,
+   "uses_mattes": true
+  }
+ },
+ "field": {
+  "centre": [
+   318.1430987179792,
+   376.95237459465113
+  ],
+  "r": 343.9245483482483
+ },
+ "ring": {
+  "centreline_points": 160,
+  "half_width_max": 16.695547900951645,
+  "reach": 17.694420250239084,
+  "matte_stroke": 47.38884050047817
+ },
+ "timing": {
+  "luz": {
+   "loop_total": 2.0,
+   "loop_rest": 0.25,
+   "dip": 0.9,
+   "dip_down": 0.42,
+   "stagger": 0.16,
+   "s_min": 0.6,
+   "once_rest": 0.3,
+   "ray_dur": 0.46,
+   "ray_stagger": 0.14,
+   "dot": 0.1,
+   "accent_gap": 0.06,
+   "accent_dur": 0.36,
+   "hold": 0.4
+  },
+  "enfoque": {
+   "start": 0.1,
+   "open": 0.75,
+   "settle": 0.85,
+   "scale0": 1.05,
+   "widen": 0.6,
+   "hold": 0.45
+  },
+  "trazo": {
+   "ring": [
+    0.12,
+    0.92
+   ],
+   "cyto": [
+    0.72,
+    1.08
+   ],
+   "swap": 1.1,
+   "nucleo": [
+    0.9,
+    1.3
+   ],
+   "nucleolo": [
+    1.12,
+    1.38
+   ],
+   "trazo_l": [
+    1.18,
+    1.5
+   ],
+   "trazo_r": [
+    1.32,
+    1.62
+   ],
+   "rays": 1.56,
+   "ray_dur": 0.42,
+   "ray_stagger": 0.09,
+   "letters": 1.4,
+   "letter_dur": 0.24,
+   "letter_stagger": 0.075,
+   "accent_after": 0.02,
+   "accent_dur": 0.2,
+   "hold": 0.45
+  }
+ }
+}

@@ -1,0 +1,46 @@
+{
+  "artwork_bbox": [
+    73.03,
+    42.93,
+    621.11,
+    711.86
+  ],
+  "tight_viewbox": [
+    73.0,
+    42.0,
+    549.0,
+    670.0
+  ],
+  "small_viewbox": [
+    59.0,
+    28.0,
+    577.0,
+    698.0
+  ],
+  "body_bbox": [
+    96.91,
+    174.42,
+    621.11,
+    711.86
+  ],
+  "colors": {
+    "rays": "#f1c46c",
+    "teal": "#3baca6",
+    "mint": "#bbead2",
+    "nucleus": "#f88e85",
+    "nucleolus": "#e5635f"
+  },
+  "teal_ring_vs_strokes_de00": 0.3,
+  "nodes": {
+    "ray-1": 8,
+    "ray-2": 6,
+    "ray-3": 7,
+    "body": 8,
+    "cytoplasm": 9,
+    "nucleus": 7,
+    "nucleolus": 3,
+    "stroke-left": 16,
+    "stroke-right": 9
+  },
+  "nodes_total": 73
+}

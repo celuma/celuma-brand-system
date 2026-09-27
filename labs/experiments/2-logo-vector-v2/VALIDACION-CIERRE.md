@@ -1,0 +1,7 @@
+# Validación manual del cierre · 2026-09-26
+
+- SVG de la variante UI: comparación programática de `viewBox`, dimensiones, atributos `d` y transformaciones de todos los trazados contra el isotipo fiel y los cuatro lockups A de origen. Deben ser idénticos.
+- Colores de salida: membrana y trazos `#49b6ad`; núcleo `#F98D84`; los otros tres pigmentos y el wordmark mantienen el color anterior. Contraste de la membrana: 2,45:1 sobre blanco, 2,27:1 sobre crema y 7,10:1 sobre navy; se usa como marca gráfica, no como texto ni señal única de estado. Sobre el propio teal se usaría la versión monocroma navy.
+- Revisión visual completada en Chromium local: la sección maestro/UI permite alternar isotipo, logo horizontal y vertical en la misma caja, con corte del 0 al 100 % y fondos blanco, crema y navy. La versión negativa se carga al elegir navy. A 390 px, sin desbordamiento (ancho del documento = 390 px) ni imágenes rotas; la entrada directa `#color-ui` muestra el título completo.
+- Navegación comprobada: índice del lab con tres estados, enlace directo a color UI y nueva entrada de motion. Se verificaron las rutas locales de seis páginas HTML (ningún recurso faltante), y la página de motion a 390 px (sin desbordamiento ni imagen rota). Consola del navegador sin errores ni avisos al revisar la variante UI.
+- Límite: no se han exportado PNG de la variante UI ni probado impresión, Safari, Firefox, iOS o Android. Esas validaciones pertenecen a la incorporación por medio.

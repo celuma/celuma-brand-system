@@ -1,0 +1,33 @@
+{
+ "normal": {
+  "banner_visible": false,
+  "readout_t0": "f 7 · 0,12 s · reposo",
+  "readout_t1200": "f 79 · 1,32 s · mira-izquierda",
+  "readout_end": "f 191 · 3,18 s · maestro",
+  "compare_once_svg": "Una reproducción · Lottie svg · píxeles idénticos 100,000 % · diferencia máx. 0/255 · píxeles con diferencia > 2: 0 ✓ igual al maestro",
+  "compare_once_canvas": "Una reproducción · Lottie canvas · píxeles idénticos 100,000 % · diferencia máx. 0/255 · píxeles con diferencia > 2: 0 ✓ igual al maestro",
+  "compare_loop_svg": "Bucle · Lottie svg · píxeles idénticos 100,000 % · diferencia máx. 0/255 · píxeles con diferencia > 2: 0 ✓ igual al maestro",
+  "after_key_left": "f 45 · 0,75 s · mira-izquierda",
+  "after_scrub_123": "f 123 · 2,05 s · eureka",
+  "canvas_scrub_150": "f 150 · 2,50 s · rayos",
+  "css_animations": 7,
+  "css_scrub_45": "f 45 · 0,75 s · mira-izquierda",
+  "broken_images": [],
+  "video_can_play": {
+   "webm": "maybe",
+   "mp4": "maybe"
+  },
+  "val_rows": 25,
+  "errors": []
+ },
+ "reduced": {
+  "banner_visible": true,
+  "readout_after_1500ms": "f 191 · 3,18 s · maestro",
+  "errors": [],
+  "css_running": 0
+ },
+ "mobile": {
+  "overflow": 0,
+  "errors": []
+ }
+}
