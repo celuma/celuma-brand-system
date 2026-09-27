@@ -1,0 +1,102 @@
+{
+  "app": "http://localhost:5173",
+  "capturedAt": "2026-09-26T04:48:03.650Z",
+  "shots": [
+    {
+      "name": "worklist-1440",
+      "route": "/worklist",
+      "width": 1440,
+      "height": 900,
+      "full": false,
+      "horizontalOverflowPx": 0
+    },
+    {
+      "name": "ordenes-1440",
+      "route": "/orders",
+      "width": 1440,
+      "height": 900,
+      "full": false,
+      "horizontalOverflowPx": 0
+    },
+    {
+      "name": "orden-detalle-1440",
+      "route": "/orders/o3",
+      "width": 1440,
+      "height": 900,
+      "full": false,
+      "horizontalOverflowPx": 0
+    },
+    {
+      "name": "worklist-768",
+      "route": "/worklist",
+      "width": 768,
+      "height": 1024,
+      "full": false,
+      "horizontalOverflowPx": 0
+    },
+    {
+      "name": "ordenes-768",
+      "route": "/orders",
+      "width": 768,
+      "height": 1024,
+      "full": false,
+      "horizontalOverflowPx": 0
+    },
+    {
+      "name": "orden-detalle-768",
+      "route": "/orders/o3",
+      "width": 768,
+      "height": 1024,
+      "full": false,
+      "horizontalOverflowPx": 0
+    },
+    {
+      "name": "worklist-390",
+      "route": "/worklist",
+      "width": 390,
+      "height": 844,
+      "full": false,
+      "horizontalOverflowPx": 491
+    },
+    {
+      "name": "ordenes-390",
+      "route": "/orders",
+      "width": 390,
+      "height": 844,
+      "full": false,
+      "horizontalOverflowPx": 747
+    },
+    {
+      "name": "orden-detalle-390",
+      "route": "/orders/o3",
+      "width": 390,
+      "height": 844,
+      "full": true,
+      "horizontalOverflowPx": 0
+    }
+  ],
+  "errors": [
+    "worklist-1440 [console]: Warning: [antd: Table] Columns should all contain `filteredValue` or not contain `filteredValue`.",
+    "worklist-1440 [console]: Warning: [antd: Tooltip] `overlayInnerStyle` is deprecated. Please use `styles={{ body: {} }}` instead.",
+    "ordenes-1440 [console]: Warning: [antd: Table] Columns should all contain `filteredValue` or not contain `filteredValue`.",
+    "ordenes-1440 [console]: Warning: [antd: Tooltip] `overlayInnerStyle` is deprecated. Please use `styles={{ body: {} }}` instead.",
+    "orden-detalle-1440 [console]: Warning: [antd: Card] `bodyStyle` is deprecated. Please use `styles.body` instead.",
+    "orden-detalle-1440 [console]: Warning: [antd: Dropdown] `dropdownRender` is deprecated. Please use `popupRender` instead.",
+    "orden-detalle-1440 [console]: Warning: [antd: Tooltip] `overlayInnerStyle` is deprecated. Please use `styles={{ body: {} }}` instead.",
+    "worklist-768 [console]: Warning: [antd: Table] Columns should all contain `filteredValue` or not contain `filteredValue`.",
+    "worklist-768 [console]: Warning: [antd: Tooltip] `overlayInnerStyle` is deprecated. Please use `styles={{ body: {} }}` instead.",
+    "ordenes-768 [console]: Warning: [antd: Table] Columns should all contain `filteredValue` or not contain `filteredValue`.",
+    "ordenes-768 [console]: Warning: [antd: Tooltip] `overlayInnerStyle` is deprecated. Please use `styles={{ body: {} }}` instead.",
+    "orden-detalle-768 [console]: Warning: [antd: Card] `bodyStyle` is deprecated. Please use `styles.body` instead.",
+    "orden-detalle-768 [console]: Warning: [antd: Dropdown] `dropdownRender` is deprecated. Please use `popupRender` instead.",
+    "orden-detalle-768 [console]: Warning: [antd: Tooltip] `overlayInnerStyle` is deprecated. Please use `styles={{ body: {} }}` instead.",
+    "worklist-390 [console]: Warning: [antd: Table] Columns should all contain `filteredValue` or not contain `filteredValue`.",
+    "worklist-390 [console]: Warning: [antd: Tooltip] `overlayInnerStyle` is deprecated. Please use `styles={{ body: {} }}` instead.",
+    "ordenes-390 [console]: Warning: [antd: Table] Columns should all contain `filteredValue` or not contain `filteredValue`.",
+    "ordenes-390 [console]: Warning: [antd: Tooltip] `overlayInnerStyle` is deprecated. Please use `styles={{ body: {} }}` instead.",
+    "orden-detalle-390 [console]: Warning: [antd: Card] `bodyStyle` is deprecated. Please use `styles.body` instead.",
+    "orden-detalle-390 [console]: Warning: [antd: Dropdown] `dropdownRender` is deprecated. Please use `popupRender` instead.",
+    "orden-detalle-390 [console]: Warning: [antd: Tooltip] `overlayInnerStyle` is deprecated. Please use `styles={{ body: {} }}` instead."
+  ],
+  "unknownApi": []
+}

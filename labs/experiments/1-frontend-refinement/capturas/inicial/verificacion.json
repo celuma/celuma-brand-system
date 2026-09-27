@@ -1,0 +1,1431 @@
+{
+  "base": "http://localhost:5050/labs/experiments/1-frontend-refinement/",
+  "round": "inicial",
+  "at": "2026-09-26T05:07:29.170Z",
+  "pages": [
+    {
+      "view": "trabajo",
+      "size": "1440",
+      "file": "trabajo-1440.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/experiment.css",
+        "http 404: http://localhost:5050/labs/experiments/app.js",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/app.js"
+      ],
+      "contrastChecked": 150,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "orden",
+      "size": "1440",
+      "file": "orden-1440.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/experiment.css",
+        "http 404: http://localhost:5050/labs/experiments/app.js",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/app.js"
+      ],
+      "contrastChecked": 180,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "informe",
+      "size": "1440",
+      "file": "informe-1440.jpg",
+      "errors": [],
+      "contrastChecked": 128,
+      "contrastFails": [
+        {
+          "text": "Firma pendiente · se agrega al firmar y publicar",
+          "ratio": 4.48,
+          "min": 4.5,
+          "size": 9.5,
+          "sel": "span"
+        }
+      ],
+      "contrastFailCount": 1,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "componentes",
+      "size": "1440",
+      "file": "componentes-1440.jpg",
+      "errors": [],
+      "contrastChecked": 383,
+      "contrastFails": [
+        {
+          "text": "Recibida",
+          "ratio": 3.38,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "En Proceso",
+          "ratio": 2.07,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Diagnóstico",
+          "ratio": 3.86,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Revisión",
+          "ratio": 3.23,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Cerrada",
+          "ratio": 3.54,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Liberada",
+          "ratio": 2.41,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Cancelada",
+          "ratio": 3.44,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Recibida",
+          "ratio": 3.38,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "En Proceso",
+          "ratio": 2.07,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Lista",
+          "ratio": 2.41,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Insuficiente",
+          "ratio": 3.44,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Cancelada",
+          "ratio": 4.39,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Borrador",
+          "ratio": 2.07,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "En Revisión",
+          "ratio": 3.38,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Aprobado",
+          "ratio": 2.41,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Publicado",
+          "ratio": 2.18,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Retractado",
+          "ratio": 3.44,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Pendiente",
+          "ratio": 2.07,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Aprobado",
+          "ratio": 2.41,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Rechazado",
+          "ratio": 3.44,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        }
+      ],
+      "contrastFailCount": 20,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "direcciones",
+      "size": "1440",
+      "file": "direcciones-1440.jpg",
+      "errors": [],
+      "contrastChecked": 111,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "trabajo",
+      "size": "768",
+      "file": "trabajo-768.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/experiment.css",
+        "http 404: http://localhost:5050/labs/experiments/app.js",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/app.js"
+      ],
+      "contrastChecked": 126,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "orden",
+      "size": "768",
+      "file": "orden-768.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/experiment.css"
+      ],
+      "contrastChecked": 146,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "informe",
+      "size": "768",
+      "file": "informe-768.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/experiment.css",
+        "http 404: http://localhost:5050/labs/experiments/app.js",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/app.js"
+      ],
+      "contrastChecked": 127,
+      "contrastFails": [
+        {
+          "text": "Firma pendiente · se agrega al firmar y publicar",
+          "ratio": 4.48,
+          "min": 4.5,
+          "size": 9.5,
+          "sel": "span"
+        }
+      ],
+      "contrastFailCount": 1,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "componentes",
+      "size": "768",
+      "file": "componentes-768.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/app.js",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/app.js",
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/experiment.css"
+      ],
+      "contrastChecked": 382,
+      "contrastFails": [
+        {
+          "text": "Recibida",
+          "ratio": 3.38,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "En Proceso",
+          "ratio": 2.07,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Diagnóstico",
+          "ratio": 3.86,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Revisión",
+          "ratio": 3.23,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Cerrada",
+          "ratio": 3.54,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Liberada",
+          "ratio": 2.41,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Cancelada",
+          "ratio": 3.44,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Recibida",
+          "ratio": 3.38,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "En Proceso",
+          "ratio": 2.07,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Lista",
+          "ratio": 2.41,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Insuficiente",
+          "ratio": 3.44,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Cancelada",
+          "ratio": 4.39,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Borrador",
+          "ratio": 2.07,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "En Revisión",
+          "ratio": 3.38,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Aprobado",
+          "ratio": 2.41,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Publicado",
+          "ratio": 2.18,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Retractado",
+          "ratio": 3.44,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Pendiente",
+          "ratio": 2.07,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Aprobado",
+          "ratio": 2.41,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Rechazado",
+          "ratio": 3.44,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        }
+      ],
+      "contrastFailCount": 20,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 23,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "direcciones",
+      "size": "768",
+      "file": "direcciones-768.jpg",
+      "errors": [],
+      "contrastChecked": 111,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "trabajo",
+      "size": "390",
+      "file": "trabajo-390.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/experiment.css",
+        "http 404: http://localhost:5050/labs/experiments/app.js",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/app.js"
+      ],
+      "contrastChecked": 102,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 177,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "orden",
+      "size": "390",
+      "file": "orden-390.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/experiment.css"
+      ],
+      "contrastChecked": 122,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 164,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "informe",
+      "size": "390",
+      "file": "informe-390.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/experiment.css"
+      ],
+      "contrastChecked": 103,
+      "contrastFails": [
+        {
+          "text": "Firma pendiente · se agrega al firmar y publicar",
+          "ratio": 4.48,
+          "min": 4.5,
+          "size": 9.5,
+          "sel": "span"
+        }
+      ],
+      "contrastFailCount": 1,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 112,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "componentes",
+      "size": "390",
+      "file": "componentes-390.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "contrastChecked": 358,
+      "contrastFails": [
+        {
+          "text": "Recibida",
+          "ratio": 3.38,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "En Proceso",
+          "ratio": 2.07,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Diagnóstico",
+          "ratio": 3.86,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Revisión",
+          "ratio": 3.23,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Cerrada",
+          "ratio": 3.54,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Liberada",
+          "ratio": 2.41,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Cancelada",
+          "ratio": 3.44,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Recibida",
+          "ratio": 3.38,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "En Proceso",
+          "ratio": 2.07,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Lista",
+          "ratio": 2.41,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Insuficiente",
+          "ratio": 3.44,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Cancelada",
+          "ratio": 4.39,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Borrador",
+          "ratio": 2.07,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "En Revisión",
+          "ratio": 3.38,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Aprobado",
+          "ratio": 2.41,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Publicado",
+          "ratio": 2.18,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Retractado",
+          "ratio": 3.44,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Pendiente",
+          "ratio": 2.07,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Aprobado",
+          "ratio": 2.41,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        },
+        {
+          "text": "Rechazado",
+          "ratio": 3.44,
+          "min": 4.5,
+          "size": 11,
+          "sel": "span"
+        }
+      ],
+      "contrastFailCount": 20,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 181,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "direcciones",
+      "size": "390",
+      "file": "direcciones-390.jpg",
+      "errors": [],
+      "contrastChecked": 98,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "trabajo-vacio",
+      "size": "1440",
+      "file": "trabajo-vacio-1440.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/experiment.css",
+        "http 404: http://localhost:5050/labs/experiments/app.js",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/app.js"
+      ],
+      "contrastChecked": 66,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "trabajo-vacio",
+      "size": "390",
+      "file": "trabajo-vacio-390.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/experiment.css",
+        "http 404: http://localhost:5050/labs/experiments/app.js",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/app.js"
+      ],
+      "contrastChecked": 41,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 14,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "trabajo-error",
+      "size": "1440",
+      "file": "trabajo-error-1440.jpg",
+      "errors": [],
+      "contrastChecked": 67,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "trabajo-error",
+      "size": "390",
+      "file": "trabajo-error-390.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/experiment.css",
+        "http 404: http://localhost:5050/labs/experiments/app.js",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/app.js"
+      ],
+      "contrastChecked": 42,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 14,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "trabajo-cargando",
+      "size": "1440",
+      "file": "trabajo-cargando-1440.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "contrastChecked": 64,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "trabajo-completadas-compacta",
+      "size": "1440",
+      "file": "trabajo-completadas-compacta-1440.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css"
+      ],
+      "contrastChecked": 175,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "trabajo-notas",
+      "size": "1440",
+      "file": "trabajo-notas-1440.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/experiment.css"
+      ],
+      "contrastChecked": 157,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "ordenes-lista",
+      "size": "768",
+      "file": "ordenes-lista-768.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/experiment.css",
+        "http 404: http://localhost:5050/labs/experiments/app.js",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/app.js"
+      ],
+      "contrastChecked": 78,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "ordenes-lista",
+      "size": "390",
+      "file": "ordenes-lista-390.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/experiment.css",
+        "http 404: http://localhost:5050/labs/experiments/app.js",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "contrastChecked": 54,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "orden-cancelada",
+      "size": "1440",
+      "file": "orden-cancelada-1440.jpg",
+      "errors": [],
+      "contrastChecked": 135,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "orden-muestras",
+      "size": "1440",
+      "file": "orden-muestras-1440.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/app.js",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/app.js",
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/experiment.css"
+      ],
+      "contrastChecked": 137,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "orden-muestras",
+      "size": "390",
+      "file": "orden-muestras-390.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/experiment.css",
+        "http 404: http://localhost:5050/labs/experiments/app.js",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/app.js"
+      ],
+      "contrastChecked": 79,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 164,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "informe-borrador-autora",
+      "size": "1440",
+      "file": "informe-borrador-autora-1440.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/experiment.css",
+        "http 404: http://localhost:5050/labs/experiments/app.js",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/app.js"
+      ],
+      "contrastChecked": 126,
+      "contrastFails": [
+        {
+          "text": "Firma pendiente · se agrega al firmar y publicar",
+          "ratio": 4.48,
+          "min": 4.5,
+          "size": 9.5,
+          "sel": "span"
+        }
+      ],
+      "contrastFailCount": 1,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "informe-aprobado-revisora",
+      "size": "1440",
+      "file": "informe-aprobado-revisora-1440.jpg",
+      "errors": [],
+      "contrastChecked": 127,
+      "contrastFails": [
+        {
+          "text": "Firma pendiente · se agrega al firmar y publicar",
+          "ratio": 4.48,
+          "min": 4.5,
+          "size": 9.5,
+          "sel": "span"
+        }
+      ],
+      "contrastFailCount": 1,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "informe-aprobado-revisora",
+      "size": "390",
+      "file": "informe-aprobado-revisora-390.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/experiment.css"
+      ],
+      "contrastChecked": 102,
+      "contrastFails": [
+        {
+          "text": "Firma pendiente · se agrega al firmar y publicar",
+          "ratio": 4.48,
+          "min": 4.5,
+          "size": 9.5,
+          "sel": "span"
+        }
+      ],
+      "contrastFailCount": 1,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 112,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "informe-aprobado-admin",
+      "size": "1440",
+      "file": "informe-aprobado-admin-1440.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/experiment.css"
+      ],
+      "contrastChecked": 126,
+      "contrastFails": [
+        {
+          "text": "Firma pendiente · se agrega al firmar y publicar",
+          "ratio": 4.48,
+          "min": 4.5,
+          "size": 9.5,
+          "sel": "span"
+        }
+      ],
+      "contrastFailCount": 1,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "informe-publicado",
+      "size": "1440",
+      "file": "informe-publicado-1440.jpg",
+      "errors": [],
+      "contrastChecked": 129,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "informe-publicado",
+      "size": "768",
+      "file": "informe-publicado-768.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/experiment.css"
+      ],
+      "contrastChecked": 128,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    },
+    {
+      "view": "informe-retractado",
+      "size": "1440",
+      "file": "informe-retractado-1440.jpg",
+      "errors": [
+        "http 404: http://localhost:5050/labs/experiments/experiment.css",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/experiment.css",
+        "http 404: http://localhost:5050/labs/experiments/app.js",
+        "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "requestfailed: http://localhost:5050/labs/experiments/app.js"
+      ],
+      "contrastChecked": 131,
+      "contrastFails": [],
+      "contrastFailCount": 0,
+      "unnamed": [],
+      "imgsNoAlt": 0,
+      "h1": 1,
+      "overflow": 0,
+      "banner": true,
+      "lang": "es"
+    }
+  ],
+  "keyboard": [
+    {
+      "url": "index.html#/trabajo",
+      "size": "1440",
+      "steps": 44,
+      "withoutRing": [],
+      "outOfView": [],
+      "order": [
+        "a:Saltar al contenido",
+        "a:Direcciones A/B",
+        "a:Brief",
+        "a:Auditoría",
+        "a:Laboratorio",
+        "summary:Controles de revisión",
+        "a:Céluma · ir a Mi trabajo",
+        "a:Mi trabajo8",
+        "a:Órdenes",
+        "a:Muestras (fuera del prototipo)",
+        "a:Informes",
+        "a:Pacientes (fuera del prototipo)",
+        "a:Médicos solicitantes (fuera del prototip",
+        "a:Resumen del laboratorio (fuera del proto",
+        "a:Facturación (fuera del prototipo)",
+        "a:Componentes",
+        "a:Direcciones A/B",
+        "button:2 Por revisar y decidir",
+        "button:1 Por firmar y publicar",
+        "button:3 Muestras por atender",
+        "button:1 En espera de otras personas",
+        "input:Buscar por código, paciente o etiqueta",
+        "button:Todo 9",
+        "button:Informes 5",
+        "button:Muestras 3",
+        "button:Órdenes 1",
+        "button:Incluir completadas (3)",
+        "select:Más antiguas primeroMás recientes primer",
+        "button:Asignada",
+        "a:ORD-EJ-0039",
+        "a:MUE-EJ-0099",
+        "a:ORD-EJ-0045",
+        "a:ORD-EJ-0044",
+        "a:ORD-EJ-0047",
+        "a:ORD-EJ-0048",
+        "a:MUE-EJ-0102 · Fragmento de ejemplo con d",
+        "a:ORD-EJ-0051",
+        "a:MUE-EJ-0112",
+        "a:Saltar al contenido",
+        "a:Direcciones A/B",
+        "a:Brief",
+        "a:Auditoría",
+        "a:Laboratorio",
+        "summary:Controles de revisión"
+      ]
+    },
+    {
+      "url": "index.html#/ordenes/ORD-EJ-0044",
+      "size": "1440",
+      "steps": 39,
+      "withoutRing": [],
+      "outOfView": [],
+      "order": [
+        "a:Saltar al contenido",
+        "a:Direcciones A/B",
+        "a:Brief",
+        "a:Auditoría",
+        "a:Laboratorio",
+        "summary:Controles de revisión",
+        "a:Céluma · ir a Mi trabajo",
+        "a:Mi trabajo8",
+        "a:Órdenes",
+        "a:Muestras (fuera del prototipo)",
+        "a:Informes",
+        "a:Pacientes (fuera del prototipo)",
+        "a:Médicos solicitantes (fuera del prototip",
+        "a:Resumen del laboratorio (fuera del proto",
+        "a:Facturación (fuera del prototipo)",
+        "a:Componentes",
+        "a:Direcciones A/B",
+        "button:Nueva orden",
+        "input:Código, paciente o solicitante",
+        "select:TodosRecibidaEn procesoDiagnósticoRevisi",
+        "a:ORD-EJ-0052Recibida Paciente Ejemplo Dos",
+        "a:ORD-EJ-0051Revisión Paciente Ejemplo Uno",
+        "a:ORD-EJ-0047Diagnóstico Paciente Ejemplo ",
+        "a:ORD-EJ-0046En proceso Paciente Ficticio ",
+        "a:ORD-EJ-0044Revisión Paciente Demo Cuatro",
+        "a:ORD-EJ-0040Cerrada Paciente Ejemplo Uno ",
+        "a:ORD-EJ-0036Liberada Paciente Ejemplo Dos",
+        "a:ORD-EJ-0033Cancelada Paciente Ejemplo Si",
+        "a:Ver informe",
+        "button:Ver factura",
+        "button:Más acciones",
+        "button:Línea de tiempo 11",
+        "div:TodoEstadosMuestrasInformeAsignaciones 5",
+        "button:Todo",
+        "button:Estados",
+        "button:Muestras",
+        "button:Informe",
+        "button:Asignaciones",
+        "a:Saltar al contenido"
+      ]
+    },
+    {
+      "url": "index.html#/informe?estado=APPROVED&como=revisora",
+      "size": "1440",
+      "steps": 29,
+      "withoutRing": [],
+      "outOfView": [],
+      "order": [
+        "a:Saltar al contenido",
+        "a:Direcciones A/B",
+        "a:Brief",
+        "a:Auditoría",
+        "a:Laboratorio",
+        "summary:Controles de revisión",
+        "a:Céluma · ir a Mi trabajo",
+        "a:Mi trabajo8",
+        "a:Órdenes",
+        "a:Muestras (fuera del prototipo)",
+        "a:Informes",
+        "a:Pacientes (fuera del prototipo)",
+        "a:Médicos solicitantes (fuera del prototip",
+        "a:Resumen del laboratorio (fuera del proto",
+        "a:Facturación (fuera del prototipo)",
+        "a:Componentes",
+        "a:Direcciones A/B",
+        "a:ORD-EJ-0044",
+        "button:Borrador",
+        "button:En revisión",
+        "button:Aprobado",
+        "button:Publicado",
+        "button:Retractado",
+        "select:Revisora asignadaPatóloga · autoraAdmini",
+        "button:Firmar y publicar",
+        "button:Reabrir",
+        "a:Saltar al contenido",
+        "a:Direcciones A/B",
+        "a:Brief"
+      ]
+    },
+    {
+      "url": "index.html#/trabajo",
+      "size": "390",
+      "steps": 24,
+      "withoutRing": [],
+      "outOfView": [],
+      "order": [
+        "a:Saltar al contenido",
+        "summary:Controles de revisión",
+        "button:Abrir menú",
+        "a:Céluma",
+        "button:2 Por revisar y decidir",
+        "button:1 Por firmar y publicar",
+        "button:3 Muestras por atender",
+        "button:1 En espera de otras personas",
+        "input:Buscar por código, paciente o etiqueta",
+        "button:Todo 9",
+        "button:Informes 5",
+        "button:Muestras 3",
+        "button:Órdenes 1",
+        "button:Incluir completadas (3)",
+        "select:Más antiguas primeroMás recientes primer",
+        "a:ORD-EJ-0039",
+        "a:MUE-EJ-0099",
+        "a:ORD-EJ-0045",
+        "a:ORD-EJ-0044",
+        "a:ORD-EJ-0047",
+        "a:ORD-EJ-0048",
+        "a:MUE-EJ-0102 · Fragmento de ejemplo con d",
+        "a:ORD-EJ-0051",
+        "a:MUE-EJ-0112"
+      ]
+    }
+  ],
+  "motion": {
+    "btnTransition": "1e-06s",
+    "skelAnimation": "none",
+    "matches": true
+  },
+  "dialog": {
+    "open": true,
+    "focusInside": true,
+    "afterEscape": {
+      "open": false,
+      "focusReturned": "sign"
+    },
+    "busyDuringSign": "true",
+    "statusAfter": "Publicado"
+  },
+  "drawer": {
+    "expanded": "true",
+    "focus": "Mi trabajo8",
+    "open": "true",
+    "afterEscape": {
+      "open": "false",
+      "focus": "menu-btn"
+    }
+  },
+  "tabs": {
+    "focused": "tab-samples",
+    "selected": "tab-samples",
+    "visiblePanel": "panel-samples"
+  },
+  "summary": {
+    "pages": 34,
+    "withErrors": [
+      "trabajo@1440: http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/experiment.css | http 404: http://localhost:5050/labs/experiments/app.js | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/app.js",
+      "orden@1440: http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/experiment.css | http 404: http://localhost:5050/labs/experiments/app.js | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/app.js",
+      "trabajo@768: http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/experiment.css | http 404: http://localhost:5050/labs/experiments/app.js | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/app.js",
+      "orden@768: http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/experiment.css",
+      "informe@768: http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/experiment.css | http 404: http://localhost:5050/labs/experiments/app.js | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/app.js",
+      "componentes@768: http 404: http://localhost:5050/labs/experiments/app.js | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/app.js | http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/experiment.css",
+      "trabajo@390: http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/experiment.css | http 404: http://localhost:5050/labs/experiments/app.js | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/app.js",
+      "orden@390: http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/experiment.css",
+      "informe@390: http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/experiment.css",
+      "componentes@390: http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "trabajo-vacio@1440: http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/experiment.css | http 404: http://localhost:5050/labs/experiments/app.js | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/app.js",
+      "trabajo-vacio@390: http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/experiment.css | http 404: http://localhost:5050/labs/experiments/app.js | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/app.js",
+      "trabajo-error@390: http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/experiment.css | http 404: http://localhost:5050/labs/experiments/app.js | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/app.js",
+      "trabajo-cargando@1440: http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "trabajo-completadas-compacta@1440: http 404: http://localhost:5050/labs/experiments/experiment.css",
+      "trabajo-notas@1440: http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/experiment.css",
+      "ordenes-lista@768: http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/experiment.css | http 404: http://localhost:5050/labs/experiments/app.js | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/app.js",
+      "ordenes-lista@390: http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/experiment.css | http 404: http://localhost:5050/labs/experiments/app.js | error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "orden-muestras@1440: http 404: http://localhost:5050/labs/experiments/app.js | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/app.js | http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/experiment.css",
+      "orden-muestras@390: http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/experiment.css | http 404: http://localhost:5050/labs/experiments/app.js | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/app.js",
+      "informe-borrador-autora@1440: http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/experiment.css | http 404: http://localhost:5050/labs/experiments/app.js | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/app.js",
+      "informe-aprobado-revisora@390: http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/experiment.css",
+      "informe-aprobado-admin@1440: http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/experiment.css",
+      "informe-publicado@768: http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/experiment.css",
+      "informe-retractado@1440: http 404: http://localhost:5050/labs/experiments/experiment.css | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/experiment.css | http 404: http://localhost:5050/labs/experiments/app.js | error: Failed to load resource: the server responded with a status of 404 (Not Found) | requestfailed: http://localhost:5050/labs/experiments/app.js"
+    ],
+    "overflow": [
+      "componentes@768: 23px",
+      "trabajo@390: 177px",
+      "orden@390: 164px",
+      "informe@390: 112px",
+      "componentes@390: 181px",
+      "trabajo-vacio@390: 14px",
+      "trabajo-error@390: 14px",
+      "orden-muestras@390: 164px",
+      "informe-aprobado-revisora@390: 112px"
+    ],
+    "bannerMissing": [],
+    "contrast": [
+      "informe@1440: 1 (\"Firma pendiente · se agrega al firmar y publicar\" 4.48)",
+      "componentes@1440: 20 (\"Recibida\" 3.38; \"En Proceso\" 2.07; \"Diagnóstico\" 3.86; \"Revisión\" 3.23)",
+      "informe@768: 1 (\"Firma pendiente · se agrega al firmar y publicar\" 4.48)",
+      "componentes@768: 20 (\"Recibida\" 3.38; \"En Proceso\" 2.07; \"Diagnóstico\" 3.86; \"Revisión\" 3.23)",
+      "informe@390: 1 (\"Firma pendiente · se agrega al firmar y publicar\" 4.48)",
+      "componentes@390: 20 (\"Recibida\" 3.38; \"En Proceso\" 2.07; \"Diagnóstico\" 3.86; \"Revisión\" 3.23)",
+      "informe-borrador-autora@1440: 1 (\"Firma pendiente · se agrega al firmar y publicar\" 4.48)",
+      "informe-aprobado-revisora@1440: 1 (\"Firma pendiente · se agrega al firmar y publicar\" 4.48)",
+      "informe-aprobado-revisora@390: 1 (\"Firma pendiente · se agrega al firmar y publicar\" 4.48)",
+      "informe-aprobado-admin@1440: 1 (\"Firma pendiente · se agrega al firmar y publicar\" 4.48)"
+    ],
+    "contrastChecked": 4591,
+    "unnamed": [],
+    "h1": [],
+    "keyboard": [
+      "index.html#/trabajo@1440: 44 paradas, sin anillo 0, fuera de vista 0",
+      "index.html#/ordenes/ORD-EJ-0044@1440: 39 paradas, sin anillo 0, fuera de vista 0",
+      "index.html#/informe?estado=APPROVED&como=revisora@1440: 29 paradas, sin anillo 0, fuera de vista 0",
+      "index.html#/trabajo@390: 24 paradas, sin anillo 0, fuera de vista 0"
+    ],
+    "tabs": {
+      "focused": "tab-samples",
+      "selected": "tab-samples",
+      "visiblePanel": "panel-samples"
+    },
+    "dialog": {
+      "open": true,
+      "focusInside": true,
+      "afterEscape": {
+        "open": false,
+        "focusReturned": "sign"
+      },
+      "busyDuringSign": "true",
+      "statusAfter": "Publicado"
+    },
+    "drawer": {
+      "expanded": "true",
+      "focus": "Mi trabajo8",
+      "open": "true",
+      "afterEscape": {
+        "open": "false",
+        "focus": "menu-btn"
+      }
+    },
+    "motion": {
+      "btnTransition": "1e-06s",
+      "skelAnimation": "none",
+      "matches": true
+    }
+  }
+}

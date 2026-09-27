@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>Exploración · Refinamiento del frontend · Céluma</title>
+    <!-- Algunos servidores estáticos (p. ej. `npx serve`) quitan la barra final
+         de la carpeta; sin ella, las rutas relativas apuntan a la carpeta padre. -->
+    <script>if (!/\/$|\.html$/.test(location.pathname)) location.replace(location.pathname + '/index.html' + location.search + location.hash);</script>
+    <link rel="icon" type="image/png" href="../../../assets/celuma-isotipo.png" />
+    <link rel="stylesheet" href="../../../styles/celuma-tokens.css" />
+    <link rel="stylesheet" href="experiment.css" />
+  </head>
+  <body data-density="cómoda">
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <!-- Banda de exploración: visible en todas las vistas y capturas -->
+    <div class="xbar" role="note" aria-label="Estado del prototipo">
+      <span class="xbar-tag">Exploración · no aprobada</span>
+      <span class="xbar-text">Prototipo del laboratorio visual con datos ficticios. <span class="long">No es la app de producción ni ejecuta operaciones clínicas.</span></span>
+      <nav class="xbar-links" aria-label="Documentos del experimento">
+        <a href="direcciones.html">Direcciones A/B</a>
+        <a href="BRIEF.md">Brief</a>
+        <a href="AUDIT.md">Auditoría</a>
+        <a href="../../index.html">Laboratorio</a>
+      </nav>
+      <details id="xcontrols">
+        <summary><svg class="ic ic-sm" aria-hidden="true"><use href="#i-sliders"/></svg><span>Controles<span class="sum-long"> de revisión</span></span></summary>
+        <div class="xpanel">
+          <fieldset>
+            <legend>Datos de la vista</legend>
+            <div class="segmented" data-ctl="data" role="group" aria-label="Datos de la vista">
+              <button type="button" data-v="normal" aria-pressed="true">Normal</button>
+              <button type="button" data-v="cargando" aria-pressed="false">Cargando</button>
+              <button type="button" data-v="vacio" aria-pressed="false">Vacío</button>
+              <button type="button" data-v="error" aria-pressed="false">Error</button>
+            </div>
+            <p class="hint">Aplica a la lista de trabajo y a la lista de órdenes. Los textos largos ya están incluidos en los datos normales.</p>
+          </fieldset>
+          <fieldset>
+            <legend>Densidad de tablas</legend>
+            <div class="segmented" data-ctl="density" role="group" aria-label="Densidad">
+              <button type="button" data-v="cómoda" aria-pressed="true">Cómoda · 56 px</button>
+              <button type="button" data-v="compacta" aria-pressed="false">Compacta · 44 px</button>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Documentos del experimento</legend>
+            <div class="doc-links"><a href="direcciones.html">Direcciones A/B</a><a href="BRIEF.md">Brief</a><a href="AUDIT.md">Auditoría</a><a href="../../index.html">Laboratorio</a></div>
+          </fieldset>
+          <fieldset>
+            <legend>Explicaciones</legend>
+            <button type="button" class="switch" role="switch" aria-checked="false" data-ctl="notes"><span class="track"></span>Mostrar notas de diseño en la vista</button>
+          </fieldset>
+        </div>
+      </details>
+    </div>
+
+    <nav class="fr-path-nav" aria-label="Recorrido del experimento de interfaz">
+      <a href="../../index.html">Laboratorio</a>
+      <span aria-hidden="true">/</span><strong>Interfaz</strong>
+      <a href="index.html" aria-current="page">Prototipo</a>
+      <a href="direcciones.html">Direcciones A/B</a>
+      <a href="exploraciones/estados/index.html">Estados</a>
+    </nav>
+    <div class="shell">
+      <aside class="sidebar" id="sidebar" aria-label="Navegación principal">
+        <div class="sb-brand">
+          <a class="lockup" href="#/trabajo" aria-label="Céluma · ir a Mi trabajo">
+            <img src="../../../assets/celuma-isotipo.png" alt="" width="30" height="34" />
+            <span>Céluma</span>
+          </a>
+          <div class="sb-tenant">
+            <small>Laboratorio</small>
+            <strong>Laboratorio Ejemplo de Patología</strong>
+            <span>Sucursales: Centro · Norte</span>
+          </div>
+        </div>
+        <nav aria-label="Secciones">
+          <div class="nav" id="nav"></div>
+        </nav>
+        <div class="sb-foot">
+          <div class="sb-user"><span class="avatar" aria-hidden="true">RE</span><span class="who"><strong>Revisora Ejemplo</strong><span>Patóloga y revisora</span></span></div>
+        </div>
+      </aside>
+
+      <div class="main-wrap">
+        <header class="topbar">
+          <button type="button" class="btn btn-secondary btn-sm btn-icon" id="menu-btn" aria-controls="sidebar" aria-expanded="false"><svg class="ic" aria-hidden="true"><use href="#i-menu"/></svg><span class="sr-only">Abrir menú</span></button>
+          <a class="lockup" href="#/trabajo"><img src="../../../assets/celuma-isotipo.png" alt="" width="24" height="27" /><span>Céluma</span></a>
+          <span class="tenant">Laboratorio Ejemplo<br />de Patología</span>
+        </header>
+        <main id="contenido" tabindex="-1"></main>
+      </div>
+    </div>
+
+    <div class="toasts" id="toasts" aria-live="polite" aria-atomic="false"></div>
+    <p class="sr-only" id="route-announcer" aria-live="polite"></p>
+    <dialog id="dlg" aria-labelledby="dlg-title"></dialog>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

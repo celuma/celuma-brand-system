@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>Direcciones A/B · Exploración · Céluma</title>
+    <link rel="icon" type="image/png" href="../../../assets/celuma-isotipo.png" />
+    <link rel="stylesheet" href="../../../styles/celuma-tokens.css" />
+    <link rel="stylesheet" href="experiment.css" />
+    <link rel="stylesheet" href="direcciones.css" />
+  </head>
+  <body>
+    <div class="xbar" role="note" aria-label="Estado del prototipo">
+      <span class="xbar-tag">Exploración · no aprobada</span>
+      <span class="xbar-text">Comparación de dos direcciones visuales con datos ficticios. <span class="long">Ninguna está aprobada.</span></span>
+      <nav class="xbar-links" aria-label="Documentos del experimento">
+        <a href="index.html#/trabajo">Prototipo</a>
+        <a href="BRIEF.md">Brief</a>
+        <a href="AUDIT.md">Auditoría</a>
+      </nav>
+    </div>
+
+    <nav class="fr-path-nav" aria-label="Recorrido del experimento de interfaz">
+      <a href="../../index.html">Laboratorio</a>
+      <span aria-hidden="true">/</span><strong>Interfaz</strong>
+      <a href="index.html">Prototipo</a>
+      <a href="direcciones.html" aria-current="page">Direcciones A/B</a>
+      <a href="exploraciones/estados/index.html">Estados</a>
+    </nav>
+    <main class="dir-main" id="contenido">
+      <header class="dir-intro">
+        <p class="eyebrow">Experimento 01 · paso 2</p>
+        <h1>Dos direcciones para la misma pantalla</h1>
+        <p>Ambas corrigen lo mismo: estados con icono y tinta legible, decisión separada del estado, «qué sigue» visible y foco claro. Difieren en cuánto color de identidad conserva el cromo de la app y en la densidad. Los datos, textos y componentes son idénticos para que la comparación sea justa.</p>
+      </header>
+
+      <div class="dir-pair">
+        <section class="dir-col dir-a" aria-labelledby="da-t">
+          <header><h2 id="da-t">A · Continuidad legible</h2><span class="verdict pick">Elegida para desarrollar</span></header>
+          <p>Conserva lo que ya reconoce el equipo: lateral teal, crema, tarjetas blancas y filete salmón. Cambia la tinta (navy sobre teal), el sistema de estados y la jerarquía de la lista.</p>
+          <div class="mini" role="img" aria-label="Miniatura de la dirección A: lateral teal con texto navy, encabezado con filete salmón, tabla con chips de estado con icono">
+            <div class="mini-shell">
+              <div class="mini-side">
+                <div class="brand"><img src="../../../assets/celuma-isotipo.png" alt="" /><span>Céluma</span></div>
+                <a class="on"><svg class="ic" aria-hidden="true"><use href="#i-list-checks"/></svg><span>Mi trabajo</span></a>
+                <a><svg class="ic" aria-hidden="true"><use href="#i-clipboard"/></svg><span>Órdenes</span></a>
+                <a><svg class="ic" aria-hidden="true"><use href="#i-flask"/></svg><span>Muestras</span></a>
+                <a><svg class="ic" aria-hidden="true"><use href="#i-file-text"/></svg><span>Informes</span></a>
+              </div>
+              <div class="mini-body">
+                <div class="mini-head"><b>Mi trabajo</b><span>Lo más antiguo aparece primero</span></div>
+                <div class="mini-card">
+                  <table class="mini-table"><thead><tr><th>Elemento</th><th class="hide-sm">Qué sigue</th><th>Estado</th></tr></thead>
+                    <tbody>
+                      <tr><td><b>ORD-EJ-0039</b></td><td class="hide-sm">Firmar y publicar</td><td><span class="chip t-completado"><svg class="ic" aria-hidden="true"><use href="#i-check-circle"/></svg>Aprobado</span></td></tr>
+                      <tr><td><b>MUE-EJ-0099</b></td><td class="hide-sm">Atender muestra</td><td><span class="chip t-atencion"><svg class="ic" aria-hidden="true"><use href="#i-alert-triangle"/></svg>Insuficiente</span></td></tr>
+                      <tr><td><b>ORD-EJ-0044</b></td><td class="hide-sm">Revisar y decidir</td><td><span class="chip t-revision"><svg class="ic" aria-hidden="true"><use href="#i-eye"/></svg>En revisión</span></td></tr>
+                      <tr><td><b>ORD-EJ-0031</b></td><td class="hide-sm">Completada</td><td><span class="chip t-entregado"><svg class="ic" aria-hidden="true"><use href="#i-badge-check"/></svg>Publicado</span></td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="samples-strip">
+            <span class="k">Acción, campo y estados</span>
+            <div class="row"><span class="mini-btn">Firmar y publicar</span><span class="mini-btn sec">Imprimir copia local</span></div>
+            <div class="row"><span class="mini-field"><svg class="ic ic-sm" aria-hidden="true"><use href="#i-search"/></svg>Buscar por código o paciente</span></div>
+            <div class="row"><span class="chip t-encurso"><svg class="ic" aria-hidden="true"><use href="#i-pen"/></svg>Borrador</span><span class="chip t-revision"><svg class="ic" aria-hidden="true"><use href="#i-eye"/></svg>En revisión</span><span class="chip t-completado"><svg class="ic" aria-hidden="true"><use href="#i-check-circle"/></svg>Aprobado</span><span class="chip t-entregado"><svg class="ic" aria-hidden="true"><use href="#i-badge-check"/></svg>Publicado</span></div>
+          </div>
+        </section>
+
+        <section class="dir-col dir-b" aria-labelledby="db-t">
+          <header><h2 id="db-t">B · Mesa neutra</h2><span class="verdict drop">Descartada por ahora</span></header>
+          <p>Cromo neutro para que el único color sea el estado: lateral blanco, fondo gris cálido, superficies planas con borde, filas de 30–40 px y estados como punto + texto. Acción primaria en teal de tinta con texto blanco.</p>
+          <div class="mini" role="img" aria-label="Miniatura de la dirección B: lateral blanco, encabezado con subrayado salmón, tabla compacta con estados como punto y texto">
+            <div class="mini-shell">
+              <div class="mini-side">
+                <div class="brand"><img src="../../../assets/celuma-isotipo.png" alt="" /><span>Céluma</span></div>
+                <a class="on"><svg class="ic" aria-hidden="true"><use href="#i-list-checks"/></svg><span>Mi trabajo</span></a>
+                <a><svg class="ic" aria-hidden="true"><use href="#i-clipboard"/></svg><span>Órdenes</span></a>
+                <a><svg class="ic" aria-hidden="true"><use href="#i-flask"/></svg><span>Muestras</span></a>
+                <a><svg class="ic" aria-hidden="true"><use href="#i-file-text"/></svg><span>Informes</span></a>
+              </div>
+              <div class="mini-body">
+                <div class="mini-head"><b>Mi trabajo</b><span>Lo más antiguo aparece primero</span></div>
+                <div class="mini-card">
+                  <table class="mini-table"><thead><tr><th>Elemento</th><th class="hide-sm">Qué sigue</th><th>Estado</th></tr></thead>
+                    <tbody>
+                      <tr><td><b>ORD-EJ-0039</b></td><td class="hide-sm">Firmar y publicar</td><td><span class="dot-state" style="--c:#047857">Aprobado</span></td></tr>
+                      <tr><td><b>MUE-EJ-0099</b></td><td class="hide-sm">Atender muestra</td><td><span class="dot-state" style="--c:#b91c1c">Insuficiente</span></td></tr>
+                      <tr><td><b>ORD-EJ-0044</b></td><td class="hide-sm">Revisar y decidir</td><td><span class="dot-state" style="--c:#be185d">En revisión</span></td></tr>
+                      <tr><td><b>ORD-EJ-0031</b></td><td class="hide-sm">Completada</td><td><span class="dot-state solid" style="--c:#166534">Publicado</span></td></tr>
+                      <tr><td><b>ORD-EJ-0047</b></td><td class="hide-sm">Continuar diagnóstico</td><td><span class="dot-state" style="--c:#6d28d9">Diagnóstico</span></td></tr>
+                      <tr><td><b>MUE-EJ-0112</b></td><td class="hide-sm">Iniciar proceso</td><td><span class="dot-state" style="--c:#1d4ed8">Recibida</span></td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="samples-strip">
+            <span class="k">Acción, campo y estados</span>
+            <div class="row"><span class="mini-btn">Firmar y publicar</span><span class="mini-btn sec">Imprimir copia local</span></div>
+            <div class="row"><span class="mini-field"><svg class="ic ic-sm" aria-hidden="true"><use href="#i-search"/></svg>Buscar por código o paciente</span></div>
+            <div class="row"><span class="dot-state" style="--c:#92400e">Borrador</span><span class="dot-state" style="--c:#be185d">En revisión</span><span class="dot-state" style="--c:#047857">Aprobado</span><span class="dot-state solid" style="--c:#166534">Publicado</span></div>
+          </div>
+        </section>
+      </div>
+
+      <div class="table-wrap" role="region" aria-label="Tabla comparativa" tabindex="0"><table class="cmp">
+        <caption>Comparación con los mismos criterios</caption>
+        <thead><tr><th scope="col">Criterio</th><th scope="col">A · Continuidad legible</th><th scope="col">B · Mesa neutra</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Claridad de estados</th><td class="win">Chip con icono, tinta ≥ 5:1 y relleno sólido solo para «entregado». Se distingue sin color.</td><td>Punto + texto: legible, pero sin icono el punto depende del color; «Publicado» solo cambia la forma del punto (8 px).</td></tr>
+          <tr><th scope="row">Densidad</th><td>56 px por fila (44 en modo compacto): unas 9–12 filas visibles a 900 px de alto.</td><td class="win">30–40 px por fila: 14–16 filas visibles.</td></tr>
+          <tr><th scope="row">Continuidad con la app</th><td class="win">Alta: el equipo reconoce la pantalla; los cambios son de tinta, jerarquía y estados.</td><td>Baja: cambia lateral, fondos, radios y botones; se percibiría como rediseño.</td></tr>
+          <tr><th scope="row">Identidad de marca</th><td class="win">El teal del isotipo sigue siendo el rasgo más visible; el salmón queda en el filete del encabezado.</td><td>El teal casi desaparece del cromo; el producto se parece a cualquier herramienta de gestión.</td></tr>
+          <tr><th scope="row">Accesibilidad calculada</th><td>Navy sobre teal 7,10:1; foco #1f7a75 ≥ 4,7:1 sobre crema y blanco.</td><td>Blanco sobre #1f7a75 5,12:1; bordes planos de 1 px con menor contraste de límite.</td></tr>
+          <tr><th scope="row">Costo de adopción</th><td class="win">Bajo a medio: tokens, <code>status_configs.tsx</code>, <code>table_helpers.tsx</code>, <code>sidebar_menu.tsx</code>, <code>button.tsx</code>.</td><td>Alto: además, re-tematizar antd, tarjetas y encabezados en todas las páginas.</td></tr>
+          <tr><th scope="row">Riesgo</th><td>Puede seguir sintiéndose «suave» en monitores de laboratorio; se mitiga con el modo compacto.</td><td>Riesgo de identidad y de aceptación; decisión de marca que hoy no está tomada (D-1 del diagnóstico).</td></tr>
+        </tbody>
+      </table></div>
+
+      <section class="decision" aria-labelledby="dec-t">
+        <h2 id="dec-t">Por qué A (decisión reversible)</h2>
+        <ol>
+          <li>Resuelve los problemas de comprensión y contraste sin pedir una decisión de marca que aún no existe.</li>
+          <li>Su costo de adopción cabe en cambios acotados de tokens y componentes compartidos, que es lo que el equipo puede probar primero.</li>
+          <li>La densidad de B se incorpora a A como opción: modo compacto de 44 px y superficies internas con borde en lugar de sombra.</li>
+          <li>B queda documentada como alternativa si las pruebas con usuarios muestran que el lateral teal compite con los estados o si la densidad cómoda resulta insuficiente.</li>
+        </ol>
+      </section>
+    </main>
+
+    <script type="module">
+      import { mountIcons } from './icons.js';
+      import { TONES } from './data.js';
+      mountIcons();
+      const st = document.createElement('style');
+      st.textContent = Object.entries(TONES).map(([k, t]) => `.t-${k}{--ink:${t.ink};--bg:${t.bg}}`).join('');
+      document.head.append(st);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>Estados: Aprobado ≠ Publicado · Exploración · Céluma</title>
+    <!-- Algunos servidores estáticos (p. ej. `npx serve`) quitan la barra final de la carpeta. -->
+    <script>if (!/\/$|\.html$/.test(location.pathname)) location.replace(location.pathname + '/index.html' + location.search + location.hash);</script>
+    <link rel="icon" type="image/png" href="../../../../../assets/celuma-isotipo.png" />
+    <link rel="stylesheet" href="../../../../../styles/celuma-tokens.css" />
+    <link rel="stylesheet" href="../../experiment.css" />
+    <link rel="stylesheet" href="estados.css" />
+  </head>
+  <body class="view-color">
+    <!-- Matrices de deficiencia de color de Machado et al. (2009), severidad 1,0, en RGB lineal -->
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+      <filter id="cvd-deut" color-interpolation-filters="linearRGB"><feColorMatrix type="matrix" values="0.367322 0.860646 -0.227968 0 0  0.280085 0.672501 0.047413 0 0  -0.011820 0.042940 0.968881 0 0  0 0 0 1 0" /></filter>
+      <filter id="cvd-prot" color-interpolation-filters="linearRGB"><feColorMatrix type="matrix" values="0.152286 1.052583 -0.204868 0 0  0.114503 0.786281 0.099216 0 0  -0.003882 -0.048116 1.051998 0 0  0 0 0 1 0" /></filter>
+    </svg>
+
+    <div class="xbar" role="note" aria-label="Estado de la exploración">
+      <span class="xbar-tag">Exploración · no aprobada</span>
+      <span class="xbar-text">Variantes de estado con datos ficticios. <span class="long">Ninguna opción está aprobada; el prototipo principal no cambia hasta que Rafael elija.</span></span>
+      <nav class="xbar-links" aria-label="Documentos">
+        <a href="DECISION.md">Nota de decisión</a>
+        <a href="../../index.html">Prototipo</a>
+        <a href="../../BRIEF.md">Brief</a>
+      </nav>
+    </div>
+
+    <nav class="fr-path-nav" aria-label="Recorrido del experimento de interfaz">
+      <a href="../../../../index.html">Laboratorio</a>
+      <span aria-hidden="true">/</span><strong>Interfaz</strong>
+      <a href="../../index.html">Prototipo</a>
+      <a href="../../direcciones.html">Direcciones A/B</a>
+      <a href="index.html" aria-current="page">Estados</a>
+    </nav>
+    <main class="x-main" id="contenido">
+      <header class="x-head">
+        <p class="x-kicker">Experimento 01 · exploración de estados</p>
+        <h1>Aprobado no es Publicado: cinco maneras de decirlo</h1>
+        <p>R2 se distinguía por un relleno verde oscuro que rompía la familia; R3 recuperó la vivacidad, pero Aprobado y Publicado (y Lista y Liberada) vuelven a parecer el mismo estado. Aquí están R3 y cinco alternativas (V1–V5, más la recomendada V2+) en contexto real, a tamaño 1:1, con las mismas restricciones: píldora sin contorno, texto e icono, tono Céluma y contraste legible.</p>
+      </header>
+
+      <section class="x-card x-rec" aria-labelledby="rec-t">
+        <div>
+          <span class="x-status">Recomendación · no aprobada</span>
+          <h2 id="rec-t" style="margin-top:10px">V2+ · Glifo lleno + contexto</h2>
+          <ol>
+            <li><b>Una sola señal nueva, de forma:</b> Publicado y Liberada conservan la píldora menta de R3 y dibujan su icono <i>relleno</i> (sello; disco con avión) en la tinta del estado. Aprobado y Lista siguen con icono de trazo. Sin relleno oscuro, sin contorno, sin cambiar un solo color de R3.</li>
+            <li><b>Punto medio medido:</b> la marca local del chip (zona de 12 × 12 px más oscura, en gris) difiere 91 entre Aprobado y Publicado: R3 24, R2 113. El chip completo solo cambia 24,5 de gris medio (R2: 118,9). Es decir, casi toda la distinción de R2 con una quinta parte de su peso.</li>
+            <li><b>Se distingue sin color</b> (escala de grises, deuteranopía y protanopía simuladas), donde R3 y V4 no lo logran.</li>
+            <li><b>«sin firmar» fuera del chip</b> y solo en tablas sin «Qué sigue»; en listas y fichas ya lo dicen «Firmar y publicar» y «Ahora». Dentro del chip lo alarga de 95 a 161 px.</li>
+            <li><b>La decisión no es un chip:</b> «Revisora Ejemplo · Aprobó» va junto a la persona; el chip es siempre el estado del informe.</li>
+          </ol>
+          <p class="x-foot" style="margin-top:10px"><b>Compromiso.</b> Frente a R2: menos contundente a distancia, pero conserva la familia menta. Frente a R3: añade una marca que se ve antes de leer. Si en monitores del laboratorio se queda corta, V5 sube el fondo a <code>#a9e5c5</code> sin cambiar la regla.</p>
+        </div>
+        <div class="x-pair" id="rec-pair" aria-label="R3 frente a la recomendación, tamaño real"></div>
+      </section>
+
+      <section class="x-sec" id="matriz" aria-labelledby="h-matriz">
+        <h2 id="h-matriz">Todas las variantes, pares críticos a tamaño real</h2>
+        <p class="x-lead"><b>Mancha</b>: diferencia (0–255, en gris) de la zona de 12 × 12 px más oscura de cada chip; es lo que el ojo detecta antes de leer. <b>Gris chip</b>: diferencia del gris medio de todo el chip. <b>Fondos</b> y <b>ΔE deut.</b>: diferencia solo del color de fondo. Verde = fuerte · ámbar = débil · rojo = insuficiente. Las métricas de píxeles vienen de <code>scripts/measure.py</code> sobre recortes a 3×; las de fondo se calculan en vivo.</p>
+        <div class="x-matrix-wrap x-filterable" id="matrix" tabindex="0" role="region" aria-label="Matriz de variantes"></div>
+      </section>
+
+      <div class="x-bar" role="group" aria-label="Comparación lado a lado">
+        <label class="select-inline">Izquierda <select id="sel-izq"></select></label>
+        <label class="select-inline">Derecha <select id="sel-der"></select></label>
+        <div class="segmented" role="group" aria-label="Simular visión">
+          <button type="button" data-vista="color" aria-pressed="true">Color</button>
+          <button type="button" data-vista="gris" aria-pressed="false">Escala de grises</button>
+          <button type="button" data-vista="deut" aria-pressed="false">Deuteranopía</button>
+          <button type="button" data-vista="prot" aria-pressed="false">Protanopía</button>
+        </div>
+        <nav class="x-jump" aria-label="Contextos"><a href="#tabla">Tabla</a><a href="#trabajo">Lista</a><a href="#ficha">Ficha</a><a href="#movil">Móvil</a><a href="#verificacion">Verificación</a></nav>
+      </div>
+
+      <div id="contexts"></div>
+
+      <section class="x-sec" id="sin-firmar" aria-labelledby="h-sf">
+        <h2 id="h-sf">¿«sin firmar» dentro o fuera del chip?</h2>
+        <div class="x-matrix-wrap" tabindex="0" role="region" aria-label="Evaluación del calificador">
+          <table class="x-diag"><caption class="sr-only">Calificador dentro frente a fuera del chip</caption>
+            <thead><tr><th scope="col">Criterio</th><th scope="col">Dentro (V3)</th><th scope="col">Fuera, solo en tablas sin «Qué sigue» (V2+)</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Largo</th><td class="lost">95 → 161 px (+70 %). En la tabla densa la columna pasa de 128 a 187 px, el marco de 1:1 necesita 37 px de desplazamiento y el texto se corta («sin firm…»).</td><td class="kept">Chip igual (95 px). Columna de 138 px; «sin firmar» cae a una segunda línea discreta solo en las filas aprobadas.</td></tr>
+              <tr><th scope="row">Redundancia</th><td class="weak">Repite «Firmar y publicar» (lista) y «Falta firmar y publicar» (ficha).</td><td class="kept">Aparece solo donde no hay otra pista.</td></tr>
+              <tr><th scope="row">Alcance entre dominios</th><td class="lost">Solo sirve a Aprobado: no hay calificador honesto para Lista ni Liberada.</td><td class="kept">La distinción transversal la da el glifo; el texto es un refuerzo local.</td></tr>
+              <tr><th scope="row">Vocabulario</th><td class="weak">Cambia la etiqueta del producto («Aprobado»).</td><td class="kept">Conserva la etiqueta; el calificador es texto de contexto.</td></tr>
+              <tr><th scope="row">Redacción</th><td colspan="2">«sin firmar» nombra una carencia y puede leerse como anomalía; <b>«por firmar»</b> nombra el paso pendiente con la misma longitud. Queda como decisión de vocabulario pendiente.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="x-sec" id="laminas" aria-labelledby="h-lam">
+        <h2 id="h-lam">Láminas 1:1 para revisar fuera de la página</h2>
+        <p class="x-lead">Todas a tamaño real (1 px CSS = 1 px), en color y en escala de grises: <a href="capturas/laminas/tabla.png">tabla</a> · <a href="capturas/laminas/tabla-grises.png">tabla en gris</a> · <a href="capturas/laminas/trabajo.png">lista de trabajo</a> · <a href="capturas/laminas/trabajo-grises.png">en gris</a> · <a href="capturas/laminas/ficha.png">ficha</a> · <a href="capturas/laminas/ficha-grises.png">en gris</a> · <a href="capturas/laminas/movil390.png">móvil a 390 px real</a> · <a href="capturas/laminas/movil390-grises.png">en gris</a>.</p>
+      </section>
+
+      <section class="x-sec" id="diagnostico" aria-labelledby="h-diag">
+        <h2 id="h-diag">Diagnóstico: qué señal se perdió entre R2 y R3</h2>
+        <div class="x-zoom">
+          <figure><img src="capturas/diagnostico-r2-r3.png" alt="Columna de estado ampliada tres veces: R2 en color y en grises, R3 en color y en grises. En R3 Publicado y Aprobado solo difieren por un menta algo más intenso." width="1580" height="701" loading="lazy" /><figcaption>Columna «Estado» de la lista de trabajo, ampliada 3×. De izquierda a derecha: R2 color, R2 grises, R3 color, R3 grises.</figcaption></figure>
+        </div>
+        <div class="x-matrix-wrap" tabindex="0" role="region" aria-label="Señales por ronda">
+          <table class="x-diag"><caption class="sr-only">Señales que distinguen Aprobado de Publicado</caption>
+            <thead><tr><th scope="col">Señal</th><th scope="col">R2</th><th scope="col">R3</th><th scope="col">Lectura</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Polaridad (texto claro sobre fondo oscuro)</th><td class="kept">Sí</td><td class="lost">Perdida</td><td>Era la señal preatentiva: se nota antes de leer. Es también lo que se percibió como pesado.</td></tr>
+              <tr><th scope="row">Contraste entre fondos</th><td class="kept">6,77:1 · ΔL* 60,6</td><td class="lost">1,18:1 · ΔL* 6,5</td><td>Dos mentas casi iguales; en escala de grises Publicado es un gris muy claro.</td></tr>
+              <tr><th scope="row">Diferencia con deuteranopía (ΔE)</th><td class="kept">63,8</td><td class="lost">8,2</td><td>Por debajo de ~10 la diferencia en un área de 24 px apenas se percibe.</td></tr>
+              <tr><th scope="row">Contorno</th><td class="weak">Solo en los no entregados</td><td class="weak">Ninguno</td><td>R2 lo usaba en todos menos en el sólido: era ruido y señal a la vez.</td></tr>
+              <tr><th scope="row">Icono</th><td class="kept">Sello ≠ check</td><td class="weak">Sello ≠ check, ambos de trazo</td><td>A 14 px, el sello de trazo solo difiere del círculo por su borde dentado.</td></tr>
+              <tr><th scope="row">Texto</th><td class="kept">Sí</td><td class="kept">Sí</td><td>«Aprobado» y «Publicado» tienen la misma longitud y terminación: exigen leer.</td></tr>
+              <tr><th scope="row">Contexto («Qué sigue», «Ahora»)</th><td class="kept">Sí</td><td class="kept">Sí</td><td>Presente en lista y ficha; falta en tablas densas sin esa columna.</td></tr>
+              <tr><th scope="row">Contraste de texto</th><td class="kept">5,21 / 7,13:1</td><td class="kept">5,21 / 6,25:1</td><td>Nunca fue el problema.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="x-sec" id="verificacion" aria-labelledby="h-ver">
+        <h2 id="h-ver">Verificación calculada en esta página</h2>
+        <p class="x-lead">Se renderizan los cuatro contextos de cada variante fuera de pantalla y se miden los colores aplicados. El script <code>scripts/verify-estados.mjs</code> repite estas mediciones con Chromium a 1440 y 390 px y guarda capturas.</p>
+        <div class="x-matrix-wrap" id="checks" tabindex="0" role="region" aria-label="Resultados de verificación"></div>
+        <p class="x-foot">«Mismo tono = mismo tratamiento» comprueba que dos estados con el mismo significado (p. ej. Publicado y Liberada) tengan fondo, tinta y tipo de glifo idénticos en órdenes, muestras e informes.</p>
+      </section>
+    </main>
+
+    <script type="module" src="estados.js"></script>
+  </body>
+</html>
