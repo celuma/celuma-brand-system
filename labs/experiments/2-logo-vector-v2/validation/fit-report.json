@@ -1,0 +1,320 @@
+{
+  "tolerance_px": 0.5,
+  "trace_upsample": 8,
+  "shapes": {
+    "ray-1": {
+      "free_nodes": 8,
+      "corner_nodes": 0,
+      "free_max_px": 0.498,
+      "free_rms_px": 0.101,
+      "free_p99_px": 0.281,
+      "points": 1199,
+      "history_nodes_max_rms": [
+        [
+          6,
+          1.121,
+          0.236
+        ],
+        [
+          7,
+          0.702,
+          0.141
+        ],
+        [
+          8,
+          0.498,
+          0.102
+        ]
+      ],
+      "capsule": {
+        "x1": 88.0,
+        "y1": 193.35,
+        "x2": 169.16,
+        "y2": 237.71,
+        "width": 29.65,
+        "max_px": 0.397,
+        "rms_px": 0.127
+      },
+      "representation": "path"
+    },
+    "ray-2": {
+      "free_nodes": 6,
+      "corner_nodes": 0,
+      "free_max_px": 0.379,
+      "free_rms_px": 0.111,
+      "free_p99_px": 0.279,
+      "points": 1229,
+      "history_nodes_max_rms": [
+        [
+          6,
+          0.379,
+          0.11
+        ]
+      ],
+      "capsule": {
+        "x1": 187.13,
+        "y1": 82.08,
+        "x2": 244.47,
+        "y2": 158.95,
+        "width": 30.42,
+        "max_px": 0.689,
+        "rms_px": 0.152
+      },
+      "representation": "path"
+    },
+    "ray-3": {
+      "free_nodes": 7,
+      "corner_nodes": 0,
+      "free_max_px": 0.413,
+      "free_rms_px": 0.115,
+      "free_p99_px": 0.279,
+      "points": 1032,
+      "history_nodes_max_rms": [
+        [
+          6,
+          0.651,
+          0.178
+        ],
+        [
+          7,
+          0.313,
+          0.114
+        ]
+      ],
+      "capsule": {
+        "x1": 357.36,
+        "y1": 58.45,
+        "x2": 357.66,
+        "y2": 135.96,
+        "width": 30.77,
+        "max_px": 0.605,
+        "rms_px": 0.179
+      },
+      "representation": "path"
+    },
+    "body": {
+      "free_nodes": 8,
+      "corner_nodes": 0,
+      "free_max_px": 0.537,
+      "free_rms_px": 0.114,
+      "free_p99_px": 0.29,
+      "points": 7087,
+      "history_nodes_max_rms": [
+        [
+          7,
+          0.955,
+          0.322
+        ],
+        [
+          8,
+          0.495,
+          0.14
+        ]
+      ],
+      "representation": "path"
+    },
+    "cytoplasm": {
+      "free_nodes": 9,
+      "corner_nodes": 1,
+      "free_max_px": 0.428,
+      "free_rms_px": 0.096,
+      "free_p99_px": 0.241,
+      "points": 6196,
+      "history_nodes_max_rms": [
+        [
+          5,
+          2.016,
+          0.721
+        ],
+        [
+          6,
+          1.128,
+          0.297
+        ],
+        [
+          7,
+          0.643,
+          0.215
+        ],
+        [
+          8,
+          0.577,
+          0.134
+        ],
+        [
+          9,
+          0.36,
+          0.101
+        ]
+      ],
+      "representation": "path"
+    },
+    "nucleus": {
+      "free_nodes": 7,
+      "corner_nodes": 1,
+      "free_max_px": 0.443,
+      "free_rms_px": 0.083,
+      "free_p99_px": 0.198,
+      "points": 2920,
+      "history_nodes_max_rms": [
+        [
+          2,
+          1.403,
+          0.762
+        ],
+        [
+          3,
+          1.023,
+          0.428
+        ],
+        [
+          4,
+          0.659,
+          0.205
+        ],
+        [
+          5,
+          0.544,
+          0.143
+        ],
+        [
+          6,
+          0.504,
+          0.101
+        ],
+        [
+          7,
+          0.443,
+          0.083
+        ]
+      ],
+      "circle": {
+        "cx": 388.359,
+        "cy": 403.808,
+        "r": 109.395,
+        "max_px": 1.395,
+        "rms_px": 0.786
+      },
+      "representation": "path"
+    },
+    "nucleolus": {
+      "free_nodes": 3,
+      "corner_nodes": 0,
+      "free_max_px": 0.332,
+      "free_rms_px": 0.121,
+      "free_p99_px": 0.268,
+      "points": 829,
+      "history_nodes_max_rms": [
+        [
+          2,
+          0.408,
+          0.219
+        ],
+        [
+          3,
+          0.332,
+          0.121
+        ]
+      ],
+      "circle": {
+        "cx": 423.772,
+        "cy": 364.804,
+        "r": 31.297,
+        "max_px": 0.591,
+        "rms_px": 0.364
+      },
+      "representation": "path"
+    },
+    "stroke-left": {
+      "free_nodes": 16,
+      "corner_nodes": 0,
+      "free_max_px": 0.525,
+      "free_rms_px": 0.141,
+      "free_p99_px": 0.349,
+      "points": 2769,
+      "history_nodes_max_rms": [
+        [
+          12,
+          1.616,
+          0.38
+        ],
+        [
+          13,
+          0.709,
+          0.22
+        ],
+        [
+          14,
+          0.768,
+          0.174
+        ],
+        [
+          15,
+          0.721,
+          0.15
+        ],
+        [
+          16,
+          0.445,
+          0.143
+        ]
+      ],
+      "representation": "path"
+    },
+    "stroke-right": {
+      "free_nodes": 9,
+      "corner_nodes": 1,
+      "free_max_px": 0.513,
+      "free_rms_px": 0.098,
+      "free_p99_px": 0.283,
+      "points": 1383,
+      "history_nodes_max_rms": [
+        [
+          3,
+          1.173,
+          0.456
+        ],
+        [
+          4,
+          0.825,
+          0.265
+        ],
+        [
+          5,
+          0.88,
+          0.226
+        ],
+        [
+          6,
+          0.723,
+          0.172
+        ],
+        [
+          7,
+          0.542,
+          0.141
+        ],
+        [
+          8,
+          0.609,
+          0.121
+        ],
+        [
+          9,
+          0.508,
+          0.097
+        ]
+      ],
+      "capsule": {
+        "x1": 506.48,
+        "y1": 513.21,
+        "x2": 420.64,
+        "y2": 583.28,
+        "width": 30.79,
+        "max_px": 6.407,
+        "rms_px": 3.82
+      },
+      "representation": "path"
+    }
+  }
+}

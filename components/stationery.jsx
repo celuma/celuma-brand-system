@@ -26,7 +26,7 @@ function LetterheadClassic() {
         <div style={{ fontSize: 11, color: 'var(--celuma-fg-2)', lineHeight: 1.7, marginBottom: 20 }}>
           <strong style={{ color: 'var(--celuma-ink)' }}>Dra. María Fernanda Cortés</strong><br/>
           Servicio de Anatomía Patológica<br/>
-          Hospital General Manuel Gea González
+          Laboratorio Ejemplo
         </div>
         <div style={{ fontSize: 11, color: 'var(--celuma-fg-2)', lineHeight: 1.7 }}>
           Estimada Dra. Cortés:<br/><br/>
@@ -136,7 +136,7 @@ function LetterheadEditorial() {
       <hr className="cel-rule" style={{ background: 'var(--celuma-ink)', height: 2 }} />
       <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', marginTop: 14 }}>
         <div className="t-display" style={{ fontSize: 38, lineHeight: 0.95 }}>
-          Carta<br/><span style={{ color: 'var(--celuma-primary)' }}>oficial.</span>
+          Carta<br/><span style={{ color: 'var(--celuma-primary-ink)' }}>oficial.</span>
         </div>
         <CelMark size="s" stacked sub="Patología" />
       </div>
@@ -149,7 +149,7 @@ function LetterheadEditorial() {
           <div className="cel-eyebrow" style={{ fontSize: 9 }}>Destinatario</div>
           <div style={{ color: 'var(--celuma-ink)', fontWeight: 700, marginTop: 4 }}>Lic. Andrés Vega</div>
           <div>Coordinación Médica</div>
-          <div>Hospital Ángeles del Pedregal</div>
+          <div>Clínica Ejemplo</div>
           <hr className="cel-rule thin" style={{ margin: '12px 0' }} />
           <div className="cel-eyebrow" style={{ fontSize: 9 }}>Asunto</div>
           <div style={{ marginTop: 4 }}>Renovación de convenio anual 2026‑2027</div>
@@ -159,8 +159,8 @@ function LetterheadEditorial() {
         </div>
         <div>
           <div style={{ marginBottom: 10 }}>Estimado Lic. Vega:</div>
-          <p style={{ margin: 0, marginBottom: 10 }}>Por medio de la presente comunicamos los términos para la renovación del convenio de servicios de patología digital, vigentes para el periodo julio 2026 – junio 2027. Los servicios contemplan: digitalización de muestras, validación remota por subespecialidad, almacenamiento WORM y entrega electrónica firmada bajo NOM‑024.</p>
-          <p style={{ margin: 0, marginBottom: 10, opacity: 0.5 }}>Los términos comerciales y SLA se detallan en el anexo I del presente documento. El detalle operativo, ventanas de soporte y matriz de escalamiento aparecen en el anexo II.</p>
+          <p style={{ margin: 0, marginBottom: 10 }}>Este texto ilustra la composición de una carta institucional. El contenido definitivo debe redactarse y aprobarse para cada destinatario, servicio y fecha antes de su distribución.</p>
+          <p style={{ margin: 0, marginBottom: 10, opacity: 0.5 }}>Los términos comerciales, condiciones de servicio y datos de contacto se incorporarán únicamente después de su validación.</p>
           <p style={{ margin: 0, opacity: 0.3 }}>Quedamos atentos a comentarios para programar la firma en agenda compartida.</p>
         </div>
       </div>
@@ -225,7 +225,7 @@ function BizCardFrontB() {
         <CelIso size={40} />
         <div style={{
           writingMode: 'vertical-rl', transform: 'rotate(180deg)',
-          fontSize: 9, letterSpacing: '0.25em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.85)',
+          fontSize: 9, letterSpacing: '0.25em', textTransform: 'uppercase', color: 'var(--celuma-on-primary)',
         }}>celuma.mx</div>
       </div>
       <div style={{ flex: 1, padding: 22, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
@@ -253,7 +253,7 @@ function BizCardBackB() {
         <div style={{ marginTop: 12, display: 'grid', gap: 8 }}>
           {[['✦', 'Claridad'], ['◎', 'Precisión'], ['🔒', 'Seguridad'], ['🤝', 'Confianza']].map(([g, l], i) => (
             <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 10, fontSize: 12, color: 'var(--celuma-ink)' }}>
-              <span style={{ width: 24, height: 24, background: '#fff', borderRadius: 7, display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: 12, fontFamily: 'var(--celuma-font-display)', fontWeight: 800, color: 'var(--celuma-primary)' }}>{g}</span>
+              <span style={{ width: 24, height: 24, background: '#fff', borderRadius: 7, display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: 12, fontFamily: 'var(--celuma-font-display)', fontWeight: 800, color: 'var(--celuma-primary-ink)' }}>{g}</span>
               <span style={{ fontWeight: 600 }}>{l}</span>
             </div>
           ))}
@@ -291,7 +291,7 @@ function BizCardBackC() {
   return (
     <div className="cel-sheet" style={{ width: BC.w, height: BC.h, background: '#fff', padding: 0, position: 'relative', overflow: 'hidden' }}>
       <div style={{ position: 'absolute', inset: 0 }}>
-        <CelDots size={12} color="rgba(15,139,141,0.30)" style={{ width: '100%', height: '100%' }} />
+        <CelDots size={12} color="rgba(73,182,173,0.30)" style={{ width: '100%', height: '100%' }} />
       </div>
       <div style={{ position: 'absolute', inset: 0, padding: 24, display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
         <div style={{ background: '#fff', padding: '18px 24px', borderRadius: 14, boxShadow: 'var(--celuma-shadow-card)', textAlign: 'center' }}>
@@ -346,7 +346,7 @@ function EnvelopeBold() {
       </div>
       <div style={{ width: 120, background: 'rgba(255,255,255,0.04)', borderLeft: '1px solid rgba(255,255,255,0.10)', padding: 16, display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center' }}>
         <div className="cel-mono" style={{ fontSize: 8, color: 'rgba(255,255,255,0.45)', textAlign: 'center', letterSpacing: '0.18em' }}>NO. ENVÍO</div>
-        <div style={{ background: 'var(--celuma-primary)', color: '#fff', borderRadius: 100, padding: '4px 12px', fontSize: 10, fontWeight: 700, letterSpacing: '0.06em' }}>CL‑00482</div>
+        <div style={{ background: 'var(--celuma-primary)', color: 'var(--celuma-on-primary)', borderRadius: 100, padding: '4px 12px', fontSize: 10, fontWeight: 700, letterSpacing: '0.06em' }}>CL‑00482</div>
         <div className="cel-mono" style={{ fontSize: 8, color: 'rgba(255,255,255,0.45)', textAlign: 'center' }}>14 / 05 / 2026</div>
       </div>
     </div>
@@ -407,7 +407,7 @@ function FolderCoverLight() {
           <div style={{ width: 260, height: 260, background: '#fff', borderRadius: 20, boxShadow: 'var(--celuma-shadow-hero)', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative' }}>
             <CelIso size={140} />
             <div style={{ position: 'absolute', bottom: -18, left: '50%', transform: 'translateX(-50%)', background: '#fff', borderRadius: 100, padding: '6px 16px', boxShadow: 'var(--celuma-shadow-float)' }}>
-              <div className="cel-mono" style={{ fontSize: 10, color: 'var(--celuma-primary)' }}>celuma.mx</div>
+              <div className="cel-mono" style={{ fontSize: 10, color: 'var(--celuma-primary-ink)' }}>celuma.mx</div>
             </div>
           </div>
         </div>
@@ -447,7 +447,7 @@ function DocCoverBold() {
             <span style={{ color: '#7dd8d9' }}>de extremo a extremo.</span>
           </div>
           <div style={{ marginTop: 22, fontSize: 14, color: 'rgba(255,255,255,0.7)', maxWidth: 360, lineHeight: 1.55 }}>
-            Cómo Céluma modela el ciclo de vida del caso —desde la recepción hasta la firma— sin pérdida de información y bajo cumplimiento NOM‑024.
+            Cómo Céluma representa el ciclo de vida del caso, desde la recepción hasta la firma, con registros de sus etapas y responsables.
           </div>
         </div>
         <div style={{ flex: 1 }} />

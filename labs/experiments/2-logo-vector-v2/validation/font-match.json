@@ -1,0 +1,658 @@
+{
+  "method": "Which open-licence typeface is closest to the Notion V2 wordmark?\n\nThe V2 wordmark is an image with no font metadata; this does not identify \"the\"\nfont, it ranks candidates by shape similarity. Per glyph (C, é, l, u, m, a):\nboth words are scaled to the same C ink height, each glyph is centred on its ink\nbox and compared by IoU. Also reported: word width / cap height (proportion).\nCandidates are rendered by Chromium from the Google Fonts CSS API.\n\nOutputs: validation/font-match.json, validation/lamina-tipografia-v2.png\n",
+  "banner_v2_vs_logotipo_v2": {
+    "groups": 6,
+    "mean_glyph_iou": 0.9827,
+    "glyph_iou": {
+      "C": 0.984,
+      "é": 0.974,
+      "l": 0.986,
+      "u": 0.98,
+      "m": 0.985,
+      "a": 0.987
+    }
+  },
+  "ranking": [
+    {
+      "family": "DM Sans",
+      "weight": 800,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.8899,
+      "glyph_iou": {
+        "C": 0.907,
+        "é": 0.684,
+        "l": 0.965,
+        "u": 0.905,
+        "m": 0.95,
+        "a": 0.929
+      },
+      "word_width_over_cap": 5.071,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "DM Sans",
+      "weight": 700,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.886,
+      "glyph_iou": {
+        "C": 0.882,
+        "é": 0.711,
+        "l": 0.944,
+        "u": 0.899,
+        "m": 0.947,
+        "a": 0.934
+      },
+      "word_width_over_cap": 5.037,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Figtree",
+      "weight": 700,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.8822,
+      "glyph_iou": {
+        "C": 0.889,
+        "é": 0.859,
+        "l": 0.909,
+        "u": 0.918,
+        "m": 0.83,
+        "a": 0.888
+      },
+      "word_width_over_cap": 4.726,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Plus Jakarta Sans",
+      "weight": 800,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.8814,
+      "glyph_iou": {
+        "C": 0.893,
+        "é": 0.718,
+        "l": 0.956,
+        "u": 0.915,
+        "m": 0.868,
+        "a": 0.939
+      },
+      "word_width_over_cap": 4.744,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Inter",
+      "weight": 700,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.8763,
+      "glyph_iou": {
+        "C": 0.889,
+        "é": 0.84,
+        "l": 0.951,
+        "u": 0.913,
+        "m": 0.791,
+        "a": 0.874
+      },
+      "word_width_over_cap": 4.839,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Red Hat Display",
+      "weight": 800,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.8607,
+      "glyph_iou": {
+        "C": 0.828,
+        "é": 0.765,
+        "l": 0.945,
+        "u": 0.866,
+        "m": 0.921,
+        "a": 0.839
+      },
+      "word_width_over_cap": 4.863,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Helvetica Neue",
+      "weight": 700,
+      "local_system_font": true,
+      "mean_glyph_iou": 0.8605,
+      "glyph_iou": {
+        "C": 0.894,
+        "é": 0.715,
+        "l": 0.919,
+        "u": 0.951,
+        "m": 0.83,
+        "a": 0.854
+      },
+      "word_width_over_cap": 4.781,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Figtree",
+      "weight": 800,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.8566,
+      "glyph_iou": {
+        "C": 0.911,
+        "é": 0.817,
+        "l": 0.861,
+        "u": 0.869,
+        "m": 0.8,
+        "a": 0.882
+      },
+      "word_width_over_cap": 4.793,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Albert Sans",
+      "weight": 800,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.8545,
+      "glyph_iou": {
+        "C": 0.902,
+        "é": 0.714,
+        "l": 0.935,
+        "u": 0.865,
+        "m": 0.84,
+        "a": 0.872
+      },
+      "word_width_over_cap": 4.85,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Albert Sans",
+      "weight": 700,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.8543,
+      "glyph_iou": {
+        "C": 0.813,
+        "é": 0.753,
+        "l": 0.921,
+        "u": 0.881,
+        "m": 0.871,
+        "a": 0.886
+      },
+      "word_width_over_cap": 4.841,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Rubik",
+      "weight": 600,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.8531,
+      "glyph_iou": {
+        "C": 0.832,
+        "é": 0.797,
+        "l": 0.922,
+        "u": 0.854,
+        "m": 0.871,
+        "a": 0.843
+      },
+      "word_width_over_cap": 4.951,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Manrope",
+      "weight": 800,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.8453,
+      "glyph_iou": {
+        "C": 0.883,
+        "é": 0.729,
+        "l": 0.909,
+        "u": 0.875,
+        "m": 0.809,
+        "a": 0.868
+      },
+      "word_width_over_cap": 4.927,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Plus Jakarta Sans",
+      "weight": 700,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.8353,
+      "glyph_iou": {
+        "C": 0.805,
+        "é": 0.735,
+        "l": 0.857,
+        "u": 0.874,
+        "m": 0.841,
+        "a": 0.899
+      },
+      "word_width_over_cap": 4.705,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "DM Sans",
+      "weight": 600,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.8341,
+      "glyph_iou": {
+        "C": 0.8,
+        "é": 0.734,
+        "l": 0.833,
+        "u": 0.865,
+        "m": 0.872,
+        "a": 0.901
+      },
+      "word_width_over_cap": 4.942,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Inter",
+      "weight": 800,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.8263,
+      "glyph_iou": {
+        "C": 0.868,
+        "é": 0.804,
+        "l": 0.825,
+        "u": 0.815,
+        "m": 0.788,
+        "a": 0.857
+      },
+      "word_width_over_cap": 4.931,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Urbanist",
+      "weight": 800,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.8134,
+      "glyph_iou": {
+        "C": 0.766,
+        "é": 0.802,
+        "l": 0.96,
+        "u": 0.874,
+        "m": 0.861,
+        "a": 0.617
+      },
+      "word_width_over_cap": 4.69,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Avenir Next",
+      "weight": 700,
+      "local_system_font": true,
+      "mean_glyph_iou": 0.8123,
+      "glyph_iou": {
+        "C": 0.714,
+        "é": 0.842,
+        "l": 0.872,
+        "u": 0.842,
+        "m": 0.751,
+        "a": 0.852
+      },
+      "word_width_over_cap": 4.81,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Rubik",
+      "weight": 700,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.8027,
+      "glyph_iou": {
+        "C": 0.819,
+        "é": 0.754,
+        "l": 0.812,
+        "u": 0.785,
+        "m": 0.828,
+        "a": 0.819
+      },
+      "word_width_over_cap": 5.039,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Urbanist",
+      "weight": 700,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.797,
+      "glyph_iou": {
+        "C": 0.746,
+        "é": 0.827,
+        "l": 0.856,
+        "u": 0.873,
+        "m": 0.87,
+        "a": 0.61
+      },
+      "word_width_over_cap": 4.658,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Red Hat Display",
+      "weight": 700,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.7938,
+      "glyph_iou": {
+        "C": 0.726,
+        "é": 0.771,
+        "l": 0.815,
+        "u": 0.83,
+        "m": 0.822,
+        "a": 0.799
+      },
+      "word_width_over_cap": 4.769,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Manrope",
+      "weight": 700,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.7922,
+      "glyph_iou": {
+        "C": 0.801,
+        "é": 0.738,
+        "l": 0.809,
+        "u": 0.826,
+        "m": 0.759,
+        "a": 0.821
+      },
+      "word_width_over_cap": 4.842,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Avenir",
+      "weight": 900,
+      "local_system_font": true,
+      "mean_glyph_iou": 0.7911,
+      "glyph_iou": {
+        "C": 0.717,
+        "é": 0.79,
+        "l": 0.959,
+        "u": 0.782,
+        "m": 0.686,
+        "a": 0.812
+      },
+      "word_width_over_cap": 4.608,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Lexend",
+      "weight": 600,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.7853,
+      "glyph_iou": {
+        "C": 0.73,
+        "é": 0.648,
+        "l": 0.979,
+        "u": 0.864,
+        "m": 0.909,
+        "a": 0.582
+      },
+      "word_width_over_cap": 5.1,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Montserrat",
+      "weight": 700,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.763,
+      "glyph_iou": {
+        "C": 0.795,
+        "é": 0.715,
+        "l": 0.899,
+        "u": 0.711,
+        "m": 0.683,
+        "a": 0.774
+      },
+      "word_width_over_cap": 5.369,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Lexend",
+      "weight": 700,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.7504,
+      "glyph_iou": {
+        "C": 0.715,
+        "é": 0.647,
+        "l": 0.872,
+        "u": 0.834,
+        "m": 0.845,
+        "a": 0.591
+      },
+      "word_width_over_cap": 5.154,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Avenir",
+      "weight": 800,
+      "local_system_font": true,
+      "mean_glyph_iou": 0.7444,
+      "glyph_iou": {
+        "C": 0.698,
+        "é": 0.781,
+        "l": 0.827,
+        "u": 0.752,
+        "m": 0.668,
+        "a": 0.741
+      },
+      "word_width_over_cap": 4.57,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Outfit",
+      "weight": 600,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.7284,
+      "glyph_iou": {
+        "C": 0.723,
+        "é": 0.597,
+        "l": 0.915,
+        "u": 0.715,
+        "m": 0.788,
+        "a": 0.634
+      },
+      "word_width_over_cap": 4.631,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Montserrat",
+      "weight": 800,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.725,
+      "glyph_iou": {
+        "C": 0.775,
+        "é": 0.695,
+        "l": 0.738,
+        "u": 0.697,
+        "m": 0.698,
+        "a": 0.747
+      },
+      "word_width_over_cap": 5.397,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Outfit",
+      "weight": 700,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.7243,
+      "glyph_iou": {
+        "C": 0.725,
+        "é": 0.614,
+        "l": 0.909,
+        "u": 0.712,
+        "m": 0.757,
+        "a": 0.629
+      },
+      "word_width_over_cap": 4.68,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Montserrat",
+      "weight": 600,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.7239,
+      "glyph_iou": {
+        "C": 0.717,
+        "é": 0.697,
+        "l": 0.89,
+        "u": 0.653,
+        "m": 0.623,
+        "a": 0.763
+      },
+      "word_width_over_cap": 5.317,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": 800,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.7206,
+      "glyph_iou": {
+        "C": 0.675,
+        "é": 0.651,
+        "l": 0.469,
+        "u": 0.893,
+        "m": 0.778,
+        "a": 0.858
+      },
+      "word_width_over_cap": 4.775,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Work Sans",
+      "weight": 600,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.7078,
+      "glyph_iou": {
+        "C": 0.855,
+        "é": 0.66,
+        "l": 0.444,
+        "u": 0.801,
+        "m": 0.797,
+        "a": 0.69
+      },
+      "word_width_over_cap": 5.368,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Work Sans",
+      "weight": 700,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.7028,
+      "glyph_iou": {
+        "C": 0.848,
+        "é": 0.661,
+        "l": 0.502,
+        "u": 0.746,
+        "m": 0.753,
+        "a": 0.707
+      },
+      "word_width_over_cap": 5.404,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Nunito Sans",
+      "weight": 700,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.6891,
+      "glyph_iou": {
+        "C": 0.651,
+        "é": 0.628,
+        "l": 0.424,
+        "u": 0.87,
+        "m": 0.751,
+        "a": 0.812
+      },
+      "word_width_over_cap": 4.68,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Poppins",
+      "weight": 600,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.6851,
+      "glyph_iou": {
+        "C": 0.867,
+        "é": 0.567,
+        "l": 0.968,
+        "u": 0.645,
+        "m": 0.582,
+        "a": 0.482
+      },
+      "word_width_over_cap": 5.533,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Futura",
+      "weight": 700,
+      "local_system_font": true,
+      "mean_glyph_iou": 0.6836,
+      "glyph_iou": {
+        "C": 0.496,
+        "é": 0.671,
+        "l": 0.84,
+        "u": 0.786,
+        "m": 0.724,
+        "a": 0.584
+      },
+      "word_width_over_cap": 4.864,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Avenir Next",
+      "weight": 800,
+      "local_system_font": true,
+      "mean_glyph_iou": 0.6711,
+      "glyph_iou": {
+        "C": 0.616,
+        "é": 0.711,
+        "l": 0.608,
+        "u": 0.645,
+        "m": 0.664,
+        "a": 0.783
+      },
+      "word_width_over_cap": 5.091,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Baloo 2",
+      "weight": 800,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.6665,
+      "glyph_iou": {
+        "C": 0.588,
+        "é": 0.554,
+        "l": 0.738,
+        "u": 0.705,
+        "m": 0.72,
+        "a": 0.695
+      },
+      "word_width_over_cap": 5.093,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Poppins",
+      "weight": 700,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.6664,
+      "glyph_iou": {
+        "C": 0.868,
+        "é": 0.556,
+        "l": 0.79,
+        "u": 0.674,
+        "m": 0.595,
+        "a": 0.514
+      },
+      "word_width_over_cap": 5.58,
+      "ref_word_width_over_cap": 4.701
+    },
+    {
+      "family": "Poppins",
+      "weight": 800,
+      "local_system_font": false,
+      "mean_glyph_iou": 0.6268,
+      "glyph_iou": {
+        "C": 0.79,
+        "é": 0.538,
+        "l": 0.696,
+        "u": 0.641,
+        "m": 0.588,
+        "a": 0.508
+      },
+      "word_width_over_cap": 5.619,
+      "ref_word_width_over_cap": 4.701
+    }
+  ],
+  "errors": []
+}

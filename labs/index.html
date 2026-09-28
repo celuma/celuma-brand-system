@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <script>
+    // Some preview servers strip /index.html. Normalize the directory URL
+    // without a request, so relative assets work and redirects cannot loop.
+    if (!/\/$|\.html$/.test(location.pathname)) {
+      const directory = location.pathname.replace(/\/index$/, '') + '/';
+      history.replaceState(history.state, '', directory + location.search + location.hash);
+    }
+  </script>
+    <title>Céluma · Laboratorio visual</title>
+    <link rel="icon" type="image/png" href="../assets/celuma-isotipo.png" />
+    <link rel="stylesheet" href="../styles/celuma-tokens.css" />
+    <link rel="stylesheet" href="lab.css" />
+  </head>
+  <body>
+    <header class="lab-header">
+      <a class="lab-brand" href="../index.html" aria-label="Volver al sistema de marca de Céluma">
+        <img src="../assets/celuma-isotipo.png" alt="" width="36" height="40" />
+        <span>Céluma <small>Brand System</small></span>
+      </a>
+      <a class="lab-back" href="../index.html">Ver los lienzos vigentes</a>
+    </header>
+    <main class="lab-main">
+      <p class="lab-eyebrow">Espacio de exploración</p>
+      <h1>Laboratorio visual</h1>
+      <p class="lab-intro">Aquí se documentan exploraciones y decisiones de marca. La aprobación de un experimento no publica sus piezas ni las incorpora automáticamente a producto o material clínico.</p>
+      <div class="lab-notice" role="note"><strong>Dos cierres y una nueva exploración</strong><span>01 queda en exploración; 02 aprueba la identidad vectorial y las direcciones de motion. 03 continúa el trabajo de movimiento. La incorporación al sistema y a otros repositorios va después.</span></div>
+      <section aria-labelledby="lab-exp-title">
+        <h2 id="lab-exp-title">Experimentos</h2>
+        <div class="lab-card lab-card-exp">
+          <div>
+            <p class="lab-card-label"><span class="lab-status">Cerrado · exploración</span></p>
+            <h3>01 · Refinamiento del frontend</h3>
+            <p>Se rescatan los chips V4 «Interno ≠ entregado» y las mejoras de contraste. Queda en exploración por las observaciones de accesibilidad y validación clínica. Datos ficticios.</p>
+            <ul class="lab-links lab-links-sm">
+              <li><a href="experiments/1-frontend-refinement/direcciones.html">Direcciones A/B</a></li>
+              <li><a href="experiments/1-frontend-refinement/exploraciones/estados/index.html">Estados clínicos</a></li>
+              <li><a href="experiments/1-frontend-refinement/BRIEF.md">Brief</a></li>
+              <li><a href="experiments/1-frontend-refinement/AUDIT.md">Auditoría</a></li>
+              <li><a href="experiments/1-frontend-refinement/DECISION.md">Decisión de cierre</a></li>
+            </ul>
+          </div>
+          <a href="experiments/1-frontend-refinement/index.html">Abrir prototipo</a>
+        </div>
+        <div class="lab-card lab-card-exp">
+          <div>
+            <p class="lab-card-label"><span class="lab-status lab-status-approved">Aprobado · pendiente de incorporación</span></p>
+            <h3>02 · Logo vectorial y aplicaciones</h3>
+            <p>Maestro geométrico, wordmark A · Baloo 2 800 y paleta del isotipo aprobados: membrana #49B6AD, citoplasma #BBEAD2, núcleo #F98D84, nucléolo #E5635F y rayos #F1C46C (2026-09-27), aplicada a todas las piezas. Mirada, Luz, Enfoque y Trazo también se aprueban como direcciones visuales; su adopción requiere validación por medio.</p>
+            <ul class="lab-links lab-links-sm">
+              <li><a href="experiments/2-logo-vector-v2/index.html">1 · Maestro y sistema</a></li>
+              <li><a href="experiments/2-logo-vector-v2/ejemplos.html">Aplicaciones</a></li>
+              <li><a href="experiments/2-logo-vector-v2/animacion.html">2 · Mirada</a></li>
+              <li><a href="experiments/2-logo-vector-v2/fase-3/index.html">Fase 3 anterior · Motion</a></li>
+              <li><a href="experiments/2-logo-vector-v2/DECISION.md">Decisión de cierre</a></li>
+              <li><a href="experiments/2-logo-vector-v2/index.html#color">Paleta aprobada</a></li>
+            </ul>
+          </div>
+          <a href="experiments/2-logo-vector-v2/index.html">Abrir identidad</a>
+        </div>
+        <div class="lab-card lab-card-exp">
+          <div>
+            <p class="lab-card-label"><span class="lab-status">Exploración · nueva etapa</span></p>
+            <h3>03 · Motion del logo</h3>
+            <p>Experimento dedicado al movimiento: usos de carga, bienvenida y material visual; ritmos, formatos, accesibilidad y compatibilidad. Parte de las direcciones y la paleta aprobadas en 02.</p>
+            <ul class="lab-links lab-links-sm">
+              <li><a href="experiments/3-logo-motion/BRIEF.md">Brief de motion</a></li>
+              <li><a href="experiments/2-logo-vector-v2/animacion.html">Mirada</a></li>
+              <li><a href="experiments/2-logo-vector-v2/fase-3/index.html">Luz · Enfoque · Trazo</a></li>
+            </ul>
+          </div>
+          <a href="experiments/3-logo-motion/index.html">Abrir motion</a>
+        </div>
+      </section>
+      <section aria-labelledby="lab-start-title">
+        <h2 id="lab-start-title">Empezar un experimento</h2>
+        <div class="lab-card">
+          <div>
+            <p class="lab-card-label">Plantilla · no es una propuesta</p>
+            <h3>Vista previa y brief</h3>
+            <p>Una carpeta autónoma para documentar hipótesis, cambios, validación y decisión.</p>
+          </div>
+          <a href="experiments/_template/index.html">Abrir plantilla</a>
+        </div>
+      </section>
+      <section aria-labelledby="lab-rules-title">
+        <h2 id="lab-rules-title">Referencias antes de diseñar</h2>
+        <ul class="lab-links">
+          <li><a href="experiments/1-frontend-refinement/PROMPT.md">Encargo 01 para Opus</a></li>
+          <li><a href="README.md">Guía del laboratorio</a></li>
+          <li><a href="../docs/estado-de-piezas.md">Estado de las piezas</a></li>
+          <li><a href="../docs/guia-de-publicaciones.md">Guía de publicaciones</a></li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

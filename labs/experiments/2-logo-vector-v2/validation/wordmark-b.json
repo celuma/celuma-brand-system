@@ -1,0 +1,156 @@
+{
+  "source": "referencias/notion/Celuma_Logotipo_V2.png",
+  "cream_bg": "#f8f5ea",
+  "navy": "#0d1f40",
+  "contours": [
+    {
+      "bbox": [
+        832.8,
+        524.1,
+        860.4,
+        543.3
+      ],
+      "nodes": 4,
+      "corners": 0,
+      "max_px": 0.246,
+      "rms_px": 0.109,
+      "signed_area": 414.7
+    },
+    {
+      "bbox": [
+        485.8,
+        492.0,
+        520.1,
+        510.2
+      ],
+      "nodes": 4,
+      "corners": 1,
+      "max_px": 0.568,
+      "rms_px": 0.105,
+      "signed_area": 477.0
+    },
+    {
+      "bbox": [
+        585.3,
+        478.6,
+        660.1,
+        558.5
+      ],
+      "nodes": 15,
+      "corners": 1,
+      "max_px": 0.636,
+      "rms_px": 0.104,
+      "signed_area": -3783.4
+    },
+    {
+      "bbox": [
+        464.8,
+        477.1,
+        539.9,
+        558.4
+      ],
+      "nodes": 9,
+      "corners": 2,
+      "max_px": 0.456,
+      "rms_px": 0.136,
+      "signed_area": -4192.4
+    },
+    {
+      "bbox": [
+        809.2,
+        476.8,
+        882.0,
+        558.5
+      ],
+      "nodes": 16,
+      "corners": 0,
+      "max_px": 0.488,
+      "rms_px": 0.091,
+      "signed_area": -4457.1
+    },
+    {
+      "bbox": [
+        673.7,
+        476.9,
+        799.7,
+        557.4
+      ],
+      "nodes": 27,
+      "corners": 0,
+      "max_px": 0.591,
+      "rms_px": 0.078,
+      "signed_area": -5977.9
+    },
+    {
+      "bbox": [
+        355.5,
+        446.8,
+        459.0,
+        558.4
+      ],
+      "nodes": 15,
+      "corners": 2,
+      "max_px": 0.475,
+      "rms_px": 0.105,
+      "signed_area": -5474.7
+    },
+    {
+      "bbox": [
+        495.0,
+        446.1,
+        529.7,
+        467.6
+      ],
+      "nodes": 5,
+      "corners": 2,
+      "max_px": 0.381,
+      "rms_px": 0.068,
+      "signed_area": -461.8
+    },
+    {
+      "bbox": [
+        549.9,
+        442.0,
+        572.1,
+        556.8
+      ],
+      "nodes": 7,
+      "corners": 0,
+      "max_px": 0.448,
+      "rms_px": 0.074,
+      "signed_area": -2480.1
+    }
+  ],
+  "layout": {
+    "isotipo_bbox": [
+      110,
+      342,
+      320,
+      598
+    ],
+    "cell_body_bbox": [
+      119,
+      393,
+      319,
+      597
+    ],
+    "wordmark_bbox": [
+      355.0,
+      441.0,
+      883.0,
+      559.0
+    ],
+    "C_bbox": [
+      355.5,
+      446.8,
+      459.0,
+      558.4
+    ],
+    "ratios": {
+      "cap_height_over_isotipo_height": 0.4359,
+      "gap_over_isotipo_height": 0.1387,
+      "cap_center_minus_body_center_over_isotipo_height": 0.0297,
+      "wordmark_width_over_isotipo_height": 2.0625
+    }
+  }
+}

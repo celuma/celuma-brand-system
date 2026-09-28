@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light" />
+  <title>Céluma · Aplicaciones del logo aprobado</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="png/favicon/favicon-16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="png/favicon/favicon-32.png" />
+  <link rel="apple-touch-icon" href="png/favicon/apple-touch-icon-180.png" />
+  <link rel="stylesheet" href="../../../styles/celuma-tokens.css" />
+  <link rel="stylesheet" href="experiment.css" />
+  <style>
+    .ex-board { position: relative; margin: 18px 0 8px; border-radius: 18px; overflow: hidden; box-shadow: var(--celuma-shadow-soft); max-width: 100%; }
+    .ex-mark { position: absolute; z-index: 5; top: 12px; right: 12px; font: 700 11px/1 var(--celuma-font-body); letter-spacing: .06em; text-transform: uppercase; color: var(--celuma-secondary-ink); background: rgba(255,255,255,.92); border: 1px dashed var(--celuma-secondary-ink); padding: 6px 8px; border-radius: 6px; }
+    .ex-scroll { overflow-x: auto; }
+    /* 1 · browser tab */
+    .ex-browser { width: 760px; background: #dfe3e8; padding: 10px 12px 0; }
+    .ex-tabs { display: flex; gap: 4px; }
+    .ex-tab { display: flex; align-items: center; gap: 8px; width: 230px; height: 34px; padding: 0 12px; border-radius: 10px 10px 0 0; font: 13px/1 system-ui, sans-serif; color: #3c4043; }
+    .ex-tab.on { background: #fff; }
+    .ex-tab img { width: 16px; height: 16px; }
+    .ex-url { background: #fff; padding: 8px 12px 14px; }
+    .ex-url div { background: #f1f3f4; border-radius: 999px; padding: 8px 14px; font: 13px system-ui, sans-serif; color: #5f6368; }
+    .ex-page { background: #fbf6ec; height: 150px; display: flex; align-items: center; gap: 28px; padding: 0 28px; }
+    .ex-zoom { display: flex; gap: 18px; align-items: flex-end; font: 12px var(--celuma-font-body); color: var(--celuma-fg-3); }
+    .ex-zoom figure { margin: 0; text-align: center; }
+    /* 2 · login */
+    .ex-login { width: 1100px; height: 640px; display: grid; grid-template-columns: 1.05fr 1fr; background: #fbf6ec; }
+    .ex-login-brand { padding: 56px; display: flex; flex-direction: column; justify-content: space-between; background: #fbf6ec; }
+    .ex-login-brand p { max-width: 380px; color: var(--celuma-fg-2); font-size: 17px; }
+    .ex-login-brand .ex-foot { font-size: 12px; color: var(--celuma-fg-3); }
+    .ex-login-form { display: grid; place-items: center; background: #fff; }
+    .ex-card { width: 380px; }
+    .ex-card h2 { font-size: 30px; margin-bottom: 4px; }
+    .ex-card label { display: block; font-size: 13px; font-weight: 600; margin: 16px 0 6px; }
+    .ex-input { border: 1px solid var(--celuma-border); border-radius: 12px; padding: 12px 14px; font-size: 15px; color: var(--celuma-fg-2); background: #fff; }
+    .ex-btn { display: inline-flex; justify-content: center; align-items: center; width: 100%; margin-top: 22px; padding: 13px; border-radius: 12px; background: #49b6ad; color: #0d1b2a; font-weight: 800; font-size: 15px; border: 0; }
+    /* 3 · landing */
+    .ex-land { width: 1100px; height: 620px; background: #fbf6ec; }
+    .ex-nav { display: flex; align-items: center; justify-content: space-between; padding: 18px 44px; background: #fff; box-shadow: var(--celuma-shadow-nav); }
+    .ex-nav ul { display: flex; gap: 26px; list-style: none; margin: 0; padding: 0; font-weight: 600; font-size: 15px; color: var(--celuma-fg-2); }
+    .ex-cta { padding: 10px 20px; border-radius: 999px; background: #49b6ad; color: #0d1b2a; font-weight: 800; font-size: 14px; }
+    .ex-hero { display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: 30px; padding: 56px 44px; }
+    .ex-hero h1 { font-size: 52px; margin: 10px 0 16px; }
+    .ex-hero p { color: var(--celuma-fg-2); font-size: 18px; max-width: 480px; }
+    .ex-orb { justify-self: center; width: 360px; height: 360px; border-radius: 50%; display: grid; place-items: center; background: radial-gradient(circle at 50% 45%, #e6f7f7 0 58%, #fbf6ec 59%); }
+    /* 4 · social piece, Dirección A "Lámina clara" */
+    .ex-post { width: 540px; height: 540px; background: #fbf6ec; padding: 45px; display: grid; grid-template-rows: auto 1fr auto; }
+    .ex-rule { width: 54px; height: 5px; background: #F98D84; border-radius: 3px; margin-bottom: 18px; }
+    .ex-post h2 { font-size: 36px; line-height: 1.08; max-width: 330px; }
+    .ex-post .ex-meta { font-size: 14px; color: var(--celuma-fg-2); margin-top: 12px; }
+    .ex-post .ex-mod { justify-self: end; align-self: end; }
+    .ex-post .ex-bottom { display: flex; justify-content: space-between; align-items: center; font-size: 11px; color: var(--celuma-fg-3); }
+  </style>
+</head>
+<body>
+  <header class="lv-header">
+    <a href="index.html">← Isotipo vectorial</a>
+    <div class="lv-controls" role="group" aria-label="Wordmark de los ejemplos" style="margin:0">
+      <span style="font-size:13px;font-weight:600">Wordmark:</span>
+      <button type="button" data-opt="a" aria-pressed="true">A · Baloo 2</button>
+      <button type="button" data-opt="b" aria-pressed="false">B · Lettering V2</button>
+    </div>
+    <span class="lv-status lv-status-approved">Identidad aprobada · maquetas</span>
+  </header>
+  <nav class="lv-phase-nav" aria-label="Recorrido del experimento de logo">
+    <a href="../../index.html">Laboratorio</a>
+    <span aria-hidden="true">/</span><strong>Logo</strong>
+    <a href="index.html">1 · Maestro y sistema</a>
+    <a href="ejemplos.html" aria-current="page">Aplicaciones</a>
+    <a href="animacion.html">2 · Mirada</a>
+    <a href="fase-3/index.html">Fase 3 · Motion aprobado</a>
+    <a href="../3-logo-motion/index.html">Experimento 03 →</a>
+  </nav>
+  <main>
+    <p class="lv-eyebrow">Ejemplos de aplicación · maquetas con datos ficticios</p>
+    <h1>El isotipo en uso</h1>
+    <p class="lv-lead">Cuatro maquetas con datos ficticios para ver la identidad aprobada en contexto, con la paleta aprobada el 2026-09-27. No son la app ni el landing y no autorizan publicación. El wordmark principal es A · Baloo 2 800; B sigue disponible en el conmutador como comparación histórica.</p>
+
+    <section class="lv-section" aria-labelledby="h-e1">
+      <h2 id="h-e1">1 · Favicon en una pestaña</h2>
+      <p class="lv-sub">16 px usa la versión reducida (adaptación); 32 px y más, el isotipo color con la paleta aprobada. Este documento declara ambos como favicon.</p>
+      <div class="ex-scroll"><div class="ex-board" data-artboard="favicon" style="width:760px">
+        <span class="ex-mark">Maqueta · no es un navegador real</span>
+        <div class="ex-browser">
+          <div class="ex-tabs">
+            <div class="ex-tab on"><img src="png/favicon/favicon-16.png" alt="" />Céluma · Mi trabajo</div>
+            <div class="ex-tab"><img src="png/favicon/favicon-16.png" alt="" />Céluma · Orden DEMO-0042</div>
+            <div class="ex-tab"><span style="width:16px;height:16px;border-radius:50%;background:#9aa0a6;display:inline-block"></span>Otra pestaña</div>
+          </div>
+        </div>
+        <div class="ex-url"><div>app.ejemplo.test/mi-trabajo</div></div>
+        <div class="ex-page">
+          <div class="ex-zoom">
+            <figure><img class="lv-pixel" src="png/favicon/favicon-16.png" alt="Favicon 16 px ampliado ×6" width="96" height="96" /><figcaption>16 px · reducido ×6</figcaption></figure>
+            <figure><img class="lv-pixel" src="png/favicon/favicon-32.png" alt="Favicon 32 px ampliado ×3" width="96" height="96" /><figcaption>32 px · color ×3</figcaption></figure>
+            <figure><img src="png/favicon/apple-touch-icon-180.png" alt="Icono táctil 180 px" width="96" height="96" style="border-radius:22px" /><figcaption>180 px · icono táctil</figcaption></figure>
+          </div>
+        </div>
+      </div></div>
+    </section>
+
+    <section class="lv-section" aria-labelledby="h-e2">
+      <h2 id="h-e2">2 · App · inicio de sesión</h2>
+      <div class="ex-scroll"><div class="ex-board" data-artboard="app-login" style="width:1100px">
+        <span class="ex-mark">Maqueta · no es la app</span>
+        <div class="ex-login">
+          <div class="ex-login-brand">
+            <img class="ex-lockup" data-orient="horizontal" data-var="color-positivo" src="svg/lockups/propuesta-a-baloo2/celuma-lockup-horizontal-color-positivo.svg" alt="Céluma" height="64" style="align-self:flex-start" />
+            <div>
+              <p style="font-family:var(--celuma-font-display);font-weight:800;font-size:30px;line-height:1.15;color:#0d1b2a;max-width:420px">Bienvenida de nuevo a tu laboratorio.</p>
+              <p>Laboratorio Demo Norte · entorno de ejemplo</p>
+            </div>
+            <span class="ex-foot">Datos ficticios. Maqueta visual del experimento 2-logo-vector-v2.</span>
+          </div>
+          <div class="ex-login-form">
+            <div class="ex-card">
+              <img src="svg/isotipo/celuma-isotipo-color.svg" alt="" height="44" />
+              <h2>Iniciar sesión</h2>
+              <p style="color:var(--celuma-fg-3);margin:0">Usa tu cuenta del laboratorio.</p>
+              <label>Correo</label><div class="ex-input">persona@laboratorio-demo.test</div>
+              <label>Contraseña</label><div class="ex-input">••••••••••</div>
+              <span class="ex-btn">Entrar</span>
+            </div>
+          </div>
+        </div>
+      </div></div>
+    </section>
+
+    <section class="lv-section" aria-labelledby="h-e3">
+      <h2 id="h-e3">3 · Landing · hero</h2>
+      <div class="ex-scroll"><div class="ex-board" data-artboard="landing" style="width:1100px">
+        <span class="ex-mark" style="top:auto;bottom:12px">Maqueta · textos de ejemplo</span>
+        <div class="ex-land">
+          <div class="ex-nav">
+            <img class="ex-lockup" data-orient="horizontal" data-var="color-positivo" src="svg/lockups/propuesta-a-baloo2/celuma-lockup-horizontal-color-positivo.svg" alt="Céluma" height="40" />
+            <ul><li>Producto</li><li>Laboratorios</li><li>Documentación</li></ul>
+            <span class="ex-cta">Solicitar demo</span>
+          </div>
+          <div class="ex-hero">
+            <div>
+              <p class="lv-eyebrow">Gestión para laboratorios de anatomía patológica</p>
+              <h1>Del ingreso de la muestra al informe firmado.</h1>
+              <p>Cada persona del equipo sabe qué sigue y quién es responsable. Texto de ejemplo para la maqueta.</p>
+              <span class="ex-cta" style="display:inline-block;margin-top:10px;padding:14px 26px;font-size:15px">Solicitar demo</span>
+            </div>
+            <div class="ex-orb"><img src="svg/isotipo/celuma-isotipo-color.svg" alt="" height="250" /></div>
+          </div>
+        </div>
+      </div></div>
+    </section>
+
+    <section class="lv-section" aria-labelledby="h-e4">
+      <h2 id="h-e4">4 · Pieza de comunicación (Dirección A «Lámina clara»)</h2>
+      <p class="lv-sub">Formato 1:1 a la mitad de 1080 px. Evento, fecha y laboratorio ficticios.</p>
+      <div class="ex-scroll"><div class="lv-row" style="flex-wrap:nowrap">
+        <div class="ex-board" data-artboard="comunicacion" style="width:540px">
+          <span class="ex-mark">Ejemplo · datos ficticios</span>
+          <div class="ex-post">
+            <div>
+              <div class="ex-rule"></div>
+              <h2>Taller abierto: trazabilidad de muestras en el laboratorio</h2>
+              <p class="ex-meta">Jueves 12 de noviembre · 10:00 h<br />Laboratorio Demo Norte (ficticio)</p>
+            </div>
+            <img class="ex-mod" src="svg/isotipo/celuma-isotipo-color.svg" alt="" height="190" />
+            <div class="ex-bottom">
+              <img class="ex-lockup" data-orient="horizontal" data-var="color-positivo" src="svg/lockups/propuesta-a-baloo2/celuma-lockup-horizontal-color-positivo.svg" alt="Céluma" height="30" />
+              <span>Pieza de ejemplo · no publicar</span>
+            </div>
+          </div>
+        </div>
+        <div class="ex-board" data-artboard="comunicacion-negativo" style="width:540px">
+          <span class="ex-mark">Ejemplo · datos ficticios</span>
+          <div class="ex-post" style="background:#0d1b2a;color:#fff">
+            <div>
+              <div class="ex-rule"></div>
+              <h2 style="color:#fff">Nueva guía: cómo registrar una muestra</h2>
+              <p class="ex-meta" style="color:rgba(255,255,255,.75)">Documentación de ejemplo · versión ficticia</p>
+            </div>
+            <img class="ex-mod" src="svg/isotipo/celuma-isotipo-color.svg" alt="" height="190" />
+            <div class="ex-bottom" style="color:rgba(255,255,255,.6)">
+              <img class="ex-lockup" data-orient="horizontal" data-var="color-negativo" src="svg/lockups/propuesta-a-baloo2/celuma-lockup-horizontal-color-negativo.svg" alt="Céluma" height="30" />
+              <span>Pieza de ejemplo · no publicar</span>
+            </div>
+          </div>
+        </div>
+      </div></div>
+    </section>
+
+    <footer class="lv-footer">Identidad aprobada; maquetas con datos ficticios. No representan capacidades verificadas ni autorizan publicación. Wordmark A elegido; B queda como comparación.</footer>
+  </main>
+  <script>
+    // Switch every lockup between option A (Baloo 2) and B (Notion V2 lettering).
+    const folders = { a: 'propuesta-a-baloo2', b: 'propuesta-b-notion-v2' };
+    document.querySelectorAll('[data-opt]').forEach((btn) => btn.addEventListener('click', () => {
+      document.querySelectorAll('.ex-lockup').forEach((img) => {
+        img.src = `svg/lockups/${folders[btn.dataset.opt]}/celuma-lockup-${img.dataset.orient}-${img.dataset.var}.svg`;
+      });
+      document.querySelectorAll('[data-opt]').forEach((o) => o.setAttribute('aria-pressed', String(o === btn)));
+    }));
+  </script>
+</body>
+</html>

@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light" />
+  <script>
+    // Some preview servers strip /index.html. Normalize the directory URL
+    // without a request, so relative assets work and redirects cannot loop.
+    if (!/\/$|\.html$/.test(location.pathname)) {
+      const directory = location.pathname.replace(/\/index$/, '') + '/';
+      history.replaceState(history.state, '', directory + location.search + location.hash);
+    }
+  </script>
+  <title>Céluma · Luz, Enfoque y Trazo aprobados</title>
+  <link rel="icon" type="image/svg+xml" href="../svg/isotipo/celuma-isotipo-color.svg" />
+  <link rel="stylesheet" href="../../../../styles/celuma-tokens.css" />
+  <link rel="stylesheet" href="../experiment.css" />
+  <link rel="stylesheet" href="galeria.css?v=paleta-20260927" />
+</head>
+<body>
+  <header class="lv-header">
+    <span><a href="../index.html">← Isotipo vectorial (fase 1)</a> · <a href="../animacion.html">Fase 2</a></span>
+    <nav class="lv-nav" aria-label="Secciones">
+      <a href="#comparar">Comparar</a>
+      <a href="#carga">Carga</a>
+      <a href="#bienvenida">Bienvenida</a>
+      <a href="#material">Material</a>
+      <a href="#direcciones">Direcciones</a>
+      <a href="#validacion">Validación</a>
+      <a href="#decision">Decisión</a>
+      <a href="#archivos">Archivos</a>
+    </nav>
+    <span class="lv-status lv-status-approved">Direcciones aprobadas · incorporación pendiente</span>
+  </header>
+
+  <nav class="lv-phase-nav" aria-label="Recorrido del experimento de logo">
+    <a href="../../../index.html">Laboratorio</a>
+    <span aria-hidden="true">/</span><strong>Logo</strong>
+    <a href="../index.html">1 · Maestro y sistema</a>
+    <a href="../ejemplos.html">Aplicaciones</a>
+    <a href="../animacion.html">2 · Mirada</a>
+    <a href="index.html" aria-current="page">Fase 3 · Motion aprobado</a>
+    <a href="../../3-logo-motion/index.html">Experimento 03 →</a>
+  </nav>
+  <main>
+    <p class="lv-eyebrow">Céluma · Laboratorio visual · experimento 02 · fase 3</p>
+    <h1>Direcciones de motion del logo</h1>
+    <p class="lv-lead">Tres ideas de movimiento con principios distintos, pensadas para usos concretos: <strong>Luz</strong> (solo se mueve la luz), <strong>Enfoque</strong> (un campo de visión descubre la célula) y <strong>Trazo</strong> (la marca se dibuja). La <strong>Mirada</strong> de la fase 2 aparece como referencia y no cuenta entre las tres. Cada dirección existe como isotipo solo y como lockup con «Céluma», con A · Baloo 2 800 y B · lettering V2. Todas terminan en el dibujo exacto de la fase 1.</p>
+    <div class="lv-note" role="note"><strong>Decisión de Rafael:</strong> Luz, Enfoque y Trazo aprobadas como direcciones visuales; el wordmark principal es A · Baloo 2 800. B queda como comparación. Desde el 2026-09-27 todas las piezas usan la paleta aprobada: Lottie, SVG, estáticos, láminas y vídeos se regeneraron y revalidaron sin cambiar tiempos ni geometría. Las maquetas usan datos ficticios y la adopción en producto requiere pruebas por medio. <a href="../DECISION.md">Ver decisión</a> · <a href="../../3-logo-motion/index.html">Ir al experimento 03</a>.</div>
+
+    <div class="g-reco" aria-label="Recomendación resumida">
+      <div><small>Carga compacta</small><b>Luz · bucle 2,0 s</b><p>Solo los rayos cambian de longitud. Sin llenado ni cuenta, así que no se lee como progreso. En la app, como SVG + CSS sin reproductor.</p></div>
+      <div><small>Material de marca</small><b>Trazo · 2,6–2,7 s</b><p>La célula se dibuja y el nombre se escribe. Tiene más narrativa, pero es largo y exigente para reproductores. Solo para intro/outro, hero y redes.</p></div>
+      <div><small>Bienvenida (sugerencia)</small><b>Enfoque · 1,4–1,9 s</b><p>Es breve y termina en el lockup completo. Con nombre, el campo se amplía y lo descubre sin animar las letras.</p></div>
+    </div>
+
+    <div class="g-toolbar" role="toolbar" aria-label="Controles globales">
+      <div class="g-group" role="group" aria-label="Tipografía"><span class="lab">Tipografía</span>
+        <button type="button" class="g-btn" data-typo="iso" aria-pressed="false">Solo isotipo</button>
+        <button type="button" class="g-btn" data-typo="a" aria-pressed="true">A · Baloo 2 800</button>
+        <button type="button" class="g-btn" data-typo="b" aria-pressed="false">B · lettering V2</button></div>
+      <div class="g-group" role="group" aria-label="Orientación del lockup"><span class="lab">Lockup</span>
+        <button type="button" class="g-btn" data-ori="h" aria-pressed="true">Horizontal</button>
+        <button type="button" class="g-btn" data-ori="v" aria-pressed="false">Vertical</button></div>
+      <div class="g-group" role="group" aria-label="Fondo"><span class="lab">Fondo</span>
+        <button type="button" class="g-btn" data-bg-set="crema" aria-pressed="true">Crema</button>
+        <button type="button" class="g-btn" data-bg-set="blanco" aria-pressed="false">Blanco</button>
+        <button type="button" class="g-btn" data-bg-set="navy" aria-pressed="false">Navy</button></div>
+      <div class="g-group" role="group" aria-label="Reproducción"><span class="lab">Todo</span>
+        <button type="button" class="g-btn primary" id="g-play" aria-pressed="false">❚❚ Pausa</button>
+        <button type="button" class="g-btn" id="g-restart">↺ Reiniciar</button>
+        <button type="button" class="g-btn" data-speed="1" aria-pressed="true">1×</button>
+        <button type="button" class="g-btn" data-speed="0.5" aria-pressed="false">0,5×</button>
+        <button type="button" class="g-btn" data-speed="0.25" aria-pressed="false">0,25×</button>
+        <button type="button" class="g-btn" id="g-repeat" aria-pressed="true" title="Repite solo las tarjetas de Comparar; Bienvenida y Material se reproducen una vez.">Repetir tarjetas</button>
+        <button type="button" class="g-btn" id="g-reduce" aria-pressed="false" title="Muestra lo que ve una persona con «reducir movimiento» activado">Movimiento reducido</button></div>
+    </div>
+    <p class="lv-note g-banner" id="g-rm-banner" role="status"><strong>Movimiento reducido.</strong> Cada reproductor muestra el logo estático (el SVG exacto de <code>estaticos/</code>) y nada arranca solo. Así se vería con la preferencia del sistema activada. <span id="g-rm-sys"></span></p>
+
+    <!-- ============================================================ COMPARAR -->
+    <section class="lv-section" id="comparar" aria-labelledby="h-cmp">
+      <h2 id="h-cmp">Comparar las direcciones</h2>
+      <p class="lv-sub">Reproducciones reales con lottie-web, con la tipografía, la orientación y el fondo de la barra. Cada tarjeta tiene sus propios controles y su barra de tiempo. «Una vez» y «Bucle» cambian la versión. Enfoque y Trazo no tienen bucle a propósito (ver fichas).</p>
+      <div class="g-cards" id="cards"></div>
+    </section>
+
+    <!-- ============================================================ CARGA -->
+    <section class="lv-section" id="carga" aria-labelledby="h-carga">
+      <h2 id="h-carga">Contexto 1 · Pantalla de carga compacta</h2>
+      <p class="lv-sub">Isotipo de 32 a 96 px en su tamaño real, con bucle corto que cierra sin salto y estado estático accesible. El logo solo indica que la app está viva: <strong>el estado real lo dice el texto</strong>. En tareas largas se muestran los pasos del sistema; en esta página, esos pasos son una simulación con datos ficticios.</p>
+      <div class="g-seg" role="group" aria-label="Dirección del loader"><span class="lab">Loader</span>
+        <button type="button" class="g-btn" data-load-dir="luz" aria-pressed="true">Luz · SVG + CSS</button>
+        <button type="button" class="g-btn" data-load-dir="luz-lottie" aria-pressed="false">Luz · Lottie</button>
+        <button type="button" class="g-btn" data-load-dir="mirada" aria-pressed="false">Mirada · fase 2</button>
+        <button type="button" class="g-btn" data-load-dir="estatico" aria-pressed="false">Estático + texto</button></div>
+      <div class="g-sizes" id="load-sizes"></div>
+      <div class="g-screens" style="margin-top:18px">
+        <figure class="g-screen"><div class="g-fit" data-native="960x560" id="scr-app"></div><figcaption>Escritorio · panel de la app al abrir una lista (carga corta, 48 px). Se muestra tras 400 ms de espera y, una vez visible, se mantiene al menos 600 ms para no parpadear.</figcaption></figure>
+        <figure class="g-screen phone"><div class="g-fit" data-native="390x844" id="scr-phone-load"></div><figcaption>Móvil · 390 px · arranque de la app con lockup (o isotipo de 64 px, según la barra).</figcaption></figure>
+      </div>
+      <div class="g-screens" style="margin-top:18px">
+        <figure class="g-screen"><div class="g-fit" data-native="620x250" id="scr-task"></div><figcaption>Tarea larga (64 px): el texto da el estado real paso a paso y el logo no simula avance. Como la animación convive más de 5 s con otro contenido (WCAG 2.2.2), se detiene tras 3 ciclos en el logo en reposo. Simulación con datos ficticios.</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- ============================================================ BIENVENIDA -->
+    <section class="lv-section" id="bienvenida" aria-labelledby="h-bien">
+      <h2 id="h-bien">Contexto 2 · Bienvenida o splash</h2>
+      <p class="lv-sub">Una sola reproducción, con nombre o solo con el isotipo, según la barra de tipografía. En móvil se usa el lockup vertical, si está elegido. El último fotograma es el lockup exacto de la fase 1, que es lo que queda en pantalla hasta que entra la app.</p>
+      <div class="g-seg" role="group" aria-label="Dirección de la bienvenida"><span class="lab">Dirección</span>
+        <button type="button" class="g-btn" data-splash-dir="enfoque" aria-pressed="true">Enfoque</button>
+        <button type="button" class="g-btn" data-splash-dir="luz" aria-pressed="false">Luz</button>
+        <button type="button" class="g-btn" data-splash-dir="trazo" aria-pressed="false">Trazo</button>
+        <button type="button" class="g-btn" data-splash-dir="mirada" aria-pressed="false">Mirada · fase 2</button>
+        <button type="button" class="g-btn" id="splash-replay">↺ Repetir bienvenida</button></div>
+      <p class="g-context-note" id="splash-note" role="status" aria-live="polite"></p>
+      <div class="g-screens">
+        <figure class="g-screen phone"><div class="g-fit" data-native="390x844" id="scr-phone-splash"></div><figcaption>Móvil · 390 × 844 · lockup de 240 px de ancho (vertical: 200 px) o isotipo de 112 px.</figcaption></figure>
+        <figure class="g-screen"><div class="g-fit" data-native="1280x800" id="scr-desk-splash"></div><figcaption>Escritorio · 1280 × 800 · lockup de 420 px de ancho (vertical: 260 px) o isotipo de 150 px.</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- ============================================================ MATERIAL -->
+    <section class="lv-section" id="material" aria-labelledby="h-mat">
+      <h2 id="h-mat">Contexto 3 · Material visual de marca</h2>
+      <p class="lv-sub">Intro y outro para vídeo (16:9), pieza social cuadrada (1:1) y hero del landing con el isotipo grande y sin nombre, porque el nombre ya está en la cabecera. El outro es la misma animación reproducida al revés: termina en vacío.</p>
+      <div class="g-seg" role="group" aria-label="Dirección del material"><span class="lab">Dirección</span>
+        <button type="button" class="g-btn" data-mat-dir="trazo" aria-pressed="true">Trazo</button>
+        <button type="button" class="g-btn" data-mat-dir="enfoque" aria-pressed="false">Enfoque</button>
+        <button type="button" class="g-btn" data-mat-dir="luz" aria-pressed="false">Luz</button>
+        <button type="button" class="g-btn" data-mat-dir="mirada" aria-pressed="false">Mirada · fase 2</button>
+        <span class="lab" style="margin-left:10px">Secuencia</span>
+        <button type="button" class="g-btn" id="mat-intro" aria-pressed="true">▶ Intro</button>
+        <button type="button" class="g-btn" id="mat-outro" aria-pressed="false">◀ Outro (al revés)</button></div>
+      <p class="g-context-note" id="material-note" role="status" aria-live="polite"></p>
+      <div class="g-screens">
+        <figure class="g-screen"><div class="g-fit" data-native="1920x1080" id="scr-169"></div><figcaption>Horizontal 16:9 · 1920 × 1080 · lockup horizontal de 1000 px (vertical: 560 px de ancho).</figcaption></figure>
+        <figure class="g-screen" style="flex:0 1 380px"><div class="g-fit" data-native="1080x1080" id="scr-11"></div><figcaption>Cuadrado 1:1 · 1080 × 1080 · siempre con lockup vertical de 560 px (o isotipo de 460 px).</figcaption></figure>
+      </div>
+      <div class="g-screens" style="margin-top:18px">
+        <figure class="g-screen"><div class="g-fit" data-native="1440x760" id="scr-hero"></div><figcaption>Hero del landing · 1440 px · isotipo de 420 px de alto, sin nombre. Una reproducción al cargar; no se repite al hacer scroll.</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- ============================================================ DIRECCIONES -->
+    <section class="lv-section" id="direcciones" aria-labelledby="h-dir">
+      <h2 id="h-dir">Direcciones: idea, tiempos y uso</h2>
+      <p class="lv-sub">Tiempos a 60 fps, calculados con la misma especificación que genera los archivos (<code>scripts/fase3.py</code>). La lámina muestra fotogramas clave sobre crema y navy. El vídeo es para revisar el ritmo y no es el formato de entrega.</p>
+      <div id="fichas"></div>
+    </section>
+
+    <!-- ============================================================ VALIDACIÓN -->
+    <section class="lv-section" id="validacion" aria-labelledby="h-val">
+      <h2 id="h-val">Validación</h2>
+      <p class="lv-sub">Reproductores reales en Chromium headless (Playwright): lottie-web 5.13.0 (SVG y canvas) y ThorVG (dotlottie-web 0.80.0). Las tolerancias son las de la fase 2 y las cifras salen de <code>validation/metrics.json</code>. <strong>No se probaron lottie-ios, lottie-android, Safari ni Firefox.</strong></p>
+      <div id="val"></div>
+    </section>
+
+    <!-- ============================================================ DECISIÓN -->
+    <section class="lv-section" id="decision" aria-labelledby="h-dec">
+      <h2 id="h-dec">Nota de decisión</h2>
+      <div class="lv-grid c2">
+        <div class="lv-card">
+          <h3>Asignación visual aprobada</h3>
+          <p><strong>Carga → Luz.</strong> Es la única que en bucle no cuenta nada: los rayos se acortan y vuelven sobre una célula quieta. Pesa 8,2 KB en SVG + CSS (2,8 KB con gzip) y no requiere reproductor en la app, y con movimiento reducido queda el logo estático.<br><em>Compromisos:</em> a 32 px el cambio es muy discreto (los rayos miden ~1,4 px de grosor) y tiene menos carácter que la Mirada. El SVG como <code>&lt;img&gt;</code> ignora el movimiento reducido en Chromium; debe ir en línea o dentro de <code>&lt;picture&gt;</code>.</p>
+          <p><strong>Material visual → Trazo.</strong> Tiene la narrativa más clara: la célula se dibuja, se llena y se enciende, y el nombre se escribe. Además, su inversa sirve de outro.<br><em>Compromisos:</em> dura 2,6–2,7 s y mueve muchos elementos, así que no sirve para UI ni por debajo de ~96 px. Usa mate de pista y máscaras, más exigentes para los reproductores y sin probar en iOS ni Android. La escritura es un barrido, no caligrafía.</p>
+          <p><strong>Bienvenida → Enfoque</strong> (sugerida): es breve, termina en el lockup y no anima las letras.</p>
+          <p><strong>Wordmark para motion:</strong> recomiendo <strong>A · Baloo 2 800</strong> porque ya está en uso, tiene geometría de fuente con glifos limpios y grosor constante, y resiste la ampliación en piezas de 1080 px. B funciona igual técnicamente, pero es un trazado de raster (error ≤ 0,64 px) y el movimiento dirige la mirada a sus bordes. <strong>D-1 se resolvió a favor de A</strong>; B permanece para comparación histórica.</p>
+        </div>
+        <div class="lv-card">
+          <h3>Preguntas visuales para Rafael</h3>
+          <ol class="g-q">
+            <li><a href="#carga">Carga</a>: ¿la ola de Luz se percibe a 32 y 48 px sin distraer, o la haría más profunda, más lenta o solo desde 48 px?</li>
+            <li><a href="#carga">Carga</a>: ¿Luz o Mirada? ¿Sientes que la Mirada «te observa» mientras esperas?</li>
+            <li><a href="#comparar">Luz con nombre</a>: el acento de la é aparece al final («Celuma» → «Céluma»). ¿Se lee como un guiño o como una errata momentánea?</li>
+            <li><a href="#bienvenida">Enfoque</a>: ¿el campo circular recuerda al microscopio sin parecer un escáner? ¿El ajuste 1,05 → 1 aporta algo o sobra?</li>
+            <li><a href="#bienvenida">Bienvenida</a>: ¿con nombre o solo isotipo? ¿Horizontal en escritorio y vertical en móvil?</li>
+            <li><a href="#material">Trazo</a>: ¿2,7 s es aceptable para intro? ¿Te convence que el citoplasma se llene desde el centro?</li>
+            <li><a href="#material">Trazo con nombre</a>: la escritura letra a letra, ¿se ve más natural con A o con B?</li>
+            <li><a href="#comparar">Fondos</a>: ¿hay alguna dirección que no funcione en crema, blanco o navy?</li>
+            <li>Movimiento reducido: ¿logo estático (lo actual) o un fundido mínimo?</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ ARCHIVOS -->
+    <section class="lv-section" id="archivos" aria-labelledby="h-arch">
+      <h2 id="h-arch">Archivos</h2>
+      <div class="lv-grid c2">
+        <div class="lv-card"><h3>Entregables de las direcciones aprobadas</h3><ul class="lv-files">
+          <li><a href="lottie/">lottie/</a>: 32 Lottie JSON (5 bucles de Luz y 27 de una reproducción: 3 direcciones × isotipo + 8 lockups)</li>
+          <li><a href="svg/luz-isotipo-loop.svg">svg/luz-isotipo-loop.svg</a> y lockups A/B: loader Luz en SVG + CSS</li>
+          <li><a href="estaticos/">estaticos/</a>: el maestro y los 8 lockups de la fase 1 en la caja de la animación (movimiento reducido y respaldo)</li>
+          <li><a href="preview/">preview/</a>: vídeos MP4/WebM por dirección y de las piezas de material</li>
+          <li><a href="validation/">validation/</a>: métricas, láminas y capturas</li>
+          <li><a href="README-FASE3.md">README-FASE3.md</a> y <a href="NOTA-DECISION.md">NOTA-DECISION.md</a></li>
+        </ul></div>
+        <div class="lv-card"><h3>Integración y movimiento reducido</h3>
+          <p><strong>Loader en la app:</strong> SVG + CSS en línea (<code>svg/luz-*-loop.svg</code>). Su regla <code>@media (prefers-reduced-motion: reduce)</code> deja el logo estático. Si se usa como <code>&lt;img&gt;</code>, hay que envolverlo en un <code>&lt;picture&gt;</code> con el estático como fuente para ese caso, porque Chromium no aplica la preferencia dentro de una imagen SVG.</p>
+          <p><strong>Lottie:</strong> la integración consulta la preferencia y, si es «reduce», muestra el estático de <code>estaticos/</code>, o el último fotograma en las animaciones de una reproducción y el fotograma 0 en los bucles.</p>
+          <p><strong>Nada de esto es una dependencia de producción:</strong> la galería usa la copia local de lottie-web de la fase 2 (<code>../vendor/</code>).</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="lv-footer">Direcciones visuales aprobadas; incorporación pendiente. Fase 3 del experimento 02, preparada por Claude el 2026-09-26. Reproductor de la página: lottie-web 5.13.0 (MIT, copia local de la fase 2). Datos y textos ficticios. La aprobación no equivale a publicación.</footer>
+  </main>
+
+  <script src="../vendor/lottie-web-5.13.0/lottie.min.js"></script>
+  <script src="../anim/review-data.js"></script>
+  <script src="data.js"></script>
+  <script src="validation/metrics.js"></script>
+  <script src="validation/pagecheck.js"></script>
+  <script src="galeria.js?v=paleta-20260927"></script>
+</body>
+</html>

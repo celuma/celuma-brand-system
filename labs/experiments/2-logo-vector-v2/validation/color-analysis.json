@@ -1,0 +1,352 @@
+{
+  "source": "assets/celuma-isotipo.png",
+  "size": [
+    697,
+    777
+  ],
+  "regions": {
+    "rays": {
+      "plateau_pixels": 5843,
+      "median_hex": "#f1c46c",
+      "median_rgb": [
+        241.0,
+        196.0,
+        108.0
+      ],
+      "mean_rgb": [
+        241.36,
+        196.47,
+        108.23
+      ],
+      "std_rgb": [
+        1.06,
+        1.11,
+        1.1
+      ],
+      "grain_de00_p50": 0.41,
+      "grain_de00_p95": 1.02,
+      "linear_gradient_r2": [
+        0.002,
+        0.016,
+        0.064
+      ],
+      "linear_gradient_span_rgb_levels": 1.82,
+      "linear_gradient_span_de00": 0.44,
+      "radial_gradient_span_de00": 0.15,
+      "block_medians_4x4": [
+        [
+          null,
+          "#f1c56c",
+          null,
+          "#f1c46c"
+        ],
+        [
+          null,
+          "#f1c56c",
+          "#f2c56c",
+          "#f1c46c"
+        ],
+        [
+          "#f1c56c",
+          null,
+          "#f1c56d",
+          null
+        ],
+        [
+          "#f1c56c",
+          "#f1c56d",
+          null,
+          null
+        ]
+      ],
+      "verdict": "flat"
+    },
+    "ring": {
+      "plateau_pixels": 34937,
+      "median_hex": "#3baca6",
+      "median_rgb": [
+        59.0,
+        172.0,
+        166.0
+      ],
+      "mean_rgb": [
+        59.23,
+        172.26,
+        166.4
+      ],
+      "std_rgb": [
+        1.04,
+        1.05,
+        1.09
+      ],
+      "grain_de00_p50": 0.47,
+      "grain_de00_p95": 1.16,
+      "linear_gradient_r2": [
+        0.0,
+        0.001,
+        0.0
+      ],
+      "linear_gradient_span_rgb_levels": 0.12,
+      "linear_gradient_span_de00": 0.05,
+      "radial_gradient_span_de00": 0.22,
+      "block_medians_4x4": [
+        [
+          "#3bada7",
+          "#3baca6",
+          "#3baca7",
+          "#3baca6"
+        ],
+        [
+          "#3baca7",
+          null,
+          null,
+          "#3baca6"
+        ],
+        [
+          "#3baca7",
+          null,
+          null,
+          "#3baca7"
+        ],
+        [
+          "#3baca6",
+          "#3baca6",
+          "#3baca6",
+          "#3baca6"
+        ]
+      ],
+      "verdict": "flat"
+    },
+    "mint": {
+      "plateau_pixels": 100686,
+      "median_hex": "#bbead2",
+      "median_rgb": [
+        187.0,
+        234.0,
+        210.0
+      ],
+      "mean_rgb": [
+        187.19,
+        234.35,
+        209.65
+      ],
+      "std_rgb": [
+        1.12,
+        1.08,
+        1.09
+      ],
+      "grain_de00_p50": 0.45,
+      "grain_de00_p95": 1.02,
+      "linear_gradient_r2": [
+        0.001,
+        0.002,
+        0.009
+      ],
+      "linear_gradient_span_rgb_levels": 0.46,
+      "linear_gradient_span_de00": 0.2,
+      "radial_gradient_span_de00": 0.28,
+      "block_medians_4x4": [
+        [
+          null,
+          "#bbead2",
+          "#bbead1",
+          "#bbead1"
+        ],
+        [
+          "#bbead2",
+          "#bbead2",
+          null,
+          "#bbebd2"
+        ],
+        [
+          "#bbead2",
+          "#bbead2",
+          "#bbead2",
+          "#bbebd2"
+        ],
+        [
+          "#bbead2",
+          "#bbead2",
+          "#bbead2",
+          "#bbead2"
+        ]
+      ],
+      "verdict": "flat"
+    },
+    "nucleus": {
+      "plateau_pixels": 30066,
+      "median_hex": "#f88e85",
+      "median_rgb": [
+        248.0,
+        142.0,
+        133.0
+      ],
+      "mean_rgb": [
+        248.35,
+        141.99,
+        132.67
+      ],
+      "std_rgb": [
+        0.99,
+        1.02,
+        1.02
+      ],
+      "grain_de00_p50": 0.38,
+      "grain_de00_p95": 0.9,
+      "linear_gradient_r2": [
+        0.003,
+        0.004,
+        0.021
+      ],
+      "linear_gradient_span_rgb_levels": 0.79,
+      "linear_gradient_span_de00": 0.18,
+      "radial_gradient_span_de00": 0.19,
+      "block_medians_4x4": [
+        [
+          "#f88e84",
+          "#f88e84",
+          "#f88e85",
+          "#f88e85"
+        ],
+        [
+          "#f88e85",
+          "#f98e85",
+          "#f98e85",
+          "#f88e85"
+        ],
+        [
+          "#f88e85",
+          "#f98e85",
+          "#f98e85",
+          "#f88e85"
+        ],
+        [
+          "#f88e85",
+          "#f88e85",
+          "#f88e85",
+          "#f88e85"
+        ]
+      ],
+      "verdict": "flat"
+    },
+    "nucleolus": {
+      "plateau_pixels": 2324,
+      "median_hex": "#e5635f",
+      "median_rgb": [
+        229.0,
+        99.0,
+        95.0
+      ],
+      "mean_rgb": [
+        228.97,
+        99.42,
+        94.56
+      ],
+      "std_rgb": [
+        0.63,
+        0.69,
+        0.62
+      ],
+      "grain_de00_p50": 0.31,
+      "grain_de00_p95": 0.62,
+      "linear_gradient_r2": [
+        0.078,
+        0.021,
+        0.048
+      ],
+      "linear_gradient_span_rgb_levels": 0.89,
+      "linear_gradient_span_de00": 0.22,
+      "radial_gradient_span_de00": 0.29,
+      "block_medians_4x4": [
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "verdict": "flat"
+    },
+    "strokes": {
+      "plateau_pixels": 9068,
+      "median_hex": "#3cada7",
+      "median_rgb": [
+        60.0,
+        173.0,
+        167.0
+      ],
+      "mean_rgb": [
+        59.76,
+        172.77,
+        166.86
+      ],
+      "std_rgb": [
+        1.06,
+        1.07,
+        1.12
+      ],
+      "grain_de00_p50": 0.47,
+      "grain_de00_p95": 1.16,
+      "linear_gradient_r2": [
+        0.013,
+        0.004,
+        0.004
+      ],
+      "linear_gradient_span_rgb_levels": 0.69,
+      "linear_gradient_span_de00": 0.2,
+      "radial_gradient_span_de00": 0.05,
+      "block_medians_4x4": [
+        [
+          null,
+          null,
+          null,
+          "#3cada7"
+        ],
+        [
+          "#3cada7",
+          "#3cada7",
+          null,
+          "#3cada7"
+        ],
+        [
+          "#3cada7",
+          "#3cada7",
+          "#3cada7",
+          "#3cada7"
+        ],
+        [
+          "#3cada7",
+          "#3bada7",
+          null,
+          null
+        ]
+      ],
+      "verdict": "flat"
+    }
+  },
+  "alpha": {
+    "interior_pixels": 210786,
+    "interior_alpha_mean": 254.687,
+    "interior_alpha_min": 250,
+    "interior_share_below_255": 0.255,
+    "note": "Interior alpha is dithered 240-255 by the generator (and a blocky fully-opaque patch in the nucleus). Max transparency 1-2 %; treated as noise, the master uses opacity 1."
+  }
+}

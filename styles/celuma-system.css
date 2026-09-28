@@ -11,7 +11,7 @@
   font-family: var(--celuma-font-body);
   font-size: 11px;
   font-weight: 600;
-  color: var(--celuma-primary);
+  color: var(--celuma-primary-ink);
   letter-spacing: 0.14em;
   text-transform: uppercase;
   display: inline-flex;
@@ -44,12 +44,12 @@
   font-family: var(--celuma-font-body);
   font-size: 11px; font-weight: 600;
   background: var(--celuma-primary-soft);
-  color: var(--celuma-primary);
+  color: var(--celuma-primary-ink);
   letter-spacing: 0.02em;
 }
-.cel-pill.solid { background: var(--celuma-primary); color: #fff; }
-.cel-pill.ghost { background: transparent; color: var(--celuma-primary); border: 1px solid currentColor; }
-.cel-pill.on-dark { background: rgba(15,139,141,0.20); color: #7dd8d9; }
+.cel-pill.solid { background: var(--celuma-primary); color: var(--celuma-on-primary); }
+.cel-pill.ghost { background: transparent; color: var(--celuma-primary-ink); border: 1px solid currentColor; }
+.cel-pill.on-dark { background: rgba(73,182,173,0.20); color: #7dd8d9; }
 .cel-pill.amber { background: var(--celuma-amber-bg); color: var(--celuma-amber); }
 .cel-pill.green { background: var(--celuma-green-bg); color: var(--celuma-green); }
 .cel-pill.violet { background: var(--celuma-violet-bg); color: var(--celuma-violet); }
@@ -100,9 +100,9 @@
   position: absolute; pointer-events: none;
   width: 480px; height: 480px;
   background: radial-gradient(circle at center,
-    rgba(15,139,141,0.18) 0%,
-    rgba(15,139,141,0.08) 35%,
-    rgba(15,139,141,0.00) 65%);
+    rgba(73,182,173,0.18) 0%,
+    rgba(73,182,173,0.08) 35%,
+    rgba(73,182,173,0.00) 65%);
 }
 .cel-blob.lg { width: 720px; height: 720px; }
 .cel-blob.sm { width: 320px; height: 320px; }
@@ -121,7 +121,7 @@
 
 /* Pattern A — dotted grid (microscope feel) */
 .cel-pat-dots {
-  background-image: radial-gradient(rgba(15,139,141,0.18) 1.2px, transparent 1.4px);
+  background-image: radial-gradient(rgba(73,182,173,0.18) 1.2px, transparent 1.4px);
   background-size: 14px 14px;
 }
 .cel-pat-dots.dense { background-size: 10px 10px; }
@@ -129,7 +129,7 @@
 /* Pattern B — hatched diagonal stripes */
 .cel-pat-hatch {
   background-image: repeating-linear-gradient(135deg,
-    rgba(15,139,141,0.08) 0 1px,
+    rgba(73,182,173,0.08) 0 1px,
     transparent 1px 8px);
 }
 
@@ -137,7 +137,7 @@
 .cel-pat-lines {
   background-image: repeating-linear-gradient(180deg,
     transparent 0 23px,
-    rgba(15,139,141,0.06) 23px 24px);
+    rgba(73,182,173,0.06) 23px 24px);
 }
 
 /* Pattern D — cell field (clusters of circles) — applied via SVG */
@@ -169,7 +169,7 @@
   color: var(--celuma-ink);
   letter-spacing: -0.03em;
 }
-.cel-num.teal { color: var(--celuma-primary); }
+.cel-num.teal { color: var(--celuma-primary-ink); }
 .cel-num.on-dark { color: #fff; }
 
 .cel-mono {

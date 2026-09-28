@@ -1,0 +1,239 @@
+{
+  "silhouette": {
+    "iou_alpha50": 0.99899,
+    "area_ratio_sum_alpha": 1.00112,
+    "alpha_mae_in_union_bbox": 0.00234,
+    "pixels_alpha_diff_gt_0_25": 208,
+    "boundary_distance_px": {
+      "mean": 0.101,
+      "p95": 0.28,
+      "max": 0.625
+    }
+  },
+  "regions": {
+    "rays": {
+      "iou": 0.9925,
+      "area_ratio": 0.9991,
+      "centroid_offset_px": [
+        -0.247,
+        0.098
+      ]
+    },
+    "ring": {
+      "iou": 0.995,
+      "area_ratio": 1.0002,
+      "centroid_offset_px": [
+        -0.065,
+        0.131
+      ]
+    },
+    "mint": {
+      "iou": 0.9975,
+      "area_ratio": 0.9996,
+      "centroid_offset_px": [
+        -0.026,
+        -0.03
+      ]
+    },
+    "nucleus": {
+      "iou": 0.9747,
+      "area_ratio": 1.0254,
+      "centroid_offset_px": [
+        0.022,
+        -0.061
+      ]
+    },
+    "nucleolus": {
+      "iou": 0.9932,
+      "area_ratio": 0.999,
+      "centroid_offset_px": [
+        -0.108,
+        0.034
+      ]
+    },
+    "strokes": {
+      "iou": 0.9911,
+      "area_ratio": 1.0017,
+      "centroid_offset_px": [
+        -0.072,
+        0.034
+      ]
+    },
+    "nucleus_disc_field": {
+      "iou": 0.9985,
+      "area_ratio": 0.9996,
+      "note": "nucleus + nucleolus on the mint→salmon colour field; halo-independent"
+    }
+  },
+  "rays": [
+    {
+      "ray": 1,
+      "center_offset_px": [
+        -0.057,
+        0.008
+      ],
+      "axis_deg_source": 28.59,
+      "axis_deg_vector": 28.57,
+      "length_source_px": 122.31,
+      "length_vector_px": 122.12,
+      "end_reach_diff_px": [
+        0.094,
+        -0.098
+      ]
+    },
+    {
+      "ray": 2,
+      "center_offset_px": [
+        -0.071,
+        0.097
+      ],
+      "axis_deg_source": 53.23,
+      "axis_deg_vector": 53.3,
+      "length_source_px": 126.48,
+      "length_vector_px": 126.36,
+      "end_reach_diff_px": [
+        0.165,
+        0.045
+      ]
+    },
+    {
+      "ray": 3,
+      "center_offset_px": [
+        -0.069,
+        -0.082
+      ],
+      "axis_deg_source": 89.78,
+      "axis_deg_vector": 89.8,
+      "length_source_px": 108.64,
+      "length_vector_px": 108.42,
+      "end_reach_diff_px": [
+        0.202,
+        -0.019
+      ]
+    }
+  ],
+  "color": {
+    "blanco": {
+      "all_de00": {
+        "mean": 1.025,
+        "p95": 3.737,
+        "p99": 13.307
+      },
+      "interior_de00": {
+        "mean": 0.517,
+        "p95": 1.064
+      },
+      "edge_band_de00": {
+        "mean": 4.937,
+        "p95": 14.328
+      },
+      "per_region_interior_mean_de00": {
+        "rays": 0.523,
+        "ring": 0.54,
+        "mint": 0.514,
+        "nucleus": 0.432,
+        "nucleolus": 0.324,
+        "strokes": 0.595
+      },
+      "share_pixels_de_gt_2": 0.0736,
+      "share_pixels_de_gt_5": 0.0414
+    },
+    "crema": {
+      "all_de00": {
+        "mean": 1.024,
+        "p95": 3.679,
+        "p99": 13.31
+      },
+      "interior_de00": {
+        "mean": 0.518,
+        "p95": 1.062
+      },
+      "edge_band_de00": {
+        "mean": 4.916,
+        "p95": 14.332
+      },
+      "per_region_interior_mean_de00": {
+        "rays": 0.52,
+        "ring": 0.539,
+        "mint": 0.516,
+        "nucleus": 0.433,
+        "nucleolus": 0.324,
+        "strokes": 0.593
+      },
+      "share_pixels_de_gt_2": 0.0732,
+      "share_pixels_de_gt_5": 0.041
+    },
+    "navy": {
+      "all_de00": {
+        "mean": 1.08,
+        "p95": 4.195,
+        "p99": 13.732
+      },
+      "interior_de00": {
+        "mean": 0.534,
+        "p95": 1.081
+      },
+      "edge_band_de00": {
+        "mean": 5.288,
+        "p95": 14.791
+      },
+      "per_region_interior_mean_de00": {
+        "rays": 0.552,
+        "ring": 0.551,
+        "mint": 0.536,
+        "nucleus": 0.452,
+        "nucleolus": 0.324,
+        "strokes": 0.584
+      },
+      "share_pixels_de_gt_2": 0.0734,
+      "share_pixels_de_gt_5": 0.0449
+    }
+  },
+  "sizes": {
+    "16": {
+      "alpha_mae": 0.0538,
+      "de00_mean_blanco": 3.811,
+      "de00_max_blanco": 29.32,
+      "de00_mean_crema": 3.731,
+      "de00_max_crema": 29.32,
+      "de00_mean_navy": 5.392,
+      "de00_max_navy": 29.97
+    },
+    "20": {
+      "alpha_mae": 0.0591,
+      "de00_mean_blanco": 3.474,
+      "de00_max_blanco": 21.14,
+      "de00_mean_crema": 3.362,
+      "de00_max_crema": 21.15,
+      "de00_mean_navy": 4.799,
+      "de00_max_navy": 39.35
+    },
+    "32": {
+      "alpha_mae": 0.0337,
+      "de00_mean_blanco": 2.271,
+      "de00_max_blanco": 20.89,
+      "de00_mean_crema": 2.241,
+      "de00_max_crema": 20.88,
+      "de00_mean_navy": 2.925,
+      "de00_max_navy": 21.21
+    },
+    "64": {
+      "alpha_mae": 0.0191,
+      "de00_mean_blanco": 1.201,
+      "de00_max_blanco": 19.63,
+      "de00_mean_crema": 1.178,
+      "de00_max_crema": 19.62,
+      "de00_mean_navy": 1.636,
+      "de00_max_navy": 20.84
+    },
+    "256": {
+      "alpha_mae": 0.0087,
+      "de00_mean_blanco": 0.867,
+      "de00_max_blanco": 35.01,
+      "de00_mean_crema": 0.86,
+      "de00_max_crema": 35.01,
+      "de00_mean_navy": 0.985,
+      "de00_max_navy": 37.64
+    }
+  }
+}

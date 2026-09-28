@@ -36,7 +36,7 @@ function CelIso({ size = 24, opacity = 1, style = {} }) {
 }
 
 // --- SVG cell field — clusters of soft circles inspired by isotipo ---
-function CelCellField({ width = 600, height = 200, density = 18, seed = 1, opacity = 0.55, palette = ['#0f8b8d','#49b6ad','#c8ecdc','#e6f7f7'] }) {
+function CelCellField({ width = 600, height = 200, density = 18, seed = 1, opacity = 0.55, palette = ['#49b6ad','#1f7a75','#c8ecdc','#e6f7f7'] }) {
   // Deterministic pseudo-random
   let s = seed * 9301 + 49297;
   const rnd = () => { s = (s * 9301 + 49297) % 233280; return s / 233280; };
@@ -46,7 +46,7 @@ function CelCellField({ width = 600, height = 200, density = 18, seed = 1, opaci
     const cx = rnd() * width;
     const cy = rnd() * height;
     const fill = palette[Math.floor(rnd() * palette.length)];
-    const stroke = '#0f8b8d';
+    const stroke = '#49b6ad';
     const filled = rnd() > 0.45;
     cells.push(
       <g key={i}>
@@ -69,7 +69,7 @@ function CelCellField({ width = 600, height = 200, density = 18, seed = 1, opaci
 }
 
 // --- Contour / wave lines pattern (abstract biomedical topography) ---
-function CelContour({ width = 600, height = 200, color = 'rgba(15,139,141,0.18)', count = 8 }) {
+function CelContour({ width = 600, height = 200, color = 'rgba(73,182,173,0.18)', count = 8 }) {
   const lines = [];
   for (let i = 0; i < count; i++) {
     const y = (height / count) * i + 20;
@@ -92,7 +92,7 @@ function CelContour({ width = 600, height = 200, color = 'rgba(15,139,141,0.18)'
 }
 
 // --- Dotted grid (microscope) ---
-function CelDots({ size = 14, color = 'rgba(15,139,141,0.22)', style = {} }) {
+function CelDots({ size = 14, color = 'rgba(73,182,173,0.22)', style = {} }) {
   return <div style={{
     backgroundImage: `radial-gradient(${color} 1.2px, transparent 1.4px)`,
     backgroundSize: `${size}px ${size}px`,
@@ -226,10 +226,67 @@ function CelIcon({ name, size = 16, stroke = 1.8, color = 'currentColor' }) {
   );
 }
 
+// --- Neutral slot for real case imagery ---
+// Decorative illustration must never stand in for diagnostic evidence. Where a
+// layout needs a clinical image, show this neutral slot instead.
+function CelImageSlot({ label = 'Imagen del caso', note = 'La aporta el laboratorio', dark = false, style = {} }) {
+  const ink = dark ? 'rgba(255,255,255,0.72)' : 'var(--celuma-fg-2)';
+  const line = dark ? 'rgba(255,255,255,0.14)' : 'rgba(13,27,42,0.08)';
+  return (
+    <div style={{
+      position: 'relative', width: '100%', height: '100%', borderRadius: 12, overflow: 'hidden',
+      background: dark ? 'rgba(255,255,255,0.04)' : '#f3f4f6',
+      backgroundImage: `repeating-linear-gradient(135deg, ${line} 0 1px, transparent 1px 9px)`,
+      border: `1px dashed ${dark ? 'rgba(255,255,255,0.28)' : 'rgba(13,27,42,0.22)'}`,
+      display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 4,
+      color: ink, textAlign: 'center', padding: 8, ...style,
+    }}>
+      <CelIcon name="file-text" size={16} color={ink} />
+      <div style={{ fontSize: 10, fontWeight: 700 }}>{label}</div>
+      {note && <div style={{ fontSize: 9, opacity: 0.85 }}>{note}</div>}
+    </div>
+  );
+}
+
+// --- Exploration marker ---
+// Wraps a legacy stationery artboard to state, discreetly, that it is a visual
+// exploration of the brand — not an approved piece or an operational template.
+// Sits in the top-right corner, inside the margin, and does not block the design.
+// `below` moves the marker to a 16 px strip under small pieces (lab labels)
+// where any corner would cover content.
+function CelExploration({ children, text = 'Exploración', below = false }) {
+  if (below) {
+    return (
+      <div style={{ display: 'block', width: 'fit-content' }}>
+        {children}
+        <div title="Exploración visual de marca · no aprobada · no es plantilla operativa"
+          style={{ height: 16, display: 'flex', alignItems: 'center', gap: 6, padding: '0 4px', background: '#f7f5f0', borderTop: '1px dashed rgba(13,27,42,0.3)', font: '700 7px/1 var(--celuma-font-body)', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--celuma-fg-2)' }}>
+          {text}<span style={{ fontWeight: 500, letterSpacing: '0.04em', textTransform: 'none' }}>· no operativa</span>
+        </div>
+      </div>
+    );
+  }
+  return (
+    <div style={{ position: 'relative', display: 'block', width: 'fit-content' }}>
+      {children}
+      <span
+        title="Exploración visual de marca · no aprobada · no es plantilla operativa"
+        style={{
+          position: 'absolute', top: 4, right: 4, zIndex: 20, lineHeight: 1,
+          font: '700 7px/1 var(--celuma-font-body)', letterSpacing: '0.12em', textTransform: 'uppercase',
+          padding: '3px 5px', borderRadius: 3, color: 'var(--celuma-ink)',
+          background: 'rgba(255,255,255,0.82)', border: '1px dashed rgba(13,27,42,0.4)',
+          pointerEvents: 'none',
+        }}
+      >{text}</span>
+    </div>
+  );
+}
+
 // --- Soft radial blob (corner atmosphere) ---
 function CelBlob({ size = 480, x = 0, y = 0, color = 'teal', opacity = 1 }) {
   const colors = {
-    teal: 'rgba(15,139,141,0.18)',
+    teal: 'rgba(73,182,173,0.18)',
     mint: 'rgba(73,182,173,0.22)',
     rose: 'rgba(229,138,138,0.16)',
     gold: 'rgba(240,199,94,0.18)',
@@ -248,5 +305,5 @@ function CelBlob({ size = 480, x = 0, y = 0, color = 'teal', opacity = 1 }) {
 
 Object.assign(window, {
   CelMark, CelIso, CelCellField, CelContour, CelDots, CelGrid,
-  CelBarcode, CelQR, CelStatus, CelIcon, CelBlob,
+  CelBarcode, CelQR, CelStatus, CelIcon, CelBlob, CelImageSlot, CelExploration,
 });

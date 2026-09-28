@@ -1,0 +1,146 @@
+{
+ "date": "2026-09-28T01:33:24.300Z",
+ "desktop_file": {
+  "initial": {
+   "players": 17,
+   "static": 0,
+   "lottie": 9,
+   "css": 8,
+   "playing": 0,
+   "running_css_animations": 0
+  },
+  "banner_visible": false,
+  "broken_images": [],
+  "clipped": [],
+  "cards_playing": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "after_b_navy": {
+   "players": 17,
+   "static": 0,
+   "lottie": 9,
+   "css": 8,
+   "playing": 4,
+   "running_css_animations": 0
+  },
+  "clipped_vertical": [],
+  "ori_disabled_for_iso": true,
+  "luz_card_loop": {
+   "key": "luz|a-h-pos|loop",
+   "op": 120,
+   "loop": true
+  },
+  "luz_scrub_readout": "0,83 s · ola-rayo-3",
+  "enfoque_loop_disabled": true,
+  "after_pause_all": {
+   "players": 17,
+   "static": 0,
+   "lottie": 9,
+   "css": 8,
+   "playing": 0,
+   "running_css_animations": 0
+  },
+  "after_restart": {
+   "players": 17,
+   "static": 0,
+   "lottie": 9,
+   "css": 8,
+   "playing": 4,
+   "running_css_animations": 0
+  },
+  "speed_applied": true,
+  "loader_css_running": [
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "task_status": "Paso 1 de 3",
+  "splash_mirada_note": "mirada|iso|once",
+  "outro_direction": -1,
+  "simulated_reduce": {
+   "players": 17,
+   "static": 17,
+   "lottie": 0,
+   "css": 0,
+   "playing": 0,
+   "running_css_animations": 0,
+   "banner": true,
+   "broken_images": []
+  },
+  "after_unreduce": {
+   "players": 17,
+   "static": 0,
+   "lottie": 9,
+   "css": 8,
+   "playing": 4,
+   "running_css_animations": 0
+  },
+  "video_can_play": {
+   "webm": "maybe",
+   "mp4": "maybe"
+  },
+  "val_rows": 37,
+  "clipped_end": [],
+  "errors": []
+ },
+ "desktop_http": {
+  "state": {
+   "players": 17,
+   "static": 0,
+   "lottie": 9,
+   "css": 8,
+   "playing": 0,
+   "running_css_animations": 0
+  },
+  "broken_images": [],
+  "errors": []
+ },
+ "reduced": {
+  "players": 17,
+  "static": 17,
+  "lottie": 0,
+  "css": 0,
+  "playing": 0,
+  "running_css_animations": 0,
+  "all_static": true,
+  "banner": true,
+  "broken_images": [],
+  "errors": []
+ },
+ "mobile_390_a": {
+  "overflow": {
+   "scroll_minus_client": 0,
+   "elements_past_viewport": []
+  },
+  "clipped": [],
+  "broken_images": [],
+  "errors": []
+ },
+ "mobile_390_b": {
+  "overflow": {
+   "scroll_minus_client": 0,
+   "elements_past_viewport": []
+  },
+  "clipped": [],
+  "broken_images": [],
+  "errors": []
+ },
+ "mobile_390_iso": {
+  "overflow": {
+   "scroll_minus_client": 0,
+   "elements_past_viewport": []
+  },
+  "clipped": [],
+  "broken_images": [],
+  "errors": []
+ },
+ "mobile": {
+  "overflow_px": 0,
+  "clipped": 0
+ }
+}

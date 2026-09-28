@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light" />
+  <script>
+    // Some preview servers strip /index.html. Normalize the directory URL
+    // without a request, so relative assets work and redirects cannot loop.
+    if (!/\/$|\.html$/.test(location.pathname)) {
+      const directory = location.pathname.replace(/\/index$/, '') + '/';
+      history.replaceState(history.state, '', directory + location.search + location.hash);
+    }
+  </script>
+  <title>Céluma · Logo vectorial aprobado</title>
+  <link rel="icon" type="image/svg+xml" href="svg/isotipo/celuma-isotipo-color.svg" />
+  <link rel="stylesheet" href="../../../styles/celuma-tokens.css" />
+  <link rel="stylesheet" href="experiment.css" />
+</head>
+<body>
+  <header class="lv-header">
+    <a href="../../index.html">← Laboratorio visual</a>
+    <nav class="lv-nav" aria-label="Secciones">
+      <a href="#antes-despues">Antes / después</a>
+      <a href="#fidelidad">Fidelidad</a>
+      <a href="#color">Color</a>
+      <a href="#tamanos">Tamaños y fondos</a>
+      <a href="#familia">Familia</a>
+      <a href="#wordmark">Wordmark A</a>
+      <a href="#reglas">Reglas</a>
+      <a href="#archivos">Archivos</a>
+      <a href="ejemplos.html">Ejemplos</a>
+      <a href="animacion.html">Fase 2 · animación</a>
+    </nav>
+    <span class="lv-status lv-status-approved">Aprobado · incorporación pendiente</span>
+  </header>
+
+  <nav class="lv-phase-nav" aria-label="Recorrido del experimento de logo">
+    <a href="../../index.html">Laboratorio</a>
+    <span aria-hidden="true">/</span><strong>Logo</strong>
+    <a href="index.html" aria-current="page">1 · Maestro y sistema</a>
+    <a href="ejemplos.html">Aplicaciones</a>
+    <a href="animacion.html">2 · Mirada</a>
+    <a href="fase-3/index.html">Fase 3 · Motion aprobado</a>
+    <a href="../3-logo-motion/index.html">Experimento 03 →</a>
+  </nav>
+  <main>
+    <p class="lv-eyebrow">Céluma · Laboratorio visual · experimento 02</p>
+    <h1>Isotipo vectorial: maestro, paleta aprobada y mini sistema del logo</h1>
+    <p class="lv-lead">Maestro SVG editable del isotipo, ajustado al raster original. Rafael aprobó el maestro, el wordmark A · Baloo 2 800 y las direcciones de animación el 2026-09-26, y el 2026-09-27 la paleta final, aplicada a todas las piezas de este experimento. La fuente activa es <code>master/celuma-isotipo-maestro-paleta-aprobada.svg</code>; el maestro fiel al PNG se conserva como evidencia del ajuste geométrico. Aprobado en el laboratorio; la incorporación canónica sigue pendiente. <a href="DECISION.md">Leer la decisión y los pasos de incorporación</a>.</p>
+    <div class="lv-palette" role="group" aria-label="Paleta aprobada del isotipo, 2026-09-27">
+      <span><i style="background:#49b6ad"></i><b>Membrana y trazos</b><code>#49B6AD</code></span>
+      <span><i style="background:#bbead2"></i><b>Citoplasma</b><code>#BBEAD2</code></span>
+      <span><i style="background:#f98d84"></i><b>Núcleo</b><code>#F98D84</code></span>
+      <span><i style="background:#e5635f"></i><b>Nucléolo</b><code>#E5635F</code></span>
+      <span><i style="background:#f1c46c"></i><b>Rayos</b><code>#F1C46C</code></span>
+      <span><i style="background:#0d1b2a"></i><b>Wordmark A</b><code>#0D1B2A</code></span>
+    </div>
+    <div class="lv-note" role="note"><strong>Lectura rápida.</strong> Ajuste geométrico, medido con el maestro fiel histórico y válido para el activo (misma geometría): silueta IoU 0,999 · desviación de borde media 0,10 px (máx. 0,63 px) · 73 nodos, sin raster embebido. Color: el maestro fiel reproducía el PNG con ΔE00 0,52 en planos; la paleta aprobada cambia a propósito membrana y trazos (ΔE00 3,1) y núcleo (0,3) para coincidir con los colores en uso. No es «100 % idéntico» al PNG: el raster tiene un halo de nitidez de ~1 px y grano que el vector no reproduce (ver <a href="#fidelidad">diferencias residuales</a> y <a href="#color">color</a>).</div>
+
+    <!-- 1 · Antes / después -->
+    <section class="lv-section" id="antes-despues" aria-labelledby="h-ad">
+      <h2 id="h-ad">Antes / después, misma caja y resolución</h2>
+      <p class="lv-sub">Izquierda: PNG fuente. Derecha: el SVG activo con la paleta aprobada (<code>master/celuma-isotipo-maestro-paleta-aprobada.svg</code>) o, con el selector, el maestro fiel histórico (<code>master/celuma-isotipo-maestro.svg</code>). Los tres comparten viewBox 0 0 697 777, así que cualquier desalineación sería visible. Desliza el corte y cambia el fondo.</p>
+      <div class="lv-grid c2">
+        <div>
+          <div class="lv-compare" id="cmp" data-bg="blanco" style="--cut:50%">
+            <img src="../../../assets/celuma-isotipo.png" alt="Isotipo, PNG fuente" />
+            <img class="lv-after" id="cmp-svg" src="master/celuma-isotipo-maestro-paleta-aprobada.svg" alt="Isotipo, SVG con la paleta aprobada" />
+            <span class="lv-rule" aria-hidden="true"></span>
+            <span class="lv-lab" style="left:10px">PNG fuente</span><span class="lv-lab" id="cmp-svg-label" style="right:10px">SVG · paleta aprobada</span>
+          </div>
+          <div class="lv-controls" role="group" aria-label="Versión del SVG en la comparación">
+            <button type="button" data-svg="aprobado" aria-pressed="true">SVG con paleta aprobada (actual)</button>
+            <button type="button" data-svg="fiel" aria-pressed="false">Maestro fiel histórico</button>
+          </div>
+          <p class="lv-note" id="cmp-svg-note"><strong>Cambio de tono deliberado.</strong> Con la paleta aprobada, membrana y trazos pasan de <code>#3baca6</code> (medido en el PNG) a <code>#49b6ad</code>, y el núcleo de <code>#f88e85</code> a <code>#F98D84</code>, para coincidir con los colores en uso en la interfaz. Citoplasma, nucléolo y rayos conservan el color medido. La diferencia de tono que se ve en membrana y núcleo no es un error de ajuste; la geometría es la misma.</p>
+          <div class="lv-controls">
+            <label for="cut">Corte</label>
+            <input id="cut" type="range" min="0" max="100" value="50" aria-label="Posición del corte entre el PNG y el SVG" />
+          </div>
+          <div class="lv-controls" role="group" aria-label="Fondo de la comparación">
+            <button type="button" data-bg="blanco" aria-pressed="true">Blanco</button>
+            <button type="button" data-bg="crema" aria-pressed="false">Crema</button>
+            <button type="button" data-bg="navy" aria-pressed="false">Navy</button>
+            <button type="button" data-bg="damero" aria-pressed="false">Damero (transparencia)</button>
+          </div>
+        </div>
+        <div class="lv-card">
+          <h3>Cómo se construyó</h3>
+          <p>1. Colores: se midió cada región en su «meseta» (erosión de 4 px para excluir antialias y halo) y se buscó degradado lineal y radial. Esas medianas son la paleta del maestro fiel; la paleta aprobada del 2026-09-27 cambia después membrana/trazos y núcleo.</p>
+          <p>2. Bordes: para cada capa se calculó un campo continuo (alfa para silueta y rayos; proyección de color entre las dos tintas vecinas para membrana/citoplasma, núcleo, nucléolo y trazos) y su isolínea 0,5 con precisión subpíxel.</p>
+          <p>3. Curvas: Bézier cúbicas con nodos suaves y de esquina, insertados solo donde el error máximo lo exige; se detiene en el piso de ruido del raster (≤ 0,5 px).</p>
+          <p>4. Validación: Chromium rasteriza el maestro fiel a 697 × 777 con fondo transparente y se compara con el PNG (silueta, regiones, posiciones, ΔE00 sobre blanco, crema y navy). El maestro activo comparte trazados, orden y caja (<code>scripts/check_paleta.py</code>).</p>
+          <p>Herramientas ya instaladas: Python 3.10 de Homebrew (NumPy, SciPy, OpenCV, Pillow, fontTools) y el Playwright/Chromium de <code>celuma-frontend</code>. No se añadieron dependencias.</p>
+        </div>
+      </div>
+      <figure style="margin:20px 0 0">
+        <img src="validation/lamina-overlay-diferencia.png" alt="Lámina: PNG, SVG, superposición, mapa de diferencia ΔE00 y siluetas superpuestas" />
+        <figcaption class="lv-caption"><strong>Evidencia histórica del ajuste (maestro fiel vs PNG, 2026-09-26).</strong> Superposición y diferencia: el mapa ΔE00 solo se enciende en la banda de 1–2 px de cada borde (halo del PNG); los planos quedan en negro. Con la paleta aprobada, membrana y núcleo diferirían a propósito.</figcaption>
+      </figure>
+      <figure style="margin:20px 0 0; max-width:760px">
+        <img src="validation/lamina-detalles-x8.png" alt="Detalles ampliados ×8 de cinco zonas: PNG, SVG y diferencia" />
+        <figcaption class="lv-caption"><strong>Evidencia histórica (maestro fiel).</strong> Detalles ×8: en el PNG se ve la línea oscura/clara de nitidez a ambos lados de cada borde; el SVG da el borde limpio en la misma posición.</figcaption>
+      </figure>
+    </section>
+
+    <!-- 2 · Fidelidad -->
+    <section class="lv-section" id="fidelidad" aria-labelledby="h-fid">
+      <h2 id="h-fid">Qué tan fiel es el ajuste <span class="lv-tag adapt">Evidencia histórica</span></h2>
+      <p class="lv-sub">Cifras de <code>validation/metrics.json</code> y <code>validation/fit-report.json</code>, medidas el 2026-09-26 con el maestro fiel histórico, renderizado con Chromium en la caja del PNG. Las cifras de forma (silueta, bordes, rayos, nodos) valen igual para el maestro activo, porque comparte la geometría. Las de color (ΔE00 0,52 en planos, 4,9 en bordes y 7,4 %) describen solo al maestro fiel: con la paleta aprobada, membrana y núcleo cambian a propósito y esas cifras no la miden.</p>
+      <div class="lv-grid c4">
+        <div class="lv-kpi"><b>0,999</b><span>IoU de silueta (alfa ≥ 0,5)</span></div>
+        <div class="lv-kpi"><b>0,10 px</b><span>distancia media entre bordes · p95 0,28 · máx. 0,63</span></div>
+        <div class="lv-kpi"><b>+0,11 %</b><span>área (suma de alfa) SVG vs PNG</span></div>
+        <div class="lv-kpi"><b>ΔE00 0,52</b><span>maestro fiel: color en planos (p95 1,06). &lt; 1 es imperceptible. No aplica a la paleta aprobada</span></div>
+        <div class="lv-kpi"><b>±0,07°</b><span>ángulo de los tres rayos; extremos a ≤ 0,20 px sobre su eje</span></div>
+        <div class="lv-kpi"><b>73</b><span>nodos en 9 trazados (sin imagen ni texto embebidos)</span></div>
+        <div class="lv-kpi"><b>ΔE00 4,9</b><span>maestro fiel: media en la banda de borde, halo del PNG (no reproducido)</span></div>
+        <div class="lv-kpi"><b>7,4 %</b><span>maestro fiel: píxeles con ΔE00 &gt; 2, todos en bordes</span></div>
+      </div>
+      <div class="lv-scroll" style="margin-top:16px">
+        <table class="lv-table">
+          <thead><tr><th>Región</th><th>Nodos</th><th>Ajuste al contorno (máx. / RMS)</th><th>IoU región</th><th>Área SVG/PNG</th><th>Centroide Δ (px)</th><th>Nota</th></tr></thead>
+          <tbody>
+            <tr><td>Rayos (3)</td><td class="num">8 · 6 · 7</td><td class="num">0,50 / 0,10 · 0,38 / 0,11 · 0,41 / 0,12 px</td><td class="num">0,993</td><td class="num">0,999</td><td class="num">−0,25, +0,10</td><td>Ejes 28,6° / 53,2° / 89,8° (±0,07°). Extremos a ≤ 0,20 px medidos sobre el eje; longitudes 0,1–0,2 px más cortas.</td></tr>
+            <tr><td>Membrana (contorno exterior)</td><td class="num">8</td><td class="num">0,54 / 0,11 px</td><td class="num">0,995</td><td class="num">1,000</td><td class="num">−0,07, +0,13</td><td>Contorno orgánico inclinado, sin simplificar.</td></tr>
+            <tr><td>Citoplasma (borde interior)</td><td class="num">9</td><td class="num">0,43 / 0,10 px</td><td class="num">0,998</td><td class="num">1,000</td><td class="num">−0,03, −0,03</td><td>El grosor variable de la membrana se conserva (dos contornos independientes).</td></tr>
+            <tr><td>Núcleo</td><td class="num">7</td><td class="num">0,44 / 0,08 px</td><td class="num">0,9985*</td><td class="num">1,000*</td><td class="num">+0,02, −0,06</td><td>No es un círculo: un círculo daría RMS 0,79 px (máx. 1,4). *Medido sobre el campo de color.</td></tr>
+            <tr><td>Nucléolo</td><td class="num">3</td><td class="num">0,33 / 0,12 px</td><td class="num">0,993</td><td class="num">0,999</td><td class="num">−0,11, +0,03</td><td>Un círculo daría RMS 0,36 px; se mantiene el trazado.</td></tr>
+            <tr><td>Trazos internos (2)</td><td class="num">16 · 9</td><td class="num">0,53 / 0,14 · 0,51 / 0,10 px</td><td class="num">0,991</td><td class="num">1,002</td><td class="num">−0,07, +0,03</td><td>El trazo izquierdo es una sola forma (dos arcos unidos por el conector).</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h3 style="margin-top:28px">Diferencias residuales (y por qué no es «100 % idéntico»)</h3>
+      <ul>
+        <li><strong>Halo de nitidez del PNG.</strong> Cada borde tiene ~1 px más oscuro del lado oscuro y ~1 px más claro del lado claro (sobreenfoque del generador). Es un artefacto de raster que depende de la escala; el vector da un borde limpio en la misma posición. Explica casi toda la diferencia de color (banda de borde ΔE00 4,9; interior 0,52).</li>
+        <li><strong>Grano y alfa interior.</strong> El PNG tiene grano de ~1 nivel por canal (ΔE00 p95 ≈ 1) y el alfa interior oscila entre 250 y 255 (media 254,7) con un parche de bloques opaco en el núcleo. El maestro usa tintas planas y opacidad 1.</li>
+        <li><strong>Membrana y trazos:</strong> en el PNG difieren 1 nivel (<code>#3baca6</code> / <code>#3cada7</code>, ΔE00 0,3). El maestro fiel usa una sola tinta, la media ponderada <code>#3baca6</code>; la paleta aprobada usa <code>#49b6ad</code> en ambos.</li>
+        <li><strong>Precisión geométrica.</strong> La posición real del borde en un raster de 697 × 777 con antialias y ruido solo se conoce con ± 0,1–0,3 px. Por eso el objetivo fue quedar dentro de ese piso de ruido, no «0 px».</li>
+        <li><strong>Rayos:</strong> 0,1–0,2 px más cortos que en el PNG (dentro del piso de ruido). Una medición anterior por píxel extremo marcaba ~1 px en el rayo 3; era cuantización de la métrica, corregida con contornos subpíxel.</li>
+      </ul>
+    </section>
+
+    <!-- 3 · Color -->
+    <section class="lv-section" id="color" aria-labelledby="h-col">
+      <h2 id="h-col">Color: PNG medido, vector aprobado y tokens en uso</h2>
+      <p class="lv-sub">Tres referencias distintas. <strong>PNG medido:</strong> medianas de cada región del raster original; el maestro fiel histórico las reproduce. <strong>Vector aprobado:</strong> la paleta que Rafael aprobó el 2026-09-27 y que usan todas las piezas activas. <strong>Tokens en uso:</strong> los colores de <code>styles/celuma-tokens.css</code>, que no se modificaron.</p>
+      <div class="lv-scroll">
+        <table class="lv-table lv-color-table">
+          <thead><tr><th>Parte</th><th>PNG medido</th><th>Vector aprobado</th><th>Cambio</th><th>Relación con tokens en uso</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Membrana y trazos</th><td><span class="lv-dot" style="--swatch:#3baca6"></span><code>#3baca6</code></td><td><span class="lv-dot" style="--swatch:#49b6ad"></span><code>#49b6ad</code></td><td>ΔE00 3,1 · <strong>cambio deliberado</strong></td><td><code>--celuma-primary</code> #49b6ad: <strong>mismo valor</strong>. <code>--celuma-iso-outline</code> #2fa7a5: ΔE00 5,2</td></tr>
+            <tr><th scope="row">Citoplasma</th><td><span class="lv-dot" style="--swatch:#bbead2"></span><code>#bbead2</code></td><td><span class="lv-dot" style="--swatch:#bbead2"></span><code>#bbead2</code></td><td>sin cambio</td><td><code>--celuma-iso-fill</code> #c8ecdc: ΔE00 3,75 (no coincide; no se usa)</td></tr>
+            <tr><th scope="row">Núcleo</th><td><span class="lv-dot" style="--swatch:#f88e85"></span><code>#f88e85</code></td><td><span class="lv-dot" style="--swatch:#F98D84"></span><code>#F98D84</code></td><td>ΔE00 0,3 · <strong>cambio deliberado</strong> (imperceptible)</td><td><code>--celuma-secondary</code> #F98D84: <strong>mismo valor</strong>. <code>--celuma-iso-nucleus</code> #e58a8a: ΔE00 4,8</td></tr>
+            <tr><th scope="row">Nucléolo</th><td><span class="lv-dot" style="--swatch:#e5635f"></span><code>#e5635f</code></td><td><span class="lv-dot" style="--swatch:#e5635f"></span><code>#e5635f</code></td><td>sin cambio</td><td>sin token equivalente</td></tr>
+            <tr><th scope="row">Rayos</th><td><span class="lv-dot" style="--swatch:#f1c46c"></span><code>#f1c46c</code></td><td><span class="lv-dot" style="--swatch:#f1c46c"></span><code>#f1c46c</code></td><td>sin cambio</td><td><code>--celuma-iso-rays</code> #f0c75e: ΔE00 3,17 (no coincide; no se usa)</td></tr>
+            <tr><th scope="row">Wordmark A</th><td>—</td><td><span class="lv-dot" style="--swatch:#0d1b2a"></span><code>#0d1b2a</code></td><td>—</td><td><code>--celuma-ink</code> #0d1b2a: mismo valor. El Logotipo V2 de Notion mide #0d1f40 (ΔE00 7,9, más azul)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="lv-grid c2" style="margin-top:16px">
+        <div class="lv-card">
+          <h3>Por qué cambió el tono</h3>
+          <p>El maestro fiel conservaba el color medido del PNG. Rafael aprobó ajustar membrana, trazos y núcleo a los colores que ya usa la interfaz (<code>--celuma-primary</code> y <code>--celuma-secondary</code>) para que logo y producto coincidan. La membrana pasa a un teal algo más claro (ΔE00 3,1, visible de cerca); el cambio del núcleo (0,3) no se percibe. Citoplasma, nucléolo y rayos conservan el valor medido.</p>
+          <p>Se probaron y descartaron un citoplasma <code>#7dd8d9</code> y unos rayos ámbar <code>#f4bd5a</code>; quedan solo en el historial de <a href="DECISION.md">la decisión</a>.</p>
+        </div>
+        <div class="lv-card">
+          <h3>Qué no cambia</h3>
+          <p>Trazados, recortes y proporciones. La paleta se aprobó para el laboratorio: los tokens <code>--celuma-iso-*</code> siguen sin coincidir con el isotipo y no se tocaron. Actualizar tokens o assets canónicos es un cambio aparte, igual que la adopción en la app, el landing o impresos.</p>
+          <p>Contraste de la membrana aprobada: 2,45:1 sobre blanco, 2,27:1 sobre crema y 7,1:1 sobre navy. Es una marca gráfica, no texto ni una señal de estado.</p>
+        </div>
+      </div>
+      <p class="lv-caption">Método de medición del PNG: mediana por canal en la meseta de cada región (erosión 4 px); desviación típica ≈ 1 nivel; no hay degradado (variación lineal o radial ΔE00 ≤ 0,44, menor que el grano). Valores CMYK/Pantone: pendientes (requieren prueba de imprenta). Datos: <code>validation/color-analysis.json</code> y <code>master/celuma-paleta-aprobada.json</code>.</p>
+    </section>
+
+    <!-- 4 · Tamaños y fondos -->
+    <section class="lv-section" id="tamanos" aria-labelledby="h-tam">
+      <h2 id="h-tam">Tamaños 16–256 px sobre blanco, crema y navy</h2>
+      <p class="lv-sub">PNG fuente y SVG con la paleta aprobada, rasterizados por el mismo navegador en cajas cuadradas de N × N. Cada celda muestra 1:1 y, hasta 32 px, una ampliación ×4 sin suavizado para inspeccionar píxeles. La diferencia de tono en membrana y núcleo es el cambio deliberado de la paleta. Con el maestro fiel histórico, el ΔE00 medio PNG↔SVG sobre blanco era 3,8 a 16 px, 3,5 a 20, 2,3 a 32, 1,2 a 64 y 0,87 a 256 px; esas cifras no se aplican a la paleta aprobada.</p>
+      <div class="lv-scroll">
+        <table class="lv-table lv-sizes">
+          <thead><tr><th>Tamaño</th><th>PNG · blanco</th><th>SVG aprobado · blanco</th><th>PNG · crema</th><th>SVG aprobado · crema</th><th>PNG · navy</th><th>SVG aprobado · navy</th></tr></thead>
+          <tbody id="sizes-body"></tbody>
+        </table>
+      </div>
+      <p class="lv-note" style="margin-top:14px">A 16–20 px los rayos quedan por debajo de 1 px de ancho y los trazos internos se vuelven ruido <em>en ambos</em> (PNG y SVG). Por eso existe la versión reducida (adaptación) para 16–24 px; ver <a href="#reglas">tamaños mínimos</a>.</p>
+      <figure style="margin:16px 0 0"><img src="validation/lamina-tamanos-fondos.png" alt="Lámina histórica de tamaños sobre tres fondos: PNG y maestro fiel" /><figcaption class="lv-caption"><strong>Lámina histórica (2026-09-26):</strong> PNG frente al maestro fiel, con los colores medidos. <code>validation/lamina-tamanos-fondos.png</code>.</figcaption></figure>
+    </section>
+
+    <!-- 5 · Familia -->
+    <section class="lv-section" id="familia" aria-labelledby="h-fam">
+      <h2 id="h-fam">Familia del isotipo</h2>
+      <p class="lv-sub"><span class="lv-tag ok">Aprobado</span> = geometría del maestro con la paleta aprobada. <span class="lv-tag adapt">Adaptación</span> = misma geometría con otro tratamiento, o geometría modificada para tamaño pequeño. Las adaptaciones <strong>no</strong> son idénticas al isotipo.</p>
+      <div class="lv-grid c3">
+        <div class="lv-card">
+          <h3><span class="lv-tag ok">Aprobado</span>Color</h3>
+          <div class="lv-row" style="margin-top:10px">
+            <div class="lv-stage blanco"><img src="svg/isotipo/celuma-isotipo-color.svg" alt="Isotipo color sobre blanco" height="96" /></div>
+            <div class="lv-stage crema"><img src="svg/isotipo/celuma-isotipo-color.svg" alt="Isotipo color sobre crema" height="96" /></div>
+            <div class="lv-stage navy"><img src="svg/isotipo/celuma-isotipo-color.svg" alt="Isotipo color sobre navy" height="96" /></div>
+          </div>
+          <p>Uso general, con la paleta aprobada. Funciona en blanco, crema y navy sin variante «negativa»: la membrana teal delimita la célula en claro (2,3–2,5:1) y en navy (7,1:1).</p>
+          <p><a href="svg/isotipo/celuma-isotipo-color.svg">SVG</a> · <a href="png/isotipo/celuma-isotipo-color-512.png">PNG 512</a> · <a href="master/celuma-isotipo-maestro-paleta-aprobada.svg">maestro activo (caja 697 × 777)</a></p>
+        </div>
+        <div class="lv-card">
+          <h3><span class="lv-tag adapt">Adaptación</span>Una tinta sólida</h3>
+          <div class="lv-row" style="margin-top:10px">
+            <div class="lv-stage crema"><img src="svg/isotipo/celuma-isotipo-mono-navy.svg" alt="Isotipo monocromo navy" height="96" /></div>
+            <div class="lv-stage navy"><img src="svg/isotipo/celuma-isotipo-mono-blanco.svg" alt="Isotipo monocromo blanco" height="96" /></div>
+          </div>
+          <p>Para sellos, grabado, láser, bordado o fax. Citoplasma transparente, núcleo lleno con el nucléolo calado. Cambia la lectura (el núcleo pesa más que en color).</p>
+          <p><a href="svg/isotipo/celuma-isotipo-mono-navy.svg">navy</a> · <a href="svg/isotipo/celuma-isotipo-mono-blanco.svg">blanco</a></p>
+        </div>
+        <div class="lv-card">
+          <h3><span class="lv-tag adapt">Adaptación</span>Una tinta con tramas</h3>
+          <div class="lv-row" style="margin-top:10px">
+            <div class="lv-stage crema"><img src="svg/isotipo/celuma-isotipo-mono-tramas-navy.svg" alt="Isotipo una tinta con tramas, navy" height="96" /></div>
+            <div class="lv-stage navy"><img src="svg/isotipo/celuma-isotipo-mono-tramas-blanco.svg" alt="Isotipo una tinta con tramas, blanco" height="96" /></div>
+          </div>
+          <p>Para pantalla u offset con tramas: núcleo al 40 %, nucléolo al 100 %. Conserva el orden tonal del color. Preferible a la sólida cuando el medio lo permite.</p>
+          <p><a href="svg/isotipo/celuma-isotipo-mono-tramas-navy.svg">navy</a> · <a href="svg/isotipo/celuma-isotipo-mono-tramas-blanco.svg">blanco</a></p>
+        </div>
+        <div class="lv-card">
+          <h3><span class="lv-tag adapt">Adaptación</span>Reducido 16–24 px</h3>
+          <div class="lv-row" style="margin-top:10px; align-items:center">
+            <div class="lv-stage blanco" style="min-height:80px"><img class="lv-pixel" src="png/favicon/favicon-16.png" alt="Favicon 16 px reducido, ampliado" width="64" height="64" /><figcaption>16 px ×4</figcaption></div>
+            <div class="lv-stage blanco" style="min-height:80px"><img class="lv-pixel" src="validation/minimos/color-16-blanco.png" alt="Isotipo color a 16 px, ampliado" width="64" height="64" /><figcaption>color a 16 px ×4</figcaption></div>
+            <div class="lv-stage navy" style="min-height:80px"><img src="svg/isotipo/celuma-isotipo-reducido-16-24px.svg" alt="Isotipo reducido" height="24" /><figcaption>24 px</figcaption></div>
+          </div>
+          <p>Mismas posiciones; rayos y membrana engrosados, trazos internos omitidos. Solo entre 16 y 24 px (favicon, pestañas). No es el isotipo.</p>
+          <p><a href="svg/isotipo/celuma-isotipo-reducido-16-24px.svg">SVG</a> · <a href="validation/lamina-minimos.png">lámina de mínimos</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 · Wordmark -->
+    <section class="lv-section" id="wordmark" aria-labelledby="h-wm">
+      <h2 id="h-wm">Wordmark y lockups · A aprobado</h2>
+      <p class="lv-sub">Ambas opciones usan el mismo maestro y las proporciones medidas en el Logotipo V2 de Notion (altura de C = 0,436 × isotipo, separación 0,139 ×, centro de la C 0,03 × por debajo del centro de la célula), para que la comparación aísle la tipografía. El vertical no tiene referencia histórica y requiere revisión por medio. <span class="lv-tag ok">A · Baloo 2 800 aprobado</span></p>
+      <div class="lv-grid c2">
+        <div class="lv-card">
+          <h3>A · Baloo 2 ExtraBold (en uso) <span class="lv-tag ok">Aprobada</span></h3>
+          <div class="lv-stage crema" style="margin-top:10px"><img src="svg/lockups/propuesta-a-baloo2/celuma-lockup-horizontal-color-positivo.svg" alt="Lockup horizontal A sobre crema" width="420" /></div>
+          <div class="lv-row" style="margin-top:10px">
+            <div class="lv-stage navy" style="flex:2"><img src="svg/lockups/propuesta-a-baloo2/celuma-lockup-horizontal-color-negativo.svg" alt="Lockup horizontal A negativo" width="260" /></div>
+            <div class="lv-stage crema" style="flex:1"><img src="svg/lockups/propuesta-a-baloo2/celuma-lockup-vertical-color-positivo.svg" alt="Lockup vertical A" height="130" /></div>
+          </div>
+          <p><strong>Tipografía:</strong> Baloo 2 v1.700 (Ek Type · Sarang Kulkarni), <strong>SIL Open Font License 1.1</strong>: uso comercial, incrustación y contorneado permitidos sin costo. wght 800, interletraje de Chromium, tracking −0,02 em como el landing. Contornos exactos de la fuente (comprobado contra el texto vivo).</p>
+        </div>
+        <div class="lv-card">
+          <h3>B · Lettering del Logotipo V2 de Notion <span class="lv-tag prop">Archivo comparativo</span></h3>
+          <div class="lv-stage crema" style="margin-top:10px"><img src="svg/lockups/propuesta-b-notion-v2/celuma-lockup-horizontal-color-positivo.svg" alt="Lockup horizontal B sobre crema" width="420" /></div>
+          <div class="lv-row" style="margin-top:10px">
+            <div class="lv-stage navy" style="flex:2"><img src="svg/lockups/propuesta-b-notion-v2/celuma-lockup-horizontal-color-negativo.svg" alt="Lockup horizontal B negativo" width="260" /></div>
+            <div class="lv-stage crema" style="flex:1"><img src="svg/lockups/propuesta-b-notion-v2/celuma-lockup-vertical-color-positivo.svg" alt="Lockup vertical B" height="130" /></div>
+          </div>
+          <p><strong>Tipografía:</strong> no identificada. <code>Celuma_Logotipo_V2.png</code> es una imagen sin metadatos de fuente; su lettering coincide con el del Banner V2 (IoU por glifo 0,983), pero ninguna sans abierta probada pasa de 0,89 (DM Sans 800 0,890 · Figtree 700 0,882 · Plus Jakarta Sans 800 0,881 · Inter 700 0,876). Aquí se muestra el <em>trazado</em> del raster (102 nodos, error máx. 0,64 px), no una fuente con licencia.</p>
+        </div>
+      </div>
+      <div class="lv-scroll" style="margin-top:16px">
+        <table class="lv-table">
+          <thead><tr><th>Criterio</th><th>A · Baloo 2</th><th>B · Lettering V2</th></tr></thead>
+          <tbody>
+            <tr><td>Origen verificable</td><td>Fuente publicada, versión y autoría conocidas</td><td>Imagen; tipografía y procedencia sin documentar</td></tr>
+            <tr><td>Licencia</td><td>SIL OFL 1.1</td><td>Desconocida (no hay archivo de fuente)</td></tr>
+            <tr><td>Dónde se usa hoy</td><td>App, landing, docs y lienzos (texto vivo)</td><td>Solo en Notion («Versión final»)</td></tr>
+            <tr><td>Extensible (descriptores, submarcas, otros pesos)</td><td>Sí, con la misma familia</td><td>No sin redibujar cada letra nueva</td></tr>
+            <tr><td>Relación con el isotipo</td><td>Terminales redondeados como los rayos y trazos</td><td>Grotesca geométrica más neutra; esquinas suavizadas</td></tr>
+            <tr><td>Legibilidad mínima comprobada</td><td>Horizontal ≥ 80 px de ancho; vertical ≥ 64 px de alto</td><td>Igual (misma altura x ± 2 %)</td></tr>
+            <tr><td>Costo de adopción</td><td>Nulo: ya está en las cuatro superficies</td><td>Cambiar cuatro superficies y resolver la fuente</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="lv-note" style="margin-top:14px"><strong>Decisión de Rafael:</strong> A · Baloo 2 800. Tiene fuente identificada y licencia clara, ya se usa en las superficies de Céluma y acompaña al isotipo. Sus proporciones de lockup toman como referencia el Logotipo V2. B se conserva solo como comparación histórica.</p>
+      <figure style="margin:16px 0 0; max-width:760px"><img src="validation/lamina-tipografia-v2.png" alt="Comparación del lettering V2 con sans de licencia abierta" /><figcaption class="lv-caption">Identificación tipográfica por forma: <code>validation/font-match.json</code>. Fuentes del sistema macOS (Avenir, Futura, Helvetica Neue) también probadas solo para identificar: ≤ 0,86.</figcaption></figure>
+    </section>
+
+    <!-- 7 · Reglas -->
+    <section class="lv-section" id="reglas" aria-labelledby="h-reg">
+      <h2 id="h-reg">Reglas de uso <span class="lv-tag ok">Aprobadas para la identidad</span></h2>
+      <div class="lv-grid c2">
+        <div class="lv-card">
+          <h3>Área de protección</h3>
+          <p>X = ½ de la altura del isotipo (propuesta ya documentada en §8 de la revisión gráfica), libre de texto e imágenes en los cuatro lados. Se mide sobre la caja del dibujo, rayos incluidos.</p>
+          <div style="display:flex; gap:28px; flex-wrap:wrap; margin-top:14px; align-items:center">
+            <span class="lv-protect" style="--x:30px"><img src="svg/isotipo/celuma-isotipo-color.svg" alt="Isotipo con área de protección" height="60" /></span>
+            <span class="lv-protect" style="--x:24px"><img src="svg/lockups/propuesta-a-baloo2/celuma-lockup-horizontal-color-positivo.svg" alt="Lockup con área de protección" height="48" /></span>
+          </div>
+        </div>
+        <div class="lv-card">
+          <h3>Tamaños mínimos (pantalla, comprobados en Chromium 1×)</h3>
+          <table class="lv-table" style="margin-top:8px">
+            <tbody>
+              <tr><td>Isotipo color</td><td class="num">≥ 24 px de alto</td><td>rayos ≥ 1 px de ancho</td></tr>
+              <tr><td>Isotipo reducido</td><td class="num">16–24 px</td><td>favicon, pestañas</td></tr>
+              <tr><td>Lockup horizontal</td><td class="num">≥ 80 px de ancho</td><td>altura x ≈ 8 px</td></tr>
+              <tr><td>Lockup vertical</td><td class="num">≥ 64 px de alto</td><td>altura x ≈ 8 px</td></tr>
+              <tr><td>Impresión</td><td class="num">sin prueba física</td><td>la propuesta previa de 12 mm sigue sin verificar</td></tr>
+            </tbody>
+          </table>
+          <p><a href="validation/lamina-minimos.png">Ver lámina de mínimos</a></p>
+        </div>
+      </div>
+      <h3 style="margin-top:24px">Fondos</h3>
+      <div class="lv-grid c4">
+        <figure class="lv-stage blanco" style="margin:0"><img src="svg/isotipo/celuma-isotipo-color.svg" alt="" height="70" /><figcaption><span class="lv-tag ok">Sí</span>Blanco · color</figcaption></figure>
+        <figure class="lv-stage crema" style="margin:0"><img src="svg/isotipo/celuma-isotipo-color.svg" alt="" height="70" /><figcaption><span class="lv-tag ok">Sí</span>Crema #fbf6ec · color</figcaption></figure>
+        <figure class="lv-stage navy" style="margin:0"><img src="svg/isotipo/celuma-isotipo-color.svg" alt="" height="70" /><figcaption><span class="lv-tag ok">Sí</span>Navy #0d1b2a · color</figcaption></figure>
+        <figure class="lv-stage soft" style="margin:0"><img src="svg/isotipo/celuma-isotipo-color.svg" alt="" height="70" /><figcaption><span class="lv-tag ok">Sí</span>Teal suave #e6f7f7 · color</figcaption></figure>
+        <figure class="lv-stage teal lv-bad-cell" style="margin:0"><img src="svg/isotipo/celuma-isotipo-color.svg" alt="" height="70" /><figcaption><span class="lv-tag bad">No</span>Teal #49b6ad · color (membrana del mismo color, 1:1: se funde)</figcaption></figure>
+        <figure class="lv-stage teal" style="margin:0"><img src="svg/isotipo/celuma-isotipo-mono-navy.svg" alt="" height="70" /><figcaption><span class="lv-tag ok">Sí</span>Teal #49b6ad · una tinta navy</figcaption></figure>
+        <figure class="lv-stage salmon lv-bad-cell" style="margin:0"><img src="svg/isotipo/celuma-isotipo-color.svg" alt="" height="70" /><figcaption><span class="lv-tag bad">No</span>Salmón · color (núcleo del mismo color, membrana 1,1:1 y rayos 1,4:1: se funden)</figcaption></figure>
+        <figure class="lv-stage foto lv-bad-cell" style="margin:0"><img src="svg/isotipo/celuma-isotipo-color.svg" alt="" height="70" /><figcaption><span class="lv-tag bad">No</span>Fondos con textura o foto sin zona calma</figcaption></figure>
+      </div>
+      <h3 style="margin-top:24px">Usos incorrectos</h3>
+      <div class="lv-grid c4">
+        <figure class="lv-stage crema lv-bad-cell" style="margin:0"><img src="svg/isotipo/celuma-isotipo-color.svg" alt="" height="70" style="transform:scaleX(1.45)" /><figcaption>Deformar o estirar</figcaption></figure>
+        <figure class="lv-stage crema lv-bad-cell" style="margin:0"><img src="svg/isotipo/celuma-isotipo-color.svg" alt="" height="70" style="transform:rotate(-28deg)" /><figcaption>Rotar o enderezar la célula</figcaption></figure>
+        <figure class="lv-stage crema lv-bad-cell" style="margin:0"><img src="svg/isotipo/celuma-isotipo-color.svg" alt="" height="70" style="filter:hue-rotate(150deg)" /><figcaption>Cambiar colores sin revisión</figcaption></figure>
+        <figure class="lv-stage crema lv-bad-cell" style="margin:0"><img src="svg/isotipo/celuma-isotipo-color.svg" alt="" height="70" style="filter:drop-shadow(4px 6px 3px rgba(0,0,0,.45))" /><figcaption>Sombras, brillos o contornos añadidos</figcaption></figure>
+        <figure class="lv-stage crema lv-bad-cell" style="margin:0"><img src="../../../assets/celuma-logo-v3.png" alt="" height="70" /><figcaption>Usar <code>celuma-logo-v3.png</code> (otro dibujo)</figcaption></figure>
+        <figure class="lv-stage crema lv-bad-cell" style="margin:0"><img src="svg/isotipo/celuma-isotipo-reducido-16-24px.svg" alt="" height="70" /><figcaption>Usar la versión reducida por encima de 24 px</figcaption></figure>
+        <figure class="lv-stage crema lv-bad-cell" style="margin:0"><img src="svg/isotipo/celuma-isotipo-color.svg" alt="" height="70" style="opacity:.35" /><figcaption>Transparencias o marcas de agua con el color</figcaption></figure>
+        <figure class="lv-stage crema lv-bad-cell" style="margin:0"><span style="display:flex;align-items:center;gap:8px"><span style="font:800 26px/1 var(--celuma-font-display);color:#0d1b2a">Céluma</span><img src="svg/isotipo/celuma-isotipo-color.svg" alt="" height="44" /></span><figcaption>Reordenar el lockup o componer el wordmark con otra fuente o tamaño</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- 8 · Archivos -->
+    <section class="lv-section" id="archivos" aria-labelledby="h-arch">
+      <h2 id="h-arch">Archivos de este experimento</h2>
+      <p class="lv-sub">Todo vive en <code>labs/experiments/2-logo-vector-v2/</code>. No se reemplazó ningún asset, token, lienzo ni archivo de frontend. Verificación de la paleta: <code>scripts/check_paleta.py</code> → <code>validation/paleta-check.json</code>. <a href="README.md">README</a> · <a href="BRIEF.md">BRIEF</a> · <a href="ANIMATION-BRIEF.md">Brief de animación (fase 2)</a></p>
+      <div class="lv-grid c3">
+        <div class="lv-card"><h3>Maestro e isotipo</h3><ul class="lv-files">
+          <li><a href="master/celuma-isotipo-maestro-paleta-aprobada.svg">master/celuma-isotipo-maestro-paleta-aprobada.svg</a> <span class="lv-tag ok">Fuente activa</span></li>
+          <li><a href="master/celuma-paleta-aprobada.json">master/celuma-paleta-aprobada.json</a>: la paleta, su aprobación y los valores medidos</li>
+          <li><a href="svg/isotipo/celuma-isotipo-color.svg">svg/isotipo/…-color.svg</a> <span class="lv-tag ok">Aprobado</span></li>
+          <li><a href="master/celuma-isotipo-maestro.svg">master/celuma-isotipo-maestro.svg</a> <span class="lv-tag fiel">Fiel · histórico</span> colores medidos del PNG; evidencia del ajuste</li>
+          <li><a href="svg/isotipo/celuma-isotipo-ui.svg">svg/isotipo/…-ui.svg</a>: alias de compatibilidad, mismo contenido que <code>…-color.svg</code></li>
+          <li><a href="svg/isotipo/celuma-isotipo-mono-navy.svg">…-mono-navy.svg</a>, <a href="svg/isotipo/celuma-isotipo-mono-blanco.svg">…-mono-blanco.svg</a> <span class="lv-tag adapt">Adapt.</span></li>
+          <li><a href="svg/isotipo/celuma-isotipo-mono-tramas-navy.svg">…-mono-tramas-navy.svg</a>, <a href="svg/isotipo/celuma-isotipo-mono-tramas-blanco.svg">…-blanco.svg</a> <span class="lv-tag adapt">Adapt.</span></li>
+          <li><a href="svg/isotipo/celuma-isotipo-reducido-16-24px.svg">…-reducido-16-24px.svg</a> <span class="lv-tag adapt">Adapt.</span></li>
+        </ul></div>
+        <div class="lv-card"><h3>Wordmark A y lockups <span class="lv-tag ok">Aprobados</span></h3><ul class="lv-files">
+          <li><a href="svg/wordmarks/wordmark-a-baloo2-800.svg">svg/wordmarks/wordmark-a-baloo2-800.svg</a></li>
+          <li><a href="svg/wordmarks/wordmark-b-notion-v2-trazado.svg">svg/wordmarks/wordmark-b-notion-v2-trazado.svg</a> · archivo comparativo</li>
+          <li><code>svg/lockups/propuesta-a-baloo2/</code>: familia A aprobada, 8 versiones. <code>propuesta-b-notion-v2/</code>: referencia tipográfica histórica, con el mismo isotipo.</li>
+          <li><code>svg/lockups/ui-baloo2/</code>: 4 alias de compatibilidad de los lockups A en color (<a href="svg/lockups/ui-baloo2/celuma-lockup-horizontal-ui-positivo.svg">ejemplo</a>); mismo contenido, no son otra variante</li>
+          <li><code>png/lockups/…</code>: los mismos 16 en PNG transparente (horizontal 1200 px de ancho, vertical 800 px de alto)</li>
+        </ul></div>
+        <div class="lv-card"><h3>PNG e iconos</h3><ul class="lv-files">
+          <li><code>png/isotipo/</code>: color 64 · 128 · 256 · 512 · 1024 px de alto; mono y tramas a 512</li>
+          <li><a href="png/favicon/favicon-16.png">favicon-16</a> (reducido) · <a href="png/favicon/favicon-32.png">32</a> · <a href="png/favicon/favicon-48.png">48</a></li>
+          <li><a href="png/favicon/apple-touch-icon-180.png">apple-touch-icon-180</a> · <a href="png/favicon/icon-192.png">icon-192</a> · <a href="png/favicon/icon-512-maskable.png">icon-512-maskable</a> (fondo crema, opacos)</li>
+          <li>Comprobación: <a href="validation/lamina-exportaciones.png">lámina de exportaciones</a> · <code>validation/exports-check.json</code></li>
+        </ul></div>
+      </div>
+    </section>
+
+    <section class="lv-section" id="ejemplos" aria-labelledby="h-ej">
+      <h2 id="h-ej">Ejemplos de aplicación</h2>
+      <p class="lv-sub">Favicon en pestaña, login de la app, hero del landing y una pieza de comunicación, con datos ficticios, el lockup A y la paleta aprobada. Son maquetas: no sustituyen a la app ni al landing. <a href="ejemplos.html">Abrir ejemplos →</a></p>
+    </section>
+
+    <section class="lv-section" id="fase-2" aria-labelledby="h-f2">
+      <h2 id="h-f2">Fase 2 · isotipo animado <span class="lv-tag ok">Aprobada</span></h2>
+      <p class="lv-sub">Implementada sobre el maestro. La célula mira a la izquierda y a la derecha (solo se mueve el nucléolo), hace una pausa «eureka», aparecen los rayos y termina en el maestro activo exacto, con la paleta aprobada. Incluye Lottie de una reproducción y en bucle, SVG animado, vídeo de vista previa y validación con reproductores reales. <a href="animacion.html">Abrir la revisión de la animación →</a> · <a href="README-FASE2.md">README de la fase 2</a></p>
+    </section>
+
+    <footer class="lv-footer">
+      Identidad aprobada en el laboratorio (2026-09-26) y paleta aprobada el 2026-09-27; incorporación canónica pendiente. Fuente: <code>assets/celuma-isotipo.png</code> (sin modificar, SHA-256 f7b2a1f3…). Referencias de Notion copiadas con autorización en <code>referencias/notion/</code>. La incorporación al sistema y la publicación requieren pasos propios. Fecha: 2026-09-26.
+    </footer>
+  </main>
+
+  <script>
+    // Before/after slider and background switch (progressive enhancement; the page reads fine without it).
+    const cmp = document.getElementById('cmp');
+    document.getElementById('cut').addEventListener('input', (e) => cmp.style.setProperty('--cut', e.target.value + '%'));
+    document.querySelectorAll('[data-bg][aria-pressed]').forEach((b) => b.addEventListener('click', () => {
+      cmp.dataset.bg = b.dataset.bg;
+      document.querySelectorAll('[data-bg][aria-pressed]').forEach((o) => o.setAttribute('aria-pressed', String(o === b)));
+    }));
+    // SVG version in the before/after slider: approved palette (active) or the historical faithful master.
+    const cmpSvg = document.getElementById('cmp-svg');
+    const SVGS = {
+      aprobado: { src: 'master/celuma-isotipo-maestro-paleta-aprobada.svg', label: 'SVG · paleta aprobada', alt: 'Isotipo, SVG con la paleta aprobada' },
+      fiel: { src: 'master/celuma-isotipo-maestro.svg', label: 'SVG · maestro fiel (histórico)', alt: 'Isotipo, maestro fiel histórico con los colores medidos del PNG' }
+    };
+    document.querySelectorAll('[data-svg]').forEach((b) => b.addEventListener('click', () => {
+      const v = SVGS[b.dataset.svg];
+      cmpSvg.src = v.src;
+      cmpSvg.alt = v.alt;
+      document.getElementById('cmp-svg-label').textContent = v.label;
+      document.getElementById('cmp-svg-note').hidden = b.dataset.svg !== 'aprobado';
+      document.querySelectorAll('[data-svg]').forEach((o) => o.setAttribute('aria-pressed', String(o === b)));
+    }));
+    // Size table: pre-rendered source PNG vs approved-palette SVG at N x N, 1:1 plus a 4x pixelated magnification.
+    const tb = document.getElementById('sizes-body');
+    for (const n of [16, 20, 32, 64, 256]) {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<th scope="row">${n} px</th>` + ['blanco', 'crema', 'navy'].flatMap((bg) => ['png', 'svg-aprobado'].map((k) => {
+        const src = `validation/sizes/${k}-${n}.png`;
+        const big = n <= 32 ? `<img class="lv-pixel" src="${src}" alt="" width="${n * 4}" height="${n * 4}" style="margin-left:8px">` : '';
+        const name = k === 'png' ? 'PNG fuente' : 'SVG con paleta aprobada';
+        const one = `<img src="${src}" alt="${name} a ${n} px sobre ${bg}" width="${n}" height="${n}">`;
+        return `<td class="bg-${bg}">${one}${big}</td>`;
+      })).join('');
+      tb.appendChild(tr);
+    }
+  </script>
+</body>
+</html>
