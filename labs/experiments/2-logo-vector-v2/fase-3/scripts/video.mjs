@@ -1,5 +1,5 @@
 // Fase 3 · review videos (MP4 H.264 + WebM VP9), rendered frame by frame with lottie-web so timing is
-// exact. Exploración · no aprobada. System ffmpeg (/usr/local/bin/ffmpeg, libx264 + libvpx-vp9).
+// exact. Aprobado en el experimento 02 · incorporación pendiente. System ffmpeg (/usr/local/bin/ffmpeg, libx264 + libvpx-vp9).
 // Usage: node video.mjs [scene ...]    scenes: luz enfoque trazo trazo-social trazo-intro (default: all)
 import { chromium } from '../../../../../../celuma-frontend/node_modules/playwright/index.mjs';
 import { spawn } from 'node:child_process';
@@ -80,7 +80,7 @@ for (const name of names) {
       .cap{position:absolute;left:0;right:0;bottom:7%;text-align:center;font-size:${Math.round(sc.H / 36)}px;font-weight:600}
       .btag{position:absolute;right:22px;top:20px;z-index:2;font-size:${Math.round(sc.W / 70)}px}
     </style></head><body>
-      ${sc.bare ? `<span class="tag btag">Exploración · no aprobada</span>` : `<div class="top"><span>Céluma · fase 3 · ${sc.title}<small>${seg.label}</small></span><span class="tag">Exploración · no aprobada</span></div>`}
+      ${sc.bare ? `<span class="tag btag">Aprobado en lab · incorporación pendiente</span>` : `<div class="top"><span>Céluma · fase 3 · ${sc.title}<small>${seg.label}</small></span><span class="tag">Aprobado en lab · incorporación pendiente</span></div>`}
       <div class="panes">${seg.panes.map((p, pi) => `<div class="pane" style="background:${BG[p.bg]}">${p.cells.map((c, ci) => {
         const b = V[c.key].box; const k = c.want.h ? c.want.h / (b[3] - 8) : c.want.w / (b[2] - 8);
         return `<div class="cell" id="c${pi}_${ci}" style="width:${(b[2] * k).toFixed(2)}px;height:${(b[3] * k).toFixed(2)}px"></div>`; }).join('')}

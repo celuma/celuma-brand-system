@@ -4,6 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light" />
+    <script>
+    // Some preview servers strip /index.html. Normalize the directory URL
+    // without a request, so relative assets work and redirects cannot loop.
+    if (!/\/$|\.html$/.test(location.pathname)) {
+      const directory = location.pathname.replace(/\/index$/, '') + '/';
+      history.replaceState(history.state, '', directory + location.search + location.hash);
+    }
+  </script>
     <title>Céluma · Plantilla de experimento</title>
     <link rel="icon" type="image/png" href="../../../assets/celuma-isotipo.png" />
     <link rel="stylesheet" href="../../../styles/celuma-tokens.css" />

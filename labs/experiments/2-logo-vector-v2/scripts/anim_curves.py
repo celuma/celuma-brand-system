@@ -52,7 +52,7 @@ for v in ("once", "loop"):
         cy = NOL[1] + r["nucleolo"][1] - NUC[1]
         pts_d.append((X(r["f"]), Y1(math.hypot(cx, cy))))
         pts_x.append((X(r["f"]), (top + bot) / 2 - cx * 0.55))
-    d.line(pts_x, fill=(59, 172, 166), width=3)
+    d.line(pts_x, fill=(73, 182, 173), width=3)
     d.line(pts_d, fill=(13, 27, 42), width=2)
     d.text((8, top), "nucléolo", fill=(13, 27, 42), font=F)
     d.text((L + 4, bot - 16), "negro: distancia al centro del núcleo · teal: x (arriba = derecha)", fill=(90, 90, 90), font=F)
@@ -66,7 +66,7 @@ for v in ("once", "loop"):
     d.text((L + 4, top2), "grueso: escala axial · fino: opacidad · claro→oscuro: rayo 1, 2, 3", fill=(90, 90, 90), font=F)
     panels.append(im)
 out = Image.new("RGB", (1400, sum(p.height for p in panels) + 40), (245, 243, 238))
-ImageDraw.Draw(out).text((20, 10), "Curvas de movimiento · Exploración · no aprobada", fill=(13, 27, 42), font=FB)
+ImageDraw.Draw(out).text((20, 10), "Curvas de movimiento · Mirada, aprobada en el experimento 02", fill=(13, 27, 42), font=FB)
 y = 40
 for p in panels:
     out.paste(p, (0, y))

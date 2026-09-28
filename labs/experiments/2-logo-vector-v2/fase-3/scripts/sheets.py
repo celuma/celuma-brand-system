@@ -1,4 +1,4 @@
-"""Fase 3 · review sheets (láminas) rendered with lottie-web in Chromium. Exploración · no aprobada.
+"""Fase 3 · review sheets (láminas) rendered with lottie-web in Chromium. Aprobado en el experimento 02 · incorporación pendiente.
 
   validation/lamina-luz.png | lamina-enfoque.png | lamina-trazo.png   keyframes: isotipo, A, B · crema and navy
   validation/lamina-carga-tamanos.png                                  Luz loop at 32/48/64/96 px on three backgrounds
@@ -20,7 +20,7 @@ WORK.mkdir(parents=True, exist_ok=True)
 spec = json.loads((F3 / "validation/spec.json").read_text())
 V, FPS = spec["variants"], spec["fps"]
 BG = {"crema": "#fbf6ec", "navy": "#0d1b2a", "blanco": "#ffffff"}
-TAG = "Exploración · no aprobada"
+TAG = "Aprobado en el experimento 02 · incorporación pendiente"
 
 
 def font(sz, bold=False):

@@ -36,7 +36,7 @@ await page.setContent(`<!doctype html><html><head><style>
   .pane small{position:absolute;left:14px;bottom:10px;font-size:13px;opacity:.75}
   .foot{position:absolute;left:32px;right:32px;bottom:22px;display:flex;justify-content:space-between;font-size:16px;color:#0d1b2a}
 </style></head><body>
-  <div class="top"><span>Céluma · isotipo animado — <span id="label"></span></span><span class="tag">Exploración · no aprobada</span></div>
+  <div class="top"><span>Céluma · isotipo animado — <span id="label"></span></span><span class="tag">Aprobado en lab · incorporación pendiente</span></div>
   <div class="panes">
     <div class="pane" style="background:#fbf6ec"><div class="st" id="a"></div><small>crema #fbf6ec</small></div>
     <div class="pane" style="background:#0d1b2a;color:#fff"><div class="st" id="b"></div><small>navy #0d1b2a</small></div>

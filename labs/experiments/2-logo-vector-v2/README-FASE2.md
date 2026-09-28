@@ -1,6 +1,6 @@
 # Isotipo animado · fase 2
 
-**Estado actual: Mirada aprobada visualmente por Rafael el 2026-09-26** como parte del experimento 02; ver `DECISION.md`. El texto restante documenta la fase de exploración y sus límites técnicos. La base es `master/celuma-isotipo-maestro.svg` y no se ha incorporado aún a producto.
+**Estado actual: Mirada aprobada visualmente por Rafael el 2026-09-26** como parte del experimento 02; ver `DECISION.md`. El texto restante documenta la fase de exploración y sus límites técnicos. La base es el maestro activo `master/celuma-isotipo-maestro-paleta-aprobada.svg`, con la paleta aprobada el 2026-09-27. Ese día se regeneraron Lottie, SVG animado, estático de respaldo, datos de la página, vídeo y póster, y se repitió la validación (§5, `../VALIDACION-CIERRE.md`): tiempos, curvas y trayectoria son idénticos y el último fotograma coincide con el maestro activo. Aún no se ha incorporado a producto. Las cifras de color que siguen se refieren a la versión regenerada salvo que se indique lo contrario.
 
 **El entregable de esta fase es el isotipo.** D-1 se resolvió después a favor de A · Baloo 2 800; esta pieza no contiene lockup animado.
 
@@ -73,7 +73,7 @@ La caja de la animación es la caja de entrega del isotipo (73 42 549 670) con *
 - tiene 6 capas: `trazos`, `nucleolo`, `celula-fija` y `rayo-1..3`;
 - incluye marcadores (`markers`) con las fases, útiles para saltar a un momento.
 
-Los colores se guardan como (k + 0,25)/255. Así, tanto los reproductores que truncan (lottie-web) como los que redondean dan exactamente el color del maestro. Con k/255 redondeado a seis decimales, lottie-web pintaba `#3baca5` en lugar de `#3baca6`: se detectó en la validación y está corregido.
+Los colores se guardan como (k + 0,25)/255. Así, tanto los reproductores que truncan (lottie-web) como los que redondean dan exactamente el color del maestro. Con k/255 redondeado a seis decimales, lottie-web pintaba (ejemplo histórico, con el color del maestro fiel) `#3baca5` en lugar de `#3baca6`: se detectó en la validación y está corregido.
 
 | Entorno | Estado |
 |---|---|

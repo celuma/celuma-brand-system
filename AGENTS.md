@@ -15,7 +15,7 @@ This repository contains Céluma’s visual system and reusable presentation ass
 
 - Preserve the approved vector master’s geometry. Recoloring must keep every path, transform, viewBox, and proportion unchanged; document each fill that changes.
 - Keep the faithful-to-source logo separate from color adaptations. Never overwrite the faithful master or the installed source asset with a recolored or lower-quality copy.
-- Current project state: Experiment 02 approves the faithful vector geometry, wordmark A · Baloo 2 800, and the visual directions Mirada, Luz, Enfoque, and Trazo. The UI color comparison (membrane/inner strokes `#49b6ad`, nucleus `#F98D84`) remains pending review against the faithful master. Check `labs/experiments/2-logo-vector-v2/DECISION.md` and its `index.html#color-ui` before using or extending either version.
+- Current project state: Experiment 02 approves the faithful vector geometry, wordmark A · Baloo 2 800, and the visual directions Mirada, Luz, Enfoque, and Trazo. On 2026-09-27 Rafael approved the isotipo palette — membrane/inner strokes `#49B6AD`, cytoplasm `#BBEAD2`, nucleus `#F98D84`, nucleolus `#E5635F`, rays `#F1C46C` — and its application to every active piece of the experiment (lab approval; canonical incorporation is still pending). The active source is `labs/experiments/2-logo-vector-v2/master/celuma-isotipo-maestro-paleta-aprobada.svg` (palette in `master/celuma-paleta-aprobada.json`); `master/celuma-isotipo-maestro.svg` is the historical faithful master with the measured PNG colors, kept as evidence of the geometric fit. Check that experiment's `DECISION.md` before using or extending the logo.
 - Do not change shared color tokens from inside an experiment. Token or canonical asset updates belong in a separate, explicitly scoped incorporation change.
 
 ## Experiments and navigation
@@ -26,6 +26,8 @@ This repository contains Céluma’s visual system and reusable presentation ass
 - A loading logo indicates that the app is active; visible text communicates real status or progress. Provide a static/reduced-motion state and review loops for distraction and accessibility.
 
 ## Validation
+
+- Test navigation by following links in a browser on the actual preview server, including explicit `index.html`, directory URLs with and without a trailing slash, query strings and fragments. Some preview servers remove `.html`; normalize directory URLs with `history.replaceState` before relative resources load, never a redirect that adds `index.html` back. HTTP-only link checks cannot detect client-side redirect loops.
 
 - Inspect affected HTML, JSX, CSS, and exported assets together.
 - Check changed assets at intended sizes and on relevant light and dark backgrounds. For logo comparisons, use matching boxes and scale; document color and geometry separately.

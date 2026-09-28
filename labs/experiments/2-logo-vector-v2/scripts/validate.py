@@ -1,5 +1,10 @@
 """Compare the SVG master with the source PNG and build the validation sheets.
 
+HISTORICAL: this validates the geometric and colour fit of the faithful master
+(master/celuma-isotipo-maestro.svg, measured PNG colours) as recorded on 2026-09-26. The approved
+palette of 2026-09-27 changes membrane/strokes and nucleus on purpose and is checked by
+scripts/check_paleta.py; do not read the colour figures below as measurements of it.
+
 1. Chromium renders the master at the source box (697 x 777, transparent) and,
    for small sizes, both the PNG (cropped to the artwork box) and the SVG into
    N x N squares (16, 20, 32, 64, 256) — same browser resampling for both.
@@ -185,7 +190,7 @@ try:
     FONT_S = ImageFont.truetype("/System/Library/Fonts/Supplemental/Arial.ttf", 14)
 except OSError:
     FONT = FONT_S = ImageFont.load_default()
-BANNER = "Exploración · no aprobada — 2-logo-vector-v2"
+BANNER = "Evidencia histórica · maestro fiel vs PNG"
 
 
 def on(rgba, bg):

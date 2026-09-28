@@ -1,4 +1,4 @@
-// Fase 3 · automated check of the gallery (index.html) in Chromium. Exploración · no aprobada.
+// Fase 3 · automated check of the gallery (index.html) in Chromium. Aprobado en el experimento 02 · incorporación pendiente.
 // Opens the page the two ways Rafael can: as a file (file://) and served over http (routed from disk,
 // same as `python3 -m http.server`). Normal motion, reduced motion (system and simulated) and 390 px.
 // Writes validation/pagecheck.json + .js and screenshots in vistas/.

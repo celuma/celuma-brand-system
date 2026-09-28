@@ -1,6 +1,6 @@
 # Motion del logo · fase 3
 
-**Estado actual: Luz, Enfoque y Trazo aprobadas visualmente por Rafael el 2026-09-26** como parte del experimento 02; ver `../DECISION.md`. A · Baloo 2 800 quedó elegido como wordmark principal; B permanece como comparación. El resto de este documento conserva el registro técnico de la exploración original y sus límites de compatibilidad.
+**Estado actual: Luz, Enfoque y Trazo aprobadas visualmente por Rafael el 2026-09-26** como parte del experimento 02; ver `../DECISION.md`. A · Baloo 2 800 quedó elegido como wordmark principal; B permanece como comparación. Desde el 2026-09-27 todas las variantes parten del maestro activo con la paleta aprobada (`../master/celuma-isotipo-maestro-paleta-aprobada.svg`): se regeneraron Lottie, SVG, estáticos, `data.js`, láminas, vídeos y pósteres, y la validación dio los mismos resultados que se describen abajo (`../VALIDACION-CIERRE.md`). El resto de este documento conserva el registro técnico de la exploración original y sus límites de compatibilidad.
 
 - **Galería para decidir:** [`index.html`](index.html). Desde la raíz de `celuma-brand-system`, ejecute `python3 -m http.server 8000` y abra `http://localhost:8000/labs/experiments/2-logo-vector-v2/fase-3/`. También funciona abierta como archivo.
 - **Nota de decisión corta:** [`NOTA-DECISION.md`](NOTA-DECISION.md).
@@ -17,7 +17,7 @@
 - **Último fotograma = lockup exacto.** Cada animación termina en una capa estática con los mismos trazados, colores y matriz del archivo de la fase 1, sin máscaras, mates, morph ni transformación animada. Se verificó rasterizando (§7). El wordmark conserva sus coordenadas y la matriz `matrix(s 0 0 s tx ty)` del lockup, igual que el SVG de la fase 1; esa transformación es parte del lockup, no un residuo de la animación.
 - Nunca se deforman ni cambian de color la membrana, el citoplasma ni las letras. Durante la animación solo hay escalas uniformes (el ajuste de foco de Enfoque, el núcleo y el nucléolo de Trazo), revelados y cambios de longitud de los rayos y del acento.
 - Datos ficticios: «Laboratorio Demo Norte», «Informe DEMO-0042» y textos marcados como ejemplo. No hay datos clínicos.
-- Durante la fase original se etiquetaron galería, maquetas, láminas, vídeos y metadatos de Lottie/SVG como «Exploración · no aprobada». Tras la decisión de Rafael se actualizó el estado visible de la galería; los renders y metadatos exportados conservan ese registro histórico hasta su regeneración para cada medio.
+- Durante la fase original se etiquetaron galería, maquetas, láminas, vídeos y metadatos de Lottie/SVG como «Exploración · no aprobada». Tras la decisión de Rafael se actualizó el estado visible de la galería. En la regeneración del 2026-09-27, láminas, vídeos, metadatos y maquetas pasaron a «Aprobado en el experimento 02 · incorporación pendiente» o «Maqueta · aprobado en lab».
 
 ## 1. Direcciones
 

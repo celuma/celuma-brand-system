@@ -4,12 +4,19 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="color-scheme" content="light" />
-  <script>if (!/\/$|\.html$/.test(location.pathname)) location.replace(location.pathname + '/index.html' + location.search + location.hash);</script>
+  <script>
+    // Some preview servers strip /index.html. Normalize the directory URL
+    // without a request, so relative assets work and redirects cannot loop.
+    if (!/\/$|\.html$/.test(location.pathname)) {
+      const directory = location.pathname.replace(/\/index$/, '') + '/';
+      history.replaceState(history.state, '', directory + location.search + location.hash);
+    }
+  </script>
   <title>Céluma · Luz, Enfoque y Trazo aprobados</title>
   <link rel="icon" type="image/svg+xml" href="../svg/isotipo/celuma-isotipo-color.svg" />
   <link rel="stylesheet" href="../../../../styles/celuma-tokens.css" />
   <link rel="stylesheet" href="../experiment.css" />
-  <link rel="stylesheet" href="galeria.css?v=controls-20260926" />
+  <link rel="stylesheet" href="galeria.css?v=paleta-20260927" />
 </head>
 <body>
   <header class="lv-header">
@@ -40,7 +47,7 @@
     <p class="lv-eyebrow">Céluma · Laboratorio visual · experimento 02 · fase 3</p>
     <h1>Direcciones de motion del logo</h1>
     <p class="lv-lead">Tres ideas de movimiento con principios distintos, pensadas para usos concretos: <strong>Luz</strong> (solo se mueve la luz), <strong>Enfoque</strong> (un campo de visión descubre la célula) y <strong>Trazo</strong> (la marca se dibuja). La <strong>Mirada</strong> de la fase 2 aparece como referencia y no cuenta entre las tres. Cada dirección existe como isotipo solo y como lockup con «Céluma», con A · Baloo 2 800 y B · lettering V2. Todas terminan en el dibujo exacto de la fase 1.</p>
-    <div class="lv-note" role="note"><strong>Decisión de Rafael:</strong> Luz, Enfoque y Trazo aprobadas como direcciones visuales; el wordmark principal es A · Baloo 2 800. B queda como comparación. Las maquetas usan datos ficticios y la adopción en producto requiere pruebas por medio. <a href="../DECISION.md">Ver decisión</a> · <a href="../../3-logo-motion/index.html">Ir al experimento 03</a>.</div>
+    <div class="lv-note" role="note"><strong>Decisión de Rafael:</strong> Luz, Enfoque y Trazo aprobadas como direcciones visuales; el wordmark principal es A · Baloo 2 800. B queda como comparación. Desde el 2026-09-27 todas las piezas usan la paleta aprobada: Lottie, SVG, estáticos, láminas y vídeos se regeneraron y revalidaron sin cambiar tiempos ni geometría. Las maquetas usan datos ficticios y la adopción en producto requiere pruebas por medio. <a href="../DECISION.md">Ver decisión</a> · <a href="../../3-logo-motion/index.html">Ir al experimento 03</a>.</div>
 
     <div class="g-reco" aria-label="Recomendación resumida">
       <div><small>Carga compacta</small><b>Luz · bucle 2,0 s</b><p>Solo los rayos cambian de longitud. Sin llenado ni cuenta, así que no se lee como progreso. En la app, como SVG + CSS sin reproductor.</p></div>
@@ -206,6 +213,6 @@
   <script src="data.js"></script>
   <script src="validation/metrics.js"></script>
   <script src="validation/pagecheck.js"></script>
-  <script src="galeria.js?v=controls-20260926-4"></script>
+  <script src="galeria.js?v=paleta-20260927"></script>
 </body>
 </html>

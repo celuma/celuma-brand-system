@@ -1,6 +1,6 @@
 """Fase 3 · validate every motion variant with real players and build the review sheets.
 
-Exploración · no aprobada. Same comparison classes as phase 2 (README-FASE2.md §5):
+Aprobado en el experimento 02 · incorporación pendiente. Same comparison classes as phase 2 (README-FASE2.md §5):
   E   pixel-identical RGBA to the reference render (identical share == 1.0)
   T1  lottie-web SVG: alpha IoU >= 0.9999, |d alpha| > 2/255 only inside the 1 px anti-alias band,
       flat-colour dE00 max <= 0.5
@@ -68,7 +68,7 @@ strip_root = lambda t: re.sub(r'viewBox="[^"]*" width="[^"]*" height="[^"]*"', "
 M["statics_textual"] = {}
 for subj in spec["boxes"]:
     if subj == "iso":
-        src, dst = EXP / "master/celuma-isotipo-maestro.svg", F3 / "estaticos/isotipo.svg"
+        src, dst = EXP / "master/celuma-isotipo-maestro-paleta-aprobada.svg", F3 / "estaticos/isotipo.svg"  # active master
     else:
         o, r, p = subj.split("-")
         src = LOCK_SRC[o] / f"celuma-lockup-{ORI[r]}-{POL[p]}.svg"

@@ -1,6 +1,6 @@
 {
  "fps": 60,
- "tag": "Exploraci\u00f3n \u00b7 no aprobada",
+ "tag": "Aprobado en el experimento 02 \u00b7 incorporaci\u00f3n pendiente",
  "boxes": {
   "iso": [
    69,
@@ -70,7 +70,7 @@
    "subject": "iso",
    "mode": "loop",
    "direction": "luz",
-   "bytes": 12625,
+   "bytes": 12690,
    "markers": [
     [
      "maestro",
@@ -113,7 +113,7 @@
    "subject": "a-h-pos",
    "mode": "loop",
    "direction": "luz",
-   "bytes": 23518,
+   "bytes": 23583,
    "markers": [
     [
      "maestro",
@@ -157,7 +157,7 @@
    "subject": "a-h-neg",
    "mode": "loop",
    "direction": "luz",
-   "bytes": 23515,
+   "bytes": 23580,
    "markers": [
     [
      "maestro",
@@ -201,7 +201,7 @@
    "subject": "b-h-pos",
    "mode": "loop",
    "direction": "luz",
-   "bytes": 18104,
+   "bytes": 18169,
    "markers": [
     [
      "maestro",
@@ -245,7 +245,7 @@
    "subject": "b-h-neg",
    "mode": "loop",
    "direction": "luz",
-   "bytes": 18101,
+   "bytes": 18166,
    "markers": [
     [
      "maestro",
@@ -289,7 +289,7 @@
    "subject": "iso",
    "mode": "once",
    "direction": "luz",
-   "bytes": 16066,
+   "bytes": 16134,
    "markers": [
     [
      "celula",
@@ -328,7 +328,7 @@
    "subject": "iso",
    "mode": "once",
    "direction": "enfoque",
-   "bytes": 15252,
+   "bytes": 15320,
    "markers": [
     [
      "vacio",
@@ -364,7 +364,7 @@
    "subject": "iso",
    "mode": "once",
    "direction": "trazo",
-   "bytes": 29357,
+   "bytes": 29426,
    "markers": [
     [
      "vacio",
@@ -422,7 +422,7 @@
    "subject": "a-h-pos",
    "mode": "once",
    "direction": "luz",
-   "bytes": 38913,
+   "bytes": 38981,
    "markers": [
     [
      "celula",
@@ -467,7 +467,7 @@
    "subject": "a-h-pos",
    "mode": "once",
    "direction": "enfoque",
-   "bytes": 36928,
+   "bytes": 36996,
    "markers": [
     [
      "vacio",
@@ -507,7 +507,7 @@
    "subject": "a-h-pos",
    "mode": "once",
    "direction": "trazo",
-   "bytes": 58039,
+   "bytes": 58108,
    "markers": [
     [
      "vacio",
@@ -580,7 +580,7 @@
    "subject": "a-h-neg",
    "mode": "once",
    "direction": "luz",
-   "bytes": 38904,
+   "bytes": 38972,
    "markers": [
     [
      "celula",
@@ -625,7 +625,7 @@
    "subject": "a-h-neg",
    "mode": "once",
    "direction": "enfoque",
-   "bytes": 36922,
+   "bytes": 36990,
    "markers": [
     [
      "vacio",
@@ -665,7 +665,7 @@
    "subject": "a-h-neg",
    "mode": "once",
    "direction": "trazo",
-   "bytes": 58015,
+   "bytes": 58084,
    "markers": [
     [
      "vacio",
@@ -738,7 +738,7 @@
    "subject": "a-v-pos",
    "mode": "once",
    "direction": "luz",
-   "bytes": 38940,
+   "bytes": 39008,
    "markers": [
     [
      "celula",
@@ -783,7 +783,7 @@
    "subject": "a-v-pos",
    "mode": "once",
    "direction": "enfoque",
-   "bytes": 36949,
+   "bytes": 37017,
    "markers": [
     [
      "vacio",
@@ -823,7 +823,7 @@
    "subject": "a-v-pos",
    "mode": "once",
    "direction": "trazo",
-   "bytes": 58044,
+   "bytes": 58113,
    "markers": [
     [
      "vacio",
@@ -896,7 +896,7 @@
    "subject": "a-v-neg",
    "mode": "once",
    "direction": "luz",
-   "bytes": 38931,
+   "bytes": 38999,
    "markers": [
     [
      "celula",
@@ -941,7 +941,7 @@
    "subject": "a-v-neg",
    "mode": "once",
    "direction": "enfoque",
-   "bytes": 36943,
+   "bytes": 37011,
    "markers": [
     [
      "vacio",
@@ -981,7 +981,7 @@
    "subject": "a-v-neg",
    "mode": "once",
    "direction": "trazo",
-   "bytes": 58020,
+   "bytes": 58089,
    "markers": [
     [
      "vacio",
@@ -1054,7 +1054,7 @@
    "subject": "b-h-pos",
    "mode": "once",
    "direction": "luz",
-   "bytes": 27817,
+   "bytes": 27885,
    "markers": [
     [
      "celula",
@@ -1099,7 +1099,7 @@
    "subject": "b-h-pos",
    "mode": "once",
    "direction": "enfoque",
-   "bytes": 26100,
+   "bytes": 26168,
    "markers": [
     [
      "vacio",
@@ -1139,7 +1139,7 @@
    "subject": "b-h-pos",
    "mode": "once",
    "direction": "trazo",
-   "bytes": 46954,
+   "bytes": 47023,
    "markers": [
     [
      "vacio",
@@ -1212,7 +1212,7 @@
    "subject": "b-h-neg",
    "mode": "once",
    "direction": "luz",
-   "bytes": 27808,
+   "bytes": 27876,
    "markers": [
     [
      "celula",
@@ -1257,7 +1257,7 @@
    "subject": "b-h-neg",
    "mode": "once",
    "direction": "enfoque",
-   "bytes": 26094,
+   "bytes": 26162,
    "markers": [
     [
      "vacio",
@@ -1297,7 +1297,7 @@
    "subject": "b-h-neg",
    "mode": "once",
    "direction": "trazo",
-   "bytes": 46930,
+   "bytes": 46999,
    "markers": [
     [
      "vacio",
@@ -1370,7 +1370,7 @@
    "subject": "b-v-pos",
    "mode": "once",
    "direction": "luz",
-   "bytes": 27835,
+   "bytes": 27903,
    "markers": [
     [
      "celula",
@@ -1415,7 +1415,7 @@
    "subject": "b-v-pos",
    "mode": "once",
    "direction": "enfoque",
-   "bytes": 26117,
+   "bytes": 26185,
    "markers": [
     [
      "vacio",
@@ -1455,7 +1455,7 @@
    "subject": "b-v-pos",
    "mode": "once",
    "direction": "trazo",
-   "bytes": 46955,
+   "bytes": 47024,
    "markers": [
     [
      "vacio",
@@ -1528,7 +1528,7 @@
    "subject": "b-v-neg",
    "mode": "once",
    "direction": "luz",
-   "bytes": 27826,
+   "bytes": 27894,
    "markers": [
     [
      "celula",
@@ -1573,7 +1573,7 @@
    "subject": "b-v-neg",
    "mode": "once",
    "direction": "enfoque",
-   "bytes": 26111,
+   "bytes": 26179,
    "markers": [
     [
      "vacio",
@@ -1613,7 +1613,7 @@
    "subject": "b-v-neg",
    "mode": "once",
    "direction": "trazo",
-   "bytes": 46931,
+   "bytes": 47000,
    "markers": [
     [
      "vacio",

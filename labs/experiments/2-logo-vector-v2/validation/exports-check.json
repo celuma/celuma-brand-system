@@ -3,209 +3,254 @@
   "svg/isotipo/celuma-isotipo-color.svg": {
    "xml_ok": true,
    "viewBox": "73 42 549 670",
-   "bytes": 4079,
+   "bytes": 4132,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 9,
-   "exploracion_label": true
+   "status_label": true
   },
   "svg/isotipo/celuma-isotipo-mono-blanco.svg": {
    "xml_ok": true,
    "viewBox": "73 42 549 670",
-   "bytes": 3899,
+   "bytes": 3937,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 7,
-   "exploracion_label": true
+   "status_label": true
   },
   "svg/isotipo/celuma-isotipo-mono-navy.svg": {
    "xml_ok": true,
    "viewBox": "73 42 549 670",
-   "bytes": 3897,
+   "bytes": 3935,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 7,
-   "exploracion_label": true
+   "status_label": true
   },
   "svg/isotipo/celuma-isotipo-mono-tramas-blanco.svg": {
    "xml_ok": true,
    "viewBox": "73 42 549 670",
-   "bytes": 3941,
+   "bytes": 3979,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 8,
-   "exploracion_label": true
+   "status_label": true
   },
   "svg/isotipo/celuma-isotipo-mono-tramas-navy.svg": {
    "xml_ok": true,
    "viewBox": "73 42 549 670",
-   "bytes": 3939,
+   "bytes": 3977,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 8,
-   "exploracion_label": true
+   "status_label": true
   },
   "svg/isotipo/celuma-isotipo-reducido-16-24px.svg": {
    "xml_ok": true,
    "viewBox": "59 28 577 698",
-   "bytes": 2925,
+   "bytes": 2997,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 7,
-   "exploracion_label": true
+   "status_label": true
+  },
+  "svg/isotipo/celuma-isotipo-ui.svg": {
+   "xml_ok": true,
+   "viewBox": "73 42 549 670",
+   "bytes": 4237,
+   "has_raster_image": false,
+   "has_text_element": false,
+   "path_count": 9,
+   "status_label": true
   },
   "svg/lockups/propuesta-a-baloo2/celuma-lockup-horizontal-color-negativo.svg": {
    "xml_ok": true,
    "viewBox": "73 42 2084.93 670",
-   "bytes": 8111,
+   "bytes": 8170,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 10,
-   "exploracion_label": true
+   "status_label": true
   },
   "svg/lockups/propuesta-a-baloo2/celuma-lockup-horizontal-color-positivo.svg": {
    "xml_ok": true,
    "viewBox": "73 42 2084.93 670",
-   "bytes": 8111,
+   "bytes": 8170,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 10,
-   "exploracion_label": true
+   "status_label": true
   },
   "svg/lockups/propuesta-a-baloo2/celuma-lockup-horizontal-mono-blanco.svg": {
    "xml_ok": true,
    "viewBox": "73 42 2084.93 670",
-   "bytes": 7973,
+   "bytes": 8032,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 8,
-   "exploracion_label": true
+   "status_label": true
   },
   "svg/lockups/propuesta-a-baloo2/celuma-lockup-horizontal-mono-navy.svg": {
    "xml_ok": true,
    "viewBox": "73 42 2084.93 670",
-   "bytes": 7971,
+   "bytes": 8030,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 8,
-   "exploracion_label": true
+   "status_label": true
   },
   "svg/lockups/propuesta-a-baloo2/celuma-lockup-vertical-color-negativo.svg": {
    "xml_ok": true,
    "viewBox": "-64.25 42 823.5 936.59",
-   "bytes": 8117,
+   "bytes": 8176,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 10,
-   "exploracion_label": true
+   "status_label": true
   },
   "svg/lockups/propuesta-a-baloo2/celuma-lockup-vertical-color-positivo.svg": {
    "xml_ok": true,
    "viewBox": "-64.25 42 823.5 936.59",
-   "bytes": 8117,
+   "bytes": 8176,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 10,
-   "exploracion_label": true
+   "status_label": true
   },
   "svg/lockups/propuesta-a-baloo2/celuma-lockup-vertical-mono-blanco.svg": {
    "xml_ok": true,
    "viewBox": "-64.25 42 823.5 936.59",
-   "bytes": 7979,
+   "bytes": 8038,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 8,
-   "exploracion_label": true
+   "status_label": true
   },
   "svg/lockups/propuesta-a-baloo2/celuma-lockup-vertical-mono-navy.svg": {
    "xml_ok": true,
    "viewBox": "-64.25 42 823.5 936.59",
-   "bytes": 7977,
+   "bytes": 8036,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 8,
-   "exploracion_label": true
+   "status_label": true
   },
   "svg/lockups/propuesta-b-notion-v2/celuma-lockup-horizontal-color-negativo.svg": {
    "xml_ok": true,
    "viewBox": "73 42 2022.38 670",
-   "bytes": 8602,
+   "bytes": 8668,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 10,
-   "exploracion_label": true
+   "status_label": true
   },
   "svg/lockups/propuesta-b-notion-v2/celuma-lockup-horizontal-color-positivo.svg": {
    "xml_ok": true,
    "viewBox": "73 42 2022.38 670",
-   "bytes": 8602,
+   "bytes": 8668,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 10,
-   "exploracion_label": true
+   "status_label": true
   },
   "svg/lockups/propuesta-b-notion-v2/celuma-lockup-horizontal-mono-blanco.svg": {
    "xml_ok": true,
    "viewBox": "73 42 2022.38 670",
-   "bytes": 8464,
+   "bytes": 8530,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 8,
-   "exploracion_label": true
+   "status_label": true
   },
   "svg/lockups/propuesta-b-notion-v2/celuma-lockup-horizontal-mono-navy.svg": {
    "xml_ok": true,
    "viewBox": "73 42 2022.38 670",
-   "bytes": 8462,
+   "bytes": 8528,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 8,
-   "exploracion_label": true
+   "status_label": true
   },
   "svg/lockups/propuesta-b-notion-v2/celuma-lockup-vertical-color-negativo.svg": {
    "xml_ok": true,
    "viewBox": "-64.25 42 823.5 921.04",
-   "bytes": 8605,
+   "bytes": 8671,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 10,
-   "exploracion_label": true
+   "status_label": true
   },
   "svg/lockups/propuesta-b-notion-v2/celuma-lockup-vertical-color-positivo.svg": {
    "xml_ok": true,
    "viewBox": "-64.25 42 823.5 921.04",
-   "bytes": 8605,
+   "bytes": 8671,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 10,
-   "exploracion_label": true
+   "status_label": true
   },
   "svg/lockups/propuesta-b-notion-v2/celuma-lockup-vertical-mono-blanco.svg": {
    "xml_ok": true,
    "viewBox": "-64.25 42 823.5 921.04",
-   "bytes": 8467,
+   "bytes": 8533,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 8,
-   "exploracion_label": true
+   "status_label": true
   },
   "svg/lockups/propuesta-b-notion-v2/celuma-lockup-vertical-mono-navy.svg": {
    "xml_ok": true,
    "viewBox": "-64.25 42 823.5 921.04",
-   "bytes": 8465,
+   "bytes": 8531,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 8,
-   "exploracion_label": true
+   "status_label": true
+  },
+  "svg/lockups/ui-baloo2/celuma-lockup-horizontal-ui-negativo.svg": {
+   "xml_ok": true,
+   "viewBox": "73 42 2084.93 670",
+   "bytes": 8180,
+   "has_raster_image": false,
+   "has_text_element": false,
+   "path_count": 10,
+   "status_label": true
+  },
+  "svg/lockups/ui-baloo2/celuma-lockup-horizontal-ui-positivo.svg": {
+   "xml_ok": true,
+   "viewBox": "73 42 2084.93 670",
+   "bytes": 8180,
+   "has_raster_image": false,
+   "has_text_element": false,
+   "path_count": 10,
+   "status_label": true
+  },
+  "svg/lockups/ui-baloo2/celuma-lockup-vertical-ui-negativo.svg": {
+   "xml_ok": true,
+   "viewBox": "-64.25 42 823.5 936.59",
+   "bytes": 8184,
+   "has_raster_image": false,
+   "has_text_element": false,
+   "path_count": 10,
+   "status_label": true
+  },
+  "svg/lockups/ui-baloo2/celuma-lockup-vertical-ui-positivo.svg": {
+   "xml_ok": true,
+   "viewBox": "-64.25 42 823.5 936.59",
+   "bytes": 8184,
+   "has_raster_image": false,
+   "has_text_element": false,
+   "path_count": 10,
+   "status_label": true
   },
   "svg/wordmarks/wordmark-a-baloo2-800.svg": {
    "xml_ok": true,
    "viewBox": "35 -752 3177 770",
-   "bytes": 4374,
+   "bytes": 4415,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 1,
-   "exploracion_label": true
+   "status_label": true
   },
   "svg/wordmarks/wordmark-b-notion-v2-trazado.svg": {
    "xml_ok": true,
@@ -214,16 +259,25 @@
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 7,
-   "exploracion_label": true
+   "status_label": true
+  },
+  "master/celuma-isotipo-maestro-paleta-aprobada.svg": {
+   "xml_ok": true,
+   "viewBox": "0 0 697 777",
+   "bytes": 4225,
+   "has_raster_image": false,
+   "has_text_element": false,
+   "path_count": 9,
+   "status_label": true
   },
   "master/celuma-isotipo-maestro.svg": {
    "xml_ok": true,
    "viewBox": "0 0 697 777",
-   "bytes": 4080,
+   "bytes": 4121,
    "has_raster_image": false,
    "has_text_element": false,
    "path_count": 9,
-   "exploracion_label": true
+   "status_label": true
   }
  },
  "png": {

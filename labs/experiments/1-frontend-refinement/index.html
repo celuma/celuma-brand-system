@@ -7,7 +7,14 @@
     <title>Exploración · Refinamiento del frontend · Céluma</title>
     <!-- Algunos servidores estáticos (p. ej. `npx serve`) quitan la barra final
          de la carpeta; sin ella, las rutas relativas apuntan a la carpeta padre. -->
-    <script>if (!/\/$|\.html$/.test(location.pathname)) location.replace(location.pathname + '/index.html' + location.search + location.hash);</script>
+    <script>
+    // Some preview servers strip /index.html. Normalize the directory URL
+    // without a request, so relative assets work and redirects cannot loop.
+    if (!/\/$|\.html$/.test(location.pathname)) {
+      const directory = location.pathname.replace(/\/index$/, '') + '/';
+      history.replaceState(history.state, '', directory + location.search + location.hash);
+    }
+  </script>
     <link rel="icon" type="image/png" href="../../../assets/celuma-isotipo.png" />
     <link rel="stylesheet" href="../../../styles/celuma-tokens.css" />
     <link rel="stylesheet" href="experiment.css" />

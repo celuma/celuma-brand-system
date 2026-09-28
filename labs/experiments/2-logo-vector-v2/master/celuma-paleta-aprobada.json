@@ -1,0 +1,37 @@
+{
+  "estado": "Aprobada por Rafael el 2026-09-27 para el experimento 02 y como base del experimento 03. Incorporación canónica pendiente: no modifica tokens ni assets de styles/ o assets/.",
+  "aprobacion": {
+    "quien": "Rafael",
+    "fecha": "2026-09-27",
+    "alcance": "Todas las piezas activas del experimento 02 (isotipo, lockups, PNG, iconos, ejemplos y motion de las fases 2 y 3) y punto de partida del experimento 03."
+  },
+  "pigmentos": {
+    "membrana": "#49b6ad",
+    "trazos": "#49b6ad",
+    "citoplasma": "#bbead2",
+    "nucleo": "#f98d84",
+    "nucleolo": "#e5635f",
+    "rayos": "#f1c46c"
+  },
+  "medidos_en_png": {
+    "nota": "Medianas de meseta de assets/celuma-isotipo.png (validation/color-analysis.json). Usadas por el maestro fiel histórico master/celuma-isotipo-maestro.svg.",
+    "membrana": "#3baca6",
+    "trazos": "#3baca6",
+    "citoplasma": "#bbead2",
+    "nucleo": "#f88e85",
+    "nucleolo": "#e5635f",
+    "rayos": "#f1c46c"
+  },
+  "tokens_en_uso": {
+    "membrana": "--celuma-primary #49b6ad (mismo valor)",
+    "nucleo": "--celuma-secondary #F98D84 (mismo valor)"
+  },
+  "descartados": [
+    "Citoplasma #7dd8d9 (prueba del 2026-09-27; Rafael regresó a #bbead2).",
+    "Rayos #f4bd5a (alternativa ámbar del 2026-09-27; sin mejora clara con #bbead2)."
+  ],
+  "fuentes": {
+    "activa": "master/celuma-isotipo-maestro-paleta-aprobada.svg",
+    "historica": "master/celuma-isotipo-maestro.svg"
+  }
+}

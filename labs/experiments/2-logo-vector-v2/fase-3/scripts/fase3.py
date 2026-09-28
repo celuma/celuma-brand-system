@@ -1,4 +1,4 @@
-"""Fase 3 · direcciones de motion del logo Céluma — Exploración · no aprobada.
+"""Fase 3 · direcciones de motion del logo Céluma — aprobadas en el experimento 02 (incorporación pendiente).
 
 Builds, from the phase-1 geometry only (master isotipo + the lockup SVGs A/B), three motion
 directions that are materially different from each other and from phase 2 («Mirada»):
@@ -39,11 +39,12 @@ sys.path.insert(0, str(HERE))
 from svgpath import bbox, sample, subpaths  # noqa: E402
 
 FPS = 60
-TAG = "Exploración · no aprobada"
+TAG = "Aprobado en el experimento 02 · incorporación pendiente"
 SVGNS = "{http://www.w3.org/2000/svg}"
 
 # ====================================================================== phase-1 geometry
-MASTER_TXT = (EXP / "master" / "celuma-isotipo-maestro.svg").read_text()
+# Active master: approved palette (2026-09-27), same geometry as the historical faithful master.
+MASTER_TXT = (EXP / "master" / "celuma-isotipo-maestro-paleta-aprobada.svg").read_text()
 _root = ET.fromstring(MASTER_TXT)
 ISO_D, ISO_FILL = {}, {}
 for g in _root.iter(SVGNS + "g"):

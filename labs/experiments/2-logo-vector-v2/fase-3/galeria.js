@@ -1,4 +1,4 @@
-// Fase 3 · galería de direcciones de motion — Exploración · no aprobada.
+// Fase 3 · galería de direcciones de motion — aprobadas en el experimento 02, incorporación pendiente.
 // Reproduce los Lottie reales (data.js, lottie-web 5.13.0 de ../vendor) y los SVG + CSS del loader.
 // Movimiento reducido (sistema o simulado): nada se anima; se muestra el SVG estático exacto de estaticos/.
 (() => {
@@ -251,7 +251,7 @@
     app.innerHTML = `<div class="m-app"><div class="m-top"><b>Céluma</b><span>Laboratorio Demo Norte</span></div>
       <div class="m-body"><div class="m-side"><span>Lista de trabajo</span><i></i><i style="width:70%"></i><i style="width:84%"></i><i style="width:60%"></i></div>
       <div class="m-main" data-bg="${S.bg}"><div class="m-load" role="status"><div class="g-slot"></div><p>Cargando lista de trabajo…</p><small>Datos ficticios</small></div></div></div></div>
-      <span class="m-tag">Exploración · no aprobada</span>`;
+      <span class="m-tag">Maqueta · aprobado en lab</span>`;
     loaderSlot($('.g-slot', app), row, { h: 48 });
     // phone boot
     const ph = NAT['scr-phone-load'];
@@ -295,7 +295,7 @@
     for (const [id, wants] of [['scr-phone-splash', { iso: { h: 112 }, h: { w: 240 }, v: { w: 200 } }], ['scr-desk-splash', { iso: { h: 150 }, h: { w: 420 }, v: { w: 260 } }]]) {
       const nat = NAT[id];
       $$('.g-slot', nat).forEach(unmount);
-      nat.innerHTML = `<div class="m-splash" style="background:${bgc}"><div class="g-slot"></div></div><span class="m-tag">Exploración · no aprobada</span>`;
+      nat.innerHTML = `<div class="m-splash" style="background:${bgc}"><div class="g-slot"></div></div><span class="m-tag">Maqueta · aprobado en lab</span>`;
       const subj = subjectOf();
       const want = S.typo === 'iso' || dir === 'mirada' ? wants.iso : wants[S.ori];
       mount($('.g-slot', nat), { dir, subj, mode: 'once', want, noRepeat: true, alt: 'Céluma · bienvenida' });
@@ -319,7 +319,7 @@
     for (const [id, wants, cap] of pieces) {
       const nat = NAT[id];
       $$('.g-slot', nat).forEach(unmount);
-      nat.innerHTML = `<div class="m-piece" data-bg="${S.bg}" style="background:${bgc}"><div class="g-slot"></div><div class="cap">${cap}</div></div><span class="m-tag">Exploración · no aprobada</span>`;
+      nat.innerHTML = `<div class="m-piece" data-bg="${S.bg}" style="background:${bgc}"><div class="g-slot"></div><div class="cap">${cap}</div></div><span class="m-tag">Maqueta · aprobado en lab</span>`;
       const ori = id === 'scr-11' ? 'v' : S.ori;             // the square piece always uses the vertical lockup
       const want = S.typo === 'iso' || dir === 'mirada' ? wants.iso : wants[ori];
       mount($('.g-slot', nat), { dir, subj: subjectOf(S.typo, ori), mode: 'once', want, reverse: matReverse, noRepeat: true, alt: 'Céluma · pieza de marca' });
@@ -327,7 +327,7 @@
     const hero = NAT['scr-hero'];
     $$('.g-slot', hero).forEach(unmount);
     hero.innerHTML = `<div class="m-hero" data-bg="${S.bg}" style="background:${bgc}"><div><h2>Titular de ejemplo para el landing</h2><p>Texto ficticio de apoyo. Esta maqueta no describe capacidades del producto.</p></div>
-      <div style="display:grid;place-items:center"><div class="g-slot"></div></div></div><span class="m-tag">Exploración · no aprobada</span>`;
+      <div style="display:grid;place-items:center"><div class="g-slot"></div></div></div><span class="m-tag">Maqueta · aprobado en lab</span>`;
     mount($('.g-slot', hero), { dir, subj: 'iso', mode: 'once', want: { h: 420 }, reverse: matReverse, noRepeat: true, alt: 'Céluma' });
   }
 

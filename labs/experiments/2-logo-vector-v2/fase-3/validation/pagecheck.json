@@ -1,10 +1,10 @@
 {
- "date": "2026-09-27T01:42:54.676Z",
+ "date": "2026-09-28T01:33:24.300Z",
  "desktop_file": {
   "initial": {
-   "players": 26,
+   "players": 17,
    "static": 0,
-   "lottie": 18,
+   "lottie": 9,
    "css": 8,
    "playing": 0,
    "running_css_animations": 0
@@ -19,9 +19,9 @@
    true
   ],
   "after_b_navy": {
-   "players": 26,
+   "players": 17,
    "static": 0,
-   "lottie": 18,
+   "lottie": 9,
    "css": 8,
    "playing": 4,
    "running_css_animations": 0
@@ -36,17 +36,17 @@
   "luz_scrub_readout": "0,83 s · ola-rayo-3",
   "enfoque_loop_disabled": true,
   "after_pause_all": {
-   "players": 26,
+   "players": 17,
    "static": 0,
-   "lottie": 18,
+   "lottie": 9,
    "css": 8,
    "playing": 0,
    "running_css_animations": 0
   },
   "after_restart": {
-   "players": 26,
+   "players": 17,
    "static": 0,
-   "lottie": 18,
+   "lottie": 9,
    "css": 8,
    "playing": 4,
    "running_css_animations": 0
@@ -63,8 +63,8 @@
   "splash_mirada_note": "mirada|iso|once",
   "outro_direction": -1,
   "simulated_reduce": {
-   "players": 26,
-   "static": 26,
+   "players": 17,
+   "static": 17,
    "lottie": 0,
    "css": 0,
    "playing": 0,
@@ -73,9 +73,9 @@
    "broken_images": []
   },
   "after_unreduce": {
-   "players": 26,
+   "players": 17,
    "static": 0,
-   "lottie": 18,
+   "lottie": 9,
    "css": 8,
    "playing": 4,
    "running_css_animations": 0
@@ -90,9 +90,9 @@
  },
  "desktop_http": {
   "state": {
-   "players": 26,
+   "players": 17,
    "static": 0,
-   "lottie": 18,
+   "lottie": 9,
    "css": 8,
    "playing": 0,
    "running_css_animations": 0
@@ -101,8 +101,8 @@
   "errors": []
  },
  "reduced": {
-  "players": 26,
-  "static": 26,
+  "players": 17,
+  "static": 17,
   "lottie": 0,
   "css": 0,
   "playing": 0,

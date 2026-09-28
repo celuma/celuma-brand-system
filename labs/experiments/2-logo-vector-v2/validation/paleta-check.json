@@ -1,0 +1,998 @@
+{
+ "paleta_aprobada": {
+  "membrana": "#49b6ad",
+  "trazos": "#49b6ad",
+  "citoplasma": "#bbead2",
+  "nucleo": "#f98d84",
+  "nucleolo": "#e5635f",
+  "rayos": "#f1c46c"
+ },
+ "colores_anteriores": [
+  "#3baca6",
+  "#3cada7",
+  "#f88e85"
+ ],
+ "checks": [
+  {
+   "check": "maestro histórico: pigmentos medidos en el PNG",
+   "ok": true,
+   "detail": "master/celuma-isotipo-maestro.svg"
+  },
+  {
+   "check": "maestro activo: pigmentos aprobados",
+   "ok": true,
+   "detail": "master/celuma-isotipo-maestro-paleta-aprobada.svg"
+  },
+  {
+   "check": "maestro activo = histórico en elementos, ids, orden, anidación, d y atributos (salvo fill)",
+   "ok": true,
+   "detail": "12 elementos"
+  },
+  {
+   "check": "SVG en color: pigmentos del isotipo = paleta aprobada",
+   "ok": true,
+   "detail": "31 archivos; fallan []"
+  },
+  {
+   "check": "SVG en color: todos los trazados del isotipo = maestro activo",
+   "ok": true,
+   "detail": "31 archivos; fallan []"
+  },
+  {
+   "check": "isotipo color: caja ajustada sin cambios",
+   "ok": true,
+   "detail": "73 42 549 670"
+  },
+  {
+   "check": "versión reducida: solo pigmentos aprobados",
+   "ok": true,
+   "detail": [
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84"
+   ]
+  },
+  {
+   "check": "adaptaciones a una tinta: solo navy o blanco",
+   "ok": true,
+   "detail": "12 archivos; fallan []"
+  },
+  {
+   "check": "alias de compatibilidad: mismo cuerpo y caja que el archivo activo",
+   "ok": true,
+   "detail": "5 alias; fallan []"
+  },
+  {
+   "check": "Lottie: colores = paleta aprobada (+ navy/blanco del wordmark)",
+   "ok": true,
+   "detail": "34 archivos; fallan []"
+  },
+  {
+   "check": "archivos activos sin los hex anteriores #3baca6, #3cada7, #f88e85",
+   "ok": true,
+   "detail": "81 archivos; fallan []"
+  },
+  {
+   "check": "PNG/JPG: ningún píxel de meseta con los colores anteriores",
+   "ok": true,
+   "detail": "35 imágenes; fallan []"
+  },
+  {
+   "check": "exportaciones PNG de 100 px o más: los cinco pigmentos aprobados en meseta",
+   "ok": true,
+   "detail": "15 PNG; fallan []"
+  },
+  {
+   "check": "ejemplos: membrana y núcleo aprobados en meseta",
+   "ok": true,
+   "detail": "10 PNG; fallan []"
+  }
+ ],
+ "lottie_colores": {
+  "anim/celuma-isotipo-loop.json": [
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84"
+  ],
+  "anim/celuma-isotipo-once.json": [
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84"
+  ],
+  "fase-3/lottie/enfoque-isotipo-once.json": [
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84"
+  ],
+  "fase-3/lottie/enfoque-lockup-a-h-neg-once.json": [
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84",
+   "#ffffff"
+  ],
+  "fase-3/lottie/enfoque-lockup-a-h-pos-once.json": [
+   "#0d1b2a",
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84"
+  ],
+  "fase-3/lottie/enfoque-lockup-a-v-neg-once.json": [
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84",
+   "#ffffff"
+  ],
+  "fase-3/lottie/enfoque-lockup-a-v-pos-once.json": [
+   "#0d1b2a",
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84"
+  ],
+  "fase-3/lottie/enfoque-lockup-b-h-neg-once.json": [
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84",
+   "#ffffff"
+  ],
+  "fase-3/lottie/enfoque-lockup-b-h-pos-once.json": [
+   "#0d1b2a",
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84"
+  ],
+  "fase-3/lottie/enfoque-lockup-b-v-neg-once.json": [
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84",
+   "#ffffff"
+  ],
+  "fase-3/lottie/enfoque-lockup-b-v-pos-once.json": [
+   "#0d1b2a",
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84"
+  ],
+  "fase-3/lottie/luz-isotipo-loop.json": [
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84"
+  ],
+  "fase-3/lottie/luz-isotipo-once.json": [
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84"
+  ],
+  "fase-3/lottie/luz-lockup-a-h-neg-loop.json": [
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84",
+   "#ffffff"
+  ],
+  "fase-3/lottie/luz-lockup-a-h-neg-once.json": [
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84",
+   "#ffffff"
+  ],
+  "fase-3/lottie/luz-lockup-a-h-pos-loop.json": [
+   "#0d1b2a",
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84"
+  ],
+  "fase-3/lottie/luz-lockup-a-h-pos-once.json": [
+   "#0d1b2a",
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84"
+  ],
+  "fase-3/lottie/luz-lockup-a-v-neg-once.json": [
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84",
+   "#ffffff"
+  ],
+  "fase-3/lottie/luz-lockup-a-v-pos-once.json": [
+   "#0d1b2a",
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84"
+  ],
+  "fase-3/lottie/luz-lockup-b-h-neg-loop.json": [
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84",
+   "#ffffff"
+  ],
+  "fase-3/lottie/luz-lockup-b-h-neg-once.json": [
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84",
+   "#ffffff"
+  ],
+  "fase-3/lottie/luz-lockup-b-h-pos-loop.json": [
+   "#0d1b2a",
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84"
+  ],
+  "fase-3/lottie/luz-lockup-b-h-pos-once.json": [
+   "#0d1b2a",
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84"
+  ],
+  "fase-3/lottie/luz-lockup-b-v-neg-once.json": [
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84",
+   "#ffffff"
+  ],
+  "fase-3/lottie/luz-lockup-b-v-pos-once.json": [
+   "#0d1b2a",
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84"
+  ],
+  "fase-3/lottie/trazo-isotipo-once.json": [
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84",
+   "#ffffff"
+  ],
+  "fase-3/lottie/trazo-lockup-a-h-neg-once.json": [
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84",
+   "#ffffff"
+  ],
+  "fase-3/lottie/trazo-lockup-a-h-pos-once.json": [
+   "#0d1b2a",
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84",
+   "#ffffff"
+  ],
+  "fase-3/lottie/trazo-lockup-a-v-neg-once.json": [
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84",
+   "#ffffff"
+  ],
+  "fase-3/lottie/trazo-lockup-a-v-pos-once.json": [
+   "#0d1b2a",
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84",
+   "#ffffff"
+  ],
+  "fase-3/lottie/trazo-lockup-b-h-neg-once.json": [
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84",
+   "#ffffff"
+  ],
+  "fase-3/lottie/trazo-lockup-b-h-pos-once.json": [
+   "#0d1b2a",
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84",
+   "#ffffff"
+  ],
+  "fase-3/lottie/trazo-lockup-b-v-neg-once.json": [
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84",
+   "#ffffff"
+  ],
+  "fase-3/lottie/trazo-lockup-b-v-pos-once.json": [
+   "#0d1b2a",
+   "#49b6ad",
+   "#bbead2",
+   "#e5635f",
+   "#f1c46c",
+   "#f98d84",
+   "#ffffff"
+  ]
+ },
+ "imagenes": {
+  "png/isotipo/celuma-isotipo-color-1024.png": {
+   "size": [
+    839,
+    1024
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 136998,
+    "citoplasma": 256368,
+    "nucleo": 78112,
+    "nucleolo": 6642,
+    "rayos": 21588
+   }
+  },
+  "png/isotipo/celuma-isotipo-color-128.png": {
+   "size": [
+    105,
+    128
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 923,
+    "citoplasma": 3057,
+    "nucleo": 946,
+    "nucleolo": 57,
+    "rayos": 117
+   }
+  },
+  "png/isotipo/celuma-isotipo-color-256.png": {
+   "size": [
+    210,
+    256
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 6469,
+    "citoplasma": 14403,
+    "nucleo": 4428,
+    "nucleolo": 320,
+    "rayos": 956
+   }
+  },
+  "png/isotipo/celuma-isotipo-color-512.png": {
+   "size": [
+    420,
+    512
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 31478,
+    "citoplasma": 61848,
+    "nucleo": 18925,
+    "nucleolo": 1530,
+    "rayos": 4877
+   }
+  },
+  "png/isotipo/celuma-isotipo-color-64.png": {
+   "size": [
+    52,
+    64
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 3,
+    "citoplasma": 493,
+    "nucleo": 166,
+    "nucleolo": 4,
+    "rayos": 0
+   }
+  },
+  "png/lockups/propuesta-a-baloo2/celuma-lockup-horizontal-color-negativo.png": {
+   "size": [
+    1200,
+    386
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 16780,
+    "citoplasma": 34296,
+    "nucleo": 10501,
+    "nucleolo": 822,
+    "rayos": 2564
+   }
+  },
+  "png/lockups/propuesta-a-baloo2/celuma-lockup-horizontal-color-positivo.png": {
+   "size": [
+    1200,
+    386
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 16780,
+    "citoplasma": 34296,
+    "nucleo": 10501,
+    "nucleolo": 822,
+    "rayos": 2564
+   }
+  },
+  "png/lockups/propuesta-a-baloo2/celuma-lockup-vertical-color-negativo.png": {
+   "size": [
+    703,
+    800
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 39977,
+    "citoplasma": 77807,
+    "nucleo": 23777,
+    "nucleolo": 1949,
+    "rayos": 6225
+   }
+  },
+  "png/lockups/propuesta-a-baloo2/celuma-lockup-vertical-color-positivo.png": {
+   "size": [
+    703,
+    800
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 39977,
+    "citoplasma": 77807,
+    "nucleo": 23777,
+    "nucleolo": 1949,
+    "rayos": 6225
+   }
+  },
+  "png/lockups/propuesta-b-notion-v2/celuma-lockup-horizontal-color-negativo.png": {
+   "size": [
+    1200,
+    398
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 17992,
+    "citoplasma": 36591,
+    "nucleo": 11193,
+    "nucleolo": 882,
+    "rayos": 2754
+   }
+  },
+  "png/lockups/propuesta-b-notion-v2/celuma-lockup-horizontal-color-positivo.png": {
+   "size": [
+    1200,
+    398
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 17992,
+    "citoplasma": 36591,
+    "nucleo": 11193,
+    "nucleolo": 882,
+    "rayos": 2754
+   }
+  },
+  "png/lockups/propuesta-b-notion-v2/celuma-lockup-vertical-color-negativo.png": {
+   "size": [
+    715,
+    800
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 41397,
+    "citoplasma": 80573,
+    "nucleo": 24641,
+    "nucleolo": 2025,
+    "rayos": 6439
+   }
+  },
+  "png/lockups/propuesta-b-notion-v2/celuma-lockup-vertical-color-positivo.png": {
+   "size": [
+    715,
+    800
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 41397,
+    "citoplasma": 80573,
+    "nucleo": 24641,
+    "nucleolo": 2025,
+    "rayos": 6439
+   }
+  },
+  "png/favicon/apple-touch-icon-180.png": {
+   "size": [
+    180,
+    180
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 1404,
+    "citoplasma": 4087,
+    "nucleo": 1277,
+    "nucleolo": 75,
+    "rayos": 187
+   }
+  },
+  "png/favicon/favicon-16.png": {
+   "size": [
+    16,
+    16
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 0,
+    "citoplasma": 3,
+    "nucleo": 0,
+    "nucleolo": 0,
+    "rayos": 0
+   }
+  },
+  "png/favicon/favicon-32.png": {
+   "size": [
+    32,
+    32
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 0,
+    "citoplasma": 28,
+    "nucleo": 20,
+    "nucleolo": 0,
+    "rayos": 0
+   }
+  },
+  "png/favicon/favicon-48.png": {
+   "size": [
+    48,
+    48
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 0,
+    "citoplasma": 157,
+    "nucleo": 63,
+    "nucleolo": 0,
+    "rayos": 0
+   }
+  },
+  "png/favicon/icon-192.png": {
+   "size": [
+    192,
+    192
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 1731,
+    "citoplasma": 4727,
+    "nucleo": 1468,
+    "nucleolo": 95,
+    "rayos": 230
+   }
+  },
+  "png/favicon/icon-512-maskable.png": {
+   "size": [
+    512,
+    512
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 12715,
+    "citoplasma": 26559,
+    "nucleo": 8147,
+    "nucleolo": 624,
+    "rayos": 1901
+   }
+  },
+  "examples/ejemplo-app-login-a.png": {
+   "size": [
+    1100,
+    641
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 17050,
+    "citoplasma": 614,
+    "nucleo": 227,
+    "nucleolo": 4,
+    "rayos": 0
+   }
+  },
+  "examples/ejemplo-app-login-b.png": {
+   "size": [
+    1100,
+    641
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 17050,
+    "citoplasma": 614,
+    "nucleo": 227,
+    "nucleolo": 4,
+    "rayos": 0
+   }
+  },
+  "examples/ejemplo-comunicacion-a.png": {
+   "size": [
+    540,
+    541
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 3029,
+    "citoplasma": 7521,
+    "nucleo": 2488,
+    "nucleolo": 157,
+    "rayos": 435
+   }
+  },
+  "examples/ejemplo-comunicacion-b.png": {
+   "size": [
+    540,
+    541
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 3029,
+    "citoplasma": 7519,
+    "nucleo": 2487,
+    "nucleolo": 157,
+    "rayos": 435
+   }
+  },
+  "examples/ejemplo-comunicacion-negativo-a.png": {
+   "size": [
+    540,
+    541
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 3036,
+    "citoplasma": 7532,
+    "nucleo": 2488,
+    "nucleolo": 157,
+    "rayos": 430
+   }
+  },
+  "examples/ejemplo-comunicacion-negativo-b.png": {
+   "size": [
+    540,
+    541
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 3036,
+    "citoplasma": 7530,
+    "nucleo": 2487,
+    "nucleolo": 157,
+    "rayos": 430
+   }
+  },
+  "examples/ejemplo-favicon-a.png": {
+   "size": [
+    760,
+    249
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 114,
+    "citoplasma": 2669,
+    "nucleo": 902,
+    "nucleolo": 12,
+    "rayos": 13
+   }
+  },
+  "examples/ejemplo-favicon-b.png": {
+   "size": [
+    760,
+    249
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 114,
+    "citoplasma": 2669,
+    "nucleo": 902,
+    "nucleolo": 12,
+    "rayos": 13
+   }
+  },
+  "examples/ejemplo-landing-a.png": {
+   "size": [
+    1100,
+    621
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 15845,
+    "citoplasma": 13712,
+    "nucleo": 4220,
+    "nucleolo": 303,
+    "rayos": 914
+   }
+  },
+  "examples/ejemplo-landing-b.png": {
+   "size": [
+    1100,
+    621
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 15845,
+    "citoplasma": 13709,
+    "nucleo": 4220,
+    "nucleolo": 303,
+    "rayos": 914
+   }
+  },
+  "anim/preview/celuma-isotipo-anim-preview-poster.jpg": {
+   "size": [
+    1280,
+    720
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 0,
+    "citoplasma": 0,
+    "nucleo": 0,
+    "nucleolo": 0,
+    "rayos": 0
+   }
+  },
+  "fase-3/preview/enfoque-poster.jpg": {
+   "size": [
+    1280,
+    720
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 0,
+    "citoplasma": 0,
+    "nucleo": 0,
+    "nucleolo": 0,
+    "rayos": 0
+   }
+  },
+  "fase-3/preview/luz-poster.jpg": {
+   "size": [
+    1280,
+    720
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 0,
+    "citoplasma": 0,
+    "nucleo": 0,
+    "nucleolo": 0,
+    "rayos": 0
+   }
+  },
+  "fase-3/preview/trazo-intro-poster.jpg": {
+   "size": [
+    1920,
+    1080
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 0,
+    "citoplasma": 0,
+    "nucleo": 0,
+    "nucleolo": 0,
+    "rayos": 0
+   }
+  },
+  "fase-3/preview/trazo-poster.jpg": {
+   "size": [
+    1280,
+    720
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 0,
+    "citoplasma": 0,
+    "nucleo": 0,
+    "nucleolo": 0,
+    "rayos": 0
+   }
+  },
+  "fase-3/preview/trazo-social-poster.jpg": {
+   "size": [
+    1080,
+    1080
+   ],
+   "plateau_old": {
+    "#3baca6": 0,
+    "#3cada7": 0,
+    "#f88e85": 0
+   },
+   "plateau_approved": {
+    "membrana": 0,
+    "citoplasma": 0,
+    "nucleo": 0,
+    "nucleolo": 0,
+    "rayos": 0
+   }
+  }
+ }
+}

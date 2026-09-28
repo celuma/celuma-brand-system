@@ -1,6 +1,6 @@
 # Brief · 02 · Isotipo vectorial (2-logo-vector-v2)
 
-**Estado:** aprobado por Rafael el 2026-09-26; ver `DECISION.md` para el alcance y las tareas de incorporación. Este brief conserva el registro anterior de exploración.
+**Estado:** aprobado por Rafael el 2026-09-26; paleta del isotipo aprobada el 2026-09-27 y aplicada a todo el experimento. Ver `DECISION.md` para el alcance y las tareas de incorporación. Este brief conserva el registro anterior de exploración; donde habla de los colores medidos, describe el maestro fiel histórico.
 **Responsable:** Claude (asistente), por encargo de Rafael
 **Fecha:** 2026-09-26
 **Revisión:** Rafael aprobó la dirección visual el 2026-09-26; validación por medio aún pendiente.
@@ -34,9 +34,10 @@
   - El PDF histórico, en solo lectura.
 - **Tokens y reglas que se mantienen.** Navy `#0d1b2a`, crema `#fbf6ec`, Baloo 2 800 y tracking −0,02 em, la protección de ½ isotipo (propuesta §8) y la regla de texto navy sobre teal.
 - **Desviaciones.**
-  - El maestro usa los colores medidos del PNG, no los tokens `--celuma-iso-*`, que difieren en ΔE00 2,2–4,7.
+  - El maestro fiel usa los colores medidos del PNG, no los tokens `--celuma-iso-*`, que difieren en ΔE00 2,2–4,7.
   - Los tokens no se tocaron.
   - Membrana y trazos se unificaron en `#3baca6`: en el PNG difieren en 1 nivel.
+  - 2026-09-27: la paleta aprobada sustituye en las piezas activas membrana/trazos por `#49b6ad` y el núcleo por `#F98D84` (maestro activo `master/celuma-isotipo-maestro-paleta-aprobada.svg`); el maestro fiel queda como evidencia histórica.
 - **Contratos de producto.** Ninguno. Los ejemplos de app y landing son maquetas.
 
 ## Variantes y recursos
@@ -69,7 +70,7 @@
   - `examples/*.png`.
   - Métricas en `validation/*.json`.
   - `vistas-check.json`: sin errores de consola ni imágenes rotas.
-  - `exports-check.json`: 25 SVG bien formados, sin `<image>` ni `<text>` y con la etiqueta de exploración; 31 PNG, transparentes salvo los iconos táctiles.
+  - `exports-check.json`: al cierre, 25 SVG bien formados, sin `<image>` ni `<text>` y con la etiqueta de exploración; 31 PNG, transparentes salvo los iconos táctiles. Tras la paleta del 2026-09-27: 31 SVG (incluidos el maestro activo y los alias) con etiqueta de estado y los mismos 31 PNG.
 - **Problemas encontrados y corregidos durante la revisión.**
   - Muescas en los extremos de los rayos: el halo del PNG se clasificaba como citoplasma.
   - Una proyección de Newton que divergía.

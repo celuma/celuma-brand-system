@@ -1,6 +1,6 @@
 # Brief de animación del isotipo · fase 2 (NO implementada)
 
-**Estado:** implementado en exploración el 2026-09-26, tras la revisión de la fase 1 por Rafael («ya quedó»), sobre `master/celuma-isotipo-maestro.svg`. Solo el isotipo: el lockup sigue abierto (D-1). Resultados, ajustes de ritmo respecto de este brief y validación en [`README-FASE2.md`](README-FASE2.md); revisión visual en [`animacion.html`](animacion.html). Exploración · no aprobada.
+**Estado:** implementado en exploración el 2026-09-26, tras la revisión de la fase 1 por Rafael («ya quedó»), sobre `master/celuma-isotipo-maestro.svg`. Solo el isotipo: el lockup sigue abierto (D-1). Resultados, ajustes de ritmo respecto de este brief y validación en [`README-FASE2.md`](README-FASE2.md); revisión visual en [`animacion.html`](animacion.html). Exploración · no aprobada en su momento; Mirada se aprobó el 2026-09-26 y, desde el 2026-09-27, se genera desde el maestro activo con la paleta aprobada (`README-FASE2.md`).
 
 > Este documento se conserva como el brief original. Los valores de §3 se ajustaron tras la inspección visual; los vigentes están en README-FASE2.md §3.
 
@@ -76,7 +76,7 @@ Con el sobreimpulso, el nucléolo llega a ≤ 57 del centro del núcleo y nunca 
 
 - **Formas:**
   - Solo capas de forma (`ty: 4`) con trazados `sh`. Las cúbicas del maestro se traducen de forma exacta: vértices `v` y tangentes `i`/`o` relativas.
-  - Rellenos `fl` con el color en sRGB normalizado 0–1; por ejemplo, `#3baca6` → [0,2314, 0,6745, 0,6510].
+  - Rellenos `fl` con el color en sRGB normalizado 0–1; por ejemplo, `#49b6ad` → [0,2873, 0,7147, 0,6794] (con el ajuste (k + 0,25)/255 de `README-FASE2.md`).
   - `r: 1` para la regla nonzero y `r: 2` para evenodd (solo en variantes monocromas).
 - **Transformaciones:** van en grupos (`tr`). El punto de anclaje de cada rayo es su base. El nucléolo y los trazos se animan con `p` (posición). Nada de expresiones.
 - **Elementos a evitar** (por soporte desigual o por coste en lottie-web con canvas, lottie-ios o lottie-android):

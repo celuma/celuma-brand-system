@@ -4,7 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light" />
-    <script>if (!/\/$|\.html$/.test(location.pathname)) location.replace(location.pathname + '/index.html' + location.search + location.hash);</script>
+    <script>
+    // Some preview servers strip /index.html. Normalize the directory URL
+    // without a request, so relative assets work and redirects cannot loop.
+    if (!/\/$|\.html$/.test(location.pathname)) {
+      const directory = location.pathname.replace(/\/index$/, '') + '/';
+      history.replaceState(history.state, '', directory + location.search + location.hash);
+    }
+  </script>
     <title>Céluma · Laboratorio visual</title>
     <link rel="icon" type="image/png" href="../assets/celuma-isotipo.png" />
     <link rel="stylesheet" href="../styles/celuma-tokens.css" />
@@ -44,14 +51,14 @@
           <div>
             <p class="lab-card-label"><span class="lab-status lab-status-approved">Aprobado · pendiente de incorporación</span></p>
             <h3>02 · Logo vectorial y aplicaciones</h3>
-            <p>Maestro geométrico aprobado, wordmark A · Baloo 2 800 y una variante UI en revisión con teal #49b6ad y salmón #F98D84. Mirada, Luz, Enfoque y Trazo también se aprueban como direcciones visuales; su adopción requiere validación por medio.</p>
+            <p>Maestro geométrico, wordmark A · Baloo 2 800 y paleta del isotipo aprobados: membrana #49B6AD, citoplasma #BBEAD2, núcleo #F98D84, nucléolo #E5635F y rayos #F1C46C (2026-09-27), aplicada a todas las piezas. Mirada, Luz, Enfoque y Trazo también se aprueban como direcciones visuales; su adopción requiere validación por medio.</p>
             <ul class="lab-links lab-links-sm">
               <li><a href="experiments/2-logo-vector-v2/index.html">1 · Maestro y sistema</a></li>
               <li><a href="experiments/2-logo-vector-v2/ejemplos.html">Aplicaciones</a></li>
               <li><a href="experiments/2-logo-vector-v2/animacion.html">2 · Mirada</a></li>
               <li><a href="experiments/2-logo-vector-v2/fase-3/index.html">Fase 3 anterior · Motion</a></li>
               <li><a href="experiments/2-logo-vector-v2/DECISION.md">Decisión de cierre</a></li>
-              <li><a href="experiments/2-logo-vector-v2/index.html#color-ui">Comparar colores</a></li>
+              <li><a href="experiments/2-logo-vector-v2/index.html#color">Paleta aprobada</a></li>
             </ul>
           </div>
           <a href="experiments/2-logo-vector-v2/index.html">Abrir identidad</a>
@@ -60,7 +67,7 @@
           <div>
             <p class="lab-card-label"><span class="lab-status">Exploración · nueva etapa</span></p>
             <h3>03 · Motion del logo</h3>
-            <p>Experimento dedicado al movimiento: usos de carga, bienvenida y material visual; color UI, ritmos, formatos, accesibilidad y compatibilidad. Parte de las direcciones aprobadas en 02.</p>
+            <p>Experimento dedicado al movimiento: usos de carga, bienvenida y material visual; ritmos, formatos, accesibilidad y compatibilidad. Parte de las direcciones y la paleta aprobadas en 02.</p>
             <ul class="lab-links lab-links-sm">
               <li><a href="experiments/3-logo-motion/BRIEF.md">Brief de motion</a></li>
               <li><a href="experiments/2-logo-vector-v2/animacion.html">Mirada</a></li>

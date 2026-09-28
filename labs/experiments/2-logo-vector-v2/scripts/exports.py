@@ -1,10 +1,14 @@
 """PNG exports, minimum-size test and export checks (all rendered by Chromium).
 
+Every colour export comes from the approved-palette SVGs (build_svg.py, lockups.py); the historical
+faithful master is not exported.
+
 Outputs
   png/isotipo/…, png/lockups/…, png/favicon/…     transparent PNGs (favicon touch icons opaque)
-  validation/lamina-minimos.png                    fiel vs reducido 16-32 px; lockups at candidate minimums
+  validation/lamina-minimos.png                    colour isotipo vs reducido 16-32 px; lockups at candidate minimums
   validation/lamina-exportaciones.png              every export on checker, white, cream and navy
   validation/exports-check.json                    XML parse, size, mode, corner alpha, non-empty
+  validation/sizes/svg-aprobado-*.png              active master at 16-256 px for the sizes table
 """
 import json
 import subprocess
@@ -66,11 +70,11 @@ job(ISO / "celuma-isotipo-color.svg", PNG / "favicon" / "apple-touch-icon-180.pn
 job(ISO / "celuma-isotipo-color.svg", PNG / "favicon" / "icon-192.png", 192, 192, bg=BG["crema"], fit=square(T, 0.12))
 job(ISO / "celuma-isotipo-color.svg", PNG / "favicon" / "icon-512-maskable.png", 512, 512, bg=BG["crema"], fit=square(T, 0.25))
 
-# ---- minimum-size test renders (1x) : isotipo fiel vs reducido, lockups at candidate widths
+# ---- minimum-size test renders (1x) : colour isotipo vs reducido, lockups at candidate widths
 MIN = VAL / "minimos"
 for n in (16, 20, 24, 28, 32):
     for bgname, bg in BG.items():
-        job(ISO / "celuma-isotipo-color.svg", MIN / f"fiel-{n}-{bgname}.png", n, n, bg=bg, fit=square(T, 0))
+        job(ISO / "celuma-isotipo-color.svg", MIN / f"color-{n}-{bgname}.png", n, n, bg=bg, fit=square(T, 0))
         job(ISO / "celuma-isotipo-reducido-16-24px.svg", MIN / f"reducido-{n}-{bgname}.png", n, n, bg=bg, fit=square(SV, 0))
 for opt, folder in (("a", "propuesta-a-baloo2"), ("b", "propuesta-b-notion-v2")):
     vb = lk[f"{opt}-horizontal"]["viewBox"]
@@ -80,6 +84,10 @@ for opt, folder in (("a", "propuesta-a-baloo2"), ("b", "propuesta-b-notion-v2"))
     for h in (48, 64, 80):
         job(LOCK / folder / "celuma-lockup-vertical-color-positivo.svg", MIN / f"v-{opt}-{h}.png", h * vb[2] / vb[3], h, bg=BG["crema"])
 
+# ---- index.html#tamanos: the active master at N x N in the tight box (the PNG column is validate.py's render)
+for n in (16, 20, 32, 64, 256):
+    job(EXP / "master" / "celuma-isotipo-maestro-paleta-aprobada.svg", VAL / "sizes" / f"svg-aprobado-{n}.png", n, n, fit=T)
+
 (VAL / "_jobs-exports.json").write_text(json.dumps(jobs))
 subprocess.run(["node", str(EXP / "scripts" / "render.mjs"), str(VAL / "_jobs-exports.json")], check=True, cwd=EXP / "scripts")
 
@@ -88,7 +96,7 @@ try:
     FB = ImageFont.truetype("/System/Library/Fonts/Supplemental/Arial Bold.ttf", 17)
 except OSError:
     F = FB = ImageFont.load_default()
-BANNER = "Exploración · no aprobada — 2-logo-vector-v2"
+BANNER = "Paleta aprobada 2026-09-27 · lab, incorporación pendiente"
 
 
 # ---- minimum-size sheet
@@ -97,15 +105,15 @@ def zoom(im, k):
 
 
 rows = []
-for kind in ("fiel", "reducido"):
+for kind in ("color", "reducido"):
     for bgname in BG:
         tiles = [Image.open(MIN / f"{kind}-{n}-{bgname}.png").convert("RGB") for n in (16, 20, 24, 28, 32)]
         rows.append((f"{kind} · {bgname}", tiles))
 W = 1760
 sheet = Image.new("RGB", (W, 110 + len(rows) * 230 + 520), (245, 243, 238))
 d = ImageDraw.Draw(sheet)
-d.text((20, 16), "Tamaños mínimos · isotipo fiel vs versión reducida (16, 20, 24, 28, 32 px; 1:1 arriba, ×6 abajo)", fill=(13, 27, 42), font=FB)
-d.text((W - 360, 18), BANNER, fill=(180, 65, 58), font=F)
+d.text((20, 16), "Tamaños mínimos · isotipo color vs versión reducida (16, 20, 24, 28, 32 px; 1:1 arriba, ×6 abajo)", fill=(13, 27, 42), font=FB)
+d.text((W - 460, 18), BANNER, fill=(180, 65, 58), font=F)
 y = 60
 for label, tiles in rows:
     d.text((20, y), label, fill=(13, 27, 42), font=F)
@@ -118,7 +126,7 @@ for label, tiles in rows:
 d.text((20, y), "Lockups a su mínimo candidato (1:1, fondo crema): horizontal 64 / 80 / 96 / 120 px de ancho · vertical 48 / 64 / 80 px de alto", fill=(13, 27, 42), font=FB)
 y += 40
 for opt in ("a", "b"):
-    d.text((20, y + 10), f"Propuesta {opt.upper()}", fill=(13, 27, 42), font=F)
+    d.text((20, y + 10), "A · aprobada" if opt == "a" else "B · referencia", fill=(13, 27, 42), font=F)
     x = 160
     for w in (64, 80, 96, 120):
         im = Image.open(MIN / f"h-{opt}-{w}.png").convert("RGB")
@@ -135,13 +143,13 @@ sheet.save(VAL / "lamina-minimos.png")
 
 # ---- export checks
 check = {"svg": {}, "png": {}}
-for f in sorted((EXP / "svg").rglob("*.svg")) + [EXP / "master" / "celuma-isotipo-maestro.svg"]:
+for f in sorted((EXP / "svg").rglob("*.svg")) + sorted((EXP / "master").glob("*.svg")):
     txt = f.read_text()
     root = ET.fromstring(txt)
     check["svg"][str(f.relative_to(EXP))] = {
         "xml_ok": True, "viewBox": root.get("viewBox"), "bytes": len(txt.encode()),
         "has_raster_image": "<image" in txt, "has_text_element": "<text" in txt,
-        "path_count": txt.count("<path"), "exploracion_label": "Exploración · no aprobada" in txt}
+        "path_count": txt.count("<path"), "status_label": any(k in txt for k in ("Aprobad", "aprobad", "Referencia", "referencia"))}
 for f in sorted(PNG.rglob("*.png")):
     im = Image.open(f)
     a = np.asarray(im.convert("RGBA"))[..., 3]
@@ -164,7 +172,7 @@ cols = 4
 sheet = Image.new("RGB", (40 + (cell * 4 + 40) * cols, 70 + ((len(files) + cols - 1) // cols) * (cell + 44)), (245, 243, 238))
 d = ImageDraw.Draw(sheet)
 d.text((20, 16), f"Exportaciones PNG ({len(files)}) sobre damero, blanco, crema y navy — comprobación de transparencia", fill=(13, 27, 42), font=FB)
-d.text((sheet.width - 360, 18), BANNER, fill=(180, 65, 58), font=F)
+d.text((sheet.width - 460, 18), BANNER, fill=(180, 65, 58), font=F)
 for i, f in enumerate(files):
     im = Image.open(f).convert("RGBA")
     s = min((cell - 10) / im.width, (cell - 10) / im.height)
@@ -181,4 +189,4 @@ sheet.save(VAL / "lamina-exportaciones.png")
 bad = [k for k, v in check["png"].items() if not v["transparent_background"] and "touch" not in k and "icon-" not in k]
 print("svg files", len(check["svg"]), "png files", len(check["png"]), "non-transparent (unexpected):", bad)
 print("svg with raster/text:", [k for k, v in check["svg"].items() if v["has_raster_image"] or v["has_text_element"]])
-print("svg missing label:", [k for k, v in check["svg"].items() if not v["exploracion_label"]])
+print("svg missing status label:", [k for k, v in check["svg"].items() if not v["status_label"]])

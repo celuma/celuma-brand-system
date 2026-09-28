@@ -1,4 +1,4 @@
-// Fase 3 · render frames with real players in Chromium (Playwright). Exploración · no aprobada.
+// Fase 3 · render frames with real players in Chromium (Playwright). Aprobado en el experimento 02 · incorporación pendiente.
 // Players (validation only, not a product dependency):
 //   lottie-web 5.13.0            -> "lottie-svg", "lottie-canvas"  (same file as ../vendor, SHA-256 2eb76297…18ac)
 //   @lottiefiles/dotlottie-web   -> "thorvg" (independent C++/WASM engine), 0.80.0
