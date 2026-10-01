@@ -13,10 +13,23 @@ Desde la raíz de `celuma-brand-system`, ejecute `python3 -m http.server 8000` y
 - `experiments/_template/`: punto de partida para copiar en `experiments/<nombre-corto>/`.
 - `experiments/1-frontend-refinement/`: experimento 01 (cerrado como exploración; se rescatan V4 y contraste en `DECISION.md`). `index.html` es el prototipo; `direcciones.html` compara A/B y `exploraciones/estados/` compara estados. Ábralo como carpeta (`/labs/experiments/1-frontend-refinement/`).
 - `experiments/2-logo-vector-v2/`: experimento 02 (aprobado por Rafael; paleta del isotipo aprobada el 2026-09-27; ver `DECISION.md`). `index.html` reúne el maestro, la paleta y el mini sistema; `ejemplos.html` muestra aplicaciones; `animacion.html` revisa Mirada (fase 2); `fase-3/` compara Luz, Enfoque y Trazo. Las tres fases comparten un recorrido visible.
-- `experiments/3-logo-motion/`: experimento 03 (exploración dedicada a motion), con la identidad y la paleta aprobadas de 02 como entrada y enlaces a las piezas de movimiento originales, ya regeneradas con esa paleta.
+- `experiments/3-logo-motion/`: experimento 03 cerrado y aprobado por Rafael para el laboratorio (2026-09-30). Seis direcciones propias en una galería única con controles, fichas, tamaños reales, contextos ficticios y comparación con 02. La incorporación canónica y la adopción en producto siguen pendientes.
 - Cada experimento mantiene su `BRIEF.md`, su vista previa y sus recursos dentro de su carpeta.
 
 La carpeta `_template` no es una propuesta de diseño. Antes de explorar, copie la plantilla con un nombre descriptivo y complete el brief. Registre en la entrada del lab el enlace al experimento y su estado. No reutilice el nombre de un experimento para una dirección distinta.
+
+## Patrón de navegación para experimentos futuros
+
+Este recorrido conserva lo que funcionó en 02 y 03:
+
+1. **Entrada del laboratorio:** una tarjeta por experimento, con número, nombre, estado real, resumen y enlace principal. Debajo, enlaces directos a las partes importantes y a la decisión de cierre. Los capítulos llevan números y nombres breves; no se enlazan anclas eliminadas.
+2. **Barra de recorrido en cada vista:** laboratorio → experimento actual → sus propias fases o páginas. Marcar la vista actual con aria-current. Cada experimento numerado tiene una entrada y navegación independientes; los anteriores se enlazan desde referencias o comparaciones, sin mezclar sus fases en las pestañas del nuevo. El acceso principal al 03 abre una pestaña nueva. Separar este recorrido del índice interno.
+3. **Distribución de pantallas:** usar una página continua cuando las propuestas comparten controles y se comparan entre sí (03); páginas separadas para aplicaciones o etapas autónomas (02). Dentro de la galería continua: visión general enlazada → propuestas y fichas → ejemplos en contexto → comparación → principios y reglas → validación → archivos. Evitar pantallas redundantes.
+4. **Enlaces internos:** anclas estables para cada propuesta y capítulo, tarjetas que llevan a su ficha, regreso al laboratorio arriba y abajo, y acceso visible al brief, README y decisión. Conservar rutas históricas o alias cuando otras páginas las usan.
+5. **Estado:** separar exploración, aprobación en laboratorio, incorporación canónica y adopción en producto o publicación. Al cerrar, actualizar vista, tarjeta, decisión, estado compartido, metadatos y exportaciones activas para que no queden rótulos contradictorios.
+6. **Comprobación:** seguir enlaces mediante clics en los servidores usados para revisar, en escritorio y móvil. Probar entrada directa, carpeta con y sin barra, anclas, recursos y controles. En previews que quitan index.html, normalizar la URL sin un bucle de redirecciones.
+
+El 02 muestra páginas independientes para maestro, aplicaciones y motion; el 03 muestra seis direcciones bajo controles comunes con enlaces directos a cada una.
 
 ## Revisión manual de navegación · 2026-09-26
 
