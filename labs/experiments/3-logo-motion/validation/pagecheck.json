@@ -1,0 +1,657 @@
+{
+ "date": "2026-09-28T03:38:22.375Z",
+ "servers": {
+  "http://127.0.0.1:51905": {
+   "entries": {
+    "carpeta": {
+     "url": "http://127.0.0.1:51905/labs/experiments/3-logo-motion/",
+     "ready": true,
+     "title": "Céluma · Experimento 03 · Motion",
+     "overflow": 0,
+     "lottieSvgs": 14,
+     "shadowHosts": 23,
+     "running": 4,
+     "brokenImgs": [],
+     "reducedBanner": false,
+     "errors": [],
+     "missing": [],
+     "hashOk": null
+    },
+    "sinBarra": {
+     "url": "http://127.0.0.1:51905/labs/experiments/3-logo-motion/",
+     "ready": true,
+     "title": "Céluma · Experimento 03 · Motion",
+     "overflow": 0,
+     "lottieSvgs": 14,
+     "shadowHosts": 23,
+     "running": 4,
+     "brokenImgs": [],
+     "reducedBanner": false,
+     "errors": [],
+     "missing": [],
+     "hashOk": null
+    },
+    "indexHtml": {
+     "url": "http://127.0.0.1:51905/labs/experiments/3-logo-motion/index.html",
+     "ready": true,
+     "title": "Céluma · Experimento 03 · Motion",
+     "overflow": 0,
+     "lottieSvgs": 14,
+     "shadowHosts": 23,
+     "running": 4,
+     "brokenImgs": [],
+     "reducedBanner": false,
+     "errors": [],
+     "missing": [],
+     "hashOk": null
+    },
+    "consulta": {
+     "url": "http://127.0.0.1:51905/labs/experiments/3-logo-motion/?fondo=navy#comparar",
+     "ready": true,
+     "title": "Céluma · Experimento 03 · Motion",
+     "overflow": 0,
+     "lottieSvgs": 14,
+     "shadowHosts": 23,
+     "running": 0,
+     "brokenImgs": [],
+     "reducedBanner": false,
+     "errors": [],
+     "missing": [],
+     "hashOk": true
+    }
+   },
+   "flows": {
+    "labTo03": {
+     "landed": "http://127.0.0.1:51905/labs/experiments/3-logo-motion/index.html",
+     "ready": true,
+     "back": {
+      "url": "http://127.0.0.1:51905/labs/index.html",
+      "h1": "Laboratorio visual",
+      "css": "rgb(251, 246, 236)"
+     },
+     "to02": {
+      "url": "http://127.0.0.1:51905/labs/experiments/2-logo-vector-v2/fase-3/index.html",
+      "h1": "Direcciones de motion del logo"
+     },
+     "errors": [],
+     "missing": []
+    }
+   },
+   "viewports": {
+    "390": {
+     "url": "http://127.0.0.1:51905/labs/experiments/3-logo-motion/",
+     "ready": true,
+     "title": "Céluma · Experimento 03 · Motion",
+     "overflow": 0,
+     "lottieSvgs": 14,
+     "shadowHosts": 23,
+     "running": 0,
+     "brokenImgs": [],
+     "reducedBanner": false,
+     "tabs": {
+      "carga": {
+       "visible": true,
+       "h": 751,
+       "overflow": 0
+      },
+      "espera": {
+       "visible": true,
+       "h": 712,
+       "overflow": 0
+      },
+      "acceso": {
+       "visible": true,
+       "h": 745,
+       "overflow": 0
+      },
+      "bienvenida": {
+       "visible": true,
+       "h": 1209,
+       "overflow": 0
+      },
+      "landing": {
+       "visible": true,
+       "h": 615,
+       "overflow": 0
+      },
+      "material": {
+       "visible": true,
+       "h": 1044,
+       "overflow": 0
+      }
+     },
+     "errors": [],
+     "missing": []
+    },
+    "1440": {
+     "url": "http://127.0.0.1:51905/labs/experiments/3-logo-motion/",
+     "ready": true,
+     "title": "Céluma · Experimento 03 · Motion",
+     "overflow": 0,
+     "lottieSvgs": 14,
+     "shadowHosts": 23,
+     "running": 4,
+     "brokenImgs": [],
+     "reducedBanner": false,
+     "tabs": {
+      "carga": {
+       "visible": true,
+       "h": 459,
+       "overflow": 0
+      },
+      "espera": {
+       "visible": true,
+       "h": 459,
+       "overflow": 0
+      },
+      "acceso": {
+       "visible": true,
+       "h": 490,
+       "overflow": 0
+      },
+      "bienvenida": {
+       "visible": true,
+       "h": 627,
+       "overflow": 0
+      },
+      "landing": {
+       "visible": true,
+       "h": 443,
+       "overflow": 0
+      },
+      "material": {
+       "visible": true,
+       "h": 396,
+       "overflow": 0
+      }
+     },
+     "errors": [],
+     "missing": []
+    }
+   },
+   "reduced": {
+    "url": "http://127.0.0.1:51905/labs/experiments/3-logo-motion/#d-brote",
+    "ready": true,
+    "title": "Céluma · Experimento 03 · Motion",
+    "overflow": 0,
+    "lottieSvgs": 0,
+    "shadowHosts": 37,
+    "running": 0,
+    "brokenImgs": [],
+    "reducedBanner": true,
+    "errors": []
+   },
+   "controls": {
+    "bgNavy": true,
+    "subjectH": "0,91 s / 2,23 s",
+    "speed": "true",
+    "pauseHolds": true,
+    "compare02": "Trazo · material de marca · aprobado en 02",
+    "forcedReduced": {
+     "url": "http://127.0.0.1:51905/labs/experiments/3-logo-motion/",
+     "ready": true,
+     "title": "Céluma · Experimento 03 · Motion",
+     "overflow": 0,
+     "lottieSvgs": 0,
+     "shadowHosts": 39,
+     "running": 0,
+     "brokenImgs": [],
+     "reducedBanner": true
+    }
+   },
+   "raf": {
+    "frames": 361,
+    "median": 8.3,
+    "p95": 9.4,
+    "over20": 0
+   }
+  },
+  "http://localhost:65432": {
+   "entries": {
+    "carpeta": {
+     "url": "http://localhost:65432/labs/experiments/3-logo-motion/",
+     "ready": true,
+     "title": "Céluma · Experimento 03 · Motion",
+     "overflow": 0,
+     "lottieSvgs": 14,
+     "shadowHosts": 23,
+     "running": 4,
+     "brokenImgs": [],
+     "reducedBanner": false,
+     "errors": [],
+     "missing": [],
+     "hashOk": null
+    },
+    "sinBarra": {
+     "url": "http://localhost:65432/labs/experiments/3-logo-motion/",
+     "ready": true,
+     "title": "Céluma · Experimento 03 · Motion",
+     "overflow": 0,
+     "lottieSvgs": 14,
+     "shadowHosts": 23,
+     "running": 4,
+     "brokenImgs": [],
+     "reducedBanner": false,
+     "errors": [],
+     "missing": [
+      "404 http://localhost:65432/lab.css",
+      "404 http://localhost:65432/labs/experiments/galeria.css",
+      "404 http://localhost:65432/labs/experiments/js/atento.js",
+      "404 http://localhost:65432/labs/experiments/vendor/lottie-web-5.13.0/lottie.min.js",
+      "404 http://localhost:65432/labs/2-logo-vector-v2/svg/isotipo/celuma-isotipo-color.svg",
+      "404 http://localhost:65432/labs/experiments/js/respira.js",
+      "404 http://localhost:65432/labs/experiments/js/relevo.js",
+      "404 http://localhost:65432/labs/experiments/galeria.js"
+     ],
+     "hashOk": null
+    },
+    "indexHtml": {
+     "url": "http://localhost:65432/labs/experiments/3-logo-motion/",
+     "ready": true,
+     "title": "Céluma · Experimento 03 · Motion",
+     "overflow": 0,
+     "lottieSvgs": 14,
+     "shadowHosts": 23,
+     "running": 4,
+     "brokenImgs": [],
+     "reducedBanner": false,
+     "errors": [],
+     "missing": [
+      "404 http://localhost:65432/lab.css",
+      "404 http://localhost:65432/labs/experiments/galeria.css",
+      "404 http://localhost:65432/labs/2-logo-vector-v2/svg/isotipo/celuma-isotipo-color.svg",
+      "404 http://localhost:65432/labs/experiments/vendor/lottie-web-5.13.0/lottie.min.js",
+      "404 http://localhost:65432/labs/experiments/js/atento.js",
+      "404 http://localhost:65432/labs/experiments/js/respira.js",
+      "404 http://localhost:65432/labs/experiments/js/relevo.js",
+      "404 http://localhost:65432/labs/experiments/galeria.js"
+     ],
+     "hashOk": null
+    },
+    "consulta": {
+     "url": "http://localhost:65432/labs/experiments/3-logo-motion/?fondo=navy#comparar",
+     "ready": true,
+     "title": "Céluma · Experimento 03 · Motion",
+     "overflow": 0,
+     "lottieSvgs": 14,
+     "shadowHosts": 23,
+     "running": 0,
+     "brokenImgs": [],
+     "reducedBanner": false,
+     "errors": [],
+     "missing": [],
+     "hashOk": true
+    }
+   },
+   "flows": {
+    "labTo03": {
+     "landed": "http://localhost:65432/labs/experiments/3-logo-motion/",
+     "ready": true,
+     "back": {
+      "url": "http://localhost:65432/labs/",
+      "h1": "Laboratorio visual",
+      "css": "rgb(251, 246, 236)"
+     },
+     "to02": {
+      "url": "http://localhost:65432/labs/experiments/2-logo-vector-v2/fase-3/",
+      "h1": "Direcciones de motion del logo"
+     },
+     "errors": [],
+     "missing": [
+      "404 http://localhost:65432/lab.css",
+      "404 http://localhost:65432/labs/experiments/galeria.css",
+      "404 http://localhost:65432/labs/experiments/vendor/lottie-web-5.13.0/lottie.min.js",
+      "404 http://localhost:65432/labs/2-logo-vector-v2/svg/isotipo/celuma-isotipo-color.svg",
+      "404 http://localhost:65432/labs/experiments/js/atento.js",
+      "404 http://localhost:65432/labs/experiments/js/respira.js",
+      "404 http://localhost:65432/labs/experiments/js/relevo.js",
+      "404 http://localhost:65432/labs/experiments/galeria.js",
+      "404 http://localhost:65432/lab.css",
+      "404 http://localhost:65432/labs/experiments/experiment.css",
+      "404 http://localhost:65432/labs/experiments/2-logo-vector-v2/galeria.css?v=paleta-20260927",
+      "404 http://localhost:65432/labs/experiments/2-logo-vector-v2/data.js",
+      "404 http://localhost:65432/labs/experiments/anim/review-data.js",
+      "404 http://localhost:65432/labs/experiments/2-logo-vector-v2/validation/metrics.js",
+      "404 http://localhost:65432/labs/experiments/2-logo-vector-v2/validation/pagecheck.js",
+      "404 http://localhost:65432/labs/experiments/vendor/lottie-web-5.13.0/lottie.min.js",
+      "404 http://localhost:65432/labs/experiments/2-logo-vector-v2/galeria.js?v=paleta-20260927"
+     ]
+    }
+   },
+   "viewports": {
+    "390": {
+     "url": "http://localhost:65432/labs/experiments/3-logo-motion/",
+     "ready": true,
+     "title": "Céluma · Experimento 03 · Motion",
+     "overflow": 0,
+     "lottieSvgs": 14,
+     "shadowHosts": 23,
+     "running": 0,
+     "brokenImgs": [],
+     "reducedBanner": false,
+     "tabs": {
+      "carga": {
+       "visible": true,
+       "h": 751,
+       "overflow": 0
+      },
+      "espera": {
+       "visible": true,
+       "h": 712,
+       "overflow": 0
+      },
+      "acceso": {
+       "visible": true,
+       "h": 745,
+       "overflow": 0
+      },
+      "bienvenida": {
+       "visible": true,
+       "h": 1209,
+       "overflow": 0
+      },
+      "landing": {
+       "visible": true,
+       "h": 615,
+       "overflow": 0
+      },
+      "material": {
+       "visible": true,
+       "h": 1044,
+       "overflow": 0
+      }
+     },
+     "errors": [],
+     "missing": []
+    },
+    "1440": {
+     "url": "http://localhost:65432/labs/experiments/3-logo-motion/",
+     "ready": true,
+     "title": "Céluma · Experimento 03 · Motion",
+     "overflow": 0,
+     "lottieSvgs": 14,
+     "shadowHosts": 23,
+     "running": 4,
+     "brokenImgs": [],
+     "reducedBanner": false,
+     "tabs": {
+      "carga": {
+       "visible": true,
+       "h": 459,
+       "overflow": 0
+      },
+      "espera": {
+       "visible": true,
+       "h": 459,
+       "overflow": 0
+      },
+      "acceso": {
+       "visible": true,
+       "h": 490,
+       "overflow": 0
+      },
+      "bienvenida": {
+       "visible": true,
+       "h": 627,
+       "overflow": 0
+      },
+      "landing": {
+       "visible": true,
+       "h": 443,
+       "overflow": 0
+      },
+      "material": {
+       "visible": true,
+       "h": 396,
+       "overflow": 0
+      }
+     },
+     "errors": [],
+     "missing": []
+    }
+   },
+   "reduced": {
+    "url": "http://localhost:65432/labs/experiments/3-logo-motion/#d-brote",
+    "ready": true,
+    "title": "Céluma · Experimento 03 · Motion",
+    "overflow": 0,
+    "lottieSvgs": 0,
+    "shadowHosts": 37,
+    "running": 0,
+    "brokenImgs": [],
+    "reducedBanner": true,
+    "errors": []
+   },
+   "controls": {
+    "bgNavy": true,
+    "subjectH": "0,91 s / 2,23 s",
+    "speed": "true",
+    "pauseHolds": true,
+    "compare02": "Trazo · material de marca · aprobado en 02",
+    "forcedReduced": {
+     "url": "http://localhost:65432/labs/experiments/3-logo-motion/",
+     "ready": true,
+     "title": "Céluma · Experimento 03 · Motion",
+     "overflow": 0,
+     "lottieSvgs": 0,
+     "shadowHosts": 39,
+     "running": 0,
+     "brokenImgs": [],
+     "reducedBanner": true
+    }
+   },
+   "raf": {
+    "frames": 361,
+    "median": 8.3,
+    "p95": 9.2,
+    "over20": 0
+   }
+  },
+  "http://127.0.0.1:8765": {
+   "entries": {
+    "carpeta": {
+     "url": "http://127.0.0.1:8765/labs/experiments/3-logo-motion/",
+     "ready": true,
+     "title": "Céluma · Experimento 03 · Motion",
+     "overflow": 0,
+     "lottieSvgs": 14,
+     "shadowHosts": 23,
+     "running": 4,
+     "brokenImgs": [],
+     "reducedBanner": false,
+     "errors": [],
+     "missing": [],
+     "hashOk": null
+    },
+    "sinBarra": {
+     "url": "http://127.0.0.1:8765/labs/experiments/3-logo-motion/",
+     "ready": true,
+     "title": "Céluma · Experimento 03 · Motion",
+     "overflow": 0,
+     "lottieSvgs": 14,
+     "shadowHosts": 23,
+     "running": 4,
+     "brokenImgs": [],
+     "reducedBanner": false,
+     "errors": [],
+     "missing": [],
+     "hashOk": null
+    },
+    "indexHtml": {
+     "url": "http://127.0.0.1:8765/labs/experiments/3-logo-motion/index.html",
+     "ready": true,
+     "title": "Céluma · Experimento 03 · Motion",
+     "overflow": 0,
+     "lottieSvgs": 14,
+     "shadowHosts": 23,
+     "running": 4,
+     "brokenImgs": [],
+     "reducedBanner": false,
+     "errors": [],
+     "missing": [],
+     "hashOk": null
+    },
+    "consulta": {
+     "url": "http://127.0.0.1:8765/labs/experiments/3-logo-motion/?fondo=navy#comparar",
+     "ready": true,
+     "title": "Céluma · Experimento 03 · Motion",
+     "overflow": 0,
+     "lottieSvgs": 14,
+     "shadowHosts": 23,
+     "running": 0,
+     "brokenImgs": [],
+     "reducedBanner": false,
+     "errors": [],
+     "missing": [],
+     "hashOk": true
+    }
+   },
+   "flows": {
+    "labTo03": {
+     "landed": "http://127.0.0.1:8765/labs/experiments/3-logo-motion/index.html",
+     "ready": true,
+     "back": {
+      "url": "http://127.0.0.1:8765/labs/index.html",
+      "h1": "Laboratorio visual",
+      "css": "rgb(251, 246, 236)"
+     },
+     "to02": {
+      "url": "http://127.0.0.1:8765/labs/experiments/2-logo-vector-v2/fase-3/index.html",
+      "h1": "Direcciones de motion del logo"
+     },
+     "errors": [],
+     "missing": []
+    }
+   },
+   "viewports": {
+    "390": {
+     "url": "http://127.0.0.1:8765/labs/experiments/3-logo-motion/",
+     "ready": true,
+     "title": "Céluma · Experimento 03 · Motion",
+     "overflow": 0,
+     "lottieSvgs": 14,
+     "shadowHosts": 23,
+     "running": 0,
+     "brokenImgs": [],
+     "reducedBanner": false,
+     "tabs": {
+      "carga": {
+       "visible": true,
+       "h": 751,
+       "overflow": 0
+      },
+      "espera": {
+       "visible": true,
+       "h": 712,
+       "overflow": 0
+      },
+      "acceso": {
+       "visible": true,
+       "h": 745,
+       "overflow": 0
+      },
+      "bienvenida": {
+       "visible": true,
+       "h": 1209,
+       "overflow": 0
+      },
+      "landing": {
+       "visible": true,
+       "h": 615,
+       "overflow": 0
+      },
+      "material": {
+       "visible": true,
+       "h": 1044,
+       "overflow": 0
+      }
+     },
+     "errors": [],
+     "missing": []
+    },
+    "1440": {
+     "url": "http://127.0.0.1:8765/labs/experiments/3-logo-motion/",
+     "ready": true,
+     "title": "Céluma · Experimento 03 · Motion",
+     "overflow": 0,
+     "lottieSvgs": 14,
+     "shadowHosts": 23,
+     "running": 4,
+     "brokenImgs": [],
+     "reducedBanner": false,
+     "tabs": {
+      "carga": {
+       "visible": true,
+       "h": 459,
+       "overflow": 0
+      },
+      "espera": {
+       "visible": true,
+       "h": 459,
+       "overflow": 0
+      },
+      "acceso": {
+       "visible": true,
+       "h": 490,
+       "overflow": 0
+      },
+      "bienvenida": {
+       "visible": true,
+       "h": 627,
+       "overflow": 0
+      },
+      "landing": {
+       "visible": true,
+       "h": 443,
+       "overflow": 0
+      },
+      "material": {
+       "visible": true,
+       "h": 396,
+       "overflow": 0
+      }
+     },
+     "errors": [],
+     "missing": []
+    }
+   },
+   "reduced": {
+    "url": "http://127.0.0.1:8765/labs/experiments/3-logo-motion/#d-brote",
+    "ready": true,
+    "title": "Céluma · Experimento 03 · Motion",
+    "overflow": 0,
+    "lottieSvgs": 0,
+    "shadowHosts": 37,
+    "running": 0,
+    "brokenImgs": [],
+    "reducedBanner": true,
+    "errors": []
+   },
+   "controls": {
+    "bgNavy": true,
+    "subjectH": "0,91 s / 2,23 s",
+    "speed": "true",
+    "pauseHolds": true,
+    "compare02": "Trazo · material de marca · aprobado en 02",
+    "forcedReduced": {
+     "url": "http://127.0.0.1:8765/labs/experiments/3-logo-motion/",
+     "ready": true,
+     "title": "Céluma · Experimento 03 · Motion",
+     "overflow": 0,
+     "lottieSvgs": 0,
+     "shadowHosts": 39,
+     "running": 0,
+     "brokenImgs": [],
+     "reducedBanner": true
+    }
+   },
+   "raf": {
+    "frames": 361,
+    "median": 8.3,
+    "p95": 9.9,
+    "over20": 0
+   }
+  }
+ },
+ "notes": []
+}

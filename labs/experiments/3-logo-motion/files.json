@@ -1,0 +1,697 @@
+{
+ "generated_by": "scripts/manifest.py",
+ "files": [
+  {
+   "path": "js/respira.js",
+   "kind": "JS",
+   "bytes": 4732,
+   "direction": "respira",
+   "group": "Respira",
+   "gzip": 2015,
+   "note": "reglas del loader: 400 ms de retardo, 600 ms mínimos, 3 ciclos, cierre sin «hecho»"
+  },
+  {
+   "path": "lottie/respira-isotipo.json",
+   "kind": "Lottie",
+   "bytes": 10901,
+   "direction": "respira",
+   "group": "Respira",
+   "gzip": 2637
+  },
+  {
+   "path": "lottie/respira-lockup-h-neg.json",
+   "kind": "Lottie",
+   "bytes": 21342,
+   "direction": "respira",
+   "group": "Respira",
+   "gzip": 4986
+  },
+  {
+   "path": "lottie/respira-lockup-h-pos.json",
+   "kind": "Lottie",
+   "bytes": 21345,
+   "direction": "respira",
+   "group": "Respira",
+   "gzip": 4995
+  },
+  {
+   "path": "svg/respira-isotipo.svg",
+   "kind": "SVG + CSS",
+   "bytes": 8458,
+   "direction": "respira",
+   "group": "Respira",
+   "gzip": 2721
+  },
+  {
+   "path": "svg/respira-lockup-h-neg.svg",
+   "kind": "SVG + CSS",
+   "bytes": 12485,
+   "direction": "respira",
+   "group": "Respira",
+   "gzip": 4416
+  },
+  {
+   "path": "svg/respira-lockup-h-pos.svg",
+   "kind": "SVG + CSS",
+   "bytes": 12485,
+   "direction": "respira",
+   "group": "Respira",
+   "gzip": 4418
+  },
+  {
+   "path": "estaticos/respira-isotipo.svg",
+   "kind": "Estático",
+   "bytes": 4322,
+   "direction": "respira",
+   "group": "Respira",
+   "gzip": 2264
+  },
+  {
+   "path": "estaticos/respira-lockup-h-neg.svg",
+   "kind": "Estático",
+   "bytes": 8259,
+   "direction": "respira",
+   "group": "Respira",
+   "gzip": 3941
+  },
+  {
+   "path": "estaticos/respira-lockup-h-pos.svg",
+   "kind": "Estático",
+   "bytes": 8259,
+   "direction": "respira",
+   "group": "Respira",
+   "gzip": 3944
+  },
+  {
+   "path": "preview/respira.mp4",
+   "kind": "Vídeo MP4",
+   "bytes": 633136,
+   "direction": "respira",
+   "group": "Respira"
+  },
+  {
+   "path": "preview/respira.webm",
+   "kind": "Vídeo WebM",
+   "bytes": 612320,
+   "direction": "respira",
+   "group": "Respira"
+  },
+  {
+   "path": "preview/respira-poster.jpg",
+   "kind": "Póster",
+   "bytes": 43997,
+   "direction": "respira",
+   "group": "Respira"
+  },
+  {
+   "path": "validation/lamina-respira.png",
+   "kind": "Lámina",
+   "bytes": 274266,
+   "direction": "respira",
+   "group": "Respira"
+  },
+  {
+   "path": "js/relevo.js",
+   "kind": "JS",
+   "bytes": 3035,
+   "direction": "relevo",
+   "group": "Relevo",
+   "gzip": 1275,
+   "note": "FLIP con Web Animations; reducido: fundidos"
+  },
+  {
+   "path": "estaticos/relevo-lockup-h-neg.svg",
+   "kind": "Estático",
+   "bytes": 8226,
+   "direction": "relevo",
+   "group": "Relevo",
+   "gzip": 3916
+  },
+  {
+   "path": "estaticos/relevo-lockup-h-pos.svg",
+   "kind": "Estático",
+   "bytes": 8226,
+   "direction": "relevo",
+   "group": "Relevo",
+   "gzip": 3920
+  },
+  {
+   "path": "lottie/brote-isotipo.json",
+   "kind": "Lottie",
+   "bytes": 19295,
+   "direction": "brote",
+   "group": "Brote",
+   "gzip": 2884
+  },
+  {
+   "path": "lottie/brote-lockup-h-neg.json",
+   "kind": "Lottie",
+   "bytes": 47790,
+   "direction": "brote",
+   "group": "Brote",
+   "gzip": 6075
+  },
+  {
+   "path": "lottie/brote-lockup-h-pos.json",
+   "kind": "Lottie",
+   "bytes": 47814,
+   "direction": "brote",
+   "group": "Brote",
+   "gzip": 6083
+  },
+  {
+   "path": "lottie/brote-lockup-v-neg.json",
+   "kind": "Lottie",
+   "bytes": 47787,
+   "direction": "brote",
+   "group": "Brote",
+   "gzip": 6084
+  },
+  {
+   "path": "lottie/brote-lockup-v-pos.json",
+   "kind": "Lottie",
+   "bytes": 47811,
+   "direction": "brote",
+   "group": "Brote",
+   "gzip": 6092
+  },
+  {
+   "path": "svg/brote-isotipo.svg",
+   "kind": "SVG + CSS",
+   "bytes": 11212,
+   "direction": "brote",
+   "group": "Brote",
+   "gzip": 3047
+  },
+  {
+   "path": "svg/brote-lockup-h-neg.svg",
+   "kind": "SVG + CSS",
+   "bytes": 26598,
+   "direction": "brote",
+   "group": "Brote",
+   "gzip": 5357
+  },
+  {
+   "path": "svg/brote-lockup-h-pos.svg",
+   "kind": "SVG + CSS",
+   "bytes": 26598,
+   "direction": "brote",
+   "group": "Brote",
+   "gzip": 5360
+  },
+  {
+   "path": "svg/brote-lockup-v-neg.svg",
+   "kind": "SVG + CSS",
+   "bytes": 26605,
+   "direction": "brote",
+   "group": "Brote",
+   "gzip": 5362
+  },
+  {
+   "path": "svg/brote-lockup-v-pos.svg",
+   "kind": "SVG + CSS",
+   "bytes": 26605,
+   "direction": "brote",
+   "group": "Brote",
+   "gzip": 5364
+  },
+  {
+   "path": "estaticos/brote-isotipo.svg",
+   "kind": "Estático",
+   "bytes": 4320,
+   "direction": "brote",
+   "group": "Brote",
+   "gzip": 2262
+  },
+  {
+   "path": "estaticos/brote-lockup-h-neg.svg",
+   "kind": "Estático",
+   "bytes": 8257,
+   "direction": "brote",
+   "group": "Brote",
+   "gzip": 3938
+  },
+  {
+   "path": "estaticos/brote-lockup-h-pos.svg",
+   "kind": "Estático",
+   "bytes": 8257,
+   "direction": "brote",
+   "group": "Brote",
+   "gzip": 3941
+  },
+  {
+   "path": "estaticos/brote-lockup-v-neg.svg",
+   "kind": "Estático",
+   "bytes": 8254,
+   "direction": "brote",
+   "group": "Brote",
+   "gzip": 3936
+  },
+  {
+   "path": "estaticos/brote-lockup-v-pos.svg",
+   "kind": "Estático",
+   "bytes": 8254,
+   "direction": "brote",
+   "group": "Brote",
+   "gzip": 3939
+  },
+  {
+   "path": "preview/brote.mp4",
+   "kind": "Vídeo MP4",
+   "bytes": 366069,
+   "direction": "brote",
+   "group": "Brote"
+  },
+  {
+   "path": "preview/brote.webm",
+   "kind": "Vídeo WebM",
+   "bytes": 438461,
+   "direction": "brote",
+   "group": "Brote"
+  },
+  {
+   "path": "preview/brote-poster.jpg",
+   "kind": "Póster",
+   "bytes": 57015,
+   "direction": "brote",
+   "group": "Brote"
+  },
+  {
+   "path": "validation/lamina-brote.png",
+   "kind": "Lámina",
+   "bytes": 277349,
+   "direction": "brote",
+   "group": "Brote"
+  },
+  {
+   "path": "js/atento.js",
+   "kind": "JS",
+   "bytes": 6402,
+   "direction": "atento",
+   "group": "Atento",
+   "gzip": 2668,
+   "note": "atención al puntero y al foco; reducido: sin oyentes"
+  },
+  {
+   "path": "estaticos/atento-isotipo.svg",
+   "kind": "Estático",
+   "bytes": 4289,
+   "direction": "atento",
+   "group": "Atento",
+   "gzip": 2240
+  },
+  {
+   "path": "estaticos/atento-lockup-h-neg.svg",
+   "kind": "Estático",
+   "bytes": 8226,
+   "direction": "atento",
+   "group": "Atento",
+   "gzip": 3914
+  },
+  {
+   "path": "estaticos/atento-lockup-h-pos.svg",
+   "kind": "Estático",
+   "bytes": 8226,
+   "direction": "atento",
+   "group": "Atento",
+   "gzip": 3918
+  },
+  {
+   "path": "lottie/orden-isotipo.json",
+   "kind": "Lottie",
+   "bytes": 133731,
+   "direction": "orden",
+   "group": "Orden",
+   "gzip": 11493
+  },
+  {
+   "path": "lottie/orden-lockup-h-neg.json",
+   "kind": "Lottie",
+   "bytes": 205865,
+   "direction": "orden",
+   "group": "Orden",
+   "gzip": 18089
+  },
+  {
+   "path": "lottie/orden-lockup-h-pos.json",
+   "kind": "Lottie",
+   "bytes": 205889,
+   "direction": "orden",
+   "group": "Orden",
+   "gzip": 18099
+  },
+  {
+   "path": "lottie/orden-lockup-v-neg.json",
+   "kind": "Lottie",
+   "bytes": 162357,
+   "direction": "orden",
+   "group": "Orden",
+   "gzip": 14774
+  },
+  {
+   "path": "lottie/orden-lockup-v-pos.json",
+   "kind": "Lottie",
+   "bytes": 162381,
+   "direction": "orden",
+   "group": "Orden",
+   "gzip": 14784
+  },
+  {
+   "path": "estaticos/orden-isotipo.svg",
+   "kind": "Estático",
+   "bytes": 4235,
+   "direction": "orden",
+   "group": "Orden",
+   "gzip": 2207
+  },
+  {
+   "path": "estaticos/orden-lockup-h-neg.svg",
+   "kind": "Estático",
+   "bytes": 8170,
+   "direction": "orden",
+   "group": "Orden",
+   "gzip": 3883
+  },
+  {
+   "path": "estaticos/orden-lockup-h-pos.svg",
+   "kind": "Estático",
+   "bytes": 8170,
+   "direction": "orden",
+   "group": "Orden",
+   "gzip": 3887
+  },
+  {
+   "path": "estaticos/orden-lockup-v-neg.svg",
+   "kind": "Estático",
+   "bytes": 8168,
+   "direction": "orden",
+   "group": "Orden",
+   "gzip": 3877
+  },
+  {
+   "path": "estaticos/orden-lockup-v-pos.svg",
+   "kind": "Estático",
+   "bytes": 8168,
+   "direction": "orden",
+   "group": "Orden",
+   "gzip": 3881
+  },
+  {
+   "path": "preview/orden-16x9-navy.mp4",
+   "kind": "Vídeo MP4",
+   "bytes": 621379,
+   "direction": "orden",
+   "group": "Orden"
+  },
+  {
+   "path": "preview/orden-1x1-crema.mp4",
+   "kind": "Vídeo MP4",
+   "bytes": 427413,
+   "direction": "orden",
+   "group": "Orden"
+  },
+  {
+   "path": "preview/orden-16x9-navy.webm",
+   "kind": "Vídeo WebM",
+   "bytes": 478843,
+   "direction": "orden",
+   "group": "Orden"
+  },
+  {
+   "path": "preview/orden-1x1-crema.webm",
+   "kind": "Vídeo WebM",
+   "bytes": 307371,
+   "direction": "orden",
+   "group": "Orden"
+  },
+  {
+   "path": "preview/orden-16x9-navy-poster.jpg",
+   "kind": "Póster",
+   "bytes": 54410,
+   "direction": "orden",
+   "group": "Orden"
+  },
+  {
+   "path": "preview/orden-1x1-crema-poster.jpg",
+   "kind": "Póster",
+   "bytes": 41445,
+   "direction": "orden",
+   "group": "Orden"
+  },
+  {
+   "path": "validation/lamina-orden.png",
+   "kind": "Lámina",
+   "bytes": 435972,
+   "direction": "orden",
+   "group": "Orden"
+  },
+  {
+   "path": "lottie/rebote-isotipo.json",
+   "kind": "Lottie",
+   "bytes": 19723,
+   "direction": "rebote",
+   "group": "Rebote",
+   "gzip": 3011
+  },
+  {
+   "path": "lottie/rebote-lockup-h-neg.json",
+   "kind": "Lottie",
+   "bytes": 49052,
+   "direction": "rebote",
+   "group": "Rebote",
+   "gzip": 6268
+  },
+  {
+   "path": "lottie/rebote-lockup-h-pos.json",
+   "kind": "Lottie",
+   "bytes": 49076,
+   "direction": "rebote",
+   "group": "Rebote",
+   "gzip": 6277
+  },
+  {
+   "path": "lottie/rebote-lockup-v-neg.json",
+   "kind": "Lottie",
+   "bytes": 49026,
+   "direction": "rebote",
+   "group": "Rebote",
+   "gzip": 6280
+  },
+  {
+   "path": "lottie/rebote-lockup-v-pos.json",
+   "kind": "Lottie",
+   "bytes": 49050,
+   "direction": "rebote",
+   "group": "Rebote",
+   "gzip": 6290
+  },
+  {
+   "path": "estaticos/rebote-isotipo.svg",
+   "kind": "Estático",
+   "bytes": 4323,
+   "direction": "rebote",
+   "group": "Rebote",
+   "gzip": 2264
+  },
+  {
+   "path": "estaticos/rebote-lockup-h-neg.svg",
+   "kind": "Estático",
+   "bytes": 8260,
+   "direction": "rebote",
+   "group": "Rebote",
+   "gzip": 3940
+  },
+  {
+   "path": "estaticos/rebote-lockup-h-pos.svg",
+   "kind": "Estático",
+   "bytes": 8260,
+   "direction": "rebote",
+   "group": "Rebote",
+   "gzip": 3943
+  },
+  {
+   "path": "estaticos/rebote-lockup-v-neg.svg",
+   "kind": "Estático",
+   "bytes": 8259,
+   "direction": "rebote",
+   "group": "Rebote",
+   "gzip": 3940
+  },
+  {
+   "path": "estaticos/rebote-lockup-v-pos.svg",
+   "kind": "Estático",
+   "bytes": 8259,
+   "direction": "rebote",
+   "group": "Rebote",
+   "gzip": 3941
+  },
+  {
+   "path": "preview/rebote-social-1x1.mp4",
+   "kind": "Vídeo MP4",
+   "bytes": 187109,
+   "direction": "rebote",
+   "group": "Rebote",
+   "note": "pieza de ejemplo con texto comprobado (v1.3.1)"
+  },
+  {
+   "path": "preview/rebote.mp4",
+   "kind": "Vídeo MP4",
+   "bytes": 429615,
+   "direction": "rebote",
+   "group": "Rebote"
+  },
+  {
+   "path": "preview/rebote-social-1x1.webm",
+   "kind": "Vídeo WebM",
+   "bytes": 166968,
+   "direction": "rebote",
+   "group": "Rebote"
+  },
+  {
+   "path": "preview/rebote.webm",
+   "kind": "Vídeo WebM",
+   "bytes": 442877,
+   "direction": "rebote",
+   "group": "Rebote"
+  },
+  {
+   "path": "preview/rebote-sticker.gif",
+   "kind": "GIF",
+   "bytes": 181365,
+   "direction": "rebote",
+   "group": "Rebote",
+   "note": "sticker; el GIF no respeta el movimiento reducido"
+  },
+  {
+   "path": "preview/rebote-poster.jpg",
+   "kind": "Póster",
+   "bytes": 59355,
+   "direction": "rebote",
+   "group": "Rebote"
+  },
+  {
+   "path": "preview/rebote-social-1x1-poster.jpg",
+   "kind": "Póster",
+   "bytes": 58268,
+   "direction": "rebote",
+   "group": "Rebote"
+  },
+  {
+   "path": "preview/rebote-sticker-poster.jpg",
+   "kind": "Póster",
+   "bytes": 18479,
+   "direction": "rebote",
+   "group": "Rebote"
+  },
+  {
+   "path": "validation/lamina-rebote.png",
+   "kind": "Lámina",
+   "bytes": 291810,
+   "direction": "rebote",
+   "group": "Rebote"
+  },
+  {
+   "path": "scripts/motion03.py",
+   "kind": "Generador",
+   "bytes": 37297,
+   "direction": null,
+   "group": "Generadores y especificación",
+   "gzip": 12300
+  },
+  {
+   "path": "scripts/orden.py",
+   "kind": "Generador",
+   "bytes": 11291,
+   "direction": null,
+   "group": "Generadores y especificación",
+   "gzip": 3977
+  },
+  {
+   "path": "scripts/svgpath.py",
+   "kind": "Generador",
+   "bytes": 3687,
+   "direction": null,
+   "group": "Generadores y especificación",
+   "gzip": 1338
+  },
+  {
+   "path": "scripts/render.mjs",
+   "kind": "Generador",
+   "bytes": 8228,
+   "direction": null,
+   "group": "Generadores y especificación",
+   "gzip": 3258
+  },
+  {
+   "path": "scripts/validate.py",
+   "kind": "Generador",
+   "bytes": 20031,
+   "direction": null,
+   "group": "Generadores y especificación",
+   "gzip": 7058
+  },
+  {
+   "path": "scripts/sheet.py",
+   "kind": "Generador",
+   "bytes": 3920,
+   "direction": null,
+   "group": "Generadores y especificación",
+   "gzip": 1810
+  },
+  {
+   "path": "scripts/video.mjs",
+   "kind": "Generador",
+   "bytes": 12281,
+   "direction": null,
+   "group": "Generadores y especificación",
+   "gzip": 4562
+  },
+  {
+   "path": "scripts/page_check.mjs",
+   "kind": "Generador",
+   "bytes": 10595,
+   "direction": null,
+   "group": "Generadores y especificación",
+   "gzip": 3756
+  },
+  {
+   "path": "scripts/manifest.py",
+   "kind": "Generador",
+   "bytes": 2990,
+   "direction": null,
+   "group": "Generadores y especificación",
+   "gzip": 1388
+  },
+  {
+   "path": "spec.json",
+   "kind": "Lottie",
+   "bytes": 27773,
+   "direction": null,
+   "group": "Generadores y especificación",
+   "gzip": 3122
+  },
+  {
+   "path": "validation/metrics.json",
+   "kind": "Lottie",
+   "bytes": 28824,
+   "direction": null,
+   "group": "Evidencia de validación",
+   "gzip": 2547
+  },
+  {
+   "path": "validation/lamina-final-vs-estatico.png",
+   "kind": "Lámina",
+   "bytes": 159586,
+   "direction": null,
+   "group": "Evidencia de validación"
+  },
+  {
+   "path": "validation/pagecheck.json",
+   "kind": "Lottie",
+   "bytes": 16736,
+   "direction": null,
+   "group": "Evidencia de validación",
+   "gzip": 1298
+  }
+ ]
+}

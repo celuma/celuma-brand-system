@@ -1,9 +1,179 @@
 <!doctype html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light"><script>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <script>
     // Some preview servers strip /index.html. Normalize the directory URL
     // without a request, so relative assets work and redirects cannot loop.
     if (!/\/$|\.html$/.test(location.pathname)) {
       const directory = location.pathname.replace(/\/index$/, '') + '/';
       history.replaceState(history.state, '', directory + location.search + location.hash);
     }
-  </script><title>Céluma · Experimento 03 · motion</title><link rel="icon" type="image/svg+xml" href="../2-logo-vector-v2/svg/isotipo/celuma-isotipo-color.svg"><link rel="stylesheet" href="../../../styles/celuma-tokens.css"><link rel="stylesheet" href="../../lab.css"><style>.motion-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:16px}.motion-card{padding:20px;background:#fff;border:1px solid var(--celuma-border);border-radius:14px}.motion-card h2{margin:4px 0 8px;font-size:24px}.motion-card p{line-height:1.55}.motion-card a{font-weight:700}.motion-mark{display:block;height:112px;object-fit:contain;margin:0 auto 16px}.motion-kicker{font-weight:700;color:var(--celuma-primary-ink);font-size:13px;text-transform:uppercase;letter-spacing:.06em}</style></head><body><header class="lab-header"><a class="lab-brand" href="../../index.html"><img src="../2-logo-vector-v2/svg/isotipo/celuma-isotipo-color.svg" alt="" width="36" height="40"><span>Céluma <small>Brand System</small></span></a><a class="lab-back" href="../../index.html">← Laboratorio visual</a></header><main class="lab-main"><p class="lab-eyebrow">Experimento 03 · exploración</p><h1>Motion del logo</h1><p class="lab-intro">Nueva etapa dedicada al movimiento del logo. La geometría, la paleta aprobada y el wordmark Baloo 2 800 vienen del <a href="../2-logo-vector-v2/DECISION.md">experimento 02 aprobado</a>. Aquí se decidirán usos, ritmos, formatos y accesibilidad.</p><div class="lab-notice" role="note"><strong>Punto de partida</strong><span>Mirada, Luz, Enfoque y Trazo están aprobadas como direcciones visuales. Sus archivos siguen en el recorrido original y ya cierran en el maestro activo con la paleta aprobada el 2026-09-27. Antes de usarlas en un producto hay que validar formato y entorno.</span></div><img class="motion-mark" src="../2-logo-vector-v2/svg/isotipo/celuma-isotipo-color.svg" alt="Isotipo Céluma con la paleta aprobada: membrana teal y núcleo salmón"><div class="motion-grid"><article class="motion-card"><span class="motion-kicker">Carga y espera</span><h2>Luz</h2><p>Bucle compacto; el texto comunica el progreso real.</p><a href="../2-logo-vector-v2/fase-3/index.html#carga">Revisar tamaños reales →</a></article><article class="motion-card"><span class="motion-kicker">Personaje</span><h2>Mirada</h2><p>La célula mira a ambos lados y llega al momento eureka.</p><a href="../2-logo-vector-v2/animacion.html">Revisar la animación →</a></article><article class="motion-card"><span class="motion-kicker">Bienvenida y material</span><h2>Enfoque y Trazo</h2><p>Entrada breve y narración más larga, con y sin nombre.</p><a href="../2-logo-vector-v2/fase-3/index.html#bienvenida">Comparar direcciones →</a></article></div><h2>Siguiente ronda</h2><p>El <a href="BRIEF.md">brief de motion</a> define las preguntas de uso, movimiento reducido y compatibilidad. <a href="../2-logo-vector-v2/index.html#color">Ver la paleta aprobada →</a></p></main></body></html>
+  </script>
+  <title>Céluma · Experimento 03 · Motion</title>
+  <link rel="icon" type="image/svg+xml" href="../2-logo-vector-v2/svg/isotipo/celuma-isotipo-color.svg">
+  <link rel="stylesheet" href="../../../styles/celuma-tokens.css">
+  <link rel="stylesheet" href="../../lab.css">
+  <link rel="stylesheet" href="galeria.css">
+</head>
+<body>
+  <a class="m-skip" href="#direcciones">Saltar a las direcciones</a>
+  <header class="lab-header">
+    <a class="lab-brand" href="../../index.html" aria-label="Volver al laboratorio visual de Céluma">
+      <img src="../2-logo-vector-v2/svg/isotipo/celuma-isotipo-color.svg" alt="" width="36" height="40">
+      <span>Céluma <small>Laboratorio visual</small></span>
+    </a>
+    <nav class="m-topnav" aria-label="Recorrido">
+      <a class="lab-back" href="../../index.html">← Laboratorio</a>
+      <a href="../2-logo-vector-v2/index.html">02 · Identidad</a>
+      <a href="../2-logo-vector-v2/fase-3/index.html">02 · Motion anterior</a>
+    </nav>
+  </header>
+
+  <main class="m-main" id="inicio">
+    <p class="lab-eyebrow">Experimento 03 · exploración · no aprobada</p>
+    <h1>Motion de Céluma</h1>
+    <p class="lab-intro">Seis direcciones propias de movimiento, de la más sobria (producto) a la más expresiva (marca). Todas parten del maestro, la paleta y el lockup A aprobados en el <a href="../2-logo-vector-v2/DECISION.md">experimento 02</a> y, en reposo, vuelven exactamente a ellos. Mirada, Luz, Enfoque y Trazo se muestran como antecedentes para comparar.</p>
+    <div class="lab-notice" role="note">
+      <strong>Estado real: exploración</strong>
+      <span>Ninguna pieza está aprobada, incorporada al Brand System ni adoptada en producto. Las maquetas usan datos ficticios. Las deformaciones temporales (Rebote) y los tratamientos durante la animación son candidatos de este experimento, no identidad. <a href="BRIEF.md">Brief</a> · <a href="README.md">README</a> · <a href="DECISION.md">Decisión</a> · <a href="PROMPT.md">Encargo</a></span>
+    </div>
+
+    <nav class="m-index" aria-label="Secciones de la galería">
+      <a href="#direcciones">Direcciones</a>
+      <a href="#contexto">En contexto</a>
+      <a href="#comparar">Comparar con 02</a>
+      <a href="#principios">Marca y principios</a>
+      <a href="#validacion">Validación</a>
+      <a href="#archivos">Archivos</a>
+    </nav>
+
+    <!-- Barra global -->
+    <div class="m-toolbar" role="toolbar" aria-label="Controles de reproducción de toda la galería">
+      <div class="m-group" role="group" aria-label="Reproducción">
+        <button class="m-btn primary" type="button" data-act="toggle" aria-pressed="true">Pausar</button>
+        <button class="m-btn" type="button" data-act="restart">Reiniciar</button>
+        <button class="m-btn" type="button" data-act="repeat" aria-pressed="true" title="Las piezas de una vez se repiten tras una pausa">Repetir</button>
+      </div>
+      <div class="m-group" role="group" aria-label="Velocidad">
+        <span class="m-lab">Velocidad</span>
+        <button class="m-btn" type="button" data-speed="0.25" aria-pressed="false">¼×</button>
+        <button class="m-btn" type="button" data-speed="0.5" aria-pressed="false">½×</button>
+        <button class="m-btn" type="button" data-speed="1" aria-pressed="true">1×</button>
+        <button class="m-btn" type="button" data-speed="2" aria-pressed="false">2×</button>
+      </div>
+      <div class="m-group" role="group" aria-label="Fondo">
+        <span class="m-lab">Fondo</span>
+        <button class="m-btn" type="button" data-bg="crema" aria-pressed="true">Crema</button>
+        <button class="m-btn" type="button" data-bg="blanco" aria-pressed="false">Blanco</button>
+        <button class="m-btn" type="button" data-bg="navy" aria-pressed="false">Navy</button>
+      </div>
+      <div class="m-group" role="group" aria-label="Firma">
+        <span class="m-lab">Firma</span>
+        <button class="m-btn" type="button" data-subject="isotipo" aria-pressed="true">Isotipo</button>
+        <button class="m-btn" type="button" data-subject="lockup-h" aria-pressed="false">Horizontal</button>
+        <button class="m-btn" type="button" data-subject="lockup-v" aria-pressed="false">Vertical</button>
+      </div>
+      <div class="m-group" role="group" aria-label="Movimiento reducido">
+        <button class="m-btn" type="button" data-act="reduced" aria-pressed="false">Movimiento reducido</button>
+      </div>
+    </div>
+    <p class="m-hint">Enlaces de revisión: la carpeta acepta <code>?fondo=navy</code>, <code>firma=lockup-h</code> o <code>lockup-v</code>, <code>velocidad=0.5</code> y <code>reducido=1</code>, más un ancla (p. ej. <code>#d-brote</code>). Use la dirección de carpeta con barra final.</p>
+    <p class="m-banner" id="m-reduced-banner" role="status" hidden>Movimiento reducido activo: cada pieza muestra su estado estático exacto y no se crea ningún reproductor.</p>
+    <p class="m-banner m-warn" id="m-fetch-banner" role="alert" hidden>La galería carga los archivos por HTTP. Ábrala con un servidor local (ver <a href="README.md">README</a>), no como archivo.</p>
+
+    <!-- Índice visual -->
+    <section id="direcciones" class="m-section" aria-labelledby="h-dir">
+      <h2 id="h-dir">Seis direcciones</h2>
+      <p class="m-lead">Ordenadas por nivel de expresión (● sobria → ●●●●● expresiva). Las dos primeras son para producto; las dos últimas, para material de marca. Cada una tiene su ficha, sus tamaños reales y sus archivos debajo.</p>
+      <div class="m-overview" id="m-overview"></div>
+    </section>
+
+    <div id="m-directions"></div>
+
+    <section id="contexto" class="m-section" aria-labelledby="h-ctx">
+      <h2 id="h-ctx">En contexto</h2>
+      <p class="m-lead">Maquetas con datos ficticios. El logo solo indica actividad o da la bienvenida; el estado, el avance y los resultados siempre están en texto. Ninguna animación confirma una operación.</p>
+      <div class="m-ctx-tabs" role="tablist" aria-label="Contextos de uso" id="m-ctx-tabs"></div>
+      <div id="m-ctx-panels"></div>
+    </section>
+
+    <section id="comparar" class="m-section" aria-labelledby="h-cmp">
+      <h2 id="h-cmp">Comparar con los antecedentes de 02</h2>
+      <p class="m-lead">Misma caja, misma escala del dibujo, mismo fondo y misma velocidad. Los archivos de 02 se leen desde su carpeta sin modificarlos.</p>
+      <div class="m-compare">
+        <div class="m-cmp-col">
+          <label class="m-select">Experimento 03 <select id="cmp-a"></select></label>
+          <div class="m-stage m-stage-cmp" id="cmp-stage-a"></div>
+          <p class="m-cmp-note" id="cmp-note-a"></p>
+        </div>
+        <div class="m-cmp-col">
+          <label class="m-select">Antecedente 02 <select id="cmp-b"></select></label>
+          <div class="m-stage m-stage-cmp" id="cmp-stage-b"></div>
+          <p class="m-cmp-note" id="cmp-note-b"></p>
+        </div>
+      </div>
+      <div class="m-transport" id="cmp-transport">
+        <button class="m-btn" type="button" data-cmp="restart">Reiniciar ambas</button>
+        <span class="m-readout" id="cmp-readout"></span>
+      </div>
+    </section>
+
+    <section id="principios" class="m-section" aria-labelledby="h-pri">
+      <h2 id="h-pri">Marca, producto y principios</h2>
+      <div class="m-two">
+        <div>
+          <h3>Qué se aprendió</h3>
+          <ul class="m-list">
+            <li><b>Célula + luz.</b> «¿Por qué Céluma?» (Notion): claridad, precisión y vida. «Propuesta de marca»: el sistema que <i>ilumina y ordena</i> el proceso patológico; el logo, una «célula estilizada con núcleo luminoso».</li>
+            <li><b>Carácter.</b> Profesional, biomédico y humano; modular, sobrio, con aire. Valores: Claridad, Precisión, Seguridad, Confianza, Humanidad.</li>
+            <li><b>Producto.</b> La carga es hoy un <code>Spin</code> genérico (sesión, permisos, vista previa del informe). Las esperas largas ya informan con texto («Firmando y generando PDF oficial…»). El motion existente dura 150–250 ms, con ease-out y sin rebote.</li>
+            <li><b>Precedencia.</b> Las decisiones de Rafael en 02 mandan; la paleta y la tipografía de Notion son históricas. Los lienzos aportan lenguaje visual (crema, navy, campo celular, puntos), no aprobaciones.</li>
+            <li><b>Conflicto detectado.</b> La barra lateral de la app pone el isotipo a color sobre teal, un fondo que 02 excluye. Queda pendiente de producto; las maquetas no aterrizan la firma sobre teal.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Principios de esta ronda</h3>
+          <ol class="m-list">
+            <li><b>Reposo exacto.</b> Todo termina o descansa en el maestro o el lockup aprobado.</li>
+            <li><b>La célula vive; la luz llega al final.</b> Primero ordena, luego ilumina.</li>
+            <li><b>Actividad, nunca progreso.</b> Sin llenado, sin cierre celebratorio; el estado va en texto.</li>
+            <li><b>Calma con precisión.</b> Producto: 150–450 ms, sin rebote; bucles ≥ 3 s con reposo.</li>
+            <li><b>Aire y un solo foco.</b> Reposo siempre sobre fondo liso.</li>
+            <li><b>Humanidad sin mascota.</b> Peso, inercia y atención; sin ojos ni bocas.</li>
+            <li><b>Color exacto.</b> Sin brillos, desenfoques ni amarillo a media opacidad sobre navy.</li>
+            <li><b>Formato honesto y accesible.</b> SVG + CSS en producto, Lottie cuando aporta, vídeo para redes; reducido = estático; pausa tras 3 ciclos o 5 s.</li>
+          </ol>
+        </div>
+      </div>
+      <p><a href="BRIEF.md">Fuentes, precedencia y oportunidades completas en el brief →</a></p>
+    </section>
+
+    <section id="validacion" class="m-section" aria-labelledby="h-val">
+      <h2 id="h-val">Validación</h2>
+      <p class="m-lead">Reproductores reales en Chromium (lottie-web 5.13.0 SVG y canvas, ThorVG 0.80.0, CSS en línea). Resumen generado por <code>scripts/validate.py</code>; detalle y límites en <a href="README.md#validacion">README</a>.</p>
+      <div id="m-validation" class="m-validation"><p class="m-muted">Cargando métricas…</p></div>
+    </section>
+
+    <section id="archivos" class="m-section" aria-labelledby="h-files">
+      <h2 id="h-files">Archivos</h2>
+      <p class="m-lead">Todo se regenera con <code>scripts/</code>. Los SVG + CSS y los Lottie son editables y vectoriales; los vídeos son vistas previas o piezas de ejemplo, no entregables finales para publicar.</p>
+      <div id="m-files" class="m-files"></div>
+    </section>
+  </main>
+
+  <footer class="m-footer">
+    <a href="../../index.html">← Volver al laboratorio visual</a>
+    <span>Experimento 03 · exploración · datos ficticios · sin publicación</span>
+    <a href="#inicio">Arriba ↑</a>
+  </footer>
+
+  <script src="vendor/lottie-web-5.13.0/lottie.min.js"></script>
+  <script src="js/atento.js"></script>
+  <script src="js/respira.js"></script>
+  <script src="js/relevo.js"></script>
+  <script src="galeria.js"></script>
+</body>
+</html>

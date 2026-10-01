@@ -1,0 +1,2003 @@
+{
+ "fps": 60,
+ "tag": "Exploración · experimento 03 · no aprobada",
+ "generated_by": "scripts/motion03.py",
+ "source": {
+  "master": "labs/experiments/2-logo-vector-v2/master/celuma-isotipo-maestro-paleta-aprobada.svg",
+  "palette": "labs/experiments/2-logo-vector-v2/master/celuma-paleta-aprobada.json",
+  "lockups": "labs/experiments/2-logo-vector-v2/svg/lockups/propuesta-a-baloo2/"
+ },
+ "palette": {
+  "membrana": "#49b6ad",
+  "trazos": "#49b6ad",
+  "citoplasma": "#bbead2",
+  "nucleo": "#f98d84",
+  "nucleolo": "#e5635f",
+  "rayos": "#f1c46c"
+ },
+ "geometry": {
+  "cell_centroid": [
+   368.408799084431,
+   452.6531681208315
+  ],
+  "cell_bottom": [
+   368.408799084431,
+   711.8661927777779
+  ],
+  "nucleo": [
+   388.36,
+   403.81
+  ],
+  "nucleolo": [
+   423.77,
+   364.8
+  ],
+  "ray_hide_depth": {
+   "rayo-1": 183.0,
+   "rayo-2": 190.0,
+   "rayo-3": 146.0
+  }
+ },
+ "variants": {
+  "respira|isotipo": {
+   "direction": "respira",
+   "subject": "isotipo",
+   "box": [
+    60,
+    28,
+    570,
+    692
+   ],
+   "op": 216,
+   "fin": null,
+   "loop": true,
+   "fps": 60,
+   "markers": [
+    [
+     "maestro",
+     0
+    ],
+    [
+     "inspira",
+     24
+    ],
+    [
+     "espira",
+     111
+    ],
+    [
+     "reposo",
+     192
+    ]
+   ],
+   "timeline": [
+    [
+     "Reposo (maestro)",
+     0,
+     0.4,
+     "reposo"
+    ],
+    [
+     "Inspira · el interior crece 3 %",
+     0.4,
+     1.7000000000000002,
+     "vida"
+    ],
+    [
+     "La luz acompaña (+10 u por rayo)",
+     0.48000000000000004,
+     1.7800000000000002,
+     "luz"
+    ],
+    [
+     "Pausa",
+     1.7000000000000002,
+     1.85,
+     "reposo"
+    ],
+    [
+     "Espira",
+     1.85,
+     3.2,
+     "vida"
+    ],
+    [
+     "Reposo (maestro)",
+     3.2,
+     3.6,
+     "reposo"
+    ]
+   ],
+   "lottie": "lottie/respira-isotipo.json",
+   "static": "estaticos/respira-isotipo.svg",
+   "duration_s": 3.6,
+   "motion_s": 3.6,
+   "css_svg": "svg/respira-isotipo.svg",
+   "bytes": {
+    "lottie": [
+     10901,
+     2637
+    ],
+    "css_svg": [
+     8458,
+     2721
+    ],
+    "static": [
+     4322,
+     2264
+    ]
+   }
+  },
+  "respira|lockup-h-pos": {
+   "direction": "respira",
+   "subject": "lockup-h-pos",
+   "box": [
+    60,
+    28,
+    2102,
+    688
+   ],
+   "op": 216,
+   "fin": null,
+   "loop": true,
+   "fps": 60,
+   "markers": [
+    [
+     "maestro",
+     0
+    ],
+    [
+     "inspira",
+     24
+    ],
+    [
+     "espira",
+     111
+    ],
+    [
+     "reposo",
+     192
+    ]
+   ],
+   "timeline": [
+    [
+     "Reposo (maestro)",
+     0,
+     0.4,
+     "reposo"
+    ],
+    [
+     "Inspira · el interior crece 3 %",
+     0.4,
+     1.7000000000000002,
+     "vida"
+    ],
+    [
+     "La luz acompaña (+10 u por rayo)",
+     0.48000000000000004,
+     1.7800000000000002,
+     "luz"
+    ],
+    [
+     "Pausa",
+     1.7000000000000002,
+     1.85,
+     "reposo"
+    ],
+    [
+     "Espira",
+     1.85,
+     3.2,
+     "vida"
+    ],
+    [
+     "Reposo (maestro)",
+     3.2,
+     3.6,
+     "reposo"
+    ]
+   ],
+   "lottie": "lottie/respira-lockup-h-pos.json",
+   "static": "estaticos/respira-lockup-h-pos.svg",
+   "duration_s": 3.6,
+   "motion_s": 3.6,
+   "css_svg": "svg/respira-lockup-h-pos.svg",
+   "bytes": {
+    "lottie": [
+     21345,
+     4995
+    ],
+    "css_svg": [
+     12485,
+     4418
+    ],
+    "static": [
+     8259,
+     3944
+    ]
+   }
+  },
+  "respira|lockup-h-neg": {
+   "direction": "respira",
+   "subject": "lockup-h-neg",
+   "box": [
+    60,
+    28,
+    2102,
+    688
+   ],
+   "op": 216,
+   "fin": null,
+   "loop": true,
+   "fps": 60,
+   "markers": [
+    [
+     "maestro",
+     0
+    ],
+    [
+     "inspira",
+     24
+    ],
+    [
+     "espira",
+     111
+    ],
+    [
+     "reposo",
+     192
+    ]
+   ],
+   "timeline": [
+    [
+     "Reposo (maestro)",
+     0,
+     0.4,
+     "reposo"
+    ],
+    [
+     "Inspira · el interior crece 3 %",
+     0.4,
+     1.7000000000000002,
+     "vida"
+    ],
+    [
+     "La luz acompaña (+10 u por rayo)",
+     0.48000000000000004,
+     1.7800000000000002,
+     "luz"
+    ],
+    [
+     "Pausa",
+     1.7000000000000002,
+     1.85,
+     "reposo"
+    ],
+    [
+     "Espira",
+     1.85,
+     3.2,
+     "vida"
+    ],
+    [
+     "Reposo (maestro)",
+     3.2,
+     3.6,
+     "reposo"
+    ]
+   ],
+   "lottie": "lottie/respira-lockup-h-neg.json",
+   "static": "estaticos/respira-lockup-h-neg.svg",
+   "duration_s": 3.6,
+   "motion_s": 3.6,
+   "css_svg": "svg/respira-lockup-h-neg.svg",
+   "bytes": {
+    "lottie": [
+     21342,
+     4986
+    ],
+    "css_svg": [
+     12485,
+     4416
+    ],
+    "static": [
+     8259,
+     3941
+    ]
+   }
+  },
+  "brote|isotipo": {
+   "direction": "brote",
+   "subject": "isotipo",
+   "box": [
+    65,
+    34,
+    565,
+    686
+   ],
+   "op": 122,
+   "fin": 95,
+   "loop": false,
+   "fps": 60,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "nucleolo",
+     6
+    ],
+    [
+     "celula",
+     18
+    ],
+    [
+     "luz",
+     60
+    ],
+    [
+     "final",
+     95
+    ]
+   ],
+   "timeline": [
+    [
+     "Punto de luz · nucléolo",
+     0.1,
+     0.42,
+     "luz"
+    ],
+    [
+     "El núcleo lo envuelve",
+     0.22,
+     0.7,
+     "vida"
+    ],
+    [
+     "La célula crece desde el núcleo",
+     0.3,
+     0.98,
+     "vida"
+    ],
+    [
+     "Trazos internos",
+     0.78,
+     1.18,
+     "forma"
+    ],
+    [
+     "La luz sale de la célula · 3 → 2 → 1",
+     1.0,
+     1.5799999999999998,
+     "luz"
+    ],
+    [
+     "Final = lockup/maestro exacto",
+     1.5799999999999998,
+     2.03,
+     "final"
+    ]
+   ],
+   "lottie": "lottie/brote-isotipo.json",
+   "static": "estaticos/brote-isotipo.svg",
+   "duration_s": 2.033,
+   "motion_s": 1.583,
+   "css_svg": "svg/brote-isotipo.svg",
+   "bytes": {
+    "lottie": [
+     19295,
+     2884
+    ],
+    "css_svg": [
+     11212,
+     3047
+    ],
+    "static": [
+     4320,
+     2262
+    ]
+   }
+  },
+  "brote|lockup-h-pos": {
+   "direction": "brote",
+   "subject": "lockup-h-pos",
+   "box": [
+    69,
+    38,
+    2093,
+    678
+   ],
+   "op": 134,
+   "fin": 107,
+   "loop": false,
+   "fps": 60,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "nucleolo",
+     6
+    ],
+    [
+     "celula",
+     18
+    ],
+    [
+     "luz",
+     60
+    ],
+    [
+     "nombre",
+     59
+    ],
+    [
+     "final",
+     107
+    ]
+   ],
+   "timeline": [
+    [
+     "Punto de luz · nucléolo",
+     0.1,
+     0.42,
+     "luz"
+    ],
+    [
+     "El núcleo lo envuelve",
+     0.22,
+     0.7,
+     "vida"
+    ],
+    [
+     "La célula crece desde el núcleo",
+     0.3,
+     0.98,
+     "vida"
+    ],
+    [
+     "Trazos internos",
+     0.78,
+     1.18,
+     "forma"
+    ],
+    [
+     "La luz sale de la célula · 3 → 2 → 1",
+     1.0,
+     1.5799999999999998,
+     "luz"
+    ],
+    [
+     "El nombre se asienta · letra a letra",
+     0.98,
+     1.67,
+     "tipo"
+    ],
+    [
+     "El acento brota al final",
+     1.42,
+     1.78,
+     "tipo"
+    ],
+    [
+     "Final = lockup/maestro exacto",
+     1.78,
+     2.23,
+     "final"
+    ]
+   ],
+   "lottie": "lottie/brote-lockup-h-pos.json",
+   "static": "estaticos/brote-lockup-h-pos.svg",
+   "duration_s": 2.233,
+   "motion_s": 1.783,
+   "css_svg": "svg/brote-lockup-h-pos.svg",
+   "bytes": {
+    "lottie": [
+     47814,
+     6083
+    ],
+    "css_svg": [
+     26598,
+     5360
+    ],
+    "static": [
+     8257,
+     3941
+    ]
+   }
+  },
+  "brote|lockup-h-neg": {
+   "direction": "brote",
+   "subject": "lockup-h-neg",
+   "box": [
+    69,
+    38,
+    2093,
+    678
+   ],
+   "op": 134,
+   "fin": 107,
+   "loop": false,
+   "fps": 60,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "nucleolo",
+     6
+    ],
+    [
+     "celula",
+     18
+    ],
+    [
+     "luz",
+     60
+    ],
+    [
+     "nombre",
+     59
+    ],
+    [
+     "final",
+     107
+    ]
+   ],
+   "timeline": [
+    [
+     "Punto de luz · nucléolo",
+     0.1,
+     0.42,
+     "luz"
+    ],
+    [
+     "El núcleo lo envuelve",
+     0.22,
+     0.7,
+     "vida"
+    ],
+    [
+     "La célula crece desde el núcleo",
+     0.3,
+     0.98,
+     "vida"
+    ],
+    [
+     "Trazos internos",
+     0.78,
+     1.18,
+     "forma"
+    ],
+    [
+     "La luz sale de la célula · 3 → 2 → 1",
+     1.0,
+     1.5799999999999998,
+     "luz"
+    ],
+    [
+     "El nombre se asienta · letra a letra",
+     0.98,
+     1.67,
+     "tipo"
+    ],
+    [
+     "El acento brota al final",
+     1.42,
+     1.78,
+     "tipo"
+    ],
+    [
+     "Final = lockup/maestro exacto",
+     1.78,
+     2.23,
+     "final"
+    ]
+   ],
+   "lottie": "lottie/brote-lockup-h-neg.json",
+   "static": "estaticos/brote-lockup-h-neg.svg",
+   "duration_s": 2.233,
+   "motion_s": 1.783,
+   "css_svg": "svg/brote-lockup-h-neg.svg",
+   "bytes": {
+    "lottie": [
+     47790,
+     6075
+    ],
+    "css_svg": [
+     26598,
+     5357
+    ],
+    "static": [
+     8257,
+     3938
+    ]
+   }
+  },
+  "brote|lockup-v-pos": {
+   "direction": "brote",
+   "subject": "lockup-v-pos",
+   "box": [
+    -69,
+    38,
+    833,
+    978
+   ],
+   "op": 134,
+   "fin": 107,
+   "loop": false,
+   "fps": 60,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "nucleolo",
+     6
+    ],
+    [
+     "celula",
+     18
+    ],
+    [
+     "luz",
+     60
+    ],
+    [
+     "nombre",
+     59
+    ],
+    [
+     "final",
+     107
+    ]
+   ],
+   "timeline": [
+    [
+     "Punto de luz · nucléolo",
+     0.1,
+     0.42,
+     "luz"
+    ],
+    [
+     "El núcleo lo envuelve",
+     0.22,
+     0.7,
+     "vida"
+    ],
+    [
+     "La célula crece desde el núcleo",
+     0.3,
+     0.98,
+     "vida"
+    ],
+    [
+     "Trazos internos",
+     0.78,
+     1.18,
+     "forma"
+    ],
+    [
+     "La luz sale de la célula · 3 → 2 → 1",
+     1.0,
+     1.5799999999999998,
+     "luz"
+    ],
+    [
+     "El nombre se asienta · letra a letra",
+     0.98,
+     1.67,
+     "tipo"
+    ],
+    [
+     "El acento brota al final",
+     1.42,
+     1.78,
+     "tipo"
+    ],
+    [
+     "Final = lockup/maestro exacto",
+     1.78,
+     2.23,
+     "final"
+    ]
+   ],
+   "lottie": "lottie/brote-lockup-v-pos.json",
+   "static": "estaticos/brote-lockup-v-pos.svg",
+   "duration_s": 2.233,
+   "motion_s": 1.783,
+   "css_svg": "svg/brote-lockup-v-pos.svg",
+   "bytes": {
+    "lottie": [
+     47811,
+     6092
+    ],
+    "css_svg": [
+     26605,
+     5364
+    ],
+    "static": [
+     8254,
+     3939
+    ]
+   }
+  },
+  "brote|lockup-v-neg": {
+   "direction": "brote",
+   "subject": "lockup-v-neg",
+   "box": [
+    -69,
+    38,
+    833,
+    978
+   ],
+   "op": 134,
+   "fin": 107,
+   "loop": false,
+   "fps": 60,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "nucleolo",
+     6
+    ],
+    [
+     "celula",
+     18
+    ],
+    [
+     "luz",
+     60
+    ],
+    [
+     "nombre",
+     59
+    ],
+    [
+     "final",
+     107
+    ]
+   ],
+   "timeline": [
+    [
+     "Punto de luz · nucléolo",
+     0.1,
+     0.42,
+     "luz"
+    ],
+    [
+     "El núcleo lo envuelve",
+     0.22,
+     0.7,
+     "vida"
+    ],
+    [
+     "La célula crece desde el núcleo",
+     0.3,
+     0.98,
+     "vida"
+    ],
+    [
+     "Trazos internos",
+     0.78,
+     1.18,
+     "forma"
+    ],
+    [
+     "La luz sale de la célula · 3 → 2 → 1",
+     1.0,
+     1.5799999999999998,
+     "luz"
+    ],
+    [
+     "El nombre se asienta · letra a letra",
+     0.98,
+     1.67,
+     "tipo"
+    ],
+    [
+     "El acento brota al final",
+     1.42,
+     1.78,
+     "tipo"
+    ],
+    [
+     "Final = lockup/maestro exacto",
+     1.78,
+     2.23,
+     "final"
+    ]
+   ],
+   "lottie": "lottie/brote-lockup-v-neg.json",
+   "static": "estaticos/brote-lockup-v-neg.svg",
+   "duration_s": 2.233,
+   "motion_s": 1.783,
+   "css_svg": "svg/brote-lockup-v-neg.svg",
+   "bytes": {
+    "lottie": [
+     47787,
+     6084
+    ],
+    "css_svg": [
+     26605,
+     5362
+    ],
+    "static": [
+     8254,
+     3936
+    ]
+   }
+  },
+  "rebote|isotipo": {
+   "direction": "rebote",
+   "subject": "isotipo",
+   "box": [
+    52,
+    -226,
+    611,
+    946
+   ],
+   "op": 112,
+   "fin": 82,
+   "loop": false,
+   "fps": 60,
+   "markers": [
+    [
+     "cae",
+     0
+    ],
+    [
+     "toca",
+     20
+    ],
+    [
+     "rebota",
+     30
+    ],
+    [
+     "luz",
+     48
+    ],
+    [
+     "final",
+     82
+    ]
+   ],
+   "timeline": [
+    [
+     "Aparece y cae con peso (se estira)",
+     0.0,
+     0.34,
+     "peso"
+    ],
+    [
+     "Toca · se aplasta 15 %",
+     0.34,
+     0.5,
+     "peso"
+    ],
+    [
+     "Rebote y segundo apoyo",
+     0.5,
+     0.8800000000000001,
+     "peso"
+    ],
+    [
+     "El nucléolo sigue por inercia",
+     0.34,
+     0.8600000000000001,
+     "vida"
+    ],
+    [
+     "La luz asoma con impulso · 3 → 2 → 1",
+     0.8,
+     1.36,
+     "luz"
+    ],
+    [
+     "Final = maestro/lockup exacto",
+     1.36,
+     1.86,
+     "final"
+    ]
+   ],
+   "lottie": "lottie/rebote-isotipo.json",
+   "static": "estaticos/rebote-isotipo.svg",
+   "duration_s": 1.867,
+   "motion_s": 1.367,
+   "bytes": {
+    "lottie": [
+     19723,
+     3011
+    ],
+    "static": [
+     4323,
+     2264
+    ]
+   }
+  },
+  "rebote|lockup-h-pos": {
+   "direction": "rebote",
+   "subject": "lockup-h-pos",
+   "box": [
+    52,
+    -226,
+    2110,
+    942
+   ],
+   "op": 138,
+   "fin": 108,
+   "loop": false,
+   "fps": 60,
+   "markers": [
+    [
+     "cae",
+     0
+    ],
+    [
+     "toca",
+     20
+    ],
+    [
+     "rebota",
+     30
+    ],
+    [
+     "luz",
+     48
+    ],
+    [
+     "nombre",
+     56
+    ],
+    [
+     "final",
+     108
+    ]
+   ],
+   "timeline": [
+    [
+     "Aparece y cae con peso (se estira)",
+     0.0,
+     0.34,
+     "peso"
+    ],
+    [
+     "Toca · se aplasta 15 %",
+     0.34,
+     0.5,
+     "peso"
+    ],
+    [
+     "Rebote y segundo apoyo",
+     0.5,
+     0.8800000000000001,
+     "peso"
+    ],
+    [
+     "El nucléolo sigue por inercia",
+     0.34,
+     0.8600000000000001,
+     "vida"
+    ],
+    [
+     "La luz asoma con impulso · 3 → 2 → 1",
+     0.8,
+     1.36,
+     "luz"
+    ],
+    [
+     "Las letras saltan a su sitio",
+     0.94,
+     1.54,
+     "tipo"
+    ],
+    [
+     "El acento cae al final",
+     1.4,
+     1.7999999999999998,
+     "tipo"
+    ],
+    [
+     "Final = maestro/lockup exacto",
+     1.7999999999999998,
+     2.3,
+     "final"
+    ]
+   ],
+   "lottie": "lottie/rebote-lockup-h-pos.json",
+   "static": "estaticos/rebote-lockup-h-pos.svg",
+   "duration_s": 2.3,
+   "motion_s": 1.8,
+   "bytes": {
+    "lottie": [
+     49076,
+     6277
+    ],
+    "static": [
+     8260,
+     3943
+    ]
+   }
+  },
+  "rebote|lockup-h-neg": {
+   "direction": "rebote",
+   "subject": "lockup-h-neg",
+   "box": [
+    52,
+    -226,
+    2110,
+    942
+   ],
+   "op": 138,
+   "fin": 108,
+   "loop": false,
+   "fps": 60,
+   "markers": [
+    [
+     "cae",
+     0
+    ],
+    [
+     "toca",
+     20
+    ],
+    [
+     "rebota",
+     30
+    ],
+    [
+     "luz",
+     48
+    ],
+    [
+     "nombre",
+     56
+    ],
+    [
+     "final",
+     108
+    ]
+   ],
+   "timeline": [
+    [
+     "Aparece y cae con peso (se estira)",
+     0.0,
+     0.34,
+     "peso"
+    ],
+    [
+     "Toca · se aplasta 15 %",
+     0.34,
+     0.5,
+     "peso"
+    ],
+    [
+     "Rebote y segundo apoyo",
+     0.5,
+     0.8800000000000001,
+     "peso"
+    ],
+    [
+     "El nucléolo sigue por inercia",
+     0.34,
+     0.8600000000000001,
+     "vida"
+    ],
+    [
+     "La luz asoma con impulso · 3 → 2 → 1",
+     0.8,
+     1.36,
+     "luz"
+    ],
+    [
+     "Las letras saltan a su sitio",
+     0.94,
+     1.54,
+     "tipo"
+    ],
+    [
+     "El acento cae al final",
+     1.4,
+     1.7999999999999998,
+     "tipo"
+    ],
+    [
+     "Final = maestro/lockup exacto",
+     1.7999999999999998,
+     2.3,
+     "final"
+    ]
+   ],
+   "lottie": "lottie/rebote-lockup-h-neg.json",
+   "static": "estaticos/rebote-lockup-h-neg.svg",
+   "duration_s": 2.3,
+   "motion_s": 1.8,
+   "bytes": {
+    "lottie": [
+     49052,
+     6268
+    ],
+    "static": [
+     8260,
+     3940
+    ]
+   }
+  },
+  "rebote|lockup-v-pos": {
+   "direction": "rebote",
+   "subject": "lockup-v-pos",
+   "box": [
+    -69,
+    -226,
+    833,
+    1234
+   ],
+   "op": 138,
+   "fin": 108,
+   "loop": false,
+   "fps": 60,
+   "markers": [
+    [
+     "cae",
+     0
+    ],
+    [
+     "toca",
+     20
+    ],
+    [
+     "rebota",
+     30
+    ],
+    [
+     "luz",
+     48
+    ],
+    [
+     "nombre",
+     56
+    ],
+    [
+     "final",
+     108
+    ]
+   ],
+   "timeline": [
+    [
+     "Aparece y cae con peso (se estira)",
+     0.0,
+     0.34,
+     "peso"
+    ],
+    [
+     "Toca · se aplasta 15 %",
+     0.34,
+     0.5,
+     "peso"
+    ],
+    [
+     "Rebote y segundo apoyo",
+     0.5,
+     0.8800000000000001,
+     "peso"
+    ],
+    [
+     "El nucléolo sigue por inercia",
+     0.34,
+     0.8600000000000001,
+     "vida"
+    ],
+    [
+     "La luz asoma con impulso · 3 → 2 → 1",
+     0.8,
+     1.36,
+     "luz"
+    ],
+    [
+     "Las letras saltan a su sitio",
+     0.94,
+     1.54,
+     "tipo"
+    ],
+    [
+     "El acento cae al final",
+     1.4,
+     1.7999999999999998,
+     "tipo"
+    ],
+    [
+     "Final = maestro/lockup exacto",
+     1.7999999999999998,
+     2.3,
+     "final"
+    ]
+   ],
+   "lottie": "lottie/rebote-lockup-v-pos.json",
+   "static": "estaticos/rebote-lockup-v-pos.svg",
+   "duration_s": 2.3,
+   "motion_s": 1.8,
+   "bytes": {
+    "lottie": [
+     49050,
+     6290
+    ],
+    "static": [
+     8259,
+     3941
+    ]
+   }
+  },
+  "rebote|lockup-v-neg": {
+   "direction": "rebote",
+   "subject": "lockup-v-neg",
+   "box": [
+    -69,
+    -226,
+    833,
+    1234
+   ],
+   "op": 138,
+   "fin": 108,
+   "loop": false,
+   "fps": 60,
+   "markers": [
+    [
+     "cae",
+     0
+    ],
+    [
+     "toca",
+     20
+    ],
+    [
+     "rebota",
+     30
+    ],
+    [
+     "luz",
+     48
+    ],
+    [
+     "nombre",
+     56
+    ],
+    [
+     "final",
+     108
+    ]
+   ],
+   "timeline": [
+    [
+     "Aparece y cae con peso (se estira)",
+     0.0,
+     0.34,
+     "peso"
+    ],
+    [
+     "Toca · se aplasta 15 %",
+     0.34,
+     0.5,
+     "peso"
+    ],
+    [
+     "Rebote y segundo apoyo",
+     0.5,
+     0.8800000000000001,
+     "peso"
+    ],
+    [
+     "El nucléolo sigue por inercia",
+     0.34,
+     0.8600000000000001,
+     "vida"
+    ],
+    [
+     "La luz asoma con impulso · 3 → 2 → 1",
+     0.8,
+     1.36,
+     "luz"
+    ],
+    [
+     "Las letras saltan a su sitio",
+     0.94,
+     1.54,
+     "tipo"
+    ],
+    [
+     "El acento cae al final",
+     1.4,
+     1.7999999999999998,
+     "tipo"
+    ],
+    [
+     "Final = maestro/lockup exacto",
+     1.7999999999999998,
+     2.3,
+     "final"
+    ]
+   ],
+   "lottie": "lottie/rebote-lockup-v-neg.json",
+   "static": "estaticos/rebote-lockup-v-neg.svg",
+   "duration_s": 2.3,
+   "motion_s": 1.8,
+   "bytes": {
+    "lottie": [
+     49026,
+     6280
+    ],
+    "static": [
+     8259,
+     3940
+    ]
+   }
+  },
+  "orden|isotipo": {
+   "direction": "orden",
+   "subject": "isotipo",
+   "box": [
+    -390,
+    -360,
+    1474,
+    1474
+   ],
+   "op": 260,
+   "fin": 221,
+   "loop": false,
+   "fps": 60,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "campo",
+     9
+    ],
+    [
+     "orden",
+     75
+    ],
+    [
+     "celula",
+     117
+    ],
+    [
+     "luz",
+     155
+    ],
+    [
+     "final",
+     221
+    ]
+   ],
+   "timeline": [
+    [
+     "Campo celular · aparece y deriva",
+     0.15,
+     1.35,
+     "campo"
+    ],
+    [
+     "Orden · cada célula a su ranura",
+     1.25,
+     2.35,
+     "orden"
+    ],
+    [
+     "Una célula se vuelve Céluma",
+     1.95,
+     2.55,
+     "vida"
+    ],
+    [
+     "La luz sale de la célula",
+     2.58,
+     3.2,
+     "luz"
+    ],
+    [
+     "Frente de luz · la cuadrícula se despeja",
+     2.62,
+     3.6799999999999997,
+     "luz"
+    ],
+    [
+     "Final = lockup/isotipo exacto sobre fondo liso",
+     3.6799999999999997,
+     4.33,
+     "final"
+    ]
+   ],
+   "lottie": "lottie/orden-isotipo.json",
+   "static": "estaticos/orden-isotipo.svg",
+   "duration_s": 4.333,
+   "motion_s": 3.683,
+   "aspect": "1:1",
+   "cells": 36,
+   "central_cell": 15,
+   "grid_step": 210.57142857142858,
+   "bytes": {
+    "lottie": [
+     133731,
+     11493
+    ],
+    "static": [
+     4235,
+     2207
+    ]
+   }
+  },
+  "orden|lockup-h-pos": {
+   "direction": "orden",
+   "subject": "lockup-h-pos",
+   "box": [
+    -683,
+    -635,
+    3595,
+    2023
+   ],
+   "op": 267,
+   "fin": 228,
+   "loop": false,
+   "fps": 60,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "campo",
+     9
+    ],
+    [
+     "orden",
+     75
+    ],
+    [
+     "celula",
+     117
+    ],
+    [
+     "luz",
+     155
+    ],
+    [
+     "nombre",
+     180
+    ],
+    [
+     "final",
+     228
+    ]
+   ],
+   "timeline": [
+    [
+     "Campo celular · aparece y deriva",
+     0.15,
+     1.35,
+     "campo"
+    ],
+    [
+     "Orden · cada célula a su ranura",
+     1.25,
+     2.35,
+     "orden"
+    ],
+    [
+     "Una célula se vuelve Céluma",
+     1.95,
+     2.55,
+     "vida"
+    ],
+    [
+     "La luz sale de la célula",
+     2.58,
+     3.2,
+     "luz"
+    ],
+    [
+     "Frente de luz · la cuadrícula se despeja",
+     2.62,
+     3.6799999999999997,
+     "luz"
+    ],
+    [
+     "El nombre se asienta",
+     3.0,
+     3.72,
+     "tipo"
+    ],
+    [
+     "Final = lockup/isotipo exacto sobre fondo liso",
+     3.801582817899957,
+     4.451582817899957,
+     "final"
+    ]
+   ],
+   "lottie": "lottie/orden-lockup-h-pos.json",
+   "static": "estaticos/orden-lockup-h-pos.svg",
+   "duration_s": 4.45,
+   "motion_s": 3.8,
+   "aspect": "16:9",
+   "cells": 50,
+   "central_cell": 3,
+   "grid_step": 326.8181818181818,
+   "bytes": {
+    "lottie": [
+     205889,
+     18099
+    ],
+    "static": [
+     8170,
+     3887
+    ]
+   }
+  },
+  "orden|lockup-h-neg": {
+   "direction": "orden",
+   "subject": "lockup-h-neg",
+   "box": [
+    -683,
+    -635,
+    3595,
+    2023
+   ],
+   "op": 267,
+   "fin": 228,
+   "loop": false,
+   "fps": 60,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "campo",
+     9
+    ],
+    [
+     "orden",
+     75
+    ],
+    [
+     "celula",
+     117
+    ],
+    [
+     "luz",
+     155
+    ],
+    [
+     "nombre",
+     180
+    ],
+    [
+     "final",
+     228
+    ]
+   ],
+   "timeline": [
+    [
+     "Campo celular · aparece y deriva",
+     0.15,
+     1.35,
+     "campo"
+    ],
+    [
+     "Orden · cada célula a su ranura",
+     1.25,
+     2.35,
+     "orden"
+    ],
+    [
+     "Una célula se vuelve Céluma",
+     1.95,
+     2.55,
+     "vida"
+    ],
+    [
+     "La luz sale de la célula",
+     2.58,
+     3.2,
+     "luz"
+    ],
+    [
+     "Frente de luz · la cuadrícula se despeja",
+     2.62,
+     3.6799999999999997,
+     "luz"
+    ],
+    [
+     "El nombre se asienta",
+     3.0,
+     3.72,
+     "tipo"
+    ],
+    [
+     "Final = lockup/isotipo exacto sobre fondo liso",
+     3.801582817899957,
+     4.451582817899957,
+     "final"
+    ]
+   ],
+   "lottie": "lottie/orden-lockup-h-neg.json",
+   "static": "estaticos/orden-lockup-h-neg.svg",
+   "duration_s": 4.45,
+   "motion_s": 3.8,
+   "aspect": "16:9",
+   "cells": 50,
+   "central_cell": 3,
+   "grid_step": 326.8181818181818,
+   "bytes": {
+    "lottie": [
+     205865,
+     18089
+    ],
+    "static": [
+     8170,
+     3883
+    ]
+   }
+  },
+  "orden|lockup-v-pos": {
+   "direction": "orden",
+   "subject": "lockup-v-pos",
+   "box": [
+    -460,
+    -298,
+    1615,
+    1615
+   ],
+   "op": 262,
+   "fin": 223,
+   "loop": false,
+   "fps": 60,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "campo",
+     9
+    ],
+    [
+     "orden",
+     75
+    ],
+    [
+     "celula",
+     117
+    ],
+    [
+     "luz",
+     155
+    ],
+    [
+     "nombre",
+     180
+    ],
+    [
+     "final",
+     223
+    ]
+   ],
+   "timeline": [
+    [
+     "Campo celular · aparece y deriva",
+     0.15,
+     1.35,
+     "campo"
+    ],
+    [
+     "Orden · cada célula a su ranura",
+     1.25,
+     2.35,
+     "orden"
+    ],
+    [
+     "Una célula se vuelve Céluma",
+     1.95,
+     2.55,
+     "vida"
+    ],
+    [
+     "La luz sale de la célula",
+     2.58,
+     3.2,
+     "luz"
+    ],
+    [
+     "Frente de luz · la cuadrícula se despeja",
+     2.62,
+     3.6799999999999997,
+     "luz"
+    ],
+    [
+     "El nombre se asienta",
+     3.0,
+     3.72,
+     "tipo"
+    ],
+    [
+     "Final = lockup/isotipo exacto sobre fondo liso",
+     3.72,
+     4.37,
+     "final"
+    ]
+   ],
+   "lottie": "lottie/orden-lockup-v-pos.json",
+   "static": "estaticos/orden-lockup-v-pos.svg",
+   "duration_s": 4.367,
+   "motion_s": 3.717,
+   "aspect": "1:1",
+   "cells": 36,
+   "central_cell": 30,
+   "grid_step": 230.71428571428572,
+   "bytes": {
+    "lottie": [
+     162381,
+     14784
+    ],
+    "static": [
+     8168,
+     3881
+    ]
+   }
+  },
+  "orden|lockup-v-neg": {
+   "direction": "orden",
+   "subject": "lockup-v-neg",
+   "box": [
+    -460,
+    -298,
+    1615,
+    1615
+   ],
+   "op": 262,
+   "fin": 223,
+   "loop": false,
+   "fps": 60,
+   "markers": [
+    [
+     "vacio",
+     0
+    ],
+    [
+     "campo",
+     9
+    ],
+    [
+     "orden",
+     75
+    ],
+    [
+     "celula",
+     117
+    ],
+    [
+     "luz",
+     155
+    ],
+    [
+     "nombre",
+     180
+    ],
+    [
+     "final",
+     223
+    ]
+   ],
+   "timeline": [
+    [
+     "Campo celular · aparece y deriva",
+     0.15,
+     1.35,
+     "campo"
+    ],
+    [
+     "Orden · cada célula a su ranura",
+     1.25,
+     2.35,
+     "orden"
+    ],
+    [
+     "Una célula se vuelve Céluma",
+     1.95,
+     2.55,
+     "vida"
+    ],
+    [
+     "La luz sale de la célula",
+     2.58,
+     3.2,
+     "luz"
+    ],
+    [
+     "Frente de luz · la cuadrícula se despeja",
+     2.62,
+     3.6799999999999997,
+     "luz"
+    ],
+    [
+     "El nombre se asienta",
+     3.0,
+     3.72,
+     "tipo"
+    ],
+    [
+     "Final = lockup/isotipo exacto sobre fondo liso",
+     3.72,
+     4.37,
+     "final"
+    ]
+   ],
+   "lottie": "lottie/orden-lockup-v-neg.json",
+   "static": "estaticos/orden-lockup-v-neg.svg",
+   "duration_s": 4.367,
+   "motion_s": 3.717,
+   "aspect": "1:1",
+   "cells": 36,
+   "central_cell": 30,
+   "grid_step": 230.71428571428572,
+   "bytes": {
+    "lottie": [
+     162357,
+     14774
+    ],
+    "static": [
+     8168,
+     3877
+    ]
+   }
+  }
+ },
+ "statics": {
+  "atento|isotipo": {
+   "file": "estaticos/atento-isotipo.svg",
+   "box": [
+    69,
+    38,
+    557,
+    678
+   ]
+  },
+  "atento|lockup-h-pos": {
+   "file": "estaticos/atento-lockup-h-pos.svg",
+   "box": [
+    69,
+    38,
+    2093,
+    678
+   ]
+  },
+  "atento|lockup-h-neg": {
+   "file": "estaticos/atento-lockup-h-neg.svg",
+   "box": [
+    69,
+    38,
+    2093,
+    678
+   ]
+  },
+  "relevo|lockup-h-pos": {
+   "file": "estaticos/relevo-lockup-h-pos.svg",
+   "box": [
+    69,
+    38,
+    2093,
+    678
+   ]
+  },
+  "relevo|lockup-h-neg": {
+   "file": "estaticos/relevo-lockup-h-neg.svg",
+   "box": [
+    69,
+    38,
+    2093,
+    678
+   ]
+  }
+ },
+ "timing": {
+  "respira": {
+   "total": 3.6,
+   "rest0": 0.4,
+   "in": 1.3,
+   "hold": 0.15,
+   "out": 1.35,
+   "S": 1.03,
+   "ray": 10.0,
+   "lag": 0.08
+  },
+  "brote": {
+   "nucleolo": [
+    0.1,
+    0.42
+   ],
+   "nucleo": [
+    0.22,
+    0.7
+   ],
+   "cuerpo": [
+    0.3,
+    0.98
+   ],
+   "trazo_l": [
+    0.78,
+    1.1
+   ],
+   "trazo_r": [
+    0.86,
+    1.18
+   ],
+   "rays": 1.0,
+   "ray_dur": 0.42,
+   "ray_stagger": 0.08,
+   "letters": 0.98,
+   "letter_dur": 0.44,
+   "letter_stagger": 0.05,
+   "rise_em": 0.13,
+   "accent": [
+    1.42,
+    1.78
+   ],
+   "hold": 0.45
+  },
+  "rebote": {
+   "hold": 0.5,
+   "drop": 0.5,
+   "land": 0.34
+  },
+  "orden": {
+   "appear": [
+    0.15,
+    0.75
+   ],
+   "appear_dur": 0.45,
+   "drift_end": 1.35,
+   "order": [
+    1.25,
+    1.55
+   ],
+   "order_dur": [
+    0.6,
+    0.8
+   ],
+   "grow": [
+    1.95,
+    2.55
+   ],
+   "nucleo": [
+    2.08,
+    2.58
+   ],
+   "trazos": [
+    2.28,
+    2.66
+   ],
+   "rays": 2.58,
+   "ray_dur": 0.46,
+   "ray_stagger": 0.08,
+   "wave": 2.62,
+   "wave_span": 0.72,
+   "wave_dur": 0.34,
+   "letters": 3.0,
+   "letter_dur": 0.44,
+   "letter_stagger": 0.05,
+   "accent": [
+    3.4,
+    3.72
+   ],
+   "hold": 0.65
+  }
+ }
+}
