@@ -1,4 +1,4 @@
-/* Experimento 03 · galería de motion — exploración, no aprobada.
+/* Experimento 03 · motion aprobado en el laboratorio; incorporación pendiente.
    Base: ../../../styles/celuma-tokens.css y ../../lab.css. Solo estilos locales; no redefine tokens compartidos. */
 :root {
   --m-crema: #fbf6ec; --m-blanco: #ffffff; --m-navy: #0d1b2a;
@@ -10,8 +10,11 @@ html { scroll-padding-top: 16px; }
 body { overflow-x: hidden; }
 .m-skip { position: absolute; left: -999px; top: 8px; z-index: 30; background: #fff; padding: 8px 12px; border-radius: 8px; }
 .m-skip:focus { left: 8px; }
-.m-topnav { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; font-size: 14px; }
-.m-topnav a { font-weight: 600; }
+.m-experiment-nav { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; padding: 9px clamp(16px, 4vw, 48px); background: #f7f4ed; border-bottom: 1px solid var(--m-line); font-size: 13px; }
+.m-experiment-nav a { padding: 6px 10px; border-radius: 999px; font-weight: 700; text-decoration: none; }
+.m-experiment-nav a:hover { background: var(--celuma-primary-soft); }
+.m-experiment-nav a[aria-current="page"] { background: var(--celuma-ink); color: #fff; }
+.m-experiment-nav strong { margin-right: 8px; }
 .m-main { max-width: 1280px; margin: 0 auto; padding: clamp(28px, 5vw, 56px) 20px 80px; }
 .m-main h1 { margin-bottom: 4px; }
 .m-section { margin-top: 56px; scroll-margin-top: 150px; }

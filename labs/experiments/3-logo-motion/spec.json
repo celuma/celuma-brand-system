@@ -1,6 +1,6 @@
 {
  "fps": 60,
- "tag": "Exploración · experimento 03 · no aprobada",
+ "tag": "Aprobado en laboratorio · experimento 03",
  "generated_by": "scripts/motion03.py",
  "source": {
   "master": "labs/experiments/2-logo-vector-v2/master/celuma-isotipo-maestro-paleta-aprobada.svg",
@@ -115,12 +115,12 @@
    "css_svg": "svg/respira-isotipo.svg",
    "bytes": {
     "lottie": [
-     10901,
-     2637
+     10893,
+     2639
     ],
     "css_svg": [
-     8458,
-     2721
+     8450,
+     2720
     ],
     "static": [
      4322,
@@ -204,12 +204,12 @@
    "css_svg": "svg/respira-lockup-h-pos.svg",
    "bytes": {
     "lottie": [
-     21345,
-     4995
+     21337,
+     4998
     ],
     "css_svg": [
-     12485,
-     4418
+     12477,
+     4417
     ],
     "static": [
      8259,
@@ -293,12 +293,12 @@
    "css_svg": "svg/respira-lockup-h-neg.svg",
    "bytes": {
     "lottie": [
-     21342,
-     4986
+     21334,
+     4990
     ],
     "css_svg": [
-     12485,
-     4416
+     12477,
+     4415
     ],
     "static": [
      8259,
@@ -386,12 +386,12 @@
    "css_svg": "svg/brote-isotipo.svg",
    "bytes": {
     "lottie": [
-     19295,
-     2884
+     19287,
+     2887
     ],
     "css_svg": [
-     11212,
-     3047
+     11204,
+     3045
     ],
     "static": [
      4320,
@@ -495,12 +495,12 @@
    "css_svg": "svg/brote-lockup-h-pos.svg",
    "bytes": {
     "lottie": [
-     47814,
-     6083
+     47806,
+     6082
     ],
     "css_svg": [
-     26598,
-     5360
+     26590,
+     5359
     ],
     "static": [
      8257,
@@ -604,11 +604,11 @@
    "css_svg": "svg/brote-lockup-h-neg.svg",
    "bytes": {
     "lottie": [
-     47790,
-     6075
+     47782,
+     6074
     ],
     "css_svg": [
-     26598,
+     26590,
      5357
     ],
     "static": [
@@ -713,11 +713,11 @@
    "css_svg": "svg/brote-lockup-v-pos.svg",
    "bytes": {
     "lottie": [
-     47811,
-     6092
+     47803,
+     6093
     ],
     "css_svg": [
-     26605,
+     26597,
      5364
     ],
     "static": [
@@ -822,11 +822,11 @@
    "css_svg": "svg/brote-lockup-v-neg.svg",
    "bytes": {
     "lottie": [
-     47787,
-     6084
+     47779,
+     6086
     ],
     "css_svg": [
-     26605,
+     26597,
      5362
     ],
     "static": [
@@ -914,8 +914,8 @@
    "motion_s": 1.367,
    "bytes": {
     "lottie": [
-     19723,
-     3011
+     19715,
+     3013
     ],
     "static": [
      4323,
@@ -1018,8 +1018,8 @@
    "motion_s": 1.8,
    "bytes": {
     "lottie": [
-     49076,
-     6277
+     49068,
+     6276
     ],
     "static": [
      8260,
@@ -1122,8 +1122,8 @@
    "motion_s": 1.8,
    "bytes": {
     "lottie": [
-     49052,
-     6268
+     49044,
+     6267
     ],
     "static": [
      8260,
@@ -1226,8 +1226,8 @@
    "motion_s": 1.8,
    "bytes": {
     "lottie": [
-     49050,
-     6290
+     49042,
+     6288
     ],
     "static": [
      8259,
@@ -1330,8 +1330,8 @@
    "motion_s": 1.8,
    "bytes": {
     "lottie": [
-     49026,
-     6280
+     49018,
+     6279
     ],
     "static": [
      8259,
@@ -1426,8 +1426,8 @@
    "grid_step": 210.57142857142858,
    "bytes": {
     "lottie": [
-     133731,
-     11493
+     133723,
+     11490
     ],
     "static": [
      4235,
@@ -1532,8 +1532,8 @@
    "grid_step": 326.8181818181818,
    "bytes": {
     "lottie": [
-     205889,
-     18099
+     205881,
+     18095
     ],
     "static": [
      8170,
@@ -1638,8 +1638,8 @@
    "grid_step": 326.8181818181818,
    "bytes": {
     "lottie": [
-     205865,
-     18089
+     205857,
+     18085
     ],
     "static": [
      8170,
@@ -1744,8 +1744,8 @@
    "grid_step": 230.71428571428572,
    "bytes": {
     "lottie": [
-     162381,
-     14784
+     162373,
+     14781
     ],
     "static": [
      8168,
@@ -1850,8 +1850,8 @@
    "grid_step": 230.71428571428572,
    "bytes": {
     "lottie": [
-     162357,
-     14774
+     162349,
+     14771
     ],
     "static": [
      8168,

@@ -1,4 +1,4 @@
-/* Céluma · experimento 03 · Respira — reglas de uso del loader como código (exploración, no aprobada).
+/* Céluma · experimento 03 · Respira — reglas de uso del loader como código (aprobado en laboratorio).
  *
  * El logo de carga solo indica actividad: el estado real lo dice el texto (role="status"). Estas reglas evitan
  * parpadeos en cargas cortas y distracción en esperas largas:

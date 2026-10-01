@@ -1,4 +1,4 @@
-"""Experimento 03 · dirección Orden — «ilumina y ordena» (exploración, no aprobada).
+"""Experimento 03 · dirección Orden — «ilumina y ordena» (aprobado en laboratorio).
 
 Escena de marca: un campo de células (el lenguaje del lienzo: anillo teal, citoplasma menta, algún núcleo salmón)
 aparece y deriva; cada célula viaja a una ranura de una cuadrícula regular y se condensa en un punto teal

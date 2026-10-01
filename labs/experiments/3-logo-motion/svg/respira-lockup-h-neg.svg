@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="60 28 2102 688" width="2102" height="688" role="img" aria-labelledby="t d">
-  <title id="t">Céluma · respira · lockup-h-neg · SVG + CSS · Exploración · experimento 03 · no aprobada</title>
-  <desc id="d">Exploración · experimento 03 · no aprobada. Respira · bucle de 3.6 s. Solo escala uniforme del interior (±3 %) y traslación axial de los rayos; membrana fija; primer y último fotograma = maestro. Con prefers-reduced-motion (SVG en línea) queda el arte estático exacto. Como &lt;img&gt;, Chromium ignora prefers-reduced-motion: usar en línea o &lt;picture&gt; con el estático.</desc>
+  <title id="t">Céluma · respira · lockup-h-neg · SVG + CSS · Aprobado en laboratorio · experimento 03</title>
+  <desc id="d">Aprobado en laboratorio · experimento 03. Respira · bucle de 3.6 s. Solo escala uniforme del interior (±3 %) y traslación axial de los rayos; membrana fija; primer y último fotograma = maestro. Con prefers-reduced-motion (SVG en línea) queda el arte estático exacto. Como &lt;img&gt;, Chromium ignora prefers-reduced-motion: usar en línea o &lt;picture&gt; con el estático.</desc>
   <style>
 @keyframes res-rayo-1-luz-tf {
   0.0000% { transform: translate(0px, 0px); animation-timing-function: cubic-bezier(0.0,0.0,1.0,1.0); }

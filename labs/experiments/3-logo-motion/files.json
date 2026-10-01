@@ -4,7 +4,7 @@
   {
    "path": "js/respira.js",
    "kind": "JS",
-   "bytes": 4732,
+   "bytes": 4730,
    "direction": "respira",
    "group": "Respira",
    "gzip": 2015,
@@ -13,50 +13,50 @@
   {
    "path": "lottie/respira-isotipo.json",
    "kind": "Lottie",
-   "bytes": 10901,
+   "bytes": 10893,
    "direction": "respira",
    "group": "Respira",
-   "gzip": 2637
+   "gzip": 2639
   },
   {
    "path": "lottie/respira-lockup-h-neg.json",
    "kind": "Lottie",
-   "bytes": 21342,
+   "bytes": 21334,
    "direction": "respira",
    "group": "Respira",
-   "gzip": 4986
+   "gzip": 4990
   },
   {
    "path": "lottie/respira-lockup-h-pos.json",
    "kind": "Lottie",
-   "bytes": 21345,
+   "bytes": 21337,
    "direction": "respira",
    "group": "Respira",
-   "gzip": 4995
+   "gzip": 4998
   },
   {
    "path": "svg/respira-isotipo.svg",
    "kind": "SVG + CSS",
-   "bytes": 8458,
+   "bytes": 8450,
    "direction": "respira",
    "group": "Respira",
-   "gzip": 2721
+   "gzip": 2720
   },
   {
    "path": "svg/respira-lockup-h-neg.svg",
    "kind": "SVG + CSS",
-   "bytes": 12485,
+   "bytes": 12477,
    "direction": "respira",
    "group": "Respira",
-   "gzip": 4416
+   "gzip": 4415
   },
   {
    "path": "svg/respira-lockup-h-pos.svg",
    "kind": "SVG + CSS",
-   "bytes": 12485,
+   "bytes": 12477,
    "direction": "respira",
    "group": "Respira",
-   "gzip": 4418
+   "gzip": 4417
   },
   {
    "path": "estaticos/respira-isotipo.svg",
@@ -85,35 +85,35 @@
   {
    "path": "preview/respira.mp4",
    "kind": "Vídeo MP4",
-   "bytes": 633136,
+   "bytes": 632216,
    "direction": "respira",
    "group": "Respira"
   },
   {
    "path": "preview/respira.webm",
    "kind": "Vídeo WebM",
-   "bytes": 612320,
+   "bytes": 611018,
    "direction": "respira",
    "group": "Respira"
   },
   {
    "path": "preview/respira-poster.jpg",
    "kind": "Póster",
-   "bytes": 43997,
+   "bytes": 43897,
    "direction": "respira",
    "group": "Respira"
   },
   {
    "path": "validation/lamina-respira.png",
    "kind": "Lámina",
-   "bytes": 274266,
+   "bytes": 279626,
    "direction": "respira",
    "group": "Respira"
   },
   {
    "path": "js/relevo.js",
    "kind": "JS",
-   "bytes": 3035,
+   "bytes": 3033,
    "direction": "relevo",
    "group": "Relevo",
    "gzip": 1275,
@@ -138,55 +138,55 @@
   {
    "path": "lottie/brote-isotipo.json",
    "kind": "Lottie",
-   "bytes": 19295,
+   "bytes": 19287,
    "direction": "brote",
    "group": "Brote",
-   "gzip": 2884
+   "gzip": 2887
   },
   {
    "path": "lottie/brote-lockup-h-neg.json",
    "kind": "Lottie",
-   "bytes": 47790,
+   "bytes": 47782,
    "direction": "brote",
    "group": "Brote",
-   "gzip": 6075
+   "gzip": 6074
   },
   {
    "path": "lottie/brote-lockup-h-pos.json",
    "kind": "Lottie",
-   "bytes": 47814,
+   "bytes": 47806,
    "direction": "brote",
    "group": "Brote",
-   "gzip": 6083
+   "gzip": 6082
   },
   {
    "path": "lottie/brote-lockup-v-neg.json",
    "kind": "Lottie",
-   "bytes": 47787,
+   "bytes": 47779,
    "direction": "brote",
    "group": "Brote",
-   "gzip": 6084
+   "gzip": 6086
   },
   {
    "path": "lottie/brote-lockup-v-pos.json",
    "kind": "Lottie",
-   "bytes": 47811,
+   "bytes": 47803,
    "direction": "brote",
    "group": "Brote",
-   "gzip": 6092
+   "gzip": 6093
   },
   {
    "path": "svg/brote-isotipo.svg",
    "kind": "SVG + CSS",
-   "bytes": 11212,
+   "bytes": 11204,
    "direction": "brote",
    "group": "Brote",
-   "gzip": 3047
+   "gzip": 3045
   },
   {
    "path": "svg/brote-lockup-h-neg.svg",
    "kind": "SVG + CSS",
-   "bytes": 26598,
+   "bytes": 26590,
    "direction": "brote",
    "group": "Brote",
    "gzip": 5357
@@ -194,15 +194,15 @@
   {
    "path": "svg/brote-lockup-h-pos.svg",
    "kind": "SVG + CSS",
-   "bytes": 26598,
+   "bytes": 26590,
    "direction": "brote",
    "group": "Brote",
-   "gzip": 5360
+   "gzip": 5359
   },
   {
    "path": "svg/brote-lockup-v-neg.svg",
    "kind": "SVG + CSS",
-   "bytes": 26605,
+   "bytes": 26597,
    "direction": "brote",
    "group": "Brote",
    "gzip": 5362
@@ -210,7 +210,7 @@
   {
    "path": "svg/brote-lockup-v-pos.svg",
    "kind": "SVG + CSS",
-   "bytes": 26605,
+   "bytes": 26597,
    "direction": "brote",
    "group": "Brote",
    "gzip": 5364
@@ -258,38 +258,38 @@
   {
    "path": "preview/brote.mp4",
    "kind": "Vídeo MP4",
-   "bytes": 366069,
+   "bytes": 367248,
    "direction": "brote",
    "group": "Brote"
   },
   {
    "path": "preview/brote.webm",
    "kind": "Vídeo WebM",
-   "bytes": 438461,
+   "bytes": 436639,
    "direction": "brote",
    "group": "Brote"
   },
   {
    "path": "preview/brote-poster.jpg",
    "kind": "Póster",
-   "bytes": 57015,
+   "bytes": 56854,
    "direction": "brote",
    "group": "Brote"
   },
   {
    "path": "validation/lamina-brote.png",
    "kind": "Lámina",
-   "bytes": 277349,
+   "bytes": 277451,
    "direction": "brote",
    "group": "Brote"
   },
   {
    "path": "js/atento.js",
    "kind": "JS",
-   "bytes": 6402,
+   "bytes": 6400,
    "direction": "atento",
    "group": "Atento",
-   "gzip": 2668,
+   "gzip": 2667,
    "note": "atención al puntero y al foco; reducido: sin oyentes"
   },
   {
@@ -319,42 +319,42 @@
   {
    "path": "lottie/orden-isotipo.json",
    "kind": "Lottie",
-   "bytes": 133731,
+   "bytes": 133723,
    "direction": "orden",
    "group": "Orden",
-   "gzip": 11493
+   "gzip": 11490
   },
   {
    "path": "lottie/orden-lockup-h-neg.json",
    "kind": "Lottie",
-   "bytes": 205865,
+   "bytes": 205857,
    "direction": "orden",
    "group": "Orden",
-   "gzip": 18089
+   "gzip": 18085
   },
   {
    "path": "lottie/orden-lockup-h-pos.json",
    "kind": "Lottie",
-   "bytes": 205889,
+   "bytes": 205881,
    "direction": "orden",
    "group": "Orden",
-   "gzip": 18099
+   "gzip": 18095
   },
   {
    "path": "lottie/orden-lockup-v-neg.json",
    "kind": "Lottie",
-   "bytes": 162357,
+   "bytes": 162349,
    "direction": "orden",
    "group": "Orden",
-   "gzip": 14774
+   "gzip": 14771
   },
   {
    "path": "lottie/orden-lockup-v-pos.json",
    "kind": "Lottie",
-   "bytes": 162381,
+   "bytes": 162373,
    "direction": "orden",
    "group": "Orden",
-   "gzip": 14784
+   "gzip": 14781
   },
   {
    "path": "estaticos/orden-isotipo.svg",
@@ -399,91 +399,91 @@
   {
    "path": "preview/orden-16x9-navy.mp4",
    "kind": "Vídeo MP4",
-   "bytes": 621379,
+   "bytes": 620357,
    "direction": "orden",
    "group": "Orden"
   },
   {
    "path": "preview/orden-1x1-crema.mp4",
    "kind": "Vídeo MP4",
-   "bytes": 427413,
+   "bytes": 428373,
    "direction": "orden",
    "group": "Orden"
   },
   {
    "path": "preview/orden-16x9-navy.webm",
    "kind": "Vídeo WebM",
-   "bytes": 478843,
+   "bytes": 479241,
    "direction": "orden",
    "group": "Orden"
   },
   {
    "path": "preview/orden-1x1-crema.webm",
    "kind": "Vídeo WebM",
-   "bytes": 307371,
+   "bytes": 304620,
    "direction": "orden",
    "group": "Orden"
   },
   {
    "path": "preview/orden-16x9-navy-poster.jpg",
    "kind": "Póster",
-   "bytes": 54410,
+   "bytes": 53904,
    "direction": "orden",
    "group": "Orden"
   },
   {
    "path": "preview/orden-1x1-crema-poster.jpg",
    "kind": "Póster",
-   "bytes": 41445,
+   "bytes": 41215,
    "direction": "orden",
    "group": "Orden"
   },
   {
    "path": "validation/lamina-orden.png",
    "kind": "Lámina",
-   "bytes": 435972,
+   "bytes": 436057,
    "direction": "orden",
    "group": "Orden"
   },
   {
    "path": "lottie/rebote-isotipo.json",
    "kind": "Lottie",
-   "bytes": 19723,
+   "bytes": 19715,
    "direction": "rebote",
    "group": "Rebote",
-   "gzip": 3011
+   "gzip": 3013
   },
   {
    "path": "lottie/rebote-lockup-h-neg.json",
    "kind": "Lottie",
-   "bytes": 49052,
+   "bytes": 49044,
    "direction": "rebote",
    "group": "Rebote",
-   "gzip": 6268
+   "gzip": 6267
   },
   {
    "path": "lottie/rebote-lockup-h-pos.json",
    "kind": "Lottie",
-   "bytes": 49076,
+   "bytes": 49068,
    "direction": "rebote",
    "group": "Rebote",
-   "gzip": 6277
+   "gzip": 6276
   },
   {
    "path": "lottie/rebote-lockup-v-neg.json",
    "kind": "Lottie",
-   "bytes": 49026,
+   "bytes": 49018,
    "direction": "rebote",
    "group": "Rebote",
-   "gzip": 6280
+   "gzip": 6279
   },
   {
    "path": "lottie/rebote-lockup-v-pos.json",
    "kind": "Lottie",
-   "bytes": 49050,
+   "bytes": 49042,
    "direction": "rebote",
    "group": "Rebote",
-   "gzip": 6290
+   "gzip": 6288
   },
   {
    "path": "estaticos/rebote-isotipo.svg",
@@ -528,7 +528,7 @@
   {
    "path": "preview/rebote-social-1x1.mp4",
    "kind": "Vídeo MP4",
-   "bytes": 187109,
+   "bytes": 186695,
    "direction": "rebote",
    "group": "Rebote",
    "note": "pieza de ejemplo con texto comprobado (v1.3.1)"
@@ -536,21 +536,21 @@
   {
    "path": "preview/rebote.mp4",
    "kind": "Vídeo MP4",
-   "bytes": 429615,
+   "bytes": 430136,
    "direction": "rebote",
    "group": "Rebote"
   },
   {
    "path": "preview/rebote-social-1x1.webm",
    "kind": "Vídeo WebM",
-   "bytes": 166968,
+   "bytes": 166438,
    "direction": "rebote",
    "group": "Rebote"
   },
   {
    "path": "preview/rebote.webm",
    "kind": "Vídeo WebM",
-   "bytes": 442877,
+   "bytes": 441669,
    "direction": "rebote",
    "group": "Rebote"
   },
@@ -565,14 +565,14 @@
   {
    "path": "preview/rebote-poster.jpg",
    "kind": "Póster",
-   "bytes": 59355,
+   "bytes": 59127,
    "direction": "rebote",
    "group": "Rebote"
   },
   {
    "path": "preview/rebote-social-1x1-poster.jpg",
    "kind": "Póster",
-   "bytes": 58268,
+   "bytes": 58189,
    "direction": "rebote",
    "group": "Rebote"
   },
@@ -586,25 +586,25 @@
   {
    "path": "validation/lamina-rebote.png",
    "kind": "Lámina",
-   "bytes": 291810,
+   "bytes": 291905,
    "direction": "rebote",
    "group": "Rebote"
   },
   {
    "path": "scripts/motion03.py",
    "kind": "Generador",
-   "bytes": 37297,
+   "bytes": 37291,
    "direction": null,
    "group": "Generadores y especificación",
-   "gzip": 12300
+   "gzip": 12293
   },
   {
    "path": "scripts/orden.py",
    "kind": "Generador",
-   "bytes": 11291,
+   "bytes": 11289,
    "direction": null,
    "group": "Generadores y especificación",
-   "gzip": 3977
+   "gzip": 3981
   },
   {
    "path": "scripts/svgpath.py",
@@ -617,71 +617,71 @@
   {
    "path": "scripts/render.mjs",
    "kind": "Generador",
-   "bytes": 8228,
+   "bytes": 8224,
    "direction": null,
    "group": "Generadores y especificación",
-   "gzip": 3258
+   "gzip": 3254
   },
   {
    "path": "scripts/validate.py",
    "kind": "Generador",
-   "bytes": 20031,
+   "bytes": 20027,
    "direction": null,
    "group": "Generadores y especificación",
-   "gzip": 7058
+   "gzip": 7056
   },
   {
    "path": "scripts/sheet.py",
    "kind": "Generador",
-   "bytes": 3920,
+   "bytes": 3914,
    "direction": null,
    "group": "Generadores y especificación",
-   "gzip": 1810
+   "gzip": 1801
   },
   {
    "path": "scripts/video.mjs",
    "kind": "Generador",
-   "bytes": 12281,
+   "bytes": 12273,
    "direction": null,
    "group": "Generadores y especificación",
-   "gzip": 4562
+   "gzip": 4567
   },
   {
    "path": "scripts/page_check.mjs",
    "kind": "Generador",
-   "bytes": 10595,
+   "bytes": 11448,
    "direction": null,
    "group": "Generadores y especificación",
-   "gzip": 3756
+   "gzip": 3965
   },
   {
    "path": "scripts/manifest.py",
    "kind": "Generador",
-   "bytes": 2990,
+   "bytes": 3017,
    "direction": null,
    "group": "Generadores y especificación",
-   "gzip": 1388
+   "gzip": 1406
   },
   {
    "path": "spec.json",
    "kind": "Lottie",
-   "bytes": 27773,
+   "bytes": 27769,
    "direction": null,
    "group": "Generadores y especificación",
-   "gzip": 3122
+   "gzip": 3117
   },
   {
    "path": "validation/metrics.json",
    "kind": "Lottie",
-   "bytes": 28824,
+   "bytes": 28829,
    "direction": null,
    "group": "Evidencia de validación",
-   "gzip": 2547
+   "gzip": 2546
   },
   {
    "path": "validation/lamina-final-vs-estatico.png",
    "kind": "Lámina",
-   "bytes": 159586,
+   "bytes": 159481,
    "direction": null,
    "group": "Evidencia de validación"
   },

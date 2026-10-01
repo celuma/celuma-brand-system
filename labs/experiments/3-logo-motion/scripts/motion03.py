@@ -1,4 +1,4 @@
-"""Experimento 03 · Motion de Céluma — generador de la primera ronda (exploración, no aprobada).
+"""Experimento 03 · Motion de Céluma — generador de la primera ronda (aprobado en laboratorio).
 
 Lee, sin modificarlos, el maestro activo y los lockups A del experimento 02:
   ../../2-logo-vector-v2/master/celuma-isotipo-maestro-paleta-aprobada.svg
@@ -34,7 +34,7 @@ sys.path.insert(0, str(HERE))
 from svgpath import sample, subpaths  # noqa: E402  (copia de 02/fase-3/scripts/svgpath.py)
 
 FPS = 60
-TAG = "Exploración · experimento 03 · no aprobada"
+TAG = "Aprobado en laboratorio · experimento 03"
 SVGNS = "{http://www.w3.org/2000/svg}"
 REL_E2 = "labs/experiments/2-logo-vector-v2"
 

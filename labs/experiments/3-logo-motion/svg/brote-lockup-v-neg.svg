@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-69 38 833 978" width="833" height="978" role="img" aria-labelledby="t d">
-  <title id="t">Céluma · brote · lockup-v-neg · SVG + CSS · Exploración · experimento 03 · no aprobada</title>
-  <desc id="d">Exploración · experimento 03 · no aprobada. Brote · una vez. Solo escalas uniformes (nucléolo, núcleo, cuerpo, trazos), traslación axial de los rayos desde detrás de la membrana y subida con fundido de las letras. Sin máscaras ni mates. Con prefers-reduced-motion (SVG en línea) queda el arte estático exacto. Como &lt;img&gt;, Chromium ignora prefers-reduced-motion: usar en línea o &lt;picture&gt; con el estático.</desc>
+  <title id="t">Céluma · brote · lockup-v-neg · SVG + CSS · Aprobado en laboratorio · experimento 03</title>
+  <desc id="d">Aprobado en laboratorio · experimento 03. Brote · una vez. Solo escalas uniformes (nucléolo, núcleo, cuerpo, trazos), traslación axial de los rayos desde detrás de la membrana y subida con fundido de las letras. Sin máscaras ni mates. Con prefers-reduced-motion (SVG en línea) queda el arte estático exacto. Como &lt;img&gt;, Chromium ignora prefers-reduced-motion: usar en línea o &lt;picture&gt; con el estático.</desc>
   <style>
 @keyframes bro-rayo-1-brote-tf {
   0.0000% { transform: translate(160.5792px, 87.7685px); animation-timing-function: cubic-bezier(0.0,0.0,1.0,1.0); }

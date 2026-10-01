@@ -1188,35 +1188,35 @@
   "respira|isotipo": {
    "px": 96,
    "median_ms": 8.3,
-   "p95_ms": 9.0,
+   "p95_ms": 10.2,
    "over_20ms": 0,
    "frames": 431
   },
   "brote|isotipo": {
    "px": 160,
    "median_ms": 8.3,
-   "p95_ms": 8.9,
+   "p95_ms": 10.1,
    "over_20ms": 0,
-   "frames": 243
+   "frames": 242
   },
   "rebote|isotipo": {
    "px": 240,
    "median_ms": 8.3,
-   "p95_ms": 9.3,
+   "p95_ms": 10.1,
    "over_20ms": 0,
-   "frames": 222
+   "frames": 223
   },
   "orden|lockup-h-neg": {
    "px": 960,
    "median_ms": 8.3,
-   "p95_ms": 8.8,
+   "p95_ms": 10.3,
    "over_20ms": 0,
    "frames": 533
   },
   "brote|lockup-h-pos": {
    "px": 480,
    "median_ms": 8.3,
-   "p95_ms": 8.9,
+   "p95_ms": 10.2,
    "over_20ms": 0,
    "frames": 267
   }

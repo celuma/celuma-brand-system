@@ -1,4 +1,4 @@
-/* Céluma · experimento 03 · Relevo — la marca es el ancla; el contenido se mueve (exploración, no aprobada).
+/* Céluma · experimento 03 · Relevo — la marca es el ancla; el contenido se mueve (aprobado en laboratorio).
  *
  * Coreografía FLIP con Web Animations: la firma pasa de su posición de arranque a su lugar en la cabecera
  * (solo traslación y escala uniforme del lockup estático exacto), mientras el contenido entra con desplazamientos

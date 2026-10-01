@@ -1,4 +1,4 @@
-// Experimento 03 · prueba de la galería en servidores reales (exploración, no aprobada).
+// Experimento 03 · prueba de la galería en servidores reales (aprobado en laboratorio).
 // Uso: node page_check.mjs [urlBase ...]
 //   Sin argumentos arranca `python3 -m http.server` en un puerto libre desde la raíz de celuma-brand-system.
 //   Con argumentos (p. ej. http://localhost:5050 · npx serve, que quita .html e index) prueba también esos servidores.
@@ -68,17 +68,30 @@ for (const base of servers) {
   // 2 · recorrido desde el laboratorio y de vuelta, con clics
   {
     const { page, errors, missing } = await open(ctx, base + '/labs/');
-    await page.getByRole('link', { name: 'Abrir motion' }).click();
-    await page.waitForFunction(() => document.documentElement.dataset.ready === '1', null, { timeout: 15000 }).catch(() => {});
-    const s1 = await state(page);
-    await page.getByRole('link', { name: '← Laboratorio' }).click();
-    await page.waitForLoadState('load');
-    const back = await page.evaluate(() => ({ url: location.href, h1: document.querySelector('h1')?.textContent, css: getComputedStyle(document.body).backgroundColor }));
-    await page.goBack(); await page.waitForTimeout(800);
-    await page.getByRole('link', { name: '02 · Motion anterior' }).click();
-    await page.waitForLoadState('load'); await page.waitForTimeout(800);
-    const to02 = await page.evaluate(() => ({ url: location.href, h1: document.querySelector('h1')?.textContent }));
-    R.flows.labTo03 = { landed: s1.url, ready: s1.ready, back, to02, errors, missing };
+    const [motionPage] = await Promise.all([
+      page.waitForEvent('popup'),
+      page.getByRole('link', { name: 'Abrir motion (pestaña nueva)', exact: true }).click(),
+    ]);
+    motionPage.on('pageerror', (e) => errors.push(String(e)));
+    motionPage.on('response', (r) => { if (r.status() >= 400) missing.push(`${r.status()} ${r.url()}`); });
+    await motionPage.waitForLoadState('load');
+    await motionPage.waitForFunction(() => document.documentElement.dataset.ready === '1', null, { timeout: 15000 }).catch(() => {});
+    const s1 = await state(motionPage);
+    const sourceTabPreserved = page.url() === base + '/labs/';
+    const ownNav = await motionPage.locator('.m-experiment-nav').evaluate((nav) => ![...nav.querySelectorAll('a')].some((a) => a.getAttribute('href').includes('2-logo-vector-v2')));
+    await motionPage.getByRole('link', { name: 'Laboratorio', exact: true }).click();
+    await motionPage.waitForLoadState('load');
+    const back = await motionPage.evaluate(() => ({ url: location.href, h1: document.querySelector('h1')?.textContent, css: getComputedStyle(document.body).backgroundColor }));
+    await motionPage.goBack(); await motionPage.waitForTimeout(800);
+    const [referencePage] = await Promise.all([
+      motionPage.waitForEvent('popup'),
+      motionPage.getByRole('link', { name: 'Luz, Enfoque y Trazo', exact: true }).click(),
+    ]);
+    await referencePage.waitForLoadState('load'); await referencePage.waitForTimeout(800);
+    const to02 = await referencePage.evaluate(() => ({ url: location.href, h1: document.querySelector('h1')?.textContent }));
+    R.flows.labTo03 = { landed: s1.url, ready: s1.ready, sourceTabPreserved, ownNav, back, to02, errors, missing };
+    await referencePage.close();
+    await motionPage.close();
     await page.close();
   }
   // 3 · escritorio y móvil, controles, pestañas

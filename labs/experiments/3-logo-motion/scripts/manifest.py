@@ -1,4 +1,4 @@
-"""Experimento 03 · manifiesto de archivos descargables (files.json) para la galería. Exploración, no aprobada.
+"""Experimento 03 · manifiesto de archivos descargables (files.json) para la galería. Aprobado en el laboratorio; incorporación pendiente.
 
 Uso: python3.10 manifest.py   (después de motion03.py, validate.py y video.mjs)
 """

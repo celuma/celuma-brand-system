@@ -1,4 +1,4 @@
-"""Experimento 03 · láminas de fotogramas clave (exploración, no aprobada).
+"""Experimento 03 · láminas de fotogramas clave (aprobado en laboratorio).
 
 Uso: python3.10 sheet.py <players> <trabajo> [dirección ...]
 Renderiza con lottie-web (SVG, DOM nuevo por fotograma) los instantes clave de cada variante sobre crema y navy y
@@ -69,7 +69,7 @@ for d, rows in plan.items():
     sheet = Image.new("RGB", (max(width, 900), height), "#f5f3ee")
     dr = ImageDraw.Draw(sheet)
     dr.text((gap, 18), f"Céluma · experimento 03 · {d} · fotogramas clave (lottie-web SVG, 2×)", fill="#0d1b2a", font=FONTB)
-    dr.text((sheet.width - 470, 22), "Exploración · no aprobada", fill="#b4413a", font=FONT)
+    dr.text((sheet.width - 470, 22), "Aprobado en laboratorio", fill="#b4413a", font=FONT)
     y = 70
     for key, bg, fr, out, w, h in rows:
         v = V[key]

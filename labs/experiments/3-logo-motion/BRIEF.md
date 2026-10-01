@@ -1,13 +1,13 @@
 # Brief · Experimento 03 · Motion de Céluma
 
-**Estado:** exploración · primera ronda de direcciones propias, 2026-09-27. Nada de este experimento está aprobado. **Base aprobada:** experimento 02 (`../2-logo-vector-v2/DECISION.md`). Encargo completo y referencias: `PROMPT.md`. Archivos, formatos y validación: `README.md`. Registro de decisión: `DECISION.md`.
+**Estado:** cerrado y aprobado por Rafael para el laboratorio visual el 2026-09-30. Las seis direcciones quedan aprobadas como resultado del experimento; incorporación y adopción siguen separadas. **Base aprobada:** experimento 02 (`../2-logo-vector-v2/DECISION.md`). Encargo completo y referencias: `PROMPT.md`. Archivos, formatos y validación: `README.md`. Registro de decisión: `DECISION.md`.
 
 ## Alcance actualizado (encargo de Rafael, 2026-09-27)
 
 El brief anterior limitaba el 03 a comportamiento y usos de las cuatro direcciones de 02. El nuevo encargo abre la ronda: propuestas propias de movimiento, narrativa, ritmo, interacción, composición y usos, con **variaciones de estilo moderadas** cuando se justifiquen. La identidad estática aprobada no cambia:
 
 - Geometría, paleta y lockup A salen del maestro activo `../2-logo-vector-v2/master/celuma-isotipo-maestro-paleta-aprobada.svg`, de `master/celuma-paleta-aprobada.json` y de `svg/lockups/propuesta-a-baloo2/`. El 03 los **lee**; no los modifica.
-- Una deformación temporal (squash, estiramiento, inercia) o un tratamiento durante la animación es una **propuesta explícita del 03**: no toca los masters ni se convierte en identidad aprobada.
+- Una deformación temporal (squash, estiramiento, inercia) o un tratamiento durante la animación es una **decisión de motion aprobada en 03** para los contextos descritos: no toca los masters ni crea otra identidad estática.
 - **En reposo, cada pieza recupera exactamente** el vector, la paleta y el lockup aprobados (se comprueba renderizando, no se supone).
 - Mirada, Luz, Enfoque y Trazo son antecedentes aprobados en 02; esta ronda no los retoca y los muestra para comparar.
 
@@ -76,13 +76,13 @@ Seis direcciones con usos y niveles de expresión distintos (1 = más sobria, 5 
 | **Orden** | 4 | «Ilumina y ordena»: un campo de células se alinea, una se vuelve Céluma y se enciende | Intro de vídeo, presentaciones, hero de campaña | Lottie y vídeo MP4/WebM |
 | **Rebote** | 5 | Llega con peso: cae, se aplasta, rebota; el nucléolo va con retraso; la luz asoma | Redes y celebraciones, sticker, cierre | Lottie, vídeo y GIF |
 
-## 4. Preguntas que esta ronda debe ayudar a responder
+## 4. Criterios de uso que deja esta ronda
 
-1. ¿Qué dirección sirve a cada contexto real? El logo de carga no representa progreso; el texto informa el estado.
-2. ¿Cómo se detienen los bucles y qué estático se muestra con movimiento reducido?
-3. ¿Qué formatos cumplen en la web y cuáles conviene entregar como vídeo? ¿Qué falta probar en Safari, Firefox, iOS y Android?
-4. ¿Hasta dónde llega la expresión aceptable para Céluma (deformación en Rebote, seguimiento en Atento)?
+1. Cada dirección tiene contexto recomendado y límites en DECISION.md; el logo de carga no representa progreso y el texto informa el estado.
+2. Bucles y movimiento reducido tienen reglas y estáticos por pieza en README.md y en los módulos del 03.
+3. Los formatos web y de vídeo probados constan en README.md. Safari, Firefox, iOS y Android siguen sin probarse y se validan antes de adoptar.
+4. Rebote y Atento están aprobados como motion del laboratorio en los contextos descritos; no crean otra identidad estática.
 
 ## 5. Evidencia y estado
 
-Ver `README.md` (§Validación) para lo comprobado, a qué tamaños y fondos, y lo que queda sin comprobar. Estado: **exploración**; ninguna pieza está aprobada, incorporada ni adoptada.
+Ver `README.md` (§Validación) para lo comprobado, a qué tamaños y fondos, y lo que queda sin comprobar. Estado: **cerrado y aprobado en el laboratorio** (Rafael, 2026-09-30); ninguna pieza está incorporada al sistema canónico ni adoptada en producto o publicaciones.

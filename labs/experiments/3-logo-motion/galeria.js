@@ -1,4 +1,4 @@
-/* Experimento 03 · galería de motion — exploración, no aprobada.
+/* Experimento 03 · galería de motion aprobada en el laboratorio.
  * Un solo reproductor para Lottie (lottie-web 5.13.0, copia local), SVG + CSS (en shadow DOM, controlado con Web
  * Animations), estático exacto y piezas interactivas (Atento, Relevo). Los archivos de 02 se leen sin modificarlos.
  * Requiere servidor HTTP (fetch). Datos de maquetas: ficticios. */
@@ -110,7 +110,7 @@
         ['Tamaño', '≥ 160 px; pieza social 1:1 a 1080 px.'],
         ['Formato', 'Lottie · vídeo MP4/WebM · GIF para sticker · estático.'],
         ['Reducido', 'Estático. El GIF no respeta la preferencia: en contextos sensibles, póster.'],
-        ['Limitaciones', 'Tono lúdico: no apto para mensajes serios. Cae desde media altura dentro del cuadro: necesita ½ isotipo libre encima. La deformación es candidata, no aprobada.']] }
+        ['Limitaciones', 'Tono lúdico: no apto para mensajes serios. Cae desde media altura dentro del cuadro: necesita ½ isotipo libre encima. La deformación temporal está aprobada para este motion de marca; no define otro logo estático.']] }
   ];
   var BYID = {}; DIRS.forEach(function (d) { BYID[d.id] = d; });
 

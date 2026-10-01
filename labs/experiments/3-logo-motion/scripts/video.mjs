@@ -1,5 +1,5 @@
 // Experimento 03 · vídeos de revisión y piezas de ejemplo (MP4 H.264 + WebM VP9 + póster; GIF para el sticker).
-// Exploración · no aprobada. Cada fotograma se dibuja con lottie-web (copia local de vendor/) y se captura, así el ritmo es exacto.
+// Aprobado en laboratorio. Cada fotograma se dibuja con lottie-web (copia local de vendor/) y se captura, así el ritmo es exacto.
 // Usa el ffmpeg del sistema (/usr/local/bin/ffmpeg, libx264 + libvpx-vp9).
 // Uso: node video.mjs [escena ...]   escenas: respira brote rebote orden-16x9-navy orden-1x1-crema rebote-social-1x1 rebote-sticker
 import { chromium } from '../../../../../celuma-frontend/node_modules/playwright/index.mjs';
@@ -19,7 +19,7 @@ const op = (k) => V[k].op;
 const once = (k, pre = 24, post = 60) => ({ n: pre + op(k) + post, f: (i) => Math.min(Math.max(i - pre, 0), op(k) - 1) });
 const loop = (k, cycles) => ({ n: op(k) * cycles, f: (i) => i % op(k) });
 const cell = (key, want) => ({ key, want });
-const TAG = 'Exploración · experimento 03 · no aprobada';
+const TAG = 'Aprobado en laboratorio · experimento 03';
 
 const SCENES = {
   respira: { W: 1280, H: 720, title: 'Respira · la célula respira mientras el sistema trabaja', segments: [

@@ -1,4 +1,4 @@
-/* Céluma · experimento 03 · Atento — exploración, no aprobada.
+/* Céluma · experimento 03 · Atento — aprobado en laboratorio.
  *
  * La célula presta atención: el nucléolo mira hacia el puntero o hacia el elemento con foco, siempre dentro del
  * núcleo; cuando algo se acerca, los rayos se alargan un poco. Sin actividad vuelve a la mirada del maestro

@@ -1,12 +1,13 @@
 # Experimento 03 · Motion de Céluma
 
-**Estado: exploración, primera ronda (2026-09-27). Nada aprobado.** Seis direcciones propias de movimiento sobre la identidad aprobada en el experimento 02. Encargo: [`PROMPT.md`](PROMPT.md) · aprendizajes, principios y direcciones: [`BRIEF.md`](BRIEF.md) · estado, recomendaciones y preguntas: [`DECISION.md`](DECISION.md).
+**Estado: cerrado y aprobado por Rafael para el laboratorio visual (2026-09-30).** Seis direcciones propias de movimiento sobre la identidad aprobada en el experimento 02. Encargo: [`PROMPT.md`](PROMPT.md) · aprendizajes, principios y direcciones: [`BRIEF.md`](BRIEF.md) · decisión, usos y límites: [`DECISION.md`](DECISION.md).
 
 ## Abrir la galería
 
 Desde la raíz de `celuma-brand-system`, arranque `python3 -m http.server 8000` y abra `http://localhost:8000/labs/experiments/3-logo-motion/`, con barra final. La galería carga sus archivos por HTTP, así que no funciona abierta con `file://`. También funciona en el preview `npx serve` (puerto 5050), que quita `.html` e `index`. La entrada normaliza la carpeta con `history.replaceState` antes de cargar los recursos relativos (la corrección vigente en el lab, sin redirecciones).
 
-- **Una sola página:** direcciones → fichas → contextos → comparación con 02 → marca y principios → validación → archivos.
+- **Entrada independiente:** «Abrir motion» en el laboratorio abre una pestaña nueva. La barra superior identifica únicamente el experimento 03 y permite volver al laboratorio. Los antecedentes de 02 están enlazados dentro de la comparación y se abren en otra pestaña.
+- **Una sola página:** direcciones → fichas → contextos → comparación con 02 → marca y principios → validación → archivos. El índice interno y las tarjetas llevan a capítulos y direcciones dentro de la galería.
 - **Barra global:** pausar/reproducir, reiniciar, repetir, velocidad (¼× a 2×), fondo (crema, blanco, navy), firma (isotipo, horizontal, vertical) y movimiento reducido. Cada dirección tiene su transporte (pausa, reinicio y barra de posición) y su selector de formato.
 - **Enlaces de revisión:** la carpeta acepta `?fondo=navy`, `firma=lockup-h` o `lockup-v`, `velocidad=0.5` y `reducido=1`, más un ancla: `#d-respira`, `#d-relevo`, `#d-brote`, `#d-atento`, `#d-orden`, `#d-rebote`, `#contexto`, `#comparar`. Por ejemplo, `…/3-logo-motion/?fondo=navy&firma=lockup-v#d-brote`.
 
@@ -40,8 +41,8 @@ Las fichas completas (intención, relación con Céluma, contexto, limitaciones)
 | `preview/rebote-sticker.gif` | Sticker 480 × 480, 30 fps, 64 colores |
 | `spec.json` | Variantes, cajas, marcadores, líneas de tiempo, tiempos y pesos (lo leen la galería y los scripts) |
 | `files.json` | Manifiesto de descargas de la galería |
-| `validation/metrics.json`, `pagecheck.json`, `lamina-*.png` | Métricas, prueba de la galería y láminas de fotogramas clave |
-| `vistas/*.jpg` | Capturas de la galería (1440 y 390 px, reducido sobre navy) y de los seis contextos |
+| `validation/metrics.json`, `lamina-*.png` | Métricas y láminas de fotogramas clave regeneradas al cerrar |
+| `validation/pagecheck.json`, `vistas/*.jpg` | Evidencia histórica de navegación y capturas de la primera ronda, anterior al cierre. Conservan el rótulo de exploración; la galería activa muestra el estado vigente |
 | `vendor/lottie-web-5.13.0/` | Copia local del reproductor para la galería (MIT; mismo SHA-256 que en 02, `2eb76297…18ac`). No es una dependencia de producto |
 | `scripts/` | Generador, validación, vídeo, láminas, prueba de página y manifiesto (§ Reproducir) |
 
@@ -77,12 +78,12 @@ Reproductores reales en Chromium headless (Playwright 1.62 del `celuma-frontend`
 | canvas / ThorVG | T2 en isotipos (IoU 0,9993–0,9997); AA en ThorVG con Brote horizontal y Orden (IoU 0,9986–0,9987). Colores de planos idénticos |
 | Estructura y color | **18/18 Lottie** sin máscaras, mates, efectos, expresiones, texto, imágenes ni *time remap*; solo la paleta aprobada más navy y blanco. Los 8 SVG + CSS, igual |
 | Geometría | Rebote: el nucléolo se aleja como máximo 58,0 u del centro del núcleo (límite 70; margen de 20 u al borde). Respira: el anillo de membrana pasa de 31,5 a 24,5 u en la inspiración; el citoplasma nunca la cruza |
-| Reproducción (rAF, headless, indicativo) | Mediana de 8,3 ms y p95 ≤ 9,3 ms, sin fotogramas de más de 20 ms, en Respira (96 px), Brote (160 y 480 px), Rebote (240 px) y Orden (960 px). Con la galería entera activa: mediana de 8,3 ms y p95 ≤ 9,5 ms |
+| Reproducción (rAF, headless, indicativo) | En la nueva corrida de cierre: mediana de 8,3 ms y p95 ≤ 10,3 ms, sin fotogramas de más de 20 ms, en Respira (96 px), Brote (160 y 480 px), Rebote (240 px) y Orden (960 px). En la revisión original con la galería entera activa: mediana de 8,3 ms y p95 ≤ 9,5 ms |
 
 **Prueba de la galería** (`scripts/page_check.mjs` → `validation/pagecheck.json`), en tres servidores: `python3 -m http.server` nuevo, `npx serve` del preview (el mismo comportamiento que el 5050) y el `127.0.0.1:8765` de Rafael.
 
 - **Entradas directas:** carpeta con barra, sin barra, `index.html` y `?fondo=navy#comparar`. Todas cargan, sin errores de consola ni desbordamiento. La consulta aplica el fondo y el ancla queda a la vista (≤ 600 ms tras construir).
-- **Recorrido con clics:** laboratorio → «Abrir motion» → 03 → «← Laboratorio», y 03 → «02 · Motion anterior».
+- **Recorrido con clics en la revisión original:** laboratorio → «Abrir motion» → 03 → «← Laboratorio», y 03 → «02 · Motion anterior». Tras el cierre del 2026-09-30, Rafael pidió una entrada independiente: 03 abre su propia pestaña, su barra contiene solo Laboratorio / Experimento 03 / Motion y los enlaces al 02 viven en la comparación. Esta reorganización se comprobó por rutas y anclas en archivos; falta repetir los clics en navegador.
 - **1440 y 390 px:** 0 px de desbordamiento; seis pestañas de contexto visibles y sin errores; 14 reproductores Lottie y 23 raíces SVG + CSS/estático.
 - **Controles:** fondo navy, firma horizontal, velocidad, pausa (el tiempo se detiene) y comparación con Trazo de 02.
 - **Movimiento reducido:** tanto con el botón como con la preferencia del sistema emulada, 0 reproductores Lottie, 0 animaciones en marcha y aviso visible.

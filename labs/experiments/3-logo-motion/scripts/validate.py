@@ -1,4 +1,4 @@
-"""Experimento 03 · validación con reproductores reales (exploración, no aprobada).
+"""Experimento 03 · validación con reproductores reales (aprobado en laboratorio).
 
 Uso: python3.10 validate.py <players> <trabajo>
   <players>  carpeta con lottie-web-5.13.0/package y lottiefiles-dotlottie-web-0.80.0/package (los mismos de 02)
@@ -370,7 +370,7 @@ for key in ("respira|isotipo", "brote|isotipo", "brote|lockup-h-pos", "rebote|lo
 W = max(sum(t.width for t in row) + 60 for _, row in tiles) + 40
 sheet = Image.new("RGB", (W, 60 + len(tiles) * 230), "#f5f3ee")
 dr = ImageDraw.Draw(sheet)
-dr.text((20, 18), "Experimento 03 · último fotograma (lottie-web SVG) · estático exacto · diferencia ×8 — exploración, no aprobada", fill="#0d1b2a", font=FONT)
+dr.text((20, 18), "Experimento 03 · último fotograma (lottie-web SVG) · estático exacto · diferencia ×8 — aprobado en laboratorio", fill="#0d1b2a", font=FONT)
 y = 56
 for key, row in tiles:
     r = results[key]
