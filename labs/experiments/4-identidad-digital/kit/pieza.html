@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Céluma · pieza del kit 04 (candidata)</title>
+  <!-- Una pieza a tamaño real. Parámetros en el fragmento (el preview 5050 conserva el
+       fragmento al quitar .html): #p=<pieza>&d=<a|b|b1|c>&f=<formato>[&corto=1][&guias=1][&editar=1]
+       Ronda 2 (d=b): &fondo=<papel|papel-suave|navy|navy-suave|crema-plano|navy-plano> y &micro=0 (sin Microcosmos).
+       También acepta los mismos parámetros como consulta (?p=…). -->
+  <link rel="stylesheet" href="sistema.css">
+  <link rel="stylesheet" href="piezas.css">
+  <style>
+    html, body { margin: 0; background: #e9e4da; }
+    body { display: grid; place-items: start; }
+    body.vista { padding: 24px; }
+    .guias { position: absolute; inset: 0; pointer-events: none; z-index: 50; }
+    .guias .util { position: absolute; outline: 2px dashed rgba(229, 99, 95, 0.9); }
+    .guias .zona { position: absolute; left: 0; right: 0; background: rgba(229, 99, 95, 0.12); border: 0 dashed rgba(229, 99, 95, 0.6); }
+    .guias .rotulo { position: absolute; font: 700 22px/1 Inter, sans-serif; color: #b4413a; background: rgba(255, 255, 255, 0.9); padding: 6px 10px; border-radius: 6px; }
+    .estado { position: absolute; top: 12px; right: 12px; z-index: 60; font: 700 20px/1 Inter, sans-serif; letter-spacing: .12em; text-transform: uppercase; color: #0d1b2a; background: rgba(255,255,255,.92); border: 2px dashed rgba(13,27,42,.45); padding: 8px 12px; border-radius: 6px; }
+    [contenteditable="true"] { outline: 2px dashed rgba(73, 182, 173, 0.6); outline-offset: 4px; }
+    .aviso { font: 600 15px/1.4 Inter, system-ui, sans-serif; color: #0d1b2a; margin-top: 12px; max-width: 900px; }
+  </style>
+  <script src="formatos.js"></script>
+  <script src="contenido.js"></script>
+  <script src="microcosmos.js"></script>
+  <script src="piezas.js"></script>
+</head>
+<body>
+  <div id="lienzo" style="position:relative"></div>
+  <p class="aviso" id="aviso" hidden></p>
+  <script>
+  (function () {
+    const src = new URLSearchParams((location.hash.slice(1) || location.search.slice(1)));
+    const pid = src.get('p') || 'valor-claridad', dir = src.get('d') || 'b', fid = src.get('f') || '4x5';
+    const guias = src.get('guias') === '1', editar = src.get('editar') === '1', revision = src.get('revision') === '1';
+    if (src.get('vista') === '1') document.body.classList.add('vista');
+    const lienzo = document.getElementById('lienzo');
+    const resultado = { pid, dir, fid, corto: false, lineas: [], fuera: [], solapes: [], ok: true };
+    window.E4_RESULTADO = resultado;
+
+    function medir() {
+      const r = E4.medir(lienzo.querySelector('.pz'), fid);
+      Object.assign(resultado, r);
+      return r.ok;
+    }
+
+    function pintar(corto) {
+      const opc = { corto };
+      if (src.get('fondo')) opc.fondo = src.get('fondo');
+      if (src.get('micro') === '0') opc.micro = false;
+      lienzo.innerHTML = E4.html(pid, dir, fid, opc);
+      resultado.corto = corto;
+      const pz = lienzo.querySelector('.pz');
+      E4.ajustarModulos(pz);
+      if (guias) {
+        const M = E4.metricas(fid);
+        let g = `<div class="guias"><div class="util" style="left:${M.m}px;right:${M.m}px;top:${M.m + M.zonaArriba}px;bottom:${M.m + M.zonaAbajo}px"></div>`;
+        if (M.zonaArriba) g += `<div class="zona" style="top:0;height:${M.zonaArriba}px"></div><span class="rotulo" style="left:${M.m}px;top:${M.zonaArriba / 2 - 14}px">Zona de interfaz · hipótesis 14 %</span>`;
+        if (M.zonaAbajo) g += `<div class="zona" style="bottom:0;height:${M.zonaAbajo}px"></div><span class="rotulo" style="left:${M.m}px;bottom:${M.zonaAbajo / 2 - 14}px">Zona de interfaz · hipótesis 20 %</span>`;
+        pz.insertAdjacentHTML('beforeend', g + '</div>');
+      }
+      if (revision) pz.insertAdjacentHTML('beforeend', '<span class="estado">Candidata · 04</span>');
+      if (editar) pz.querySelectorAll('.titulo,.display,.texto,.def,.eyebrow,.cta,.puntos li,.pasos-lista li,.lista li').forEach((el) => { el.contentEditable = 'true'; el.addEventListener('input', () => { medir(); avisar(); }); });
+    }
+    function avisar() {
+      const a = document.getElementById('aviso');
+      if (!editar && !src.get('vista')) return;
+      const malos = resultado.lineas.filter((x) => !x.ok).map((x) => `${x.el}: ${x.n} líneas (máx. ${x.max})`);
+      const t = [...malos, ...resultado.fuera.map((x) => 'Fuera del área útil: ' + x), ...resultado.solapes.map((x) => 'Solape: ' + x)];
+      a.hidden = false;
+      a.textContent = t.length ? 'Revisar · ' + t.join(' · ') : 'Composición dentro de presupuesto: líneas, área útil y solapes correctos.';
+    }
+
+    document.fonts.ready.then(async () => {
+      await Promise.all(['800 40px "Baloo 2"', '400 20px Inter', '650 20px Inter', 'italic 400 20px Inter'].map((f) => document.fonts.load(f, 'Céluma áéíóú')));
+      pintar(src.get('corto') === '1');
+      await Promise.all([...lienzo.querySelectorAll('img')].map((i) => i.complete ? 0 : new Promise((r) => { i.onload = i.onerror = r; })));
+      if (!medir() && !resultado.corto && src.get('corto') !== '0') {
+        const p = E4C.PIEZAS[pid];
+        if (p.tituloCorto || p.textoCorto || p.puntosCortos) { pintar(true); await new Promise((r) => requestAnimationFrame(r)); medir(); }
+      }
+      avisar();
+      document.body.dataset.listo = '1';
+    });
+  })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <script>
+    // Some preview servers strip /index.html. Normalize the directory URL
+    // without a request, so relative assets work and redirects cannot loop.
+    if (!/\/$|\.html$/.test(location.pathname)) {
+      const directory = location.pathname.replace(/\/index$/, '') + '/';
+      history.replaceState(history.state, '', directory + location.search + location.hash);
+    }
+  </script>
+  <title>Céluma · Experimento 04 · Identidad digital</title>
+  <link rel="icon" type="image/svg+xml" href="kit/marca/celuma-isotipo-color.svg">
+  <link rel="stylesheet" href="../../../styles/celuma-tokens.css">
+  <link rel="stylesheet" href="../../lab.css">
+  <link rel="stylesheet" href="kit/sistema.css">
+  <link rel="stylesheet" href="galeria.css">
+</head>
+<body>
+  <a class="g-skip" href="#direcciones">Saltar a la comparación</a>
+  <header class="lab-header">
+    <a class="lab-brand" href="../../index.html" aria-label="Volver al laboratorio visual de Céluma">
+      <img src="kit/marca/celuma-isotipo-color.svg" alt="" width="36" height="40">
+      <span>Céluma <small>Laboratorio visual</small></span>
+    </a>
+  </header>
+
+  <nav class="g-ruta" aria-label="Recorrido del experimento 04">
+    <a href="../../index.html">Laboratorio</a>
+    <span aria-hidden="true">/</span><strong>Experimento 04</strong>
+    <a href="index.html" aria-current="page">Identidad digital</a>
+    <a href="kit/editor.html">Editor de piezas</a>
+  </nav>
+
+  <main class="g-main" id="inicio">
+    <p class="lab-eyebrow">Experimento 04 · exploración · segunda ronda (refinamiento de B)</p>
+    <h1>Identidad y materiales digitales</h1>
+    <p class="lab-intro">Un sistema visual alrededor del logo aprobado en el <a href="../2-logo-vector-v2/DECISION.md">experimento 02</a> y del motion aprobado en el <a href="../3-logo-motion/DECISION.md">03</a>, para publicaciones y comunicación digital. Tres direcciones comparables con el mismo contenido, una recomendación candidata desarrollada como kit reutilizable, sus archivos y la evidencia de revisión.</p>
+    <div class="lab-notice" role="note">
+      <strong>Exploración · pendiente de la aprobación de Rafael</strong>
+      <span><b>Ronda 2 (2026-10-06):</b> a petición de Rafael, B · Ficha se refina con los fondos rescatados Papel cream y Navy y una biblioteca Microcosmos; ver <a href="#refinamiento">capítulo 4</a> y <a href="REFINAMIENTO-B.md">encargo</a>. La dirección B · Ficha sigue siendo una <em>recomendación candidata</em>, no una decisión; A, C y la B de la ronda 1 quedan como antecedentes. Ninguna pieza está aprobada, incorporada al Brand System ni lista para publicarse. Los exports limpios no llevan rótulo: su estado vive en el manifiesto y aquí. Datos sintéticos; afirmaciones de producto con fuente publicada. <a href="DECISION.md">Decisión (pendiente)</a> · <a href="BRIEF.md">Brief y diagnóstico</a> · <a href="VALIDACION.md">Validación</a> · <a href="README.md">README</a> · <a href="PROMPT.md">Encargo</a> · <a href="#archivos">Descargas</a></span>
+    </div>
+
+    <nav class="g-indice" aria-label="Capítulos de la galería">
+      <a href="#base">1 · Intención y base</a>
+      <a href="#direcciones">2 · Tres direcciones</a>
+      <a href="#recomendacion">3 · Recomendación</a>
+      <a href="#refinamiento">4 · Refinamiento B · Fondos y Microcosmos</a>
+      <a href="#sistema">5 · Sistema</a>
+      <a href="#kit">6 · Kit en contexto</a>
+      <a href="#motion">7 · Motion</a>
+      <a href="#guia">8 · Guía</a>
+      <a href="#evidencias">9 · Evidencias</a>
+      <a href="#archivos">10 · Archivos</a>
+      <a href="#plan">11 · Pendientes y plan</a>
+    </nav>
+
+    <!-- 1 · INTENCIÓN Y BASE -->
+    <section id="base" class="g-sec" aria-labelledby="t-base">
+      <p class="g-num">1</p>
+      <h2 id="t-base">Intención y base</h2>
+      <p class="g-lead">Céluma ordena el trabajo del laboratorio de anatomía patológica. Su comunicación debe sentirse profesional, biomédica, cálida y humana: información sensible tratada con precisión y respeto por quien la trabaja.</p>
+      <div class="g-tres">
+        <div class="g-caja"><h3>Conservar</h3><ul><li>Logo de 02: maestro, paleta aprobada y lockup A · Baloo 2 800, siempre completos.</li><li>Crema como papel, navy como tinta, teal con texto navy.</li><li>La regla salmón del <code>PageHeader</code> de la app.</li><li>Calma del motion de 03 y reposo exacto.</li></ul></div>
+        <div class="g-caja"><h3>Evolucionar</h3><ul><li>Una sans de texto con licencia para piezas exportadas (candidata: Inter).</li><li>Tintas de apoyo medidas para crema, menta y navy.</li><li>Recursos propios de célula + luz que no recortan el logo.</li><li>Plantillas con presupuesto de texto y versión condensada.</li></ul></div>
+        <div class="g-caja"><h3>Falta decidir</h3><ul><li>Dirección del sistema (A, B o C).</li><li>Sans de texto (D-12) y tintas locales como tokens.</li><li>Canal para demostraciones y descriptor (D-8).</li><li>Revisión por medio antes de publicar.</li></ul></div>
+      </div>
+      <h3 class="g-h3">Base aprobada que no cambia</h3>
+      <div class="g-base">
+        <figure class="g-fondo crema"><img src="kit/marca/celuma-lockup-horizontal-color-positivo.svg" alt="Lockup horizontal A de Céluma en color positivo" width="300" height="96"><figcaption>Lockup A · positivo sobre crema</figcaption></figure>
+        <figure class="g-fondo navy"><img src="kit/marca/celuma-lockup-horizontal-color-negativo.svg" alt="Lockup horizontal A de Céluma en negativo" width="300" height="96"><figcaption>Lockup A · negativo sobre navy</figcaption></figure>
+        <figure class="g-fondo blanco"><img src="kit/marca/celuma-isotipo-color.svg" alt="Isotipo de Céluma" width="98" height="120"><figcaption>Isotipo · maestro activo</figcaption></figure>
+      </div>
+      <div class="g-paleta" id="paleta-base"></div>
+      <h3 class="g-h3">Los valores como decisiones que se pueden revisar</h3>
+      <div class="g-tabla-envoltura" tabindex="0" role="region" aria-label="Valores y decisiones de diseño"><table class="g-tabla">
+        <thead><tr><th scope="col">Valor</th><th scope="col">Decisión observable</th><th scope="col">Dónde comprobarlo</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Claridad</th><td>Un mensaje por pieza; cabecera de serie que dice qué colección es; texto de apoyo ≥ 16 px a 390 px; contraste medido 16/16.</td><td>Cabecera, presupuesto de líneas, <a href="#contraste">tabla de contraste</a></td></tr>
+          <tr><th scope="row">Precisión</th><td>Márgenes, tipografía y módulo derivados de S y W; cuadrícula en celdas enteras; anatomía igual en cinco proporciones; cada afirmación de producto cita su página publicada.</td><td><a href="#reticula">Retícula</a>, línea «Fuente ·», <a href="#evidencias">comprobación automática</a></td></tr>
+          <tr><th scope="row">Seguridad</th><td>Sin sellos ni promesas de cumplimiento; datos sintéticos; capacidades pendientes excluidas del material externo; colores de estado clínico fuera de la marca.</td><td><a href="#voz">Registro de afirmaciones</a>, <a href="#usos">usos correctos</a></td></tr>
+          <tr><th scope="row">Confianza</th><td>Una estructura estable para todas las plantillas; composición sobria; el motion termina idéntico a la pieza estática; nada se anima para «confirmar» resultados.</td><td><a href="#kit">Kit</a>, <a href="#motion">final = estático</a></td></tr>
+          <tr><th scope="row">Humanidad</th><td>Crema cálido y Baloo en titulares; el responsable de cada paso nombrado («Revisor asignado»); tú cercano y concreto; sin mascotas, sin infantilizar.</td><td>Carrusel, <a href="#voz">voz</a></td></tr>
+        </tbody>
+      </table></div>
+    </section>
+
+    <!-- 2 · DIRECCIONES -->
+    <section id="direcciones" class="g-sec" aria-labelledby="t-dir">
+      <p class="g-num">2</p>
+      <h2 id="t-dir">Tres direcciones con el mismo contenido</h2>
+      <p class="g-lead">Las tres respetan el logo, la paleta y el lockup A. Difieren en composición, lenguaje editorial y recursos. Mismo contenido verificado, mismos formatos y misma escala.</p>
+      <div class="g-controles" role="toolbar" aria-label="Controles de la comparación">
+        <div class="g-grupo" role="group" aria-label="Formato"><span class="g-et">Formato</span>
+          <button type="button" class="g-btn" data-cf="4x5" aria-pressed="true">4:5</button>
+          <button type="button" class="g-btn" data-cf="9x16" aria-pressed="false">9:16</button></div>
+        <div class="g-grupo" role="group" aria-label="Contexto de lectura"><span class="g-et">Contexto</span>
+          <button type="button" class="g-btn" data-cc="lienzo" aria-pressed="true">Pieza</button>
+          <button type="button" class="g-btn" data-cc="claro" aria-pressed="false">Feed claro</button>
+          <button type="button" class="g-btn" data-cc="oscuro" aria-pressed="false">Feed oscuro</button></div>
+      </div>
+      <div class="g-dirs" id="comparacion"></div>
+      <p class="g-nota">Comparación de la <b>ronda 1</b>: la columna B es la Ficha anterior al refinamiento (antecedente). La B refinada está en el <a href="#refinamiento">capítulo 4</a>. El carrusel solo se diseñó en 4:5; con 9:16 seleccionado, sus dos láminas se mantienen en 4:5. «Feed» es una maqueta neutra a 390 px, no la interfaz de ninguna red social.</p>
+    </section>
+
+    <!-- 3 · RECOMENDACIÓN -->
+    <section id="recomendacion" class="g-sec" aria-labelledby="t-rec">
+      <p class="g-num">3</p>
+      <h2 id="t-rec">Recomendación candidata: B · Ficha</h2>
+      <p class="g-nota">Argumento de la ronda 1. Rafael pidió refinar B (ronda 2): ver el <a href="#refinamiento">capítulo 4</a>. Ni la ronda 1 ni la 2 están aprobadas.</p>
+      <p class="g-lead">Recomendación provisional de Claude para revisión, <strong>no aprobada</strong>. Las alternativas A y C se conservan completas para comparar.</p>
+      <div class="g-dos">
+        <div>
+          <h3 class="g-h3">Por qué B</h3>
+          <ol class="g-razones">
+            <li><b>Hace visible la precisión.</b> Retícula, reglas finas, índice y la fuente citada en la propia pieza convierten un valor en algo que se ve, no en un adjetivo.</li>
+            <li><b>Escala a la información real.</b> Guías, novedades, permisos y flujos caben sin forzar: el rastreador de pasos y la tabla de permisos explican mejor que una ilustración.</li>
+            <li><b>Habla el idioma del producto sin copiarlo.</b> La regla salmón viene del <code>PageHeader</code>; los pasos recuerdan al flujo real sin usar los colores de estado de la app; la cuadrícula es el «Orden» del 03.</li>
+            <li><b>Es cálida sin infantilizar.</b> Papel crema, Baloo en titulares y frases en segunda persona; navy solo puntúa portadas, cierres y anuncios.</li>
+            <li><b>Es honesta por construcción.</b> No necesita capturas, cifras ni fotos para funcionar; cada capacidad lleva su página publicada.</li>
+          </ol>
+        </div>
+        <div>
+          <h3 class="g-h3">Riesgos y cómo se mitigan</h3>
+          <ul class="g-lista">
+            <li><b>Puede volverse fría o repetitiva.</b> Ritmo crema/navy, módulos distintos según el contenido (cuadrícula, rastreador, tabla, lista) y titulares en Baloo.</li>
+            <li><b>Metadatos pequeños.</b> Son terciarios (≈ 10,5 px a 390 px); el mensaje principal nunca baja de 16 px.</li>
+            <li><b>Si se pierde la disciplina de fuentes, pierde su razón de ser.</b> La línea «Fuente ·» solo aparece con una página publicada.</li>
+          </ul>
+          <h3 class="g-h3">Qué aporta cada alternativa</h3>
+          <ul class="g-lista">
+            <li><b>A · Lumen</b> es la más cálida y la más cercana a «célula + luz»; útil como referencia para piezas de marca puntuales. Pierde estructura con contenido denso.</li>
+            <li><b>C · Membrana</b> es la más reconocible a distancia, pero compite con el propio logo y se acerca a un tono de sticker.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="g-tabla-envoltura" tabindex="0" role="region" aria-label="Comparación cualitativa"><table class="g-tabla">
+        <caption>Valoración cualitativa de Claude a partir de los renders; no sustituye la decisión de Rafael.</caption>
+        <thead><tr><th scope="col">Criterio</th><th scope="col">A · Lumen</th><th scope="col">B · Ficha</th><th scope="col">C · Membrana</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Jerarquía y lectura a 390 px</th><td>Clara; mucho aire</td><td>Clara; cabecera + regla guían</td><td>Clara dentro del contenedor</td></tr>
+          <tr><th scope="row">Contenido denso (pasos, permisos)</th><td>Débil: sin módulo propio</td><td><b>Fuerte</b>: rastreador, tabla, lista</td><td>Media: el contenedor limita</td></tr>
+          <tr><th scope="row">Coherencia entre cinco formatos</th><td>Buena</td><td><b>Muy buena</b>: misma anatomía</td><td>Media: la forma cambia por formato</td></tr>
+          <tr><th scope="row">Relación con el logo</th><td>Evoca la luz sin tocarlo</td><td>Deja el logo como firma limpia</td><td>Repite anillo + citoplasma: compite</td></tr>
+          <tr><th scope="row">Riesgo de tono</th><td>Cálido, algo decorativo</td><td>Puede enfriarse</td><td>Puede infantilizar</td></tr>
+          <tr><th scope="row">Producción repetible</th><td>Alta</td><td>Alta (plantillas medidas)</td><td>Media</td></tr>
+        </tbody>
+      </table></div>
+    </section>
+
+    <!-- 4 · REFINAMIENTO B (RONDA 2) -->
+    <section id="refinamiento" class="g-sec" aria-labelledby="t-ref">
+      <p class="g-num">4</p>
+      <h2 id="t-ref">Refinamiento B · Fondos y Microcosmos</h2>
+      <p class="g-lead">Ronda 2, a petición de Rafael: rescatar «01 · Papel cream» y «02 · Navy» y desarrollar el Microcosmos como vocabulario propio. B conserva su base editorial (orden de lectura, cabecera de serie, firma, módulo informativo) y gana calidez y profundidad. <b>Refinamiento, no aprobación.</b></p>
+      <nav class="g-subindice" aria-label="Recorrido del refinamiento"><a href="#r2-fondos">1 · Fondos</a><a href="#r2-biblioteca">2 · Biblioteca</a><a href="#r2-aplicaciones">3 · Aplicaciones</a><a href="#r2-antes-despues">4 · Antes / después</a><a href="#r2-reglas">5 · Reglas y evidencia</a><a href="#r2-archivos">6 · Archivos</a></nav>
+
+      <h3 class="g-h3" id="r2-fondos">1 · Fondos rescatados</h3>
+      <p>Versiones locales de <code>PatternCream</code> y <code>PatternNavy</code> (<code>components/web-patterns.jsx</code>) con el mismo perfil de <code>CelBlob</code>: un halo teal difuso arriba a la izquierda (y, en Navy, un segundo halo discreto abajo a la derecha). Los originales no se modificaron. <b>Navy profundo <code>#0A1520</code></b> (<code>--celuma-ink-3</code>) se registra como superficie heredada rescatada, distinta del navy <code>#0D1B2A</code> de tinta y wordmark.</p>
+      <div class="g-hojas">
+        <figure><a href="ronda-2/hojas/fondos-fidelidad.png"><img src="ronda-2/hojas/fondos-fidelidad.png" alt="Fondos originales del lienzo junto a sus versiones locales" loading="lazy"></a><figcaption>Original del lienzo (izq.) y versión local (der.), mismo tamaño: diferencia máxima 1–2 niveles por canal (<a href="ronda-2/fidelidad-fondos.json">medición</a>)</figcaption></figure>
+        <figure><a href="ronda-2/hojas/fondos-formatos.png"><img src="ronda-2/hojas/fondos-formatos.png" alt="Fondos Papel cream, Papel suave, Navy y Navy suave en varias proporciones" loading="lazy"></a><figcaption>Variantes por proporción: la luz se acomoda para quedar detrás del mensaje y apagarse antes de la firma</figcaption></figure>
+      </div>
+      <div class="g-fondos" id="r2-fondos-lista"></div>
+      <p class="g-nota">El rótulo heredado «reutilizables en impreso» no es una validación de impresión: esta ronda es digital.</p>
+
+      <h3 class="g-h3" id="r2-biblioteca">2 · Biblioteca Microcosmos</h3>
+      <p>Una gramática propia de células abstractas: membrana orgánica, interior de citoplasma y foco desplazado hacia la luz (arriba a la izquierda, como los rayos y los halos). Sin rayos, trazos internos ni nucléolo: nunca un logotipo alternativo. Sin tinciones, escalas, aumentos ni significados diagnósticos. Generada con semillas: el mismo recurso sale igual siempre. <a href="kit/microcosmos.html">Espécimen interactivo</a> (añade <code>#excl=1</code> para ver zonas de exclusión).</p>
+      <div class="g-biblioteca" id="r2-biblioteca-lista"></div>
+
+      <h3 class="g-h3" id="r2-aplicaciones">3 · Aplicaciones: tres modos de B</h3>
+      <div class="g-tres">
+        <div class="g-caja"><h4>Editorial sobrio</h4><p>Contenido denso de producto: capacidades, pasos, permisos, diapositivas de contenido. Papel suave o crema plano, reglas finas, regla salmón en el bloque, fuente citada. Sin ilustración protagonista.</p></div>
+        <div class="g-caja"><h4>Atmosférico</h4><p>Identidad, valores, consejos y anuncios: Papel cream o Navy con su luz, metadatos discretos, regla salmón solo junto al titular y, si hay aire, un recurso de borde (tejido, recorte) que nunca toca texto ni firma.</p></div>
+        <div class="g-caja"><h4>Microcosmos</h4><p>Mensajes que admiten una ilustración protagonista: «Célula y luz», demostración, portada de carrusel, título de presentación, banner. Un grupo celular en un módulo reservado; el foco salmón pleno es único.</p></div>
+      </div>
+      <div class="g-hojas">
+        <figure><a href="ronda-2/hojas/modos.png"><img src="ronda-2/hojas/modos.png" alt="Piezas en los tres modos de B" loading="lazy"></a><figcaption>Fila 1: editorial sobrio · fila 2: atmosférico · fila 3: microcosmos</figcaption></figure>
+        <figure><a href="ronda-2/hojas/serie-valores.png"><img src="ronda-2/hojas/serie-valores.png" alt="Serie de valores con un recurso por valor" loading="lazy"></a><figcaption>Serie de valores: grupo (Claridad), campo ordenado (Precisión), recorte (Seguridad), par (Confianza), tejido (Humanidad)</figcaption></figure>
+      </div>
+      <h4 class="g-h4">Qué combinaciones recargan una pieza</h4>
+      <div class="g-usos" id="r2-recargadas"></div>
+
+      <h3 class="g-h3" id="r2-antes-despues">4 · Antes / después (mismo texto y escala)</h3>
+      <div class="g-controles" role="toolbar" aria-label="Comparación antes y después"><div class="g-grupo" role="group" aria-label="Ronda"><span class="g-et">Ver</span>
+        <button type="button" class="g-btn" data-ad="ambas" aria-pressed="true">Ambas</button>
+        <button type="button" class="g-btn" data-ad="antes" aria-pressed="false">Ronda 1</button>
+        <button type="button" class="g-btn" data-ad="despues" aria-pressed="false">Ronda 2</button></div></div>
+      <div class="g-pares" id="r2-pares"></div>
+
+      <h3 class="g-h3" id="r2-reglas">5 · Reglas y evidencia</h3>
+      <div class="g-dos">
+        <div><ul class="g-lista" id="r2-reglas-lista">
+          <li><b>Un foco salmón pleno por pieza</b>: lo lleva la célula protagonista; las acompañantes tienen núcleo teal tenue. La regla salmón del titular es el otro acento.</li>
+          <li><b>La luz viene de arriba a la izquierda</b>: halos, foco desplazado y arco de luz siguen la dirección de los rayos del isotipo.</li>
+          <li><b>Nada toca texto ni firma</b>: el recurso crece solo hasta su zona de exclusión (líneas reales de texto + ½ isotipo alrededor del logo). Se comprueba con la geometría real.</li>
+          <li><b>El logo descansa sobre fondo uniforme</b>: variación del fondo ≤ 3 niveles en su zona de protección; en la portada 4:1 la luz va a la derecha (excepción documentada).</li>
+          <li><b>Tres tamaños, holgura ≥ 0,25 R</b>: protagonista, acompañante (0,42 R) y pequeña (0,18 R); nada se toca por accidente.</li>
+          <li><b>No forzar</b>: piezas densas sin ilustración; si no cabe con dignidad, el recurso se omite y el exportador lo registra.</li>
+        </ul></div>
+        <div class="g-tabla-envoltura" tabindex="0" role="region" aria-label="Evidencia de la ronda 2"><table class="g-tabla" id="r2-evidencia"></table></div>
+      </div>
+
+      <h3 class="g-h3" id="r2-archivos">6 · Archivos de la ronda 2</h3>
+      <ul class="g-descargas" id="r2-descargas"></ul>
+    </section>
+
+    <!-- 5 · SISTEMA -->
+    <section id="sistema" class="g-sec" aria-labelledby="t-sis">
+      <p class="g-num">5</p>
+      <h2 id="t-sis">Sistema candidato · B · Ficha</h2>
+      <p class="g-nota">Base del sistema (ronda 1) vigente en la ronda 2. Lo nuevo de la ronda 2 (fondos, Microcosmos, modos, contraste sobre la composición final) está en el <a href="#refinamiento">capítulo 4</a>.</p>
+      <nav class="g-subindice" aria-label="Partes del sistema"><a href="#color">Color</a><a href="#tipografia">Tipografía</a><a href="#reticula">Retícula</a><a href="#firma">Jerarquía y firma</a><a href="#recursos">Recursos</a><a href="#reglas">Ilustración, iconos, capturas, motion</a><a href="#usos">Usos correctos</a><a href="#voz">Voz y presupuesto</a></nav>
+
+      <h3 class="g-h3" id="color">Color: roles</h3>
+      <p>Los pigmentos del logo son color de identidad: formas, reglas y fondos, nunca texto pequeño sobre claro. Las tintas de texto son roles locales candidatos; no modifican <code>styles/celuma-tokens.css</code>. Los colores de estado clínico de la app (azul, ámbar, verde, violeta, rosa, rojo) quedan fuera de la marca.</p>
+      <div class="g-paleta" id="paleta-roles"></div>
+      <h3 class="g-h3" id="contraste">Contraste de cada combinación de texto</h3>
+      <div class="g-tabla-envoltura" tabindex="0" role="region" aria-label="Contraste medido"><table class="g-tabla" id="tabla-contraste"></table></div>
+      <p class="g-nota" id="contraste-prohibidas"></p>
+
+      <h3 class="g-h3" id="tipografia">Tipografía</h3>
+      <div class="g-espec">
+        <div><p class="g-espec-b">Baloo 2 · 800</p><p class="g-espec-t">Titulares y wordmark. Interletrado −0,015 em; interlineado 1,02. Licencia SIL OFL 1.1.</p></div>
+        <div><p class="g-espec-i">Inter · 400 / 600 / 650</p><p class="g-espec-t"><b>Candidata</b> para texto de piezas exportadas (D-12): equivalente abierto de la fuente del sistema que usa la app, cifras tabulares, acentos completos. SIL OFL 1.1, Google Fonts. Alternativa evaluada: Atkinson Hyperlegible Next.</p></div>
+      </div>
+      <div class="g-tabla-envoltura" tabindex="0" role="region" aria-label="Escala tipográfica por formato"><table class="g-tabla" id="tabla-escala"></table></div>
+
+      <h3 class="g-h3" id="reticula">Retícula, espaciado y zonas</h3>
+      <p>Margen = mayor entre S ÷ 13,5 y W × 0,05. En 9:16, el 14 % superior y el 20 % inferior quedan libres para la interfaz (<b>hipótesis de diseño</b> de la guía local, no especificación de una plataforma). La cabecera, el cuerpo, la fuente y el pie forman la misma anatomía en todos los formatos; los horizontales pasan el módulo a una columna derecha.</p>
+      <div class="g-guias" id="guias"></div>
+
+      <h3 class="g-h3" id="firma">Jerarquía y firma</h3>
+      <ol class="g-lista num">
+        <li><b>Cabecera de serie</b> (qué colección es) y numeración tabular.</li>
+        <li><b>Antetítulo</b> específico → <b>titular</b> en Baloo → <b>texto</b> o <b>módulo</b> (cuadrícula, rastreador, tabla, lista).</li>
+        <li><b>Fuente</b> publicada, solo si la pieza afirma algo del producto.</li>
+        <li><b>Firma</b>: lockup A completo abajo a la izquierda; dirección o contacto a la derecha. Alto del lockup = alto del isotipo = máx(S × 0,074; W × 0,04); 80 px a 1080. Protección: ½ isotipo libre; la regla del pie queda fuera de esa zona.</li>
+      </ol>
+
+      <h3 class="g-h3" id="recursos">Recursos gráficos propios</h3>
+      <p>Derivados de célula + luz sin tocar el dibujo del logo. Se descargan como SVG autónomos y PNG de trabajo.</p>
+      <div class="g-recursos" id="recursos-lista"></div>
+
+      <h3 class="g-h3" id="reglas">Ilustración, iconografía, capturas y motion</h3>
+      <div class="g-tres">
+        <div class="g-caja"><h4>Ilustración</h4><p>Solo la cuadrícula ordenada: círculos perfectos y regulares, una célula foco. Nunca micrografía: sin tinciones, aumentos, escalas, flechas de hallazgo ni rótulos técnicos.</p></div>
+        <div class="g-caja"><h4>Iconografía</h4><p>Contorno, retícula 24, trazo 2, extremos redondeados. Un concepto = un icono. Sin emoji. En navy sobre claro.</p></div>
+        <div class="g-caja"><h4>Capturas</h4><p>Este kit no las necesita. Si un día se usan: solo funciones publicadas, datos sintéticos, recorte a la zona relevante y nunca como fondo decorativo.</p></div>
+        <div class="g-caja"><h4>Motion</h4><p>Orden y Relevo (03) para intros de marca; entradas de 0,4–0,5 s con salida suave, sin rebote en piezas informativas; el estado final es la pieza estática y existe versión estática.</p></div>
+        <div class="g-caja"><h4>Fotografía</h4><p>Fuera de esta ronda: no hay banco aprobado ni consentimientos. No se simula con imágenes generadas.</p></div>
+        <div class="g-caja"><h4>Informes clínicos</h4><p>La marca de plataforma no sustituye el membrete del laboratorio cliente (ADR 0002). Ninguna plantilla del kit es un informe.</p></div>
+      </div>
+
+      <h3 class="g-h3" id="usos">Usos correctos e incorrectos</h3>
+      <div class="g-usos" id="usos-lista"></div>
+
+      <h3 class="g-h3" id="voz">Voz, ejemplos y presupuesto de texto</h3>
+      <div class="g-dos">
+        <div>
+          <ul class="g-lista">
+            <li><b>Tú, claro y concreto.</b> «Pide que te asignen como revisor de la orden.»</li>
+            <li><b>Nombra al responsable.</b> «El revisor asignado lo aprueba o solicita cambios.»</li>
+            <li><b>Verbos de acción.</b> Redacta, envía, revisa, firma, consulta.</li>
+            <li><b>Sin absolutos ni promesas.</b> Nada de «100 %», «garantizado», «sin errores».</li>
+            <li><b>Sin jerga interna.</b> «Informe» en público (la app aún dice «reporte»; diferencia anotada).</li>
+          </ul>
+        </div>
+        <div class="g-tabla-envoltura" tabindex="0" role="region" aria-label="Presupuesto de texto"><table class="g-tabla">
+          <caption>Presupuesto de líneas que comprueba el exportador</caption>
+          <thead><tr><th scope="col">Formato</th><th scope="col">Titular</th><th scope="col">Texto o lista</th><th scope="col">Si no cabe</th></tr></thead>
+          <tbody><tr><th scope="row">1:1</th><td>≤ 3</td><td>≤ 4</td><td>Versión condensada</td></tr><tr><th scope="row">4:5</th><td>≤ 3</td><td>≤ 4 · lista ≤ 6</td><td>Condensada</td></tr><tr><th scope="row">9:16</th><td>≤ 3</td><td>≤ 4 · lista ≤ 6</td><td>Condensada</td></tr><tr><th scope="row">1.91:1</th><td>≤ 3</td><td>≤ 4</td><td>Condensada</td></tr><tr><th scope="row">16:9</th><td>≤ 3</td><td>≤ 4</td><td>Condensada</td></tr></tbody>
+        </table></div>
+      </div>
+      <details class="g-detalle"><summary>Registro interno: afirmaciones excluidas del material externo</summary><div class="g-tabla-envoltura" tabindex="0" role="region" aria-label="Afirmaciones excluidas"><table class="g-tabla" id="tabla-excluidas"></table></div></details>
+    </section>
+
+    <!-- 5 · KIT -->
+    <section id="kit" class="g-sec" aria-labelledby="t-kit">
+      <p class="g-num">6</p>
+      <h2 id="t-kit">Kit en contexto y a tamaño de uso</h2>
+      <p class="g-lead">61 piezas de B · Ficha <b>ronda 2</b> (fondos rescatados y Microcosmos). Cada una trae caption editable, texto alternativo, fuentes con estado y modo. La ronda 1 queda en <code>ronda-2/antes/</code>.</p>
+      <div class="g-controles" role="toolbar" aria-label="Filtros del kit">
+        <div class="g-grupo" role="group" aria-label="Grupo" id="filtro-grupo"></div>
+        <div class="g-grupo" role="group" aria-label="Tamaño de vista"><span class="g-et">Vista</span>
+          <button type="button" class="g-btn" data-kv="mini" aria-pressed="true">Miniatura</button>
+          <button type="button" class="g-btn" data-kv="movil" aria-pressed="false">Teléfono · 390 px</button></div>
+      </div>
+      <h3 class="g-h3" id="carrusel">Carrusel completo · «Del borrador al informe firmado» · 7 láminas</h3>
+      <div class="g-carrusel" id="carrusel-tira" tabindex="0" role="region" aria-label="Carrusel de siete láminas; desplázate horizontalmente"></div>
+      <p class="g-nota" id="carrusel-caption"></p>
+      <div class="g-kit" id="kit-grid"></div>
+    </section>
+
+    <!-- 6 · MOTION -->
+    <section id="motion" class="g-sec" aria-labelledby="t-mot">
+      <p class="g-num">7</p>
+      <h2 id="t-mot">Motion de comunicación</h2>
+      <p class="g-lead">Dos ejemplos breves. No se reproducen solos: usa los controles. Con movimiento reducido se muestra la versión estática.</p>
+      <div class="g-controles" role="toolbar" aria-label="Controles de motion"><div class="g-grupo" role="group" aria-label="Versión"><span class="g-et">Versión</span>
+        <button type="button" class="g-btn" data-mv="video" aria-pressed="true">Vídeo</button>
+        <button type="button" class="g-btn" data-mv="estatico" aria-pressed="false">Estática</button></div></div>
+      <div class="g-motion" id="motion-lista"></div>
+    </section>
+
+    <!-- 7 · GUÍA -->
+    <section id="guia" class="g-sec" aria-labelledby="t-guia">
+      <p class="g-num">8</p>
+      <h2 id="t-guia">Guía de uso</h2>
+      <div class="g-dos">
+        <div>
+          <h3 class="g-h3">Hacer una pieza nueva</h3>
+          <ol class="g-lista num">
+            <li><b>Elige la plantilla</b> por el mensaje: valor, consejo, capacidad, novedad, demostración, flujo o carrusel.</li>
+            <li><b>Escribe un solo mensaje.</b> Titular ≤ 3 líneas. Prepara la versión condensada y deja el texto completo en el caption.</li>
+            <li><b>Comprueba la fuente.</b> Si afirmas algo del producto, enlaza la página publicada en docs.celuma.mx. Si no existe, la pieza no sale.</li>
+            <li><b>Previsualiza en el <a href="kit/editor.html">editor</a></b> y revisa el aviso de presupuesto en cada formato.</li>
+            <li><b>Exporta</b> con <code>node scripts/exportar.mjs kit --pdf</code> y revisa el PNG a 390 px.</li>
+            <li><b>Pasa a revisión</b> (Rafael y producto) antes de publicar.</li>
+          </ol>
+        </div>
+        <div>
+          <h3 class="g-h3">Qué cubre el kit y qué no</h3>
+          <p><b>Cubre:</b> publicaciones en 1:1, 4:5, 9:16, 1.91:1 y 16:9; carrusel; avatar; portada 4:1; destacados; banner 3:1; firma de correo; diapositivas de título y de contenido; dos motion; recursos y editor.</p>
+          <p><b>No cubre:</b> impresos, informes clínicos, etiquetas, fotografía, anuncios pagados con requisitos de plataforma, vídeo con audio, plantillas de Figma o Canva (no se entregó ninguna), papelería y pantallas de la app.</p>
+          <h3 class="g-h3">Antes de publicar</h3>
+          <ul class="g-lista check"><li>Texto revisado y fuente publicada vigente.</li><li>Contraste y presupuesto en verde.</li><li>Logo completo, sin efectos, en zona lisa.</li><li>Datos sintéticos; sin pacientes, médicos ni laboratorios reales.</li><li>Formato y zonas confirmados en la plataforma de destino.</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8 · EVIDENCIAS -->
+    <section id="evidencias" class="g-sec" aria-labelledby="t-evi">
+      <p class="g-num">9</p>
+      <h2 id="t-evi">Evidencias</h2>
+      <p class="g-lead">Lo comprobado, con qué, a qué tamaños y con qué límites. Detalle completo en <a href="VALIDACION.md">VALIDACION.md</a>.</p>
+      <div class="g-tabla-envoltura" tabindex="0" role="region" aria-label="Matriz de calidad"><table class="g-tabla" id="tabla-calidad"></table></div>
+      <div class="g-hojas">
+        <figure><a href="validacion/hojas/comparacion-abc.png"><img src="validacion/hojas/comparacion-abc.png" alt="Hoja de contacto: las tres direcciones con el mismo contenido" loading="lazy"></a><figcaption>Contacto comparativo A · B · C</figcaption></figure>
+        <figure><a href="validacion/hojas/movil-390.png"><img src="validacion/hojas/movil-390.png" alt="Piezas de las tres direcciones vistas a 390 px de ancho" loading="lazy"></a><figcaption>Lectura a 390 px</figcaption></figure>
+        <figure><a href="validacion/hojas/motion-fotogramas.png"><img src="validacion/hojas/motion-fotogramas.png" alt="Fotogramas clave del motion intro y novedad" loading="lazy"></a><figcaption>Fotogramas clave · intro + novedad</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- 9 · ARCHIVOS -->
+    <section id="archivos" class="g-sec" aria-labelledby="t-arc">
+      <p class="g-num">10</p>
+      <h2 id="t-arc">Archivos y descargas</h2>
+      <p class="g-lead">Todo lo de esta página está en la carpeta del experimento. Los paquetes llevan un LEEME con su estado: <b>candidato, no aprobado</b>. Cómo editar y exportar: <a href="README.md">README.md</a>.</p>
+      <ul class="g-descargas" id="descargas"></ul>
+      <details class="g-detalle"><summary>Manifiesto completo (<span id="manifest-n"></span> archivos) · <a href="manifest.json">manifest.json</a></summary><div class="g-tabla-envoltura" tabindex="0" role="region" aria-label="Manifiesto"><table class="g-tabla g-tabla-chica" id="tabla-manifest"></table></div></details>
+    </section>
+
+    <!-- 10 · PLAN -->
+    <section id="plan" class="g-sec" aria-labelledby="t-plan">
+      <p class="g-num">11</p>
+      <h2 id="t-plan">Pendientes y plan de incorporación</h2>
+      <div class="g-dos">
+        <div>
+          <h3 class="g-h3">Decisiones para Rafael</h3>
+          <ol class="g-lista num">
+            <li>¿Dirección del sistema: B como base, otra o una combinación?</li>
+            <li>¿Inter como sans de texto para piezas exportadas (D-12)?</li>
+            <li>¿Tintas locales (<code>#17635F</code>, <code>#3A4A5C</code>, <code>#56657A</code>) como candidatas a tokens?</li>
+            <li>¿Línea «Fuente ·» visible en piezas externas o solo en el caption?</li>
+            <li>¿Canal para demostraciones (hola@celuma.mx u otro)?</li>
+            <li>¿Qué plantillas pasan primero a revisión por medio?</li>
+            <li><b>Ronda 2:</b> ¿los tres modos de B y su reparto por plantilla?</li>
+            <li><b>Ronda 2:</b> ¿un recurso Microcosmos por valor en la serie?</li>
+            <li><b>Ronda 2:</b> ¿navy profundo <code>#0A1520</code> como superficie del sistema y la excepción de luz a la derecha en la portada 4:1?</li>
+            <li>¿Los paquetes de descarga (≈ 63 MB, regenerables) se versionan o se excluyen?</li>
+          </ol>
+        </div>
+        <div>
+          <h3 class="g-h3">Después de una aprobación explícita</h3>
+          <p>El plan <a href="INCORPORACION.md">INCORPORACION.md</a> mapea material actual → candidato → dependencia → validación. Prepara la migración; <b>no la ejecuta</b>. Nada de este experimento sustituye todavía a las propuestas A/B/C de <em>Material digital</em>, a la guía de publicaciones ni a los tokens.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="g-pie"><a href="../../index.html">← Volver al laboratorio</a><span>Experimento 04 · exploración · pendiente de aprobación</span><a href="#inicio">Arriba ↑</a></footer>
+  <script src="kit/formatos.js"></script>
+  <script src="galeria-datos.js"></script>
+  <script src="galeria.js"></script>
+</body>
+</html>

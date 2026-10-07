@@ -1,0 +1,285 @@
+{
+ "fecha": "2026-10-07T04:03:03.877Z",
+ "navegador": "Chromium (Playwright de celuma-frontend) headless, macOS",
+ "servidores": {
+  "http://127.0.0.1:63322": {
+   "ok": true,
+   "pruebas": [
+    {
+     "prueba": "Lab: la tarjeta del 04 existe",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Lab → 04 abre pestaña nueva y carga la galería",
+     "ok": true,
+     "extra": "/labs/experiments/4-identidad-digital/index.html"
+    },
+    {
+     "prueba": "Barra de recorrido: aria-current en «Identidad digital»",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "04 → «Laboratorio» vuelve al lab",
+     "ok": true,
+     "extra": "/labs/index.html"
+    },
+    {
+     "prueba": "Entrada directa /labs/experiments/4-identidad-digital/",
+     "ok": true,
+     "extra": "{\"url\":\"/labs/experiments/4-identidad-digital/\",\"rotas\":0,\"css\":\"flex\",\"f\":\"4x5\",\"oscuro\":false,\"top\":2317}"
+    },
+    {
+     "prueba": "Entrada directa /labs/experiments/4-identidad-digital",
+     "ok": true,
+     "extra": "{\"url\":\"/labs/experiments/4-identidad-digital/\",\"rotas\":0,\"css\":\"flex\",\"f\":\"4x5\",\"oscuro\":false,\"top\":2317}"
+    },
+    {
+     "prueba": "Entrada directa /labs/experiments/4-identidad-digital/index.html",
+     "ok": true,
+     "extra": "{\"url\":\"/labs/experiments/4-identidad-digital/index.html\",\"rotas\":0,\"css\":\"flex\",\"f\":\"4x5\",\"oscuro\":false,\"top\":2317}"
+    },
+    {
+     "prueba": "Entrada directa /labs/experiments/4-identidad-digital/?formato=9x16&contexto=oscuro#direcciones",
+     "ok": true,
+     "extra": "{\"url\":\"/labs/experiments/4-identidad-digital/?formato=9x16&contexto=oscuro#direcciones\",\"rotas\":0,\"css\":\"flex\",\"f\":\"9x16\",\"oscuro\":true,\"top\":16}"
+    },
+    {
+     "prueba": "Comparación: 9:16 cambia las piezas",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Comparación: feed claro",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Teclado: Enter activa «Pieza»",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Kit: filtro Carrusel = 7 piezas",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Kit: vista Teléfono 390 px",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Motion: versión estática",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Motion: el vídeo reproduce y pausa",
+     "ok": true,
+     "extra": "{\"t\":0.604322,\"src\":\"intro-novedad.webm\"}"
+    },
+    {
+     "prueba": "Enlaces locales de la galería (181)",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Anclas internas existentes",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Galería → Editor (aria-current)",
+     "ok": true,
+     "extra": "/labs/experiments/4-identidad-digital/kit/editor.html#p=valor-claridad&d=b&f=4x5"
+    },
+    {
+     "prueba": "Editor: cambiar pieza y formato",
+     "ok": true,
+     "extra": "Dentro de presupuesto: líneas, área útil y solapes correctos."
+    },
+    {
+     "prueba": "Editor → galería",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Directa /labs/experiments/4-identidad-digital/kit/pieza.html#p=valor-claridad&d=b&f=4x5",
+     "ok": true,
+     "extra": "/labs/experiments/4-identidad-digital/kit/pieza.html#p=valor-claridad&d=b&f=4x5"
+    },
+    {
+     "prueba": "Directa /labs/experiments/4-identidad-digital/kit/pieza.html#p=valor-claridad&d=b&f=4x5&guias=1",
+     "ok": true,
+     "extra": "/labs/experiments/4-identidad-digital/kit/pieza.html#p=valor-claridad&d=b&f=4x5&guias=1"
+    },
+    {
+     "prueba": "Directa /labs/experiments/4-identidad-digital/motion/motion.html#m=paso-a-paso&t=3",
+     "ok": true,
+     "extra": "/labs/experiments/4-identidad-digital/motion/motion.html#m=paso-a-paso&t=3"
+    },
+    {
+     "prueba": "390 px: sin desplazamiento horizontal",
+     "ok": true,
+     "extra": "{\"sw\":390,\"est\":2,\"vid\":0}"
+    },
+    {
+     "prueba": "Movimiento reducido: motion estático por defecto",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Editor a 390 px sin desbordes",
+     "ok": true,
+     "extra": ""
+    }
+   ],
+   "errores": [],
+   "notas": []
+  },
+  "http://localhost:5050": {
+   "ok": true,
+   "pruebas": [
+    {
+     "prueba": "Lab: la tarjeta del 04 existe",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Lab → 04 abre pestaña nueva y carga la galería",
+     "ok": true,
+     "extra": "/labs/experiments/4-identidad-digital/"
+    },
+    {
+     "prueba": "Barra de recorrido: aria-current en «Identidad digital»",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "04 → «Laboratorio» vuelve al lab",
+     "ok": true,
+     "extra": "/labs/"
+    },
+    {
+     "prueba": "Entrada directa /labs/experiments/4-identidad-digital/",
+     "ok": true,
+     "extra": "{\"url\":\"/labs/experiments/4-identidad-digital/\",\"rotas\":0,\"css\":\"flex\",\"f\":\"4x5\",\"oscuro\":false,\"top\":2317}"
+    },
+    {
+     "prueba": "Entrada directa /labs/experiments/4-identidad-digital",
+     "ok": true,
+     "extra": "{\"url\":\"/labs/experiments/4-identidad-digital/\",\"rotas\":0,\"css\":\"flex\",\"f\":\"4x5\",\"oscuro\":false,\"top\":2317}"
+    },
+    {
+     "prueba": "Entrada directa /labs/experiments/4-identidad-digital/index.html",
+     "ok": true,
+     "extra": "{\"url\":\"/labs/experiments/4-identidad-digital/\",\"rotas\":0,\"css\":\"flex\",\"f\":\"4x5\",\"oscuro\":false,\"top\":2317}"
+    },
+    {
+     "prueba": "Entrada directa /labs/experiments/4-identidad-digital/?formato=9x16&contexto=oscuro#direcciones",
+     "ok": true,
+     "extra": "{\"url\":\"/labs/experiments/4-identidad-digital/?formato=9x16&contexto=oscuro#direcciones\",\"rotas\":0,\"css\":\"flex\",\"f\":\"9x16\",\"oscuro\":true,\"top\":16}"
+    },
+    {
+     "prueba": "Comparación: 9:16 cambia las piezas",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Comparación: feed claro",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Teclado: Enter activa «Pieza»",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Kit: filtro Carrusel = 7 piezas",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Kit: vista Teléfono 390 px",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Motion: versión estática",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Motion: el vídeo reproduce y pausa",
+     "ok": true,
+     "extra": "{\"t\":0.601814,\"src\":\"intro-novedad.webm\"}"
+    },
+    {
+     "prueba": "Enlaces locales de la galería (181)",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Anclas internas existentes",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Galería → Editor (aria-current)",
+     "ok": true,
+     "extra": "/labs/experiments/4-identidad-digital/kit/editor#p=valor-claridad&d=b&f=4x5"
+    },
+    {
+     "prueba": "Editor: cambiar pieza y formato",
+     "ok": true,
+     "extra": "Dentro de presupuesto: líneas, área útil y solapes correctos."
+    },
+    {
+     "prueba": "Editor → galería",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Directa /labs/experiments/4-identidad-digital/kit/pieza.html#p=valor-claridad&d=b&f=4x5",
+     "ok": true,
+     "extra": "/labs/experiments/4-identidad-digital/kit/pieza#p=valor-claridad&d=b&f=4x5"
+    },
+    {
+     "prueba": "Directa /labs/experiments/4-identidad-digital/kit/pieza.html#p=valor-claridad&d=b&f=4x5&guias=1",
+     "ok": true,
+     "extra": "/labs/experiments/4-identidad-digital/kit/pieza#p=valor-claridad&d=b&f=4x5&guias=1"
+    },
+    {
+     "prueba": "Directa /labs/experiments/4-identidad-digital/motion/motion.html#m=paso-a-paso&t=3",
+     "ok": true,
+     "extra": "/labs/experiments/4-identidad-digital/motion/motion#m=paso-a-paso&t=3"
+    },
+    {
+     "prueba": "390 px: sin desplazamiento horizontal",
+     "ok": true,
+     "extra": "{\"sw\":390,\"est\":2,\"vid\":0}"
+    },
+    {
+     "prueba": "Movimiento reducido: motion estático por defecto",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Editor a 390 px sin desbordes",
+     "ok": true,
+     "extra": ""
+    }
+   ],
+   "errores": [],
+   "notas": [
+    "9 peticiones especulativas 404 al entrar sin barra final (efecto conocido de la normalización): 404 /lab.css · 404 /labs/experiments/galeria.css · 404 /labs/experiments/kit/sistema.css · 404 /labs/experiments/kit/marca/celuma-lockup-horizontal-color-positivo.svg · 404 /labs/experiments/kit/marca/celuma-lockup-horizontal-color-negativo.svg · 404 /labs/experiments/kit/marca/celuma-isotipo-color.svg · 404 /labs/experiments/kit/formatos.js · 404 /labs/experiments/galeria-datos.js · 404 /labs/experiments/galeria.js"
+   ]
+  }
+ },
+ "ok": true,
+ "resumen": "http.server: 26/26 · http://localhost:5050: 26/26",
+ "limites": "Chromium headless; la pestaña nueva se comprobó con el evento de página. Sin Safari, Firefox ni dispositivos."
+}

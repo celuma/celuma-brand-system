@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Céluma · motion de comunicación (04, candidato)</title>
+  <!-- Vista en vivo de un motion: #m=intro-novedad | paso-a-paso. Opciones: &t=<s> (congela un instante),
+       &reducido=1 (muestra el estado final estático), &bare=1 (sin controles, para exportar). -->
+  <link rel="stylesheet" href="../kit/sistema.css">
+  <link rel="stylesheet" href="../kit/piezas.css">
+  <style>
+    html, body { margin: 0; background: #e9e4da; font-family: Inter, system-ui, sans-serif; color: #0d1b2a; }
+    .marco { padding: 16px; }
+    .escala { transform-origin: 0 0; }
+    .barra { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 12px; font-size: 14px; }
+    .barra button { font: 600 14px/1 Inter, sans-serif; border: 2px solid #0d1b2a; background: #fff; color: #0d1b2a; border-radius: 999px; padding: 8px 14px; cursor: pointer; }
+    .barra button[aria-pressed="true"] { background: #0d1b2a; color: #fff; }
+    .barra button:focus-visible { outline: 3px solid #1f7a75; outline-offset: 2px; }
+    .reloj { font-variant-numeric: tabular-nums; min-width: 10ch; }
+    .pasos-v.animando::before { transform: scaleY(var(--lp)); transform-origin: top; }
+    body.bare .marco { padding: 0; }
+    body.bare .barra { display: none; }
+  </style>
+  <script>window.E4_BASE = '../kit/';</script>
+  <script src="../kit/formatos.js"></script>
+  <script src="../kit/contenido.js"></script>
+  <script src="../kit/microcosmos.js"></script>
+  <script src="../kit/piezas.js"></script>
+  <script src="../../3-logo-motion/vendor/lottie-web-5.13.0/lottie.min.js"></script>
+  <script src="motion.js"></script>
+</head>
+<body>
+  <div class="marco">
+    <div class="barra" role="group" aria-label="Controles de reproducción">
+      <button type="button" id="b-play" aria-pressed="true">Pausar</button>
+      <button type="button" id="b-reini">Reiniciar</button>
+      <button type="button" id="b-red" aria-pressed="false">Estático (movimiento reducido)</button>
+      <span class="reloj" id="reloj" aria-live="off">0,00 s</span>
+    </div>
+    <div class="escala" id="escala"><div id="escena" style="position:relative"></div></div>
+  </div>
+  <script>
+  (async function () {
+    const src = new URLSearchParams(location.hash.slice(1) || location.search.slice(1));
+    const id = src.get('m') || 'intro-novedad';
+    const bare = src.get('bare') === '1';
+    if (bare) document.body.classList.add('bare');
+    const P = E4M.PIEZAS[id];
+    await document.fonts.ready;
+    await Promise.all(['800 40px "Baloo 2"', '400 20px Inter', '650 20px Inter'].map((f) => document.fonts.load(f, 'Céluma áéíóú')));
+    const escena = document.getElementById('escena');
+    // Montaje animable (con la capa Lottie) y montaje limpio (la pieza estática tal cual) para el reposo:
+    // cuando todas las entradas terminan (P.finAnim) la escena se vuelve a montar sin estilos ni capas.
+    let ctx = null, anim = null, limpio = false;
+    const cargarImgs = () => Promise.all([...escena.querySelectorAll('img')].map((i) => i.complete ? 0 : new Promise((r) => { i.onload = i.onerror = r; })));
+    async function montarAnimable() {
+      if (anim) { anim.destroy(); anim = null; }
+      ctx = E4M.montar(id, escena); limpio = false;
+      await cargarImgs(); E4M.medir(ctx);
+      if (P.lottie) {
+        const datos = await fetch(P.lottie).then((r) => r.json());
+        anim = lottie.loadAnimation({ container: ctx.capa, renderer: 'svg', loop: false, autoplay: false, animationData: datos, rendererSettings: { preserveAspectRatio: 'xMidYMid meet' } });
+        await new Promise((r) => anim.addEventListener('DOMLoaded', r));
+      }
+    }
+    async function montarLimpio() {
+      if (anim) { anim.destroy(); anim = null; }
+      escena.innerHTML = E4.html(P.pieza, P.dir, P.formato); E4.ajustarModulos(escena.querySelector('.pz'));
+      await cargarImgs(); limpio = true;
+    }
+    async function ir(s) {
+      if (s >= P.finAnim) { if (!limpio) await montarLimpio(); return; }
+      if (limpio || !ctx) await montarAnimable();
+      E4M.render(ctx, s, anim);
+    }
+    await montarAnimable();
+    // Escala la escena para que quepa en la ventana (la exportación usa bare=1 a tamaño real)
+    function ajustar() {
+      if (bare) return;
+      const pz = escena.querySelector('.pz'), k = Math.min(1, (innerWidth - 32) / pz.offsetWidth, (innerHeight - 90) / pz.offsetHeight);
+      const e = document.getElementById('escala'); e.style.transform = `scale(${k})`; e.style.height = pz.offsetHeight * k + 'px';
+    }
+    ajustar(); addEventListener('resize', ajustar);
+
+    const reloj = document.getElementById('reloj');
+    const reducidoSistema = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let reducido = src.get('reducido') === '1' || reducidoSistema;
+    let t = src.has('t') ? +src.get('t') : 0, jugando = !src.has('t') && !reducido, previo = null;
+    let ocupado = false;
+    async function dibujar() { if (ocupado) return; ocupado = true; await ir(reducido ? P.duracion : t); ocupado = false; reloj.textContent = (reducido ? 'Estático' : t.toFixed(2).replace('.', ',') + ' s') + ' / ' + P.duracion.toFixed(1).replace('.', ',') + ' s'; }
+    function bucle(ts) {
+      if (!jugando) { previo = null; return; }
+      if (previo != null) t = Math.min(P.duracion, t + (ts - previo) / 1000);
+      previo = ts; dibujar();
+      if (t >= P.duracion) { jugando = false; actualizar(); return; }
+      requestAnimationFrame(bucle);
+    }
+    function actualizar() {
+      const b = document.getElementById('b-play');
+      b.textContent = jugando ? 'Pausar' : (t >= P.duracion ? 'Repetir' : 'Reproducir');
+      b.setAttribute('aria-pressed', String(jugando));
+      document.getElementById('b-red').setAttribute('aria-pressed', String(reducido));
+    }
+    document.getElementById('b-play').onclick = () => { if (reducido) return; if (t >= P.duracion) t = 0; jugando = !jugando; actualizar(); if (jugando) requestAnimationFrame(bucle); };
+    document.getElementById('b-reini').onclick = () => { t = 0; reducido = false; jugando = true; actualizar(); requestAnimationFrame(bucle); };
+    document.getElementById('b-red').onclick = () => { reducido = !reducido; jugando = false; actualizar(); dibujar(); };
+    // API para exportar
+    window.E4_MOTION = { duracion: P.duracion, fps: P.fps, finAnim: P.finAnim, ir: async (s) => { t = s; jugando = false; reducido = false; await ir(s); } };
+    await dibujar(); actualizar();
+    if (jugando) requestAnimationFrame(bucle);
+    document.body.dataset.listo = '1';
+  })();
+  </script>
+</body>
+</html>

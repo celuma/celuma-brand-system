@@ -1,0 +1,1898 @@
+{
+ "fecha": "2026-10-07T04:57:51.914Z",
+ "navegador": "Chromium (Playwright de celuma-frontend), headless, macOS",
+ "total": 10,
+ "fallos": 0,
+ "piezas": [
+  {
+   "p": "valor-claridad",
+   "d": "b",
+   "f": "4x5",
+   "out": "ronda-2/despues/valor-claridad__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "display",
+     "n": 1,
+     "max": 1,
+     "ok": true
+    },
+    {
+     "el": "def",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [
+    {
+     "el": "cab-serie",
+     "min": 7.91,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "cab-num",
+     "min": 5.43,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "display",
+     "min": 14.25,
+     "objetivo": 3,
+     "ok": true
+    },
+    {
+     "el": "lema",
+     "min": 4.81,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "def",
+     "min": 14.14,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "cta",
+     "min": 6.53,
+     "objetivo": 4.5,
+     "ok": true
+    }
+   ],
+   "proteccion": [
+    {
+     "logo": "firma-lockup",
+     "formasDentro": 0,
+     "variacionFondo": 1.7,
+     "ok": true
+    }
+   ],
+   "textos": [
+    {
+     "el": "cab-serie",
+     "color": "rgb(58, 74, 92)",
+     "px": 31,
+     "peso": 650,
+     "x": 80,
+     "y": 80,
+     "w": 167,
+     "h": 37
+    },
+    {
+     "el": "cab-num",
+     "color": "rgb(86, 101, 122)",
+     "px": 31,
+     "peso": 650,
+     "x": 875,
+     "y": 80,
+     "w": 125,
+     "h": 37
+    },
+    {
+     "el": "display",
+     "color": "rgb(13, 27, 42)",
+     "px": 171.72,
+     "peso": 800,
+     "x": 131,
+     "y": 145,
+     "w": 626,
+     "h": 275
+    },
+    {
+     "el": "lema",
+     "color": "rgb(86, 101, 122)",
+     "px": 31,
+     "peso": 400,
+     "x": 131,
+     "y": 387,
+     "w": 142,
+     "h": 37
+    },
+    {
+     "el": "lema",
+     "color": "rgb(86, 101, 122)",
+     "px": 31,
+     "peso": 400,
+     "x": 292,
+     "y": 387,
+     "w": 86,
+     "h": 37
+    },
+    {
+     "el": "def",
+     "color": "rgb(23, 99, 95)",
+     "px": 50.4,
+     "peso": 800,
+     "x": 131,
+     "y": 456,
+     "w": 20,
+     "h": 80
+    },
+    {
+     "el": "def",
+     "color": "rgb(13, 27, 42)",
+     "px": 50.4,
+     "peso": 400,
+     "x": 181,
+     "y": 466,
+     "w": 677,
+     "h": 61
+    },
+    {
+     "el": "def",
+     "color": "rgb(13, 27, 42)",
+     "px": 50.4,
+     "peso": 400,
+     "x": 181,
+     "y": 533,
+     "w": 707,
+     "h": 61
+    },
+    {
+     "el": "cta",
+     "color": "rgb(23, 99, 95)",
+     "px": 31,
+     "peso": 650,
+     "x": 842,
+     "y": 1212,
+     "w": 158,
+     "h": 37
+    }
+   ],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "valor-claridad",
+   "d": "b",
+   "f": "9x16",
+   "out": "ronda-2/despues/valor-claridad__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "display",
+     "n": 1,
+     "max": 1,
+     "ok": true
+    },
+    {
+     "el": "def",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [
+    {
+     "el": "cab-serie",
+     "min": 7.67,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "cab-num",
+     "min": 5.4,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "display",
+     "min": 14.16,
+     "objetivo": 3,
+     "ok": true
+    },
+    {
+     "el": "lema",
+     "min": 4.88,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "def",
+     "min": 14.56,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "cta",
+     "min": 6.53,
+     "objetivo": 4.5,
+     "ok": true
+    }
+   ],
+   "proteccion": [
+    {
+     "logo": "firma-lockup",
+     "formasDentro": 0,
+     "variacionFondo": 0.8,
+     "ok": true
+    }
+   ],
+   "textos": [
+    {
+     "el": "cab-serie",
+     "color": "rgb(58, 74, 92)",
+     "px": 33,
+     "peso": 650,
+     "x": 80,
+     "y": 349,
+     "w": 177,
+     "h": 40
+    },
+    {
+     "el": "cab-num",
+     "color": "rgb(86, 101, 122)",
+     "px": 33,
+     "peso": 650,
+     "x": 867,
+     "y": 349,
+     "w": 133,
+     "h": 40
+    },
+    {
+     "el": "display",
+     "color": "rgb(13, 27, 42)",
+     "px": 188.68,
+     "peso": 800,
+     "x": 131,
+     "y": 390,
+     "w": 688,
+     "h": 302
+    },
+    {
+     "el": "lema",
+     "color": "rgb(86, 101, 122)",
+     "px": 33,
+     "peso": 400,
+     "x": 131,
+     "y": 654,
+     "w": 150,
+     "h": 40
+    },
+    {
+     "el": "lema",
+     "color": "rgb(86, 101, 122)",
+     "px": 33,
+     "peso": 400,
+     "x": 301,
+     "y": 654,
+     "w": 91,
+     "h": 40
+    },
+    {
+     "el": "def",
+     "color": "rgb(23, 99, 95)",
+     "px": 56,
+     "peso": 800,
+     "x": 131,
+     "y": 726,
+     "w": 22,
+     "h": 89
+    },
+    {
+     "el": "def",
+     "color": "rgb(13, 27, 42)",
+     "px": 56,
+     "peso": 400,
+     "x": 187,
+     "y": 736,
+     "w": 752,
+     "h": 68
+    },
+    {
+     "el": "def",
+     "color": "rgb(13, 27, 42)",
+     "px": 56,
+     "peso": 400,
+     "x": 187,
+     "y": 811,
+     "w": 785,
+     "h": 68
+    },
+    {
+     "el": "cta",
+     "color": "rgb(23, 99, 95)",
+     "px": 33,
+     "peso": 650,
+     "x": 832,
+     "y": 1396,
+     "w": 168,
+     "h": 40
+    }
+   ],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "identidad-nombre",
+   "d": "b",
+   "f": "4x5",
+   "out": "ronda-2/despues/identidad-nombre__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 1,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [
+    {
+     "el": "cab-serie",
+     "min": 7.9,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "eyebrow",
+     "min": 5.93,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "titulo",
+     "min": 14.24,
+     "objetivo": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "min": 7.38,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "cta",
+     "min": 6.53,
+     "objetivo": 4.5,
+     "ok": true
+    }
+   ],
+   "proteccion": [
+    {
+     "logo": "firma-lockup",
+     "formasDentro": 0,
+     "variacionFondo": 1.7,
+     "ok": true
+    }
+   ],
+   "textos": [
+    {
+     "el": "cab-serie",
+     "color": "rgb(58, 74, 92)",
+     "px": 31,
+     "peso": 650,
+     "x": 80,
+     "y": 80,
+     "w": 199,
+     "h": 37
+    },
+    {
+     "el": "eyebrow",
+     "color": "rgb(23, 99, 95)",
+     "px": 31,
+     "peso": 650,
+     "x": 131,
+     "y": 212,
+     "w": 326,
+     "h": 37
+    },
+    {
+     "el": "titulo",
+     "color": "rgb(13, 27, 42)",
+     "px": 93,
+     "peso": 800,
+     "x": 131,
+     "y": 247,
+     "w": 457,
+     "h": 149
+    },
+    {
+     "el": "texto",
+     "color": "rgb(58, 74, 92)",
+     "px": 45,
+     "peso": 400,
+     "x": 131,
+     "y": 399,
+     "w": 862,
+     "h": 55
+    },
+    {
+     "el": "texto",
+     "color": "rgb(58, 74, 92)",
+     "px": 45,
+     "peso": 400,
+     "x": 131,
+     "y": 461,
+     "w": 313,
+     "h": 55
+    },
+    {
+     "el": "cta",
+     "color": "rgb(23, 99, 95)",
+     "px": 31,
+     "peso": 650,
+     "x": 842,
+     "y": 1212,
+     "w": 158,
+     "h": 37
+    }
+   ],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "capacidad-revisor",
+   "d": "b",
+   "f": "4x5",
+   "out": "ronda-2/despues/capacidad-revisor__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 3,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "permisos",
+     "n": 4,
+     "max": 6,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [
+    {
+     "el": "cab-serie",
+     "min": 8.12,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "eyebrow",
+     "min": 6.16,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "titulo",
+     "min": 14.88,
+     "objetivo": 3,
+     "ok": true
+    },
+    {
+     "el": "si",
+     "min": 15.4,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "no",
+     "min": 15.66,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "no",
+     "min": 15.84,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "fuente",
+     "min": 5.49,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "cta",
+     "min": 6.53,
+     "objetivo": 4.5,
+     "ok": true
+    }
+   ],
+   "proteccion": [
+    {
+     "logo": "firma-lockup",
+     "formasDentro": 0,
+     "variacionFondo": 0,
+     "ok": true
+    }
+   ],
+   "textos": [
+    {
+     "el": "cab-serie",
+     "color": "rgb(58, 74, 92)",
+     "px": 31,
+     "peso": 650,
+     "x": 80,
+     "y": 80,
+     "w": 203,
+     "h": 37
+    },
+    {
+     "el": "eyebrow",
+     "color": "rgb(23, 99, 95)",
+     "px": 31,
+     "peso": 650,
+     "x": 131,
+     "y": 212,
+     "w": 618,
+     "h": 37
+    },
+    {
+     "el": "titulo",
+     "color": "rgb(13, 27, 42)",
+     "px": 93,
+     "peso": 800,
+     "x": 131,
+     "y": 247,
+     "w": 584,
+     "h": 149
+    },
+    {
+     "el": "titulo",
+     "color": "rgb(13, 27, 42)",
+     "px": 93,
+     "peso": 800,
+     "x": 131,
+     "y": 342,
+     "w": 739,
+     "h": 149
+    },
+    {
+     "el": "titulo",
+     "color": "rgb(13, 27, 42)",
+     "px": 93,
+     "peso": 800,
+     "x": 131,
+     "y": 437,
+     "w": 732,
+     "h": 149
+    },
+    {
+     "el": "si",
+     "color": "rgb(13, 27, 42)",
+     "px": 45.9,
+     "peso": 800,
+     "x": 80,
+     "y": 704,
+     "w": 360,
+     "h": 73
+    },
+    {
+     "el": "si",
+     "color": "rgb(13, 27, 42)",
+     "px": 45,
+     "peso": 600,
+     "x": 537,
+     "y": 709,
+     "w": 326,
+     "h": 55
+    },
+    {
+     "el": "no",
+     "color": "rgb(13, 27, 42)",
+     "px": 45.9,
+     "peso": 800,
+     "x": 80,
+     "y": 810,
+     "w": 294,
+     "h": 73
+    },
+    {
+     "el": "no",
+     "color": "rgb(58, 74, 92)",
+     "px": 45,
+     "peso": 400,
+     "x": 537,
+     "y": 815,
+     "w": 446,
+     "h": 55
+    },
+    {
+     "el": "no",
+     "color": "rgb(13, 27, 42)",
+     "px": 45.9,
+     "peso": 800,
+     "x": 80,
+     "y": 917,
+     "w": 320,
+     "h": 73
+    },
+    {
+     "el": "no",
+     "color": "rgb(58, 74, 92)",
+     "px": 45,
+     "peso": 400,
+     "x": 537,
+     "y": 922,
+     "w": 460,
+     "h": 55
+    },
+    {
+     "el": "no",
+     "color": "rgb(58, 74, 92)",
+     "px": 45,
+     "peso": 400,
+     "x": 485,
+     "y": 978,
+     "w": 94,
+     "h": 55
+    },
+    {
+     "el": "fuente",
+     "color": "rgb(86, 101, 122)",
+     "px": 29,
+     "peso": 400,
+     "x": 80,
+     "y": 1102,
+     "w": 604,
+     "h": 35
+    },
+    {
+     "el": "cta",
+     "color": "rgb(23, 99, 95)",
+     "px": 31,
+     "peso": 650,
+     "x": 763,
+     "y": 1212,
+     "w": 237,
+     "h": 37
+    }
+   ],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "capacidad-revisor",
+   "d": "b",
+   "f": "1x1",
+   "out": "ronda-2/despues/capacidad-revisor__1x1.png",
+   "ancho": 1080,
+   "alto": 1080,
+   "corto": true,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 3,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "permisos",
+     "n": 3,
+     "max": 6,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [
+    {
+     "el": "cab-serie",
+     "min": 7.95,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "eyebrow",
+     "min": 6.06,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "titulo",
+     "min": 14.97,
+     "objetivo": 3,
+     "ok": true
+    },
+    {
+     "el": "si",
+     "min": 15.68,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "no",
+     "min": 15.85,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "fuente",
+     "min": 5.49,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "cta",
+     "min": 6.53,
+     "objetivo": 4.5,
+     "ok": true
+    }
+   ],
+   "proteccion": [
+    {
+     "logo": "firma-lockup",
+     "formasDentro": 0,
+     "variacionFondo": 0,
+     "ok": true
+    }
+   ],
+   "textos": [
+    {
+     "el": "cab-serie",
+     "color": "rgb(58, 74, 92)",
+     "px": 31,
+     "peso": 650,
+     "x": 80,
+     "y": 80,
+     "w": 203,
+     "h": 37
+    },
+    {
+     "el": "eyebrow",
+     "color": "rgb(23, 99, 95)",
+     "px": 31,
+     "peso": 650,
+     "x": 131,
+     "y": 212,
+     "w": 618,
+     "h": 37
+    },
+    {
+     "el": "titulo",
+     "color": "rgb(13, 27, 42)",
+     "px": 93,
+     "peso": 800,
+     "x": 131,
+     "y": 247,
+     "w": 584,
+     "h": 149
+    },
+    {
+     "el": "titulo",
+     "color": "rgb(13, 27, 42)",
+     "px": 93,
+     "peso": 800,
+     "x": 131,
+     "y": 342,
+     "w": 621,
+     "h": 149
+    },
+    {
+     "el": "titulo",
+     "color": "rgb(13, 27, 42)",
+     "px": 93,
+     "peso": 800,
+     "x": 131,
+     "y": 437,
+     "w": 422,
+     "h": 149
+    },
+    {
+     "el": "si",
+     "color": "rgb(13, 27, 42)",
+     "px": 40.5,
+     "peso": 800,
+     "x": 80,
+     "y": 594,
+     "w": 318,
+     "h": 65
+    },
+    {
+     "el": "si",
+     "color": "rgb(13, 27, 42)",
+     "px": 40.5,
+     "peso": 600,
+     "x": 532,
+     "y": 599,
+     "w": 293,
+     "h": 49
+    },
+    {
+     "el": "no",
+     "color": "rgb(13, 27, 42)",
+     "px": 40.5,
+     "peso": 800,
+     "x": 80,
+     "y": 681,
+     "w": 265,
+     "h": 65
+    },
+    {
+     "el": "no",
+     "color": "rgb(13, 27, 42)",
+     "px": 40.5,
+     "peso": 800,
+     "x": 80,
+     "y": 730,
+     "w": 141,
+     "h": 65
+    },
+    {
+     "el": "no",
+     "color": "rgb(58, 74, 92)",
+     "px": 40.5,
+     "peso": 400,
+     "x": 532,
+     "y": 686,
+     "w": 401,
+     "h": 49
+    },
+    {
+     "el": "fuente",
+     "color": "rgb(86, 101, 122)",
+     "px": 29,
+     "peso": 400,
+     "x": 80,
+     "y": 832,
+     "w": 604,
+     "h": 35
+    },
+    {
+     "el": "cta",
+     "color": "rgb(23, 99, 95)",
+     "px": 31,
+     "peso": 650,
+     "x": 763,
+     "y": 942,
+     "w": 237,
+     "h": 37
+    }
+   ],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "carrusel-informe-1",
+   "d": "b",
+   "f": "4x5",
+   "out": "ronda-2/despues/carrusel-informe-1__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo xl",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [
+    {
+     "el": "cab-serie",
+     "min": 10.66,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "cab-num",
+     "min": 8.75,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "titulo",
+     "min": 12.77,
+     "objetivo": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "min": 8.56,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "desliza",
+     "min": 15.06,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "cta",
+     "min": 11.57,
+     "objetivo": 4.5,
+     "ok": true
+    }
+   ],
+   "proteccion": [
+    {
+     "logo": "firma-lockup",
+     "formasDentro": 0,
+     "variacionFondo": 0.6,
+     "ok": true
+    }
+   ],
+   "textos": [
+    {
+     "el": "cab-serie",
+     "color": "rgb(201, 211, 221)",
+     "px": 31,
+     "peso": 650,
+     "x": 80,
+     "y": 80,
+     "w": 499,
+     "h": 37
+    },
+    {
+     "el": "cab-num",
+     "color": "rgb(169, 182, 195)",
+     "px": 31,
+     "peso": 650,
+     "x": 875,
+     "y": 80,
+     "w": 125,
+     "h": 37
+    },
+    {
+     "el": "titulo",
+     "color": "rgb(255, 255, 255)",
+     "px": 113.46,
+     "peso": 800,
+     "x": 131,
+     "y": 179,
+     "w": 749,
+     "h": 181
+    },
+    {
+     "el": "titulo",
+     "color": "rgb(255, 255, 255)",
+     "px": 113.46,
+     "peso": 800,
+     "x": 131,
+     "y": 295,
+     "w": 829,
+     "h": 181
+    },
+    {
+     "el": "texto",
+     "color": "rgb(201, 211, 221)",
+     "px": 45,
+     "peso": 400,
+     "x": 131,
+     "y": 472,
+     "w": 827,
+     "h": 55
+    },
+    {
+     "el": "texto",
+     "color": "rgb(201, 211, 221)",
+     "px": 45,
+     "peso": 400,
+     "x": 131,
+     "y": 534,
+     "w": 139,
+     "h": 55
+    },
+    {
+     "el": "desliza",
+     "color": "rgb(255, 255, 255)",
+     "px": 31,
+     "peso": 650,
+     "x": 131,
+     "y": 652,
+     "w": 103,
+     "h": 37
+    },
+    {
+     "el": "cta",
+     "color": "rgb(187, 234, 210)",
+     "px": 31,
+     "peso": 650,
+     "x": 763,
+     "y": 1212,
+     "w": 237,
+     "h": 37
+    }
+   ],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "carrusel-informe-4",
+   "d": "b",
+   "f": "4x5",
+   "out": "ronda-2/despues/carrusel-informe-4__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 1,
+     "max": 2,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 2,
+     "max": 5,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [
+    {
+     "el": "cab-serie",
+     "min": 8.11,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "cab-num",
+     "min": 5.48,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "indice",
+     "min": 6.06,
+     "objetivo": 3,
+     "ok": true
+    },
+    {
+     "el": "quien",
+     "min": 7.76,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "titulo",
+     "min": 14.88,
+     "objetivo": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "min": 7.9,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "et",
+     "min": 8.35,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "et",
+     "min": 8.35,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "et",
+     "min": 16.07,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "et",
+     "min": 8.43,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "fuente",
+     "min": 5.49,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "cta",
+     "min": 6.53,
+     "objetivo": 4.5,
+     "ok": true
+    }
+   ],
+   "proteccion": [
+    {
+     "logo": "firma-lockup",
+     "formasDentro": 0,
+     "variacionFondo": 0,
+     "ok": true
+    }
+   ],
+   "textos": [
+    {
+     "el": "cab-serie",
+     "color": "rgb(58, 74, 92)",
+     "px": 31,
+     "peso": 650,
+     "x": 80,
+     "y": 80,
+     "w": 499,
+     "h": 37
+    },
+    {
+     "el": "cab-num",
+     "color": "rgb(86, 101, 122)",
+     "px": 31,
+     "peso": 650,
+     "x": 875,
+     "y": 80,
+     "w": 125,
+     "h": 37
+    },
+    {
+     "el": "indice",
+     "color": "rgb(23, 99, 95)",
+     "px": 183.6,
+     "peso": 800,
+     "x": 131,
+     "y": 138,
+     "w": 212,
+     "h": 294
+    },
+    {
+     "el": "quien",
+     "color": "rgb(58, 74, 92)",
+     "px": 31,
+     "peso": 650,
+     "x": 178,
+     "y": 385,
+     "w": 263,
+     "h": 37
+    },
+    {
+     "el": "titulo",
+     "color": "rgb(13, 27, 42)",
+     "px": 93,
+     "peso": 800,
+     "x": 131,
+     "y": 420,
+     "w": 272,
+     "h": 149
+    },
+    {
+     "el": "texto",
+     "color": "rgb(58, 74, 92)",
+     "px": 45,
+     "peso": 400,
+     "x": 131,
+     "y": 571,
+     "w": 766,
+     "h": 55
+    },
+    {
+     "el": "texto",
+     "color": "rgb(58, 74, 92)",
+     "px": 45,
+     "peso": 400,
+     "x": 131,
+     "y": 633,
+     "w": 867,
+     "h": 55
+    },
+    {
+     "el": "et",
+     "color": "rgb(58, 74, 92)",
+     "px": 31,
+     "peso": 600,
+     "x": 137,
+     "y": 1022,
+     "w": 117,
+     "h": 37
+    },
+    {
+     "el": "et",
+     "color": "rgb(58, 74, 92)",
+     "px": 31,
+     "peso": 600,
+     "x": 387,
+     "y": 1022,
+     "w": 77,
+     "h": 37
+    },
+    {
+     "el": "et",
+     "color": "rgb(13, 27, 42)",
+     "px": 31,
+     "peso": 750,
+     "x": 608,
+     "y": 1022,
+     "w": 95,
+     "h": 37
+    },
+    {
+     "el": "et",
+     "color": "rgb(58, 74, 92)",
+     "px": 31,
+     "peso": 600,
+     "x": 845,
+     "y": 1022,
+     "w": 80,
+     "h": 37
+    },
+    {
+     "el": "fuente",
+     "color": "rgb(86, 101, 122)",
+     "px": 29,
+     "peso": 400,
+     "x": 80,
+     "y": 1102,
+     "w": 638,
+     "h": 35
+    },
+    {
+     "el": "cta",
+     "color": "rgb(23, 99, 95)",
+     "px": 31,
+     "peso": 650,
+     "x": 763,
+     "y": 1212,
+     "w": 237,
+     "h": 37
+    }
+   ],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "carrusel-informe-7",
+   "d": "b",
+   "f": "4x5",
+   "out": "ronda-2/despues/carrusel-informe-7__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [
+    {
+     "el": "cab-serie",
+     "min": 10.66,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "cab-num",
+     "min": 8.75,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "titulo",
+     "min": 12.91,
+     "objetivo": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "min": 8.41,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "destino-et",
+     "min": 13.04,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "destino-url",
+     "min": 16.45,
+     "objetivo": 3,
+     "ok": true
+    },
+    {
+     "el": "cta",
+     "min": 11.57,
+     "objetivo": 4.5,
+     "ok": true
+    }
+   ],
+   "proteccion": [
+    {
+     "logo": "firma-lockup",
+     "formasDentro": 0,
+     "variacionFondo": 0.6,
+     "ok": true
+    }
+   ],
+   "textos": [
+    {
+     "el": "cab-serie",
+     "color": "rgb(201, 211, 221)",
+     "px": 31,
+     "peso": 650,
+     "x": 80,
+     "y": 80,
+     "w": 499,
+     "h": 37
+    },
+    {
+     "el": "cab-num",
+     "color": "rgb(169, 182, 195)",
+     "px": 31,
+     "peso": 650,
+     "x": 875,
+     "y": 80,
+     "w": 125,
+     "h": 37
+    },
+    {
+     "el": "titulo",
+     "color": "rgb(255, 255, 255)",
+     "px": 93,
+     "peso": 800,
+     "x": 131,
+     "y": 184,
+     "w": 590,
+     "h": 149
+    },
+    {
+     "el": "titulo",
+     "color": "rgb(255, 255, 255)",
+     "px": 93,
+     "peso": 800,
+     "x": 131,
+     "y": 279,
+     "w": 530,
+     "h": 149
+    },
+    {
+     "el": "texto",
+     "color": "rgb(201, 211, 221)",
+     "px": 45,
+     "peso": 400,
+     "x": 131,
+     "y": 431,
+     "w": 610,
+     "h": 55
+    },
+    {
+     "el": "texto",
+     "color": "rgb(201, 211, 221)",
+     "px": 45,
+     "peso": 400,
+     "x": 131,
+     "y": 493,
+     "w": 295,
+     "h": 55
+    },
+    {
+     "el": "destino-et",
+     "color": "rgb(187, 234, 210)",
+     "px": 31,
+     "peso": 650,
+     "x": 80,
+     "y": 965,
+     "w": 415,
+     "h": 37
+    },
+    {
+     "el": "destino-url",
+     "color": "rgb(255, 255, 255)",
+     "px": 93,
+     "peso": 800,
+     "x": 80,
+     "y": 990,
+     "w": 656,
+     "h": 149
+    },
+    {
+     "el": "cta",
+     "color": "rgb(187, 234, 210)",
+     "px": 31,
+     "peso": 650,
+     "x": 763,
+     "y": 1212,
+     "w": 237,
+     "h": 37
+    }
+   ],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "novedad-131",
+   "d": "b",
+   "f": "9x16",
+   "out": "ronda-2/despues/novedad-131__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 3,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "lista",
+     "n": 4,
+     "max": 6,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [
+    {
+     "el": "cab-serie",
+     "min": 9.66,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "eyebrow",
+     "min": 10.06,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "titulo",
+     "min": 13.09,
+     "objetivo": 3,
+     "ok": true
+    },
+    {
+     "el": "LI",
+     "min": 10.92,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "LI",
+     "min": 11.52,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "LI",
+     "min": 11.83,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "fuente",
+     "min": 8.77,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "cta",
+     "min": 13.46,
+     "objetivo": 4.5,
+     "ok": true
+    }
+   ],
+   "proteccion": [
+    {
+     "logo": "firma-lockup",
+     "formasDentro": 0,
+     "variacionFondo": 0,
+     "ok": true
+    }
+   ],
+   "textos": [
+    {
+     "el": "cab-serie",
+     "color": "rgb(201, 211, 221)",
+     "px": 33,
+     "peso": 650,
+     "x": 80,
+     "y": 349,
+     "w": 238,
+     "h": 40
+    },
+    {
+     "el": "eyebrow",
+     "color": "rgb(187, 234, 210)",
+     "px": 33,
+     "peso": 650,
+     "x": 131,
+     "y": 461,
+     "w": 535,
+     "h": 40
+    },
+    {
+     "el": "titulo",
+     "color": "rgb(255, 255, 255)",
+     "px": 102,
+     "peso": 800,
+     "x": 131,
+     "y": 498,
+     "w": 549,
+     "h": 163
+    },
+    {
+     "el": "titulo",
+     "color": "rgb(255, 255, 255)",
+     "px": 102,
+     "peso": 800,
+     "x": 131,
+     "y": 602,
+     "w": 706,
+     "h": 163
+    },
+    {
+     "el": "titulo",
+     "color": "rgb(255, 255, 255)",
+     "px": 102,
+     "peso": 800,
+     "x": 131,
+     "y": 706,
+     "w": 542,
+     "h": 163
+    },
+    {
+     "el": "li",
+     "color": "rgb(187, 234, 210)",
+     "px": 33,
+     "peso": 650,
+     "x": 80,
+     "y": 955,
+     "w": 47,
+     "h": 40
+    },
+    {
+     "el": "li",
+     "color": "rgb(201, 211, 221)",
+     "px": 46,
+     "peso": 400,
+     "x": 168,
+     "y": 942,
+     "w": 795,
+     "h": 56
+    },
+    {
+     "el": "li",
+     "color": "rgb(187, 234, 210)",
+     "px": 33,
+     "peso": 650,
+     "x": 80,
+     "y": 1045,
+     "w": 47,
+     "h": 40
+    },
+    {
+     "el": "li",
+     "color": "rgb(201, 211, 221)",
+     "px": 46,
+     "peso": 400,
+     "x": 168,
+     "y": 1032,
+     "w": 723,
+     "h": 56
+    },
+    {
+     "el": "li",
+     "color": "rgb(201, 211, 221)",
+     "px": 46,
+     "peso": 400,
+     "x": 168,
+     "y": 1091,
+     "w": 116,
+     "h": 56
+    },
+    {
+     "el": "li",
+     "color": "rgb(187, 234, 210)",
+     "px": 33,
+     "peso": 650,
+     "x": 80,
+     "y": 1194,
+     "w": 47,
+     "h": 40
+    },
+    {
+     "el": "li",
+     "color": "rgb(201, 211, 221)",
+     "px": 46,
+     "peso": 400,
+     "x": 168,
+     "y": 1181,
+     "w": 770,
+     "h": 56
+    },
+    {
+     "el": "fuente",
+     "color": "rgb(169, 182, 195)",
+     "px": 29,
+     "peso": 400,
+     "x": 80,
+     "y": 1288,
+     "w": 604,
+     "h": 35
+    },
+    {
+     "el": "cta",
+     "color": "rgb(187, 234, 210)",
+     "px": 33,
+     "peso": 650,
+     "x": 749,
+     "y": 1396,
+     "w": 251,
+     "h": 40
+    }
+   ],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "slide-titulo",
+   "d": "b",
+   "f": "16x9",
+   "out": "ronda-2/despues/slide-titulo__16x9.png",
+   "ancho": 1920,
+   "alto": 1080,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo xl",
+     "n": 3,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 2,
+     "max": 2,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [
+    {
+     "el": "cab-serie",
+     "min": 9.23,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "cab-num",
+     "min": 8.91,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "titulo",
+     "min": 13.27,
+     "objetivo": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "min": 11.25,
+     "objetivo": 4.5,
+     "ok": true
+    },
+    {
+     "el": "cta",
+     "min": 11.73,
+     "objetivo": 4.5,
+     "ok": true
+    }
+   ],
+   "proteccion": [
+    {
+     "logo": "firma-lockup",
+     "formasDentro": 0,
+     "variacionFondo": 1.5,
+     "ok": true
+    }
+   ],
+   "textos": [
+    {
+     "el": "cab-serie",
+     "color": "rgb(201, 211, 221)",
+     "px": 37,
+     "peso": 650,
+     "x": 96,
+     "y": 96,
+     "w": 335,
+     "h": 45
+    },
+    {
+     "el": "cab-num",
+     "color": "rgb(169, 182, 195)",
+     "px": 37,
+     "peso": 650,
+     "x": 1770,
+     "y": 96,
+     "w": 54,
+     "h": 45
+    },
+    {
+     "el": "titulo",
+     "color": "rgb(255, 255, 255)",
+     "px": 93,
+     "peso": 800,
+     "x": 147,
+     "y": 265,
+     "w": 509,
+     "h": 149
+    },
+    {
+     "el": "titulo",
+     "color": "rgb(255, 255, 255)",
+     "px": 93,
+     "peso": 800,
+     "x": 147,
+     "y": 360,
+     "w": 633,
+     "h": 149
+    },
+    {
+     "el": "titulo",
+     "color": "rgb(255, 255, 255)",
+     "px": 93,
+     "peso": 800,
+     "x": 147,
+     "y": 455,
+     "w": 846,
+     "h": 149
+    },
+    {
+     "el": "texto",
+     "color": "rgb(201, 211, 221)",
+     "px": 54,
+     "peso": 400,
+     "x": 147,
+     "y": 614,
+     "w": 747,
+     "h": 65
+    },
+    {
+     "el": "texto",
+     "color": "rgb(201, 211, 221)",
+     "px": 54,
+     "peso": 400,
+     "x": 147,
+     "y": 689,
+     "w": 382,
+     "h": 65
+    },
+    {
+     "el": "cta",
+     "color": "rgb(187, 234, 210)",
+     "px": 37,
+     "peso": 650,
+     "x": 1636,
+     "y": 922,
+     "w": 188,
+     "h": 45
+    }
+   ],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  }
+ ]
+}

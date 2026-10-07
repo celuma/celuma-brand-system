@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Céluma · editor de piezas (04, candidato)</title>
+  <link rel="icon" href="marca/celuma-isotipo-color.svg">
+  <link rel="stylesheet" href="sistema.css">
+  <link rel="stylesheet" href="piezas.css">
+  <style>
+    :root { --fondo: #efeae0; --linea: #d9d1c2; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: var(--fondo); color: #0d1b2a; font: 15px/1.5 Inter, system-ui, sans-serif; }
+    a { color: #17635F; }
+    .ruta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; padding: 9px 20px; background: #f7f4ed; border-bottom: 1px solid var(--linea); font-size: 13px; }
+    .ruta a { padding: 6px 10px; border-radius: 999px; font-weight: 700; text-decoration: none; }
+    .ruta a[aria-current="page"] { background: #0d1b2a; color: #fff; }
+    .ruta strong { margin-right: 8px; }
+    .cab { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; padding: 12px 20px; background: #fbf6ec; border-bottom: 1px solid var(--linea); }
+    .cab h1 { font: 800 22px/1.1 "Baloo 2", sans-serif; margin: 0; }
+    .estado { font: 700 12px/1 Inter, sans-serif; letter-spacing: .12em; text-transform: uppercase; border: 2px dashed rgba(13,27,42,.45); border-radius: 6px; padding: 6px 10px; background: #fff; }
+    main { display: grid; grid-template-columns: minmax(300px, 380px) minmax(0, 1fr); gap: 20px; padding: 20px; align-items: start; }
+    @media (max-width: 860px) { main { grid-template-columns: minmax(0, 1fr); padding: 16px; } }
+    form { background: #fff; border: 1px solid var(--linea); border-radius: 14px; padding: 16px; display: grid; gap: 12px; }
+    label { display: grid; gap: 4px; font-weight: 600; font-size: 13px; }
+    select, input, textarea { font: 15px/1.4 Inter, sans-serif; border: 2px solid #c9d3dd; border-radius: 10px; padding: 8px 10px; background: #fff; color: #0d1b2a; width: 100%; }
+    textarea { min-height: 70px; resize: vertical; }
+    select:focus-visible, input:focus-visible, textarea:focus-visible, button:focus-visible { outline: 3px solid #1f7a75; outline-offset: 2px; }
+    .fila { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .botones { display: flex; flex-wrap: wrap; gap: 8px; }
+    button { font: 650 14px/1 Inter, sans-serif; border: 2px solid #0d1b2a; background: #fff; color: #0d1b2a; border-radius: 999px; padding: 9px 14px; cursor: pointer; }
+    button.prim { background: #49B6AD; border-color: #49B6AD; color: #0d1b2a; }
+    .aviso { border-radius: 10px; padding: 10px 12px; font-size: 13.5px; }
+    .aviso.ok { background: #e4f3ea; } .aviso.mal { background: #ffeeec; }
+    .fuentes { font-size: 12.5px; color: #3A4A5C; }
+    .vista { position: sticky; top: 12px; }
+    .marco { background: #e2dccf; border-radius: 14px; padding: 16px; overflow: hidden; }
+    .escala { transform-origin: 0 0; }
+    .nota { font-size: 13px; color: #3A4A5C; }
+    @media print {
+      body > *:not(#imprimir) { display: none !important; }
+      #imprimir { display: block !important; }
+      html, body { background: none; }
+    }
+    #imprimir { display: none; }
+  </style>
+  <script src="formatos.js"></script>
+  <script src="contenido.js"></script>
+  <script src="microcosmos.js"></script>
+  <script src="piezas.js"></script>
+</head>
+<body>
+  <nav class="ruta" aria-label="Recorrido del experimento 04">
+    <a href="../../../index.html">Laboratorio</a>
+    <span aria-hidden="true">/</span><strong>Experimento 04</strong>
+    <a href="../index.html">Identidad digital</a>
+    <a href="editor.html" aria-current="page">Editor de piezas</a>
+  </nav>
+  <header class="cab">
+    <h1>Editor de piezas · Céluma</h1>
+    <span class="estado">Candidato · experimento 04 · no aprobado</span>
+  </header>
+  <main>
+    <form id="f" aria-describedby="ayuda" onsubmit="return false">
+      <p class="nota" id="ayuda">Elige una pieza, cambia los textos y revisa el aviso de presupuesto. Los cambios viven en este navegador; para que pasen al kit, copia el contenido a <code>kit/contenido.js</code> y exporta (README §Editar y exportar).</p>
+      <label>Pieza <select id="pieza"></select></label>
+      <div class="fila">
+        <label>Dirección <select id="dir"><option value="b">B · Ficha · ronda 2 (candidata)</option><option value="b1">B · Ficha · ronda 1 (antecedente)</option><option value="a">A · Lumen (antecedente)</option><option value="c">C · Membrana (antecedente)</option></select></label>
+        <label>Formato <select id="formato"></select></label>
+      </div>
+      <div class="fila" id="fila-r2">
+        <label>Fondo <select id="fondo"><option value="">Automático</option><option value="papel">Papel cream</option><option value="papel-suave">Papel cream suave</option><option value="crema-plano">Crema plano</option><option value="navy">Navy</option><option value="navy-suave">Navy suave</option><option value="navy-plano">Navy plano</option></select></label>
+        <label>Microcosmos <select id="micro"><option value="">Automático</option><option value="0">Sin ilustración</option></select></label>
+      </div>
+      <div id="campos"></div>
+      <div id="aviso" class="aviso" role="status" aria-live="polite"></div>
+      <div class="fuentes" id="fuentes"></div>
+      <div class="botones">
+        <button type="button" class="prim" id="b-real">Abrir a tamaño real</button>
+        <button type="button" id="b-pdf">Guardar PDF</button>
+        <button type="button" id="b-json">Copiar contenido</button>
+        <button type="button" id="b-reset">Restablecer</button>
+      </div>
+      <p class="nota">«Guardar PDF» usa el diálogo de impresión del navegador con la página al tamaño del artboard. Los PNG finales se generan con <code>node scripts/exportar.mjs</code>.</p>
+    </form>
+    <section class="vista" aria-label="Vista previa">
+      <div class="marco" id="marco"><div class="escala" id="escala"></div></div>
+    </section>
+  </main>
+  <div id="imprimir"></div>
+  <script>
+  (function () {
+    const P = E4C.PIEZAS, ORIG = JSON.parse(JSON.stringify(P));
+    const FORMATOS_PIEZA = { avatar: ['avatar'], portada: ['portada'], destacado: ['destacado'], banner: ['banner'], firma: ['firma'], 'slide-titulo': ['16x9'], 'slide-contenido': ['16x9'] };
+    const CAMPOS = [['eyebrow', 'Antetítulo', 'input'], ['eyebrowB', 'Antetítulo en Ficha (si difiere)', 'input'], ['titulo', 'Título', 'textarea'], ['tituloCorto', 'Título condensado', 'input'], ['texto', 'Texto', 'textarea'], ['textoCorto', 'Texto condensado', 'input'], ['puntos', 'Puntos (uno por línea)', 'textarea'], ['cta', 'Dirección o contacto', 'input'], ['nombre', 'Nombre', 'input'], ['puesto', 'Puesto', 'input'], ['correo', 'Correo', 'input']];
+    const $ = (id) => document.getElementById(id);
+    const sp = $('pieza');
+    const grupos = {};
+    Object.entries(P).forEach(([id, p]) => { (grupos[p.grupo] = grupos[p.grupo] || []).push(id); });
+    sp.innerHTML = Object.entries(grupos).map(([g, ids]) => `<optgroup label="${g}">${ids.map((i) => `<option value="${i}">${P[i].titulo || i}${P[i].serie ? ' · ' + P[i].serie.join('/') : ''}</option>`).join('')}</optgroup>`).join('');
+    const hash = new URLSearchParams(location.hash.slice(1));
+    if (hash.get('p') && P[hash.get('p')]) sp.value = hash.get('p');
+    if (hash.get('d')) $('dir').value = hash.get('d');
+    if (hash.get('fondo')) $('fondo').value = hash.get('fondo');
+    if (hash.get('micro') === '0') $('micro').value = '0';
+    try { const g = JSON.parse(localStorage.getItem('e4-editor') || '{}'); Object.entries(g).forEach(([k, v]) => { if (P[k]) Object.assign(P[k], v); }); } catch (e) { /* almacenamiento no disponible */ }
+    function guardarLocal() { try { const g = {}; Object.keys(P).forEach((k) => { if (JSON.stringify(P[k]) !== JSON.stringify(ORIG[k])) g[k] = P[k]; }); localStorage.setItem('e4-editor', JSON.stringify(g)); } catch (e) { /* sin almacenamiento */ } }
+    function formatos() {
+      const p = P[sp.value];
+      const fs = FORMATOS_PIEZA[p.plantilla] || ['4x5', '9x16', '1x1', '191x1', '16x9'];
+      const prev = $('formato').value || hash.get('f');
+      $('formato').innerHTML = fs.map((f) => `<option value="${f}">${E4.FORMATOS[f].nombre} · ${E4.FORMATOS[f].w} × ${E4.FORMATOS[f].h}</option>`).join('');
+      if (fs.includes(prev)) $('formato').value = prev;
+      $('dir').disabled = !!FORMATOS_PIEZA[p.plantilla];
+    }
+    function campos() {
+      const p = P[sp.value];
+      $('campos').innerHTML = CAMPOS.filter(([k]) => p[k] !== undefined).map(([k, et, t]) => {
+        const v = Array.isArray(p[k]) ? p[k].join('\n') : p[k];
+        return `<label>${et}${t === 'input' ? `<input data-k="${k}" value="${String(v).replace(/"/g, '&quot;')}">` : `<textarea data-k="${k}">${v}</textarea>`}</label>`;
+      }).join('');
+      $('campos').querySelectorAll('[data-k]').forEach((el) => el.addEventListener('input', () => {
+        const k = el.dataset.k; P[sp.value][k] = Array.isArray(ORIG[sp.value][k]) ? el.value.split('\n').filter(Boolean) : el.value; guardarLocal(); pintar();
+      }));
+      const fs = (p.fuentes || []).map((f) => `${f.ref} · <b>${f.estado}</b>${f.nota ? ' · ' + f.nota : ''}`);
+      $('fuentes').innerHTML = fs.length ? 'Fuentes: ' + fs.join('<br>') : 'Sin afirmaciones de producto.';
+    }
+    let ultimo = null;
+    async function pintar() {
+      const pid = sp.value, dir = $('dir').value, fid = $('formato').value;
+      const fondo = $('fondo').value, micro = $('micro').value;
+      $('fila-r2').hidden = dir !== 'b';
+      const opc = (corto) => Object.assign({ corto }, dir === 'b' && fondo ? { fondo } : {}, dir === 'b' && micro === '0' ? { micro: false } : {});
+      const extra = dir === 'b' ? `${fondo ? '&fondo=' + fondo : ''}${micro === '0' ? '&micro=0' : ''}` : '';
+      history.replaceState(null, '', `#p=${pid}&d=${dir}&f=${fid}${extra}`);
+      const esc = $('escala'), marco = $('marco');
+      let r, corto = false;
+      for (corto of [false, true]) {
+        esc.innerHTML = E4.html(pid, dir, fid, opc(corto));
+        const pz = esc.querySelector('.pz');
+        const k = Math.min(1, (marco.clientWidth - 32) / pz.offsetWidth, (innerHeight * 0.82) / pz.offsetHeight);
+        esc.style.transform = `scale(${k})`; esc.style.height = pz.offsetHeight * k + 'px';
+        await Promise.all([...esc.querySelectorAll('img')].map((i) => i.complete ? 0 : new Promise((res) => { i.onload = i.onerror = res; })));
+        E4.ajustarModulos(pz);
+        r = E4.medir(pz, fid);
+        const p = P[pid];
+        if (r.ok || !(p.tituloCorto || p.textoCorto || p.puntosCortos || p.permisosCortos)) break;
+      }
+      ultimo = { pid, dir, fid, corto, extra, opc: opc(corto) };
+      const a = $('aviso');
+      const malos = r.lineas.filter((x) => !x.ok).map((x) => `${x.el}: ${x.n} líneas (máx. ${x.max})`);
+      const t = [...malos, ...r.fuera.map((x) => 'fuera del área útil: ' + x), ...r.solapes.map((x) => 'solape: ' + x)];
+      a.className = 'aviso ' + (t.length ? 'mal' : 'ok');
+      const p = P[pid];
+      const cond = corto ? ` La versión completa no cabe en ${E4.FORMATOS[fid].nombre}: se muestra la condensada${p.tituloCorto ? ` («${p.tituloCorto}»)` : ''}. Acorta el texto completo o edita la condensada; el texto completo puede ir en la descripción de la publicación.` : '';
+      a.textContent = t.length ? 'Revisar · ' + t.join(' · ') + '. Acorta el texto o usa otro formato.' : `Dentro de presupuesto: líneas, área útil y solapes correctos.${cond}`;
+    }
+    sp.addEventListener('change', () => { formatos(); campos(); pintar(); });
+    $('dir').addEventListener('change', pintar);
+    $('fondo').addEventListener('change', pintar);
+    $('micro').addEventListener('change', pintar);
+    $('formato').addEventListener('change', pintar);
+    addEventListener('resize', pintar);
+    $('b-real').onclick = () => window.open(`pieza.html#p=${ultimo.pid}&d=${ultimo.dir}&f=${ultimo.fid}${ultimo.corto ? '&corto=1' : ''}${ultimo.extra}&vista=1`, '_blank', 'noopener');
+    $('b-json').onclick = async () => { const txt = JSON.stringify({ [sp.value]: P[sp.value] }, null, 2); try { await navigator.clipboard.writeText(txt); $('aviso').textContent = 'Contenido copiado. Pégalo en kit/contenido.js.'; } catch (e) { prompt('Copia el contenido:', txt); } };
+    $('b-reset').onclick = () => { P[sp.value] = JSON.parse(JSON.stringify(ORIG[sp.value])); guardarLocal(); campos(); pintar(); };
+    $('b-pdf').onclick = async () => {
+      const M = E4.metricas(ultimo.fid), d = $('imprimir');
+      d.innerHTML = E4.html(ultimo.pid, ultimo.dir, ultimo.fid, ultimo.opc);
+      let st = document.getElementById('st-print'); if (!st) { st = document.createElement('style'); st.id = 'st-print'; document.head.appendChild(st); }
+      st.textContent = `@page { size: ${M.W}px ${M.H}px; margin: 0 }`;
+      d.style.display = 'block'; E4.ajustarModulos(d.querySelector('.pz')); d.style.display = '';
+      await Promise.all([...d.querySelectorAll('img')].map((i) => i.complete ? 0 : new Promise((res) => { i.onload = i.onerror = res; })));
+      print();
+    };
+    document.fonts.ready.then(() => { formatos(); campos(); pintar(); });
+  })();
+  </script>
+</body>
+</html>

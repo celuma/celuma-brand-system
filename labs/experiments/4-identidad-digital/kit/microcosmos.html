@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Céluma · Microcosmos y fondos (04 · ronda 2, candidato)</title>
+  <!-- Espécimen: #r=<recurso>&t=<claro|oscuro>&w=<px>&h=<px>[&excl=1] dibuja un recurso solo (lo usa la exportación).
+       Sin parámetros muestra la biblioteca completa. -->
+  <link rel="icon" href="marca/celuma-isotipo-color.svg">
+  <link rel="stylesheet" href="sistema.css">
+  <style>
+    html, body { margin: 0; background: #efeae0; color: #0d1b2a; font: 15px/1.5 Inter, system-ui, sans-serif; }
+    .bib { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; padding: 20px; }
+    .rec { background: #fff; border: 1px solid #e3dccd; border-radius: 14px; overflow: hidden; }
+    .pares { display: grid; grid-template-columns: 1fr 1fr; }
+    .pares svg { display: block; width: 100%; height: auto; }
+    .rec div.t { padding: 10px 12px; font-size: 13px; }
+    .rec b { font-size: 14px; }
+    .solo { display: block; }
+  </style>
+  <script src="microcosmos.js"></script>
+</head>
+<body>
+  <div id="raiz"></div>
+  <script>
+  (function () {
+    const q = new URLSearchParams(location.hash.slice(1) || location.search.slice(1));
+    const M = E4MC;
+    const lamina = (rec, tono, W, H, excl) => {
+      const fondo = tono === 'oscuro' ? 'navy' : 'papel';
+      const d = rec.dibujar(W, H, tono);
+      const ex = excl ? d.excl.map(([x0, y0, x1, y1]) => `<rect x="${x0}" y="${y0}" width="${x1 - x0}" height="${y1 - y0}" fill="none" stroke="#E5635F" stroke-width="${Math.max(1.5, W / 300)}" stroke-dasharray="${W / 80} ${W / 120}"/>`).join('') : '';
+      return M.svgFondo(fondo, W, H, rec.id + tono).replace('</svg>', d.svg + ex + '</svg>');
+    };
+    const raiz = document.getElementById('raiz');
+    if (q.get('r')) {
+      const rec = M.CATALOGO.find((r) => r.id === q.get('r'));
+      const W = +q.get('w') || 1200, H = +q.get('h') || 900;
+      raiz.innerHTML = `<div class="solo">${lamina(rec, q.get('t') || 'claro', W, H, q.get('excl') === '1')}</div>`;
+    } else {
+      raiz.innerHTML = '<div class="bib">' + M.CATALOGO.map((r) => `<article class="rec"><div class="pares">${lamina(r, 'claro', 600, 450, q.get('excl') === '1')}${lamina(r, 'oscuro', 600, 450, q.get('excl') === '1')}</div><div class="t"><b>${r.nombre}</b> · ${r.familia}<br>${r.intencion}</div></article>`).join('') + '</div>';
+    }
+    document.body.dataset.listo = '1';
+  })();
+  </script>
+</body>
+</html>

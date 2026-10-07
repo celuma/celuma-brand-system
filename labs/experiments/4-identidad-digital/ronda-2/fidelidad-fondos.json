@@ -1,0 +1,20 @@
+{
+ "papel": {
+  "original": "pat-cream",
+  "pixeles": 153600,
+  "dif_media": 0.16,
+  "dif_p99": 1,
+  "dif_max": 1,
+  "centro_original": "#dbeae0",
+  "centro_local": "#dbeae0"
+ },
+ "navy": {
+  "original": "pat-navy",
+  "pixeles": 153600,
+  "dif_media": 0.38,
+  "dif_p99": 1,
+  "dif_max": 2,
+  "centro_original": "#17383e",
+  "centro_local": "#17383e"
+ }
+}

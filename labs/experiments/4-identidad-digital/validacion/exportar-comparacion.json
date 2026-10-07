@@ -1,0 +1,656 @@
+{
+ "fecha": "2026-10-07T04:57:03.721Z",
+ "navegador": "Chromium (Playwright de celuma-frontend), headless, macOS",
+ "total": 18,
+ "fallos": 0,
+ "piezas": [
+  {
+   "p": "valor-claridad",
+   "d": "a",
+   "f": "4x5",
+   "out": "exports/comparacion/a/valor-claridad__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "display",
+     "n": 1,
+     "max": 1,
+     "ok": true
+    },
+    {
+     "el": "texto grande",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [],
+   "proteccion": [],
+   "textos": null,
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "valor-claridad",
+   "d": "a",
+   "f": "9x16",
+   "out": "exports/comparacion/a/valor-claridad__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "display",
+     "n": 1,
+     "max": 1,
+     "ok": true
+    },
+    {
+     "el": "texto grande",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [],
+   "proteccion": [],
+   "textos": null,
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "capacidad-revisor",
+   "d": "a",
+   "f": "4x5",
+   "out": "exports/comparacion/a/capacidad-revisor__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 3,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 3,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [],
+   "proteccion": [],
+   "textos": null,
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "capacidad-revisor",
+   "d": "a",
+   "f": "9x16",
+   "out": "exports/comparacion/a/capacidad-revisor__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 3,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 3,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [],
+   "proteccion": [],
+   "textos": null,
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "carrusel-informe-1",
+   "d": "a",
+   "f": "4x5",
+   "out": "exports/comparacion/a/carrusel-informe-1__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo xl",
+     "n": 3,
+     "max": 4,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [],
+   "proteccion": [],
+   "textos": null,
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "carrusel-informe-4",
+   "d": "a",
+   "f": "4x5",
+   "out": "exports/comparacion/a/carrusel-informe-4__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 1,
+     "max": 2,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 3,
+     "max": 5,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [],
+   "proteccion": [],
+   "textos": null,
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "valor-claridad",
+   "d": "b1",
+   "f": "4x5",
+   "out": "exports/comparacion/b/valor-claridad__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "display",
+     "n": 1,
+     "max": 1,
+     "ok": true
+    },
+    {
+     "el": "def",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [],
+   "proteccion": [],
+   "textos": null,
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "valor-claridad",
+   "d": "b1",
+   "f": "9x16",
+   "out": "exports/comparacion/b/valor-claridad__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "display",
+     "n": 1,
+     "max": 1,
+     "ok": true
+    },
+    {
+     "el": "def",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [],
+   "proteccion": [],
+   "textos": null,
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "capacidad-revisor",
+   "d": "b1",
+   "f": "4x5",
+   "out": "exports/comparacion/b/capacidad-revisor__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 3,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "permisos",
+     "n": 4,
+     "max": 6,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [],
+   "proteccion": [],
+   "textos": null,
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "capacidad-revisor",
+   "d": "b1",
+   "f": "9x16",
+   "out": "exports/comparacion/b/capacidad-revisor__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 3,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "permisos",
+     "n": 4,
+     "max": 6,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [],
+   "proteccion": [],
+   "textos": null,
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "carrusel-informe-1",
+   "d": "b1",
+   "f": "4x5",
+   "out": "exports/comparacion/b/carrusel-informe-1__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo xl",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [],
+   "proteccion": [],
+   "textos": null,
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "carrusel-informe-4",
+   "d": "b1",
+   "f": "4x5",
+   "out": "exports/comparacion/b/carrusel-informe-4__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 1,
+     "max": 2,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 3,
+     "max": 5,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [],
+   "proteccion": [],
+   "textos": null,
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "valor-claridad",
+   "d": "c",
+   "f": "4x5",
+   "out": "exports/comparacion/c/valor-claridad__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "display",
+     "n": 1,
+     "max": 1,
+     "ok": true
+    },
+    {
+     "el": "texto grande",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [],
+   "proteccion": [],
+   "textos": null,
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "valor-claridad",
+   "d": "c",
+   "f": "9x16",
+   "out": "exports/comparacion/c/valor-claridad__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "display",
+     "n": 1,
+     "max": 1,
+     "ok": true
+    },
+    {
+     "el": "texto grande",
+     "n": 3,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [],
+   "proteccion": [],
+   "textos": null,
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "capacidad-revisor",
+   "d": "c",
+   "f": "4x5",
+   "out": "exports/comparacion/c/capacidad-revisor__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": true,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 3,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [],
+   "proteccion": [],
+   "textos": null,
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "capacidad-revisor",
+   "d": "c",
+   "f": "9x16",
+   "out": "exports/comparacion/c/capacidad-revisor__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": true,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 3,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [],
+   "proteccion": [],
+   "textos": null,
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "carrusel-informe-1",
+   "d": "c",
+   "f": "4x5",
+   "out": "exports/comparacion/c/carrusel-informe-1__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo xl",
+     "n": 3,
+     "max": 4,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [],
+   "proteccion": [],
+   "textos": null,
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "carrusel-informe-4",
+   "d": "c",
+   "f": "4x5",
+   "out": "exports/comparacion/c/carrusel-informe-4__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 1,
+     "max": 2,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 3,
+     "max": 5,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "microcosmos": [],
+   "contraste": [],
+   "proteccion": [],
+   "textos": null,
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  }
+ ]
+}

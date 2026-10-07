@@ -1,0 +1,11 @@
+Céluma · Experimento 04 · Identidad y materiales digitales
+ESTADO: candidato · exploración · pendiente de la aprobación de Rafael.
+Nada de este paquete está aprobado, incorporado al Brand System ni autorizado para publicarse.
+
+- Dirección recomendada (candidata): B · Ficha. Las alternativas A · Lumen y C · Membrana están en el paquete de comparación.
+- El logo (kit/marca) son copias byte a byte de los archivos aprobados en el laboratorio (experimento 02). No modificar.
+- Fuentes: Baloo 2 y Inter (SIL Open Font License 1.1), cargadas desde Google Fonts:
+  https://fonts.google.com/specimen/Baloo+2 · https://fonts.google.com/specimen/Inter
+- Afirmaciones de producto: cada pieza cita su página publicada en docs.celuma.mx (ver manifest.json).
+- Datos sintéticos. Sin pacientes, médicos ni laboratorios reales.
+- Cómo editar y exportar: README.md del experimento (labs/experiments/4-identidad-digital/).
