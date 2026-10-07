@@ -20,9 +20,11 @@ This repository contains Céluma’s visual system and reusable presentation ass
 
 ## Experiments and navigation
 
+- Use the navigation pattern in labs/README.md: one lab card per experiment with direct chapter and decision links; a route bar scoped to that experiment with aria-current; then a local section index. A separately numbered experiment has its own entry and navigation; do not insert earlier experiments' phases as peer tabs. Put predecessor links in references or comparisons. Keep shared controls and comparable proposals on one screen, splitting only independent stages or applications. Check actual browser navigation after changes.
 - Keep each experiment self-contained under `labs/experiments/<name>/`, with a brief, decision record, runnable preview, and relevant evidence. Link it from the lab index and preserve links to earlier work.
 - Distinguish a phase inside an experiment from a separately numbered experiment. The original motion gallery is phase 3 of Experiment 02; Experiment 03 is the separate motion continuation at `labs/experiments/3-logo-motion/`.
 - Experiment 01’s V4 “Interno ≠ entregado” chips and contrast adjustments are research directions, not approved product changes. Status color alone must not carry clinical meaning; keep review decisions distinct from report or sample states.
+- Experiment 03 was closed and approved by Rafael for the visual lab on 2026-09-30: Respira, Relevo, Brote, Atento, Orden, and Rebote. Temporary deformation in Rebote is approved only as motion for the documented expressive uses; the resting logo remains the approved master from 02. Product and publication adoption are separate.
 - A loading logo indicates that the app is active; visible text communicates real status or progress. Provide a static/reduced-motion state and review loops for distraction and accessibility.
 
 ## Validation

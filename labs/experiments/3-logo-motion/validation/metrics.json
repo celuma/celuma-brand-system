@@ -1,0 +1,1400 @@
+{
+ "generated_by": "scripts/validate.py",
+ "players": {
+  "lottie-web": "5.13.0",
+  "dotlottie-web": "0.80.0"
+ },
+ "tolerances": {
+  "E": "100 % de píxeles RGBA idénticos",
+  "T1": "IoU ≥ 0,9999; |Δα| ≤ 2 fuera de la banda de antialias de 1 px; ΔRGB ≤ 2 en planos",
+  "T2": "IoU ≥ 0,999; ΔRGB medio ≤ 1 y máx. ≤ 3 en planos",
+  "AA": "no cumple T2 (IoU < 0,999), pero todas las diferencias están en la banda de antialias (0 fuera de banda y en planos)",
+  "banda": "píxeles con un vecino de otro color o alfa (bordes y costuras entre pigmentos) en cualquiera de las dos imágenes, ±1 px"
+ },
+ "variants": {
+  "respira|isotipo": {
+   "op": 216,
+   "fin": null,
+   "loop": true,
+   "final_vs_static": {
+    "identical": 1.0,
+    "iou": 1.0,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "E"
+   },
+   "first_vs_static": {
+    "identical": 1.0,
+    "iou": 1.0,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "E"
+   },
+   "loop_closure": {
+    "identical": 1.0,
+    "iou": 1.0,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "E"
+   },
+   "border_nonzero_frames": [],
+   "max_consecutive_change": 0.003,
+   "css": {
+    "t0_vs_static": {
+     "identical": 0.98829,
+     "iou": 0.99952,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "T2"
+    },
+    "reduced_vs_static": {
+     "identical": 1.0,
+     "iou": 1.0,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "E"
+    },
+    "reduced_running": 0,
+    "animations": 4
+   },
+   "other_players": {
+    "lottie-canvas": {
+     "identical": 0.990531,
+     "iou": 0.999729,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "T2"
+    },
+    "thorvg": {
+     "identical": 0.982568,
+     "iou": 0.99928,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "T2"
+    }
+   },
+   "errors": []
+  },
+  "respira|lockup-h-pos": {
+   "op": 216,
+   "fin": null,
+   "loop": true,
+   "final_vs_static": {
+    "identical": 0.996499,
+    "iou": 0.999505,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "final_vs_twin": {
+    "identical": 1.0,
+    "iou": 1.0,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "E"
+   },
+   "static_vs_twin": {
+    "identical": 0.996499,
+    "iou": 0.999505,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "first_vs_static": {
+    "identical": 0.996499,
+    "iou": 0.999505,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "loop_closure": {
+    "identical": 1.0,
+    "iou": 1.0,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "E"
+   },
+   "border_nonzero_frames": [],
+   "max_consecutive_change": 0.0008,
+   "css": {
+    "t0_vs_static": {
+     "identical": 0.986109,
+     "iou": 0.99851,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "AA"
+    },
+    "reduced_vs_static": {
+     "identical": 1.0,
+     "iou": 1.0,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "E"
+    },
+    "reduced_running": 0,
+    "animations": 4
+   },
+   "errors": []
+  },
+  "respira|lockup-h-neg": {
+   "op": 216,
+   "fin": null,
+   "loop": true,
+   "final_vs_static": {
+    "identical": 0.996499,
+    "iou": 0.999505,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "final_vs_twin": {
+    "identical": 1.0,
+    "iou": 1.0,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "E"
+   },
+   "static_vs_twin": {
+    "identical": 0.996499,
+    "iou": 0.999505,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "first_vs_static": {
+    "identical": 0.996499,
+    "iou": 0.999505,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "loop_closure": {
+    "identical": 1.0,
+    "iou": 1.0,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "E"
+   },
+   "border_nonzero_frames": [],
+   "max_consecutive_change": 0.0008,
+   "css": {
+    "t0_vs_static": {
+     "identical": 0.98613,
+     "iou": 0.99851,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "AA"
+    },
+    "reduced_vs_static": {
+     "identical": 1.0,
+     "iou": 1.0,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "E"
+    },
+    "reduced_running": 0,
+    "animations": 4
+   },
+   "errors": []
+  },
+  "brote|isotipo": {
+   "op": 122,
+   "fin": 95,
+   "loop": false,
+   "final_vs_static": {
+    "identical": 1.0,
+    "iou": 1.0,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "E"
+   },
+   "first_alpha_max": 0,
+   "border_nonzero_frames": [],
+   "max_consecutive_change": 0.0667,
+   "css": {
+    "finished_vs_static": {
+     "identical": 1.0,
+     "iou": 1.0,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "E"
+    },
+    "reduced_vs_static": {
+     "identical": 1.0,
+     "iou": 1.0,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "E"
+    },
+    "reduced_running": 0,
+    "animations": 11
+   },
+   "other_players": {
+    "lottie-canvas": {
+     "identical": 0.989672,
+     "iou": 0.999604,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "T2"
+    },
+    "thorvg": {
+     "identical": 0.982381,
+     "iou": 0.999271,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "T2"
+    }
+   },
+   "errors": []
+  },
+  "brote|lockup-h-pos": {
+   "op": 134,
+   "fin": 107,
+   "loop": false,
+   "final_vs_static": {
+    "identical": 0.996468,
+    "iou": 0.999494,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "final_vs_twin": {
+    "identical": 1.0,
+    "iou": 1.0,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "E"
+   },
+   "static_vs_twin": {
+    "identical": 0.996468,
+    "iou": 0.999494,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "first_alpha_max": 0,
+   "border_nonzero_frames": [],
+   "max_consecutive_change": 0.0753,
+   "css": {
+    "finished_vs_static": {
+     "identical": 1.0,
+     "iou": 1.0,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "E"
+    },
+    "finished_vs_twin": {
+     "identical": 0.996468,
+     "iou": 0.999494,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "T2"
+    },
+    "reduced_vs_static": {
+     "identical": 1.0,
+     "iou": 1.0,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "E"
+    },
+    "reduced_running": 0,
+    "animations": 27
+   },
+   "other_players": {
+    "lottie-canvas": {
+     "identical": 0.992658,
+     "iou": 0.99925,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "T2"
+    },
+    "thorvg": {
+     "identical": 0.989439,
+     "iou": 0.998723,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "AA"
+    }
+   },
+   "errors": []
+  },
+  "brote|lockup-h-neg": {
+   "op": 134,
+   "fin": 107,
+   "loop": false,
+   "final_vs_static": {
+    "identical": 0.996468,
+    "iou": 0.999494,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "final_vs_twin": {
+    "identical": 1.0,
+    "iou": 1.0,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "E"
+   },
+   "static_vs_twin": {
+    "identical": 0.996468,
+    "iou": 0.999494,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "first_alpha_max": 0,
+   "border_nonzero_frames": [],
+   "max_consecutive_change": 0.0758,
+   "css": {
+    "finished_vs_static": {
+     "identical": 1.0,
+     "iou": 1.0,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "E"
+    },
+    "finished_vs_twin": {
+     "identical": 0.996468,
+     "iou": 0.999494,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "T2"
+    },
+    "reduced_vs_static": {
+     "identical": 1.0,
+     "iou": 1.0,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "E"
+    },
+    "reduced_running": 0,
+    "animations": 27
+   },
+   "errors": []
+  },
+  "brote|lockup-v-pos": {
+   "op": 134,
+   "fin": 107,
+   "loop": false,
+   "final_vs_static": {
+    "identical": 0.996565,
+    "iou": 0.9995,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "final_vs_twin": {
+    "identical": 0.999985,
+    "iou": 1.0,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T1"
+   },
+   "static_vs_twin": {
+    "identical": 0.99658,
+    "iou": 0.9995,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "first_alpha_max": 0,
+   "border_nonzero_frames": [],
+   "max_consecutive_change": 0.0461,
+   "css": {
+    "finished_vs_static": {
+     "identical": 1.0,
+     "iou": 1.0,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "E"
+    },
+    "finished_vs_twin": {
+     "identical": 0.99658,
+     "iou": 0.9995,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "T2"
+    },
+    "reduced_vs_static": {
+     "identical": 1.0,
+     "iou": 1.0,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "E"
+    },
+    "reduced_running": 0,
+    "animations": 27
+   },
+   "errors": []
+  },
+  "brote|lockup-v-neg": {
+   "op": 134,
+   "fin": 107,
+   "loop": false,
+   "final_vs_static": {
+    "identical": 0.996565,
+    "iou": 0.9995,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "final_vs_twin": {
+    "identical": 0.999985,
+    "iou": 1.0,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T1"
+   },
+   "static_vs_twin": {
+    "identical": 0.99658,
+    "iou": 0.9995,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "first_alpha_max": 0,
+   "border_nonzero_frames": [],
+   "max_consecutive_change": 0.0466,
+   "css": {
+    "finished_vs_static": {
+     "identical": 1.0,
+     "iou": 1.0,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "E"
+    },
+    "finished_vs_twin": {
+     "identical": 0.99658,
+     "iou": 0.9995,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "T2"
+    },
+    "reduced_vs_static": {
+     "identical": 1.0,
+     "iou": 1.0,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "E"
+    },
+    "reduced_running": 0,
+    "animations": 27
+   },
+   "errors": []
+  },
+  "rebote|isotipo": {
+   "op": 112,
+   "fin": 82,
+   "loop": false,
+   "final_vs_static": {
+    "identical": 1.0,
+    "iou": 1.0,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "E"
+   },
+   "first_alpha_max": 0,
+   "border_nonzero_frames": [],
+   "max_consecutive_change": 0.3755,
+   "other_players": {
+    "lottie-canvas": {
+     "identical": 0.99351,
+     "iou": 0.999649,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "T2"
+    },
+    "thorvg": {
+     "identical": 0.988187,
+     "iou": 0.999315,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "T2"
+    }
+   },
+   "errors": []
+  },
+  "rebote|lockup-h-pos": {
+   "op": 138,
+   "fin": 108,
+   "loop": false,
+   "final_vs_static": {
+    "identical": 0.997429,
+    "iou": 0.999489,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "final_vs_twin": {
+    "identical": 1.0,
+    "iou": 1.0,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "E"
+   },
+   "static_vs_twin": {
+    "identical": 0.997429,
+    "iou": 0.999489,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "first_alpha_max": 0,
+   "border_nonzero_frames": [],
+   "max_consecutive_change": 0.1094,
+   "errors": []
+  },
+  "rebote|lockup-h-neg": {
+   "op": 138,
+   "fin": 108,
+   "loop": false,
+   "final_vs_static": {
+    "identical": 0.997429,
+    "iou": 0.999489,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "final_vs_twin": {
+    "identical": 1.0,
+    "iou": 1.0,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "E"
+   },
+   "static_vs_twin": {
+    "identical": 0.997429,
+    "iou": 0.999489,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "first_alpha_max": 0,
+   "border_nonzero_frames": [],
+   "max_consecutive_change": 0.1094,
+   "errors": []
+  },
+  "rebote|lockup-v-pos": {
+   "op": 138,
+   "fin": 108,
+   "loop": false,
+   "final_vs_static": {
+    "identical": 0.99725,
+    "iou": 0.999484,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "final_vs_twin": {
+    "identical": 0.999982,
+    "iou": 1.0,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T1"
+   },
+   "static_vs_twin": {
+    "identical": 0.997248,
+    "iou": 0.999484,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "first_alpha_max": 0,
+   "border_nonzero_frames": [],
+   "max_consecutive_change": 0.2112,
+   "errors": []
+  },
+  "rebote|lockup-v-neg": {
+   "op": 138,
+   "fin": 108,
+   "loop": false,
+   "final_vs_static": {
+    "identical": 0.99725,
+    "iou": 0.999484,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "final_vs_twin": {
+    "identical": 0.999982,
+    "iou": 1.0,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T1"
+   },
+   "static_vs_twin": {
+    "identical": 0.997248,
+    "iou": 0.999484,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "first_alpha_max": 0,
+   "border_nonzero_frames": [],
+   "max_consecutive_change": 0.2112,
+   "errors": []
+  },
+  "orden|isotipo": {
+   "op": 260,
+   "fin": 221,
+   "loop": false,
+   "final_vs_static": {
+    "identical": 1.0,
+    "iou": 1.0,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "E"
+   },
+   "first_alpha_max": 0,
+   "border_nonzero_frames": [],
+   "max_consecutive_change": 0.0659,
+   "other_players": {
+    "lottie-canvas": {
+     "identical": 0.997759,
+     "iou": 0.999057,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "T2"
+    },
+    "thorvg": {
+     "identical": 0.993798,
+     "iou": 0.998559,
+     "alpha_off_band_max": 0,
+     "rgb_plateau_max": 0,
+     "rgb_plateau_mean": 0.0,
+     "class": "AA"
+    }
+   },
+   "errors": []
+  },
+  "orden|lockup-h-pos": {
+   "op": 267,
+   "fin": 228,
+   "loop": false,
+   "final_vs_static": {
+    "identical": 0.998705,
+    "iou": 0.998817,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "AA"
+   },
+   "final_vs_twin": {
+    "identical": 1.0,
+    "iou": 1.0,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "E"
+   },
+   "static_vs_twin": {
+    "identical": 0.998705,
+    "iou": 0.998817,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "AA"
+   },
+   "first_alpha_max": 0,
+   "border_nonzero_frames": [],
+   "max_consecutive_change": 0.0873,
+   "errors": []
+  },
+  "orden|lockup-h-neg": {
+   "op": 267,
+   "fin": 228,
+   "loop": false,
+   "final_vs_static": {
+    "identical": 0.998705,
+    "iou": 0.998817,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "AA"
+   },
+   "final_vs_twin": {
+    "identical": 1.0,
+    "iou": 1.0,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "E"
+   },
+   "static_vs_twin": {
+    "identical": 0.998705,
+    "iou": 0.998817,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "AA"
+   },
+   "first_alpha_max": 0,
+   "border_nonzero_frames": [],
+   "max_consecutive_change": 0.0873,
+   "errors": []
+  },
+  "orden|lockup-v-pos": {
+   "op": 262,
+   "fin": 223,
+   "loop": false,
+   "final_vs_static": {
+    "identical": 0.998085,
+    "iou": 0.999055,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "final_vs_twin": {
+    "identical": 1.0,
+    "iou": 1.0,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "E"
+   },
+   "static_vs_twin": {
+    "identical": 0.998085,
+    "iou": 0.999055,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "first_alpha_max": 0,
+   "border_nonzero_frames": [],
+   "max_consecutive_change": 0.0659,
+   "errors": []
+  },
+  "orden|lockup-v-neg": {
+   "op": 262,
+   "fin": 223,
+   "loop": false,
+   "final_vs_static": {
+    "identical": 0.998085,
+    "iou": 0.999055,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "final_vs_twin": {
+    "identical": 1.0,
+    "iou": 1.0,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "E"
+   },
+   "static_vs_twin": {
+    "identical": 0.998085,
+    "iou": 0.999055,
+    "alpha_off_band_max": 0,
+    "rgb_plateau_max": 0,
+    "rgb_plateau_mean": 0.0,
+    "class": "T2"
+   },
+   "first_alpha_max": 0,
+   "border_nonzero_frames": [],
+   "max_consecutive_change": 0.0659,
+   "errors": []
+  }
+ },
+ "structure": {
+  "respira|isotipo": {
+   "forbidden": [],
+   "colors": [
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84"
+   ],
+   "off_palette": []
+  },
+  "respira|lockup-h-pos": {
+   "forbidden": [],
+   "colors": [
+    "#0d1b2a",
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84"
+   ],
+   "off_palette": []
+  },
+  "respira|lockup-h-neg": {
+   "forbidden": [],
+   "colors": [
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84",
+    "#ffffff"
+   ],
+   "off_palette": []
+  },
+  "brote|isotipo": {
+   "forbidden": [],
+   "colors": [
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84"
+   ],
+   "off_palette": []
+  },
+  "brote|lockup-h-pos": {
+   "forbidden": [],
+   "colors": [
+    "#0d1b2a",
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84"
+   ],
+   "off_palette": []
+  },
+  "brote|lockup-h-neg": {
+   "forbidden": [],
+   "colors": [
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84",
+    "#ffffff"
+   ],
+   "off_palette": []
+  },
+  "brote|lockup-v-pos": {
+   "forbidden": [],
+   "colors": [
+    "#0d1b2a",
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84"
+   ],
+   "off_palette": []
+  },
+  "brote|lockup-v-neg": {
+   "forbidden": [],
+   "colors": [
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84",
+    "#ffffff"
+   ],
+   "off_palette": []
+  },
+  "rebote|isotipo": {
+   "forbidden": [],
+   "colors": [
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84"
+   ],
+   "off_palette": []
+  },
+  "rebote|lockup-h-pos": {
+   "forbidden": [],
+   "colors": [
+    "#0d1b2a",
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84"
+   ],
+   "off_palette": []
+  },
+  "rebote|lockup-h-neg": {
+   "forbidden": [],
+   "colors": [
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84",
+    "#ffffff"
+   ],
+   "off_palette": []
+  },
+  "rebote|lockup-v-pos": {
+   "forbidden": [],
+   "colors": [
+    "#0d1b2a",
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84"
+   ],
+   "off_palette": []
+  },
+  "rebote|lockup-v-neg": {
+   "forbidden": [],
+   "colors": [
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84",
+    "#ffffff"
+   ],
+   "off_palette": []
+  },
+  "orden|isotipo": {
+   "forbidden": [],
+   "colors": [
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84"
+   ],
+   "off_palette": []
+  },
+  "orden|lockup-h-pos": {
+   "forbidden": [],
+   "colors": [
+    "#0d1b2a",
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84"
+   ],
+   "off_palette": []
+  },
+  "orden|lockup-h-neg": {
+   "forbidden": [],
+   "colors": [
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84",
+    "#ffffff"
+   ],
+   "off_palette": []
+  },
+  "orden|lockup-v-pos": {
+   "forbidden": [],
+   "colors": [
+    "#0d1b2a",
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84"
+   ],
+   "off_palette": []
+  },
+  "orden|lockup-v-neg": {
+   "forbidden": [],
+   "colors": [
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84",
+    "#ffffff"
+   ],
+   "off_palette": []
+  }
+ },
+ "css_colors": {
+  "respira|isotipo": {
+   "colors": [
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84"
+   ],
+   "off_palette": []
+  },
+  "respira|lockup-h-pos": {
+   "colors": [
+    "#0d1b2a",
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84"
+   ],
+   "off_palette": []
+  },
+  "respira|lockup-h-neg": {
+   "colors": [
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84",
+    "#ffffff"
+   ],
+   "off_palette": []
+  },
+  "brote|isotipo": {
+   "colors": [
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84"
+   ],
+   "off_palette": []
+  },
+  "brote|lockup-h-pos": {
+   "colors": [
+    "#0d1b2a",
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84"
+   ],
+   "off_palette": []
+  },
+  "brote|lockup-h-neg": {
+   "colors": [
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84",
+    "#ffffff"
+   ],
+   "off_palette": []
+  },
+  "brote|lockup-v-pos": {
+   "colors": [
+    "#0d1b2a",
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84"
+   ],
+   "off_palette": []
+  },
+  "brote|lockup-v-neg": {
+   "colors": [
+    "#49b6ad",
+    "#bbead2",
+    "#e5635f",
+    "#f1c46c",
+    "#f98d84",
+    "#ffffff"
+   ],
+   "off_palette": []
+  }
+ },
+ "geometry": {
+  "rebote_nucleolo": {
+   "max_center_distance": 57.96,
+   "limit": 70.0,
+   "margin_to_nucleus_edge_px": 20.14
+  },
+  "respira_membrana": {
+   "ring_min_rest": 31.53,
+   "ring_min_inhale": 24.51,
+   "scale": 1.03
+  }
+ },
+ "performance": {
+  "respira|isotipo": {
+   "px": 96,
+   "median_ms": 8.3,
+   "p95_ms": 10.2,
+   "over_20ms": 0,
+   "frames": 431
+  },
+  "brote|isotipo": {
+   "px": 160,
+   "median_ms": 8.3,
+   "p95_ms": 10.1,
+   "over_20ms": 0,
+   "frames": 242
+  },
+  "rebote|isotipo": {
+   "px": 240,
+   "median_ms": 8.3,
+   "p95_ms": 10.1,
+   "over_20ms": 0,
+   "frames": 223
+  },
+  "orden|lockup-h-neg": {
+   "px": 960,
+   "median_ms": 8.3,
+   "p95_ms": 10.3,
+   "over_20ms": 0,
+   "frames": 533
+  },
+  "brote|lockup-h-pos": {
+   "px": 480,
+   "median_ms": 8.3,
+   "p95_ms": 10.2,
+   "over_20ms": 0,
+   "frames": 267
+  }
+ },
+ "summary": {
+  "kpis": [
+   [
+    "14/18",
+    "finales Lottie idénticos al estático o a su gemela cúbica (lottie-web SVG)"
+   ],
+   [
+    "18/18",
+    "finales sin diferencias fuera de la banda de antialias (E, T1, T2 o AA)"
+   ],
+   [
+    "3/3",
+    "bucles que cierran sin salto"
+   ],
+   [
+    "18/18",
+    "Lottie sin máscaras, mates, efectos ni colores fuera de paleta"
+   ],
+   [
+    "8/8",
+    "SVG + CSS idénticos al estático con movimiento reducido"
+   ]
+  ],
+  "limits": "Solo Chromium headless en macOS. No se probaron Safari/WebKit (el WebKit de Playwright falla en este equipo), Firefox, lottie-ios, lottie-android ni dispositivos reales. Los fotogramas intermedios se juzgan a ojo en láminas y vídeos.",
+  "classes": {
+   "E": 4,
+   "T2": 12,
+   "AA": 2
+  }
+ },
+ "rows": [
+  [
+   "respira · isotipo",
+   "E (100.00 % idéntico)",
+   "maestro: E · cierre: E",
+   "alfa 0 en el borde",
+   "canvas: T2, thorvg: T2",
+   "CSS t=0: T2 · reducido: E, 0 animaciones · salto máx. 0.3 %"
+  ],
+  [
+   "respira · lockup-h-pos",
+   "E frente a la gemela cúbica · archivo de 02 con curvas Q: T2 (IoU 0.9995)",
+   "maestro: T2 · cierre: E",
+   "alfa 0 en el borde",
+   "—",
+   "CSS t=0: AA · reducido: E, 0 animaciones · salto máx. 0.1 %"
+  ],
+  [
+   "respira · lockup-h-neg",
+   "E frente a la gemela cúbica · archivo de 02 con curvas Q: T2 (IoU 0.9995)",
+   "maestro: T2 · cierre: E",
+   "alfa 0 en el borde",
+   "—",
+   "CSS t=0: AA · reducido: E, 0 animaciones · salto máx. 0.1 %"
+  ],
+  [
+   "brote · isotipo",
+   "E (100.00 % idéntico)",
+   "vacío",
+   "alfa 0 en el borde",
+   "canvas: T2, thorvg: T2",
+   "CSS final: E · reducido: E, 0 animaciones · salto máx. 6.7 %"
+  ],
+  [
+   "brote · lockup-h-pos",
+   "E frente a la gemela cúbica · archivo de 02 con curvas Q: T2 (IoU 0.9995)",
+   "vacío",
+   "alfa 0 en el borde",
+   "canvas: T2, thorvg: AA",
+   "CSS final: E (gemela: T2) · reducido: E, 0 animaciones · salto máx. 7.5 %"
+  ],
+  [
+   "brote · lockup-h-neg",
+   "E frente a la gemela cúbica · archivo de 02 con curvas Q: T2 (IoU 0.9995)",
+   "vacío",
+   "alfa 0 en el borde",
+   "—",
+   "CSS final: E (gemela: T2) · reducido: E, 0 animaciones · salto máx. 7.6 %"
+  ],
+  [
+   "brote · lockup-v-pos",
+   "T2 (99.66 % idéntico)",
+   "vacío",
+   "alfa 0 en el borde",
+   "—",
+   "CSS final: E (gemela: T2) · reducido: E, 0 animaciones · salto máx. 4.6 %"
+  ],
+  [
+   "brote · lockup-v-neg",
+   "T2 (99.66 % idéntico)",
+   "vacío",
+   "alfa 0 en el borde",
+   "—",
+   "CSS final: E (gemela: T2) · reducido: E, 0 animaciones · salto máx. 4.7 %"
+  ],
+  [
+   "rebote · isotipo",
+   "E (100.00 % idéntico)",
+   "vacío",
+   "alfa 0 en el borde",
+   "canvas: T2, thorvg: T2",
+   "salto máx. 37.5 %"
+  ],
+  [
+   "rebote · lockup-h-pos",
+   "E frente a la gemela cúbica · archivo de 02 con curvas Q: T2 (IoU 0.9995)",
+   "vacío",
+   "alfa 0 en el borde",
+   "—",
+   "salto máx. 10.9 %"
+  ],
+  [
+   "rebote · lockup-h-neg",
+   "E frente a la gemela cúbica · archivo de 02 con curvas Q: T2 (IoU 0.9995)",
+   "vacío",
+   "alfa 0 en el borde",
+   "—",
+   "salto máx. 10.9 %"
+  ],
+  [
+   "rebote · lockup-v-pos",
+   "T2 (99.72 % idéntico)",
+   "vacío",
+   "alfa 0 en el borde",
+   "—",
+   "salto máx. 21.1 %"
+  ],
+  [
+   "rebote · lockup-v-neg",
+   "T2 (99.72 % idéntico)",
+   "vacío",
+   "alfa 0 en el borde",
+   "—",
+   "salto máx. 21.1 %"
+  ],
+  [
+   "orden · isotipo",
+   "E (100.00 % idéntico)",
+   "vacío",
+   "alfa 0 en el borde",
+   "canvas: T2, thorvg: AA",
+   "salto máx. 6.6 %"
+  ],
+  [
+   "orden · lockup-h-pos",
+   "E frente a la gemela cúbica · archivo de 02 con curvas Q: AA (IoU 0.9988)",
+   "vacío",
+   "alfa 0 en el borde",
+   "—",
+   "salto máx. 8.7 %"
+  ],
+  [
+   "orden · lockup-h-neg",
+   "E frente a la gemela cúbica · archivo de 02 con curvas Q: AA (IoU 0.9988)",
+   "vacío",
+   "alfa 0 en el borde",
+   "—",
+   "salto máx. 8.7 %"
+  ],
+  [
+   "orden · lockup-v-pos",
+   "E frente a la gemela cúbica · archivo de 02 con curvas Q: T2 (IoU 0.9991)",
+   "vacío",
+   "alfa 0 en el borde",
+   "—",
+   "salto máx. 6.6 %"
+  ],
+  [
+   "orden · lockup-v-neg",
+   "E frente a la gemela cúbica · archivo de 02 con curvas Q: T2 (IoU 0.9991)",
+   "vacío",
+   "alfa 0 en el borde",
+   "—",
+   "salto máx. 6.6 %"
+  ]
+ ]
+}
