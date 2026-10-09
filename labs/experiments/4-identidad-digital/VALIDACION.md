@@ -104,3 +104,14 @@ Rafael cerró el experimento y aprobó B · Ficha ronda 2 en el laboratorio ([`D
 **Defectos encontrados y corregidos durante el cierre.** (1) El aviso de alternativas quedaba bajo la barra de controles fija de la comparación al llegar por ancla → se movió encima de los controles con margen de desplazamiento; la prueba espera ahora a que termine el desplazamiento suave. (2) Las opciones de dirección del editor se cortaban a 1024 px → rótulos más cortos («A · Lumen · alternativa»). (3) Los párrafos de las columnas de los capítulos 8 y 11 tenían interlineado ≈ 1,2 frente a 1,55 de las listas → igualados. Los tres afectan solo al cromo de la galería y del editor, no a las piezas.
 
 **No se repitió en el cierre:** exportación de PDF, contraste sobre píxeles reales, vídeo, fidelidad de fondos y comparación A · B · C (sus fuentes de render no cambiaron y sus binarios son idénticos). Siguen sin probar Safari, Firefox, iOS, Android, dispositivos reales, lectores de pantalla, plataformas e impresión: son pendientes de la adopción por medio, no del cierre.
+
+## 9. Avatar framing correction · 2026-10-08
+
+Rafael reported poor presence in LinkedIn, WhatsApp and GitHub profile screenshots. The layout percentage sized the image against its intrinsic 670 px height, producing an approximately 348 px mark on a 1080 px artboard. The corrected rule uses `calc(var(--S) * 0.78)`; the image box is approximately 690 × 842 px on the same artboard, about 2.4 times the previous scale. Only uniform scaling/centering changes; the approved vector and colors are preserved.
+
+- The actual kit export was regenerated with `node scripts/exportar.mjs uno avatar b avatar --pdf`: **1/1 composition without observations**; PNG and distribution PDF updated.
+- Actual PNG pixels match the separately reviewed corrected composition exactly.
+- Local square/circular previews at **96, 48, 32 and 24 px** were visually inspected. The 1080 px raster has **zero visible logo pixels outside the circular crop** and approximately **99 px minimum radial clearance**; the independent 512 px export is also circular-safe.
+- Source: `kit/piezas.css`; evidence: `validacion/avatar/verification.json` and `validacion/avatar/comparacion-avatar.png`. The old framing is retained as `validacion/avatar/original.png`.
+- Manifest/gallery metadata and the editable-kit, PNG and PDF download packages were refreshed for this correction. Other templates, motion and A/C alternatives are unaffected.
+- No live account upload or current platform-spec verification was performed. Round-1/round-2/closure results above remain historical evidence; the full kit, motion and navigation suites were not rerun for this scoped layout correction.

@@ -1,0 +1,67 @@
+{
+  "approvedSource": "Experiment 02 approved color SVG",
+  "layoutFix": ".t-avatar .iso-avatar { height: calc(var(--S) * 0.78); width: auto; }",
+  "findings": {
+    "original": {
+      "size": 1080,
+      "imageBox": {
+        "x": 397.265625,
+        "y": 365.796875,
+        "width": 285.46875,
+        "height": 348.390625
+      },
+      "visibleBounds": [
+        397,
+        366,
+        683,
+        714
+      ],
+      "circleRadius": 540,
+      "maximumInkRadius": 182.80180524272728,
+      "circularClearance": 357.19819475727274,
+      "pixelsOutsideCircle": 0
+    },
+    "avatar__avatar": {
+      "size": 1080,
+      "imageBox": {
+        "x": 194.875,
+        "y": 118.796875,
+        "width": 690.25,
+        "height": 842.390625
+      },
+      "visibleBounds": [
+        195,
+        120,
+        884,
+        961
+      ],
+      "circleRadius": 540,
+      "maximumInkRadius": 441.46177637480685,
+      "circularClearance": 98.53822362519315,
+      "pixelsOutsideCircle": 0
+    },
+    "celuma-avatar-512": {
+      "size": 512,
+      "imageBox": {
+        "x": 92.375,
+        "y": 56.3125,
+        "width": 327.234375,
+        "height": 399.359375
+      },
+      "visibleBounds": [
+        92,
+        56,
+        419,
+        456
+      ],
+      "circleRadius": 256,
+      "maximumInkRadius": 209.61989409404822,
+      "circularClearance": 46.38010590595178,
+      "pixelsOutsideCircle": 0
+    }
+  },
+  "caveat": "Local square/circle rendering only; no uploads or current platform-spec certification.",
+  "date": "2026-10-08",
+  "realKitExport": "scripts/exportar.mjs uno avatar b avatar --pdf; 1/1 without observations",
+  "identity": "Rendered from the unmodified approved color SVG; no bitmap upscaling or logo redraw."
+}

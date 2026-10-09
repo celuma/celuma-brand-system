@@ -70,6 +70,12 @@ Cubre plantillas de identidad y valores, consejo, capacidad verificada, novedad,
 
 No se modificaron los experimentos 01–03, los maestros, tokens, lienzos (incluidos `PatternCream`, `PatternNavy`, `CelBlob` e `IllustCellGroup`, solo leídos) ni assets canónicos, ni `celuma-frontend`, `celuma-landing` o `celuma-docs`. Fuera de esta carpeta solo se registró el 04 en `labs/index.html`, `labs/README.md` y `docs/estado-de-piezas.md`; al cierre (2026-10-07) se actualizaron esas entradas y la nota de experimentos vigentes de `AGENTS.md` y `labs/CLAUDE.md`. Las rondas se integraron después en la rama `labs/experiment-04-digital-material` (commit `4c9d04a`, ticket #6, PR #7). El cierre no hizo commit, push, merge, publicación ni despliegue.
 
+## Avatar framing correction · 2026-10-08
+
+The profile avatar now renders the approved isotipo at **78% of the artboard height**, centered on the unchanged cream surface. An explicit artboard-relative size replaces the grid percentage that previously resolved against the SVG intrinsic height and yielded only about 32% visible height. Geometry, palette and aspect ratio remain unchanged. The source rule is scoped to `.t-avatar .iso-avatar`; other templates and historical A/B/C comparisons are unaffected.
+
+Use `exports/kit/avatar__avatar.png` (1080 × 1080). Square and circular previews were inspected locally at 96, 48, 32 and 24 px; all visible strokes, including rays, remain inside the circular crop. These are local simulations, not uploads or certification of platform specifications. Evidence: [`validacion/avatar/comparacion-avatar.png`](validacion/avatar/comparacion-avatar.png) and [`validacion/avatar/verification.json`](validacion/avatar/verification.json). Earlier contact sheets and closure checks remain historical evidence of the framing before this correction.
+
 ## Descargas
 
 `descargas/` contiene 8 paquetes zip (≈ 63 MB) regenerables con `sh scripts/empaquetar.sh`; duplican archivos que ya están en la carpeta. Al cierre se regeneraron para que su `LEEME.txt`, su manifiesto y sus textos lleven el estado aprobado; el resto de su contenido no cambió (ver `VALIDACION.md` §8). Ya estaban versionados en la rama y se conservan; la estrategia de almacenamiento para el sistema canónico (paquetes fuera de git, releases o LFS) está en `MIGRATION-PLAN.md` §4.

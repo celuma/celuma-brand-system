@@ -15,7 +15,7 @@
   ],
   "siguientePaso": "Migración preparada, no ejecutada: MIGRATION-PLAN.md"
  },
- "generado": "2026-10-08T05:09:01.449Z",
+ "generado": "2026-10-09T02:30:45.651Z",
  "resumen": {
   "piezasKit": 61,
   "formatosKit": [
@@ -1997,8 +1997,8 @@
     1080
    ],
    "coincide": true,
-   "bytes": 24579,
-   "sha256": "a19eed8ec66a6c99474f87d8d724b479971a1bb866b68ccae8a6491feb448c83",
+   "bytes": 47932,
+   "sha256": "7cb8c90b18e8d5b9ae657f8f9d363411084c4a6699bdbcbc82b70a64dd687aa3",
    "condensada": false,
    "comprobacion": "ok",
    "alt": "Isotipo de Céluma.",

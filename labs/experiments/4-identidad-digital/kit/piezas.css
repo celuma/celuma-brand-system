@@ -187,7 +187,8 @@
 
 /* Perfil, destacados, portada, banner y firma */
 .t-avatar .avatar-centro, .t-destacado .destacado-centro { position: absolute; inset: 0; display: grid; place-items: center; align-content: center; }
-.t-avatar .iso-avatar { height: 52%; width: auto; }
+/* Size against the artboard: percentage height in the grid resolves against the SVG intrinsic height. */
+.t-avatar .iso-avatar { height: calc(var(--S) * 0.78); width: auto; }
 .t-destacado .destacado-circulo { width: 60%; aspect-ratio: 1; border-radius: 50%; background: var(--e4-menta-suave); border: calc(var(--S) * 0.012) solid var(--e4-membrana); display: grid; place-items: center; color: var(--e4-tinta); }
 .t-destacado .destacado-circulo .ico { width: 44%; height: 44%; stroke-width: 1.8; }
 .t-destacado .destacado-titulo { margin-top: calc(var(--S) * 0.06); font: 800 calc(var(--S) * 0.075)/1 "Baloo 2", sans-serif; color: var(--e4-tinta); }
