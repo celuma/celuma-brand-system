@@ -1,0 +1,1876 @@
+{
+ "fecha": "2026-10-07T03:55:48.521Z",
+ "navegador": "Chromium (Playwright de celuma-frontend), headless, macOS",
+ "total": 61,
+ "fallos": 0,
+ "piezas": [
+  {
+   "p": "valor-claridad",
+   "d": "b",
+   "f": "4x5",
+   "out": "exports/kit/valor-claridad__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "display",
+     "n": 1,
+     "max": 1,
+     "ok": true
+    },
+    {
+     "el": "def",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "valor-claridad",
+   "d": "b",
+   "f": "9x16",
+   "out": "exports/kit/valor-claridad__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "display",
+     "n": 1,
+     "max": 1,
+     "ok": true
+    },
+    {
+     "el": "def",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "valor-precision",
+   "d": "b",
+   "f": "4x5",
+   "out": "exports/kit/valor-precision__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "display",
+     "n": 1,
+     "max": 1,
+     "ok": true
+    },
+    {
+     "el": "def",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "valor-precision",
+   "d": "b",
+   "f": "9x16",
+   "out": "exports/kit/valor-precision__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "display",
+     "n": 1,
+     "max": 1,
+     "ok": true
+    },
+    {
+     "el": "def",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "valor-seguridad",
+   "d": "b",
+   "f": "4x5",
+   "out": "exports/kit/valor-seguridad__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "display",
+     "n": 1,
+     "max": 1,
+     "ok": true
+    },
+    {
+     "el": "def",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "valor-seguridad",
+   "d": "b",
+   "f": "9x16",
+   "out": "exports/kit/valor-seguridad__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "display",
+     "n": 1,
+     "max": 1,
+     "ok": true
+    },
+    {
+     "el": "def",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "valor-confianza",
+   "d": "b",
+   "f": "4x5",
+   "out": "exports/kit/valor-confianza__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "display",
+     "n": 1,
+     "max": 1,
+     "ok": true
+    },
+    {
+     "el": "def",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "valor-confianza",
+   "d": "b",
+   "f": "9x16",
+   "out": "exports/kit/valor-confianza__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "display",
+     "n": 1,
+     "max": 1,
+     "ok": true
+    },
+    {
+     "el": "def",
+     "n": 3,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "valor-humanidad",
+   "d": "b",
+   "f": "4x5",
+   "out": "exports/kit/valor-humanidad__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "display",
+     "n": 1,
+     "max": 1,
+     "ok": true
+    },
+    {
+     "el": "def",
+     "n": 3,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "valor-humanidad",
+   "d": "b",
+   "f": "9x16",
+   "out": "exports/kit/valor-humanidad__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "display",
+     "n": 1,
+     "max": 1,
+     "ok": true
+    },
+    {
+     "el": "def",
+     "n": 3,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "valor-claridad",
+   "d": "b",
+   "f": "1x1",
+   "out": "exports/kit/valor-claridad__1x1.png",
+   "ancho": 1080,
+   "alto": 1080,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "display",
+     "n": 1,
+     "max": 1,
+     "ok": true
+    },
+    {
+     "el": "def",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "valores-resumen",
+   "d": "b",
+   "f": "4x5",
+   "out": "exports/kit/valores-resumen__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 1,
+     "max": 2,
+     "ok": true
+    },
+    {
+     "el": "valores-lista",
+     "n": 5,
+     "max": 5,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "valores-resumen",
+   "d": "b",
+   "f": "1x1",
+   "out": "exports/kit/valores-resumen__1x1.png",
+   "ancho": 1080,
+   "alto": 1080,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 1,
+     "max": 2,
+     "ok": true
+    },
+    {
+     "el": "valores-lista",
+     "n": 5,
+     "max": 5,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "valores-resumen",
+   "d": "b",
+   "f": "9x16",
+   "out": "exports/kit/valores-resumen__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 1,
+     "max": 2,
+     "ok": true
+    },
+    {
+     "el": "valores-lista",
+     "n": 5,
+     "max": 5,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "identidad-nombre",
+   "d": "b",
+   "f": "4x5",
+   "out": "exports/kit/identidad-nombre__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 1,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "identidad-nombre",
+   "d": "b",
+   "f": "9x16",
+   "out": "exports/kit/identidad-nombre__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 1,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "identidad-nombre",
+   "d": "b",
+   "f": "16x9",
+   "out": "exports/kit/identidad-nombre__16x9.png",
+   "ancho": 1920,
+   "alto": 1080,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 1,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "capacidad-revisor",
+   "d": "b",
+   "f": "1x1",
+   "out": "exports/kit/capacidad-revisor__1x1.png",
+   "ancho": 1080,
+   "alto": 1080,
+   "corto": true,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 3,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "permisos",
+     "n": 3,
+     "max": 6,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "capacidad-revisor",
+   "d": "b",
+   "f": "4x5",
+   "out": "exports/kit/capacidad-revisor__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 3,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "permisos",
+     "n": 4,
+     "max": 6,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "capacidad-revisor",
+   "d": "b",
+   "f": "9x16",
+   "out": "exports/kit/capacidad-revisor__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 3,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "permisos",
+     "n": 4,
+     "max": 6,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "capacidad-revisor",
+   "d": "b",
+   "f": "191x1",
+   "out": "exports/kit/capacidad-revisor__191x1.png",
+   "ancho": 1200,
+   "alto": 628,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 3,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "permisos",
+     "n": 6,
+     "max": 6,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "capacidad-revisor",
+   "d": "b",
+   "f": "16x9",
+   "out": "exports/kit/capacidad-revisor__16x9.png",
+   "ancho": 1920,
+   "alto": 1080,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 3,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "permisos",
+     "n": 6,
+     "max": 6,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "capacidad-emitidos",
+   "d": "b",
+   "f": "4x5",
+   "out": "exports/kit/capacidad-emitidos__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 3,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 3,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "capacidad-emitidos",
+   "d": "b",
+   "f": "9x16",
+   "out": "exports/kit/capacidad-emitidos__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": true,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "capacidad-emitidos",
+   "d": "b",
+   "f": "1x1",
+   "out": "exports/kit/capacidad-emitidos__1x1.png",
+   "ancho": 1080,
+   "alto": 1080,
+   "corto": true,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "consejo-revisor",
+   "d": "b",
+   "f": "4x5",
+   "out": "exports/kit/consejo-revisor__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 3,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "consejo-revisor",
+   "d": "b",
+   "f": "9x16",
+   "out": "exports/kit/consejo-revisor__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 3,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "consejo-revisor",
+   "d": "b",
+   "f": "1x1",
+   "out": "exports/kit/consejo-revisor__1x1.png",
+   "ancho": 1080,
+   "alto": 1080,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 3,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "consejo-muestra",
+   "d": "b",
+   "f": "4x5",
+   "out": "exports/kit/consejo-muestra__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "consejo-muestra",
+   "d": "b",
+   "f": "9x16",
+   "out": "exports/kit/consejo-muestra__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 3,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "novedad-131",
+   "d": "b",
+   "f": "1x1",
+   "out": "exports/kit/novedad-131__1x1.png",
+   "ancho": 1080,
+   "alto": 1080,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "lista",
+     "n": 3,
+     "max": 6,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "novedad-131",
+   "d": "b",
+   "f": "4x5",
+   "out": "exports/kit/novedad-131__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "lista",
+     "n": 3,
+     "max": 6,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "novedad-131",
+   "d": "b",
+   "f": "9x16",
+   "out": "exports/kit/novedad-131__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 3,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "lista",
+     "n": 4,
+     "max": 6,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "novedad-131",
+   "d": "b",
+   "f": "191x1",
+   "out": "exports/kit/novedad-131__191x1.png",
+   "ancho": 1200,
+   "alto": 628,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 3,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "lista",
+     "n": 6,
+     "max": 6,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "novedad-131",
+   "d": "b",
+   "f": "16x9",
+   "out": "exports/kit/novedad-131__16x9.png",
+   "ancho": 1920,
+   "alto": 1080,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 3,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "lista",
+     "n": 6,
+     "max": 6,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "demo",
+   "d": "b",
+   "f": "1x1",
+   "out": "exports/kit/demo__1x1.png",
+   "ancho": 1080,
+   "alto": 1080,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 3,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "demo",
+   "d": "b",
+   "f": "4x5",
+   "out": "exports/kit/demo__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 3,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "demo",
+   "d": "b",
+   "f": "9x16",
+   "out": "exports/kit/demo__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 3,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "demo",
+   "d": "b",
+   "f": "191x1",
+   "out": "exports/kit/demo__191x1.png",
+   "ancho": 1200,
+   "alto": 628,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 3,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "demo",
+   "d": "b",
+   "f": "16x9",
+   "out": "exports/kit/demo__16x9.png",
+   "ancho": 1920,
+   "alto": 1080,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 3,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "flujo-informe",
+   "d": "b",
+   "f": "4x5",
+   "out": "exports/kit/flujo-informe__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 2,
+     "max": 2,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 1,
+     "max": 2,
+     "ok": true
+    },
+    {
+     "el": "pasos-v",
+     "n": 4,
+     "max": 8,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "flujo-informe",
+   "d": "b",
+   "f": "9x16",
+   "out": "exports/kit/flujo-informe__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 2,
+     "max": 2,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 1,
+     "max": 2,
+     "ok": true
+    },
+    {
+     "el": "pasos-v",
+     "n": 4,
+     "max": 8,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "flujo-informe",
+   "d": "b",
+   "f": "16x9",
+   "out": "exports/kit/flujo-informe__16x9.png",
+   "ancho": 1920,
+   "alto": 1080,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 1,
+     "max": 2,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 1,
+     "max": 2,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "flujo-informe",
+   "d": "b",
+   "f": "191x1",
+   "out": "exports/kit/flujo-informe__191x1.png",
+   "ancho": 1200,
+   "alto": 628,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 1,
+     "max": 2,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 1,
+     "max": 2,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "carrusel-informe-1",
+   "d": "b",
+   "f": "4x5",
+   "out": "exports/kit/carrusel-informe-1__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo xl",
+     "n": 2,
+     "max": 4,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "carrusel-informe-2",
+   "d": "b",
+   "f": "4x5",
+   "out": "exports/kit/carrusel-informe-2__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 1,
+     "max": 2,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 3,
+     "max": 5,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "carrusel-informe-3",
+   "d": "b",
+   "f": "4x5",
+   "out": "exports/kit/carrusel-informe-3__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 1,
+     "max": 2,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 2,
+     "max": 5,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "carrusel-informe-4",
+   "d": "b",
+   "f": "4x5",
+   "out": "exports/kit/carrusel-informe-4__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 1,
+     "max": 2,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 3,
+     "max": 5,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "carrusel-informe-5",
+   "d": "b",
+   "f": "4x5",
+   "out": "exports/kit/carrusel-informe-5__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 1,
+     "max": 2,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 2,
+     "max": 5,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "carrusel-informe-6",
+   "d": "b",
+   "f": "4x5",
+   "out": "exports/kit/carrusel-informe-6__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 3,
+     "max": 4,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "carrusel-informe-7",
+   "d": "b",
+   "f": "4x5",
+   "out": "exports/kit/carrusel-informe-7__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 2,
+     "max": 3,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "avatar",
+   "d": "b",
+   "f": "avatar",
+   "out": "exports/kit/avatar__avatar.png",
+   "ancho": 1080,
+   "alto": 1080,
+   "corto": false,
+   "lineas": [],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "portada",
+   "d": "b",
+   "f": "portada",
+   "out": "exports/kit/portada__portada.png",
+   "ancho": 1584,
+   "alto": 396,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "portada-texto",
+     "n": 2,
+     "max": 2,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "destacado-guias",
+   "d": "b",
+   "f": "destacado",
+   "out": "exports/kit/destacado-guias__destacado.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "destacado-novedades",
+   "d": "b",
+   "f": "destacado",
+   "out": "exports/kit/destacado-novedades__destacado.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "destacado-flujo",
+   "d": "b",
+   "f": "destacado",
+   "out": "exports/kit/destacado-flujo__destacado.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "destacado-valores",
+   "d": "b",
+   "f": "destacado",
+   "out": "exports/kit/destacado-valores__destacado.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "corto": false,
+   "lineas": [],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "banner-docs",
+   "d": "b",
+   "f": "banner",
+   "out": "exports/kit/banner-docs__banner.png",
+   "ancho": 1500,
+   "alto": 500,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 2,
+     "max": 2,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "firma-correo",
+   "d": "b",
+   "f": "firma",
+   "out": "exports/kit/firma-correo__firma.png",
+   "ancho": 1200,
+   "alto": 300,
+   "corto": false,
+   "lineas": [],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "slide-titulo",
+   "d": "b",
+   "f": "16x9",
+   "out": "exports/kit/slide-titulo__16x9.png",
+   "ancho": 1920,
+   "alto": 1080,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo xl",
+     "n": 3,
+     "max": 3,
+     "ok": true
+    },
+    {
+     "el": "texto",
+     "n": 2,
+     "max": 2,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  },
+  {
+   "p": "slide-contenido",
+   "d": "b",
+   "f": "16x9",
+   "out": "exports/kit/slide-contenido__16x9.png",
+   "ancho": 1920,
+   "alto": 1080,
+   "corto": false,
+   "lineas": [
+    {
+     "el": "titulo",
+     "n": 1,
+     "max": 2,
+     "ok": true
+    }
+   ],
+   "fuera": [],
+   "solapes": [],
+   "errores": [],
+   "fuentesCargadas": [
+    "Baloo 2 800 normal",
+    "Inter 400 italic",
+    "Inter 400 700 normal"
+   ],
+   "ok": true
+  }
+ ]
+}

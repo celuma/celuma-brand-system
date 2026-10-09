@@ -1,0 +1,859 @@
+{
+ "total": 61,
+ "ok": true,
+ "nota": "Chromium incrusta las fuentes web como Type 3 (contornos vectoriales) con ToUnicode: aspecto estable y texto buscable; no es editable como fuente en Illustrator.",
+ "pdf": [
+  {
+   "pdf": "exports/kit/pdf/avatar__avatar.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1080
+   ],
+   "fuentes": 0,
+   "tipos": [],
+   "sin_texto": true,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/banner-docs__banner.pdf",
+   "paginas": 1,
+   "px": [
+    1500,
+    500
+   ],
+   "fuentes": 3,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/capacidad-emitidos__1x1.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1080
+   ],
+   "fuentes": 7,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/capacidad-emitidos__4x5.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1351
+   ],
+   "fuentes": 7,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/capacidad-emitidos__9x16.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1920
+   ],
+   "fuentes": 7,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/capacidad-revisor__16x9.pdf",
+   "paginas": 1,
+   "px": [
+    1920,
+    1080
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/capacidad-revisor__191x1.pdf",
+   "paginas": 1,
+   "px": [
+    1200,
+    628
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/capacidad-revisor__1x1.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1080
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/capacidad-revisor__4x5.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1351
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/capacidad-revisor__9x16.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1920
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/carrusel-informe-1__4x5.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1351
+   ],
+   "fuentes": 5,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/carrusel-informe-2__4x5.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1351
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/carrusel-informe-3__4x5.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1351
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/carrusel-informe-4__4x5.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1351
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/carrusel-informe-5__4x5.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1351
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/carrusel-informe-6__4x5.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1351
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/carrusel-informe-7__4x5.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1351
+   ],
+   "fuentes": 5,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/consejo-muestra__4x5.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1351
+   ],
+   "fuentes": 7,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/consejo-muestra__9x16.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1920
+   ],
+   "fuentes": 7,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/consejo-revisor__1x1.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1080
+   ],
+   "fuentes": 7,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/consejo-revisor__4x5.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1351
+   ],
+   "fuentes": 7,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/consejo-revisor__9x16.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1920
+   ],
+   "fuentes": 7,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/demo__16x9.pdf",
+   "paginas": 1,
+   "px": [
+    1920,
+    1080
+   ],
+   "fuentes": 7,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/demo__191x1.pdf",
+   "paginas": 1,
+   "px": [
+    1200,
+    628
+   ],
+   "fuentes": 7,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/demo__1x1.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1080
+   ],
+   "fuentes": 7,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/demo__4x5.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1351
+   ],
+   "fuentes": 7,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/demo__9x16.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1920
+   ],
+   "fuentes": 7,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/destacado-flujo__destacado.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1920
+   ],
+   "fuentes": 1,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/destacado-guias__destacado.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1920
+   ],
+   "fuentes": 1,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/destacado-novedades__destacado.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1920
+   ],
+   "fuentes": 1,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/destacado-valores__destacado.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1920
+   ],
+   "fuentes": 1,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/firma-correo__firma.pdf",
+   "paginas": 1,
+   "px": [
+    1200,
+    300
+   ],
+   "fuentes": 6,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/flujo-informe__16x9.pdf",
+   "paginas": 1,
+   "px": [
+    1920,
+    1080
+   ],
+   "fuentes": 8,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/flujo-informe__191x1.pdf",
+   "paginas": 1,
+   "px": [
+    1200,
+    628
+   ],
+   "fuentes": 8,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/flujo-informe__4x5.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1351
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/flujo-informe__9x16.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1920
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/identidad-nombre__16x9.pdf",
+   "paginas": 1,
+   "px": [
+    1920,
+    1080
+   ],
+   "fuentes": 5,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/identidad-nombre__4x5.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1351
+   ],
+   "fuentes": 5,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/identidad-nombre__9x16.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1920
+   ],
+   "fuentes": 5,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/novedad-131__16x9.pdf",
+   "paginas": 1,
+   "px": [
+    1920,
+    1080
+   ],
+   "fuentes": 7,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/novedad-131__191x1.pdf",
+   "paginas": 1,
+   "px": [
+    1200,
+    628
+   ],
+   "fuentes": 7,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/novedad-131__1x1.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1080
+   ],
+   "fuentes": 7,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/novedad-131__4x5.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1351
+   ],
+   "fuentes": 7,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/novedad-131__9x16.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1920
+   ],
+   "fuentes": 7,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/portada__portada.pdf",
+   "paginas": 1,
+   "px": [
+    1584,
+    396
+   ],
+   "fuentes": 2,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/slide-contenido__16x9.pdf",
+   "paginas": 1,
+   "px": [
+    1920,
+    1080
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/slide-titulo__16x9.pdf",
+   "paginas": 1,
+   "px": [
+    1920,
+    1080
+   ],
+   "fuentes": 5,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/valor-claridad__1x1.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1080
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/valor-claridad__4x5.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1351
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/valor-claridad__9x16.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1920
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/valor-confianza__4x5.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1351
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/valor-confianza__9x16.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1920
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/valor-humanidad__4x5.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1351
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/valor-humanidad__9x16.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1920
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/valor-precision__4x5.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1351
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/valor-precision__9x16.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1920
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/valor-seguridad__4x5.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1351
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/valor-seguridad__9x16.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1920
+   ],
+   "fuentes": 10,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/valores-resumen__1x1.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1080
+   ],
+   "fuentes": 4,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/valores-resumen__4x5.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1351
+   ],
+   "fuentes": 4,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  },
+  {
+   "pdf": "exports/kit/pdf/valores-resumen__9x16.pdf",
+   "paginas": 1,
+   "px": [
+    1080,
+    1920
+   ],
+   "fuentes": 4,
+   "tipos": [
+    "/Type3"
+   ],
+   "sin_texto": false,
+   "texto_buscable": true
+  }
+ ]
+}

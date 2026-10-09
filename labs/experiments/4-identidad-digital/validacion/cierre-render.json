@@ -1,0 +1,7 @@
+{
+ "fecha": "2026-10-08T05:08:05.047Z",
+ "navegador": "Chromium (Playwright de celuma-frontend) headless, macOS",
+ "ok": true,
+ "resumen": "61/61 piezas del kit renderizadas de nuevo con el código del cierre, idénticas byte a byte a exports/kit/",
+ "distintas": []
+}

@@ -1,0 +1,227 @@
+{
+ "estado": "Recurso de B · Ficha (experimento 04) aprobado por Rafael en el laboratorio el 2026-10-07 · incorporación canónica pendiente: todavía no es un asset canónico.",
+ "colores": {
+  "e4-membrana": "#49B6AD",
+  "e4-citoplasma": "#BBEAD2",
+  "e4-nucleo": "#F98D84",
+  "e4-nucleolo": "#E5635F",
+  "e4-rayos": "#F1C46C",
+  "e4-crema": "#FBF6EC",
+  "e4-blanco": "#FFFFFF",
+  "e4-navy": "#0D1B2A",
+  "e4-menta-suave": "#E4F3EA",
+  "e4-luz-0": "#F6DAA6",
+  "e4-luz-1": "#F7E2B9",
+  "e4-luz-2": "#F9EBD0",
+  "e4-luz-3": "#FAF1DF",
+  "e4-tinta": "#0D1B2A",
+  "e4-tinta-2": "#3A4A5C",
+  "e4-tinta-3": "#56657A",
+  "e4-teal-tinta": "#1F7A75",
+  "e4-teal-profunda": "#17635F",
+  "e4-sobre-navy": "#FFFFFF",
+  "e4-sobre-navy-2": "#C9D3DD",
+  "e4-menta-tinta": "#BBEAD2"
+ },
+ "recursos": [
+  {
+   "svg": "recursos/svg/cuadricula-orden-10x3-crema.svg",
+   "png": "recursos/png/cuadricula-orden-10x3-crema.png",
+   "pngTam": [
+    2048,
+    614
+   ],
+   "uso": "Módulo visual de la dirección Ficha sobre crema o blanco."
+  },
+  {
+   "svg": "recursos/svg/cuadricula-orden-10x3-navy.svg",
+   "png": "recursos/png/cuadricula-orden-10x3-navy.png",
+   "pngTam": [
+    2048,
+    614
+   ],
+   "uso": "Módulo visual sobre navy (portadas, cierres, anuncios)."
+  },
+  {
+   "svg": "recursos/svg/cuadricula-orden-6x5-crema.svg",
+   "png": "recursos/png/cuadricula-orden-6x5-crema.png",
+   "pngTam": [
+    2048,
+    1707
+   ],
+   "uso": "Módulo visual de la dirección Ficha sobre crema o blanco."
+  },
+  {
+   "svg": "recursos/svg/cuadricula-orden-6x5-navy.svg",
+   "png": "recursos/png/cuadricula-orden-6x5-navy.png",
+   "pngTam": [
+    2048,
+    1707
+   ],
+   "uso": "Módulo visual sobre navy (portadas, cierres, anuncios)."
+  },
+  {
+   "svg": "recursos/svg/cuadricula-orden-8x2-crema.svg",
+   "png": "recursos/png/cuadricula-orden-8x2-crema.png",
+   "pngTam": [
+    2048,
+    512
+   ],
+   "uso": "Módulo visual de la dirección Ficha sobre crema o blanco."
+  },
+  {
+   "svg": "recursos/svg/cuadricula-orden-8x2-navy.svg",
+   "png": "recursos/png/cuadricula-orden-8x2-navy.png",
+   "pngTam": [
+    2048,
+    512
+   ],
+   "uso": "Módulo visual sobre navy (portadas, cierres, anuncios)."
+  },
+  {
+   "svg": "recursos/svg/regla-salmon-vertical.svg",
+   "png": "recursos/png/regla-salmon-vertical.png",
+   "pngTam": [
+    40,
+    1200
+   ],
+   "uso": "Borde izquierdo del bloque principal; una por pieza."
+  },
+  {
+   "svg": "recursos/svg/rastreador-4-pasos-0.svg",
+   "png": "recursos/png/rastreador-4-pasos-0.png",
+   "pngTam": [
+    2048,
+    154
+   ],
+   "uso": "Rastreador de pasos para carruseles y flujos; los rótulos se escriben en la pieza."
+  },
+  {
+   "svg": "recursos/svg/rastreador-4-pasos-1.svg",
+   "png": "recursos/png/rastreador-4-pasos-1.png",
+   "pngTam": [
+    2048,
+    154
+   ],
+   "uso": "Rastreador de pasos para carruseles y flujos; los rótulos se escriben en la pieza."
+  },
+  {
+   "svg": "recursos/svg/rastreador-4-pasos-2.svg",
+   "png": "recursos/png/rastreador-4-pasos-2.png",
+   "pngTam": [
+    2048,
+    154
+   ],
+   "uso": "Rastreador de pasos para carruseles y flujos; los rótulos se escriben en la pieza."
+  },
+  {
+   "svg": "recursos/svg/rastreador-4-pasos-3.svg",
+   "png": "recursos/png/rastreador-4-pasos-3.png",
+   "pngTam": [
+    2048,
+    154
+   ],
+   "uso": "Rastreador de pasos para carruseles y flujos; los rótulos se escriben en la pieza."
+  },
+  {
+   "svg": "recursos/svg/rastreador-4-pasos-4.svg",
+   "png": "recursos/png/rastreador-4-pasos-4.png",
+   "pngTam": [
+    2048,
+    154
+   ],
+   "uso": "Rastreador de pasos para carruseles y flujos; los rótulos se escriben en la pieza."
+  },
+  {
+   "svg": "recursos/svg/iconos/icono-guia.svg",
+   "png": "recursos/png/iconos/icono-guia.png",
+   "pngTam": [
+    512,
+    512
+   ],
+   "uso": "Icono «guia»."
+  },
+  {
+   "svg": "recursos/svg/iconos/icono-novedad.svg",
+   "png": "recursos/png/iconos/icono-novedad.png",
+   "pngTam": [
+    512,
+    512
+   ],
+   "uso": "Icono «novedad»."
+  },
+  {
+   "svg": "recursos/svg/iconos/icono-flujo.svg",
+   "png": "recursos/png/iconos/icono-flujo.png",
+   "pngTam": [
+    512,
+    512
+   ],
+   "uso": "Icono «flujo»."
+  },
+  {
+   "svg": "recursos/svg/iconos/icono-valor.svg",
+   "png": "recursos/png/iconos/icono-valor.png",
+   "pngTam": [
+    512,
+    512
+   ],
+   "uso": "Icono «valor»."
+  },
+  {
+   "svg": "recursos/svg/iconos/icono-firma.svg",
+   "png": "recursos/png/iconos/icono-firma.png",
+   "pngTam": [
+    512,
+    512
+   ],
+   "uso": "Icono «firma»."
+  },
+  {
+   "svg": "recursos/svg/iconos/icono-plantilla.svg",
+   "png": "recursos/png/iconos/icono-plantilla.png",
+   "pngTam": [
+    512,
+    512
+   ],
+   "uso": "Icono «plantilla»."
+  },
+  {
+   "svg": "recursos/svg/iconos/icono-muestra.svg",
+   "png": "recursos/png/iconos/icono-muestra.png",
+   "pngTam": [
+    512,
+    512
+   ],
+   "uso": "Icono «muestra»."
+  },
+  {
+   "svg": "recursos/svg/iconos/icono-persona.svg",
+   "png": "recursos/png/iconos/icono-persona.png",
+   "pngTam": [
+    512,
+    512
+   ],
+   "uso": "Icono «persona»."
+  },
+  {
+   "svg": "recursos/svg/iconos/icono-flecha.svg",
+   "png": "recursos/png/iconos/icono-flecha.png",
+   "pngTam": [
+    512,
+    512
+   ],
+   "uso": "Icono «flecha»."
+  },
+  {
+   "svg": "recursos/svg/iconos/icono-correo.svg",
+   "png": "recursos/png/iconos/icono-correo.png",
+   "pngTam": [
+    512,
+    512
+   ],
+   "uso": "Icono «correo»."
+  }
+ ],
+ "problemas": []
+}

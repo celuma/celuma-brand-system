@@ -1,0 +1,31 @@
+{
+ "fecha": "2026-10-08T05:08:33.801Z",
+ "navegador": "Chromium (Playwright de celuma-frontend) headless, macOS",
+ "servidor": "python3 -m http.server",
+ "vistas": {
+  "390": {
+   "sw": 390,
+   "cw": 390,
+   "rotas": [],
+   "imgs": 170,
+   "h": 59513,
+   "anchos": [
+    "g-tabla",
+    "tabla-contraste",
+    "tabla-escala",
+    "tabla-calidad",
+    "tabla-manifest"
+   ],
+   "errores": []
+  },
+  "1440": {
+   "sw": 1440,
+   "cw": 1440,
+   "rotas": [],
+   "imgs": 170,
+   "h": 26939,
+   "anchos": [],
+   "errores": []
+  }
+ }
+}

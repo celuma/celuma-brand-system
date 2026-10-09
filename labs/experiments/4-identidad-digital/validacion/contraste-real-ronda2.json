@@ -1,0 +1,125 @@
+{
+ "metodo": "Peor píxel de fondo (render sin texto, muestreo cada 2 px) bajo cada línea frente a su tinta; WCAG 2.x.",
+ "modo": "ronda2",
+ "piezas": 10,
+ "lineas": 102,
+ "fallos": [],
+ "detalle": [
+  {
+   "pieza": "valor-claridad__4x5.png",
+   "lineas": 9,
+   "peor": {
+    "el": "lema",
+    "peor": 4.77,
+    "objetivo": 4.5,
+    "ok": true
+   },
+   "ok": true
+  },
+  {
+   "pieza": "valor-claridad__9x16.png",
+   "lineas": 9,
+   "peor": {
+    "el": "lema",
+    "peor": 4.87,
+    "objetivo": 4.5,
+    "ok": true
+   },
+   "ok": true
+  },
+  {
+   "pieza": "identidad-nombre__4x5.png",
+   "lineas": 6,
+   "peor": {
+    "el": "eyebrow",
+    "peor": 5.92,
+    "objetivo": 4.5,
+    "ok": true
+   },
+   "ok": true
+  },
+  {
+   "pieza": "capacidad-revisor__4x5.png",
+   "lineas": 14,
+   "peor": {
+    "el": "fuente",
+    "peor": 5.46,
+    "objetivo": 4.5,
+    "ok": true
+   },
+   "ok": true
+  },
+  {
+   "pieza": "capacidad-revisor__1x1.png",
+   "lineas": 12,
+   "peor": {
+    "el": "fuente",
+    "peor": 5.46,
+    "objetivo": 4.5,
+    "ok": true
+   },
+   "ok": true
+  },
+  {
+   "pieza": "carrusel-informe-1__4x5.png",
+   "lineas": 8,
+   "peor": {
+    "el": "texto",
+    "peor": 8.59,
+    "objetivo": 4.5,
+    "ok": true
+   },
+   "ok": true
+  },
+  {
+   "pieza": "carrusel-informe-4__4x5.png",
+   "lineas": 13,
+   "peor": {
+    "el": "cab-num",
+    "peor": 5.45,
+    "objetivo": 4.5,
+    "ok": true
+   },
+   "ok": true
+  },
+  {
+   "pieza": "carrusel-informe-7__4x5.png",
+   "lineas": 9,
+   "peor": {
+    "el": "texto",
+    "peor": 8.26,
+    "objetivo": 4.5,
+    "ok": true
+   },
+   "ok": true
+  },
+  {
+   "pieza": "novedad-131__9x16.png",
+   "lineas": 14,
+   "peor": {
+    "el": "fuente",
+    "peor": 8.84,
+    "objetivo": 4.5,
+    "ok": true
+   },
+   "ok": true
+  },
+  {
+   "pieza": "slide-titulo__16x9.png",
+   "lineas": 8,
+   "peor": {
+    "el": "cab-num",
+    "peor": 8.91,
+    "objetivo": 4.5,
+    "ok": true
+   },
+   "ok": true
+  }
+ ],
+ "minimo_relativo": {
+  "el": "lema",
+  "peor": 4.77,
+  "objetivo": 4.5,
+  "ok": true
+ }
+}

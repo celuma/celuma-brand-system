@@ -1,0 +1,252 @@
+{
+ "metodo": "WCAG 2.x, luminancia relativa sRGB. Tamaño de uso estimado a 390 px de ancho.",
+ "usos": [
+  {
+   "rol": "Título y display",
+   "tinta": "#0D1B2A",
+   "fondo": "#FBF6EC",
+   "contraste": 16.15,
+   "px_artboard": 93,
+   "px_a_390": 33.6,
+   "texto_grande": true,
+   "objetivo": 3,
+   "cumple": true,
+   "direcciones": "A B C",
+   "donde": "Todas las piezas claras"
+  },
+  {
+   "rol": "Texto de apoyo",
+   "tinta": "#3A4A5C",
+   "fondo": "#FBF6EC",
+   "contraste": 8.43,
+   "px_artboard": 45,
+   "px_a_390": 16.2,
+   "texto_grande": false,
+   "objetivo": 4.5,
+   "cumple": true,
+   "direcciones": "A B",
+   "donde": "Cuerpo de texto"
+  },
+  {
+   "rol": "Metadatos (sílabas, fuente, serie)",
+   "tinta": "#56657A",
+   "fondo": "#FBF6EC",
+   "contraste": 5.51,
+   "px_artboard": 29,
+   "px_a_390": 10.5,
+   "texto_grande": false,
+   "objetivo": 4.5,
+   "cumple": true,
+   "direcciones": "B",
+   "donde": "Lema, línea de fuente, numeración"
+  },
+  {
+   "rol": "Antetítulo y CTA",
+   "tinta": "#17635F",
+   "fondo": "#FBF6EC",
+   "contraste": 6.53,
+   "px_artboard": 31,
+   "px_a_390": 11.2,
+   "texto_grande": false,
+   "objetivo": 4.5,
+   "cumple": true,
+   "direcciones": "A B C",
+   "donde": "Eyebrow y dirección"
+  },
+  {
+   "rol": "Cabecera de serie",
+   "tinta": "#0D1B2A",
+   "fondo": "#FBF6EC",
+   "contraste": 16.15,
+   "px_artboard": 31,
+   "px_a_390": 11.2,
+   "texto_grande": false,
+   "objetivo": 4.5,
+   "cumple": true,
+   "direcciones": "B",
+   "donde": "Cabecera"
+  },
+  {
+   "rol": "Rótulos del rastreador",
+   "tinta": "#3A4A5C",
+   "fondo": "#FBF6EC",
+   "contraste": 8.43,
+   "px_artboard": 31,
+   "px_a_390": 11.2,
+   "texto_grande": false,
+   "objetivo": 4.5,
+   "cumple": true,
+   "direcciones": "B",
+   "donde": "Pasos"
+  },
+  {
+   "rol": "Título sobre luz intensa",
+   "tinta": "#0D1B2A",
+   "fondo": "#F6DAA6",
+   "contraste": 12.84,
+   "px_artboard": 93,
+   "px_a_390": 33.6,
+   "texto_grande": true,
+   "objetivo": 3,
+   "cumple": true,
+   "direcciones": "A",
+   "donde": "Zona iluminada"
+  },
+  {
+   "rol": "Texto sobre luz",
+   "tinta": "#3A4A5C",
+   "fondo": "#F7E2B9",
+   "contraste": 7.15,
+   "px_artboard": 45,
+   "px_a_390": 16.2,
+   "texto_grande": false,
+   "objetivo": 4.5,
+   "cumple": true,
+   "direcciones": "A",
+   "donde": "Zona iluminada"
+  },
+  {
+   "rol": "Antetítulo sobre luz",
+   "tinta": "#17635F",
+   "fondo": "#F6DAA6",
+   "contraste": 5.19,
+   "px_artboard": 31,
+   "px_a_390": 11.2,
+   "texto_grande": false,
+   "objetivo": 4.5,
+   "cumple": true,
+   "direcciones": "A",
+   "donde": "Zona iluminada"
+  },
+  {
+   "rol": "Título sobre menta suave",
+   "tinta": "#0D1B2A",
+   "fondo": "#E4F3EA",
+   "contraste": 15.16,
+   "px_artboard": 93,
+   "px_a_390": 33.6,
+   "texto_grande": true,
+   "objetivo": 3,
+   "cumple": true,
+   "direcciones": "C",
+   "donde": "Membrana"
+  },
+  {
+   "rol": "Texto sobre menta suave",
+   "tinta": "#0D1B2A",
+   "fondo": "#E4F3EA",
+   "contraste": 15.16,
+   "px_artboard": 45,
+   "px_a_390": 16.2,
+   "texto_grande": false,
+   "objetivo": 4.5,
+   "cumple": true,
+   "direcciones": "C",
+   "donde": "Membrana"
+  },
+  {
+   "rol": "Número sobre foco salmón",
+   "tinta": "#0D1B2A",
+   "fondo": "#F98D84",
+   "contraste": 7.6,
+   "px_artboard": 67,
+   "px_a_390": 24.2,
+   "texto_grande": true,
+   "objetivo": 3,
+   "cumple": true,
+   "direcciones": "C",
+   "donde": "Foco numerado (texto grande)"
+  },
+  {
+   "rol": "Título sobre navy",
+   "tinta": "#FFFFFF",
+   "fondo": "#0D1B2A",
+   "contraste": 17.39,
+   "px_artboard": 93,
+   "px_a_390": 33.6,
+   "texto_grande": true,
+   "objetivo": 3,
+   "cumple": true,
+   "direcciones": "B",
+   "donde": "Portadas, cierres y anuncios"
+  },
+  {
+   "rol": "Texto sobre navy",
+   "tinta": "#C9D3DD",
+   "fondo": "#0D1B2A",
+   "contraste": 11.47,
+   "px_artboard": 45,
+   "px_a_390": 16.2,
+   "texto_grande": false,
+   "objetivo": 4.5,
+   "cumple": true,
+   "direcciones": "B",
+   "donde": "Portadas, cierres y anuncios"
+  },
+  {
+   "rol": "Antetítulo y CTA sobre navy",
+   "tinta": "#BBEAD2",
+   "fondo": "#0D1B2A",
+   "contraste": 13.1,
+   "px_artboard": 31,
+   "px_a_390": 11.2,
+   "texto_grande": false,
+   "objetivo": 4.5,
+   "cumple": true,
+   "direcciones": "B",
+   "donde": "Portadas, cierres y anuncios"
+  },
+  {
+   "rol": "Metadatos sobre navy",
+   "tinta": "#A9B6C3",
+   "fondo": "#0D1B2A",
+   "contraste": 8.42,
+   "px_artboard": 29,
+   "px_a_390": 10.5,
+   "texto_grande": false,
+   "objetivo": 4.5,
+   "cumple": true,
+   "direcciones": "B",
+   "donde": "Numeración y fuente sobre navy"
+  }
+ ],
+ "prohibidas": [
+  {
+   "uso": "Blanco sobre teal de identidad",
+   "tinta": "#FFFFFF",
+   "fondo": "#49B6AD",
+   "contraste": 2.45
+  },
+  {
+   "uso": "Teal de identidad como texto sobre crema",
+   "tinta": "#49B6AD",
+   "fondo": "#FBF6EC",
+   "contraste": 2.27
+  },
+  {
+   "uso": "Salmón como texto sobre crema",
+   "tinta": "#F98D84",
+   "fondo": "#FBF6EC",
+   "contraste": 2.13
+  },
+  {
+   "uso": "Gris #6B7280 sobre crema (texto pequeño)",
+   "tinta": "#6B7280",
+   "fondo": "#FBF6EC",
+   "contraste": 4.49
+  },
+  {
+   "uso": "Teal de tinta #1F7A75 sobre menta suave",
+   "tinta": "#1F7A75",
+   "fondo": "#E4F3EA",
+   "contraste": 4.47
+  },
+  {
+   "uso": "Amarillo de rayos como texto sobre crema",
+   "tinta": "#F1C46C",
+   "fondo": "#FBF6EC",
+   "contraste": 1.52
+  }
+ ],
+ "resumen": "16/16 combinaciones de texto cumplen su objetivo"
+}

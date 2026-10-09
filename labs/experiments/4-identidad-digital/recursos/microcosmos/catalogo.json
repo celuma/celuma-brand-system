@@ -1,0 +1,170 @@
+{
+ "estado": "Ronda 2 del experimento 04 · aprobada por Rafael en el laboratorio el 2026-10-07 (B · Ficha) · incorporación canónica pendiente: todavía no es un asset canónico.",
+ "peso_base": "S × 0,0055",
+ "paleta": {
+  "membrana": "#49B6AD",
+  "citoplasma": "#BBEAD2",
+  "nucleo": "#F98D84",
+  "mentaSuave": "#E4F3EA",
+  "crema": "#FBF6EC",
+  "navy": "#0D1B2A",
+  "navyProfundo": "#0A1520",
+  "tealRGB": [
+   73,
+   182,
+   173
+  ]
+ },
+ "tonos": {
+  "claro": {
+   "mem": [
+    "#49B6AD",
+    1
+   ],
+   "mem2": [
+    "#49B6AD",
+    0.34
+   ],
+   "int": [
+    "#BBEAD2",
+    0.62
+   ],
+   "intT": [
+    "#BBEAD2",
+    0.36
+   ],
+   "foco": [
+    "#F98D84",
+    1
+   ],
+   "focoT": [
+    "#49B6AD",
+    0.3
+   ],
+   "luz": [
+    "#FFFFFF",
+    0.75
+   ],
+   "campo": [
+    "#49B6AD",
+    0.5
+   ],
+   "campoInt": [
+    "#BBEAD2",
+    0.3
+   ]
+  },
+  "oscuro": {
+   "mem": [
+    "#49B6AD",
+    1
+   ],
+   "mem2": [
+    "#49B6AD",
+    0.4
+   ],
+   "int": [
+    "#49B6AD",
+    0.2
+   ],
+   "intT": [
+    "#BBEAD2",
+    0.09
+   ],
+   "foco": [
+    "#F98D84",
+    1
+   ],
+   "focoT": [
+    "#BBEAD2",
+    0.32
+   ],
+   "luz": [
+    "#BBEAD2",
+    0.4
+   ],
+   "campo": [
+    "#49B6AD",
+    0.48
+   ],
+   "campoInt": [
+    "#49B6AD",
+    0.1
+   ]
+  }
+ },
+ "recursos": [
+  {
+   "id": "celula-protagonista",
+   "familia": "Células",
+   "nombre": "Célula protagonista",
+   "intencion": "El foco de la pieza: una sola por composición, con doble membrana, interior pleno, foco salmón desplazado hacia la luz y un arco de luz interior.",
+   "reglas": "Radio ≥ 0,16 S. Una por pieza; es el único foco salmón pleno. Holgura de texto ≥ 0,25 R alrededor de la doble membrana.",
+   "fondos": "Papel, papel suave, crema plano, navy, navy suave."
+  },
+  {
+   "id": "celula-acompanante",
+   "familia": "Células",
+   "nombre": "Células acompañantes",
+   "intencion": "Escala la protagonista en dos pasos (0,42 y 0,18 R): membrana simple, interior tenue, foco tintado o ausente.",
+   "reglas": "Nunca más grandes que la protagonista ni con foco pleno. Tres tamaños, no más.",
+   "fondos": "Todos."
+  },
+  {
+   "id": "membrana-abierta",
+   "familia": "Células",
+   "nombre": "Membrana abierta",
+   "intencion": "Un contorno de ~290° que abraza un número o un icono: contención sin cerrar, para índices y destacados.",
+   "reglas": "Dentro solo un número o icono centrado; la abertura mira hacia arriba a la derecha (por donde entra la luz).",
+   "fondos": "Papel, crema plano, navy."
+  },
+  {
+   "id": "grupo-asimetrico",
+   "familia": "Agrupaciones",
+   "nombre": "Grupo asimétrico",
+   "intencion": "Ilustración protagonista: una célula y sus acompañantes se alejan de la luz hacia abajo a la derecha. Ordenado, nunca aleatorio.",
+   "reglas": "Ocupa un módulo reservado (35–50 % del área útil); el texto vive fuera de su caja. Disposiciones: diagonal, horizontal y vertical.",
+   "fondos": "Papel, navy."
+  },
+  {
+   "id": "grupo-par",
+   "familia": "Agrupaciones",
+   "nombre": "Par",
+   "intencion": "Dos células cercanas sin tocarse: compañía y relevo, para mensajes breves y consejos.",
+   "reglas": "Holgura ≥ 0,25 R entre membranas; no unir con líneas ni dar significado de división celular.",
+   "fondos": "Papel, papel suave, navy."
+  },
+  {
+   "id": "campo-perimetral",
+   "familia": "Campos",
+   "nombre": "Campo perimetral",
+   "intencion": "Un tejido de células sobre retícula hexagonal que crece desde un borde y se aclara hacia el texto: orden vivo, comunidad, sin competir con el mensaje.",
+   "reglas": "Sin desorden de posición: tamaño y ocupación crecen hacia el borde fuerte. Paso 0,07–0,13 S. Nunca bajo el texto ni en la protección del logo.",
+   "fondos": "Papel, papel suave, navy."
+  },
+  {
+   "id": "campo-ordenado",
+   "familia": "Campos",
+   "nombre": "Campo ordenado",
+   "intencion": "La cuadrícula de la ronda 1, más ligera: un foco entre muchas células iguales. Para piezas de producto y modo editorial.",
+   "reglas": "Celdas enteras, nunca deformadas; una sola célula foco; columnas fijas por formato.",
+   "fondos": "Crema plano, papel suave, navy."
+  },
+  {
+   "id": "recorte-perimetral",
+   "familia": "Contornos",
+   "nombre": "Recorte perimetral",
+   "intencion": "Una gran célula vista de cerca, cortada por el borde: profundidad y escala para identidad y cierres.",
+   "reglas": "Visible ≤ 45 % de su radio; foco tintado; nunca en la esquina de la firma.",
+   "fondos": "Papel, navy."
+  },
+  {
+   "id": "foco-separador",
+   "familia": "Detalles",
+   "nombre": "Foco y separador",
+   "intencion": "Detalle mínimo para modo editorial: marca un elemento de lista o separa bloques sin añadir otra ilustración.",
+   "reglas": "Una línea por bloque; foco tintado (el pleno se reserva a la protagonista).",
+   "fondos": "Todos."
+  }
+ ]
+}

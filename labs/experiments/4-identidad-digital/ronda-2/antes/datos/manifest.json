@@ -1,0 +1,2945 @@
+{
+ "experimento": "04 · Identidad y materiales digitales de Céluma",
+ "estado": "Candidata · exploración · pendiente de aprobación de Rafael",
+ "direccionRecomendada": "B · Ficha (recomendación candidata, no aprobada)",
+ "generado": "2026-10-07T04:04:59.550Z",
+ "resumen": {
+  "piezasKit": 61,
+  "formatosKit": [
+   "4:5",
+   "9:16",
+   "1:1",
+   "16:9",
+   "1.91:1",
+   "Avatar 1:1",
+   "Portada 4:1",
+   "Destacado 9:16",
+   "Banner 3:1",
+   "Firma 4:1"
+  ],
+  "piezasComparacion": 18,
+  "recursos": 22,
+  "motion": 2,
+  "tamanosCoinciden": [],
+  "marcaIdentica": true,
+  "condensadas": [
+   "capacidad-revisor__1x1",
+   "capacidad-emitidos__9x16",
+   "capacidad-emitidos__1x1"
+  ]
+ },
+ "archivos": [
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "valor-claridad__4x5",
+   "pieza": "valor-claridad",
+   "plantilla": "valor",
+   "grupo": "Identidad y valores",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "proposito": "Publicación vertical y carrusel (prioritario)",
+   "png": "exports/kit/valor-claridad__4x5.png",
+   "pdf": "exports/kit/pdf/valor-claridad__4x5.pdf",
+   "ancho": 1080,
+   "alto": 1350,
+   "declarado": [
+    1080,
+    1350
+   ],
+   "coincide": true,
+   "bytes": 78998,
+   "sha256": "9e510fd1de82f2566dac3a4b3d8871c0c2b5ed9afc74588c432ac3d734e383f1",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma sobre el valor Claridad: «Información visible, ordenada y accesible para quien la necesita.» Valor 1 de 5.",
+   "caption": "Claridad. Información visible, ordenada y accesible para quien la necesita. Es uno de los cinco valores que orientan cómo diseñamos Céluma.",
+   "fuentes": [
+    {
+     "ref": "Notion · Propuesta de marca §4 (leída el 2026-10-06) y celuma.mx (Values.tsx)",
+     "estado": "valor-marca"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "valor-claridad__9x16",
+   "pieza": "valor-claridad",
+   "plantilla": "valor",
+   "grupo": "Identidad y valores",
+   "direccion": "B · Ficha",
+   "formato": "9:16",
+   "formatoId": "9x16",
+   "proposito": "Historia y vídeo vertical (prioritario)",
+   "png": "exports/kit/valor-claridad__9x16.png",
+   "pdf": "exports/kit/pdf/valor-claridad__9x16.pdf",
+   "ancho": 1080,
+   "alto": 1920,
+   "declarado": [
+    1080,
+    1920
+   ],
+   "coincide": true,
+   "bytes": 83260,
+   "sha256": "438bd87d4b1f60878a4040e1f142c443b5050abfbc94b3797fafb7a5ae695d06",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma sobre el valor Claridad: «Información visible, ordenada y accesible para quien la necesita.» Valor 1 de 5.",
+   "caption": "Claridad. Información visible, ordenada y accesible para quien la necesita. Es uno de los cinco valores que orientan cómo diseñamos Céluma.",
+   "fuentes": [
+    {
+     "ref": "Notion · Propuesta de marca §4 (leída el 2026-10-06) y celuma.mx (Values.tsx)",
+     "estado": "valor-marca"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "valor-precision__4x5",
+   "pieza": "valor-precision",
+   "plantilla": "valor",
+   "grupo": "Identidad y valores",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "proposito": "Publicación vertical y carrusel (prioritario)",
+   "png": "exports/kit/valor-precision__4x5.png",
+   "pdf": "exports/kit/pdf/valor-precision__4x5.pdf",
+   "ancho": 1080,
+   "alto": 1350,
+   "declarado": [
+    1080,
+    1350
+   ],
+   "coincide": true,
+   "bytes": 75319,
+   "sha256": "233821e42a121f45310b9e74639d2a719285861569994d01eca268e5a95f5659",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma sobre el valor Precisión: «Procesos médicos reflejados con rigor digital.» Valor 2 de 5.",
+   "caption": "Precisión. Procesos médicos reflejados con rigor digital. Es uno de los cinco valores que orientan cómo diseñamos Céluma.",
+   "fuentes": [
+    {
+     "ref": "Notion · Propuesta de marca §4 (leída el 2026-10-06) y celuma.mx (Values.tsx)",
+     "estado": "valor-marca"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "valor-precision__9x16",
+   "pieza": "valor-precision",
+   "plantilla": "valor",
+   "grupo": "Identidad y valores",
+   "direccion": "B · Ficha",
+   "formato": "9:16",
+   "formatoId": "9x16",
+   "proposito": "Historia y vídeo vertical (prioritario)",
+   "png": "exports/kit/valor-precision__9x16.png",
+   "pdf": "exports/kit/pdf/valor-precision__9x16.pdf",
+   "ancho": 1080,
+   "alto": 1920,
+   "declarado": [
+    1080,
+    1920
+   ],
+   "coincide": true,
+   "bytes": 82977,
+   "sha256": "c756caebfcb3c04702cda2024601716d7cedb86e4bb7a5d2eb57b2ac2b553ba1",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma sobre el valor Precisión: «Procesos médicos reflejados con rigor digital.» Valor 2 de 5.",
+   "caption": "Precisión. Procesos médicos reflejados con rigor digital. Es uno de los cinco valores que orientan cómo diseñamos Céluma.",
+   "fuentes": [
+    {
+     "ref": "Notion · Propuesta de marca §4 (leída el 2026-10-06) y celuma.mx (Values.tsx)",
+     "estado": "valor-marca"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "valor-seguridad__4x5",
+   "pieza": "valor-seguridad",
+   "plantilla": "valor",
+   "grupo": "Identidad y valores",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "proposito": "Publicación vertical y carrusel (prioritario)",
+   "png": "exports/kit/valor-seguridad__4x5.png",
+   "pdf": "exports/kit/pdf/valor-seguridad__4x5.pdf",
+   "ancho": 1080,
+   "alto": 1350,
+   "declarado": [
+    1080,
+    1350
+   ],
+   "coincide": true,
+   "bytes": 82277,
+   "sha256": "27b7f90d468589be327749006905495fb720946d179a62809afd28034a709f08",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma sobre el valor Seguridad: «Cuidar la información sensible en cada paso del trabajo.» Valor 3 de 5.",
+   "caption": "Seguridad. Cuidar la información sensible en cada paso del trabajo. Es uno de los cinco valores que orientan cómo diseñamos Céluma.",
+   "fuentes": [
+    {
+     "ref": "Notion · Propuesta de marca §4 (leída el 2026-10-06) y celuma.mx (Values.tsx)",
+     "estado": "valor-marca"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "valor-seguridad__9x16",
+   "pieza": "valor-seguridad",
+   "plantilla": "valor",
+   "grupo": "Identidad y valores",
+   "direccion": "B · Ficha",
+   "formato": "9:16",
+   "formatoId": "9x16",
+   "proposito": "Historia y vídeo vertical (prioritario)",
+   "png": "exports/kit/valor-seguridad__9x16.png",
+   "pdf": "exports/kit/pdf/valor-seguridad__9x16.pdf",
+   "ancho": 1080,
+   "alto": 1920,
+   "declarado": [
+    1080,
+    1920
+   ],
+   "coincide": true,
+   "bytes": 86522,
+   "sha256": "9d308d0937029c648e6f76d0018d798463a7d10265b5acdcb96e8d938584511a",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma sobre el valor Seguridad: «Cuidar la información sensible en cada paso del trabajo.» Valor 3 de 5.",
+   "caption": "Seguridad. Cuidar la información sensible en cada paso del trabajo. Es uno de los cinco valores que orientan cómo diseñamos Céluma.",
+   "fuentes": [
+    {
+     "ref": "Notion · Propuesta de marca §4 (leída el 2026-10-06) y celuma.mx (Values.tsx)",
+     "estado": "valor-marca"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "valor-confianza__4x5",
+   "pieza": "valor-confianza",
+   "plantilla": "valor",
+   "grupo": "Identidad y valores",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "proposito": "Publicación vertical y carrusel (prioritario)",
+   "png": "exports/kit/valor-confianza__4x5.png",
+   "pdf": "exports/kit/pdf/valor-confianza__4x5.pdf",
+   "ancho": 1080,
+   "alto": 1350,
+   "declarado": [
+    1080,
+    1350
+   ],
+   "coincide": true,
+   "bytes": 78678,
+   "sha256": "3fa6bf163968ff726e40aa28be743abce22f5da05884a2a42da233c1ebf5c7cf",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma sobre el valor Confianza: «Un sistema que respalda la práctica médica con transparencia.» Valor 4 de 5.",
+   "caption": "Confianza. Un sistema que respalda la práctica médica con transparencia. Es uno de los cinco valores que orientan cómo diseñamos Céluma.",
+   "fuentes": [
+    {
+     "ref": "Notion · Propuesta de marca §4 (leída el 2026-10-06) y celuma.mx (Values.tsx)",
+     "estado": "valor-marca"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "valor-confianza__9x16",
+   "pieza": "valor-confianza",
+   "plantilla": "valor",
+   "grupo": "Identidad y valores",
+   "direccion": "B · Ficha",
+   "formato": "9:16",
+   "formatoId": "9x16",
+   "proposito": "Historia y vídeo vertical (prioritario)",
+   "png": "exports/kit/valor-confianza__9x16.png",
+   "pdf": "exports/kit/pdf/valor-confianza__9x16.pdf",
+   "ancho": 1080,
+   "alto": 1920,
+   "declarado": [
+    1080,
+    1920
+   ],
+   "coincide": true,
+   "bytes": 90875,
+   "sha256": "913daa095f167d4b279a4c3dfd3bde030f49a17d9ab0c3259df4864c89b74536",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma sobre el valor Confianza: «Un sistema que respalda la práctica médica con transparencia.» Valor 4 de 5.",
+   "caption": "Confianza. Un sistema que respalda la práctica médica con transparencia. Es uno de los cinco valores que orientan cómo diseñamos Céluma.",
+   "fuentes": [
+    {
+     "ref": "Notion · Propuesta de marca §4 (leída el 2026-10-06) y celuma.mx (Values.tsx)",
+     "estado": "valor-marca"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "valor-humanidad__4x5",
+   "pieza": "valor-humanidad",
+   "plantilla": "valor",
+   "grupo": "Identidad y valores",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "proposito": "Publicación vertical y carrusel (prioritario)",
+   "png": "exports/kit/valor-humanidad__4x5.png",
+   "pdf": "exports/kit/pdf/valor-humanidad__4x5.pdf",
+   "ancho": 1080,
+   "alto": 1350,
+   "declarado": [
+    1080,
+    1350
+   ],
+   "coincide": true,
+   "bytes": 82969,
+   "sha256": "d37f47e4d406e55fdbc133f926f7f2dd3482442ed59fa8cf35ae3bf4e26dfed4",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma sobre el valor Humanidad: «Diseñado para apoyar a los profesionales, no para complicarles el trabajo.» Valor 5 de 5.",
+   "caption": "Humanidad. Diseñado para apoyar a los profesionales, no para complicarles el trabajo. Es uno de los cinco valores que orientan cómo diseñamos Céluma.",
+   "fuentes": [
+    {
+     "ref": "Notion · Propuesta de marca §4 (leída el 2026-10-06) y celuma.mx (Values.tsx)",
+     "estado": "valor-marca"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "valor-humanidad__9x16",
+   "pieza": "valor-humanidad",
+   "plantilla": "valor",
+   "grupo": "Identidad y valores",
+   "direccion": "B · Ficha",
+   "formato": "9:16",
+   "formatoId": "9x16",
+   "proposito": "Historia y vídeo vertical (prioritario)",
+   "png": "exports/kit/valor-humanidad__9x16.png",
+   "pdf": "exports/kit/pdf/valor-humanidad__9x16.pdf",
+   "ancho": 1080,
+   "alto": 1920,
+   "declarado": [
+    1080,
+    1920
+   ],
+   "coincide": true,
+   "bytes": 92118,
+   "sha256": "e56498ed5868d6864ef648bfe9da1527e58bda656512c65ff8aa76b889927cc0",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma sobre el valor Humanidad: «Diseñado para apoyar a los profesionales, no para complicarles el trabajo.» Valor 5 de 5.",
+   "caption": "Humanidad. Diseñado para apoyar a los profesionales, no para complicarles el trabajo. Es uno de los cinco valores que orientan cómo diseñamos Céluma.",
+   "fuentes": [
+    {
+     "ref": "Notion · Propuesta de marca §4 (leída el 2026-10-06) y celuma.mx (Values.tsx)",
+     "estado": "valor-marca"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "valor-claridad__1x1",
+   "pieza": "valor-claridad",
+   "plantilla": "valor",
+   "grupo": "Identidad y valores",
+   "direccion": "B · Ficha",
+   "formato": "1:1",
+   "formatoId": "1x1",
+   "proposito": "Publicación cuadrada",
+   "png": "exports/kit/valor-claridad__1x1.png",
+   "pdf": "exports/kit/pdf/valor-claridad__1x1.pdf",
+   "ancho": 1080,
+   "alto": 1080,
+   "declarado": [
+    1080,
+    1080
+   ],
+   "coincide": true,
+   "bytes": 70353,
+   "sha256": "a1a050d0342f4b8230dd4d2d43e2159ac3a873e7a756ce945ba4f926b4391dc0",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma sobre el valor Claridad: «Información visible, ordenada y accesible para quien la necesita.» Valor 1 de 5.",
+   "caption": "Claridad. Información visible, ordenada y accesible para quien la necesita. Es uno de los cinco valores que orientan cómo diseñamos Céluma.",
+   "fuentes": [
+    {
+     "ref": "Notion · Propuesta de marca §4 (leída el 2026-10-06) y celuma.mx (Values.tsx)",
+     "estado": "valor-marca"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "valores-resumen__4x5",
+   "pieza": "valores-resumen",
+   "plantilla": "valores",
+   "grupo": "Identidad y valores",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "proposito": "Publicación vertical y carrusel (prioritario)",
+   "png": "exports/kit/valores-resumen__4x5.png",
+   "pdf": "exports/kit/pdf/valores-resumen__4x5.pdf",
+   "ancho": 1080,
+   "alto": 1350,
+   "declarado": [
+    1080,
+    1350
+   ],
+   "coincide": true,
+   "bytes": 76652,
+   "sha256": "a73e0ad5eb99d751ad886039ea2b6d01d494f017330990cec2386b13f06646df",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma con sus cinco valores: Claridad, Precisión, Seguridad, Confianza y Humanidad.",
+   "caption": "Claridad, Precisión, Seguridad, Confianza y Humanidad: cinco valores para un laboratorio que trabaja con información sensible.",
+   "fuentes": [
+    {
+     "ref": "Notion · Propuesta de marca §4 (leída el 2026-10-06) y celuma.mx (Values.tsx)",
+     "estado": "valor-marca"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "valores-resumen__1x1",
+   "pieza": "valores-resumen",
+   "plantilla": "valores",
+   "grupo": "Identidad y valores",
+   "direccion": "B · Ficha",
+   "formato": "1:1",
+   "formatoId": "1x1",
+   "proposito": "Publicación cuadrada",
+   "png": "exports/kit/valores-resumen__1x1.png",
+   "pdf": "exports/kit/pdf/valores-resumen__1x1.pdf",
+   "ancho": 1080,
+   "alto": 1080,
+   "declarado": [
+    1080,
+    1080
+   ],
+   "coincide": true,
+   "bytes": 74757,
+   "sha256": "dea85a345e5cfaa2574d34c572eb5761c4dcf6fdc87af77de2195549f7bee7e4",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma con sus cinco valores: Claridad, Precisión, Seguridad, Confianza y Humanidad.",
+   "caption": "Claridad, Precisión, Seguridad, Confianza y Humanidad: cinco valores para un laboratorio que trabaja con información sensible.",
+   "fuentes": [
+    {
+     "ref": "Notion · Propuesta de marca §4 (leída el 2026-10-06) y celuma.mx (Values.tsx)",
+     "estado": "valor-marca"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "valores-resumen__9x16",
+   "pieza": "valores-resumen",
+   "plantilla": "valores",
+   "grupo": "Identidad y valores",
+   "direccion": "B · Ficha",
+   "formato": "9:16",
+   "formatoId": "9x16",
+   "proposito": "Historia y vídeo vertical (prioritario)",
+   "png": "exports/kit/valores-resumen__9x16.png",
+   "pdf": "exports/kit/pdf/valores-resumen__9x16.pdf",
+   "ancho": 1080,
+   "alto": 1920,
+   "declarado": [
+    1080,
+    1920
+   ],
+   "coincide": true,
+   "bytes": 85563,
+   "sha256": "a2363cc87190ca49c9d97f835b4c7e2aec15dd95027888161b8b0e884a29641e",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma con sus cinco valores: Claridad, Precisión, Seguridad, Confianza y Humanidad.",
+   "caption": "Claridad, Precisión, Seguridad, Confianza y Humanidad: cinco valores para un laboratorio que trabaja con información sensible.",
+   "fuentes": [
+    {
+     "ref": "Notion · Propuesta de marca §4 (leída el 2026-10-06) y celuma.mx (Values.tsx)",
+     "estado": "valor-marca"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "identidad-nombre__4x5",
+   "pieza": "identidad-nombre",
+   "plantilla": "identidad",
+   "grupo": "Identidad y valores",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "proposito": "Publicación vertical y carrusel (prioritario)",
+   "png": "exports/kit/identidad-nombre__4x5.png",
+   "pdf": "exports/kit/pdf/identidad-nombre__4x5.pdf",
+   "ancho": 1080,
+   "alto": 1350,
+   "declarado": [
+    1080,
+    1350
+   ],
+   "coincide": true,
+   "bytes": 68555,
+   "sha256": "4ff7a10189b570d0eca3bfcd0a2cfd054ae75336a7bf02e70cc6a3599011131c",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma: «Célula y luz. Del nombre nace lo que buscamos: claridad, precisión y vida.»",
+   "caption": "Céluma une célula y luz. De ahí vienen tres ideas que cuidamos: claridad, precisión y vida.",
+   "fuentes": [
+    {
+     "ref": "Notion · ¿Por qué Céluma? (leída el 2026-10-06) y celuma.mx (Values.tsx)",
+     "estado": "valor-marca"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "identidad-nombre__9x16",
+   "pieza": "identidad-nombre",
+   "plantilla": "identidad",
+   "grupo": "Identidad y valores",
+   "direccion": "B · Ficha",
+   "formato": "9:16",
+   "formatoId": "9x16",
+   "proposito": "Historia y vídeo vertical (prioritario)",
+   "png": "exports/kit/identidad-nombre__9x16.png",
+   "pdf": "exports/kit/pdf/identidad-nombre__9x16.pdf",
+   "ancho": 1080,
+   "alto": 1920,
+   "declarado": [
+    1080,
+    1920
+   ],
+   "coincide": true,
+   "bytes": 76640,
+   "sha256": "61e4506a5a71228f3ddc1def86fe5a775f5bdf94c9d6e2c39d29548d53621414",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma: «Célula y luz. Del nombre nace lo que buscamos: claridad, precisión y vida.»",
+   "caption": "Céluma une célula y luz. De ahí vienen tres ideas que cuidamos: claridad, precisión y vida.",
+   "fuentes": [
+    {
+     "ref": "Notion · ¿Por qué Céluma? (leída el 2026-10-06) y celuma.mx (Values.tsx)",
+     "estado": "valor-marca"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "identidad-nombre__16x9",
+   "pieza": "identidad-nombre",
+   "plantilla": "identidad",
+   "grupo": "Identidad y valores",
+   "direccion": "B · Ficha",
+   "formato": "16:9",
+   "formatoId": "16x9",
+   "proposito": "Vídeo horizontal, presentación y web",
+   "png": "exports/kit/identidad-nombre__16x9.png",
+   "pdf": "exports/kit/pdf/identidad-nombre__16x9.pdf",
+   "ancho": 1920,
+   "alto": 1080,
+   "declarado": [
+    1920,
+    1080
+   ],
+   "coincide": true,
+   "bytes": 114241,
+   "sha256": "c72451034231b0eed336b84cee81864d87337772a3cd9a556c25014abfab8585",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma: «Célula y luz. Del nombre nace lo que buscamos: claridad, precisión y vida.»",
+   "caption": "Céluma une célula y luz. De ahí vienen tres ideas que cuidamos: claridad, precisión y vida.",
+   "fuentes": [
+    {
+     "ref": "Notion · ¿Por qué Céluma? (leída el 2026-10-06) y celuma.mx (Values.tsx)",
+     "estado": "valor-marca"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "capacidad-revisor__1x1",
+   "pieza": "capacidad-revisor",
+   "plantilla": "capacidad",
+   "grupo": "Capacidad verificada",
+   "direccion": "B · Ficha",
+   "formato": "1:1",
+   "formatoId": "1x1",
+   "proposito": "Publicación cuadrada",
+   "png": "exports/kit/capacidad-revisor__1x1.png",
+   "pdf": "exports/kit/pdf/capacidad-revisor__1x1.pdf",
+   "ancho": 1080,
+   "alto": 1080,
+   "declarado": [
+    1080,
+    1080
+   ],
+   "coincide": true,
+   "bytes": 102027,
+   "sha256": "ffab496c6c173a4cb1510312f046d6d1ad087725d1d052f95df9514be0874021",
+   "condensada": true,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma: «Solo el revisor asignado aprueba y firma el informe.» Novedad de la versión 1.3.1.",
+   "caption": "Desde la versión 1.3.1, solo el revisor asignado a la orden aprueba y firma el informe. Si no tienes ese rol en la orden, esas acciones no aparecen. Detalles en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3-1",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "celuma-frontend · report_editor.tsx (controles del revisor) y pruebas block_a_reviewer_controls",
+     "estado": "codigo",
+     "nota": "Implementado en código; no se probó en producción en esta ronda."
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "capacidad-revisor__4x5",
+   "pieza": "capacidad-revisor",
+   "plantilla": "capacidad",
+   "grupo": "Capacidad verificada",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "proposito": "Publicación vertical y carrusel (prioritario)",
+   "png": "exports/kit/capacidad-revisor__4x5.png",
+   "pdf": "exports/kit/pdf/capacidad-revisor__4x5.pdf",
+   "ancho": 1080,
+   "alto": 1350,
+   "declarado": [
+    1080,
+    1350
+   ],
+   "coincide": true,
+   "bytes": 127788,
+   "sha256": "d122a144253e067706a1766c81bbd39923466aa1557b55ccb447f8c76c1de746",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma: «Solo el revisor asignado aprueba y firma el informe.» Novedad de la versión 1.3.1.",
+   "caption": "Desde la versión 1.3.1, solo el revisor asignado a la orden aprueba y firma el informe. Si no tienes ese rol en la orden, esas acciones no aparecen. Detalles en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3-1",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "celuma-frontend · report_editor.tsx (controles del revisor) y pruebas block_a_reviewer_controls",
+     "estado": "codigo",
+     "nota": "Implementado en código; no se probó en producción en esta ronda."
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "capacidad-revisor__9x16",
+   "pieza": "capacidad-revisor",
+   "plantilla": "capacidad",
+   "grupo": "Capacidad verificada",
+   "direccion": "B · Ficha",
+   "formato": "9:16",
+   "formatoId": "9x16",
+   "proposito": "Historia y vídeo vertical (prioritario)",
+   "png": "exports/kit/capacidad-revisor__9x16.png",
+   "pdf": "exports/kit/pdf/capacidad-revisor__9x16.pdf",
+   "ancho": 1080,
+   "alto": 1920,
+   "declarado": [
+    1080,
+    1920
+   ],
+   "coincide": true,
+   "bytes": 137111,
+   "sha256": "64570a433bf3a315c98b963f39d1f4d30ec99d6f135b641ecdd308b15cfa4f07",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma: «Solo el revisor asignado aprueba y firma el informe.» Novedad de la versión 1.3.1.",
+   "caption": "Desde la versión 1.3.1, solo el revisor asignado a la orden aprueba y firma el informe. Si no tienes ese rol en la orden, esas acciones no aparecen. Detalles en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3-1",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "celuma-frontend · report_editor.tsx (controles del revisor) y pruebas block_a_reviewer_controls",
+     "estado": "codigo",
+     "nota": "Implementado en código; no se probó en producción en esta ronda."
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "capacidad-revisor__191x1",
+   "pieza": "capacidad-revisor",
+   "plantilla": "capacidad",
+   "grupo": "Capacidad verificada",
+   "direccion": "B · Ficha",
+   "formato": "1.91:1",
+   "formatoId": "191x1",
+   "proposito": "Vista de enlace y anuncio horizontal",
+   "png": "exports/kit/capacidad-revisor__191x1.png",
+   "pdf": "exports/kit/pdf/capacidad-revisor__191x1.pdf",
+   "ancho": 1200,
+   "alto": 628,
+   "declarado": [
+    1200,
+    628
+   ],
+   "coincide": true,
+   "bytes": 84175,
+   "sha256": "71bca18deac9c8ec65d36305160fcc837463efde0b40270fc5446dd0b6349ea5",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma: «Solo el revisor asignado aprueba y firma el informe.» Novedad de la versión 1.3.1.",
+   "caption": "Desde la versión 1.3.1, solo el revisor asignado a la orden aprueba y firma el informe. Si no tienes ese rol en la orden, esas acciones no aparecen. Detalles en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3-1",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "celuma-frontend · report_editor.tsx (controles del revisor) y pruebas block_a_reviewer_controls",
+     "estado": "codigo",
+     "nota": "Implementado en código; no se probó en producción en esta ronda."
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "capacidad-revisor__16x9",
+   "pieza": "capacidad-revisor",
+   "plantilla": "capacidad",
+   "grupo": "Capacidad verificada",
+   "direccion": "B · Ficha",
+   "formato": "16:9",
+   "formatoId": "16x9",
+   "proposito": "Vídeo horizontal, presentación y web",
+   "png": "exports/kit/capacidad-revisor__16x9.png",
+   "pdf": "exports/kit/pdf/capacidad-revisor__16x9.pdf",
+   "ancho": 1920,
+   "alto": 1080,
+   "declarado": [
+    1920,
+    1080
+   ],
+   "coincide": true,
+   "bytes": 141856,
+   "sha256": "f569d7ef546a27ca709e99cdebe6fe8e6b479e661f3b0cab779315d34cf7710c",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma: «Solo el revisor asignado aprueba y firma el informe.» Novedad de la versión 1.3.1.",
+   "caption": "Desde la versión 1.3.1, solo el revisor asignado a la orden aprueba y firma el informe. Si no tienes ese rol en la orden, esas acciones no aparecen. Detalles en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3-1",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "celuma-frontend · report_editor.tsx (controles del revisor) y pruebas block_a_reviewer_controls",
+     "estado": "codigo",
+     "nota": "Implementado en código; no se probó en producción en esta ronda."
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "capacidad-emitidos__4x5",
+   "pieza": "capacidad-emitidos",
+   "plantilla": "capacidad",
+   "grupo": "Capacidad verificada",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "proposito": "Publicación vertical y carrusel (prioritario)",
+   "png": "exports/kit/capacidad-emitidos__4x5.png",
+   "pdf": "exports/kit/pdf/capacidad-emitidos__4x5.pdf",
+   "ancho": 1080,
+   "alto": 1350,
+   "declarado": [
+    1080,
+    1350
+   ],
+   "coincide": true,
+   "bytes": 118459,
+   "sha256": "23a8ec4716b99918b6709a6321fb2137054c46bb364154f43cda416cf8730575",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma: «Actualiza la plantilla: lo ya emitido se conserva.»",
+   "caption": "Cuando actualizas una plantilla o un membrete, los informes que ya emitiste se conservan como se generaron. Lo explicamos en las notas de la versión 1.3.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "capacidad-emitidos__9x16",
+   "pieza": "capacidad-emitidos",
+   "plantilla": "capacidad",
+   "grupo": "Capacidad verificada",
+   "direccion": "B · Ficha",
+   "formato": "9:16",
+   "formatoId": "9x16",
+   "proposito": "Historia y vídeo vertical (prioritario)",
+   "png": "exports/kit/capacidad-emitidos__9x16.png",
+   "pdf": "exports/kit/pdf/capacidad-emitidos__9x16.pdf",
+   "ancho": 1080,
+   "alto": 1920,
+   "declarado": [
+    1080,
+    1920
+   ],
+   "coincide": true,
+   "bytes": 99070,
+   "sha256": "40684d25d76a63118d1a5cbf3fbd10a02a76617cde8f115dd018820e7bcbe08f",
+   "condensada": true,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma: «Actualiza la plantilla: lo ya emitido se conserva.»",
+   "caption": "Cuando actualizas una plantilla o un membrete, los informes que ya emitiste se conservan como se generaron. Lo explicamos en las notas de la versión 1.3.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "capacidad-emitidos__1x1",
+   "pieza": "capacidad-emitidos",
+   "plantilla": "capacidad",
+   "grupo": "Capacidad verificada",
+   "direccion": "B · Ficha",
+   "formato": "1:1",
+   "formatoId": "1x1",
+   "proposito": "Publicación cuadrada",
+   "png": "exports/kit/capacidad-emitidos__1x1.png",
+   "pdf": "exports/kit/pdf/capacidad-emitidos__1x1.pdf",
+   "ancho": 1080,
+   "alto": 1080,
+   "declarado": [
+    1080,
+    1080
+   ],
+   "coincide": true,
+   "bytes": 89060,
+   "sha256": "999896ff6135124f13a0c63e845c015869cef5fc02278aaf89d46dd8ea17a809",
+   "condensada": true,
+   "comprobacion": "ok",
+   "alt": "Pieza de Céluma: «Actualiza la plantilla: lo ya emitido se conserva.»",
+   "caption": "Cuando actualizas una plantilla o un membrete, los informes que ya emitiste se conservan como se generaron. Lo explicamos en las notas de la versión 1.3.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "consejo-revisor__4x5",
+   "pieza": "consejo-revisor",
+   "plantilla": "consejo",
+   "grupo": "Consejo o guía",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "proposito": "Publicación vertical y carrusel (prioritario)",
+   "png": "exports/kit/consejo-revisor__4x5.png",
+   "pdf": "exports/kit/pdf/consejo-revisor__4x5.pdf",
+   "ancho": 1080,
+   "alto": 1350,
+   "declarado": [
+    1080,
+    1350
+   ],
+   "coincide": true,
+   "bytes": 115128,
+   "sha256": "2f9315167776b701834349c122713f64cc2a74b90568387a248a91797a20d4e8",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Consejo de Céluma: si diagnosticas y también firmas, pide que te asignen como revisor de la orden.",
+   "caption": "Si en tu laboratorio la misma persona diagnostica y firma, necesita el rol de revisor y estar asignada a la orden. Así lo indican las notas de la versión 1.3.1.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3-1",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "consejo-revisor__9x16",
+   "pieza": "consejo-revisor",
+   "plantilla": "consejo",
+   "grupo": "Consejo o guía",
+   "direccion": "B · Ficha",
+   "formato": "9:16",
+   "formatoId": "9x16",
+   "proposito": "Historia y vídeo vertical (prioritario)",
+   "png": "exports/kit/consejo-revisor__9x16.png",
+   "pdf": "exports/kit/pdf/consejo-revisor__9x16.pdf",
+   "ancho": 1080,
+   "alto": 1920,
+   "declarado": [
+    1080,
+    1920
+   ],
+   "coincide": true,
+   "bytes": 123491,
+   "sha256": "13958ae1168ab888d28aae073f5716efe6a43e16a59e31fdb4ee7591075aedb1",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Consejo de Céluma: si diagnosticas y también firmas, pide que te asignen como revisor de la orden.",
+   "caption": "Si en tu laboratorio la misma persona diagnostica y firma, necesita el rol de revisor y estar asignada a la orden. Así lo indican las notas de la versión 1.3.1.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3-1",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "consejo-revisor__1x1",
+   "pieza": "consejo-revisor",
+   "plantilla": "consejo",
+   "grupo": "Consejo o guía",
+   "direccion": "B · Ficha",
+   "formato": "1:1",
+   "formatoId": "1x1",
+   "proposito": "Publicación cuadrada",
+   "png": "exports/kit/consejo-revisor__1x1.png",
+   "pdf": "exports/kit/pdf/consejo-revisor__1x1.pdf",
+   "ancho": 1080,
+   "alto": 1080,
+   "declarado": [
+    1080,
+    1080
+   ],
+   "coincide": true,
+   "bytes": 103444,
+   "sha256": "b2cbfb5224ef39c7ffb010cff87db23241616e661658224945aaba2303c39957",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Consejo de Céluma: si diagnosticas y también firmas, pide que te asignen como revisor de la orden.",
+   "caption": "Si en tu laboratorio la misma persona diagnostica y firma, necesita el rol de revisor y estar asignada a la orden. Así lo indican las notas de la versión 1.3.1.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3-1",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "consejo-muestra__4x5",
+   "pieza": "consejo-muestra",
+   "plantilla": "consejo",
+   "grupo": "Consejo o guía",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "proposito": "Publicación vertical y carrusel (prioritario)",
+   "png": "exports/kit/consejo-muestra__4x5.png",
+   "pdf": "exports/kit/pdf/consejo-muestra__4x5.pdf",
+   "ancho": 1080,
+   "alto": 1350,
+   "declarado": [
+    1080,
+    1350
+   ],
+   "coincide": true,
+   "bytes": 108321,
+   "sha256": "a3b642673c68dc77087cf681b0f961918453a2de72f9210db0a0ca629ef3eca3",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Guía de Céluma: primero la orden, luego la muestra.",
+   "caption": "Para registrar una muestra en Céluma, la orden debe existir. Las órdenes las crea el personal de recepción o de administración. Guía completa en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/tecnicos/muestras",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "consejo-muestra__9x16",
+   "pieza": "consejo-muestra",
+   "plantilla": "consejo",
+   "grupo": "Consejo o guía",
+   "direccion": "B · Ficha",
+   "formato": "9:16",
+   "formatoId": "9x16",
+   "proposito": "Historia y vídeo vertical (prioritario)",
+   "png": "exports/kit/consejo-muestra__9x16.png",
+   "pdf": "exports/kit/pdf/consejo-muestra__9x16.pdf",
+   "ancho": 1080,
+   "alto": 1920,
+   "declarado": [
+    1080,
+    1920
+   ],
+   "coincide": true,
+   "bytes": 114729,
+   "sha256": "71c15f02c7c9a7884d8b858c15ea72e604f17a5c8abed6655b205c61ab2c1f0e",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Guía de Céluma: primero la orden, luego la muestra.",
+   "caption": "Para registrar una muestra en Céluma, la orden debe existir. Las órdenes las crea el personal de recepción o de administración. Guía completa en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/tecnicos/muestras",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "novedad-131__1x1",
+   "pieza": "novedad-131",
+   "plantilla": "novedad",
+   "grupo": "Novedad verificable",
+   "direccion": "B · Ficha",
+   "formato": "1:1",
+   "formatoId": "1x1",
+   "proposito": "Publicación cuadrada",
+   "png": "exports/kit/novedad-131__1x1.png",
+   "pdf": "exports/kit/pdf/novedad-131__1x1.pdf",
+   "ancho": 1080,
+   "alto": 1080,
+   "declarado": [
+    1080,
+    1080
+   ],
+   "coincide": true,
+   "bytes": 115317,
+   "sha256": "04b5549cd829413243526411d3579b2faceee4011474e533003a708212399263",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Anuncio de Céluma 1.3.1, revisión y firma de informes: solo el revisor asignado aprueba y firma; se puede reabrir un informe aprobado aún sin firmar; revisor predeterminado del laboratorio.",
+   "caption": "Céluma 1.3.1 (14 de septiembre de 2026) se centra en la revisión y firma de informes. Conoce los cambios en las notas de la versión en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3-1",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "novedad-131__4x5",
+   "pieza": "novedad-131",
+   "plantilla": "novedad",
+   "grupo": "Novedad verificable",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "proposito": "Publicación vertical y carrusel (prioritario)",
+   "png": "exports/kit/novedad-131__4x5.png",
+   "pdf": "exports/kit/pdf/novedad-131__4x5.pdf",
+   "ancho": 1080,
+   "alto": 1350,
+   "declarado": [
+    1080,
+    1350
+   ],
+   "coincide": true,
+   "bytes": 117856,
+   "sha256": "66d8c3c44c7d2a619daed11bd403bebc5ebb86a153e437171fd0c837464ef2c2",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Anuncio de Céluma 1.3.1, revisión y firma de informes: solo el revisor asignado aprueba y firma; se puede reabrir un informe aprobado aún sin firmar; revisor predeterminado del laboratorio.",
+   "caption": "Céluma 1.3.1 (14 de septiembre de 2026) se centra en la revisión y firma de informes. Conoce los cambios en las notas de la versión en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3-1",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "novedad-131__9x16",
+   "pieza": "novedad-131",
+   "plantilla": "novedad",
+   "grupo": "Novedad verificable",
+   "direccion": "B · Ficha",
+   "formato": "9:16",
+   "formatoId": "9x16",
+   "proposito": "Historia y vídeo vertical (prioritario)",
+   "png": "exports/kit/novedad-131__9x16.png",
+   "pdf": "exports/kit/pdf/novedad-131__9x16.pdf",
+   "ancho": 1080,
+   "alto": 1920,
+   "declarado": [
+    1080,
+    1920
+   ],
+   "coincide": true,
+   "bytes": 128523,
+   "sha256": "9e1c17e65dadeff88b71666b5a4a92045e3243711c56b5144f2cd0fb4d4d8600",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Anuncio de Céluma 1.3.1, revisión y firma de informes: solo el revisor asignado aprueba y firma; se puede reabrir un informe aprobado aún sin firmar; revisor predeterminado del laboratorio.",
+   "caption": "Céluma 1.3.1 (14 de septiembre de 2026) se centra en la revisión y firma de informes. Conoce los cambios en las notas de la versión en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3-1",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "novedad-131__191x1",
+   "pieza": "novedad-131",
+   "plantilla": "novedad",
+   "grupo": "Novedad verificable",
+   "direccion": "B · Ficha",
+   "formato": "1.91:1",
+   "formatoId": "191x1",
+   "proposito": "Vista de enlace y anuncio horizontal",
+   "png": "exports/kit/novedad-131__191x1.png",
+   "pdf": "exports/kit/pdf/novedad-131__191x1.pdf",
+   "ancho": 1200,
+   "alto": 628,
+   "declarado": [
+    1200,
+    628
+   ],
+   "coincide": true,
+   "bytes": 80990,
+   "sha256": "7f5c6212ada2d325f2ca1ce7f637fdae26b5c99089a890aa1053af5330bbe250",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Anuncio de Céluma 1.3.1, revisión y firma de informes: solo el revisor asignado aprueba y firma; se puede reabrir un informe aprobado aún sin firmar; revisor predeterminado del laboratorio.",
+   "caption": "Céluma 1.3.1 (14 de septiembre de 2026) se centra en la revisión y firma de informes. Conoce los cambios en las notas de la versión en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3-1",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "novedad-131__16x9",
+   "pieza": "novedad-131",
+   "plantilla": "novedad",
+   "grupo": "Novedad verificable",
+   "direccion": "B · Ficha",
+   "formato": "16:9",
+   "formatoId": "16x9",
+   "proposito": "Vídeo horizontal, presentación y web",
+   "png": "exports/kit/novedad-131__16x9.png",
+   "pdf": "exports/kit/pdf/novedad-131__16x9.pdf",
+   "ancho": 1920,
+   "alto": 1080,
+   "declarado": [
+    1920,
+    1080
+   ],
+   "coincide": true,
+   "bytes": 134112,
+   "sha256": "e894886f461926216c75888d718b49ad6e7328fda14ab81d60a433ce4048e198",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Anuncio de Céluma 1.3.1, revisión y firma de informes: solo el revisor asignado aprueba y firma; se puede reabrir un informe aprobado aún sin firmar; revisor predeterminado del laboratorio.",
+   "caption": "Céluma 1.3.1 (14 de septiembre de 2026) se centra en la revisión y firma de informes. Conoce los cambios en las notas de la versión en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3-1",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "demo__1x1",
+   "pieza": "demo",
+   "plantilla": "demo",
+   "grupo": "Invitación a demostración",
+   "direccion": "B · Ficha",
+   "formato": "1:1",
+   "formatoId": "1x1",
+   "proposito": "Publicación cuadrada",
+   "png": "exports/kit/demo__1x1.png",
+   "pdf": "exports/kit/pdf/demo__1x1.pdf",
+   "ancho": 1080,
+   "alto": 1080,
+   "declarado": [
+    1080,
+    1080
+   ],
+   "coincide": true,
+   "bytes": 101036,
+   "sha256": "da118fea7694480526d921cf76bab5f69bab57b4a1017ccf8b3ffdcb74ba335a",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Invitación de Céluma: «Conoce Céluma con tu equipo.» Escríbenos a hola@celuma.mx.",
+   "caption": "¿Quieres ver cómo Céluma acompaña el trabajo del laboratorio, de la recepción de la muestra al informe firmado? Escríbenos a hola@celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/intro",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "celuma.mx · pie de página «Contacto»",
+     "estado": "publicada-docs",
+     "nota": "Confirmar que el buzón atiende solicitudes de demostración antes de publicar."
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "demo__4x5",
+   "pieza": "demo",
+   "plantilla": "demo",
+   "grupo": "Invitación a demostración",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "proposito": "Publicación vertical y carrusel (prioritario)",
+   "png": "exports/kit/demo__4x5.png",
+   "pdf": "exports/kit/pdf/demo__4x5.pdf",
+   "ancho": 1080,
+   "alto": 1350,
+   "declarado": [
+    1080,
+    1350
+   ],
+   "coincide": true,
+   "bytes": 110918,
+   "sha256": "448f72de6d71170c3ceb7d3bb5e9361e369ccc0eda1e36dd34b6e34168cba65e",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Invitación de Céluma: «Conoce Céluma con tu equipo.» Escríbenos a hola@celuma.mx.",
+   "caption": "¿Quieres ver cómo Céluma acompaña el trabajo del laboratorio, de la recepción de la muestra al informe firmado? Escríbenos a hola@celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/intro",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "celuma.mx · pie de página «Contacto»",
+     "estado": "publicada-docs",
+     "nota": "Confirmar que el buzón atiende solicitudes de demostración antes de publicar."
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "demo__9x16",
+   "pieza": "demo",
+   "plantilla": "demo",
+   "grupo": "Invitación a demostración",
+   "direccion": "B · Ficha",
+   "formato": "9:16",
+   "formatoId": "9x16",
+   "proposito": "Historia y vídeo vertical (prioritario)",
+   "png": "exports/kit/demo__9x16.png",
+   "pdf": "exports/kit/pdf/demo__9x16.pdf",
+   "ancho": 1080,
+   "alto": 1920,
+   "declarado": [
+    1080,
+    1920
+   ],
+   "coincide": true,
+   "bytes": 121784,
+   "sha256": "213d8f4f99b32ce588a4df23ad0b72d172f63e6f3ed854da697d1f9213ec1f69",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Invitación de Céluma: «Conoce Céluma con tu equipo.» Escríbenos a hola@celuma.mx.",
+   "caption": "¿Quieres ver cómo Céluma acompaña el trabajo del laboratorio, de la recepción de la muestra al informe firmado? Escríbenos a hola@celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/intro",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "celuma.mx · pie de página «Contacto»",
+     "estado": "publicada-docs",
+     "nota": "Confirmar que el buzón atiende solicitudes de demostración antes de publicar."
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "demo__191x1",
+   "pieza": "demo",
+   "plantilla": "demo",
+   "grupo": "Invitación a demostración",
+   "direccion": "B · Ficha",
+   "formato": "1.91:1",
+   "formatoId": "191x1",
+   "proposito": "Vista de enlace y anuncio horizontal",
+   "png": "exports/kit/demo__191x1.png",
+   "pdf": "exports/kit/pdf/demo__191x1.pdf",
+   "ancho": 1200,
+   "alto": 628,
+   "declarado": [
+    1200,
+    628
+   ],
+   "coincide": true,
+   "bytes": 88857,
+   "sha256": "d027e64a76da06482ef5a3819ebce7b1cc1c0343f6ef8638c03272d1161edf75",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Invitación de Céluma: «Conoce Céluma con tu equipo.» Escríbenos a hola@celuma.mx.",
+   "caption": "¿Quieres ver cómo Céluma acompaña el trabajo del laboratorio, de la recepción de la muestra al informe firmado? Escríbenos a hola@celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/intro",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "celuma.mx · pie de página «Contacto»",
+     "estado": "publicada-docs",
+     "nota": "Confirmar que el buzón atiende solicitudes de demostración antes de publicar."
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "demo__16x9",
+   "pieza": "demo",
+   "plantilla": "demo",
+   "grupo": "Invitación a demostración",
+   "direccion": "B · Ficha",
+   "formato": "16:9",
+   "formatoId": "16x9",
+   "proposito": "Vídeo horizontal, presentación y web",
+   "png": "exports/kit/demo__16x9.png",
+   "pdf": "exports/kit/pdf/demo__16x9.pdf",
+   "ancho": 1920,
+   "alto": 1080,
+   "declarado": [
+    1920,
+    1080
+   ],
+   "coincide": true,
+   "bytes": 165943,
+   "sha256": "ec98b79484e44e580f97803908e6e1c8d8539319a0c2e875057c03befbf6cdd9",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Invitación de Céluma: «Conoce Céluma con tu equipo.» Escríbenos a hola@celuma.mx.",
+   "caption": "¿Quieres ver cómo Céluma acompaña el trabajo del laboratorio, de la recepción de la muestra al informe firmado? Escríbenos a hola@celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/intro",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "celuma.mx · pie de página «Contacto»",
+     "estado": "publicada-docs",
+     "nota": "Confirmar que el buzón atiende solicitudes de demostración antes de publicar."
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "flujo-informe__4x5",
+   "pieza": "flujo-informe",
+   "plantilla": "flujo",
+   "grupo": "Explicación de flujo",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "proposito": "Publicación vertical y carrusel (prioritario)",
+   "png": "exports/kit/flujo-informe__4x5.png",
+   "pdf": "exports/kit/pdf/flujo-informe__4x5.pdf",
+   "ancho": 1080,
+   "alto": 1350,
+   "declarado": [
+    1080,
+    1350
+   ],
+   "coincide": true,
+   "bytes": 120351,
+   "sha256": "4e76afc06cc5bbf2fe2468fb070dd268bbec857acd8dcfa48c7443e887a2e3ac",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Esquema de Céluma: del borrador a la firma en cuatro pasos: redacta, envía a revisión, revisa y firma.",
+   "caption": "Un informe en Céluma avanza en cuatro pasos: redacta, envía a revisión, revisa y firma. Cada paso tiene un responsable. Guía completa en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/patologos/diagnosticos",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3-1",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "docs.celuma.mx/roles/overview",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "flujo-informe__9x16",
+   "pieza": "flujo-informe",
+   "plantilla": "flujo",
+   "grupo": "Explicación de flujo",
+   "direccion": "B · Ficha",
+   "formato": "9:16",
+   "formatoId": "9x16",
+   "proposito": "Historia y vídeo vertical (prioritario)",
+   "png": "exports/kit/flujo-informe__9x16.png",
+   "pdf": "exports/kit/pdf/flujo-informe__9x16.pdf",
+   "ancho": 1080,
+   "alto": 1920,
+   "declarado": [
+    1080,
+    1920
+   ],
+   "coincide": true,
+   "bytes": 132156,
+   "sha256": "5737687b4566671631be6a7f3a3819741947047a25ce98ceb1b030f1787f86fd",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Esquema de Céluma: del borrador a la firma en cuatro pasos: redacta, envía a revisión, revisa y firma.",
+   "caption": "Un informe en Céluma avanza en cuatro pasos: redacta, envía a revisión, revisa y firma. Cada paso tiene un responsable. Guía completa en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/patologos/diagnosticos",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3-1",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "docs.celuma.mx/roles/overview",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "flujo-informe__16x9",
+   "pieza": "flujo-informe",
+   "plantilla": "flujo",
+   "grupo": "Explicación de flujo",
+   "direccion": "B · Ficha",
+   "formato": "16:9",
+   "formatoId": "16x9",
+   "proposito": "Vídeo horizontal, presentación y web",
+   "png": "exports/kit/flujo-informe__16x9.png",
+   "pdf": "exports/kit/pdf/flujo-informe__16x9.pdf",
+   "ancho": 1920,
+   "alto": 1080,
+   "declarado": [
+    1920,
+    1080
+   ],
+   "coincide": true,
+   "bytes": 105342,
+   "sha256": "2b87dd756ac17068c916ecf2630fd1355cb8ae0cfffc1b8ae01bf313faa37c98",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Esquema de Céluma: del borrador a la firma en cuatro pasos: redacta, envía a revisión, revisa y firma.",
+   "caption": "Un informe en Céluma avanza en cuatro pasos: redacta, envía a revisión, revisa y firma. Cada paso tiene un responsable. Guía completa en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/patologos/diagnosticos",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3-1",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "docs.celuma.mx/roles/overview",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "flujo-informe__191x1",
+   "pieza": "flujo-informe",
+   "plantilla": "flujo",
+   "grupo": "Explicación de flujo",
+   "direccion": "B · Ficha",
+   "formato": "1.91:1",
+   "formatoId": "191x1",
+   "proposito": "Vista de enlace y anuncio horizontal",
+   "png": "exports/kit/flujo-informe__191x1.png",
+   "pdf": "exports/kit/pdf/flujo-informe__191x1.pdf",
+   "ancho": 1200,
+   "alto": 628,
+   "declarado": [
+    1200,
+    628
+   ],
+   "coincide": true,
+   "bytes": 58414,
+   "sha256": "869b8264d3a1df687ba81d2680e053eedf46c72d41fd7e0fe04df2caf458d840",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Esquema de Céluma: del borrador a la firma en cuatro pasos: redacta, envía a revisión, revisa y firma.",
+   "caption": "Un informe en Céluma avanza en cuatro pasos: redacta, envía a revisión, revisa y firma. Cada paso tiene un responsable. Guía completa en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/patologos/diagnosticos",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3-1",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "docs.celuma.mx/roles/overview",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "carrusel-informe-1__4x5",
+   "pieza": "carrusel-informe-1",
+   "plantilla": "carrusel-portada",
+   "grupo": "Carrusel",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "proposito": "Publicación vertical y carrusel (prioritario)",
+   "png": "exports/kit/carrusel-informe-1__4x5.png",
+   "pdf": "exports/kit/pdf/carrusel-informe-1__4x5.pdf",
+   "ancho": 1080,
+   "alto": 1350,
+   "declarado": [
+    1080,
+    1350
+   ],
+   "coincide": true,
+   "bytes": 96693,
+   "sha256": "735c713b491e8726ca203c66e8819b6e2b9a70db50953b5da5b14c85dafea152",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Portada del carrusel: Del borrador al informe firmado.",
+   "caption": "Cómo avanza un informe en Céluma: redacta, envía a revisión, revisa y firma. Y qué hacer si un informe aprobado necesita una corrección antes de firmarse. Guía completa en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/patologos/diagnosticos",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3-1",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "docs.celuma.mx/roles/overview",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "carrusel-informe-2__4x5",
+   "pieza": "carrusel-informe-2",
+   "plantilla": "carrusel-paso",
+   "grupo": "Carrusel",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "proposito": "Publicación vertical y carrusel (prioritario)",
+   "png": "exports/kit/carrusel-informe-2__4x5.png",
+   "pdf": "exports/kit/pdf/carrusel-informe-2__4x5.pdf",
+   "ancho": 1080,
+   "alto": 1350,
+   "declarado": [
+    1080,
+    1350
+   ],
+   "coincide": true,
+   "bytes": 99756,
+   "sha256": "7811c53ef62a467212cd66a0fead7b1b3c0f383627ba9c6c4932c541a504f1ea",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Paso 1, Redacta: el patólogo escribe el informe; guardar conserva el borrador.",
+   "caption": "Cómo avanza un informe en Céluma: redacta, envía a revisión, revisa y firma. Y qué hacer si un informe aprobado necesita una corrección antes de firmarse. Guía completa en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/patologos/diagnosticos",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "carrusel-informe-3__4x5",
+   "pieza": "carrusel-informe-3",
+   "plantilla": "carrusel-paso",
+   "grupo": "Carrusel",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "proposito": "Publicación vertical y carrusel (prioritario)",
+   "png": "exports/kit/carrusel-informe-3__4x5.png",
+   "pdf": "exports/kit/pdf/carrusel-informe-3__4x5.pdf",
+   "ancho": 1080,
+   "alto": 1350,
+   "declarado": [
+    1080,
+    1350
+   ],
+   "coincide": true,
+   "bytes": 97752,
+   "sha256": "bc2e393ddeea78fbae0259c2f5771e463777b73dd6d30df5750fff480bd293f6",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Paso 2, Envía a revisión: el informe pasa a En revisión.",
+   "caption": "Cómo avanza un informe en Céluma: redacta, envía a revisión, revisa y firma. Y qué hacer si un informe aprobado necesita una corrección antes de firmarse. Guía completa en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/patologos/diagnosticos",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "carrusel-informe-4__4x5",
+   "pieza": "carrusel-informe-4",
+   "plantilla": "carrusel-paso",
+   "grupo": "Carrusel",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "proposito": "Publicación vertical y carrusel (prioritario)",
+   "png": "exports/kit/carrusel-informe-4__4x5.png",
+   "pdf": "exports/kit/pdf/carrusel-informe-4__4x5.pdf",
+   "ancho": 1080,
+   "alto": 1350,
+   "declarado": [
+    1080,
+    1350
+   ],
+   "coincide": true,
+   "bytes": 103495,
+   "sha256": "69c11add9a84f29b01d1d978ec8f1d0e12100d0e2fea6d00fc98f2b6a843b0ab",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Paso 3, Revisa: el revisor asignado aprueba o solicita cambios.",
+   "caption": "Cómo avanza un informe en Céluma: redacta, envía a revisión, revisa y firma. Y qué hacer si un informe aprobado necesita una corrección antes de firmarse. Guía completa en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/patologos/diagnosticos",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3-1",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "carrusel-informe-5__4x5",
+   "pieza": "carrusel-informe-5",
+   "plantilla": "carrusel-paso",
+   "grupo": "Carrusel",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "proposito": "Publicación vertical y carrusel (prioritario)",
+   "png": "exports/kit/carrusel-informe-5__4x5.png",
+   "pdf": "exports/kit/pdf/carrusel-informe-5__4x5.pdf",
+   "ancho": 1080,
+   "alto": 1350,
+   "declarado": [
+    1080,
+    1350
+   ],
+   "coincide": true,
+   "bytes": 87920,
+   "sha256": "878b5b5f111e2409c7367e3b1b5e853791878f3b079a7c0f4f0465e42c9f9b3f",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Paso 4, Firma: solo el revisor asignado firma; se completa la fecha de entrega.",
+   "caption": "Cómo avanza un informe en Céluma: redacta, envía a revisión, revisa y firma. Y qué hacer si un informe aprobado necesita una corrección antes de firmarse. Guía completa en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3-1",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "docs.celuma.mx/roles/overview",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "carrusel-informe-6__4x5",
+   "pieza": "carrusel-informe-6",
+   "plantilla": "carrusel-nota",
+   "grupo": "Carrusel",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "proposito": "Publicación vertical y carrusel (prioritario)",
+   "png": "exports/kit/carrusel-informe-6__4x5.png",
+   "pdf": "exports/kit/pdf/carrusel-informe-6__4x5.pdf",
+   "ancho": 1080,
+   "alto": 1350,
+   "declarado": [
+    1080,
+    1350
+   ],
+   "coincide": true,
+   "bytes": 118293,
+   "sha256": "753512cf7e4c846e2950c15249e559d319f5e3d854987f9e31bffc298278aba0",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Nota: un informe aprobado y aún sin firmar puede reabrirse y debe aprobarse de nuevo.",
+   "caption": "Cómo avanza un informe en Céluma: redacta, envía a revisión, revisa y firma. Y qué hacer si un informe aprobado necesita una corrección antes de firmarse. Guía completa en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/release-notes/v1-3-1",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "carrusel-informe-7__4x5",
+   "pieza": "carrusel-informe-7",
+   "plantilla": "carrusel-cierre",
+   "grupo": "Carrusel",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "proposito": "Publicación vertical y carrusel (prioritario)",
+   "png": "exports/kit/carrusel-informe-7__4x5.png",
+   "pdf": "exports/kit/pdf/carrusel-informe-7__4x5.pdf",
+   "ancho": 1080,
+   "alto": 1350,
+   "declarado": [
+    1080,
+    1350
+   ],
+   "coincide": true,
+   "bytes": 97100,
+   "sha256": "a5a3a7a321b6cb24267b2cdd4e9b68e87a77e1f0ec5a173953b16d0f794e947e",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Cierre: guía completa para cada rol en docs.celuma.mx.",
+   "caption": "Cómo avanza un informe en Céluma: redacta, envía a revisión, revisa y firma. Y qué hacer si un informe aprobado necesita una corrección antes de firmarse. Guía completa en docs.celuma.mx.",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/roles/overview",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "avatar__avatar",
+   "pieza": "avatar",
+   "plantilla": "avatar",
+   "grupo": "Perfil",
+   "direccion": "B · Ficha",
+   "formato": "Avatar 1:1",
+   "formatoId": "avatar",
+   "proposito": "Foto de perfil (recorte circular seguro)",
+   "png": "exports/kit/avatar__avatar.png",
+   "pdf": "exports/kit/pdf/avatar__avatar.pdf",
+   "ancho": 1080,
+   "alto": 1080,
+   "declarado": [
+    1080,
+    1080
+   ],
+   "coincide": true,
+   "bytes": 24579,
+   "sha256": "a19eed8ec66a6c99474f87d8d724b479971a1bb866b68ccae8a6491feb448c83",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Isotipo de Céluma.",
+   "caption": "",
+   "fuentes": [],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "portada__portada",
+   "pieza": "portada",
+   "plantilla": "portada",
+   "grupo": "Perfil",
+   "direccion": "B · Ficha",
+   "formato": "Portada 4:1",
+   "formatoId": "portada",
+   "proposito": "Portada ancha de perfil (base de trabajo)",
+   "png": "exports/kit/portada__portada.png",
+   "pdf": "exports/kit/pdf/portada__portada.pdf",
+   "ancho": 1584,
+   "alto": 396,
+   "declarado": [
+    1584,
+    396
+   ],
+   "coincide": true,
+   "bytes": 39317,
+   "sha256": "5017de53c420f18f3402ff1b0bd4d69801ad0250177a7eca5f81c68b99108e46",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Portada de Céluma: sistema de gestión para laboratorios de anatomía patológica.",
+   "caption": "",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/intro",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "destacado-guias__destacado",
+   "pieza": "destacado-guias",
+   "plantilla": "destacado",
+   "grupo": "Destacados",
+   "direccion": "B · Ficha",
+   "formato": "Destacado 9:16",
+   "formatoId": "destacado",
+   "proposito": "Portada de historia destacada (círculo central)",
+   "png": "exports/kit/destacado-guias__destacado.png",
+   "pdf": "exports/kit/pdf/destacado-guias__destacado.pdf",
+   "ancho": 1080,
+   "alto": 1920,
+   "declarado": [
+    1080,
+    1920
+   ],
+   "coincide": true,
+   "bytes": 43667,
+   "sha256": "e17e68ea6fa6d3317df61fab489b418f13928029487469481d977021fe824cc7",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Destacado: Guías.",
+   "caption": "",
+   "fuentes": [],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "destacado-novedades__destacado",
+   "pieza": "destacado-novedades",
+   "plantilla": "destacado",
+   "grupo": "Destacados",
+   "direccion": "B · Ficha",
+   "formato": "Destacado 9:16",
+   "formatoId": "destacado",
+   "proposito": "Portada de historia destacada (círculo central)",
+   "png": "exports/kit/destacado-novedades__destacado.png",
+   "pdf": "exports/kit/pdf/destacado-novedades__destacado.pdf",
+   "ancho": 1080,
+   "alto": 1920,
+   "declarado": [
+    1080,
+    1920
+   ],
+   "coincide": true,
+   "bytes": 46811,
+   "sha256": "257e043ef30ff54f06ac75223b203eee08be2a730c782ef5c1cca846354648cb",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Destacado: Novedades.",
+   "caption": "",
+   "fuentes": [],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "destacado-flujo__destacado",
+   "pieza": "destacado-flujo",
+   "plantilla": "destacado",
+   "grupo": "Destacados",
+   "direccion": "B · Ficha",
+   "formato": "Destacado 9:16",
+   "formatoId": "destacado",
+   "proposito": "Portada de historia destacada (círculo central)",
+   "png": "exports/kit/destacado-flujo__destacado.png",
+   "pdf": "exports/kit/pdf/destacado-flujo__destacado.pdf",
+   "ancho": 1080,
+   "alto": 1920,
+   "declarado": [
+    1080,
+    1920
+   ],
+   "coincide": true,
+   "bytes": 49412,
+   "sha256": "d3096465e5e75e6d6df62950eaf47b061bcde6e2193d7675c0741bfa1ead1fdd",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Destacado: Flujo.",
+   "caption": "",
+   "fuentes": [],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "destacado-valores__destacado",
+   "pieza": "destacado-valores",
+   "plantilla": "destacado",
+   "grupo": "Destacados",
+   "direccion": "B · Ficha",
+   "formato": "Destacado 9:16",
+   "formatoId": "destacado",
+   "proposito": "Portada de historia destacada (círculo central)",
+   "png": "exports/kit/destacado-valores__destacado.png",
+   "pdf": "exports/kit/pdf/destacado-valores__destacado.pdf",
+   "ancho": 1080,
+   "alto": 1920,
+   "declarado": [
+    1080,
+    1920
+   ],
+   "coincide": true,
+   "bytes": 52855,
+   "sha256": "52053f639a589a5c6364a235de534f2b79ea3dfd3f817ad281d29bd24a3074b5",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Destacado: Valores.",
+   "caption": "",
+   "fuentes": [],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "banner-docs__banner",
+   "pieza": "banner-docs",
+   "plantilla": "banner",
+   "grupo": "Banners y firma",
+   "direccion": "B · Ficha",
+   "formato": "Banner 3:1",
+   "formatoId": "banner",
+   "proposito": "Banner web o de cabecera (base de trabajo)",
+   "png": "exports/kit/banner-docs__banner.png",
+   "pdf": "exports/kit/pdf/banner-docs__banner.pdf",
+   "ancho": 1500,
+   "alto": 500,
+   "declarado": [
+    1500,
+    500
+   ],
+   "coincide": true,
+   "bytes": 44940,
+   "sha256": "1db17cb96f2283e5b0a0c28b189966d29c4b71dae0729dc14d1ec031357f8ca8",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Banner: guías para cada rol del laboratorio en docs.celuma.mx.",
+   "caption": "",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/roles/overview",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "firma-correo__firma",
+   "pieza": "firma-correo",
+   "plantilla": "firma",
+   "grupo": "Banners y firma",
+   "direccion": "B · Ficha",
+   "formato": "Firma 4:1",
+   "formatoId": "firma",
+   "proposito": "Módulo de firma de correo (@2x de 600 × 150)",
+   "png": "exports/kit/firma-correo__firma.png",
+   "pdf": "exports/kit/pdf/firma-correo__firma.pdf",
+   "ancho": 1200,
+   "alto": 300,
+   "declarado": [
+    1200,
+    300
+   ],
+   "coincide": true,
+   "bytes": 27653,
+   "sha256": "2a62e3d6225ec0aa6d2ff5f80a261e01eed6b10a495cfab72b450ce61f5942af",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Firma de correo de Céluma (datos de ejemplo).",
+   "caption": "",
+   "fuentes": [],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "slide-titulo__16x9",
+   "pieza": "slide-titulo",
+   "plantilla": "slide-titulo",
+   "grupo": "Presentación",
+   "direccion": "B · Ficha",
+   "formato": "16:9",
+   "formatoId": "16x9",
+   "proposito": "Vídeo horizontal, presentación y web",
+   "png": "exports/kit/slide-titulo__16x9.png",
+   "pdf": "exports/kit/pdf/slide-titulo__16x9.pdf",
+   "ancho": 1920,
+   "alto": 1080,
+   "declarado": [
+    1920,
+    1080
+   ],
+   "coincide": true,
+   "bytes": 120505,
+   "sha256": "de4c65a59d7c7c50cb038c6c21af09e788d7325a100748465cc84edacb1e0cb5",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Diapositiva de título de Céluma.",
+   "caption": "",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/intro",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "pieza",
+   "conjunto": "kit",
+   "id": "slide-contenido__16x9",
+   "pieza": "slide-contenido",
+   "plantilla": "slide-contenido",
+   "grupo": "Presentación",
+   "direccion": "B · Ficha",
+   "formato": "16:9",
+   "formatoId": "16x9",
+   "proposito": "Vídeo horizontal, presentación y web",
+   "png": "exports/kit/slide-contenido__16x9.png",
+   "pdf": "exports/kit/pdf/slide-contenido__16x9.pdf",
+   "ancho": 1920,
+   "alto": 1080,
+   "declarado": [
+    1920,
+    1080
+   ],
+   "coincide": true,
+   "bytes": 158368,
+   "sha256": "95e73de70e3b1d97042625f7d7b7eb82f1996f2c476d462728cfa17a330c66e3",
+   "condensada": false,
+   "comprobacion": "ok",
+   "alt": "Diapositiva: roles en Céluma.",
+   "caption": "",
+   "fuentes": [
+    {
+     "ref": "docs.celuma.mx/intro",
+     "estado": "publicada-docs"
+    },
+    {
+     "ref": "docs.celuma.mx/roles/overview",
+     "estado": "publicada-docs"
+    }
+   ],
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "comparacion",
+   "conjunto": "comparacion",
+   "id": "a/valor-claridad__4x5",
+   "pieza": "valor-claridad",
+   "direccion": "A · Lumen",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "png": "exports/comparacion/a/valor-claridad__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "coincide": true,
+   "bytes": 80246,
+   "sha256": "6b6bed126110138313b33e7d009a7d30f71f3d8c533df2f24cac342fa9969561",
+   "condensada": false,
+   "comprobacion": "ok",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "comparacion",
+   "conjunto": "comparacion",
+   "id": "a/valor-claridad__9x16",
+   "pieza": "valor-claridad",
+   "direccion": "A · Lumen",
+   "formato": "9:16",
+   "formatoId": "9x16",
+   "png": "exports/comparacion/a/valor-claridad__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "coincide": true,
+   "bytes": 92364,
+   "sha256": "3dcbc5dccc4b9ea303602d0c9862352f90286879bcd685a6d4e5e1f40cf71580",
+   "condensada": false,
+   "comprobacion": "ok",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "comparacion",
+   "conjunto": "comparacion",
+   "id": "a/capacidad-revisor__4x5",
+   "pieza": "capacidad-revisor",
+   "direccion": "A · Lumen",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "png": "exports/comparacion/a/capacidad-revisor__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "coincide": true,
+   "bytes": 118788,
+   "sha256": "a75308e13ac47087f856301b27c169c792031731239e01b8feff37f3fb270915",
+   "condensada": false,
+   "comprobacion": "ok",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "comparacion",
+   "conjunto": "comparacion",
+   "id": "a/capacidad-revisor__9x16",
+   "pieza": "capacidad-revisor",
+   "direccion": "A · Lumen",
+   "formato": "9:16",
+   "formatoId": "9x16",
+   "png": "exports/comparacion/a/capacidad-revisor__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "coincide": true,
+   "bytes": 131209,
+   "sha256": "18e7fccde83e06068de61ef0ac41fc4bd47cb9a63045ec5eeaa53f31aef11ea3",
+   "condensada": false,
+   "comprobacion": "ok",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "comparacion",
+   "conjunto": "comparacion",
+   "id": "a/carrusel-informe-1__4x5",
+   "pieza": "carrusel-informe-1",
+   "direccion": "A · Lumen",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "png": "exports/comparacion/a/carrusel-informe-1__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "coincide": true,
+   "bytes": 94635,
+   "sha256": "cf45ece19244a7bf787bbe3c39357d18f90866fece011166c8fa79dcf5fc880a",
+   "condensada": false,
+   "comprobacion": "ok",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "comparacion",
+   "conjunto": "comparacion",
+   "id": "a/carrusel-informe-4__4x5",
+   "pieza": "carrusel-informe-4",
+   "direccion": "A · Lumen",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "png": "exports/comparacion/a/carrusel-informe-4__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "coincide": true,
+   "bytes": 92981,
+   "sha256": "c5de4d0b4f99fb073c744949f37271fbd38616f1fbb4b935c3cda3bc8abbd2e3",
+   "condensada": false,
+   "comprobacion": "ok",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "comparacion",
+   "conjunto": "comparacion",
+   "id": "b/valor-claridad__4x5",
+   "pieza": "valor-claridad",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "png": "exports/comparacion/b/valor-claridad__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "coincide": true,
+   "bytes": 78998,
+   "sha256": "9e510fd1de82f2566dac3a4b3d8871c0c2b5ed9afc74588c432ac3d734e383f1",
+   "condensada": false,
+   "comprobacion": "ok",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "comparacion",
+   "conjunto": "comparacion",
+   "id": "b/valor-claridad__9x16",
+   "pieza": "valor-claridad",
+   "direccion": "B · Ficha",
+   "formato": "9:16",
+   "formatoId": "9x16",
+   "png": "exports/comparacion/b/valor-claridad__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "coincide": true,
+   "bytes": 83260,
+   "sha256": "438bd87d4b1f60878a4040e1f142c443b5050abfbc94b3797fafb7a5ae695d06",
+   "condensada": false,
+   "comprobacion": "ok",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "comparacion",
+   "conjunto": "comparacion",
+   "id": "b/capacidad-revisor__4x5",
+   "pieza": "capacidad-revisor",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "png": "exports/comparacion/b/capacidad-revisor__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "coincide": true,
+   "bytes": 127788,
+   "sha256": "d122a144253e067706a1766c81bbd39923466aa1557b55ccb447f8c76c1de746",
+   "condensada": false,
+   "comprobacion": "ok",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "comparacion",
+   "conjunto": "comparacion",
+   "id": "b/capacidad-revisor__9x16",
+   "pieza": "capacidad-revisor",
+   "direccion": "B · Ficha",
+   "formato": "9:16",
+   "formatoId": "9x16",
+   "png": "exports/comparacion/b/capacidad-revisor__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "coincide": true,
+   "bytes": 137111,
+   "sha256": "64570a433bf3a315c98b963f39d1f4d30ec99d6f135b641ecdd308b15cfa4f07",
+   "condensada": false,
+   "comprobacion": "ok",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "comparacion",
+   "conjunto": "comparacion",
+   "id": "b/carrusel-informe-1__4x5",
+   "pieza": "carrusel-informe-1",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "png": "exports/comparacion/b/carrusel-informe-1__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "coincide": true,
+   "bytes": 96693,
+   "sha256": "735c713b491e8726ca203c66e8819b6e2b9a70db50953b5da5b14c85dafea152",
+   "condensada": false,
+   "comprobacion": "ok",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "comparacion",
+   "conjunto": "comparacion",
+   "id": "b/carrusel-informe-4__4x5",
+   "pieza": "carrusel-informe-4",
+   "direccion": "B · Ficha",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "png": "exports/comparacion/b/carrusel-informe-4__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "coincide": true,
+   "bytes": 103495,
+   "sha256": "69c11add9a84f29b01d1d978ec8f1d0e12100d0e2fea6d00fc98f2b6a843b0ab",
+   "condensada": false,
+   "comprobacion": "ok",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "comparacion",
+   "conjunto": "comparacion",
+   "id": "c/valor-claridad__4x5",
+   "pieza": "valor-claridad",
+   "direccion": "C · Membrana",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "png": "exports/comparacion/c/valor-claridad__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "coincide": true,
+   "bytes": 87349,
+   "sha256": "9a2a545f3f83f5cc87d9f166ed409348bc618510ce3f0dcbc2f653c4aa3b3301",
+   "condensada": false,
+   "comprobacion": "ok",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "comparacion",
+   "conjunto": "comparacion",
+   "id": "c/valor-claridad__9x16",
+   "pieza": "valor-claridad",
+   "direccion": "C · Membrana",
+   "formato": "9:16",
+   "formatoId": "9x16",
+   "png": "exports/comparacion/c/valor-claridad__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "coincide": true,
+   "bytes": 96610,
+   "sha256": "2f93e947c4a162b93c33561c7264f206e55d3581c537d6a575b190d66a72b2d5",
+   "condensada": false,
+   "comprobacion": "ok",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "comparacion",
+   "conjunto": "comparacion",
+   "id": "c/capacidad-revisor__4x5",
+   "pieza": "capacidad-revisor",
+   "direccion": "C · Membrana",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "png": "exports/comparacion/c/capacidad-revisor__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "coincide": true,
+   "bytes": 104853,
+   "sha256": "59221cdb5dc472f414c00765be4f5348830c5f119f37be695c68770085ea0c8d",
+   "condensada": true,
+   "comprobacion": "ok",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "comparacion",
+   "conjunto": "comparacion",
+   "id": "c/capacidad-revisor__9x16",
+   "pieza": "capacidad-revisor",
+   "direccion": "C · Membrana",
+   "formato": "9:16",
+   "formatoId": "9x16",
+   "png": "exports/comparacion/c/capacidad-revisor__9x16.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "coincide": true,
+   "bytes": 115610,
+   "sha256": "8bb916d59b5bcc51b0e08a305f1d780a933681666e7302d49029aa7f2aed0deb",
+   "condensada": true,
+   "comprobacion": "ok",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "comparacion",
+   "conjunto": "comparacion",
+   "id": "c/carrusel-informe-1__4x5",
+   "pieza": "carrusel-informe-1",
+   "direccion": "C · Membrana",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "png": "exports/comparacion/c/carrusel-informe-1__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "coincide": true,
+   "bytes": 104405,
+   "sha256": "7419ab01ec41b897ecf650826fb3fc829efd0d1a0515989e6aba800069f7ba12",
+   "condensada": false,
+   "comprobacion": "ok",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "comparacion",
+   "conjunto": "comparacion",
+   "id": "c/carrusel-informe-4__4x5",
+   "pieza": "carrusel-informe-4",
+   "direccion": "C · Membrana",
+   "formato": "4:5",
+   "formatoId": "4x5",
+   "png": "exports/comparacion/c/carrusel-informe-4__4x5.png",
+   "ancho": 1080,
+   "alto": 1350,
+   "coincide": true,
+   "bytes": 96175,
+   "sha256": "7267e2f4b7454dee9cb0d546c3dc921ba7901a2efee8086ed5d9600fa6d4556c",
+   "condensada": false,
+   "comprobacion": "ok",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "recurso",
+   "conjunto": "recursos",
+   "id": "cuadricula-orden-10x3-crema",
+   "svg": "recursos/svg/cuadricula-orden-10x3-crema.svg",
+   "png": "recursos/png/cuadricula-orden-10x3-crema.png",
+   "ancho": 2048,
+   "alto": 614,
+   "uso": "Módulo visual de la dirección Ficha sobre crema o blanco.",
+   "sha256": "017f7f15b2911bf18ad876d8cacaa79f677adb1bd84f423af4904709462517db",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "recurso",
+   "conjunto": "recursos",
+   "id": "cuadricula-orden-10x3-navy",
+   "svg": "recursos/svg/cuadricula-orden-10x3-navy.svg",
+   "png": "recursos/png/cuadricula-orden-10x3-navy.png",
+   "ancho": 2048,
+   "alto": 614,
+   "uso": "Módulo visual sobre navy (portadas, cierres, anuncios).",
+   "sha256": "78c81ac2e80a6c5e04a108ae386bbbe6506ca91bb48f6e11da409cf04bfc6dae",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "recurso",
+   "conjunto": "recursos",
+   "id": "cuadricula-orden-6x5-crema",
+   "svg": "recursos/svg/cuadricula-orden-6x5-crema.svg",
+   "png": "recursos/png/cuadricula-orden-6x5-crema.png",
+   "ancho": 2048,
+   "alto": 1707,
+   "uso": "Módulo visual de la dirección Ficha sobre crema o blanco.",
+   "sha256": "9b23d4915e07028024af376a6301bc306744935059982407f7082fbe3734110f",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "recurso",
+   "conjunto": "recursos",
+   "id": "cuadricula-orden-6x5-navy",
+   "svg": "recursos/svg/cuadricula-orden-6x5-navy.svg",
+   "png": "recursos/png/cuadricula-orden-6x5-navy.png",
+   "ancho": 2048,
+   "alto": 1707,
+   "uso": "Módulo visual sobre navy (portadas, cierres, anuncios).",
+   "sha256": "0e2ed63d486c62a9a6c54d6645150ce73dffa162d444f25ac2267178317c1446",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "recurso",
+   "conjunto": "recursos",
+   "id": "cuadricula-orden-8x2-crema",
+   "svg": "recursos/svg/cuadricula-orden-8x2-crema.svg",
+   "png": "recursos/png/cuadricula-orden-8x2-crema.png",
+   "ancho": 2048,
+   "alto": 512,
+   "uso": "Módulo visual de la dirección Ficha sobre crema o blanco.",
+   "sha256": "6a6f38b12fe75332614fb42b0926b8facfe3695d038865040ae07b7dc2be90bb",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "recurso",
+   "conjunto": "recursos",
+   "id": "cuadricula-orden-8x2-navy",
+   "svg": "recursos/svg/cuadricula-orden-8x2-navy.svg",
+   "png": "recursos/png/cuadricula-orden-8x2-navy.png",
+   "ancho": 2048,
+   "alto": 512,
+   "uso": "Módulo visual sobre navy (portadas, cierres, anuncios).",
+   "sha256": "e54d4ef1af09a7385350caaef42d5eaa05f2b3aa8bd042fa291945d69519a9ac",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "recurso",
+   "conjunto": "recursos",
+   "id": "regla-salmon-vertical",
+   "svg": "recursos/svg/regla-salmon-vertical.svg",
+   "png": "recursos/png/regla-salmon-vertical.png",
+   "ancho": 40,
+   "alto": 1200,
+   "uso": "Borde izquierdo del bloque principal; una por pieza.",
+   "sha256": "0a74993c1a854a999459de5d60d5176f42a8686934b6c8b4a5f2ed76eada8fbd",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "recurso",
+   "conjunto": "recursos",
+   "id": "rastreador-4-pasos-0",
+   "svg": "recursos/svg/rastreador-4-pasos-0.svg",
+   "png": "recursos/png/rastreador-4-pasos-0.png",
+   "ancho": 2048,
+   "alto": 154,
+   "uso": "Rastreador de pasos para carruseles y flujos; los rótulos se escriben en la pieza.",
+   "sha256": "d947c10db95d627705e90386ee9d7bb01f7b68d9f2526dd90c033087e387451a",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "recurso",
+   "conjunto": "recursos",
+   "id": "rastreador-4-pasos-1",
+   "svg": "recursos/svg/rastreador-4-pasos-1.svg",
+   "png": "recursos/png/rastreador-4-pasos-1.png",
+   "ancho": 2048,
+   "alto": 154,
+   "uso": "Rastreador de pasos para carruseles y flujos; los rótulos se escriben en la pieza.",
+   "sha256": "270eb2acc3e7f0dfbb3b4f21e3aac26914b419cd95f0535be0ffbcf8b3673448",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "recurso",
+   "conjunto": "recursos",
+   "id": "rastreador-4-pasos-2",
+   "svg": "recursos/svg/rastreador-4-pasos-2.svg",
+   "png": "recursos/png/rastreador-4-pasos-2.png",
+   "ancho": 2048,
+   "alto": 154,
+   "uso": "Rastreador de pasos para carruseles y flujos; los rótulos se escriben en la pieza.",
+   "sha256": "e85d17c6e39d38fe083220f8459e7895d9044a04dec05bd7afeb8038c782a3a0",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "recurso",
+   "conjunto": "recursos",
+   "id": "rastreador-4-pasos-3",
+   "svg": "recursos/svg/rastreador-4-pasos-3.svg",
+   "png": "recursos/png/rastreador-4-pasos-3.png",
+   "ancho": 2048,
+   "alto": 154,
+   "uso": "Rastreador de pasos para carruseles y flujos; los rótulos se escriben en la pieza.",
+   "sha256": "007e9b2aae07772774a761a14d6f9474e43c9a300bf15b31773f0a10dfde70d4",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "recurso",
+   "conjunto": "recursos",
+   "id": "rastreador-4-pasos-4",
+   "svg": "recursos/svg/rastreador-4-pasos-4.svg",
+   "png": "recursos/png/rastreador-4-pasos-4.png",
+   "ancho": 2048,
+   "alto": 154,
+   "uso": "Rastreador de pasos para carruseles y flujos; los rótulos se escriben en la pieza.",
+   "sha256": "e3218facc5b82730107c63604db2e3f93f2048460e4a318be08cd9005017b4c1",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "recurso",
+   "conjunto": "recursos",
+   "id": "icono-guia",
+   "svg": "recursos/svg/iconos/icono-guia.svg",
+   "png": "recursos/png/iconos/icono-guia.png",
+   "ancho": 512,
+   "alto": 512,
+   "uso": "Icono «guia».",
+   "sha256": "19753e63ddcecf9281001e1dcd1849b1f27bda327cdd13b1fb058bcb54f85a63",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "recurso",
+   "conjunto": "recursos",
+   "id": "icono-novedad",
+   "svg": "recursos/svg/iconos/icono-novedad.svg",
+   "png": "recursos/png/iconos/icono-novedad.png",
+   "ancho": 512,
+   "alto": 512,
+   "uso": "Icono «novedad».",
+   "sha256": "b0a6d95917fcdccefd6be791c72d777597f3508f7357a69b4ec75dae9d05935f",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "recurso",
+   "conjunto": "recursos",
+   "id": "icono-flujo",
+   "svg": "recursos/svg/iconos/icono-flujo.svg",
+   "png": "recursos/png/iconos/icono-flujo.png",
+   "ancho": 512,
+   "alto": 512,
+   "uso": "Icono «flujo».",
+   "sha256": "69cf98f40683e1d2e56fb4f9af40f93d8e13dc7c376335271d538581bf4ae656",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "recurso",
+   "conjunto": "recursos",
+   "id": "icono-valor",
+   "svg": "recursos/svg/iconos/icono-valor.svg",
+   "png": "recursos/png/iconos/icono-valor.png",
+   "ancho": 512,
+   "alto": 512,
+   "uso": "Icono «valor».",
+   "sha256": "e97f33d3bca2b467a2062c3139be76c2ae84fc8b17ae714e88ba9ef6b95ade86",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "recurso",
+   "conjunto": "recursos",
+   "id": "icono-firma",
+   "svg": "recursos/svg/iconos/icono-firma.svg",
+   "png": "recursos/png/iconos/icono-firma.png",
+   "ancho": 512,
+   "alto": 512,
+   "uso": "Icono «firma».",
+   "sha256": "0ab389e2a63e7d75f71ffc0b058301ddd6f0019a3c93881ad3bc477d0f14e99d",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "recurso",
+   "conjunto": "recursos",
+   "id": "icono-plantilla",
+   "svg": "recursos/svg/iconos/icono-plantilla.svg",
+   "png": "recursos/png/iconos/icono-plantilla.png",
+   "ancho": 512,
+   "alto": 512,
+   "uso": "Icono «plantilla».",
+   "sha256": "62a2add7660f0d2a62c2a7e4f7922ad43dec27b928649ad491b0b185834113c7",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "recurso",
+   "conjunto": "recursos",
+   "id": "icono-muestra",
+   "svg": "recursos/svg/iconos/icono-muestra.svg",
+   "png": "recursos/png/iconos/icono-muestra.png",
+   "ancho": 512,
+   "alto": 512,
+   "uso": "Icono «muestra».",
+   "sha256": "a277c9f930adaf265cb5b4e1c037d1b199f648bf8bb012ce6d080c6f3a899b95",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "recurso",
+   "conjunto": "recursos",
+   "id": "icono-persona",
+   "svg": "recursos/svg/iconos/icono-persona.svg",
+   "png": "recursos/png/iconos/icono-persona.png",
+   "ancho": 512,
+   "alto": 512,
+   "uso": "Icono «persona».",
+   "sha256": "425df71375976325902517c95af039e609a0052d90a43380139a5d5d08c42187",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "recurso",
+   "conjunto": "recursos",
+   "id": "icono-flecha",
+   "svg": "recursos/svg/iconos/icono-flecha.svg",
+   "png": "recursos/png/iconos/icono-flecha.png",
+   "ancho": 512,
+   "alto": 512,
+   "uso": "Icono «flecha».",
+   "sha256": "8a325b1e0c75029ec097c4e8122eb3e7df7720656561e942fe76fd8963e2b865",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "recurso",
+   "conjunto": "recursos",
+   "id": "icono-correo",
+   "svg": "recursos/svg/iconos/icono-correo.svg",
+   "png": "recursos/png/iconos/icono-correo.png",
+   "ancho": 512,
+   "alto": 512,
+   "uso": "Icono «correo».",
+   "sha256": "872eed3bb5ec93d5b0be395cc1faabf1cfae69095335ed1f81244852513049b3",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "motion",
+   "conjunto": "motion",
+   "id": "intro-novedad.mp4",
+   "archivo": "motion/intro-novedad.mp4",
+   "codec": "h264",
+   "ancho": 1920,
+   "alto": 1080,
+   "fps": "30/1",
+   "duracion_s": 10,
+   "bytes": 704489,
+   "sha256": "9be794a74258850c22620d8131bf026a8fd47d28adab5b494606a074eeab3765",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "motion",
+   "conjunto": "motion",
+   "id": "intro-novedad.webm",
+   "archivo": "motion/intro-novedad.webm",
+   "codec": "vp9",
+   "ancho": 1920,
+   "alto": 1080,
+   "fps": "30/1",
+   "duracion_s": 10,
+   "bytes": 549770,
+   "sha256": "6d0e2fe80dec7367610c4e54c9ee6587f22a8e49d564187e332afb61cb8bbd45",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "motion-estatico",
+   "conjunto": "motion",
+   "id": "intro-novedad-final.png",
+   "archivo": "motion/intro-novedad-final.png",
+   "ancho": 1920,
+   "alto": 1080,
+   "nota": "Último fotograma = estado reducido; idéntico a la pieza estática del kit (ver VALIDACION.md).",
+   "sha256": "e894886f461926216c75888d718b49ad6e7328fda14ab81d60a433ce4048e198",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "motion",
+   "conjunto": "motion",
+   "id": "paso-a-paso.mp4",
+   "archivo": "motion/paso-a-paso.mp4",
+   "codec": "h264",
+   "ancho": 1080,
+   "alto": 1920,
+   "fps": "30/1",
+   "duracion_s": 9,
+   "bytes": 313291,
+   "sha256": "7bb9f6070804ffc96f6f20ccdb8d80322fdb0ab88d2cb83f9ae3a64c805aea20",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "motion",
+   "conjunto": "motion",
+   "id": "paso-a-paso.webm",
+   "archivo": "motion/paso-a-paso.webm",
+   "codec": "vp9",
+   "ancho": 1080,
+   "alto": 1920,
+   "fps": "30/1",
+   "duracion_s": 9,
+   "bytes": 284486,
+   "sha256": "4609e92aaf03fae2a7f1cfb2b534de950e84626c16f243aa3d97b2fdb4eb5d3d",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "motion-estatico",
+   "conjunto": "motion",
+   "id": "paso-a-paso-final.png",
+   "archivo": "motion/paso-a-paso-final.png",
+   "ancho": 1080,
+   "alto": 1920,
+   "nota": "Último fotograma = estado reducido; idéntico a la pieza estática del kit (ver VALIDACION.md).",
+   "sha256": "5737687b4566671631be6a7f3a3819741947047a25ce98ceb1b030f1787f86fd",
+   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+  },
+  {
+   "tipo": "marca",
+   "conjunto": "marca",
+   "id": "celuma-isotipo-color.svg",
+   "archivo": "kit/marca/celuma-isotipo-color.svg",
+   "origen": "experiments/2-logo-vector-v2/svg/isotipo/celuma-isotipo-color.svg",
+   "identico": true,
+   "sha256": "a9387d7a5da75069cdd6ff2d0a508c1d3d7be463110fd123044269a2e0c5a682",
+   "estado": "Copia del activo aprobado en el laboratorio (02) · incorporación canónica pendiente"
+  },
+  {
+   "tipo": "marca",
+   "conjunto": "marca",
+   "id": "celuma-isotipo-mono-blanco.svg",
+   "archivo": "kit/marca/celuma-isotipo-mono-blanco.svg",
+   "origen": "experiments/2-logo-vector-v2/svg/isotipo/celuma-isotipo-mono-blanco.svg",
+   "identico": true,
+   "sha256": "554cf425dcae0754c069bbf149e9868e84420c67af5a72cf383495677cadc5dd",
+   "estado": "Copia del activo aprobado en el laboratorio (02) · incorporación canónica pendiente"
+  },
+  {
+   "tipo": "marca",
+   "conjunto": "marca",
+   "id": "celuma-isotipo-mono-navy.svg",
+   "archivo": "kit/marca/celuma-isotipo-mono-navy.svg",
+   "origen": "experiments/2-logo-vector-v2/svg/isotipo/celuma-isotipo-mono-navy.svg",
+   "identico": true,
+   "sha256": "c6f3ab56ee5370c4cfd9ba5fb3dc2d224738b999742483a2c1b7fd80eb50b4d2",
+   "estado": "Copia del activo aprobado en el laboratorio (02) · incorporación canónica pendiente"
+  },
+  {
+   "tipo": "marca",
+   "conjunto": "marca",
+   "id": "celuma-isotipo-reducido-16-24px.svg",
+   "archivo": "kit/marca/celuma-isotipo-reducido-16-24px.svg",
+   "origen": "experiments/2-logo-vector-v2/svg/isotipo/celuma-isotipo-reducido-16-24px.svg",
+   "identico": true,
+   "sha256": "eafff57c19eb3fac65ea6b198ef215bfec8fa8b5b56d38381afcf90117e7d4c7",
+   "estado": "Copia del activo aprobado en el laboratorio (02) · incorporación canónica pendiente"
+  },
+  {
+   "tipo": "marca",
+   "conjunto": "marca",
+   "id": "celuma-lockup-horizontal-color-negativo.svg",
+   "archivo": "kit/marca/celuma-lockup-horizontal-color-negativo.svg",
+   "origen": "experiments/2-logo-vector-v2/svg/lockups/propuesta-a-baloo2/celuma-lockup-horizontal-color-negativo.svg",
+   "identico": true,
+   "sha256": "7b133bb593f1bbbc02aa12bc3882fe26db599c28763bf62dd08ab24e5f24c220",
+   "estado": "Copia del activo aprobado en el laboratorio (02) · incorporación canónica pendiente"
+  },
+  {
+   "tipo": "marca",
+   "conjunto": "marca",
+   "id": "celuma-lockup-horizontal-color-positivo.svg",
+   "archivo": "kit/marca/celuma-lockup-horizontal-color-positivo.svg",
+   "origen": "experiments/2-logo-vector-v2/svg/lockups/propuesta-a-baloo2/celuma-lockup-horizontal-color-positivo.svg",
+   "identico": true,
+   "sha256": "f8e3e684c3e49b8d0a60714a97bfc45852fb6813dd8e0098f72bf00320dad817",
+   "estado": "Copia del activo aprobado en el laboratorio (02) · incorporación canónica pendiente"
+  },
+  {
+   "tipo": "marca",
+   "conjunto": "marca",
+   "id": "celuma-lockup-horizontal-mono-blanco.svg",
+   "archivo": "kit/marca/celuma-lockup-horizontal-mono-blanco.svg",
+   "origen": "experiments/2-logo-vector-v2/svg/lockups/propuesta-a-baloo2/celuma-lockup-horizontal-mono-blanco.svg",
+   "identico": true,
+   "sha256": "09d39df6535dff2c5516b5051c62c9921ff82595a2e05a5964f7b9d690f45d34",
+   "estado": "Copia del activo aprobado en el laboratorio (02) · incorporación canónica pendiente"
+  },
+  {
+   "tipo": "marca",
+   "conjunto": "marca",
+   "id": "celuma-lockup-horizontal-mono-navy.svg",
+   "archivo": "kit/marca/celuma-lockup-horizontal-mono-navy.svg",
+   "origen": "experiments/2-logo-vector-v2/svg/lockups/propuesta-a-baloo2/celuma-lockup-horizontal-mono-navy.svg",
+   "identico": true,
+   "sha256": "ec0a4cbab3285b955e678b768b369670f7bddbe9739ec20bd0ca24442300d546",
+   "estado": "Copia del activo aprobado en el laboratorio (02) · incorporación canónica pendiente"
+  },
+  {
+   "tipo": "marca",
+   "conjunto": "marca",
+   "id": "celuma-lockup-vertical-color-negativo.svg",
+   "archivo": "kit/marca/celuma-lockup-vertical-color-negativo.svg",
+   "origen": "experiments/2-logo-vector-v2/svg/lockups/propuesta-a-baloo2/celuma-lockup-vertical-color-negativo.svg",
+   "identico": true,
+   "sha256": "b8ca338cf856ee344dc1170dd480c99e1cc07cee8a99dab7731ed62438e12e6b",
+   "estado": "Copia del activo aprobado en el laboratorio (02) · incorporación canónica pendiente"
+  },
+  {
+   "tipo": "marca",
+   "conjunto": "marca",
+   "id": "celuma-lockup-vertical-color-positivo.svg",
+   "archivo": "kit/marca/celuma-lockup-vertical-color-positivo.svg",
+   "origen": "experiments/2-logo-vector-v2/svg/lockups/propuesta-a-baloo2/celuma-lockup-vertical-color-positivo.svg",
+   "identico": true,
+   "sha256": "b2ec305ae5dc6942da5b5dbb980589affe1ff9b42669bcb9f747401f591b0703",
+   "estado": "Copia del activo aprobado en el laboratorio (02) · incorporación canónica pendiente"
+  }
+ ]
+}

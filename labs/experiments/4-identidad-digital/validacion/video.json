@@ -1,0 +1,24 @@
+{
+ "fecha": "2026-10-07T04:59:48.888Z",
+ "navegador": "Chromium (Playwright de celuma-frontend), headless, macOS",
+ "piezas": {
+  "intro-novedad": {
+   "ancho": 1920,
+   "alto": 1080,
+   "fps": 30,
+   "fotogramas": 300,
+   "duracion_s": 10,
+   "segundos_render": 47,
+   "errores": []
+  },
+  "paso-a-paso": {
+   "ancho": 1080,
+   "alto": 1920,
+   "fps": 30,
+   "fotogramas": 270,
+   "duracion_s": 9,
+   "segundos_render": 43,
+   "errores": []
+  }
+ }
+}

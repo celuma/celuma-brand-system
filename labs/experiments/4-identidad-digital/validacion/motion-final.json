@@ -1,0 +1,23 @@
+{
+ "intro-novedad": {
+  "estatico": "exports/kit/novedad-131__16x9.png",
+  "tamano": [
+   1920,
+   1080
+  ],
+  "pixeles_distintos": 0,
+  "diferencia_max": 0,
+  "identico": true,
+  "primer_fotograma_navy_liso": true
+ },
+ "paso-a-paso": {
+  "estatico": "exports/kit/flujo-informe__9x16.png",
+  "tamano": [
+   1080,
+   1920
+  ],
+  "pixeles_distintos": 0,
+  "diferencia_max": 0,
+  "identico": true
+ }
+}

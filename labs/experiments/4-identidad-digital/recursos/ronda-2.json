@@ -1,0 +1,663 @@
+{
+ "estado": "Ronda 2 del experimento 04 · aprobada por Rafael en el laboratorio el 2026-10-07 (B · Ficha) · incorporación canónica pendiente: todavía no es un asset canónico.",
+ "recursos": [
+  {
+   "tipo": "fondo",
+   "id": "fondo-papel-1x1",
+   "svg": "recursos/fondos/svg/fondo-papel-1x1.svg",
+   "png": "recursos/fondos/png/fondo-papel-1x1.png",
+   "W": 1080,
+   "H": 1080,
+   "transparente": false,
+   "uso": "Fondo Papel cream para 1x1."
+  },
+  {
+   "tipo": "fondo",
+   "id": "fondo-papel-4x5",
+   "svg": "recursos/fondos/svg/fondo-papel-4x5.svg",
+   "png": "recursos/fondos/png/fondo-papel-4x5.png",
+   "W": 1080,
+   "H": 1350,
+   "transparente": false,
+   "uso": "Fondo Papel cream para 4x5."
+  },
+  {
+   "tipo": "fondo",
+   "id": "fondo-papel-9x16",
+   "svg": "recursos/fondos/svg/fondo-papel-9x16.svg",
+   "png": "recursos/fondos/png/fondo-papel-9x16.png",
+   "W": 1080,
+   "H": 1920,
+   "transparente": false,
+   "uso": "Fondo Papel cream para 9x16."
+  },
+  {
+   "tipo": "fondo",
+   "id": "fondo-papel-16x9",
+   "svg": "recursos/fondos/svg/fondo-papel-16x9.svg",
+   "png": "recursos/fondos/png/fondo-papel-16x9.png",
+   "W": 1920,
+   "H": 1080,
+   "transparente": false,
+   "uso": "Fondo Papel cream para 16x9."
+  },
+  {
+   "tipo": "fondo",
+   "id": "fondo-papel-suave-1x1",
+   "svg": "recursos/fondos/svg/fondo-papel-suave-1x1.svg",
+   "png": "recursos/fondos/png/fondo-papel-suave-1x1.png",
+   "W": 1080,
+   "H": 1080,
+   "transparente": false,
+   "uso": "Fondo Papel cream suave para 1x1."
+  },
+  {
+   "tipo": "fondo",
+   "id": "fondo-papel-suave-4x5",
+   "svg": "recursos/fondos/svg/fondo-papel-suave-4x5.svg",
+   "png": "recursos/fondos/png/fondo-papel-suave-4x5.png",
+   "W": 1080,
+   "H": 1350,
+   "transparente": false,
+   "uso": "Fondo Papel cream suave para 4x5."
+  },
+  {
+   "tipo": "fondo",
+   "id": "fondo-papel-suave-9x16",
+   "svg": "recursos/fondos/svg/fondo-papel-suave-9x16.svg",
+   "png": "recursos/fondos/png/fondo-papel-suave-9x16.png",
+   "W": 1080,
+   "H": 1920,
+   "transparente": false,
+   "uso": "Fondo Papel cream suave para 9x16."
+  },
+  {
+   "tipo": "fondo",
+   "id": "fondo-papel-suave-16x9",
+   "svg": "recursos/fondos/svg/fondo-papel-suave-16x9.svg",
+   "png": "recursos/fondos/png/fondo-papel-suave-16x9.png",
+   "W": 1920,
+   "H": 1080,
+   "transparente": false,
+   "uso": "Fondo Papel cream suave para 16x9."
+  },
+  {
+   "tipo": "fondo",
+   "id": "fondo-navy-1x1",
+   "svg": "recursos/fondos/svg/fondo-navy-1x1.svg",
+   "png": "recursos/fondos/png/fondo-navy-1x1.png",
+   "W": 1080,
+   "H": 1080,
+   "transparente": false,
+   "uso": "Fondo Navy para 1x1."
+  },
+  {
+   "tipo": "fondo",
+   "id": "fondo-navy-4x5",
+   "svg": "recursos/fondos/svg/fondo-navy-4x5.svg",
+   "png": "recursos/fondos/png/fondo-navy-4x5.png",
+   "W": 1080,
+   "H": 1350,
+   "transparente": false,
+   "uso": "Fondo Navy para 4x5."
+  },
+  {
+   "tipo": "fondo",
+   "id": "fondo-navy-9x16",
+   "svg": "recursos/fondos/svg/fondo-navy-9x16.svg",
+   "png": "recursos/fondos/png/fondo-navy-9x16.png",
+   "W": 1080,
+   "H": 1920,
+   "transparente": false,
+   "uso": "Fondo Navy para 9x16."
+  },
+  {
+   "tipo": "fondo",
+   "id": "fondo-navy-16x9",
+   "svg": "recursos/fondos/svg/fondo-navy-16x9.svg",
+   "png": "recursos/fondos/png/fondo-navy-16x9.png",
+   "W": 1920,
+   "H": 1080,
+   "transparente": false,
+   "uso": "Fondo Navy para 16x9."
+  },
+  {
+   "tipo": "fondo",
+   "id": "fondo-navy-suave-1x1",
+   "svg": "recursos/fondos/svg/fondo-navy-suave-1x1.svg",
+   "png": "recursos/fondos/png/fondo-navy-suave-1x1.png",
+   "W": 1080,
+   "H": 1080,
+   "transparente": false,
+   "uso": "Fondo Navy suave para 1x1."
+  },
+  {
+   "tipo": "fondo",
+   "id": "fondo-navy-suave-4x5",
+   "svg": "recursos/fondos/svg/fondo-navy-suave-4x5.svg",
+   "png": "recursos/fondos/png/fondo-navy-suave-4x5.png",
+   "W": 1080,
+   "H": 1350,
+   "transparente": false,
+   "uso": "Fondo Navy suave para 4x5."
+  },
+  {
+   "tipo": "fondo",
+   "id": "fondo-navy-suave-9x16",
+   "svg": "recursos/fondos/svg/fondo-navy-suave-9x16.svg",
+   "png": "recursos/fondos/png/fondo-navy-suave-9x16.png",
+   "W": 1080,
+   "H": 1920,
+   "transparente": false,
+   "uso": "Fondo Navy suave para 9x16."
+  },
+  {
+   "tipo": "fondo",
+   "id": "fondo-navy-suave-16x9",
+   "svg": "recursos/fondos/svg/fondo-navy-suave-16x9.svg",
+   "png": "recursos/fondos/png/fondo-navy-suave-16x9.png",
+   "W": 1920,
+   "H": 1080,
+   "transparente": false,
+   "uso": "Fondo Navy suave para 16x9."
+  },
+  {
+   "tipo": "microcosmos",
+   "id": "celula-protagonista-claro",
+   "recurso": "celula-protagonista",
+   "familia": "Células",
+   "svg": "recursos/microcosmos/svg/celula-protagonista-claro.svg",
+   "png": "recursos/microcosmos/png/celula-protagonista-claro.png",
+   "muestra": "recursos/microcosmos/png/celula-protagonista-claro-muestra.png",
+   "W": 2400,
+   "H": 1800,
+   "tono": "claro",
+   "transparente": true,
+   "uso": "El foco de la pieza: una sola por composición, con doble membrana, interior pleno, foco salmón desplazado hacia la luz y un arco de luz interior.",
+   "exclusion": [
+    [
+     574,
+     372,
+     1826,
+     1500
+    ]
+   ]
+  },
+  {
+   "tipo": "microcosmos",
+   "id": "celula-protagonista-oscuro",
+   "recurso": "celula-protagonista",
+   "familia": "Células",
+   "svg": "recursos/microcosmos/svg/celula-protagonista-oscuro.svg",
+   "png": "recursos/microcosmos/png/celula-protagonista-oscuro.png",
+   "muestra": "recursos/microcosmos/png/celula-protagonista-oscuro-muestra.png",
+   "W": 2400,
+   "H": 1800,
+   "tono": "oscuro",
+   "transparente": true,
+   "uso": "El foco de la pieza: una sola por composición, con doble membrana, interior pleno, foco salmón desplazado hacia la luz y un arco de luz interior.",
+   "exclusion": [
+    [
+     574,
+     372,
+     1826,
+     1500
+    ]
+   ]
+  },
+  {
+   "tipo": "microcosmos",
+   "id": "celula-acompanante-claro",
+   "recurso": "celula-acompanante",
+   "familia": "Células",
+   "svg": "recursos/microcosmos/svg/celula-acompanante-claro.svg",
+   "png": "recursos/microcosmos/png/celula-acompanante-claro.png",
+   "muestra": "recursos/microcosmos/png/celula-acompanante-claro-muestra.png",
+   "W": 2400,
+   "H": 1800,
+   "tono": "claro",
+   "transparente": true,
+   "uso": "Escala la protagonista en dos pasos (0,42 y 0,18 R): membrana simple, interior tenue, foco tintado o ausente.",
+   "exclusion": [
+    [
+     509,
+     617,
+     1219,
+     1255
+    ],
+    [
+     1444,
+     587,
+     1820,
+     925
+    ],
+    [
+     1459,
+     1111,
+     1709,
+     1337
+    ]
+   ]
+  },
+  {
+   "tipo": "microcosmos",
+   "id": "celula-acompanante-oscuro",
+   "recurso": "celula-acompanante",
+   "familia": "Células",
+   "svg": "recursos/microcosmos/svg/celula-acompanante-oscuro.svg",
+   "png": "recursos/microcosmos/png/celula-acompanante-oscuro.png",
+   "muestra": "recursos/microcosmos/png/celula-acompanante-oscuro-muestra.png",
+   "W": 2400,
+   "H": 1800,
+   "tono": "oscuro",
+   "transparente": true,
+   "uso": "Escala la protagonista en dos pasos (0,42 y 0,18 R): membrana simple, interior tenue, foco tintado o ausente.",
+   "exclusion": [
+    [
+     509,
+     617,
+     1219,
+     1255
+    ],
+    [
+     1444,
+     587,
+     1820,
+     925
+    ],
+    [
+     1459,
+     1111,
+     1709,
+     1337
+    ]
+   ]
+  },
+  {
+   "tipo": "microcosmos",
+   "id": "membrana-abierta-claro",
+   "recurso": "membrana-abierta",
+   "familia": "Células",
+   "svg": "recursos/microcosmos/svg/membrana-abierta-claro.svg",
+   "png": "recursos/microcosmos/png/membrana-abierta-claro.png",
+   "muestra": "recursos/microcosmos/png/membrana-abierta-claro-muestra.png",
+   "W": 2400,
+   "H": 1800,
+   "tono": "claro",
+   "transparente": true,
+   "uso": "Un contorno de ~290° que abraza un número o un icono: contención sin cerrar, para índices y destacados.",
+   "exclusion": [
+    [
+     584,
+     328,
+     1816,
+     1472
+    ]
+   ]
+  },
+  {
+   "tipo": "microcosmos",
+   "id": "membrana-abierta-oscuro",
+   "recurso": "membrana-abierta",
+   "familia": "Células",
+   "svg": "recursos/microcosmos/svg/membrana-abierta-oscuro.svg",
+   "png": "recursos/microcosmos/png/membrana-abierta-oscuro.png",
+   "muestra": "recursos/microcosmos/png/membrana-abierta-oscuro-muestra.png",
+   "W": 2400,
+   "H": 1800,
+   "tono": "oscuro",
+   "transparente": true,
+   "uso": "Un contorno de ~290° que abraza un número o un icono: contención sin cerrar, para índices y destacados.",
+   "exclusion": [
+    [
+     584,
+     328,
+     1816,
+     1472
+    ]
+   ]
+  },
+  {
+   "tipo": "microcosmos",
+   "id": "grupo-asimetrico-claro",
+   "recurso": "grupo-asimetrico",
+   "familia": "Agrupaciones",
+   "svg": "recursos/microcosmos/svg/grupo-asimetrico-claro.svg",
+   "png": "recursos/microcosmos/png/grupo-asimetrico-claro.png",
+   "muestra": "recursos/microcosmos/png/grupo-asimetrico-claro-muestra.png",
+   "W": 2400,
+   "H": 1800,
+   "tono": "claro",
+   "transparente": true,
+   "uso": "Ilustración protagonista: una célula y sus acompañantes se alejan de la luz hacia abajo a la derecha. Ordenado, nunca aleatorio.",
+   "exclusion": [
+    [
+     298,
+     201,
+     1434,
+     1223
+    ],
+    [
+     1420,
+     791,
+     1897,
+     1239
+    ],
+    [
+     1077,
+     1345,
+     1418,
+     1665
+    ],
+    [
+     1920,
+     474,
+     2113,
+     656
+    ],
+    [
+     1692,
+     1396,
+     1851,
+     1545
+    ]
+   ]
+  },
+  {
+   "tipo": "microcosmos",
+   "id": "grupo-asimetrico-oscuro",
+   "recurso": "grupo-asimetrico",
+   "familia": "Agrupaciones",
+   "svg": "recursos/microcosmos/svg/grupo-asimetrico-oscuro.svg",
+   "png": "recursos/microcosmos/png/grupo-asimetrico-oscuro.png",
+   "muestra": "recursos/microcosmos/png/grupo-asimetrico-oscuro-muestra.png",
+   "W": 2400,
+   "H": 1800,
+   "tono": "oscuro",
+   "transparente": true,
+   "uso": "Ilustración protagonista: una célula y sus acompañantes se alejan de la luz hacia abajo a la derecha. Ordenado, nunca aleatorio.",
+   "exclusion": [
+    [
+     298,
+     201,
+     1434,
+     1223
+    ],
+    [
+     1420,
+     791,
+     1897,
+     1239
+    ],
+    [
+     1077,
+     1345,
+     1418,
+     1665
+    ],
+    [
+     1920,
+     474,
+     2113,
+     656
+    ],
+    [
+     1692,
+     1396,
+     1851,
+     1545
+    ]
+   ]
+  },
+  {
+   "tipo": "microcosmos",
+   "id": "grupo-par-claro",
+   "recurso": "grupo-par",
+   "familia": "Agrupaciones",
+   "svg": "recursos/microcosmos/svg/grupo-par-claro.svg",
+   "png": "recursos/microcosmos/png/grupo-par-claro.png",
+   "muestra": "recursos/microcosmos/png/grupo-par-claro-muestra.png",
+   "W": 2400,
+   "H": 1800,
+   "tono": "claro",
+   "transparente": true,
+   "uso": "Dos células cercanas sin tocarse: compañía y relevo, para mensajes breves y consejos.",
+   "exclusion": [
+    [
+     240,
+     332,
+     1420,
+     1394
+    ],
+    [
+     1350,
+     934,
+     1999,
+     1544
+    ],
+    [
+     1982,
+     723,
+     2171,
+     901
+    ]
+   ]
+  },
+  {
+   "tipo": "microcosmos",
+   "id": "grupo-par-oscuro",
+   "recurso": "grupo-par",
+   "familia": "Agrupaciones",
+   "svg": "recursos/microcosmos/svg/grupo-par-oscuro.svg",
+   "png": "recursos/microcosmos/png/grupo-par-oscuro.png",
+   "muestra": "recursos/microcosmos/png/grupo-par-oscuro-muestra.png",
+   "W": 2400,
+   "H": 1800,
+   "tono": "oscuro",
+   "transparente": true,
+   "uso": "Dos células cercanas sin tocarse: compañía y relevo, para mensajes breves y consejos.",
+   "exclusion": [
+    [
+     240,
+     332,
+     1420,
+     1394
+    ],
+    [
+     1350,
+     934,
+     1999,
+     1544
+    ],
+    [
+     1982,
+     723,
+     2171,
+     901
+    ]
+   ]
+  },
+  {
+   "tipo": "microcosmos",
+   "id": "campo-perimetral-claro",
+   "recurso": "campo-perimetral",
+   "familia": "Campos",
+   "svg": "recursos/microcosmos/svg/campo-perimetral-claro.svg",
+   "png": "recursos/microcosmos/png/campo-perimetral-claro.png",
+   "muestra": "recursos/microcosmos/png/campo-perimetral-claro-muestra.png",
+   "W": 2400,
+   "H": 1800,
+   "tono": "claro",
+   "transparente": true,
+   "uso": "Un tejido de células sobre retícula hexagonal que crece desde un borde y se aclara hacia el texto: orden vivo, comunidad, sin competir con el mensaje.",
+   "exclusion": [
+    [
+     960,
+     0,
+     2400,
+     1800
+    ]
+   ]
+  },
+  {
+   "tipo": "microcosmos",
+   "id": "campo-perimetral-oscuro",
+   "recurso": "campo-perimetral",
+   "familia": "Campos",
+   "svg": "recursos/microcosmos/svg/campo-perimetral-oscuro.svg",
+   "png": "recursos/microcosmos/png/campo-perimetral-oscuro.png",
+   "muestra": "recursos/microcosmos/png/campo-perimetral-oscuro-muestra.png",
+   "W": 2400,
+   "H": 1800,
+   "tono": "oscuro",
+   "transparente": true,
+   "uso": "Un tejido de células sobre retícula hexagonal que crece desde un borde y se aclara hacia el texto: orden vivo, comunidad, sin competir con el mensaje.",
+   "exclusion": [
+    [
+     960,
+     0,
+     2400,
+     1800
+    ]
+   ]
+  },
+  {
+   "tipo": "microcosmos",
+   "id": "campo-ordenado-claro",
+   "recurso": "campo-ordenado",
+   "familia": "Campos",
+   "svg": "recursos/microcosmos/svg/campo-ordenado-claro.svg",
+   "png": "recursos/microcosmos/png/campo-ordenado-claro.png",
+   "muestra": "recursos/microcosmos/png/campo-ordenado-claro-muestra.png",
+   "W": 2400,
+   "H": 1800,
+   "tono": "claro",
+   "transparente": true,
+   "uso": "La cuadrícula de la ronda 1, más ligera: un foco entre muchas células iguales. Para piezas de producto y modo editorial.",
+   "exclusion": [
+    [
+     240,
+     540,
+     2160,
+     1260
+    ]
+   ]
+  },
+  {
+   "tipo": "microcosmos",
+   "id": "campo-ordenado-oscuro",
+   "recurso": "campo-ordenado",
+   "familia": "Campos",
+   "svg": "recursos/microcosmos/svg/campo-ordenado-oscuro.svg",
+   "png": "recursos/microcosmos/png/campo-ordenado-oscuro.png",
+   "muestra": "recursos/microcosmos/png/campo-ordenado-oscuro-muestra.png",
+   "W": 2400,
+   "H": 1800,
+   "tono": "oscuro",
+   "transparente": true,
+   "uso": "La cuadrícula de la ronda 1, más ligera: un foco entre muchas células iguales. Para piezas de producto y modo editorial.",
+   "exclusion": [
+    [
+     240,
+     540,
+     2160,
+     1260
+    ]
+   ]
+  },
+  {
+   "tipo": "microcosmos",
+   "id": "recorte-perimetral-claro",
+   "recurso": "recorte-perimetral",
+   "familia": "Contornos",
+   "svg": "recursos/microcosmos/svg/recorte-perimetral-claro.svg",
+   "png": "recursos/microcosmos/png/recorte-perimetral-claro.png",
+   "muestra": "recursos/microcosmos/png/recorte-perimetral-claro-muestra.png",
+   "W": 2400,
+   "H": 1800,
+   "tono": "claro",
+   "transparente": true,
+   "uso": "Una gran célula vista de cerca, cortada por el borde: profundidad y escala para identidad y cierres.",
+   "exclusion": [
+    [
+     960,
+     0,
+     2400,
+     1116
+    ]
+   ]
+  },
+  {
+   "tipo": "microcosmos",
+   "id": "recorte-perimetral-oscuro",
+   "recurso": "recorte-perimetral",
+   "familia": "Contornos",
+   "svg": "recursos/microcosmos/svg/recorte-perimetral-oscuro.svg",
+   "png": "recursos/microcosmos/png/recorte-perimetral-oscuro.png",
+   "muestra": "recursos/microcosmos/png/recorte-perimetral-oscuro-muestra.png",
+   "W": 2400,
+   "H": 1800,
+   "tono": "oscuro",
+   "transparente": true,
+   "uso": "Una gran célula vista de cerca, cortada por el borde: profundidad y escala para identidad y cierres.",
+   "exclusion": [
+    [
+     960,
+     0,
+     2400,
+     1116
+    ]
+   ]
+  },
+  {
+   "tipo": "microcosmos",
+   "id": "foco-separador-claro",
+   "recurso": "foco-separador",
+   "familia": "Detalles",
+   "svg": "recursos/microcosmos/svg/foco-separador-claro.svg",
+   "png": "recursos/microcosmos/png/foco-separador-claro.png",
+   "muestra": "recursos/microcosmos/png/foco-separador-claro-muestra.png",
+   "W": 2400,
+   "H": 1800,
+   "tono": "claro",
+   "transparente": true,
+   "uso": "Detalle mínimo para modo editorial: marca un elemento de lista o separa bloques sin añadir otra ilustración.",
+   "exclusion": [
+    [
+     240,
+     630,
+     2160,
+     1476
+    ]
+   ]
+  },
+  {
+   "tipo": "microcosmos",
+   "id": "foco-separador-oscuro",
+   "recurso": "foco-separador",
+   "familia": "Detalles",
+   "svg": "recursos/microcosmos/svg/foco-separador-oscuro.svg",
+   "png": "recursos/microcosmos/png/foco-separador-oscuro.png",
+   "muestra": "recursos/microcosmos/png/foco-separador-oscuro-muestra.png",
+   "W": 2400,
+   "H": 1800,
+   "tono": "oscuro",
+   "transparente": true,
+   "uso": "Detalle mínimo para modo editorial: marca un elemento de lista o separa bloques sin añadir otra ilustración.",
+   "exclusion": [
+    [
+     240,
+     630,
+     2160,
+     1476
+    ]
+   ]
+  }
+ ],
+ "problemas": [],
+ "img_igual_a_en_linea": {
+  "total": 34,
+  "identicos": 34,
+  "distintos": []
+ }
+}

@@ -1,0 +1,364 @@
+{
+ "fecha": "2026-10-08T05:08:59+00:00",
+ "base": "4c9d04a0af63faf6ce931d6c83294ca4dfee5d2a",
+ "binarios": {
+  "en_base": 313,
+  "modificados_fuera_de_excepciones": [],
+  "excepciones_medidas": [
+   {
+    "archivo": "validacion/guias/guias-capacidad-revisor__16x9.png",
+    "tamano": [
+     1920,
+     1080
+    ],
+    "caja_diferencias": [
+     1458,
+     12,
+     1906,
+     52
+    ],
+    "ok": true
+   },
+   {
+    "archivo": "validacion/guias/guias-capacidad-revisor__191x1.png",
+    "tamano": [
+     1200,
+     628
+    ],
+    "caja_diferencias": [
+     738,
+     12,
+     1186,
+     52
+    ],
+    "ok": true
+   },
+   {
+    "archivo": "validacion/guias/guias-capacidad-revisor__1x1.png",
+    "tamano": [
+     1080,
+     1080
+    ],
+    "caja_diferencias": [
+     618,
+     12,
+     1066,
+     52
+    ],
+    "ok": true
+   },
+   {
+    "archivo": "validacion/guias/guias-capacidad-revisor__4x5.png",
+    "tamano": [
+     1080,
+     1350
+    ],
+    "caja_diferencias": [
+     618,
+     12,
+     1066,
+     52
+    ],
+    "ok": true
+   },
+   {
+    "archivo": "validacion/guias/guias-capacidad-revisor__9x16.png",
+    "tamano": [
+     1080,
+     1920
+    ],
+    "caja_diferencias": [
+     618,
+     12,
+     1066,
+     52
+    ],
+    "ok": true
+   },
+   {
+    "archivo": "validacion/hojas/comparacion-abc.png",
+    "tamano": [
+     2716,
+     1802
+    ],
+    "caja_diferencias": [
+     230,
+     29,
+     1502,
+     53
+    ],
+    "ok": true
+   },
+   {
+    "archivo": "validacion/hojas/kit-carrusel-novedad.png",
+    "tamano": [
+     2880,
+     1138
+    ],
+    "caja_diferencias": [
+     468,
+     29,
+     910,
+     53
+    ],
+    "ok": true
+   },
+   {
+    "archivo": "validacion/hojas/kit-horizontales-auxiliares.png",
+    "tamano": [
+     3766,
+     1606
+    ],
+    "caja_diferencias": [
+     781,
+     29,
+     1223,
+     53
+    ],
+    "ok": true
+   },
+   {
+    "archivo": "validacion/hojas/kit-identidad-producto.png",
+    "tamano": [
+     2880,
+     1138
+    ],
+    "caja_diferencias": [
+     438,
+     29,
+     880,
+     53
+    ],
+    "ok": true
+   }
+  ],
+  "intactos": 304
+ },
+ "svg": {
+  "modificados": 56,
+  "con_cambios_fuera_de_desc": [],
+  "otros_svg_modificados": []
+ },
+ "zips": {
+  "celuma-04-comparacion.zip": {
+   "archivos": 24,
+   "iguales": 22,
+   "actualizados": [
+    "LEEME.txt",
+    "validacion/hojas/comparacion-abc.png"
+   ],
+   "faltan": [],
+   "nuevos": [],
+   "binarios_distintos": [],
+   "ok": true
+  },
+  "celuma-04-exports-pdf.zip": {
+   "archivos": 63,
+   "iguales": 62,
+   "actualizados": [
+    "LEEME.txt"
+   ],
+   "faltan": [],
+   "nuevos": [],
+   "binarios_distintos": [],
+   "ok": true
+  },
+  "celuma-04-exports-png.zip": {
+   "archivos": 64,
+   "iguales": 62,
+   "actualizados": [
+    "LEEME.txt",
+    "manifest.json"
+   ],
+   "faltan": [],
+   "nuevos": [],
+   "binarios_distintos": [],
+   "ok": true
+  },
+  "celuma-04-kit-editable.zip": {
+   "archivos": 48,
+   "iguales": 29,
+   "actualizados": [
+    "LEEME.txt",
+    "README.md",
+    "kit/contenido.js",
+    "kit/editor.html",
+    "kit/formatos.js",
+    "kit/microcosmos.html",
+    "kit/microcosmos.js",
+    "kit/pieza.html",
+    "kit/piezas.css",
+    "kit/piezas.js",
+    "kit/sistema.css",
+    "motion/motion.html",
+    "motion/motion.js",
+    "scripts/capturas.mjs",
+    "scripts/exportar.mjs",
+    "scripts/hojas.sh",
+    "scripts/manifiesto.mjs",
+    "scripts/navegacion.mjs",
+    "scripts/recursos.mjs"
+   ],
+   "faltan": [],
+   "nuevos": [
+    "scripts/cierre-render.mjs",
+    "scripts/cierre.py"
+   ],
+   "binarios_distintos": [],
+   "ok": true
+  },
+  "celuma-04-motion.zip": {
+   "archivos": 9,
+   "iguales": 8,
+   "actualizados": [
+    "LEEME.txt"
+   ],
+   "faltan": [],
+   "nuevos": [],
+   "binarios_distintos": [],
+   "ok": true
+  },
+  "celuma-04-recursos.zip": {
+   "archivos": 61,
+   "iguales": 37,
+   "actualizados": [
+    "LEEME.txt",
+    "recursos/recursos.json",
+    "recursos/svg/cuadricula-orden-10x3-crema.svg",
+    "recursos/svg/cuadricula-orden-10x3-navy.svg",
+    "recursos/svg/cuadricula-orden-6x5-crema.svg",
+    "recursos/svg/cuadricula-orden-6x5-navy.svg",
+    "recursos/svg/cuadricula-orden-8x2-crema.svg",
+    "recursos/svg/cuadricula-orden-8x2-navy.svg",
+    "recursos/svg/iconos/icono-correo.svg",
+    "recursos/svg/iconos/icono-firma.svg",
+    "recursos/svg/iconos/icono-flecha.svg",
+    "recursos/svg/iconos/icono-flujo.svg",
+    "recursos/svg/iconos/icono-guia.svg",
+    "recursos/svg/iconos/icono-muestra.svg",
+    "recursos/svg/iconos/icono-novedad.svg",
+    "recursos/svg/iconos/icono-persona.svg",
+    "recursos/svg/iconos/icono-plantilla.svg",
+    "recursos/svg/iconos/icono-valor.svg",
+    "recursos/svg/rastreador-4-pasos-0.svg",
+    "recursos/svg/rastreador-4-pasos-1.svg",
+    "recursos/svg/rastreador-4-pasos-2.svg",
+    "recursos/svg/rastreador-4-pasos-3.svg",
+    "recursos/svg/rastreador-4-pasos-4.svg",
+    "recursos/svg/regla-salmon-vertical.svg"
+   ],
+   "faltan": [],
+   "nuevos": [],
+   "binarios_distintos": [],
+   "ok": true
+  },
+  "celuma-04-ronda-2-evidencia.zip": {
+   "archivos": 64,
+   "iguales": 63,
+   "actualizados": [
+    "LEEME.txt"
+   ],
+   "faltan": [],
+   "nuevos": [],
+   "binarios_distintos": [],
+   "ok": true
+  },
+  "celuma-04-ronda-2-fondos-microcosmos.zip": {
+   "archivos": 97,
+   "iguales": 58,
+   "actualizados": [
+    "LEEME.txt",
+    "kit/microcosmos.html",
+    "kit/microcosmos.js",
+    "recursos/fondos/svg/fondo-navy-16x9.svg",
+    "recursos/fondos/svg/fondo-navy-1x1.svg",
+    "recursos/fondos/svg/fondo-navy-4x5.svg",
+    "recursos/fondos/svg/fondo-navy-9x16.svg",
+    "recursos/fondos/svg/fondo-navy-suave-16x9.svg",
+    "recursos/fondos/svg/fondo-navy-suave-1x1.svg",
+    "recursos/fondos/svg/fondo-navy-suave-4x5.svg",
+    "recursos/fondos/svg/fondo-navy-suave-9x16.svg",
+    "recursos/fondos/svg/fondo-papel-16x9.svg",
+    "recursos/fondos/svg/fondo-papel-1x1.svg",
+    "recursos/fondos/svg/fondo-papel-4x5.svg",
+    "recursos/fondos/svg/fondo-papel-9x16.svg",
+    "recursos/fondos/svg/fondo-papel-suave-16x9.svg",
+    "recursos/fondos/svg/fondo-papel-suave-1x1.svg",
+    "recursos/fondos/svg/fondo-papel-suave-4x5.svg",
+    "recursos/fondos/svg/fondo-papel-suave-9x16.svg",
+    "recursos/microcosmos/catalogo.json",
+    "recursos/microcosmos/svg/campo-ordenado-claro.svg",
+    "recursos/microcosmos/svg/campo-ordenado-oscuro.svg",
+    "recursos/microcosmos/svg/campo-perimetral-claro.svg",
+    "recursos/microcosmos/svg/campo-perimetral-oscuro.svg",
+    "recursos/microcosmos/svg/celula-acompanante-claro.svg",
+    "recursos/microcosmos/svg/celula-acompanante-oscuro.svg",
+    "recursos/microcosmos/svg/celula-protagonista-claro.svg",
+    "recursos/microcosmos/svg/celula-protagonista-oscuro.svg",
+    "recursos/microcosmos/svg/foco-separador-claro.svg",
+    "recursos/microcosmos/svg/foco-separador-oscuro.svg",
+    "recursos/microcosmos/svg/grupo-asimetrico-claro.svg",
+    "recursos/microcosmos/svg/grupo-asimetrico-oscuro.svg",
+    "recursos/microcosmos/svg/grupo-par-claro.svg",
+    "recursos/microcosmos/svg/grupo-par-oscuro.svg",
+    "recursos/microcosmos/svg/membrana-abierta-claro.svg",
+    "recursos/microcosmos/svg/membrana-abierta-oscuro.svg",
+    "recursos/microcosmos/svg/recorte-perimetral-claro.svg",
+    "recursos/microcosmos/svg/recorte-perimetral-oscuro.svg",
+    "recursos/ronda-2.json"
+   ],
+   "faltan": [],
+   "nuevos": [],
+   "binarios_distintos": [],
+   "ok": true
+  }
+ },
+ "manifiesto": {
+  "decision": {
+   "revisor": "Rafael",
+   "fecha": "2026-10-07",
+   "registro": "DECISION.md",
+   "direccionElegida": "B · Ficha · ronda 2 (elegida)",
+   "alternativasConservadas": [
+    "A · Lumen",
+    "C · Membrana"
+   ],
+   "antecedentes": [
+    "B · Ficha · ronda 1"
+   ],
+   "siguientePaso": "Migración preparada, no ejecutada: MIGRATION-PLAN.md"
+  },
+  "kit_aprobado": true,
+  "ronda2_aprobada": true,
+  "recursos_aprobados": true,
+  "motion_muestra_aprobada": true,
+  "a_c_alternativas": true,
+  "b1_antecedente": true
+ },
+ "rotulos": {
+  "index.html": [],
+  "galeria.js": [],
+  "galeria-datos.js": [],
+  "kit/editor.html": [],
+  "kit/pieza.html": [],
+  "kit/microcosmos.html": [],
+  "motion/motion.html": [],
+  "descargas/LEEME.txt": [],
+  "README.md": [],
+  "manifest.json · estados": [],
+  "recursos/*.json · estado": [],
+  "labs/index.html · tarjeta 04": [],
+  "labs/index.html · aviso": [],
+  "labs/README.md · entrada 04": [],
+  "docs/estado-de-piezas.md · fila 04": []
+ },
+ "render": {
+  "fecha": "2026-10-08T05:08:05.047Z",
+  "navegador": "Chromium (Playwright de celuma-frontend) headless, macOS",
+  "ok": true,
+  "resumen": "61/61 piezas del kit renderizadas de nuevo con el código del cierre, idénticas byte a byte a exports/kit/",
+  "distintas": []
+ },
+ "ok": true,
+ "resumen": "304/313 binarios intactos; 9 con cambio medido solo en rótulo o título · 56 SVG solo con <desc> nuevo · 8/8 ZIP con binarios intactos · estados del manifiesto correctos · rótulos contradictorios: 0 · render: 61/61 piezas del kit renderizadas de nuevo con el código del cierre, idénticas byte a byte a exports/kit/"
+}
