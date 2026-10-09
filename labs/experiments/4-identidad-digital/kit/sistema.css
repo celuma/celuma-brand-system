@@ -1,9 +1,11 @@
 /* =====================================================================
-   Céluma · Experimento 04 · Sistema de identidad digital (CANDIDATO)
+   Céluma · Experimento 04 · Sistema de identidad digital B · Ficha
+   Aprobado por Rafael en el laboratorio el 2026-10-07 (ronda 2).
    ---------------------------------------------------------------------
    Roles locales del experimento. NO son tokens compartidos: no sustituyen
    ni modifican ../../../../styles/celuma-tokens.css. Se prefijan --e4-
-   para que no puedan confundirse con los tokens canónicos.
+   para que no puedan confundirse con los tokens canónicos. Su promoción a
+   tokens es un cambio propio de la migración (MIGRATION-PLAN.md, WP-2).
 
    Pigmentos del logo: paleta aprobada por Rafael el 2026-09-27
    (../../2-logo-vector-v2/master/celuma-paleta-aprobada.json).
@@ -13,7 +15,7 @@
    ===================================================================== */
 
 /* Tipografía: Baloo 2 800 (wordmark y titulares, SIL OFL 1.1) e Inter
-   (texto de piezas exportadas, candidata, SIL OFL 1.1). Ambas desde
+   (texto de piezas exportadas, aprobada dentro de B, SIL OFL 1.1). Ambas desde
    Google Fonts, como el resto del sistema. Ver README §Tipografía. */
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Inter:ital,opsz,wght@0,14..32,400..700;1,14..32,400&display=block");
 
@@ -30,19 +32,19 @@
   --e4-blanco: #FFFFFF;
   --e4-navy:   #0D1B2A;
 
-  /* Tintes derivados (candidatos locales; mezcla sobre crema) */
-  --e4-menta-suave: #E4F3EA;  /* tinte frío del citoplasma (valor candidato) */
+  /* Tintes derivados (locales de B, aprobados en el laboratorio; mezcla sobre crema) */
+  --e4-menta-suave: #E4F3EA;  /* tinte frío del citoplasma */
   --e4-luz-0: #F6DAA6;        /* rayos 55 % sobre crema */
   --e4-luz-1: #F7E2B9;        /* rayos 40 % sobre crema */
   --e4-luz-2: #F9EBD0;        /* rayos 22 % */
   --e4-luz-3: #FAF1DF;        /* rayos 10 % */
 
-  /* Tintas de texto (candidatas; contraste sobre crema / menta suave) */
+  /* Tintas de texto (locales de B, aprobadas en el laboratorio; contraste sobre crema / menta suave) */
   --e4-tinta:        #0D1B2A;  /* 16,15:1 crema · 15,16:1 menta suave */
   --e4-tinta-2:      #3A4A5C;  /* texto de apoyo · 8,43:1 crema · 7,91:1 menta suave */
   --e4-tinta-3:      #56657A;  /* metadatos · 5,51:1 crema · 5,17:1 menta suave */
   --e4-teal-tinta:   #1F7A75;  /* = --celuma-primary-ink · 4,76:1 crema (solo crema/blanco) */
-  --e4-teal-profunda:#17635F;  /* propuesta local · 6,53:1 crema · 6,13:1 menta suave */
+  --e4-teal-profunda:#17635F;  /* local de B · 6,53:1 crema · 6,13:1 menta suave */
   /* Sobre navy */
   --e4-sobre-navy:   #FFFFFF;  /* 17,39:1 */
   --e4-sobre-navy-2: #C9D3DD;  /* texto de apoyo sobre navy (medido en contraste.json) */

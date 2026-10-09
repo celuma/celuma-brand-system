@@ -1,4 +1,6 @@
-// Céluma · Experimento 04 · Contenido de las piezas (CANDIDATO, pendiente de aprobación).
+// Céluma · Experimento 04 · Contenido de las piezas (kit B aprobado en el laboratorio el 2026-10-07).
+// La aprobación visual no convierte estos textos en material publicable: cada afirmación
+// conserva su fuente y estado, y se comprueba otra vez antes de publicar (AFIRMACIONES.md).
 //
 // CÓMO EDITAR: cambie solo los textos entre comillas. Cada pieza conserva sus
 // fuentes. Si cambia una afirmación sobre el producto, actualice `fuentes` y

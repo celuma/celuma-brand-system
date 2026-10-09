@@ -1,4 +1,4 @@
-// Céluma · Experimento 04 · Biblioteca de recursos (CANDIDATA): SVG autónomos + PNG de trabajo.
+// Céluma · Experimento 04 · Biblioteca de recursos (aprobada en el laboratorio dentro de B, 2026-10-07): SVG autónomos + PNG de trabajo.
 // Los recursos salen de las mismas funciones que dibujan las piezas (kit/piezas.js), con los colores
 // resueltos a hexadecimal para que el SVG no dependa de hojas de estilo, fuentes ni rutas externas.
 // Ningún recurso contiene partes del logo: el logo se usa siempre completo desde kit/marca/.
@@ -13,11 +13,11 @@ const E4 = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 for (const f of ['formatos.js', 'contenido.js', 'microcosmos.js', 'piezas.js']) vm.runInThisContext(fs.readFileSync(path.join(E4, 'kit', f), 'utf8'), { filename: f });
 const { E4: M } = globalThis;
 
-// Colores del sistema candidato (kit/sistema.css)
+// Colores del sistema B (kit/sistema.css)
 const css = fs.readFileSync(path.join(E4, 'kit', 'sistema.css'), 'utf8');
 const VARS = Object.fromEntries([...css.matchAll(/--(e4-[\w-]+):\s*(#[0-9A-Fa-f]{6})/g)].map((m) => [m[1], m[2]]));
 const resolver = (s) => s.replace(/var\(--(e4-[\w-]+)\)/g, (_, k) => VARS[k]);
-const ESTADO = 'Recurso candidato del experimento 04 · pendiente de aprobación de Rafael · no es un asset canónico.';
+const ESTADO = 'Recurso de B · Ficha (experimento 04) aprobado por Rafael en el laboratorio el 2026-10-07 · incorporación canónica pendiente: todavía no es un asset canónico.';
 const envolver = (svg, titulo, desc) => svg.replace(/^<svg ([^>]*)>/, (_, a) => `<svg xmlns="http://www.w3.org/2000/svg" ${a.replace(/ ?aria-hidden="true"/, '').replace(/ ?class="[^"]*"/, '')} role="img"><title>${titulo}</title><desc>${desc} ${ESTADO}</desc>`);
 
 const DIR = path.join(E4, 'recursos');
@@ -50,14 +50,14 @@ const rastreador = (n, actual) => {
 for (const a of [0, 1, 2, 3, 4]) guardar(`rastreador-4-pasos-${a}.svg`, rastreador(4, a), 'Rastreador de pasos para carruseles y flujos; los rótulos se escriben en la pieza.');
 // 4 · Iconos de contorno (retícula 24, trazo 2, extremos redondeados)
 for (const [n, d] of Object.entries(M.ICONOS)) {
-  guardar(`iconos/icono-${n}.svg`, `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="${VARS['e4-tinta']}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img"><title>Céluma · icono ${n}</title><desc>Icono de contorno candidato. Un concepto = un icono; no usar emoji. ${ESTADO}</desc>${d}</svg>`, `Icono «${n}».`, { ancho: 512 });
+  guardar(`iconos/icono-${n}.svg`, `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="${VARS['e4-tinta']}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img"><title>Céluma · icono ${n}</title><desc>Icono de contorno de B. Un concepto = un icono; no usar emoji. ${ESTADO}</desc>${d}</svg>`, `Icono «${n}».`, { ancho: 512 });
 }
 
 // ---------------- Ronda 2 · fondos rescatados y biblioteca Microcosmos ----------------
 const MC = globalThis.E4MC;
 const FON = path.join(DIR, 'fondos'), MIC = path.join(DIR, 'microcosmos');
 for (const d of [path.join(FON, 'svg'), path.join(FON, 'png'), path.join(MIC, 'svg'), path.join(MIC, 'png')]) fs.mkdirSync(d, { recursive: true });
-const ESTADO2 = 'Ronda 2 del experimento 04 · candidato pendiente de aprobación de Rafael · no es un asset canónico.';
+const ESTADO2 = 'Ronda 2 del experimento 04 · aprobada por Rafael en el laboratorio el 2026-10-07 (B · Ficha) · incorporación canónica pendiente: todavía no es un asset canónico.';
 const listaR2 = [];
 const FMT = { '1x1': [1080, 1080], '4x5': [1080, 1350], '9x16': [1080, 1920], '16x9': [1920, 1080] };
 for (const f of ['papel', 'papel-suave', 'navy', 'navy-suave']) for (const [fid, [W, H]] of Object.entries(FMT)) {

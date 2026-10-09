@@ -88,6 +88,21 @@ for (const base of servidores) {
   ok('Ronda 2: antes/después muestra solo la ronda 2', await pg.locator('#r2-pares.despues').count() === 1 && await pg.locator('#r2-pares .antes').first().isHidden());
   await pg.click('[data-ad="ambas"]');
   ok('Ronda 2: 10 pares antes/después', await pg.locator('#r2-pares figure').count() === 10);
+  // Cierre (2026-10-07): rótulos activos coherentes con DECISION.md; A y C accesibles como alternativas
+  const cierre = await pg.evaluate(() => ({
+    aviso: document.querySelector('.lab-notice strong').textContent, ceja: document.querySelector('.lab-eyebrow').textContent, pie: document.querySelector('.g-pie span').textContent,
+    sellos: ['a', 'b', 'c'].map((d) => document.querySelector('#d-' + d + ' .g-sello').textContent), cap3: document.getElementById('t-rec').textContent,
+    contradice: (document.body.innerText.match(/pendiente de (la )?aprobaci[oó]n|Decisión \(pendiente\)|no aprobad[ao]|Recomendación candidata|Candidat[ao] · |Exploración · /g) || []) }));
+  ok('Cierre: aviso, ceja y pie con el estado aprobado', /Cerrado/.test(cierre.aviso) && /2026-10-07/.test(cierre.aviso) && /cerrado/.test(cierre.ceja) && /cerrado/.test(cierre.pie), JSON.stringify([cierre.aviso, cierre.ceja, cierre.pie]));
+  ok('Cierre: sellos A/C alternativas y B ronda 1 antecedente', cierre.sellos[0] === 'Alternativa conservada' && cierre.sellos[2] === 'Alternativa conservada' && /antecedente/.test(cierre.sellos[1]), JSON.stringify(cierre.sellos));
+  ok('Cierre: capítulo 3 = dirección elegida', /^Dirección elegida: B · Ficha/.test(cierre.cap3), cierre.cap3);
+  ok('Cierre: sin rótulos de estado contradictorios en la galería', !cierre.contradice.length, cierre.contradice.join(' | '));
+  await pg.click('.lab-notice a[href="#alternativas"]');
+  // El desplazamiento es suave (celuma-tokens): esperar a que termine antes de medir.
+  await pg.waitForFunction(() => Math.abs(document.getElementById('alternativas').getBoundingClientRect().top) < 300, null, { timeout: 8000, polling: 100 }).catch(() => {});
+  await pg.waitForTimeout(300);
+  const alt = await pg.evaluate(() => { const n = document.getElementById('alternativas'), r = n.getBoundingClientRect(), x = r.left + 20, y = r.top + 8; return { top: Math.round(r.top), visible: n.contains(document.elementFromPoint(x, y)) }; });
+  ok('Aviso → «capítulo 2» lleva a las alternativas, visibles', Math.abs(alt.top) < 300 && alt.visible, JSON.stringify(alt));
   // 5 · Enlaces locales de la galería (incluidos .md y descargas)
   const hrefs = await pg.evaluate(() => [...new Set([...document.querySelectorAll('a[href]')].map((a) => a.getAttribute('href')).filter((h) => !/^(https?:|mailto:|#)/.test(h)))]);
   const malos = [];
@@ -109,6 +124,12 @@ for (const base of servidores) {
   ok('Editor: sin Microcosmos', await pg.locator('#escala .pz .mc-modulo').count() === 0 && /micro=0/.test(await pg.evaluate(() => location.hash)));
   await pg.selectOption('#dir', 'b1'); await pg.waitForTimeout(800);
   ok('Editor: B ronda 1 disponible', await pg.locator('#escala .pz.d-b:not(.r2)').count() === 1);
+  await pg.selectOption('#dir', 'a'); await pg.waitForTimeout(800);
+  const ac = await pg.evaluate(() => ({ a: document.querySelectorAll('#escala .pz.d-a').length, opciones: [...document.querySelectorAll('#dir option')].map((o) => o.textContent), estado: document.querySelector('.estado').textContent }));
+  await pg.selectOption('#dir', 'c'); await pg.waitForTimeout(800);
+  ac.c = await pg.locator('#escala .pz.d-c').count();
+  ok('Editor: A y C disponibles como alternativas conservadas', ac.a === 1 && ac.c === 1 && ac.opciones.filter((o) => /· alternativa$/.test(o)).length === 2 && /elegida/.test(ac.opciones[0]), JSON.stringify(ac.opciones));
+  ok('Editor: rótulo de estado aprobado', /aprobada en el laboratorio/.test(ac.estado), ac.estado);
   await pg.selectOption('#dir', 'b'); await pg.selectOption('#fondo', ''); await pg.selectOption('#micro', '');
   await pg.locator('.ruta a', { hasText: 'Identidad digital' }).click();
   await listo(pg);
@@ -129,7 +150,14 @@ for (const base of servidores) {
     const top = await p.evaluate(() => Math.round(document.getElementById('refinamiento').getBoundingClientRect().top));
     ok('Ancla #refinamiento a la vista', Math.abs(top) < 200, 'top=' + top); await p.close(); }
   { const p = await nueva(ctx, errores); await p.goto(base + '/labs/');
-    ok('Lab: enlace a la ronda 2 en la tarjeta del 04', await p.locator('a[href$="4-identidad-digital/index.html#refinamiento"]').count() === 1); await p.close(); }
+    ok('Lab: enlace a la ronda 2 en la tarjeta del 04', await p.locator('a[href$="4-identidad-digital/index.html#refinamiento"]').count() === 1);
+    const t04 = p.locator('.lab-card', { hasText: '04 · Identidad y materiales digitales' });
+    const est = await t04.locator('.lab-status').innerText();
+    ok('Lab: tarjeta del 04 cerrada, con alternativas, decisión y plan de migración', /Cerrado/i.test(est) && await t04.locator('a[href$="#alternativas"]').count() === 1 && await t04.locator('a[href$="DECISION.md"]').count() === 1 && await t04.locator('a[href$="MIGRATION-PLAN.md"]').count() === 1, est);
+    await p.close(); }
+  // Editor abierto directamente con una alternativa (enlace de la galería)
+  { const p = await nueva(ctx, errores); await p.goto(base + EXP + '/kit/editor.html#p=valor-claridad&d=c&f=4x5'); await p.waitForSelector('#aviso:not(:empty)', { timeout: 20000 }); await p.waitForTimeout(500);
+    ok('Editor directo con C · Membrana (alternativa)', await p.locator('#escala .pz.d-c').count() === 1 && await p.inputValue('#dir') === 'c'); await p.close(); }
   await pg.close(); await ctx.close();
   // 8 · Móvil 390 y movimiento reducido
   const cm = await browser.newContext({ viewport: { width: 390, height: 844 }, reducedMotion: 'reduce' });

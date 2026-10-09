@@ -4,17 +4,17 @@ set -e
 cd "$(dirname "$0")/.."
 H=validacion/hojas; C=exports/comparacion; K=exports/kit; T=validacion/tmp/frames
 mkdir -p $H $T
-python3 scripts/hoja.py $H/comparacion-abc.png 520 "Experimento 04 · A Lumen · B Ficha (recomendación candidata) · C Membrana · mismo contenido, misma escala" \
+python3 scripts/hoja.py $H/comparacion-abc.png 520 "Experimento 04 · ronda 1 · A Lumen (alternativa) · B Ficha ronda 1 (antecedente de la elegida) · C Membrana (alternativa) · misma escala" \
   $C/a/valor-claridad__4x5.png $C/b/valor-claridad__4x5.png $C/c/valor-claridad__4x5.png $C/a/valor-claridad__9x16.png $C/b/valor-claridad__9x16.png $C/c/valor-claridad__9x16.png -- \
   $C/a/capacidad-revisor__4x5.png $C/b/capacidad-revisor__4x5.png $C/c/capacidad-revisor__4x5.png $C/a/capacidad-revisor__9x16.png $C/b/capacidad-revisor__9x16.png $C/c/capacidad-revisor__9x16.png -- \
   $C/a/carrusel-informe-1__4x5.png $C/b/carrusel-informe-1__4x5.png $C/c/carrusel-informe-1__4x5.png $C/a/carrusel-informe-4__4x5.png $C/b/carrusel-informe-4__4x5.png $C/c/carrusel-informe-4__4x5.png
-python3 scripts/hoja.py $H/kit-identidad-producto.png 470 "Kit B · valores, identidad y producto (candidato)" \
+python3 scripts/hoja.py $H/kit-identidad-producto.png 470 "Kit B · valores, identidad y producto (aprobado en el laboratorio, 2026-10-07)" \
   $K/valor-claridad__4x5.png $K/valor-precision__4x5.png $K/valor-seguridad__4x5.png $K/valor-confianza__4x5.png $K/valor-humanidad__4x5.png $K/valores-resumen__4x5.png -- \
   $K/identidad-nombre__4x5.png $K/capacidad-revisor__4x5.png $K/capacidad-emitidos__4x5.png $K/consejo-revisor__4x5.png $K/consejo-muestra__4x5.png $K/demo__4x5.png $K/flujo-informe__4x5.png
-python3 scripts/hoja.py $H/kit-carrusel-novedad.png 470 "Kit B · carrusel de 7 láminas y novedad (candidato)" \
+python3 scripts/hoja.py $H/kit-carrusel-novedad.png 470 "Kit B · carrusel de 7 láminas y novedad (aprobado en el laboratorio, 2026-10-07)" \
   $K/carrusel-informe-1__4x5.png $K/carrusel-informe-2__4x5.png $K/carrusel-informe-3__4x5.png $K/carrusel-informe-4__4x5.png $K/carrusel-informe-5__4x5.png $K/carrusel-informe-6__4x5.png $K/carrusel-informe-7__4x5.png -- \
   $K/novedad-131__4x5.png $K/novedad-131__9x16.png $K/novedad-131__1x1.png $K/demo__9x16.png $K/capacidad-revisor__9x16.png $K/flujo-informe__9x16.png $K/valor-claridad__9x16.png
-python3 scripts/hoja.py $H/kit-horizontales-auxiliares.png 330 "Kit B · horizontales, presentación, perfil, destacados, banner y firma (candidato)" \
+python3 scripts/hoja.py $H/kit-horizontales-auxiliares.png 330 "Kit B · horizontales, presentación, perfil, destacados, banner y firma (aprobado en el laboratorio, 2026-10-07)" \
   $K/capacidad-revisor__191x1.png $K/capacidad-revisor__16x9.png $K/novedad-131__191x1.png $K/novedad-131__16x9.png -- \
   $K/demo__16x9.png $K/flujo-informe__16x9.png $K/identidad-nombre__16x9.png $K/slide-titulo__16x9.png $K/slide-contenido__16x9.png -- \
   $K/portada__portada.png $K/banner-docs__banner.png $K/firma-correo__firma.png -- \

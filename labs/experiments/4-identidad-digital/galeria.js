@@ -1,4 +1,5 @@
-// Céluma · Experimento 04 · Galería (exploración). Lee galeria-datos.js (generado) y kit/formatos.js.
+// Céluma · Experimento 04 · Galería (cerrado 2026-10-07: B · Ficha ronda 2 aprobada en el laboratorio; A y C, alternativas conservadas).
+// Lee galeria-datos.js (generado) y kit/formatos.js.
 (function () {
   const D = window.E4_DATOS || { manifest: { archivos: [] } };
   const A = D.manifest.archivos;
@@ -18,7 +19,7 @@
   // ---------- Comparación ----------
   const DIRS = [
     { id: 'a', nombre: 'A · Lumen', lema: 'La luz ordena', idea: 'Arcos de luz plana nacen arriba a la izquierda, como los rayos del isotipo; el mensaje vive en la zona iluminada, con mucho aire.', fuerte: 'La más cálida y la más próxima a «célula + luz». Muy legible y tranquila.', limite: 'Sin módulo para contenido denso; la luz puede volverse decorativa y el amarillo, nostálgico.', valores: 'Claridad y Humanidad; menos Precisión visible.' },
-    { id: 'b', nombre: 'B · Ficha', lema: 'Precisión que se lee', idea: 'Una lámina editorial con cabecera de serie, reglas finas, regla salmón del PageHeader, módulo informativo y la fuente citada.', fuerte: 'Hace visible la precisión; escala a pasos, permisos y novedades; coherente en cinco formatos.', limite: 'Puede enfriarse si se abusa de metadatos; exige disciplina con las fuentes.', valores: 'Precisión, Confianza y Seguridad visibles; Humanidad en tono, crema y Baloo.', rec: true },
+    { id: 'b', nombre: 'B · Ficha', lema: 'Precisión que se lee', idea: 'Una lámina editorial con cabecera de serie, reglas finas, regla salmón del PageHeader, módulo informativo y la fuente citada.', fuerte: 'Hace visible la precisión; escala a pasos, permisos y novedades; coherente en cinco formatos.', limite: 'Puede enfriarse si se abusa de metadatos; exige disciplina con las fuentes.', valores: 'Precisión, Confianza y Seguridad visibles; Humanidad en tono, crema y Baloo.', rec: true, sello: 'Ronda 1 · antecedente de la elegida' },
     { id: 'c', nombre: 'C · Membrana', lema: 'Lo esencial, contenido', idea: 'Un contorno orgánico con anillo teal y relleno menta sostiene el mensaje; un foco salmón numera.', fuerte: 'La más reconocible y cercana; buen contraste dentro del contenedor.', limite: 'Repite la anatomía del logo y compite con él; riesgo de tono sticker.', valores: 'Humanidad y Claridad; Precisión menos evidente.' },
   ];
   const PZC = [['valor-claridad', 'Valores'], ['capacidad-revisor', 'Capacidad verificada'], ['carrusel-informe-1', 'Carrusel · portada'], ['carrusel-informe-4', 'Carrusel · interior']];
@@ -26,7 +27,7 @@
   let cc = ['lienzo', 'claro', 'oscuro'].includes(params.get('contexto')) ? params.get('contexto') : 'lienzo';
   function pintarComparacion() {
     $('#comparacion').innerHTML = DIRS.map((d) => `<article class="g-dir${d.rec ? ' rec' : ''}" id="d-${d.id}">
-      <header><h3>${d.nombre}</h3><span class="g-sello">${d.rec ? 'Recomendación candidata' : 'Alternativa'}</span></header>
+      <header><h3>${d.nombre}</h3><span class="g-sello">${d.sello || 'Alternativa conservada'}</span></header>
       <p class="lema">${d.lema}</p><p>${d.idea}</p>
       <dl><dt>Fortalezas</dt><dd>${d.fuerte}</dd><dt>Límites</dt><dd>${d.limite}</dd><dt>Valores</dt><dd>${d.valores}</dd></dl>
       <div class="g-piezas">${PZC.map(([p, et]) => {

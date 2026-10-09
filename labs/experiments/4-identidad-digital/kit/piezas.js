@@ -1,4 +1,5 @@
-// Céluma · Experimento 04 · Motor de composición (CANDIDATO, pendiente de aprobación).
+// Céluma · Experimento 04 · Motor de composición (cerrado el 2026-10-07: 'b' = B · Ficha ronda 2, aprobada en el
+// laboratorio; 'a' y 'c' = alternativas conservadas; 'b1' = B ronda 1, antecedente histórico; incorporación canónica pendiente).
 // Una pieza = contenido (contenido.js) × dirección (A Lumen · B Ficha · C Membrana) × formato (formatos.js).
 // El logo SIEMPRE se usa como archivo completo de marca/ (copias byte a byte de los
 // lockups A y el isotipo aprobados en el experimento 02). Ningún recurso de esta

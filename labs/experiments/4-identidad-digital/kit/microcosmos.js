@@ -1,4 +1,4 @@
-// Céluma · Experimento 04 · Ronda 2 · Fondos rescatados y biblioteca Microcosmos (CANDIDATO, no aprobado).
+// Céluma · Experimento 04 · Ronda 2 · Fondos rescatados y biblioteca Microcosmos (aprobado por Rafael en el laboratorio el 2026-10-07 dentro de B · Ficha ronda 2; incorporación canónica pendiente).
 //
 // FONDOS. Versiones locales de «01 · Papel cream» y «02 · Navy» (components/web-patterns.jsx,
 // PatternCream/PatternNavy) y de CelBlob (components/atoms.jsx), que NO se modifican. CelBlob es un

@@ -12,13 +12,17 @@ import * as T from './trabajos.mjs';
 const E4 = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 for (const f of ['formatos.js', 'contenido.js', 'microcosmos.js', 'piezas.js']) vm.runInThisContext(fs.readFileSync(path.join(E4, 'kit', f), 'utf8'), { filename: f });
 const { E4C, E4F } = globalThis;
-const ESTADO = 'Candidata · exploración · pendiente de aprobación de Rafael';
+// Estado al cierre (Rafael, 2026-10-07): B · Ficha ronda 2 aprobada en el laboratorio; A y C, alternativas conservadas;
+// B ronda 1, antecedente histórico. Aprobado en el laboratorio ≠ incorporado al Brand System ≠ adoptado por medio.
+const ESTADO = 'Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente';
+const ESTADO_ALT = { a: 'Alternativa conservada (A · Lumen, ronda 1) · disponible para usos futuros · no es la dirección principal', c: 'Alternativa conservada (C · Membrana, ronda 1) · disponible para usos futuros · no es la dirección principal', b: 'Antecedente histórico (B · Ficha ronda 1) · la dirección elegida es B ronda 2' };
+const ESTADO_MOTION = 'Muestra de B aprobada en el laboratorio (Rafael, 2026-10-07) · exportación y uso por red pendientes de la adopción por medio';
 const rel = (p) => path.relative(E4, p).split(path.sep).join('/');
 const sha = (p) => crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 const pngTam = (p) => { const b = fs.readFileSync(p); return [b.readUInt32BE(16), b.readUInt32BE(20)]; };
 const leer = (p, def) => { try { return JSON.parse(fs.readFileSync(path.join(E4, p), 'utf8')); } catch { return def; } };
-const DIRN = { a: 'A · Lumen', b: 'B · Ficha · ronda 2', b1: 'B · Ficha · ronda 1', c: 'C · Membrana' };
-const DIRC = { a: 'A · Lumen', b: 'B · Ficha · ronda 1 (antecedente)', c: 'C · Membrana' };
+const DIRN = { a: 'A · Lumen', b: 'B · Ficha · ronda 2 (elegida)', b1: 'B · Ficha · ronda 1', c: 'C · Membrana' };
+const DIRC = { a: 'A · Lumen (alternativa conservada)', b: 'B · Ficha · ronda 1 (antecedente histórico)', c: 'C · Membrana (alternativa conservada)' };
 const MOTOR = globalThis.E4;
 
 const chk = Object.fromEntries((leer('validacion/exportar-kit.json', { piezas: [] }).piezas).map((x) => [x.p + '__' + x.f, x]));
@@ -43,7 +47,7 @@ for (const d of T.DIRS) for (const [pid, fid] of T.COMPARACION) {
   const png = path.join(E4, 'exports/comparacion', d, `${pid}__${fid}.png`);
   const [w, h] = pngTam(png); const F = E4F.FORMATOS[fid];
   archivos.push({ tipo: 'comparacion', conjunto: 'comparacion', id: `${d}/${pid}__${fid}`, pieza: pid, direccion: DIRC[d], formato: F.nombre, formatoId: fid, png: rel(png), ancho: w, alto: h, coincide: w === F.w && h === F.h,
-    bytes: fs.statSync(png).size, sha256: sha(png), condensada: !!(chkC[d + '/' + pid + '__' + fid] || {}).corto, comprobacion: (chkC[d + '/' + pid + '__' + fid] || {}).ok ? 'ok' : 'revisar', estado: ESTADO });
+    bytes: fs.statSync(png).size, sha256: sha(png), condensada: !!(chkC[d + '/' + pid + '__' + fid] || {}).corto, comprobacion: (chkC[d + '/' + pid + '__' + fid] || {}).ok ? 'ok' : 'revisar', estado: ESTADO_ALT[d] });
 }
 // Recursos
 for (const r of leer('recursos/recursos.json', { recursos: [] }).recursos) {
@@ -54,7 +58,7 @@ const R2 = leer('recursos/ronda-2.json', { recursos: [] });
 for (const r of R2.recursos) archivos.push({ tipo: r.tipo === 'fondo' ? 'fondo' : 'microcosmos', conjunto: 'ronda-2', id: r.id, svg: r.svg, png: r.png, muestra: r.muestra, ancho: r.W, alto: r.H, uso: r.uso, sha256: sha(path.join(E4, r.svg)), estado: ESTADO + ' · ronda 2' });
 // Ronda 2: antes / después del grupo representativo
 const pares = T.RONDA2.map(([pid, fid]) => ({ pieza: pid, formato: fid, antes: `ronda-2/antes/piezas/${pid}__${fid}.png`, despues: `ronda-2/despues/${pid}__${fid}.png` })).filter((x) => fs.existsSync(path.join(E4, x.antes)) && fs.existsSync(path.join(E4, x.despues)));
-for (const x of pares) archivos.push({ tipo: 'antes-despues', conjunto: 'ronda-2', id: `${x.pieza}__${x.formato}`, png: x.despues, antes: x.antes, ancho: pngTam(path.join(E4, x.despues))[0], alto: pngTam(path.join(E4, x.despues))[1], sha256: sha(path.join(E4, x.despues)), estado: ESTADO + ' · ronda 2' });
+for (const x of pares) archivos.push({ tipo: 'antes-despues', conjunto: 'ronda-2', id: `${x.pieza}__${x.formato}`, png: x.despues, antes: x.antes, ancho: pngTam(path.join(E4, x.despues))[0], alto: pngTam(path.join(E4, x.despues))[1], sha256: sha(path.join(E4, x.despues)), estado: 'Después = B ronda 2, aprobada en el laboratorio (2026-10-07) · antes = B ronda 1, antecedente histórico' });
 // Motion
 const vid = leer('validacion/video.json', { piezas: {} }).piezas;
 for (const [id, v] of Object.entries(vid)) {
@@ -62,9 +66,9 @@ for (const [id, v] of Object.entries(vid)) {
   const probe = (f) => { try { return execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'stream=codec_name,width,height,r_frame_rate:format=duration', '-of', 'json', f], { encoding: 'utf8' }); } catch { return '{}'; } };
   for (const ext of ['mp4', 'webm']) {
     const f = `${base}.${ext}`; const j = JSON.parse(probe(f)); const s = (j.streams || [])[0] || {};
-    archivos.push({ tipo: 'motion', conjunto: 'motion', id: `${id}.${ext}`, archivo: rel(f), codec: s.codec_name, ancho: s.width, alto: s.height, fps: s.r_frame_rate, duracion_s: +((j.format || {}).duration || 0), bytes: fs.statSync(f).size, sha256: sha(f), estado: ESTADO });
+    archivos.push({ tipo: 'motion', conjunto: 'motion', id: `${id}.${ext}`, archivo: rel(f), codec: s.codec_name, ancho: s.width, alto: s.height, fps: s.r_frame_rate, duracion_s: +((j.format || {}).duration || 0), bytes: fs.statSync(f).size, sha256: sha(f), estado: ESTADO_MOTION });
   }
-  archivos.push({ tipo: 'motion-estatico', conjunto: 'motion', id: `${id}-final.png`, archivo: rel(base + '-final.png'), ancho: v.ancho, alto: v.alto, nota: 'Último fotograma = estado reducido; idéntico a la pieza estática del kit (ver VALIDACION.md).', sha256: sha(base + '-final.png'), estado: ESTADO });
+  archivos.push({ tipo: 'motion-estatico', conjunto: 'motion', id: `${id}-final.png`, archivo: rel(base + '-final.png'), ancho: v.ancho, alto: v.alto, nota: 'Último fotograma = estado reducido; idéntico a la pieza estática del kit (ver VALIDACION.md).', sha256: sha(base + '-final.png'), estado: ESTADO_MOTION });
 }
 // Marca (copias byte a byte del experimento 02)
 const E2 = path.resolve(E4, '../2-logo-vector-v2');
@@ -84,7 +88,7 @@ const resumen = {
   marcaIdentica: archivos.filter((a) => a.tipo === 'marca').every((a) => a.identico),
   condensadas: archivos.filter((a) => a.conjunto === 'kit' && a.condensada).map((a) => a.id),
 };
-const zips = [['celuma-04-kit-editable.zip', 'Kit editable', 'Plantillas HTML/CSS/JS, contenido, logo, editor y generadores'], ['celuma-04-exports-png.zip', 'Exports PNG', '61 piezas a tamaño de artboard + manifest.json'], ['celuma-04-exports-pdf.zip', 'Exports PDF', '61 PDF vectoriales con fuentes incrustadas'], ['celuma-04-recursos.zip', 'Recursos', 'Cuadrícula, rastreador, regla, iconos (SVG + PNG) y logo'], ['celuma-04-motion.zip', 'Motion', 'MP4, WebM, pósteres y estáticos de los dos ejemplos'], ['celuma-04-comparacion.zip', 'Comparación A · B · C (ronda 1)', '18 piezas y hoja de contacto'], ['celuma-04-ronda-2-fondos-microcosmos.zip', 'Ronda 2 · fondos y Microcosmos', '16 fondos y 18 recursos (SVG + PNG), catálogo y espécimen'], ['celuma-04-ronda-2-evidencia.zip', 'Ronda 2 · antes / después y evidencia', 'Pares antes/después, hojas, referencia original y mediciones']]
+const zips = [['celuma-04-kit-editable.zip', 'Kit editable', 'Plantillas HTML/CSS/JS, contenido, logo, editor y generadores'], ['celuma-04-exports-png.zip', 'Exports PNG', '61 piezas a tamaño de artboard + manifest.json'], ['celuma-04-exports-pdf.zip', 'Exports PDF', '61 PDF vectoriales con fuentes incrustadas'], ['celuma-04-recursos.zip', 'Recursos', 'Cuadrícula, rastreador, regla, iconos (SVG + PNG) y logo'], ['celuma-04-motion.zip', 'Motion', 'MP4, WebM, pósteres y estáticos de los dos ejemplos'], ['celuma-04-comparacion.zip', 'Comparación A · B · C (ronda 1)', '18 piezas y hoja de contacto · A y C, alternativas conservadas; B ronda 1, antecedente'], ['celuma-04-ronda-2-fondos-microcosmos.zip', 'Ronda 2 · fondos y Microcosmos', '16 fondos y 18 recursos (SVG + PNG), catálogo y espécimen'], ['celuma-04-ronda-2-evidencia.zip', 'Ronda 2 · antes / después y evidencia', 'Pares antes/después, hojas, referencia original y mediciones']]
   .filter(([f]) => fs.existsSync(path.join(E4, 'descargas', f))).map(([f, nombre, contenido]) => ({ archivo: 'descargas/' + f, nombre, contenido, bytes: fs.statSync(path.join(E4, 'descargas', f)).size }));
 const kitOk = archivos.filter((a) => a.conjunto === 'kit');
 const cmpOk = archivos.filter((a) => a.conjunto === 'comparacion');
@@ -108,9 +112,11 @@ const calidad = [
   ['Ronda 2 · logo y Microcosmos', 'validacion/exportar-kit.json (geometría real, variación de fondo en la protección)', (() => { const ps = exp.filter((x) => x.proteccion); const mal = ps.filter((x) => (x.proteccion || []).some((q) => !q.ok) || (x.microcosmos || []).length); return `${ps.length - mal.length}/${ps.length} piezas: ninguna forma sobre texto ni en la protección; fondo ≤ 3 niveles bajo el logo`; })(), !exp.some((x) => (x.proteccion || []).some((q) => !q.ok) || (x.microcosmos || []).length), 'Portada 4:1: luz a la derecha (excepción documentada)'],
   ['Ronda 2 · fidelidad de los fondos', 'ronda-2/fidelidad-fondos.json', (() => { const f = leer('ronda-2/fidelidad-fondos.json', {}); return f.papel ? `Papel: máx. ${f.papel.dif_max} · Navy: máx. ${f.navy.dif_max} niveles frente al render del lienzo` : 'Pendiente'; })(), true, '—'],
   ['Ronda 2 · recursos autónomos', 'recursos/ronda-2.json', (() => { const f = leer('recursos/ronda-2.json', {}); return f.img_igual_a_en_linea ? `${f.recursos.length} SVG sin dependencias; como <img> = en línea: ${f.img_igual_a_en_linea.identicos}/${f.img_igual_a_en_linea.total}` : 'Pendiente'; })(), (() => { const f = leer('recursos/ronda-2.json', {}); return !!f.img_igual_a_en_linea && !f.problemas.length && f.img_igual_a_en_linea.identicos === f.img_igual_a_en_linea.total; })(), '—'],
+  ['Cierre 2026-10-07 · estado coherente y piezas intactas', 'validacion/cierre.json (scripts/cierre.mjs)', (() => { const c = leer('validacion/cierre.json', null); return c ? c.resumen : 'Pendiente de ejecutar'; })(), !!(leer('validacion/cierre.json', {}) || {}).ok, 'Solo rótulos, metadatos y paquetes cambiaron; ver VALIDACION.md §8'],
   ['Navegadores y dispositivos', '—', 'Solo Chromium en macOS', false, 'Safari, Firefox, iOS, Android, apps de redes, lectores de pantalla e impresión: no probados'],
 ];
-const manifest = { experimento: '04 · Identidad y materiales digitales de Céluma', estado: ESTADO, direccionRecomendada: DIRN[T.RECOMENDADA] + ' (recomendación candidata, no aprobada)', generado: new Date().toISOString(), resumen, archivos };
+const decision = { revisor: 'Rafael', fecha: '2026-10-07', registro: 'DECISION.md', direccionElegida: DIRN[T.RECOMENDADA], alternativasConservadas: ['A · Lumen', 'C · Membrana'], antecedentes: ['B · Ficha · ronda 1'], siguientePaso: 'Migración preparada, no ejecutada: MIGRATION-PLAN.md' };
+const manifest = { experimento: '04 · Identidad y materiales digitales de Céluma', estado: 'Cerrado · ' + ESTADO, decision, generado: new Date().toISOString(), resumen, archivos };
 fs.writeFileSync(path.join(E4, 'manifest.json'), JSON.stringify(manifest, null, 1));
 const datos = { manifest, calidad, descargas: zips, r2: { recursos: R2, catalogo: leer('recursos/microcosmos/catalogo.json', {}), fidelidad: leer('ronda-2/fidelidad-fondos.json', {}), contrasteReal: leer('validacion/contraste-real-kit.json', {}), exportar: leer('validacion/exportar-ronda2.json', { piezas: [] }).piezas.map((x) => ({ id: x.p + '__' + x.f, ok: x.ok, proteccion: x.proteccion, microcosmos: x.microcosmos })), pares }, motionFinal: leer('validacion/motion-final.json', {}), contraste: leer('validacion/contraste.json', {}), excluidas: E4C.EXCLUIDAS, carrusel: { titulo: E4C.CARRUSEL.titulo, caption: E4C.CARRUSEL.caption }, video: leer('validacion/video.json', {}) };
 fs.writeFileSync(path.join(E4, 'galeria-datos.js'), '// Generado por scripts/manifiesto.mjs. No editar a mano.\nwindow.E4_DATOS = ' + JSON.stringify(datos) + ';\n');

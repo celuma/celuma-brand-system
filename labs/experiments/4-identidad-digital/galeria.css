@@ -1,4 +1,4 @@
-/* Céluma · Experimento 04 · Galería (exploración). Usa tokens y lab.css solo para leer. */
+/* Céluma · Experimento 04 · Galería (cerrado el 2026-10-07; B aprobada en el laboratorio). Usa tokens y lab.css solo para leer. */
 :root { --g-linea: #e3dccd; --g-papel: #fffdf8; --g-tinta-2: #3A4A5C; --g-tinta-3: #56657A; }
 body { background: var(--celuma-bg); }
 .g-skip { position: absolute; left: -999px; top: 8px; z-index: 30; background: #fff; padding: 8px 12px; border-radius: 8px; }
@@ -23,6 +23,7 @@ body { background: var(--celuma-bg); }
 .g-h3 { margin: 34px 0 12px; font-size: 22px; scroll-margin-top: 16px; }
 h4 { margin: 0 0 6px; font: 800 18px/1.2 var(--celuma-font-display); }
 .g-nota { font-size: 14px; color: var(--g-tinta-3); max-width: 900px; }
+#alternativas { scroll-margin-top: 16px; }
 code { font-size: .9em; background: #f1ece2; padding: 1px 5px; border-radius: 5px; }
 .g-tres { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
 .g-dos { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 28px; }
@@ -31,6 +32,7 @@ code { font-size: .9em; background: #f1ece2; padding: 1px 5px; border-radius: 5p
 .g-caja ul { margin: 0; padding-left: 18px; line-height: 1.5; }
 .g-caja p { margin: 0; line-height: 1.5; color: var(--g-tinta-2); }
 .g-lista { line-height: 1.55; padding-left: 20px; }
+.g-dos > div > p { line-height: 1.55; }
 .g-lista li + li { margin-top: 6px; }
 .g-lista.check { list-style: "✓  "; }
 .g-razones { line-height: 1.55; padding-left: 20px; }

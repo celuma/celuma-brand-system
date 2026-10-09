@@ -6,6 +6,8 @@ Cada afirmación sobre el producto que aparece en una pieza tiene una fuente con
 
 **Ronda 2 (2026-10-06):** el refinamiento cambia fondos, ilustración y composición; **no añade ni modifica afirmaciones**. Los textos, fuentes y estados de esta tabla siguen vigentes, y la línea «Fuente ·» se retiró de la portada y el cierre del carrusel porque no afirman nada del producto.
 
+**Cierre (2026-10-07):** Rafael aprobó B · Ficha ronda 2 en el laboratorio. Es una aprobación visual: **no convierte estas afirmaciones en material publicable ni cambia sus estados**. Antes de publicar una pieza, comprueba que su página fuente sigue publicada y dice lo mismo (las fuentes se leyeron el 2026-10-06), y confirma el canal de demostraciones. La tabla sigue siendo el registro vigente para la migración (`MIGRATION-PLAN.md`).
+
 ## En uso en el kit
 
 | Afirmación (texto de la pieza) | Piezas | Fuente | Estado |

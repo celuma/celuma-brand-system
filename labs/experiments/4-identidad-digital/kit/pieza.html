@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
-  <title>Céluma · pieza del kit 04 (candidata)</title>
+  <title>Céluma · pieza del kit 04 (B aprobada en el laboratorio)</title>
   <!-- Una pieza a tamaño real. Parámetros en el fragmento (el preview 5050 conserva el
        fragmento al quitar .html): #p=<pieza>&d=<a|b|b1|c>&f=<formato>[&corto=1][&guias=1][&editar=1]
        Ronda 2 (d=b): &fondo=<papel|papel-suave|navy|navy-suave|crema-plano|navy-plano> y &micro=0 (sin Microcosmos).
@@ -62,7 +62,7 @@
         if (M.zonaAbajo) g += `<div class="zona" style="bottom:0;height:${M.zonaAbajo}px"></div><span class="rotulo" style="left:${M.m}px;bottom:${M.zonaAbajo / 2 - 14}px">Zona de interfaz · hipótesis 20 %</span>`;
         pz.insertAdjacentHTML('beforeend', g + '</div>');
       }
-      if (revision) pz.insertAdjacentHTML('beforeend', '<span class="estado">Candidata · 04</span>');
+      if (revision) pz.insertAdjacentHTML('beforeend', `<span class="estado">${{ b: 'B aprobada en laboratorio · 04', b1: 'B ronda 1 · antecedente · 04', a: 'A · alternativa · 04', c: 'C · alternativa · 04' }[dir] || '04'}</span>`);
       if (editar) pz.querySelectorAll('.titulo,.display,.texto,.def,.eyebrow,.cta,.puntos li,.pasos-lista li,.lista li').forEach((el) => { el.contentEditable = 'true'; el.addEventListener('input', () => { medir(); avisar(); }); });
     }
     function avisar() {

@@ -1,9 +1,9 @@
 # Brief · Experimento 04 · Identidad y materiales digitales de Céluma
 
-**Estado:** exploración · primera ronda entregada el 2026-10-06 · **segunda ronda (refinamiento de B) el mismo día**, a petición de Rafael ([`REFINAMIENTO-B.md`](REFINAMIENTO-B.md)) · **pendiente de la aprobación de Rafael**. La dirección B · Ficha sigue siendo una recomendación candidata, no una decisión. Ronda 2: §8.
-**Encargo:** Rafael, 2026-10-06 ([`PROMPT.md`](PROMPT.md), copia íntegra).
+**Estado:** **cerrado y aprobado por Rafael para el laboratorio visual el 2026-10-07**: dirección elegida **B · Ficha, refinamiento de la ronda 2**; A · Lumen y C · Membrana se conservan como alternativas; la B de la ronda 1 es antecedente histórico ([`DECISION.md`](DECISION.md)). Incorporación canónica y adopción por medio pendientes ([`MIGRATION-PLAN.md`](MIGRATION-PLAN.md)). Historia: primera ronda entregada el 2026-10-06 con B como recomendación candidata; segunda ronda (refinamiento de B) el mismo día, a petición de Rafael ([`REFINAMIENTO-B.md`](REFINAMIENTO-B.md)), todavía sin aprobación; cierre el 2026-10-07 ([`ENCARGO-CIERRE.md`](ENCARGO-CIERRE.md)). Ronda 2: §8.
+**Encargos:** Rafael, 2026-10-06 ([`PROMPT.md`](PROMPT.md), ronda 1) · 2026-10-06 ([`REFINAMIENTO-B.md`](REFINAMIENTO-B.md), ronda 2) · 2026-10-07 ([`ENCARGO-CIERRE.md`](ENCARGO-CIERRE.md), cierre y migración). Copias íntegras.
 **Responsable de la ronda:** Claude (asistente), por encargo de Rafael.
-**Galería:** [`index.html`](index.html) · archivos y edición: [`README.md`](README.md) · comprobaciones: [`VALIDACION.md`](VALIDACION.md) · decisión: [`DECISION.md`](DECISION.md) · plan posterior: [`INCORPORACION.md`](INCORPORACION.md) · afirmaciones: [`AFIRMACIONES.md`](AFIRMACIONES.md).
+**Galería:** [`index.html`](index.html) · archivos y edición: [`README.md`](README.md) · comprobaciones: [`VALIDACION.md`](VALIDACION.md) · decisión de cierre: [`DECISION.md`](DECISION.md) · plan de incorporación: [`INCORPORACION.md`](INCORPORACION.md) y [`MIGRATION-PLAN.md`](MIGRATION-PLAN.md) · afirmaciones: [`AFIRMACIONES.md`](AFIRMACIONES.md).
 
 ## 1. Hipótesis y alcance
 
@@ -80,7 +80,7 @@ Precedencia aplicada: encargo y decisiones vigentes de Rafael → registros de a
 
 ## 7. Decisión
 
-Pendiente de Rafael. Ver [`DECISION.md`](DECISION.md).
+**Cerrado y aprobado por Rafael el 2026-10-07 para el laboratorio visual.** Dirección elegida: B · Ficha ronda 2 (modos, fondos Papel cream/Navy y Microcosmos de §8, con su tipografía, tintas y reglas tal como se entregaron). A · Lumen y C · Membrana: alternativas conservadas. B ronda 1: antecedente histórico. Las secciones §1–§6 y §8 describen el trabajo de las rondas 1 y 2 tal como se planteó entonces; donde dicen «candidata» o «pendiente» registran ese momento. Alcance exacto, matriz de estados y siguiente paso: [`DECISION.md`](DECISION.md).
 
 ## 8. Ronda 2 · refinamiento de B con fondos y Microcosmos
 

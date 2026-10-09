@@ -1,11 +1,20 @@
 Céluma · Experimento 04 · Identidad y materiales digitales
-ESTADO: candidato · exploración · pendiente de la aprobación de Rafael.
-Nada de este paquete está aprobado, incorporado al Brand System ni autorizado para publicarse.
+ESTADO: cerrado · B · Ficha (ronda 2) aprobada por Rafael en el laboratorio visual el 2026-10-07.
+Aprobado en el laboratorio NO significa incorporado al Brand System ni autorizado para publicarse:
+la incorporación canónica está preparada (MIGRATION-PLAN.md) y cada pieza externa requiere su
+adopción por medio (texto revisado, fuente vigente y formato de la plataforma).
 
-- Dirección recomendada (candidata): B · Ficha. Las alternativas A · Lumen y C · Membrana están en el paquete de comparación.
-- El logo (kit/marca) son copias byte a byte de los archivos aprobados en el laboratorio (experimento 02). No modificar.
-- Fuentes: Baloo 2 y Inter (SIL Open Font License 1.1), cargadas desde Google Fonts:
+- Dirección elegida: B · Ficha, refinamiento de la ronda 2 (modos editorial, atmosférico y
+  microcosmos; fondos Papel cream y Navy; biblioteca Microcosmos), con su tipografía, tintas y reglas
+  tal como se entregaron.
+- Alternativas conservadas para posibles usos futuros: A · Lumen y C · Membrana (paquete de
+  comparación). No son reglas por defecto. B · Ficha ronda 1 es antecedente histórico.
+- El logo (kit/marca) son copias byte a byte de los archivos aprobados en el laboratorio (experimento 02).
+  No modificar. Su incorporación canónica también está pendiente.
+- Fuentes: Baloo 2 e Inter (SIL Open Font License 1.1), cargadas desde Google Fonts:
   https://fonts.google.com/specimen/Baloo+2 · https://fonts.google.com/specimen/Inter
 - Afirmaciones de producto: cada pieza cita su página publicada en docs.celuma.mx (ver manifest.json).
+  Compruébalas otra vez antes de publicar. La invitación a demostración no se publica hasta confirmar el canal.
 - Datos sintéticos. Sin pacientes, médicos ni laboratorios reales.
-- Cómo editar y exportar: README.md del experimento (labs/experiments/4-identidad-digital/).
+- Decisión y alcance: DECISION.md · cómo editar y exportar: README.md
+  (labs/experiments/4-identidad-digital/ en celuma-brand-system).

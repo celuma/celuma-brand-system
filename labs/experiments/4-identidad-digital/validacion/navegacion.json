@@ -1,8 +1,8 @@
 {
- "fecha": "2026-10-07T09:29:38.506Z",
+ "fecha": "2026-10-08T05:08:06.099Z",
  "navegador": "Chromium (Playwright de celuma-frontend) headless, macOS",
  "servidores": {
-  "http://127.0.0.1:51142": {
+  "http://127.0.0.1:57459": {
    "ok": true,
    "pruebas": [
     {
@@ -28,17 +28,17 @@
     {
      "prueba": "Entrada directa /labs/experiments/4-identidad-digital/",
      "ok": true,
-     "extra": "{\"url\":\"/labs/experiments/4-identidad-digital/\",\"rotas\":0,\"css\":\"flex\",\"f\":\"4x5\",\"oscuro\":false,\"top\":2341}"
+     "extra": "{\"url\":\"/labs/experiments/4-identidad-digital/\",\"rotas\":0,\"css\":\"flex\",\"f\":\"4x5\",\"oscuro\":false,\"top\":2365}"
     },
     {
      "prueba": "Entrada directa /labs/experiments/4-identidad-digital",
      "ok": true,
-     "extra": "{\"url\":\"/labs/experiments/4-identidad-digital/\",\"rotas\":0,\"css\":\"flex\",\"f\":\"4x5\",\"oscuro\":false,\"top\":2341}"
+     "extra": "{\"url\":\"/labs/experiments/4-identidad-digital/\",\"rotas\":0,\"css\":\"flex\",\"f\":\"4x5\",\"oscuro\":false,\"top\":2365}"
     },
     {
      "prueba": "Entrada directa /labs/experiments/4-identidad-digital/index.html",
      "ok": true,
-     "extra": "{\"url\":\"/labs/experiments/4-identidad-digital/index.html\",\"rotas\":0,\"css\":\"flex\",\"f\":\"4x5\",\"oscuro\":false,\"top\":2341}"
+     "extra": "{\"url\":\"/labs/experiments/4-identidad-digital/index.html\",\"rotas\":0,\"css\":\"flex\",\"f\":\"4x5\",\"oscuro\":false,\"top\":2365}"
     },
     {
      "prueba": "Entrada directa /labs/experiments/4-identidad-digital/?formato=9x16&contexto=oscuro#direcciones",
@@ -78,7 +78,7 @@
     {
      "prueba": "Motion: el vídeo reproduce y pausa",
      "ok": true,
-     "extra": "{\"t\":0.603129,\"src\":\"intro-novedad.webm\"}"
+     "extra": "{\"t\":0.600484,\"src\":\"intro-novedad.webm\"}"
     },
     {
      "prueba": "Ronda 2: capítulo y recorrido propio",
@@ -106,7 +106,32 @@
      "extra": ""
     },
     {
-     "prueba": "Enlaces locales de la galería (294)",
+     "prueba": "Cierre: aviso, ceja y pie con el estado aprobado",
+     "ok": true,
+     "extra": "[\"Cerrado · B · Ficha aprobada por Rafael en el laboratorio (2026-10-07)\",\"Experimento 04 · cerrado · B · Ficha aprobada en el laboratorio (2026-10-07)\",\"Experimento 04 · cerrado · B aprobada en el laboratorio\"]"
+    },
+    {
+     "prueba": "Cierre: sellos A/C alternativas y B ronda 1 antecedente",
+     "ok": true,
+     "extra": "[\"Alternativa conservada\",\"Ronda 1 · antecedente de la elegida\",\"Alternativa conservada\"]"
+    },
+    {
+     "prueba": "Cierre: capítulo 3 = dirección elegida",
+     "ok": true,
+     "extra": "Dirección elegida: B · Ficha"
+    },
+    {
+     "prueba": "Cierre: sin rótulos de estado contradictorios en la galería",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Aviso → «capítulo 2» lleva a las alternativas, visibles",
+     "ok": true,
+     "extra": "{\"top\":17,\"visible\":true}"
+    },
+    {
+     "prueba": "Enlaces locales de la galería (300)",
      "ok": true,
      "extra": ""
     },
@@ -139,6 +164,16 @@
      "prueba": "Editor: B ronda 1 disponible",
      "ok": true,
      "extra": ""
+    },
+    {
+     "prueba": "Editor: A y C disponibles como alternativas conservadas",
+     "ok": true,
+     "extra": "[\"B · Ficha ronda 2 · elegida\",\"B · Ficha ronda 1 · antecedente\",\"A · Lumen · alternativa\",\"C · Membrana · alternativa\"]"
+    },
+    {
+     "prueba": "Editor: rótulo de estado aprobado",
+     "ok": true,
+     "extra": "B · Ficha aprobada en el laboratorio · 2026-10-07"
     },
     {
      "prueba": "Editor → galería",
@@ -182,6 +217,16 @@
     },
     {
      "prueba": "Lab: enlace a la ronda 2 en la tarjeta del 04",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Lab: tarjeta del 04 cerrada, con alternativas, decisión y plan de migración",
+     "ok": true,
+     "extra": "CERRADO · B APROBADA EN LABORATORIO"
+    },
+    {
+     "prueba": "Editor directo con C · Membrana (alternativa)",
      "ok": true,
      "extra": ""
     },
@@ -230,17 +275,17 @@
     {
      "prueba": "Entrada directa /labs/experiments/4-identidad-digital/",
      "ok": true,
-     "extra": "{\"url\":\"/labs/experiments/4-identidad-digital/\",\"rotas\":0,\"css\":\"flex\",\"f\":\"4x5\",\"oscuro\":false,\"top\":2341}"
+     "extra": "{\"url\":\"/labs/experiments/4-identidad-digital/\",\"rotas\":0,\"css\":\"flex\",\"f\":\"4x5\",\"oscuro\":false,\"top\":2365}"
     },
     {
      "prueba": "Entrada directa /labs/experiments/4-identidad-digital",
      "ok": true,
-     "extra": "{\"url\":\"/labs/experiments/4-identidad-digital/\",\"rotas\":0,\"css\":\"flex\",\"f\":\"4x5\",\"oscuro\":false,\"top\":2341}"
+     "extra": "{\"url\":\"/labs/experiments/4-identidad-digital/\",\"rotas\":0,\"css\":\"flex\",\"f\":\"4x5\",\"oscuro\":false,\"top\":2365}"
     },
     {
      "prueba": "Entrada directa /labs/experiments/4-identidad-digital/index.html",
      "ok": true,
-     "extra": "{\"url\":\"/labs/experiments/4-identidad-digital/\",\"rotas\":0,\"css\":\"flex\",\"f\":\"4x5\",\"oscuro\":false,\"top\":2341}"
+     "extra": "{\"url\":\"/labs/experiments/4-identidad-digital/\",\"rotas\":0,\"css\":\"flex\",\"f\":\"4x5\",\"oscuro\":false,\"top\":2365}"
     },
     {
      "prueba": "Entrada directa /labs/experiments/4-identidad-digital/?formato=9x16&contexto=oscuro#direcciones",
@@ -280,7 +325,7 @@
     {
      "prueba": "Motion: el vídeo reproduce y pausa",
      "ok": true,
-     "extra": "{\"t\":0.602829,\"src\":\"intro-novedad.webm\"}"
+     "extra": "{\"t\":0.60187,\"src\":\"intro-novedad.webm\"}"
     },
     {
      "prueba": "Ronda 2: capítulo y recorrido propio",
@@ -308,7 +353,32 @@
      "extra": ""
     },
     {
-     "prueba": "Enlaces locales de la galería (294)",
+     "prueba": "Cierre: aviso, ceja y pie con el estado aprobado",
+     "ok": true,
+     "extra": "[\"Cerrado · B · Ficha aprobada por Rafael en el laboratorio (2026-10-07)\",\"Experimento 04 · cerrado · B · Ficha aprobada en el laboratorio (2026-10-07)\",\"Experimento 04 · cerrado · B aprobada en el laboratorio\"]"
+    },
+    {
+     "prueba": "Cierre: sellos A/C alternativas y B ronda 1 antecedente",
+     "ok": true,
+     "extra": "[\"Alternativa conservada\",\"Ronda 1 · antecedente de la elegida\",\"Alternativa conservada\"]"
+    },
+    {
+     "prueba": "Cierre: capítulo 3 = dirección elegida",
+     "ok": true,
+     "extra": "Dirección elegida: B · Ficha"
+    },
+    {
+     "prueba": "Cierre: sin rótulos de estado contradictorios en la galería",
+     "ok": true,
+     "extra": ""
+    },
+    {
+     "prueba": "Aviso → «capítulo 2» lleva a las alternativas, visibles",
+     "ok": true,
+     "extra": "{\"top\":19,\"visible\":true}"
+    },
+    {
+     "prueba": "Enlaces locales de la galería (300)",
      "ok": true,
      "extra": ""
     },
@@ -341,6 +411,16 @@
      "prueba": "Editor: B ronda 1 disponible",
      "ok": true,
      "extra": ""
+    },
+    {
+     "prueba": "Editor: A y C disponibles como alternativas conservadas",
+     "ok": true,
+     "extra": "[\"B · Ficha ronda 2 · elegida\",\"B · Ficha ronda 1 · antecedente\",\"A · Lumen · alternativa\",\"C · Membrana · alternativa\"]"
+    },
+    {
+     "prueba": "Editor: rótulo de estado aprobado",
+     "ok": true,
+     "extra": "B · Ficha aprobada en el laboratorio · 2026-10-07"
     },
     {
      "prueba": "Editor → galería",
@@ -388,6 +468,16 @@
      "extra": ""
     },
     {
+     "prueba": "Lab: tarjeta del 04 cerrada, con alternativas, decisión y plan de migración",
+     "ok": true,
+     "extra": "CERRADO · B APROBADA EN LABORATORIO"
+    },
+    {
+     "prueba": "Editor directo con C · Membrana (alternativa)",
+     "ok": true,
+     "extra": ""
+    },
+    {
      "prueba": "390 px: sin desplazamiento horizontal",
      "ok": true,
      "extra": "{\"sw\":390,\"est\":2,\"vid\":0}"
@@ -405,11 +495,11 @@
    ],
    "errores": [],
    "notas": [
-    "9 peticiones especulativas 404 al entrar sin barra final (efecto conocido de la normalización): 404 /lab.css · 404 /labs/experiments/kit/sistema.css · 404 /labs/experiments/galeria.css · 404 /labs/experiments/kit/marca/celuma-lockup-horizontal-color-positivo.svg · 404 /labs/experiments/kit/marca/celuma-lockup-horizontal-color-negativo.svg · 404 /labs/experiments/kit/marca/celuma-isotipo-color.svg · 404 /labs/experiments/kit/formatos.js · 404 /labs/experiments/galeria-datos.js · 404 /labs/experiments/galeria.js"
+    "9 peticiones especulativas 404 al entrar sin barra final (efecto conocido de la normalización): 404 /labs/experiments/kit/sistema.css · 404 /lab.css · 404 /labs/experiments/galeria.css · 404 /labs/experiments/kit/marca/celuma-lockup-horizontal-color-negativo.svg · 404 /labs/experiments/kit/marca/celuma-lockup-horizontal-color-positivo.svg · 404 /labs/experiments/kit/marca/celuma-isotipo-color.svg · 404 /labs/experiments/galeria-datos.js · 404 /labs/experiments/kit/formatos.js · 404 /labs/experiments/galeria.js"
    ]
   }
  },
  "ok": true,
- "resumen": "http.server: 39/39 · http://localhost:5050: 39/39",
+ "resumen": "http.server: 48/48 · http://localhost:5050: 48/48",
  "limites": "Chromium headless; la pestaña nueva se comprobó con el evento de página. Sin Safari, Firefox ni dispositivos."
 }

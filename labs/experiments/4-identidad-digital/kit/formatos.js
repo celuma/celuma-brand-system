@@ -1,4 +1,4 @@
-// Céluma · Experimento 04 · Formatos y métricas (CANDIDATO, pendiente de aprobación).
+// Céluma · Experimento 04 · Formatos y métricas (aprobado por Rafael en el laboratorio el 2026-10-07 dentro de B · Ficha ronda 2; incorporación canónica pendiente).
 // Los artboards son bases de diseño por proporción, no especificaciones certificadas
 // de ninguna plataforma. Las zonas de interfaz del 9:16 son una HIPÓTESIS de diseño
 // tomada de docs/guia-de-publicaciones.md §5 (14 % arriba, 20 % abajo).

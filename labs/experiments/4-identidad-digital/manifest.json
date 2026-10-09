@@ -1,8 +1,21 @@
 {
  "experimento": "04 · Identidad y materiales digitales de Céluma",
- "estado": "Candidata · exploración · pendiente de aprobación de Rafael",
- "direccionRecomendada": "B · Ficha · ronda 2 (recomendación candidata, no aprobada)",
- "generado": "2026-10-07T09:31:14.599Z",
+ "estado": "Cerrado · Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente",
+ "decision": {
+  "revisor": "Rafael",
+  "fecha": "2026-10-07",
+  "registro": "DECISION.md",
+  "direccionElegida": "B · Ficha · ronda 2 (elegida)",
+  "alternativasConservadas": [
+   "A · Lumen",
+   "C · Membrana"
+  ],
+  "antecedentes": [
+   "B · Ficha · ronda 1"
+  ],
+  "siguientePaso": "Migración preparada, no ejecutada: MIGRATION-PLAN.md"
+ },
+ "generado": "2026-10-08T05:09:01.449Z",
  "resumen": {
   "piezasKit": 61,
   "formatosKit": [
@@ -35,7 +48,7 @@
    "pieza": "valor-claridad",
    "plantilla": "valor",
    "grupo": "Identidad y valores",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "4:5",
    "formatoId": "4x5",
    "proposito": "Publicación vertical y carrusel (prioritario)",
@@ -62,7 +75,7 @@
      "estado": "valor-marca"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -71,7 +84,7 @@
    "pieza": "valor-claridad",
    "plantilla": "valor",
    "grupo": "Identidad y valores",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "9:16",
    "formatoId": "9x16",
    "proposito": "Historia y vídeo vertical (prioritario)",
@@ -98,7 +111,7 @@
      "estado": "valor-marca"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -107,7 +120,7 @@
    "pieza": "valor-precision",
    "plantilla": "valor",
    "grupo": "Identidad y valores",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "4:5",
    "formatoId": "4x5",
    "proposito": "Publicación vertical y carrusel (prioritario)",
@@ -134,7 +147,7 @@
      "estado": "valor-marca"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -143,7 +156,7 @@
    "pieza": "valor-precision",
    "plantilla": "valor",
    "grupo": "Identidad y valores",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "9:16",
    "formatoId": "9x16",
    "proposito": "Historia y vídeo vertical (prioritario)",
@@ -170,7 +183,7 @@
      "estado": "valor-marca"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -179,7 +192,7 @@
    "pieza": "valor-seguridad",
    "plantilla": "valor",
    "grupo": "Identidad y valores",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "4:5",
    "formatoId": "4x5",
    "proposito": "Publicación vertical y carrusel (prioritario)",
@@ -206,7 +219,7 @@
      "estado": "valor-marca"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -215,7 +228,7 @@
    "pieza": "valor-seguridad",
    "plantilla": "valor",
    "grupo": "Identidad y valores",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "9:16",
    "formatoId": "9x16",
    "proposito": "Historia y vídeo vertical (prioritario)",
@@ -242,7 +255,7 @@
      "estado": "valor-marca"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -251,7 +264,7 @@
    "pieza": "valor-confianza",
    "plantilla": "valor",
    "grupo": "Identidad y valores",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "4:5",
    "formatoId": "4x5",
    "proposito": "Publicación vertical y carrusel (prioritario)",
@@ -278,7 +291,7 @@
      "estado": "valor-marca"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -287,7 +300,7 @@
    "pieza": "valor-confianza",
    "plantilla": "valor",
    "grupo": "Identidad y valores",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "9:16",
    "formatoId": "9x16",
    "proposito": "Historia y vídeo vertical (prioritario)",
@@ -314,7 +327,7 @@
      "estado": "valor-marca"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -323,7 +336,7 @@
    "pieza": "valor-humanidad",
    "plantilla": "valor",
    "grupo": "Identidad y valores",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "4:5",
    "formatoId": "4x5",
    "proposito": "Publicación vertical y carrusel (prioritario)",
@@ -350,7 +363,7 @@
      "estado": "valor-marca"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -359,7 +372,7 @@
    "pieza": "valor-humanidad",
    "plantilla": "valor",
    "grupo": "Identidad y valores",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "9:16",
    "formatoId": "9x16",
    "proposito": "Historia y vídeo vertical (prioritario)",
@@ -386,7 +399,7 @@
      "estado": "valor-marca"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -395,7 +408,7 @@
    "pieza": "valor-claridad",
    "plantilla": "valor",
    "grupo": "Identidad y valores",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "1:1",
    "formatoId": "1x1",
    "proposito": "Publicación cuadrada",
@@ -422,7 +435,7 @@
      "estado": "valor-marca"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -431,7 +444,7 @@
    "pieza": "valores-resumen",
    "plantilla": "valores",
    "grupo": "Identidad y valores",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "4:5",
    "formatoId": "4x5",
    "proposito": "Publicación vertical y carrusel (prioritario)",
@@ -458,7 +471,7 @@
      "estado": "valor-marca"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -467,7 +480,7 @@
    "pieza": "valores-resumen",
    "plantilla": "valores",
    "grupo": "Identidad y valores",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "1:1",
    "formatoId": "1x1",
    "proposito": "Publicación cuadrada",
@@ -494,7 +507,7 @@
      "estado": "valor-marca"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -503,7 +516,7 @@
    "pieza": "valores-resumen",
    "plantilla": "valores",
    "grupo": "Identidad y valores",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "9:16",
    "formatoId": "9x16",
    "proposito": "Historia y vídeo vertical (prioritario)",
@@ -530,7 +543,7 @@
      "estado": "valor-marca"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -539,7 +552,7 @@
    "pieza": "identidad-nombre",
    "plantilla": "identidad",
    "grupo": "Identidad y valores",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "4:5",
    "formatoId": "4x5",
    "proposito": "Publicación vertical y carrusel (prioritario)",
@@ -566,7 +579,7 @@
      "estado": "valor-marca"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -575,7 +588,7 @@
    "pieza": "identidad-nombre",
    "plantilla": "identidad",
    "grupo": "Identidad y valores",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "9:16",
    "formatoId": "9x16",
    "proposito": "Historia y vídeo vertical (prioritario)",
@@ -602,7 +615,7 @@
      "estado": "valor-marca"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -611,7 +624,7 @@
    "pieza": "identidad-nombre",
    "plantilla": "identidad",
    "grupo": "Identidad y valores",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "16:9",
    "formatoId": "16x9",
    "proposito": "Vídeo horizontal, presentación y web",
@@ -638,7 +651,7 @@
      "estado": "valor-marca"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -647,7 +660,7 @@
    "pieza": "capacidad-revisor",
    "plantilla": "capacidad",
    "grupo": "Capacidad verificada",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "1:1",
    "formatoId": "1x1",
    "proposito": "Publicación cuadrada",
@@ -679,7 +692,7 @@
      "nota": "Implementado en código; no se probó en producción en esta ronda."
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -688,7 +701,7 @@
    "pieza": "capacidad-revisor",
    "plantilla": "capacidad",
    "grupo": "Capacidad verificada",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "4:5",
    "formatoId": "4x5",
    "proposito": "Publicación vertical y carrusel (prioritario)",
@@ -720,7 +733,7 @@
      "nota": "Implementado en código; no se probó en producción en esta ronda."
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -729,7 +742,7 @@
    "pieza": "capacidad-revisor",
    "plantilla": "capacidad",
    "grupo": "Capacidad verificada",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "9:16",
    "formatoId": "9x16",
    "proposito": "Historia y vídeo vertical (prioritario)",
@@ -761,7 +774,7 @@
      "nota": "Implementado en código; no se probó en producción en esta ronda."
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -770,7 +783,7 @@
    "pieza": "capacidad-revisor",
    "plantilla": "capacidad",
    "grupo": "Capacidad verificada",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "1.91:1",
    "formatoId": "191x1",
    "proposito": "Vista de enlace y anuncio horizontal",
@@ -802,7 +815,7 @@
      "nota": "Implementado en código; no se probó en producción en esta ronda."
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -811,7 +824,7 @@
    "pieza": "capacidad-revisor",
    "plantilla": "capacidad",
    "grupo": "Capacidad verificada",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "16:9",
    "formatoId": "16x9",
    "proposito": "Vídeo horizontal, presentación y web",
@@ -843,7 +856,7 @@
      "nota": "Implementado en código; no se probó en producción en esta ronda."
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -852,7 +865,7 @@
    "pieza": "capacidad-emitidos",
    "plantilla": "capacidad",
    "grupo": "Capacidad verificada",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "4:5",
    "formatoId": "4x5",
    "proposito": "Publicación vertical y carrusel (prioritario)",
@@ -879,7 +892,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -888,7 +901,7 @@
    "pieza": "capacidad-emitidos",
    "plantilla": "capacidad",
    "grupo": "Capacidad verificada",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "9:16",
    "formatoId": "9x16",
    "proposito": "Historia y vídeo vertical (prioritario)",
@@ -915,7 +928,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -924,7 +937,7 @@
    "pieza": "capacidad-emitidos",
    "plantilla": "capacidad",
    "grupo": "Capacidad verificada",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "1:1",
    "formatoId": "1x1",
    "proposito": "Publicación cuadrada",
@@ -951,7 +964,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -960,7 +973,7 @@
    "pieza": "consejo-revisor",
    "plantilla": "consejo",
    "grupo": "Consejo o guía",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "4:5",
    "formatoId": "4x5",
    "proposito": "Publicación vertical y carrusel (prioritario)",
@@ -987,7 +1000,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -996,7 +1009,7 @@
    "pieza": "consejo-revisor",
    "plantilla": "consejo",
    "grupo": "Consejo o guía",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "9:16",
    "formatoId": "9x16",
    "proposito": "Historia y vídeo vertical (prioritario)",
@@ -1023,7 +1036,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1032,7 +1045,7 @@
    "pieza": "consejo-revisor",
    "plantilla": "consejo",
    "grupo": "Consejo o guía",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "1:1",
    "formatoId": "1x1",
    "proposito": "Publicación cuadrada",
@@ -1059,7 +1072,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1068,7 +1081,7 @@
    "pieza": "consejo-muestra",
    "plantilla": "consejo",
    "grupo": "Consejo o guía",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "4:5",
    "formatoId": "4x5",
    "proposito": "Publicación vertical y carrusel (prioritario)",
@@ -1095,7 +1108,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1104,7 +1117,7 @@
    "pieza": "consejo-muestra",
    "plantilla": "consejo",
    "grupo": "Consejo o guía",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "9:16",
    "formatoId": "9x16",
    "proposito": "Historia y vídeo vertical (prioritario)",
@@ -1131,7 +1144,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1140,7 +1153,7 @@
    "pieza": "novedad-131",
    "plantilla": "novedad",
    "grupo": "Novedad verificable",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "1:1",
    "formatoId": "1x1",
    "proposito": "Publicación cuadrada",
@@ -1167,7 +1180,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1176,7 +1189,7 @@
    "pieza": "novedad-131",
    "plantilla": "novedad",
    "grupo": "Novedad verificable",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "4:5",
    "formatoId": "4x5",
    "proposito": "Publicación vertical y carrusel (prioritario)",
@@ -1203,7 +1216,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1212,7 +1225,7 @@
    "pieza": "novedad-131",
    "plantilla": "novedad",
    "grupo": "Novedad verificable",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "9:16",
    "formatoId": "9x16",
    "proposito": "Historia y vídeo vertical (prioritario)",
@@ -1239,7 +1252,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1248,7 +1261,7 @@
    "pieza": "novedad-131",
    "plantilla": "novedad",
    "grupo": "Novedad verificable",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "1.91:1",
    "formatoId": "191x1",
    "proposito": "Vista de enlace y anuncio horizontal",
@@ -1275,7 +1288,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1284,7 +1297,7 @@
    "pieza": "novedad-131",
    "plantilla": "novedad",
    "grupo": "Novedad verificable",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "16:9",
    "formatoId": "16x9",
    "proposito": "Vídeo horizontal, presentación y web",
@@ -1311,7 +1324,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1320,7 +1333,7 @@
    "pieza": "demo",
    "plantilla": "demo",
    "grupo": "Invitación a demostración",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "1:1",
    "formatoId": "1x1",
    "proposito": "Publicación cuadrada",
@@ -1352,7 +1365,7 @@
      "nota": "Confirmar que el buzón atiende solicitudes de demostración antes de publicar."
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1361,7 +1374,7 @@
    "pieza": "demo",
    "plantilla": "demo",
    "grupo": "Invitación a demostración",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "4:5",
    "formatoId": "4x5",
    "proposito": "Publicación vertical y carrusel (prioritario)",
@@ -1393,7 +1406,7 @@
      "nota": "Confirmar que el buzón atiende solicitudes de demostración antes de publicar."
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1402,7 +1415,7 @@
    "pieza": "demo",
    "plantilla": "demo",
    "grupo": "Invitación a demostración",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "9:16",
    "formatoId": "9x16",
    "proposito": "Historia y vídeo vertical (prioritario)",
@@ -1434,7 +1447,7 @@
      "nota": "Confirmar que el buzón atiende solicitudes de demostración antes de publicar."
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1443,7 +1456,7 @@
    "pieza": "demo",
    "plantilla": "demo",
    "grupo": "Invitación a demostración",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "1.91:1",
    "formatoId": "191x1",
    "proposito": "Vista de enlace y anuncio horizontal",
@@ -1475,7 +1488,7 @@
      "nota": "Confirmar que el buzón atiende solicitudes de demostración antes de publicar."
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1484,7 +1497,7 @@
    "pieza": "demo",
    "plantilla": "demo",
    "grupo": "Invitación a demostración",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "16:9",
    "formatoId": "16x9",
    "proposito": "Vídeo horizontal, presentación y web",
@@ -1516,7 +1529,7 @@
      "nota": "Confirmar que el buzón atiende solicitudes de demostración antes de publicar."
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1525,7 +1538,7 @@
    "pieza": "flujo-informe",
    "plantilla": "flujo",
    "grupo": "Explicación de flujo",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "4:5",
    "formatoId": "4x5",
    "proposito": "Publicación vertical y carrusel (prioritario)",
@@ -1560,7 +1573,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1569,7 +1582,7 @@
    "pieza": "flujo-informe",
    "plantilla": "flujo",
    "grupo": "Explicación de flujo",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "9:16",
    "formatoId": "9x16",
    "proposito": "Historia y vídeo vertical (prioritario)",
@@ -1604,7 +1617,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1613,7 +1626,7 @@
    "pieza": "flujo-informe",
    "plantilla": "flujo",
    "grupo": "Explicación de flujo",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "16:9",
    "formatoId": "16x9",
    "proposito": "Vídeo horizontal, presentación y web",
@@ -1648,7 +1661,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1657,7 +1670,7 @@
    "pieza": "flujo-informe",
    "plantilla": "flujo",
    "grupo": "Explicación de flujo",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "1.91:1",
    "formatoId": "191x1",
    "proposito": "Vista de enlace y anuncio horizontal",
@@ -1692,7 +1705,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1701,7 +1714,7 @@
    "pieza": "carrusel-informe-1",
    "plantilla": "carrusel-portada",
    "grupo": "Carrusel",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "4:5",
    "formatoId": "4x5",
    "proposito": "Publicación vertical y carrusel (prioritario)",
@@ -1736,7 +1749,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1745,7 +1758,7 @@
    "pieza": "carrusel-informe-2",
    "plantilla": "carrusel-paso",
    "grupo": "Carrusel",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "4:5",
    "formatoId": "4x5",
    "proposito": "Publicación vertical y carrusel (prioritario)",
@@ -1772,7 +1785,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1781,7 +1794,7 @@
    "pieza": "carrusel-informe-3",
    "plantilla": "carrusel-paso",
    "grupo": "Carrusel",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "4:5",
    "formatoId": "4x5",
    "proposito": "Publicación vertical y carrusel (prioritario)",
@@ -1808,7 +1821,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1817,7 +1830,7 @@
    "pieza": "carrusel-informe-4",
    "plantilla": "carrusel-paso",
    "grupo": "Carrusel",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "4:5",
    "formatoId": "4x5",
    "proposito": "Publicación vertical y carrusel (prioritario)",
@@ -1848,7 +1861,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1857,7 +1870,7 @@
    "pieza": "carrusel-informe-5",
    "plantilla": "carrusel-paso",
    "grupo": "Carrusel",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "4:5",
    "formatoId": "4x5",
    "proposito": "Publicación vertical y carrusel (prioritario)",
@@ -1888,7 +1901,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1897,7 +1910,7 @@
    "pieza": "carrusel-informe-6",
    "plantilla": "carrusel-nota",
    "grupo": "Carrusel",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "4:5",
    "formatoId": "4x5",
    "proposito": "Publicación vertical y carrusel (prioritario)",
@@ -1924,7 +1937,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1933,7 +1946,7 @@
    "pieza": "carrusel-informe-7",
    "plantilla": "carrusel-cierre",
    "grupo": "Carrusel",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "4:5",
    "formatoId": "4x5",
    "proposito": "Publicación vertical y carrusel (prioritario)",
@@ -1960,7 +1973,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -1969,7 +1982,7 @@
    "pieza": "avatar",
    "plantilla": "avatar",
    "grupo": "Perfil",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "Avatar 1:1",
    "formatoId": "avatar",
    "proposito": "Foto de perfil (recorte circular seguro)",
@@ -1991,7 +2004,7 @@
    "alt": "Isotipo de Céluma.",
    "caption": "",
    "fuentes": [],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -2000,7 +2013,7 @@
    "pieza": "portada",
    "plantilla": "portada",
    "grupo": "Perfil",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "Portada 4:1",
    "formatoId": "portada",
    "proposito": "Portada ancha de perfil (base de trabajo)",
@@ -2027,7 +2040,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -2036,7 +2049,7 @@
    "pieza": "destacado-guias",
    "plantilla": "destacado",
    "grupo": "Destacados",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "Destacado 9:16",
    "formatoId": "destacado",
    "proposito": "Portada de historia destacada (círculo central)",
@@ -2058,7 +2071,7 @@
    "alt": "Destacado: Guías.",
    "caption": "",
    "fuentes": [],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -2067,7 +2080,7 @@
    "pieza": "destacado-novedades",
    "plantilla": "destacado",
    "grupo": "Destacados",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "Destacado 9:16",
    "formatoId": "destacado",
    "proposito": "Portada de historia destacada (círculo central)",
@@ -2089,7 +2102,7 @@
    "alt": "Destacado: Novedades.",
    "caption": "",
    "fuentes": [],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -2098,7 +2111,7 @@
    "pieza": "destacado-flujo",
    "plantilla": "destacado",
    "grupo": "Destacados",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "Destacado 9:16",
    "formatoId": "destacado",
    "proposito": "Portada de historia destacada (círculo central)",
@@ -2120,7 +2133,7 @@
    "alt": "Destacado: Flujo.",
    "caption": "",
    "fuentes": [],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -2129,7 +2142,7 @@
    "pieza": "destacado-valores",
    "plantilla": "destacado",
    "grupo": "Destacados",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "Destacado 9:16",
    "formatoId": "destacado",
    "proposito": "Portada de historia destacada (círculo central)",
@@ -2151,7 +2164,7 @@
    "alt": "Destacado: Valores.",
    "caption": "",
    "fuentes": [],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -2160,7 +2173,7 @@
    "pieza": "banner-docs",
    "plantilla": "banner",
    "grupo": "Banners y firma",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "Banner 3:1",
    "formatoId": "banner",
    "proposito": "Banner web o de cabecera (base de trabajo)",
@@ -2187,7 +2200,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -2196,7 +2209,7 @@
    "pieza": "firma-correo",
    "plantilla": "firma",
    "grupo": "Banners y firma",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "Firma 4:1",
    "formatoId": "firma",
    "proposito": "Módulo de firma de correo (@2x de 600 × 150)",
@@ -2218,7 +2231,7 @@
    "alt": "Firma de correo de Céluma (datos de ejemplo).",
    "caption": "",
    "fuentes": [],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -2227,7 +2240,7 @@
    "pieza": "slide-titulo",
    "plantilla": "slide-titulo",
    "grupo": "Presentación",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "16:9",
    "formatoId": "16x9",
    "proposito": "Vídeo horizontal, presentación y web",
@@ -2254,7 +2267,7 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "pieza",
@@ -2263,7 +2276,7 @@
    "pieza": "slide-contenido",
    "plantilla": "slide-contenido",
    "grupo": "Presentación",
-   "direccion": "B · Ficha · ronda 2",
+   "direccion": "B · Ficha · ronda 2 (elegida)",
    "formato": "16:9",
    "formatoId": "16x9",
    "proposito": "Vídeo horizontal, presentación y web",
@@ -2294,14 +2307,14 @@
      "estado": "publicada-docs"
     }
    ],
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "comparacion",
    "conjunto": "comparacion",
    "id": "a/valor-claridad__4x5",
    "pieza": "valor-claridad",
-   "direccion": "A · Lumen",
+   "direccion": "A · Lumen (alternativa conservada)",
    "formato": "4:5",
    "formatoId": "4x5",
    "png": "exports/comparacion/a/valor-claridad__4x5.png",
@@ -2312,14 +2325,14 @@
    "sha256": "6b6bed126110138313b33e7d009a7d30f71f3d8c533df2f24cac342fa9969561",
    "condensada": false,
    "comprobacion": "ok",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Alternativa conservada (A · Lumen, ronda 1) · disponible para usos futuros · no es la dirección principal"
   },
   {
    "tipo": "comparacion",
    "conjunto": "comparacion",
    "id": "a/valor-claridad__9x16",
    "pieza": "valor-claridad",
-   "direccion": "A · Lumen",
+   "direccion": "A · Lumen (alternativa conservada)",
    "formato": "9:16",
    "formatoId": "9x16",
    "png": "exports/comparacion/a/valor-claridad__9x16.png",
@@ -2330,14 +2343,14 @@
    "sha256": "3dcbc5dccc4b9ea303602d0c9862352f90286879bcd685a6d4e5e1f40cf71580",
    "condensada": false,
    "comprobacion": "ok",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Alternativa conservada (A · Lumen, ronda 1) · disponible para usos futuros · no es la dirección principal"
   },
   {
    "tipo": "comparacion",
    "conjunto": "comparacion",
    "id": "a/capacidad-revisor__4x5",
    "pieza": "capacidad-revisor",
-   "direccion": "A · Lumen",
+   "direccion": "A · Lumen (alternativa conservada)",
    "formato": "4:5",
    "formatoId": "4x5",
    "png": "exports/comparacion/a/capacidad-revisor__4x5.png",
@@ -2348,14 +2361,14 @@
    "sha256": "a75308e13ac47087f856301b27c169c792031731239e01b8feff37f3fb270915",
    "condensada": false,
    "comprobacion": "ok",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Alternativa conservada (A · Lumen, ronda 1) · disponible para usos futuros · no es la dirección principal"
   },
   {
    "tipo": "comparacion",
    "conjunto": "comparacion",
    "id": "a/capacidad-revisor__9x16",
    "pieza": "capacidad-revisor",
-   "direccion": "A · Lumen",
+   "direccion": "A · Lumen (alternativa conservada)",
    "formato": "9:16",
    "formatoId": "9x16",
    "png": "exports/comparacion/a/capacidad-revisor__9x16.png",
@@ -2366,14 +2379,14 @@
    "sha256": "18e7fccde83e06068de61ef0ac41fc4bd47cb9a63045ec5eeaa53f31aef11ea3",
    "condensada": false,
    "comprobacion": "ok",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Alternativa conservada (A · Lumen, ronda 1) · disponible para usos futuros · no es la dirección principal"
   },
   {
    "tipo": "comparacion",
    "conjunto": "comparacion",
    "id": "a/carrusel-informe-1__4x5",
    "pieza": "carrusel-informe-1",
-   "direccion": "A · Lumen",
+   "direccion": "A · Lumen (alternativa conservada)",
    "formato": "4:5",
    "formatoId": "4x5",
    "png": "exports/comparacion/a/carrusel-informe-1__4x5.png",
@@ -2384,14 +2397,14 @@
    "sha256": "cf45ece19244a7bf787bbe3c39357d18f90866fece011166c8fa79dcf5fc880a",
    "condensada": false,
    "comprobacion": "ok",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Alternativa conservada (A · Lumen, ronda 1) · disponible para usos futuros · no es la dirección principal"
   },
   {
    "tipo": "comparacion",
    "conjunto": "comparacion",
    "id": "a/carrusel-informe-4__4x5",
    "pieza": "carrusel-informe-4",
-   "direccion": "A · Lumen",
+   "direccion": "A · Lumen (alternativa conservada)",
    "formato": "4:5",
    "formatoId": "4x5",
    "png": "exports/comparacion/a/carrusel-informe-4__4x5.png",
@@ -2402,14 +2415,14 @@
    "sha256": "c5de4d0b4f99fb073c744949f37271fbd38616f1fbb4b935c3cda3bc8abbd2e3",
    "condensada": false,
    "comprobacion": "ok",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Alternativa conservada (A · Lumen, ronda 1) · disponible para usos futuros · no es la dirección principal"
   },
   {
    "tipo": "comparacion",
    "conjunto": "comparacion",
    "id": "b/valor-claridad__4x5",
    "pieza": "valor-claridad",
-   "direccion": "B · Ficha · ronda 1 (antecedente)",
+   "direccion": "B · Ficha · ronda 1 (antecedente histórico)",
    "formato": "4:5",
    "formatoId": "4x5",
    "png": "exports/comparacion/b/valor-claridad__4x5.png",
@@ -2420,14 +2433,14 @@
    "sha256": "9e510fd1de82f2566dac3a4b3d8871c0c2b5ed9afc74588c432ac3d734e383f1",
    "condensada": false,
    "comprobacion": "revisar",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Antecedente histórico (B · Ficha ronda 1) · la dirección elegida es B ronda 2"
   },
   {
    "tipo": "comparacion",
    "conjunto": "comparacion",
    "id": "b/valor-claridad__9x16",
    "pieza": "valor-claridad",
-   "direccion": "B · Ficha · ronda 1 (antecedente)",
+   "direccion": "B · Ficha · ronda 1 (antecedente histórico)",
    "formato": "9:16",
    "formatoId": "9x16",
    "png": "exports/comparacion/b/valor-claridad__9x16.png",
@@ -2438,14 +2451,14 @@
    "sha256": "438bd87d4b1f60878a4040e1f142c443b5050abfbc94b3797fafb7a5ae695d06",
    "condensada": false,
    "comprobacion": "revisar",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Antecedente histórico (B · Ficha ronda 1) · la dirección elegida es B ronda 2"
   },
   {
    "tipo": "comparacion",
    "conjunto": "comparacion",
    "id": "b/capacidad-revisor__4x5",
    "pieza": "capacidad-revisor",
-   "direccion": "B · Ficha · ronda 1 (antecedente)",
+   "direccion": "B · Ficha · ronda 1 (antecedente histórico)",
    "formato": "4:5",
    "formatoId": "4x5",
    "png": "exports/comparacion/b/capacidad-revisor__4x5.png",
@@ -2456,14 +2469,14 @@
    "sha256": "d122a144253e067706a1766c81bbd39923466aa1557b55ccb447f8c76c1de746",
    "condensada": false,
    "comprobacion": "revisar",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Antecedente histórico (B · Ficha ronda 1) · la dirección elegida es B ronda 2"
   },
   {
    "tipo": "comparacion",
    "conjunto": "comparacion",
    "id": "b/capacidad-revisor__9x16",
    "pieza": "capacidad-revisor",
-   "direccion": "B · Ficha · ronda 1 (antecedente)",
+   "direccion": "B · Ficha · ronda 1 (antecedente histórico)",
    "formato": "9:16",
    "formatoId": "9x16",
    "png": "exports/comparacion/b/capacidad-revisor__9x16.png",
@@ -2474,14 +2487,14 @@
    "sha256": "64570a433bf3a315c98b963f39d1f4d30ec99d6f135b641ecdd308b15cfa4f07",
    "condensada": false,
    "comprobacion": "revisar",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Antecedente histórico (B · Ficha ronda 1) · la dirección elegida es B ronda 2"
   },
   {
    "tipo": "comparacion",
    "conjunto": "comparacion",
    "id": "b/carrusel-informe-1__4x5",
    "pieza": "carrusel-informe-1",
-   "direccion": "B · Ficha · ronda 1 (antecedente)",
+   "direccion": "B · Ficha · ronda 1 (antecedente histórico)",
    "formato": "4:5",
    "formatoId": "4x5",
    "png": "exports/comparacion/b/carrusel-informe-1__4x5.png",
@@ -2492,14 +2505,14 @@
    "sha256": "735c713b491e8726ca203c66e8819b6e2b9a70db50953b5da5b14c85dafea152",
    "condensada": false,
    "comprobacion": "revisar",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Antecedente histórico (B · Ficha ronda 1) · la dirección elegida es B ronda 2"
   },
   {
    "tipo": "comparacion",
    "conjunto": "comparacion",
    "id": "b/carrusel-informe-4__4x5",
    "pieza": "carrusel-informe-4",
-   "direccion": "B · Ficha · ronda 1 (antecedente)",
+   "direccion": "B · Ficha · ronda 1 (antecedente histórico)",
    "formato": "4:5",
    "formatoId": "4x5",
    "png": "exports/comparacion/b/carrusel-informe-4__4x5.png",
@@ -2510,14 +2523,14 @@
    "sha256": "69c11add9a84f29b01d1d978ec8f1d0e12100d0e2fea6d00fc98f2b6a843b0ab",
    "condensada": false,
    "comprobacion": "revisar",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Antecedente histórico (B · Ficha ronda 1) · la dirección elegida es B ronda 2"
   },
   {
    "tipo": "comparacion",
    "conjunto": "comparacion",
    "id": "c/valor-claridad__4x5",
    "pieza": "valor-claridad",
-   "direccion": "C · Membrana",
+   "direccion": "C · Membrana (alternativa conservada)",
    "formato": "4:5",
    "formatoId": "4x5",
    "png": "exports/comparacion/c/valor-claridad__4x5.png",
@@ -2528,14 +2541,14 @@
    "sha256": "9a2a545f3f83f5cc87d9f166ed409348bc618510ce3f0dcbc2f653c4aa3b3301",
    "condensada": false,
    "comprobacion": "ok",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Alternativa conservada (C · Membrana, ronda 1) · disponible para usos futuros · no es la dirección principal"
   },
   {
    "tipo": "comparacion",
    "conjunto": "comparacion",
    "id": "c/valor-claridad__9x16",
    "pieza": "valor-claridad",
-   "direccion": "C · Membrana",
+   "direccion": "C · Membrana (alternativa conservada)",
    "formato": "9:16",
    "formatoId": "9x16",
    "png": "exports/comparacion/c/valor-claridad__9x16.png",
@@ -2546,14 +2559,14 @@
    "sha256": "2f93e947c4a162b93c33561c7264f206e55d3581c537d6a575b190d66a72b2d5",
    "condensada": false,
    "comprobacion": "ok",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Alternativa conservada (C · Membrana, ronda 1) · disponible para usos futuros · no es la dirección principal"
   },
   {
    "tipo": "comparacion",
    "conjunto": "comparacion",
    "id": "c/capacidad-revisor__4x5",
    "pieza": "capacidad-revisor",
-   "direccion": "C · Membrana",
+   "direccion": "C · Membrana (alternativa conservada)",
    "formato": "4:5",
    "formatoId": "4x5",
    "png": "exports/comparacion/c/capacidad-revisor__4x5.png",
@@ -2564,14 +2577,14 @@
    "sha256": "59221cdb5dc472f414c00765be4f5348830c5f119f37be695c68770085ea0c8d",
    "condensada": true,
    "comprobacion": "ok",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Alternativa conservada (C · Membrana, ronda 1) · disponible para usos futuros · no es la dirección principal"
   },
   {
    "tipo": "comparacion",
    "conjunto": "comparacion",
    "id": "c/capacidad-revisor__9x16",
    "pieza": "capacidad-revisor",
-   "direccion": "C · Membrana",
+   "direccion": "C · Membrana (alternativa conservada)",
    "formato": "9:16",
    "formatoId": "9x16",
    "png": "exports/comparacion/c/capacidad-revisor__9x16.png",
@@ -2582,14 +2595,14 @@
    "sha256": "8bb916d59b5bcc51b0e08a305f1d780a933681666e7302d49029aa7f2aed0deb",
    "condensada": true,
    "comprobacion": "ok",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Alternativa conservada (C · Membrana, ronda 1) · disponible para usos futuros · no es la dirección principal"
   },
   {
    "tipo": "comparacion",
    "conjunto": "comparacion",
    "id": "c/carrusel-informe-1__4x5",
    "pieza": "carrusel-informe-1",
-   "direccion": "C · Membrana",
+   "direccion": "C · Membrana (alternativa conservada)",
    "formato": "4:5",
    "formatoId": "4x5",
    "png": "exports/comparacion/c/carrusel-informe-1__4x5.png",
@@ -2600,14 +2613,14 @@
    "sha256": "7419ab01ec41b897ecf650826fb3fc829efd0d1a0515989e6aba800069f7ba12",
    "condensada": false,
    "comprobacion": "ok",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Alternativa conservada (C · Membrana, ronda 1) · disponible para usos futuros · no es la dirección principal"
   },
   {
    "tipo": "comparacion",
    "conjunto": "comparacion",
    "id": "c/carrusel-informe-4__4x5",
    "pieza": "carrusel-informe-4",
-   "direccion": "C · Membrana",
+   "direccion": "C · Membrana (alternativa conservada)",
    "formato": "4:5",
    "formatoId": "4x5",
    "png": "exports/comparacion/c/carrusel-informe-4__4x5.png",
@@ -2618,7 +2631,7 @@
    "sha256": "7267e2f4b7454dee9cb0d546c3dc921ba7901a2efee8086ed5d9600fa6d4556c",
    "condensada": false,
    "comprobacion": "ok",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Alternativa conservada (C · Membrana, ronda 1) · disponible para usos futuros · no es la dirección principal"
   },
   {
    "tipo": "recurso",
@@ -2629,8 +2642,8 @@
    "ancho": 2048,
    "alto": 614,
    "uso": "Módulo visual de la dirección Ficha sobre crema o blanco.",
-   "sha256": "017f7f15b2911bf18ad876d8cacaa79f677adb1bd84f423af4904709462517db",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "sha256": "01b99137e0f1bd105d83bd5ef57650d8fa062024871520bfdd8042687944b4ec",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "recurso",
@@ -2641,8 +2654,8 @@
    "ancho": 2048,
    "alto": 614,
    "uso": "Módulo visual sobre navy (portadas, cierres, anuncios).",
-   "sha256": "78c81ac2e80a6c5e04a108ae386bbbe6506ca91bb48f6e11da409cf04bfc6dae",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "sha256": "0f3eb1bf353926a833f20e2308652491167c8cf4658714fd544a597152691273",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "recurso",
@@ -2653,8 +2666,8 @@
    "ancho": 2048,
    "alto": 1707,
    "uso": "Módulo visual de la dirección Ficha sobre crema o blanco.",
-   "sha256": "9b23d4915e07028024af376a6301bc306744935059982407f7082fbe3734110f",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "sha256": "bccafd1b688e0dd10b89db45238b1d268999bb1b0770de045dfec19cd89dfe26",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "recurso",
@@ -2665,8 +2678,8 @@
    "ancho": 2048,
    "alto": 1707,
    "uso": "Módulo visual sobre navy (portadas, cierres, anuncios).",
-   "sha256": "0e2ed63d486c62a9a6c54d6645150ce73dffa162d444f25ac2267178317c1446",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "sha256": "5caabd42a5c0821a4d24bc475049f63a979156e6846e08e5bb8796313005f215",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "recurso",
@@ -2677,8 +2690,8 @@
    "ancho": 2048,
    "alto": 512,
    "uso": "Módulo visual de la dirección Ficha sobre crema o blanco.",
-   "sha256": "6a6f38b12fe75332614fb42b0926b8facfe3695d038865040ae07b7dc2be90bb",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "sha256": "85f46fc1ff9578e024906d0610f5775f800d1e3ad03bb5673f6ca0a041c753aa",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "recurso",
@@ -2689,8 +2702,8 @@
    "ancho": 2048,
    "alto": 512,
    "uso": "Módulo visual sobre navy (portadas, cierres, anuncios).",
-   "sha256": "e54d4ef1af09a7385350caaef42d5eaa05f2b3aa8bd042fa291945d69519a9ac",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "sha256": "d87ec71bfebba3ea13bb29bb1e8f940d2c8ab4324168bc73df63600b0d6227a8",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "recurso",
@@ -2701,8 +2714,8 @@
    "ancho": 40,
    "alto": 1200,
    "uso": "Borde izquierdo del bloque principal; una por pieza.",
-   "sha256": "0a74993c1a854a999459de5d60d5176f42a8686934b6c8b4a5f2ed76eada8fbd",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "sha256": "30654c56b2636c6038ff88ccefd13d9475dd5077375463305d5a6b198c851074",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "recurso",
@@ -2713,8 +2726,8 @@
    "ancho": 2048,
    "alto": 154,
    "uso": "Rastreador de pasos para carruseles y flujos; los rótulos se escriben en la pieza.",
-   "sha256": "d947c10db95d627705e90386ee9d7bb01f7b68d9f2526dd90c033087e387451a",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "sha256": "99fa54cc6c632cf6da7b31a70f71b274817efb4299137893e2ed62cc0b13aa7c",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "recurso",
@@ -2725,8 +2738,8 @@
    "ancho": 2048,
    "alto": 154,
    "uso": "Rastreador de pasos para carruseles y flujos; los rótulos se escriben en la pieza.",
-   "sha256": "270eb2acc3e7f0dfbb3b4f21e3aac26914b419cd95f0535be0ffbcf8b3673448",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "sha256": "f4c5e512adccb24e230511b6da9182e09fb043627d25a7a4803cdcd50b091689",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "recurso",
@@ -2737,8 +2750,8 @@
    "ancho": 2048,
    "alto": 154,
    "uso": "Rastreador de pasos para carruseles y flujos; los rótulos se escriben en la pieza.",
-   "sha256": "e85d17c6e39d38fe083220f8459e7895d9044a04dec05bd7afeb8038c782a3a0",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "sha256": "1144dc455734ed305c532261e312cc5b6a6dc25d69f5bcfe4080c14dba564d00",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "recurso",
@@ -2749,8 +2762,8 @@
    "ancho": 2048,
    "alto": 154,
    "uso": "Rastreador de pasos para carruseles y flujos; los rótulos se escriben en la pieza.",
-   "sha256": "007e9b2aae07772774a761a14d6f9474e43c9a300bf15b31773f0a10dfde70d4",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "sha256": "7424cecb4ca9b6a354eeb2a12149910fd34076fc2da6d0d46bec65343894535d",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "recurso",
@@ -2761,8 +2774,8 @@
    "ancho": 2048,
    "alto": 154,
    "uso": "Rastreador de pasos para carruseles y flujos; los rótulos se escriben en la pieza.",
-   "sha256": "e3218facc5b82730107c63604db2e3f93f2048460e4a318be08cd9005017b4c1",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "sha256": "54203c31811d6423bb6163cfb4fe98456c48e5a1245ef5023342407ee630e130",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "recurso",
@@ -2773,8 +2786,8 @@
    "ancho": 512,
    "alto": 512,
    "uso": "Icono «guia».",
-   "sha256": "19753e63ddcecf9281001e1dcd1849b1f27bda327cdd13b1fb058bcb54f85a63",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "sha256": "e02077ec19692bc88e482ea7b69a0746ae28bbd278e67e2caa320beb9b500405",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "recurso",
@@ -2785,8 +2798,8 @@
    "ancho": 512,
    "alto": 512,
    "uso": "Icono «novedad».",
-   "sha256": "b0a6d95917fcdccefd6be791c72d777597f3508f7357a69b4ec75dae9d05935f",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "sha256": "a1a90fc5a7161c92a8df2d535b4cb8ca483e42211bdf21bfff1c464b515665f2",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "recurso",
@@ -2797,8 +2810,8 @@
    "ancho": 512,
    "alto": 512,
    "uso": "Icono «flujo».",
-   "sha256": "69cf98f40683e1d2e56fb4f9af40f93d8e13dc7c376335271d538581bf4ae656",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "sha256": "21f305284567249a11e9a4d6f37047319e6aba37e862ab90dc27e781084b265d",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "recurso",
@@ -2809,8 +2822,8 @@
    "ancho": 512,
    "alto": 512,
    "uso": "Icono «valor».",
-   "sha256": "e97f33d3bca2b467a2062c3139be76c2ae84fc8b17ae714e88ba9ef6b95ade86",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "sha256": "e97b6ea0286131a6356f9b85e1f4002fa7a3387168d0827e582afe4676dcb5f7",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "recurso",
@@ -2821,8 +2834,8 @@
    "ancho": 512,
    "alto": 512,
    "uso": "Icono «firma».",
-   "sha256": "0ab389e2a63e7d75f71ffc0b058301ddd6f0019a3c93881ad3bc477d0f14e99d",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "sha256": "3799a6f88d83076a879d5761e7b63d7d20b9fab34df48b5f876a4ae1e6f07326",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "recurso",
@@ -2833,8 +2846,8 @@
    "ancho": 512,
    "alto": 512,
    "uso": "Icono «plantilla».",
-   "sha256": "62a2add7660f0d2a62c2a7e4f7922ad43dec27b928649ad491b0b185834113c7",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "sha256": "fdb12de698bbc8593936d90c34a0d163b5f59265b2af19eb9bd576360e59e23b",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "recurso",
@@ -2845,8 +2858,8 @@
    "ancho": 512,
    "alto": 512,
    "uso": "Icono «muestra».",
-   "sha256": "a277c9f930adaf265cb5b4e1c037d1b199f648bf8bb012ce6d080c6f3a899b95",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "sha256": "138dc213038face09189a72201e438de7108c32ace873d7a07b7f48bc5dedb87",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "recurso",
@@ -2857,8 +2870,8 @@
    "ancho": 512,
    "alto": 512,
    "uso": "Icono «persona».",
-   "sha256": "425df71375976325902517c95af039e609a0052d90a43380139a5d5d08c42187",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "sha256": "9d3f2784c417025a4782c8b6ab2a5aeb46f43776ca36c56ba5b927ddb96de3c3",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "recurso",
@@ -2869,8 +2882,8 @@
    "ancho": 512,
    "alto": 512,
    "uso": "Icono «flecha».",
-   "sha256": "8a325b1e0c75029ec097c4e8122eb3e7df7720656561e942fe76fd8963e2b865",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "sha256": "30abd6e68671d698f83d23a0b109c2b91828bf8d0d7e1b3fc3831ee9cff1b371",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "recurso",
@@ -2881,8 +2894,8 @@
    "ancho": 512,
    "alto": 512,
    "uso": "Icono «correo».",
-   "sha256": "872eed3bb5ec93d5b0be395cc1faabf1cfae69095335ed1f81244852513049b3",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "sha256": "e3f0dc4ef15c2c42f44832188cde58ee04984d576dcc27ca7a70053fb5295e9a",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente"
   },
   {
    "tipo": "fondo",
@@ -2893,8 +2906,8 @@
    "ancho": 1080,
    "alto": 1080,
    "uso": "Fondo Papel cream para 1x1.",
-   "sha256": "ef0d396f2f8efd30772b27e35cb11aefa30fbb55192a316b829ebac35b46da89",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "a5fd5d7b42abd909525875a6c9a62806e667db09a0156aad511daed8b960820d",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "fondo",
@@ -2905,8 +2918,8 @@
    "ancho": 1080,
    "alto": 1350,
    "uso": "Fondo Papel cream para 4x5.",
-   "sha256": "72b99700c22f72f90446017dd81ae5206a449794a36727816cd075aa274d7e13",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "56664a241960c56ec3fb877af28049065e5cac4a597af29cf4d80587ccb1740b",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "fondo",
@@ -2917,8 +2930,8 @@
    "ancho": 1080,
    "alto": 1920,
    "uso": "Fondo Papel cream para 9x16.",
-   "sha256": "2278a3393ad77db718dcc10ae039e55c0e04ecca3e4a6412d89db8b6a8381e39",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "44b571fd08f07250e3e711f9068abd4ff08a88ee74602e3cd5eeb689e16acd2f",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "fondo",
@@ -2929,8 +2942,8 @@
    "ancho": 1920,
    "alto": 1080,
    "uso": "Fondo Papel cream para 16x9.",
-   "sha256": "90c40d0763811336e3ae6f8533b75e9329b5e75969ee9ec283db174a72575eea",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "1e5f9a27d1408dd2532f404d3f090e4b2686136666efcc3ba727eb197bf0e3b6",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "fondo",
@@ -2941,8 +2954,8 @@
    "ancho": 1080,
    "alto": 1080,
    "uso": "Fondo Papel cream suave para 1x1.",
-   "sha256": "baaabd6e4f4d7d165fd32f348bf37005e898f57c756526d85c40fbbf00d078d8",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "e50d6c135ccd494279db4769b2772cabe0052ca55e363eaebdfd1ffb48375960",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "fondo",
@@ -2953,8 +2966,8 @@
    "ancho": 1080,
    "alto": 1350,
    "uso": "Fondo Papel cream suave para 4x5.",
-   "sha256": "d5fe9953d51178b7b4897a6294b57a61d86ce12143a21b9697f7192fa65b55da",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "f784a184f623321865c8b0772feaac20224650956b72f2c11d11b1bf1505a1df",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "fondo",
@@ -2965,8 +2978,8 @@
    "ancho": 1080,
    "alto": 1920,
    "uso": "Fondo Papel cream suave para 9x16.",
-   "sha256": "104f04294ab8b5e30a3aa230ee6c78b3c538490378ababec65955e8367b27961",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "642e43731291a599cb983a5bbea7b3d3298df10805ea056a0a914c535c3ef3d7",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "fondo",
@@ -2977,8 +2990,8 @@
    "ancho": 1920,
    "alto": 1080,
    "uso": "Fondo Papel cream suave para 16x9.",
-   "sha256": "118a4e2d1ee7ae5c2c43cec2cd6518f52ab40899b8847ce53865a0a4dbcd71a1",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "fef224d7b13bce06eb3a98dbb3f478370804444eb26f42810e9af44f43ec020d",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "fondo",
@@ -2989,8 +3002,8 @@
    "ancho": 1080,
    "alto": 1080,
    "uso": "Fondo Navy para 1x1.",
-   "sha256": "1da184a1b4731c3a95ca0f9df0aaae18121f263aea8414022f883b38e671e146",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "a2f638838500d559c5c63ece7e90a3786330de6b54e7fa7e8f779569ea07407b",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "fondo",
@@ -3001,8 +3014,8 @@
    "ancho": 1080,
    "alto": 1350,
    "uso": "Fondo Navy para 4x5.",
-   "sha256": "1c00d737cfb6ebc6f5874748c2abeeb736b69d06f01cd9f5d10d077718985d04",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "1e284acd1e6894e71dcb1420b59675bd95bb142948e1049b1d26acdd7d7a94ca",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "fondo",
@@ -3013,8 +3026,8 @@
    "ancho": 1080,
    "alto": 1920,
    "uso": "Fondo Navy para 9x16.",
-   "sha256": "34a11d18d4e9220da5c097177d931bb9b72c4700bfd2ee4f104ca3e8f391987d",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "e10175eaf18d79f08c6f349b4f1543c86abb44353901b5afde1f757823384928",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "fondo",
@@ -3025,8 +3038,8 @@
    "ancho": 1920,
    "alto": 1080,
    "uso": "Fondo Navy para 16x9.",
-   "sha256": "9024f8284723990bc16e9fd0dc9306fd5046294ff0c62cfa51c795a216a5cc77",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "6f35d6fbfcebbf2bce18af0c87786097dd7ba3e4fdeb2014c51ad6c843e131c0",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "fondo",
@@ -3037,8 +3050,8 @@
    "ancho": 1080,
    "alto": 1080,
    "uso": "Fondo Navy suave para 1x1.",
-   "sha256": "0aa97818cad85146a52c4234db4e86182bb99cff43ac16380a4983506a0e6a5c",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "5d637248251fc108682d50652305d0313c91891675e64eac74ce00d0ce63ff64",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "fondo",
@@ -3049,8 +3062,8 @@
    "ancho": 1080,
    "alto": 1350,
    "uso": "Fondo Navy suave para 4x5.",
-   "sha256": "0cf44a2c6fc6af101cb0755ab00d138ff9728681d92c7e0744a103c3c1b46a4c",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "99dffbff7300901521420f8685d2bc520a2c5a9d1ad47ada013635912e6f28a2",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "fondo",
@@ -3061,8 +3074,8 @@
    "ancho": 1080,
    "alto": 1920,
    "uso": "Fondo Navy suave para 9x16.",
-   "sha256": "3f22b569843a544407efb1a4a62398b1cab6ef84a8f1f13d1e81a451733ed09d",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "3ebffc5b1feff2dd787e93e95fcbf9390247f96b2dd413e38daffda17398b3d0",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "fondo",
@@ -3073,8 +3086,8 @@
    "ancho": 1920,
    "alto": 1080,
    "uso": "Fondo Navy suave para 16x9.",
-   "sha256": "55d641a898ee71dd85e34c856111b668ef4bbfdacf3bf13db07e89083bcfde0e",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "23d201b97a1dd0162df3b4295dbff27a43499acb208d9135bc98f7c8270daa00",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "microcosmos",
@@ -3086,8 +3099,8 @@
    "ancho": 2400,
    "alto": 1800,
    "uso": "El foco de la pieza: una sola por composición, con doble membrana, interior pleno, foco salmón desplazado hacia la luz y un arco de luz interior.",
-   "sha256": "a3ee16eee879effe903e3fa4f78725cfb7091ad92294e38ce734b3fd6521ff39",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "59c92e6b30907b187ad2a3094b757f0ec387647c591fb1493768759e4844dd6f",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "microcosmos",
@@ -3099,8 +3112,8 @@
    "ancho": 2400,
    "alto": 1800,
    "uso": "El foco de la pieza: una sola por composición, con doble membrana, interior pleno, foco salmón desplazado hacia la luz y un arco de luz interior.",
-   "sha256": "764ffe31833d59b2f87c869fcd5f0a4327b7afbda3a2e9fe03dfe2a179cb5715",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "39efa2d466d4644b9422c6e4442a44a3a7f9197f9d7baa68add65b2f5aa5af13",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "microcosmos",
@@ -3112,8 +3125,8 @@
    "ancho": 2400,
    "alto": 1800,
    "uso": "Escala la protagonista en dos pasos (0,42 y 0,18 R): membrana simple, interior tenue, foco tintado o ausente.",
-   "sha256": "dd683d9694a90800caa06103820c24e7992b5e4dfbeb8daf1ffa3b6c63b64836",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "6bbb8e01d925a44f8b295701ddf1971c3b1ea4c16deb3e4316d99072fd6ecda1",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "microcosmos",
@@ -3125,8 +3138,8 @@
    "ancho": 2400,
    "alto": 1800,
    "uso": "Escala la protagonista en dos pasos (0,42 y 0,18 R): membrana simple, interior tenue, foco tintado o ausente.",
-   "sha256": "e1c6c00568aa229dc494231fc3d15dd9d2aaf7b7a634d0e2d59d8a25221064c8",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "14d52c62b68afc5745029c1b2a859cced5f3bc154d27f5ccba8b47de29b8e7da",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "microcosmos",
@@ -3138,8 +3151,8 @@
    "ancho": 2400,
    "alto": 1800,
    "uso": "Un contorno de ~290° que abraza un número o un icono: contención sin cerrar, para índices y destacados.",
-   "sha256": "096a82f43281a861780856ec869b057ad171b6425c82e7f2a3c862c17bd526ad",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "747fc9d9fc51f0fb289667b8b9aa7b032d9ca41f4bfbf351fe51ea9082fc755d",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "microcosmos",
@@ -3151,8 +3164,8 @@
    "ancho": 2400,
    "alto": 1800,
    "uso": "Un contorno de ~290° que abraza un número o un icono: contención sin cerrar, para índices y destacados.",
-   "sha256": "8888ea05b3bf970ec176d8fa1fb56f54df954277c1ee3fb6955686f6d0fced90",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "e856b07885ef55c3f50c4bb8a91ad673846c43f75539fcf08170c40964156adf",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "microcosmos",
@@ -3164,8 +3177,8 @@
    "ancho": 2400,
    "alto": 1800,
    "uso": "Ilustración protagonista: una célula y sus acompañantes se alejan de la luz hacia abajo a la derecha. Ordenado, nunca aleatorio.",
-   "sha256": "355ae81365bdc3597d8e669ddc265cd22127d7f3d773a00bcfe187b9c17357b6",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "1f5b2cad8e7db4b15ed7efab1859f3879050a69fdfd75303a73af1f7f1aad2a9",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "microcosmos",
@@ -3177,8 +3190,8 @@
    "ancho": 2400,
    "alto": 1800,
    "uso": "Ilustración protagonista: una célula y sus acompañantes se alejan de la luz hacia abajo a la derecha. Ordenado, nunca aleatorio.",
-   "sha256": "80caf13fee5fbbe762eed9ff3c017a6a43829d96b8ff122f01bcba51d132dd20",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "f1daaaf386b16991cd5e90121c5d4e10c7c00ed18a849c284661f87033bad238",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "microcosmos",
@@ -3190,8 +3203,8 @@
    "ancho": 2400,
    "alto": 1800,
    "uso": "Dos células cercanas sin tocarse: compañía y relevo, para mensajes breves y consejos.",
-   "sha256": "6f1808da1b0204cc76e2a70ff1db5658f8a7182133dd9ce25642104647a35a01",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "3d4f4bbb22f0f9218b6e124b0196f5387f39809dbd86271d31eeb09071fd6a30",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "microcosmos",
@@ -3203,8 +3216,8 @@
    "ancho": 2400,
    "alto": 1800,
    "uso": "Dos células cercanas sin tocarse: compañía y relevo, para mensajes breves y consejos.",
-   "sha256": "17e7bb6b7051a959102664cfe5700d73534b9839b30c2c453150f378670d8e8b",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "d406b41aebb90a7157410c8bd8957cef0f9225f5be4d30d65c08bcf0e51266ec",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "microcosmos",
@@ -3216,8 +3229,8 @@
    "ancho": 2400,
    "alto": 1800,
    "uso": "Un tejido de células sobre retícula hexagonal que crece desde un borde y se aclara hacia el texto: orden vivo, comunidad, sin competir con el mensaje.",
-   "sha256": "bc1a33fae3b8cb34ed7b67659141c4f2d05ce12ba86fd4b6952b7a266022af23",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "56d673935802cd9bc8a43bee50c89416c7d39f2c1f19715d632b6304cb6f35e7",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "microcosmos",
@@ -3229,8 +3242,8 @@
    "ancho": 2400,
    "alto": 1800,
    "uso": "Un tejido de células sobre retícula hexagonal que crece desde un borde y se aclara hacia el texto: orden vivo, comunidad, sin competir con el mensaje.",
-   "sha256": "7971690c2176f7ace58999aa2ceff83a6942dc6ccfa1fa27a7c1e762a401daef",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "663bf9fe0794c64691d03f712af4ab5bf2e45d4fb5718f271a8bcc7c8aa68f69",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "microcosmos",
@@ -3242,8 +3255,8 @@
    "ancho": 2400,
    "alto": 1800,
    "uso": "La cuadrícula de la ronda 1, más ligera: un foco entre muchas células iguales. Para piezas de producto y modo editorial.",
-   "sha256": "2b44189d356600e7b23763b671104ba4a4a861a1aba0e9c50105478a30c9a8d5",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "3490ad45edca543f0584b9567ac68e699c8030118d9d57bdf1419cbc8a85a4d6",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "microcosmos",
@@ -3255,8 +3268,8 @@
    "ancho": 2400,
    "alto": 1800,
    "uso": "La cuadrícula de la ronda 1, más ligera: un foco entre muchas células iguales. Para piezas de producto y modo editorial.",
-   "sha256": "5492ad1c23533e39fbb1c7c4ede72dad673d392ec2c7db2fae6e23f235925ffb",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "c4c1010773f14b747d4ff54d20e4d92de0b193c47577577a584899752e3320c7",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "microcosmos",
@@ -3268,8 +3281,8 @@
    "ancho": 2400,
    "alto": 1800,
    "uso": "Una gran célula vista de cerca, cortada por el borde: profundidad y escala para identidad y cierres.",
-   "sha256": "0abb24f7e6d151230b7cb3426b63e53931915693e9dbfe2274cf7385f5cd7547",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "5260ec4fdbadfb7aedf267eb7a4f84f8a0c24edb6b70c968c3529a1813e39cc2",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "microcosmos",
@@ -3281,8 +3294,8 @@
    "ancho": 2400,
    "alto": 1800,
    "uso": "Una gran célula vista de cerca, cortada por el borde: profundidad y escala para identidad y cierres.",
-   "sha256": "43cda5170e0e1f81ea58bf9bfed32f7c37955af33e42347641cd93c8394facdd",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "28cbdc6b482f3922ab101a3ea5c3220ef75ffe94f7ff4f636b2c4b7149ea4ce0",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "microcosmos",
@@ -3294,8 +3307,8 @@
    "ancho": 2400,
    "alto": 1800,
    "uso": "Detalle mínimo para modo editorial: marca un elemento de lista o separa bloques sin añadir otra ilustración.",
-   "sha256": "02424afbc8e0ea71870a9c6fc8a16cf37cf3c7bf7037225e6a9909a8e2470958",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "3d3db97340d7d225e0f631986b9a8d6e62c40a63cd6c9e3d94a605af5648f63c",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "microcosmos",
@@ -3307,8 +3320,8 @@
    "ancho": 2400,
    "alto": 1800,
    "uso": "Detalle mínimo para modo editorial: marca un elemento de lista o separa bloques sin añadir otra ilustración.",
-   "sha256": "9a72f16ccad516854ae5b8279bd5ff131d58f8b01e06134e82d8b59438f920b5",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "sha256": "dc56bed9d2d7eabf70bd520c2fa54282122342748c91b281e104672db64f1960",
+   "estado": "Aprobada en el laboratorio (Rafael, 2026-10-07) · B · Ficha ronda 2 · incorporación canónica pendiente · adopción por medio pendiente · ronda 2"
   },
   {
    "tipo": "antes-despues",
@@ -3319,7 +3332,7 @@
    "ancho": 1080,
    "alto": 1350,
    "sha256": "f15da793260f252b295868df4a2586e4a661ee134f0af3950c3689f6f7235f7b",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "estado": "Después = B ronda 2, aprobada en el laboratorio (2026-10-07) · antes = B ronda 1, antecedente histórico"
   },
   {
    "tipo": "antes-despues",
@@ -3330,7 +3343,7 @@
    "ancho": 1080,
    "alto": 1920,
    "sha256": "824fed156272d8ed829d84e074dd041074b666d940d3435feb6fb7dbb6b37fc1",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "estado": "Después = B ronda 2, aprobada en el laboratorio (2026-10-07) · antes = B ronda 1, antecedente histórico"
   },
   {
    "tipo": "antes-despues",
@@ -3341,7 +3354,7 @@
    "ancho": 1080,
    "alto": 1350,
    "sha256": "f63364f1bbb76456006d2ee6c4a22918fd10c90f003b464b2e058794d10aa25e",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "estado": "Después = B ronda 2, aprobada en el laboratorio (2026-10-07) · antes = B ronda 1, antecedente histórico"
   },
   {
    "tipo": "antes-despues",
@@ -3352,7 +3365,7 @@
    "ancho": 1080,
    "alto": 1350,
    "sha256": "638bb297ee25f9eebee33e4f983cd106d6bdf42ae78b36c6e40f1a92f31c6995",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "estado": "Después = B ronda 2, aprobada en el laboratorio (2026-10-07) · antes = B ronda 1, antecedente histórico"
   },
   {
    "tipo": "antes-despues",
@@ -3363,7 +3376,7 @@
    "ancho": 1080,
    "alto": 1080,
    "sha256": "9b36e8a7e27875ff9abbbe1207a93333ddfbdc9a7648b4c4b2cf3e6b9262fdda",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "estado": "Después = B ronda 2, aprobada en el laboratorio (2026-10-07) · antes = B ronda 1, antecedente histórico"
   },
   {
    "tipo": "antes-despues",
@@ -3374,7 +3387,7 @@
    "ancho": 1080,
    "alto": 1350,
    "sha256": "22d6875d21d5a56d581703c985ccb06af385bd2f5712a968284357509ffe3178",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "estado": "Después = B ronda 2, aprobada en el laboratorio (2026-10-07) · antes = B ronda 1, antecedente histórico"
   },
   {
    "tipo": "antes-despues",
@@ -3385,7 +3398,7 @@
    "ancho": 1080,
    "alto": 1350,
    "sha256": "f2673e2337d7104ab3110fadaa83825fdde13ee7bb9b47bbffe022d13cf19da1",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "estado": "Después = B ronda 2, aprobada en el laboratorio (2026-10-07) · antes = B ronda 1, antecedente histórico"
   },
   {
    "tipo": "antes-despues",
@@ -3396,7 +3409,7 @@
    "ancho": 1080,
    "alto": 1350,
    "sha256": "615feddc83259deeb7eb41e0f1fa74b24d8b6a69b47de503adbcae4afb511680",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "estado": "Después = B ronda 2, aprobada en el laboratorio (2026-10-07) · antes = B ronda 1, antecedente histórico"
   },
   {
    "tipo": "antes-despues",
@@ -3407,7 +3420,7 @@
    "ancho": 1080,
    "alto": 1920,
    "sha256": "80b4481b2b9e133dfd94f0fe9ac1433852d15dbe413b9bb709a1c94985e369de",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "estado": "Después = B ronda 2, aprobada en el laboratorio (2026-10-07) · antes = B ronda 1, antecedente histórico"
   },
   {
    "tipo": "antes-despues",
@@ -3418,7 +3431,7 @@
    "ancho": 1920,
    "alto": 1080,
    "sha256": "b5fc9a6e7cd3ef8f04ea5a2e85abc2d016679506d1a076b5256bc480d46221be",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael · ronda 2"
+   "estado": "Después = B ronda 2, aprobada en el laboratorio (2026-10-07) · antes = B ronda 1, antecedente histórico"
   },
   {
    "tipo": "motion",
@@ -3432,7 +3445,7 @@
    "duracion_s": 10,
    "bytes": 832795,
    "sha256": "7161d61b467d5dee5564c3a59a6170eae2ac566a8fc7113542a268aae6644be8",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Muestra de B aprobada en el laboratorio (Rafael, 2026-10-07) · exportación y uso por red pendientes de la adopción por medio"
   },
   {
    "tipo": "motion",
@@ -3446,7 +3459,7 @@
    "duracion_s": 10,
    "bytes": 569509,
    "sha256": "e9edd0ed46dcf9ebc5e09cb70a117321c194b33252578620cbd4abc8d6649f93",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Muestra de B aprobada en el laboratorio (Rafael, 2026-10-07) · exportación y uso por red pendientes de la adopción por medio"
   },
   {
    "tipo": "motion-estatico",
@@ -3457,7 +3470,7 @@
    "alto": 1080,
    "nota": "Último fotograma = estado reducido; idéntico a la pieza estática del kit (ver VALIDACION.md).",
    "sha256": "ecd3f207023df937e603c6aa2b0006551b3e8bf782eac9a4ed1e6acf0f967195",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Muestra de B aprobada en el laboratorio (Rafael, 2026-10-07) · exportación y uso por red pendientes de la adopción por medio"
   },
   {
    "tipo": "motion",
@@ -3471,7 +3484,7 @@
    "duracion_s": 9,
    "bytes": 405347,
    "sha256": "20b5ffb9a3fb870f2e548719bdfca14a6926225e0911d404cc88f97d927ad0ad",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Muestra de B aprobada en el laboratorio (Rafael, 2026-10-07) · exportación y uso por red pendientes de la adopción por medio"
   },
   {
    "tipo": "motion",
@@ -3485,7 +3498,7 @@
    "duracion_s": 9,
    "bytes": 291569,
    "sha256": "c9881c361f848750fd5dfd0779a1a50dc3373222367b47ec84adb8d67438f33a",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Muestra de B aprobada en el laboratorio (Rafael, 2026-10-07) · exportación y uso por red pendientes de la adopción por medio"
   },
   {
    "tipo": "motion-estatico",
@@ -3496,7 +3509,7 @@
    "alto": 1920,
    "nota": "Último fotograma = estado reducido; idéntico a la pieza estática del kit (ver VALIDACION.md).",
    "sha256": "1f0d542d4d9436a104efa86a048e38fc136533cb508cd40da42ab7213c860fc4",
-   "estado": "Candidata · exploración · pendiente de aprobación de Rafael"
+   "estado": "Muestra de B aprobada en el laboratorio (Rafael, 2026-10-07) · exportación y uso por red pendientes de la adopción por medio"
   },
   {
    "tipo": "marca",

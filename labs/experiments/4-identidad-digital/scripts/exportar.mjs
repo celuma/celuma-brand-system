@@ -1,4 +1,4 @@
-// Céluma · Experimento 04 · Exportador de piezas (CANDIDATO).
+// Céluma · Experimento 04 · Exportador de piezas (B ronda 2 aprobada en el laboratorio el 2026-10-07).
 // Renderiza kit/pieza.html con el Chromium de Playwright que ya existe en celuma-frontend
 // (no instala nada) y escribe PNG a tamaño de artboard, PDF vectorial con fuentes
 // incrustadas y el resultado de las comprobaciones de composición.

@@ -1,4 +1,5 @@
-// Céluma · Experimento 04 · Motion de comunicación (CANDIDATO, pendiente de aprobación).
+// Céluma · Experimento 04 · Motion de comunicación (muestras de B aprobadas en el laboratorio el 2026-10-07;
+// exportación y uso por red pendientes de la adopción por medio).
 // Línea de tiempo determinista: render(t) dibuja el instante t (s). La misma función sirve
 // para la vista en vivo (requestAnimationFrame) y para exportar vídeo fotograma a fotograma.
 // No es Lottie: es HTML/CSS/JS sobre las piezas del kit. El segmento de logo de «intro-novedad»
